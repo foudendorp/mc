@@ -71,12 +71,9 @@ export const columns: ColumnDef<MessageView>[] = [
         </div>
       )
     },
-    filterFn: (row, id, value) => {
-      const services = row.getValue(id) as string[] | undefined;
-      if (!services || !value) return true;
-      return services.some(service => 
-        service.toLowerCase().includes(value.toLowerCase())
-      );
+    accessorFn: (row) => {
+      // Convert the services array to a searchable string
+      return row.service?.join(" ") || "";
     },
   },
   {

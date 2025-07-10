@@ -5,7 +5,7 @@ on:
     branches: ["main"]
   workflow_dispatch:
   schedule:
-    - cron: '0 6,18 * * *'  # Twice daily
+    - cron: '0 5,13 * * *'  # Run twice a day (7am and 3pm CEST)
 
 jobs:
   build_and_deploy:

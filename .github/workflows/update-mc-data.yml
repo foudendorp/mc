@@ -11,9 +11,9 @@ on:
       - '@data/**'
   pull_request:
     branches: [ "main" ]
-  # Run twice a day (7am and 3pm CEST)
+  # Run twice a day (5 am and 1 pm CEST)
   schedule:
-    - cron: '0 5,13 * * *'
+    - cron: '0 3,11 * * *'
 
     
   # Allows to run this workflow manually from the Actions tab
