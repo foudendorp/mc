@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Newly created Windows quality update policies now have hotpatch updates enabled by default to streamline policy creation.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>This feature is now available for all Windows Autopatch users.</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Organizations using Windows Autopatch will benefit from faster security compliance and reduced downtime for devices running supported Windows editions.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Create your new Windows Autopatch quality update policies today, with hotpatch enabled by default, to ensure your organization starts receiving hotpatches as early as August 2025. For new policies, hotpatch updates will be enabled by default. Just review and deploy&nbsp;them&nbsp;as usual.</div><div><br></div><div>To create a new quality update policy, follow the steps here:</div><ol><li>Go to the <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Intune admin center</a>.</li><li>Navigate to <b>Devices</b>&nbsp;&gt; <b>Windows updates &gt; Quality updates</b>.</li><li>Select <b>Create</b>, and select <b>Windows quality update policy</b>.</li><li>Under the <b>Basics</b>&nbsp;section, enter a name for your new policy and select Next.</li><li>Under the <b>Settings</b>&nbsp;section, <b>\"When available, apply without restarting the device (\"Hotpatch\")</b>&nbsp;will be set to <b>Allow</b>.&nbsp;</li><li>Select the appropriate Scope tags or leave as Default. Then, select <b>Next</b>.</li><li>Assign the devices to the policy and select <b>Next</b>.</li><li>Review the policy and select <b>Create</b>.</li></ol><div><br></div><div>To enable hotpatch updates on your existing quality update policies, follow the steps here:&nbsp;</div><ol><li>Go to the <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Intune admin center</a>.&nbsp;</li><li>Navigate to <b>Devices</b> &gt; <b>Windows updates</b> &gt; <b>Quality updates</b>.&nbsp;</li><li>Select the quality update policy you wish to modify. A new screen with its properties will appear.&nbsp;</li><li>Select <b>Edit</b> in the “Settings” section.&nbsp;</li><li>Under “Automatic update deployment” settings, locate the option \"When available, apply without restarting the device (\"hotpatch\").\"&nbsp;</li><li>Toggle it to <b>Allow</b>.&nbsp;&nbsp;</li></ol><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Learn about <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates\" rel=\"noopener noreferrer\" target=\"_blank\">hotpatch updates for Windows 11</a>.&nbsp;</li><li>Learn how to <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#enroll-devices-to-receive-hotpatch-updates\" rel=\"noopener noreferrer\" target=\"_blank\">enroll devices to receive hotpatch updates</a>.&nbsp;</li><li>Read <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Autopatch documentation</a>.</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-07-01T16:59:27.133Z",
+  "HasAttachments": false,
+  "Id": "MC1107364",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-07-01T16:59:27.91Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-07-01T16:59:27.243Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Hotpatching now enabled by default for new Windows quality update policies",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

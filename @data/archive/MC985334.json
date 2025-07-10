@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>To help plan for <a href=\"https://learn.microsoft.com/windows/release-health/release-information\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 10 end of support</a> on October 14, 2025 and simplify the transition to Windows 11, the new <a href=\"https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627\" rel=\"noopener noreferrer\" target=\"_blank\">Outlook for Windows</a> will be automatically installed on Windows 10 devices as part of the optional January 2025 non-security preview update and the February 2025 security update.&nbsp;&nbsp;</div><div>&nbsp;</div><div>The new icon will appear in the Apps section on the Start menu, alongside classic Outlook, without changing any settings or defaults.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>The new Outlook for Windows app will be installed as part of the optional January 2025 non-security preview update and the February 2025 security update.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>There are several measures in place to help IT administrators manage the migration to new Outlook. For instance, you can remove new Outlook from your organization's devices, block users from connecting to new Outlook, and/or control other capabilities like the connection of personal accounts to new Outlook. Detailed documentation can be found at <a href=\"https://learn.microsoft.com/microsoft-365-apps/outlook/get-started/control-install\" rel=\"noopener noreferrer\" target=\"_blank\">Control the installation and use of new Outlook</a>.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>To prevent the install of new Outlook on your organization's devices as part of this Windows 10 update, add this reg value:&nbsp;</div><pre class=\"ql-syntax\" spellcheck=\"false\">HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsUpdate\\Orchestrator\\UScheduler_Oobe&nbsp;\n</pre><div>&nbsp;</div><div>Then add a REGSZ registry setting, named <em>BlockedOobeUpdaters, </em>with a value of<em> \\<b>\"MS_Outlook\"\\</b></em>.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;&nbsp;</div><ul><li><a href=\"https://support.microsoft.com/office/outlook-for-windows-the-future-of-mail-calendar-and-people-on-windows-11-715fc27c-e0f4-4652-9174-47faa751b199\" rel=\"noopener noreferrer\" target=\"_blank\">Outlook for Windows: The Future of Mail, Calendar, and People on Windows 11</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/microsoft-365-apps/outlook/get-started/control-install#block-new-outlook-preinstall-on-windows\" rel=\"noopener noreferrer\" target=\"_blank\">Block new Outlook preinstall on Windows</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/microsoft-365-apps/outlook/get-started/migration-planning\" rel=\"noopener noreferrer\" target=\"_blank\">Plan your migration to new Outlook for Windows</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/windows/release-health/release-information\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 10 release information page</a>&nbsp;</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-01-21T21:59:18.147Z",
+  "HasAttachments": false,
+  "Id": "MC985334",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-01-21T21:59:20.137Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-01-21T21:59:18.193Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "A new Outlook experience for Windows 10 devices",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

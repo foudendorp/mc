@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Microsoft has identified an issue where the May 2025 Windows security update (<a href=\"https://support.microsoft.com/help/5058405\" rel=\"noopener noreferrer\" target=\"_blank\">KB5058405</a>) might fail to install on some Windows 11, versions 22H2 and 23H2 devices, resulting in a recovery error (0xc0000098) related to the <a href=\"https://learn.microsoft.com/windows-hardware/drivers/kernel/acpi-driver\" rel=\"noopener noreferrer\" target=\"_blank\">ACPI.sys</a> file.&nbsp;This issue primarily affects virtual environments, including Azure Virtual Machines, Azure Virtual Desktop, and on-premises VMs hosted on Citrix or Hyper-V. Home users of Windows using Home or Pro editions are unlikely to be impacted.</div><div><br></div><div>We recommend using <a href=\"https://learn.microsoft.com/troubleshoot/azure/virtual-machines/windows/repair-windows-vm-using-azure-virtual-machine-repair-commands\" rel=\"noopener noreferrer\" target=\"_blank\">Azure Virtual Machine repair commands</a> as a workaround for Azure customers who have already applied the May 2025 Windows security update and are experiencing this issue. For more details on this issue, see <a href=\"https://learn.microsoft.com/windows/release-health/status-windows-11-23h2#3563msgdesc\" rel=\"noopener noreferrer\" target=\"_blank\">KB5058405 might fail to install with recovery error 0xc0000098 in ACPI.sys</a>.</div><div><br></div><div>To address this issue, the out-of-band (OOB) update <a href=\"https://support.microsoft.com/topic/fb7ab9b6-c874-41cf-b962-c674482aa24d\" rel=\"noopener noreferrer\" target=\"_blank\">KB5062170</a>&nbsp;has been released today,&nbsp;May 31, 2025. This non-security OOB update is available exclusively via the <a href=\"https://www.catalog.update.microsoft.com/Search.aspx?q=KB5062170\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Update Catalog</a>. If you have not yet deployed the May 2025 Windows security update (<a href=\"https://support.microsoft.com/help/5058405\" rel=\"noopener noreferrer\" target=\"_blank\">KB5058405</a>) and your environment includes devices running in a virtual desktop infrastructure on Windows 11, versions 22H2 and 23H2, we recommend you apply the OOB update instead. This OOB update includes all improvements and fixes in the May 2025 Windows non-security preview update (<a href=\"https://support.microsoft.com/topic/may-27-2025-kb5058502-os-22621-5413-and-22631-5413-preview-6291789c-1eea-4227-9740-a701af6de688\" rel=\"noopener noreferrer\" target=\"_blank\">KB5058502</a>), in addition to this issue’s resolution.</div>",
+    "ContentType": "html"
+  },
+  "Category": "preventOrFixIssue",
+  "Details": [],
+  "EndDateTime": "2026-05-31T21:31:08.133Z",
+  "HasAttachments": false,
+  "Id": "MC1086085",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-05-31T21:31:08.917Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-05-31T21:31:08.213Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Take action: Out-of-band update to address install error 0xc0000098 in ACPI.sys while installing KB5058405",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

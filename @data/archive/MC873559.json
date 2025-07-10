@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Follow the new guidelines to deploy changes across enterprises and understand how the new Windows Boot Manager self-revocation works. These new guidelines are part of a plan with five phases to deploy protections against the publicly disclosed Secure Boot security feature bypass (CVE-2023-24932).</div><div><br></div><div>The Deployment Phase is now in effect and documented in the updated<u> </u><a href=\"https://support.microsoft.com/help/5025885\" rel=\"noopener noreferrer\" target=\"_blank\">KB5025885</a>. This new phase starts with changes introduced by the July 2024 Windows security update. Learn more about these changes at <a href=\"https://support.microsoft.com/help/5025885\" rel=\"noopener noreferrer\" target=\"_blank\">KB5025885: How to manage the Windows Boot Manager revocations for Secure Boot changes associated with CVE-2023-24932</a>,</div><div><br></div><div><b>When will this happen</b></div><div><br></div><div>The new Boot Manager is included in the Windows updates released on or after July 9, 2024.</div><div><br></div><div><b>How does this affect your organization</b></div><div><br></div><div>This update for Secure Boot has five phases:</div><div><br></div><ul><li><b>Initial Deployment phase:</b> This phase started with updates released on May 9, 2023, and provided basic mitigations with manual steps to enable those mitigations.</li><li><b>Second Deployment phase:</b> This phase started with updates released on July 11, 2023, which added simplified steps to enable the mitigations for the issue.</li><li><b>Evaluation phase:</b> This phase started on April 9, 2024, and added additional Boot Manager&nbsp;mitigations.</li><li><b>Deployment phase:</b> Starting with the July 9, 2024 update, we encourage all customers to begin deploying the mitigations and updating media.</li><li><b>Enforcement phase:</b> The date for this phase will be announced in the future. The Enforcement phase will make the mitigations permanent. We are now in the Deployment phase. In this phase, we add support for Secure Version Number (SVN) to block older Boot Managers. This update installs a new Boot Manager that has an SVN, and it allows you to set the same SVN in the firmware.</li></ul><div><br></div><div><b>What you need to do to prepare</b></div><div><br></div><div>Install the Windows monthly servicing update released on or after July 9, 2024, on supported Windows devices. Take the following steps to apply the revocations, install the new Boot Manager, and apply the new SVN update:</div><div><br></div><ol><li>Update the certificate definitions.</li><li>Update the Boot Manager.</li><li>Enable the revocations.</li><li>Apply the SVN update to the firmware.</li></ol><div><br></div><div>For more detailed steps, see <a href=\"https://support.microsoft.com/help/5025885\" rel=\"noopener noreferrer\" target=\"_blank\"><u>KB5025885: How to manage the Windows Boot Manager revocations for Secure Boot changes associated with CVE-2023-24932</u></a>.</div><div><br></div><div><b>Additional information</b></div><div><br></div><ul><li><a href=\"https://www.microsoft.com/security/blog/2023/04/11/guidance-for-investigating-attacks-using-cve-2022-21894-the-blacklotus-campaign/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Guidance for investigating attacks using CVE-2022-21894: The BlackLotus campaign</u></a></li><li><a href=\"https://learn.microsoft.com/windows-hardware/manufacture/desktop/secure-boot-landing?view=windows-11\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Secure Boot</u></a></li><li><a href=\"https://learn.microsoft.com/mem/intune/user-help/you-need-to-enable-secure-boot-windows\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Enable Secure Boot on enrolled Windows devices</u></a></li><li>For events that are generated when applying DBX updates, see <a href=\"https://support.microsoft.com/help/5016061\" rel=\"noopener noreferrer\" target=\"_blank\"><u>KB5016061: Addressing vulnerable and revoked Boot Managers</u></a>.</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2025-08-26T19:14:28.087Z",
+  "HasAttachments": false,
+  "Id": "MC873559",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2024-08-26T19:14:29.03Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2024-08-26T19:14:28.12Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Changes to Windows Boot Manager revocations for Secure Boot, effective July 9, 2024",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

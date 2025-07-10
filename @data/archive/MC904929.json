@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Windows updates dated April 9, 2024, or later add new behaviors that start the process of addressing a security risk in the <a href=\"https://learn.microsoft.com/openspecs/windows_protocols/ms-apds/82b7b7c6-413d-4d66-b6b7-4a9224549782\" rel=\"noopener noreferrer\" target=\"_blank\">Kerberos PAC Validation Protocol</a>. These improvements are deployed in three phases (see below). The timeline of the second phase, <b>Enforced by Default</b>, has changed. This phase will occur in January 2025. For full guidance, see <a href=\"https://support.microsoft.com/help/5037754\" rel=\"noopener noreferrer\" target=\"_blank\">KB5037754</a>.</div><div><br></div><div><br></div><div><b>When will this happen:</b>&nbsp;</div><ul><li>April 9, 2024: The initial deployment phase started with the release of the April 2024 security update. This update added new secure behavior that prevents the elevation of privilege risks.</li><li>January 2025: The <b>Enforced by Default</b> phase starts. In this phase, Windows domain controllers (DC) and clients will move to <b>Enforced </b>mode. This mode will enforce the new secure behavior by default. Note that during this phase, you can override the&nbsp;<b>Enforced by Default</b>&nbsp;settings and revert to&nbsp;<b>Compatibility</b>&nbsp;mode.</li><li>April 2025: <b>Enforcement</b> phase begins. In this phase, there is no option to revert from the new secure behavior.</li></ul><div><br></div><div><b>How this will affect your organization:</b>&nbsp;</div><div>To mitigate the risks described in&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26248\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-26248</a>&nbsp;and&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29056\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-29056</a>, you must update your entire Windows environment. This must include DCs and clients. Environments that are not up to date will not recognize this new request structure after the <b>Enforcement </b>phase begins. Because of this, security checks will fail.</div><div><br></div><div><b>What you need to do to prepare:</b>&nbsp;</div><ol><li><b>UPDATE:</b>&nbsp;Install the April 9, 2024, or later update on all Windows DCs and Windows clients.</li><li><b>MONITOR:</b>&nbsp;Keep track of audit events that are visible in&nbsp;<b>Compatibility</b>&nbsp;mode. These events will identify devices that are not up to date.</li><li><b>ENABLE:</b>&nbsp;Turn on <b>Enforcement</b>&nbsp;mode&nbsp;fully in your environment. When you do, it mitigates the risks described in&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26248\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-26248</a>&nbsp;and&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29056\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-29056</a>.</li></ol><div><br></div><div><b>Additional information:</b>&nbsp;</div><ul><li><a href=\"https://support.microsoft.com/help/5037754\" rel=\"noopener noreferrer\" target=\"_blank\">KB5037754: How to manage PAC Validation changes related to CVE-2024-26248 and CVE-2024-29056</a></li><li><a href=\"https://support.microsoft.com/help/5020805\" rel=\"noopener noreferrer\" target=\"_blank\">KB5020805: How to manage Kerberos protocol changes related to CVE-2022-37967</a></li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2025-10-04T20:56:27.813Z",
+  "HasAttachments": false,
+  "Id": "MC904929",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2024-10-04T20:56:31.353Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2024-10-04T20:56:27.847Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Change to the Enforced by Default phase timeline for Kerberos signature validation risks",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

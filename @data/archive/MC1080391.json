@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div><b>IMPORTANT</b>: This notice is only relevant for environments where:</div><ul><li>.NET SDK version 8.0.3xx or 8.0.4xx is used</li><li>Scan Cab is used to check for update compliance</li><li>The May 2025 Scan Cab was deployed before 10:00 AM PT on May 22, 2025.</li></ul><div>&nbsp;</div><div>An updated version of the May 2025 Scan Cab was made available at 10:00 AM PT on May 22, 2025. This Scan Cab includes new metadata corresponding to new updates for the following .NET versions:</div><ul><li>.NET 8.0.3xx (<a href=\"https://support.microsoft.com/topic/-net-8-0-update-may-13-2025-kb5059200-8ace2b08-2644-454e-a43f-157c60835e49\" rel=\"noopener noreferrer\" target=\"_blank\">KB5059200</a>)</li><li>.NET 8.0.4xx (<a href=\"https://support.microsoft.com/topic/-net-8-0-update-may-13-2025-kb5059200-8ace2b08-2644-454e-a43f-157c60835e49\" rel=\"noopener noreferrer\" target=\"_blank\">KB5059200</a>)</li></ul><div>&nbsp;</div><div>The new Microsoft update for&nbsp;these .NET versions released May 22, 2025 at 10:00 AM PT included additional protections to address&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-26646\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2025-26646</a>. An authorized attacker with standard user privileges could place a malicious file and then wait for the privileged victim to run the calling command. See the additional information section of this message for details.</div><div><br></div><div><b>How this affects your organization:</b></div><div>IT administrators who downloaded the Scan Cab before 10:00 AM PT on May 22, 2025 should re-acquire and re-deploy their Scan Cab if it is used to assess updates for environments where .NET SDK version 8.0.3xx or 8.0.4xx is used.</div><div>&nbsp;</div><div>No action is required on environments where Scan Cab is not employed and do not have .NET versions 8.0.3xx or 8.0.4xx. However, please note that there might be non-Microsoft applications which utilize Scan Cab. Review the documentation for any software and update deployment tools which might be in use for your organization, to understand if this is applicable in your environment.</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><div>Administrators can re-deploy the updated Scan Cab via their usual processes. For detailed guidance, see the Additional information section below.</div><div>&nbsp;</div><div><b>Additional information:</b></div><ul><li><a href=\"https://go.microsoft.com/fwlink/?LinkID=74689\" rel=\"noopener noreferrer\" target=\"_blank\">Updated Scan Cab: Download the new Scan Cab here</a></li><li><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-26646\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2025-26646</a>: .NET, Visual Studio, and Build Tools for Visual Studio Spoofing Vulnerability</li><li><a href=\"https://support.microsoft.com/topic/-net-8-0-update-may-13-2025-kb5059200-8ace2b08-2644-454e-a43f-157c60835e49\" rel=\"noopener noreferrer\" target=\"_blank\">.NET 8.0 Update - May 13, 2025 (KB5059200) - Microsoft Support</a></li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/announcing-a-smaller-wsus-scan-cab/ba-p/2928256?msclkid=256145ccd0c011ec9266b53af8d0aca1\" rel=\"noopener noreferrer\" target=\"_blank\">Announcing a smaller WSUS Scan Cab - Microsoft Tech Community</a>: Learn more about WSUS and the Scan Cab process</li><li><a href=\"https://learn.microsoft.com/windows/win32/wua_sdk/using-wua-to-scan-for-updates-offline?tabs=vbscript\" rel=\"noopener noreferrer\" target=\"_blank\">Using WUA to Scan for Updates Offline - Win32 apps | Microsoft Docs</a>: Windows Update Agent (WUA) can be used to scan computers for security updates without connecting to Windows Update</li><li><a href=\"https://learn.microsoft.com/windows-server/administration/windows-server-update-services/manage/wsus-and-the-catalog-site\" rel=\"noopener noreferrer\" target=\"_blank\">WSUS and the Catalog Site | Microsoft Docs</a>: The Catalog Site used by WSUS to import updates and drivers</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "preventOrFixIssue",
+  "Details": [],
+  "EndDateTime": "2026-05-22T17:02:21.887Z",
+  "HasAttachments": false,
+  "Id": "MC1080391",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-05-22T17:02:23.547Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-05-22T17:02:21.95Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "An updated version of the May 2025 Scan Cab is available",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div><b>IMPORTANT</b>: This notice is only relevant for environments where:</div><ul><li>Windows Server 2008 and Windows Server 2008 R2 updates are deployed under the Premium Assurance program</li><li>Scan Cab is used to check for update compliance</li><li>The May 2025 Scan Cab (released May 13, 2025 at 10:00 AM PT) was deployed before 11:00 AM PT on May 14, 2025.</li></ul><div>&nbsp;</div><div>An updated version of the May 2025 Scan Cab was made available at 11:00 AM PT on May 14, 2025. This Scan Cab includes new metadata corresponding to new updates for the following Windows versions:</div><ul><li>Windows Server 2008 R2</li><li>Windows Server 2008</li></ul><div>&nbsp;</div><div>The new Windows updates for&nbsp;these server versions released May 13, 2025 at 6:00 PM PT included additional protections to address&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32709\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2025-32709</a>, a security vulnerability in the Windows Ancillary Function Driver (AFD) for WinSock. The AFD component is akernel-mode driver that provides support for the WinSock API and is contained in the afd.sys file. The afd.sys driver manages the Winsock TCP/IP communications protocol. See the additional information section of this message for details.</div><div><br></div><div><b>How this affects your organization:</b></div><div>IT administrators who downloaded the Scan Cab between 10:00 AM PT on May 13, 2025, and 11:00 AM PT on May 14, 2025 should re-acquire and re-deploy their Scan Cab if it is used to assess updates for Windows Server 2008 or Windows Server 2008 R2.</div><div>&nbsp;</div><div>No action is required on environments where Scan Cab is not employed and do not have Windows Server 2008 or Windows Server 2008 R2 devices enrolled in the Premium Assurance program. However, please note that there might be non-Microsoft applications which utilize Scan Cab. Review the documentation for any software and update deployment tools which might be in use for your organization, to understand if this is applicable in your environment.</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><div>Administrators can re-deploy the updated Scan Cab via their usual processes. For detailed guidance, see the Additional information section below.</div><div>&nbsp;</div><div><b>Additional information:</b></div><ul><li><a href=\"https://go.microsoft.com/fwlink/?LinkID=74689\" rel=\"noopener noreferrer\" target=\"_blank\">Updated Scan Cab: Download the new Scan Cab here</a></li><li><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32709\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2025-32709</a>: Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability</li><li>Windows Server 2008 R2:&nbsp;<a href=\"https://support.microsoft.com/topic/fbf5f586-94fc-4ac4-9b4f-6f307f7e033e\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061195 Out-of-band (Security-only update)</a></li><li>Windows Server 2008 R2:&nbsp;<a href=\"https://support.microsoft.com/topic/fb75f183-4c3c-4e48-a586-ca0ee89d2af1\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061196 Out-of-band (Monthly Rollup)</a></li><li>Windows Server 2008:&nbsp;<a href=\"https://support.microsoft.com/topic/b3157f07-78c4-4617-9a4c-29c62a5d39be\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061197 Out-of-band (Security-only update)</a></li><li>Windows Server 2008:&nbsp;<a href=\"https://support.microsoft.com/topic/59fcbbd7-7f20-470a-9241-f03282ca045d\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061198 Out-of-band (Monthly Rollup)</a></li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/announcing-a-smaller-wsus-scan-cab/ba-p/2928256?msclkid=256145ccd0c011ec9266b53af8d0aca1\" rel=\"noopener noreferrer\" target=\"_blank\">Announcing a smaller WSUS Scan Cab - Microsoft Tech Community</a>: Learn more about WSUS and the Scan Cab process</li><li><a href=\"https://learn.microsoft.com/windows/win32/wua_sdk/using-wua-to-scan-for-updates-offline?tabs=vbscript\" rel=\"noopener noreferrer\" target=\"_blank\">Using WUA to Scan for Updates Offline - Win32 apps | Microsoft Docs</a>: Windows Update Agent (WUA) can be used to scan computers for security updates without connecting to Windows Update</li><li><a href=\"https://learn.microsoft.com/windows-server/administration/windows-server-update-services/manage/wsus-and-the-catalog-site\" rel=\"noopener noreferrer\" target=\"_blank\">WSUS and the Catalog Site | Microsoft Docs</a>: The Catalog Site used by WSUS to import updates and drivers</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "preventOrFixIssue",
+  "Details": [],
+  "EndDateTime": "2026-05-14T18:14:13.987Z",
+  "HasAttachments": false,
+  "Id": "MC1073882",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-05-14T18:14:15.29Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-05-14T18:14:14.033Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "An updated version of the May 2025 Scan Cab is available",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

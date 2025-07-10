@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div><b>Updated on July 22, 2024: </b>Microsoft has released a third mitigation option for the CrowdStrike Falcon agent issue impacting Windows clients and servers. If devices are unable to recover with the two previous options, IT admins can use PXE to remediate. See the revised <a href=\"https://techcommunity.microsoft.com/t5/intune-customer-success/new-recovery-tool-to-help-with-crowdstrike-issue-impacting/ba-p/4196959\" rel=\"noopener noreferrer\" target=\"_blank\">New Recovery Tool to help with CrowdStrike issue impacting Windows endpoints</a> for detailed instructions on prerequisites and configurations to use PXE Recovery.</div><div><br> </div><div><b>Updated on July 21, 2024: </b>As a follow-up to the CrowdStrike Falcon agent issue impacting Windows clients and servers, Microsoft has released an&nbsp;<b><em>updated</em></b>&nbsp;recovery tool with&nbsp;<b><em>two repair options</em></b>&nbsp;to help IT admins expedite the repair process. Based on customer feedback, this new release includes a new option for recovery using safe boot, the option to generate ISO or USB, a fix for ADK detection when the Windows Driver Kit is installed, and a fix for the USB disk size check. See the revised <a href=\"https://techcommunity.microsoft.com/t5/intune-customer-success/new-recovery-tool-to-help-with-crowdstrike-issue-impacting/ba-p/4196959\" rel=\"noopener noreferrer\" target=\"_blank\">New Recovery Tool to help with CrowdStrike issue impacting Windows endpoints</a> for detailed instructions on using the <a href=\"https://go.microsoft.com/fwlink/?linkid=2280386\" rel=\"noopener noreferrer\" target=\"_blank\">signed Microsoft Recovery Tool</a>.</div><div><br></div><div><b>Updated on July 20, 2024:</b> Microsoft has released <a href=\"https://support.microsoft.com/topic/0d7741f7-aca1-4487-8a54-bd431cb49455\" rel=\"noopener noreferrer\" target=\"_blank\">KB5042426</a>, which contains step-by-step guidance for Windows Servers hosted on-premises that are running the CrowdStrike Falcon agent and encountering a 0x50 or 0x7E error message on a blue screen. We will continue to work with CrowdStrike to provide the most up-to-date information available on this issue.&nbsp;</div><div><br></div><div>A new USB Recovery Tool is available to help IT admins expedite the repair process. The new tool can be found in the <a href=\"https://go.microsoft.com/fwlink/?linkid=2280386\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Download Center</a>. Read more about the new recovery tool and usage instructions at <a href=\"https://techcommunity.microsoft.com/t5/intune-customer-success/new-recovery-tool-to-help-with-crowdstrike-issue-impacting/ba-p/4196959\" rel=\"noopener noreferrer\" target=\"_blank\">New Recovery Tool to help with CrowdStrike issue impacting Windows endpoints</a>.</div><div><br></div><div><b>Updated on July 19, 2024:</b> A new Knowledge Base article, <a href=\"https://support.microsoft.com/topic/b1c700e0-7317-4e95-aeee-5d67dd35b92f\" rel=\"noopener noreferrer\" target=\"_blank\">KB5042421</a>, with additional step-by-step guidance is now available for Windows 11 and Windows 10 clients. We will continue to work with CrowdStrike to provide up-to-date mitigation information as it becomes available.</div><div><br></div><div>Microsoft has identified an issue impacting Windows endpoints that are running the CrowdStrike Falcon agent.&nbsp;These endpoints may encounter an error message on a blue screen and experience a continual restarting state.</div><div><br></div><div>We have received reports of successful recovery from some customers attempting multiple restart operations on affected Windows endpoints.</div><div><br></div><div>To mitigate this issue, follow these steps:</div><ol><li>Start Windows into Safe Mode or the Windows Recovery Environment.</li><li>Navigate to the C:\\Windows\\System32\\drivers\\CrowdStrike directory</li><li>Locate the file matching “C-00000291*.sys” and delete it.</li><li>Restart the device.</li><li>Recovery of systems requires a <a href=\"https://learn.microsoft.com/windows/security/operating-system-security/data-protection/bitlocker/recovery-process\" rel=\"noopener noreferrer\" target=\"_blank\">Bitlocker key</a> in some cases.</li></ol><div><br></div><div>For Windows Virtual Machines running on Azure follow the mitigation steps in <a href=\"https://azure.status.microsoft/status\" rel=\"noopener noreferrer\" target=\"_blank\">Azure status</a>.</div><div><br></div><div>Additional details from CrowdStrike are available here: <a href=\"https://www.crowdstrike.com/blog/statement-on-windows-sensor-update/\" rel=\"noopener noreferrer\" target=\"_blank\">Statement on Windows Sensor Update - CrowdStrike Blog</a>.</div>",
+    "ContentType": "html"
+  },
+  "Category": "preventOrFixIssue",
+  "Details": [],
+  "EndDateTime": "2025-07-22T03:10:59Z",
+  "HasAttachments": false,
+  "Id": "MC822418",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2024-07-22T18:31:19.087Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2024-07-22T03:11:00Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "(Updated: July 22) CrowdStrike issue impacting Windows endpoints causing an error message on a blue screen",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

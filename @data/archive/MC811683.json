@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>If you need to continue using Windows Management Instrumentation Command line (WMIC), learn how to install it as a Feature on Demand (FoD). It’s a temporary solution while you migrate to PowerShell or a similar tool as WMIC undergoes deprecation. A new article shows you how to check if you have WMIC as a FoD and how you can install it if you don’t. Remember that later this year, WMIC FoD will be disabled by default on the next version of Windows 11 and Windows Server. Read more at <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/how-to-install-wmic-feature-on-demand-on-windows-11/ba-p/4189530\" rel=\"noopener noreferrer\" target=\"_blank\">How to install WMIC Feature on Demand on Windows 11</a>.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><ul><li>WMIC has been available as a Feature on Demand (FoD) for Windows 11 since 2022.&nbsp;&nbsp;</li><li>It will be available but disabled by default on the next version of Windows 11 and Windows Server later this year.&nbsp;&nbsp;</li><li>WMIC feature will be ultimately removed in a future Windows release.&nbsp;</li></ul><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>We recommend that you migrate from WMIC to PowerShell or other supported solutions. However, if you need it in the meantime, you can install it as a Feature on Demand (FoD).&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>To install WMIC FoD, go to Windows <b>Settings</b> &gt; <b>System</b> &gt; <b>Optional features</b> &gt; <b>Installed features</b>. If WMIC isn’t on the list of <b>Installed features</b>, do the following.&nbsp;</div><ol><li>At the top of the <b>Optional features</b> tab, locate <b>Add an optional feature</b>.&nbsp;</li><li>In that field, select <b>View features</b>. This will trigger a popup window.&nbsp;</li><li>In the popup window to <b>Add an optional feature</b>, type “WMIC” into the search box.&nbsp;&nbsp;</li><li>When WMIC appears in the results below, select it by checking the box next to it. <em>Note</em>: WMIC will not appear in the results if it’s already installed.&nbsp;</li><li>Select <b>Next </b>to install WMIC feature in the same popup window.&nbsp;</li></ol><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Read the complete guide at <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/how-to-install-wmic-feature-on-demand-on-windows-11/ba-p/4189530\" rel=\"noopener noreferrer\" target=\"_blank\">How to install WMIC Feature on Demand on Windows 11</a>.&nbsp;</li><li>Review the deprecation announcement at <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/wmi-command-line-wmic-utility-deprecation-next-steps/ba-p/4039242\" rel=\"noopener noreferrer\" target=\"_blank\">WMI command line (WMIC) utility deprecation: Next steps</a>.&nbsp;</li><li>Read official WMIC documentation at <a href=\"https://learn.microsoft.com/windows/win32/wmisdk/using-wmi\" rel=\"noopener noreferrer\" target=\"_blank\">Using WMI - Win32 apps.</a>&nbsp;</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2025-07-12T16:59:01.757Z",
+  "HasAttachments": false,
+  "Id": "MC811683",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2024-07-12T16:59:03.59Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2024-07-12T16:59:01.99Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "How to install WMIC Feature on Demand on Windows 11",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

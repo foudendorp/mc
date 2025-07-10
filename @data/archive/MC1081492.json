@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Updated May 27, 2025:&nbsp;This message was updated to include additional versions of Windows affected by this issue.</div><div><br></div><div>Microsoft has identified an issue where certain confidential virtual machines running on Hyper-V might&nbsp;intermittently stop responding or restart unexpectedly, affecting service availability and requiring manual intervention. This issue primarily affects <a href=\"https://learn.microsoft.com/azure/confidential-computing/confidential-vm-overview\" rel=\"noopener noreferrer\" target=\"_blank\">Azure confidential VMs</a> and is not expected to impact standard in-market Hyper-V deployments, except in rare cases involving preview or pre-production configurations.</div><div><br></div><div>To address this issue, out-of-band (OOB) updates&nbsp;have been released,&nbsp;May 23, 2025 for Windows Server 2022 (<a href=\"https://support.microsoft.com/topic/4ad7e163-1b8d-4774-bb98-d376cae6ea81\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061906</a>) and today, May 27, 2025 for additional versions of Windows affected by this issue. This update is available exclusively via the&nbsp;<a href=\"https://catalog.update.microsoft.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Update Catalog</a>. For more information and installation instructions, refer to the appropriate KB article for your Windows version. If your organization is not affected by this issue, you do not need to install this OOB update.</div><div><br></div><div>If you have not yet deployed the May 2025 Windows security update and your IT environment includes devices running Hyper-V on the versions of Windows listed below, we recommend you apply this OOB update instead:</div><ul><li>Windows 11, version 24H2 (<a href=\"https://support.microsoft.com/topic/may-27-2025-kb5061977-os-build-26100-4066-out-of-band-a15fd6bb-313a-4a24-9e35-21dbcad2aa99\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061977</a>)</li><li>Windows Server 2025 (<a href=\"https://support.microsoft.com/topic/80725b43-c0a1-48a4-9b82-058efffb6228\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061977</a>)</li><li>Windows Server 2022 (<a href=\"https://support.microsoft.com/topic/4ad7e163-1b8d-4774-bb98-d376cae6ea81\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061906</a>)</li><li>Windows 10, version 22H2 (<a href=\"https://support.microsoft.com/help/5061979\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061979</a>)</li><li>Windows 10 Enterprise LTSC 2021 (<a href=\"https://support.microsoft.com/help/5061979\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061979</a>)</li><li>Windows 10 Enterprise LTSC 2019 and Windows Server 2019 (<a href=\"https://support.microsoft.com/help/5061978\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061978</a>)</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "preventOrFixIssue",
+  "Details": [],
+  "EndDateTime": "2026-05-27T21:49:10.503Z",
+  "HasAttachments": false,
+  "Id": "MC1081492",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-05-27T21:49:12.043Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-05-27T21:49:10.567Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Take Action: Out-of-band update to address issue on devices running Hyper-V on some versions of Windows",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

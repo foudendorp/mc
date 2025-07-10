@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div><em>Updated September 23, 2024:&nbsp;We’ve heard your feedback regarding the Windows update experience during the OOBE, and while we understand the importance of keeping devices updated from the start, we’re committed to implementing this change in the best way for IT admins to manage their environments.&nbsp;</em></div><div><em>&nbsp;</em></div><div><em>This change has been postponed. We appreciate your patience and understanding as we strive to enhance the Windows enrollment experience. We will provide the new timeline for this change once it is available.</em></div><div><br></div><div>The Windows enrollment experience for managed devices will be updated to automatically enable quality updates during the out-of-box experience (OOBE). This change ensures that devices are fully patched and ready to use as soon as they are enrolled.&nbsp;</div><div><br></div><div><b>When will this happen:</b>&nbsp;</div><div>This change will roll out at a later date. We will share the exact date as soon as it becomes available.</div><div><br></div><div><b>How this will affect your organization:</b>&nbsp;</div><div>With this new experience, all devices running Windows 11, version 22H2 or later that are enrolled with a mobile device management (MDM) solution, such as Microsoft Intune, will automatically download and install quality updates during the OOBE. This applies to all enrolled Windows devices, regardless of whether they are pre-registered with Windows Autopilot or not. The updates will be applied before the user reaches the desktop, ensuring that the device is fully patched before logging in.&nbsp;</div><div><br></div><div>Note that device setup may require additional time due to quality update installation during the OOBE. The amount of time required will vary, depending on when the device was most recently updated, internet speed, and device performance.&nbsp;</div><div><br></div><div><b>What you need to do to prepare:&nbsp;</b></div><div>Plan accordingly for additional device setup time. If you are using <a href=\"https://learn.microsoft.com/entra/identity/authentication/howto-authentication-temporary-access-pass\" rel=\"noopener noreferrer\" target=\"_blank\">Temporary Access Passes</a>, we recommend extending the validity period during enrollment to prevent passcodes from expiring. For more information, review <a href=\"https://techcommunity.microsoft.com/t5/intune-customer-success/important-changes-to-the-windows-enrollment-experience-coming/ba-p/4246689\" rel=\"noopener noreferrer\" target=\"_blank\">Important changes to the Windows enrollment experience coming soon</a>.&nbsp;</div>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2025-09-23T21:00:05.263Z",
+  "HasAttachments": false,
+  "Id": "MC891140",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2024-09-23T21:00:07.527Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2024-09-23T21:00:05.31Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Windows enrollment will include quality updates during OOBE",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

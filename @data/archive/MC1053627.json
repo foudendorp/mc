@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Microsoft has identified an issue where audit logon/logoff events in the local policy of the Active Directory Group Policy might not show as enabled on the device even if they are enabled and working as expected. This can be observed in the Local Group Policy Editor or Local Security Policy, where local audit policies show the \"Audit logon events\" policy with security setting of \"No auditing\". An out-of-band (OOB) update has been released today, April 11, 2025, to address this issue.</div><div><br></div><div>Windows home users are unlikely to be affected by this issue, as logon auditing is generally only necessary in enterprise environments. This OOB update is a non-security release, and organizations that are not affected by this issue don’t need to install this update.</div><div><br></div><div>The OOB updates available only on the <a href=\"https://catalog.update.microsoft.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Update Catalog</a> for the Window versions affected by this issue. They are cumulative, so you do not need to apply any previous update before installing them, and they supersede all previous updates. If you haven’t deployed the April 2025 Windows security update yet and you utilize Active Directory Group Policy, we recommend you apply this OOB update instead for the Windows versions listed below:</div><div><br></div><ul><li>Windows 11, versions 23H2 and 22H2 (<a href=\"https://support.microsoft.com/help/5058919\" rel=\"noopener noreferrer\" target=\"_blank\">KB5058919</a>)</li><li>Windows Server 2022 (<a href=\"https://support.microsoft.com/help/5058920\" rel=\"noopener noreferrer\" target=\"_blank\">KB5058920</a>)</li><li>Windows 10 Enterprise LTSC 2019 and Windows Server 2019 (<a href=\"https://support.microsoft.com/help/5058922\" rel=\"noopener noreferrer\" target=\"_blank\">KB5058922</a>)</li><li>Windows 10 LTSB 2016 and Windows Server 2016 (<a href=\"https://support.microsoft.com/help/5058921\" rel=\"noopener noreferrer\" target=\"_blank\">KB5058921</a>)</li><li>Azure Stack HCI, version 22H2&nbsp;(<a href=\"https://support.microsoft.com/help/5058920\" rel=\"noopener noreferrer\" target=\"_blank\">KB5058920</a>) </li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "preventOrFixIssue",
+  "Details": [],
+  "EndDateTime": "2026-04-11T21:56:48.66Z",
+  "HasAttachments": false,
+  "Id": "MC1053627",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-04-11T21:56:49.773Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-04-11T21:56:48.72Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Take Action: Out-of-band updates to address issues with local policy events in Active Directory group policy",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

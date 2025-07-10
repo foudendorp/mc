@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Microsoft has identified a known issue affecting a small number of Windows 10 devices with&nbsp;Intel Trusted Execution Technology (TXT)&nbsp;enabled on&nbsp;10th generation or later Intel vPro processors. After installing the May 13, 2025, Windows security update (<a href=\"https://support.microsoft.com/topic/may-13-2025-kb5058379-os-builds-19044-5854-and-19045-5854-0a30e9ee-5038-45dd-a5d7-70a8813a5e39\" rel=\"noopener noreferrer\" target=\"_blank\">KB5058379</a>), these systems might experience unexpected termination of&nbsp;lsass.exe, which triggers&nbsp;Automatic Repair. On devices with&nbsp;BitLocker&nbsp;enabled, this results in a prompt for the&nbsp;BitLocker recovery key&nbsp;to proceed.</div><div><br></div><div>To address this issue, an&nbsp;out-of-band (OOB) update&nbsp;has been released today,&nbsp;May 19, 2025 (<a href=\"https://support.microsoft.com/topic/75b27cbd-072e-4c5a-b40e-87e00aaa42dd\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061768</a>). This update is available exclusively via the&nbsp;Microsoft Update Catalog&nbsp;and is cumulative—no previous updates are required before installing it. It supersedes all prior updates. The OOB update is available only for the Windows versions affected by issue: Windows 10, version 22H2, Windows 10 Enterprise LTSC 2021, and Windows 10 IoT Enterprise LTSC 2021.</div><div><br></div><div><b>Important:</b>&nbsp;Consumer devices running Home and Pro editions of Windows 10 are unlikely to be affected, as they typically do not use Intel vPro processors.</div><div><br></div><div>If you have not yet deployed the May 2025 Windows security update (<a href=\"https://support.microsoft.com/topic/may-13-2025-kb5058379-os-builds-19044-5854-and-19045-5854-0a30e9ee-5038-45dd-a5d7-70a8813a5e39\" rel=\"noopener noreferrer\" target=\"_blank\">KB5058379</a>) and your IT environment includes devices with the affected processors, we recommend applying this OOB update instead: <a href=\"https://support.microsoft.com/topic/75b27cbd-072e-4c5a-b40e-87e00aaa42dd\" rel=\"noopener noreferrer\" target=\"_blank\">May 19, 2025—KB5061768 (OS Builds 19044.5856 and 19045.5856) Out-of-band</a>. If your organization is not affected by this issue, you do not need to install this OOB update.</div>",
+    "ContentType": "html"
+  },
+  "Category": "preventOrFixIssue",
+  "Details": [],
+  "EndDateTime": "2026-05-19T17:01:59.707Z",
+  "HasAttachments": false,
+  "Id": "MC1077563",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-05-19T17:02:00.463Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-05-19T17:01:59.77Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Take Action: Out-of-band update to address BitLocker recovery prompt issue on Windows 10",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
