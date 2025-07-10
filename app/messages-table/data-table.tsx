@@ -21,6 +21,7 @@ import {
 } from "@/components/ui/table"
 import React from "react"
 import Link from "next/link"
+import { useRouter, useSearchParams } from "next/navigation"
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
@@ -31,9 +32,38 @@ export function DataTable<TData, TValue>({
   columns,
   data,
 }: DataTableProps<TData, TValue>) {
+  const router = useRouter()
+  const searchParams = useSearchParams()
 
   const [sorting, setSorting] = React.useState<SortingState>([])
-  const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>([])
+  
+  // Initialize filters from URL params
+  const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(() => {
+    const filters: ColumnFiltersState = []
+    const idFilter = searchParams.get('id')
+    const titleFilter = searchParams.get('title')
+    const serviceFilter = searchParams.get('service')
+    
+    if (idFilter) filters.push({ id: 'id', value: idFilter })
+    if (titleFilter) filters.push({ id: 'title', value: titleFilter })
+    if (serviceFilter) filters.push({ id: 'service', value: serviceFilter })
+    
+    return filters
+  })
+
+  // Update URL when filters change
+  React.useEffect(() => {
+    const params = new URLSearchParams()
+    
+    columnFilters.forEach(filter => {
+      if (filter.value) {
+        params.set(filter.id, filter.value as string)
+      }
+    })
+    
+    const newUrl = params.toString() ? `?${params.toString()}` : window.location.pathname
+    router.replace(newUrl, { scroll: false })
+  }, [columnFilters, router])
 
   const table = useReactTable({
     data,
