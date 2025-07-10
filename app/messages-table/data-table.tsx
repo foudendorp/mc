@@ -76,14 +76,6 @@ export function DataTable<TData, TValue>({
           }
           className="max-w-60"
         />
-        <Input
-          placeholder="Filter by Date..."
-          value={(table.getColumn("lastUpdated")?.getFilterValue() as string) ?? ""}
-          onChange={(event) =>
-            table.getColumn("lastUpdated")?.setFilterValue(event.target.value)
-          }
-          className="max-w-60"
-        />
 
       </div>
       <div className="rounded-md border">
