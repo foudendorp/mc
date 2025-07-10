@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>On September 10, 2024, we updated article <a href=\"https://support.microsoft.com/topic/ad2c23b0-15d8-4340-a468-4d4f3b188f16\" rel=\"noopener noreferrer\" target=\"_blank\">KB5014754</a> with changes that affect the timeline of security requirements for certificate-based authentication requests on Windows domain controllers.</div><div><br></div><div>After you install the Windows security updates released in February 2025 security update, authentication for certificates that do not meet the expected mapping requirements will be denied. This change is known as Full Enforcement mode. For full details, see <a href=\"https://support.microsoft.com/topic/ad2c23b0-15d8-4340-a468-4d4f3b188f16\" rel=\"noopener noreferrer\" target=\"_blank\">KB5014754</a>.</div><div><br></div><div><b>When will this happen:</b></div><div><br></div><div>In February 2025, or later, devices will move to Full <b>Enforcement</b> mode. However, you can move back to <b>Compatibility </b>mode until September 2025.</div><div><br></div><div><b>How this will affect your organization:</b></div><div><br></div><div>When you install the February 2025 security update, Windows updates, devices that are not already in Full Enforcement mode (<b>StrongCertificateBindingEnforcement</b>&nbsp;registry value is set to&nbsp;<b>2</b>), will be moved to Full Enforcement mode. If authentication is denied, you will see Event ID 39 (or Event ID 41 for Windows Server 2008 R2 SP1 and Windows Server 2008 SP2). You will have the option to set the registry key value back to&nbsp;<b>1</b>&nbsp;(Compatibility mode) at this stage. In the September 2025 Windows update, the&nbsp;<b>StrongCertificateBindingEnforcement</b>&nbsp;registry value will no longer be supported. ​​​​​​​</div><div><br></div><div><b>What you need to do to prepare:</b></div><div><br></div><div>Review the date changes in the “Take action”, “Full Enforcement mode”, and “Registry key information” sections of <a href=\"https://support.microsoft.com/topic/ad2c23b0-15d8-4340-a468-4d4f3b188f16\" rel=\"noopener noreferrer\" target=\"_blank\"><u>KB5014754</u></a>. Take the appropriate action needed to make your devices more secure.</div><div><br></div><div><b>Additional information:</b></div><div>For full detailed information, see <a href=\"https://support.microsoft.com/topic/ad2c23b0-15d8-4340-a468-4d4f3b188f16\" rel=\"noopener noreferrer\" target=\"_blank\"><u>KB5014754: Certificate-based authentication changes on Windows domain controllers</u></a>.</div>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2025-09-20T18:15:23.74Z",
+  "HasAttachments": false,
+  "Id": "MC894351",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2024-09-20T18:15:24.8Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2024-09-20T18:15:23.803Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "KB5014754: Certificate-based authentication changes on Windows domain controllers",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

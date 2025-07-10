@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div><em>Updated July 8, 2025: survey link changed</em></div><div><br></div><div>In the coming months, Microsoft will be rolling out updated&nbsp;Secure Boot&nbsp;certificates needed to ensure a secure startup environment&nbsp;of&nbsp;Windows. Current certificates will start expiring in June 2026 on all Windows systems released since 2012, except for 2025 Copilot+ PCs. This also affects third-party operating systems. Start by checking on the latest available firmware from original equipment manufacturers (OEMs) and enabling Windows diagnostic data. Visit the&nbsp;<a href=\"https://aka.ms/getsecureboot\" rel=\"noopener noreferrer\" target=\"_blank\">Secure Boot certificate rollout landing page</a>&nbsp;for guidance&nbsp;for&nbsp;personal devices and IT-managed systems.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><ul><li>In the coming months, the following updated certificates will be rolling out: Microsoft Corporation KEK 2K CA 2023, Microsoft Corporation UEFI CA 2023, Microsoft Option ROM UEFI CA 2023, Windows UEFI CA 2023&nbsp;</li><li>June 2026, the following certificates&nbsp;will&nbsp;expire: Microsoft Corporation KEK CA 2011 and Microsoft Corporation UEFI CA 2011 (or third-party UEFI CA)&nbsp;</li><li>October 2026, the following certificate&nbsp;will&nbsp;expire: Microsoft Windows Production PCA 2011&nbsp;</li></ul><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Most supported Windows systems released since&nbsp;2012, including the long-term servicing channel (LTSC), are affected. Not affected are Copilot+ PCs released&nbsp;in&nbsp;2025.&nbsp;Affected third-party OS includes MacOS. However,&nbsp;it’s&nbsp;outside the scope of Microsoft support. For Linux systems dual booting with Windows, Windows will update the certificates that Linux relies on.&nbsp;</div><div><br></div><div>Unless prepared,&nbsp;affected&nbsp;physical and virtual machine (VM) devices will:&nbsp;</div><ul><li>Lose ability to install Secure Boot security updates after June&nbsp;2026.&nbsp;</li><li>Not&nbsp;trust&nbsp;third-party software signed with new certificates&nbsp;after June&nbsp;2026.&nbsp;</li><li>Not receive security fixes for Windows boot manager by October 2026.&nbsp;</li></ul><div><br></div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>First, check on the latest available firmware&nbsp;from&nbsp;original equipment manufacturers (OEMs).&nbsp;Then, allow Microsoft to manage Windows updates, including Secure Boot updates:&nbsp;</div><ol><li>Configure your organizational policies to allow at least the “required” level of diagnostic data.&nbsp;</li><li>Allow Microsoft to manage Secure Boot-related updates for your devices by setting the following registry key:&nbsp;</li><li class=\"ql-indent-1\">Registry path:&nbsp;HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Secureboot&nbsp;</li><li class=\"ql-indent-1\">Key name:&nbsp;MicrosoftUpdateManagedOptIn&nbsp;</li><li class=\"ql-indent-1\">Type: DWORD&nbsp;</li><li class=\"ql-indent-1\">DWORD value: 0x5944 (opt in to Windows Secure Boot updates)&nbsp;&nbsp;</li></ol><div><br></div><div>If you&nbsp;prefer not to enable diagnostic data, please take&nbsp;this&nbsp;anonymous&nbsp;<a href=\"https://aka.ms/SecureBootCA/ReadinessSurvey\" rel=\"noopener noreferrer\" target=\"_blank\">readiness survey</a>.&nbsp;</div><div>&nbsp;</div><div><b>Additional&nbsp;information:</b>&nbsp;</div><ul><li>Read&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/act-now-secure-boot-certificates-expire-in-june-2026/4426856\" rel=\"noopener noreferrer\" target=\"_blank\">Act&nbsp;now. Secure Boot certificates expire in June&nbsp;2026</a>.&nbsp;</li><li>Bookmark&nbsp;<a href=\"https://aka.ms/getsecureboot\" rel=\"noopener noreferrer\" target=\"_blank\">Secure Boot certificate rollout landing page</a>.&nbsp;</li><li>Consult guidance for&nbsp;<a href=\"https://support.microsoft.com/topic/e2b43f9f-b424-42df-bc6a-8476db65ab2f\" rel=\"noopener noreferrer\" target=\"_blank\">Windows devices for businesses and organizations with IT-managed updates</a>.&nbsp;</li><li>For unmanaged scenarios, see&nbsp;<a href=\"https://support.microsoft.com/topic/29bfd847-5855-49f1-bb94-e18497fe2315\" rel=\"noopener noreferrer\" target=\"_blank\">Windows devices for home users, businesses, and schools with Microsoft-managed updates</a>.&nbsp;&nbsp;</li><li>Follow guidance in&nbsp;<a href=\"https://support.microsoft.com/windows/windows-11-and-secure-boot-a8ff1202-c0d9-42f5-940f-843abef64fad\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 and Secure Boot</a>&nbsp;to check if&nbsp;it’s&nbsp;enabled.&nbsp;&nbsp;</li><li>Get&nbsp;additional&nbsp;technical guidance at&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/updating-microsoft-secure-boot-keys/4055324\" rel=\"noopener noreferrer\" target=\"_blank\">Updating Microsoft Secure Boot keys</a>.&nbsp;</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-07-08T23:35:41.777Z",
+  "HasAttachments": false,
+  "Id": "MC1104112",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-07-08T23:35:43.123Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-07-08T23:35:41.853Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Act now: Secure Boot certificates expire in June 2026",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

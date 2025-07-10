@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Consider a new tool to enhance Trusted Platform Module (TPM) reliability for Windows 11, version 24H2. It simulates verification of Measured Boot logs and proactively identifies security and reliability issues. Easily check for potential issues at the hardware and firmware layer, perform critical checks, and see the health state of devices at your organization in the Event Viewer Log.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>This tool is already available.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>When you diagnose, prevent, or remediate issues, attestation readiness verifier for TPM reliability can help. With it, you can get better visibility into the local security health status of your Windows 11, version 24H2 devices.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Access the attestation readiness verifier from the Event Viewer application:&nbsp;</div><ol><li>Navigate to <b>Windows Logs</b> &gt; <b>System</b>.&nbsp;</li><li>In the <b>Actions</b> pane on the right, select <b>Filter Current Log</b>.&nbsp;</li><li>In the “Filter Current Log” dialog box, under <b>Filter</b> tab, set the <b>Event sources</b> to <b>TPM-WMI</b> events. Select <b>OK</b>.&nbsp;</li><li>Finally, see Event ID 1041 for the boot health information.&nbsp;</li></ol><div>Read Additional information to learn more.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>See instructions on how to use the <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/attestation-readiness-verifier-for-tpm-reliability/4394221\" rel=\"noopener noreferrer\" target=\"_blank\">Attestation readiness verifier for TPM reliability</a>.&nbsp;</li><li>Learn about <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/tpm-2-0-%E2%80%93-a-necessity-for-a-secure-and-future-proof-windows-11/4339066\" rel=\"noopener noreferrer\" target=\"_blank\">TPM 2.0 – a necessity for a secure and future-proof Windows 11</a>.&nbsp;</li><li>Review the <a href=\"https://aka.ms/securitybook\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 Security Book</a>.&nbsp;</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-03-19T17:01:25.28Z",
+  "HasAttachments": false,
+  "Id": "MC1036319",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-03-19T17:01:26.77Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-03-19T17:01:25.357Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Attestation readiness verifier for TPM reliability",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

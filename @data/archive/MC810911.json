@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div><b>IMPORTANT: </b>This notice only affects environments where:</div><ul><li>The Microsoft Scan Cab is used to check for update compliance.</li><li>The Scan Cab is used to manage updates for SQL Server 2019 on Windows.</li><li>The July 2024 Scan Cab was downloaded or deployed before 12:30 PM PT on July 11, 2024.</li></ul><div><br></div><div>An updated version of the July 2024 Scan Cab file with information about Microsoft security updates was made available today, July 11, 2024. This new cabinet file has new information related to a recent security update released for SQL Server 2019 on Windows (<a href=\"https://support.microsoft.com/help/5040948\" rel=\"noopener noreferrer\" target=\"_blank\">KB5040948</a>).</div><div><br></div><div>This new Scan Cab replaces the Scan Cab released on Patch Tuesday, July 9, 2024.</div><div><br></div><div><b>How this affects your organization:</b></div><div>If you use the Scan Cab to manage updates for servers running on SQL Server 2019 on Windows, you should download and deploy the new cabinet file published today, July 11, 2024. In addition to all information about Microsoft security updates released earlier this week, this most recent Scan Cab includes information for <a href=\"https://support.microsoft.com/help/5040948\" rel=\"noopener noreferrer\" target=\"_blank\">KB5040948</a>.</div><div><br></div><div>If you deployed the Scan Cab published on Tuesday, July 9, instead of the most recent one, your environment will miss information for compliance with <a href=\"https://support.microsoft.com/help/5040948\" rel=\"noopener noreferrer\" target=\"_blank\">KB5040948</a>.</div><div><br></div><div>No action is required on environments where Scan Cab is not employed. However, please note that there might be non-Microsoft applications which utilize Scan Cab. Review the documentation for any software and update deployment tools in your organization to understand if this is applicable in your environment.</div><div><br></div><div><b>What you need to do to prepare:</b></div><div>You can acquire the updated Scan Cab via the usual processes. For detailed guidance, see the Additional information section below.</div><div><br></div><div><b>Additional information:</b></div><ul><li><a href=\"https://go.microsoft.com/fwlink/?LinkID=74689\" rel=\"noopener noreferrer\" target=\"_blank\">Updated Scan Cab: Download the new Scan Cab here</a></li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/announcing-a-smaller-wsus-scan-cab/ba-p/2928256\" rel=\"noopener noreferrer\" target=\"_blank\">Announcing a smaller WSUS Scan Cab - Microsoft Tech Community</a>: Learn more about WSUS and the Scan Cab process</li><li><a href=\"https://learn.microsoft.com/windows/win32/wua_sdk/using-wua-to-scan-for-updates-offline\" rel=\"noopener noreferrer\" target=\"_blank\">Using WUA to Scan for Updates Offline - Win32 apps | Microsoft Docs</a>: Windows Update Agent (WUA) can be used to scan computers for security updates without connecting to Windows Update</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "preventOrFixIssue",
+  "Details": [],
+  "EndDateTime": "2025-07-11T22:54:33.543Z",
+  "HasAttachments": false,
+  "Id": "MC810911",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2024-07-11T22:54:35.37Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2024-07-11T22:54:33.793Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "An updated version of the July 2024 Scan Cab is available",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

@@ -1,0 +1,38 @@
+{
+  "ActionRequiredByDateTime": "2025-06-16T07:00:00Z",
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>We'll create a new Conditional Access policy in your tenant the week of May 5, 2025.</p><p>As part of our <a href=\"https://aka.ms/sfisecurityblog\" target=\"_blank\" style=\"font-family: sans-serif; background-color: rgb(255, 255, 255); font-weight: 400;\">Secure Future initiative</a>, we will create this&nbsp;<a href=\"https://www.microsoft.com/security/blog/2023/11/06/automatic-conditional-access-policies-in-microsoft-entra-streamline-identity-protection/\" target=\"_blank\" style=\"font-family: sans-serif; background-color: rgb(255, 255, 255); font-weight: 400;\">Microsoft managed Conditional Access policy</a>:</p><ul><li><a href=\"https://learn.microsoft.com/entra/identity/conditional-access/managed-policies#multifactor-authentication-and-reauthentication-for-risky-sign-ins\" target=\"_blank\">Multifactor authentication (MFA) and reauthentication for risky sign-ins&nbsp;</a></li></ul><p>This policy will be in <a href=\"https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-report-only\" target=\"_blank\">report-only mode</a>, which means that it won't block any access, but will generate reports on how it'll affect users when it's switched on. We’ll assign <b>only eligible active users with MFA</b>&nbsp;to a new, dedicated security group, and ensure the total users added don't exceed Entra ID P2 licenses. This means that all the users covered by the policy will be able to self-remediate with MFA, and <b>no legitimate users will be blocked</b>.&nbsp;</p><p>Once the policy has been in this mode for 45 days, it'll be automatically turned On during the week of June 16, 2025. At that point, all users covered by it will need to have MFA.</p><p><b>When this will happen:</b></p><p>June 16, 2025</p><p><b>What you need to do to prepare:</b></p><p>Required action: To avoid any potential disruption to users’ access and to ensure this policy meets your organization’s needs, take the following actions before June 16, 2025:</p><ul><li>Review the <a href=\"https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies/fromNav/\" target=\"_blank\">effects and benefits</a> of this policy. If you don’t want us to enable it automatically, set it to Off. Or, you may set it to On at a later time.</li><li>Customize this policy according to your specific needs, such as <a href=\"https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-users-groups?WT.mc_id=Portal-Microsoft_AAD_IAM#exclude-users\" target=\"_blank\">excluding emergency access accounts</a>. You can further customize the policy by duplicating the policy in the list view or modifying membership in the policy’s security group.</li><li>Verify that all users covered by this policy have enabled and registered at least one MFA method. If necessary, <a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-mfa-registration-campaign\" target=\"_blank\">run a registration campaign</a> to set up the Authenticator app.</li></ul><p>Help and support:<br></p><p>Learn more about Microsoft-managed Conditional Access policies at <a href=\"https://learn.microsoft.com/entra/identity/conditional-access/managed-policies\" target=\"_blank\">Secure your resources with Microsoft-managed Conditional Access policies - Microsoft Entra ID | Microsoft Learn</a>. </p><p>If you have questions or need help, create a <a href=\"https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/supportRequest\" target=\"_blank\">support request</a>:</p><ol><li>For Issue type, select Technical.</li><li>For Subscription, select your subscription.</li><li>For Service type, select Microsoft Entra Sign-In and Multi Factor Authentication.</li><li>For Summary, type a description of your issue.&nbsp;</li><li>For Problem type, select Conditional Access.&nbsp;</li><li>For Problem subtype, select Microsoft Managed.</li></ol>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "A new Conditional Access policy will be created in your tenant the week of May 5, 2025, and will be in report-only mode for 45 days before being enforced on June 16, 2025. Review and customize the policy, ensure MFA registration for users, and prepare to avoid disruptions."
+    }
+  ],
+  "EndDateTime": "2025-08-22T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1065051",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-04-29T23:42:45.3Z",
+  "Services": [
+    "Microsoft Entra"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-04-29T23:42:19Z",
+  "Tags": [
+    "Feature update",
+    "User impact",
+    "Admin impact"
+  ],
+  "Title": "Action recommended: Review a new Conditional Access policy when it’s created in your tenant",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

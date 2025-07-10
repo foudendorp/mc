@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Start detecting Visual Basic Scripting Edition (VBScript) across your organization in preparation for the next deprecation phase. See how to use System Monitor (Sysmon), review VBScript dependencies, or scan for .vbs files and custom MSI packages. Once detected, you should proactively migrate away from VBScript. Now that VBScript is enabled by default on Windows 11, version 24H2 and later, you can also proactively disable it in preparation for the next deprecation phase.</div><div>&nbsp;</div><div><b>When will this happen:</b></div><div>Currently, VBScript is in its first deprecation phase, available as features on demand (FODs) and enabled by default on Windows 11, version 24H2. It’s the best time to research and migrate to alternatives. Today’s blog article is available to help with this transition. In the future, VBScript FODs will be disabled by default and later removed from Windows.</div><div>&nbsp;</div><div><b>How this will affect your organization:</b></div><div>If your organization relies on VBScript, you’ll need to identify and remediate it before the next deprecation phase. There are several ways to identify where and how vbscript.dll is still being used within your enterprise environment. The four strategies outlined in the new article are here to help you with this task.</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><div>Choose one of the following strategies to detect VBScript across your organization:</div><ul><li>Use Sysmon to monitor VBScript usage.</li><li>Review VBScript dependencies.</li><li>Scan for .vbs files across the system.</li><li>Scan custom MSI packages for embedded VBScript.</li></ul><div>Once detected, proactively migrate away from VBScript and disable VBScript on Windows 11, version 24H2 and later. Read Additional information for details.</div><div>&nbsp;</div><div><b>Additional information:</b></div><ul><li>Find step-by-step instructions, tips, and considerations in <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/vbscript-deprecation-detection-strategies-for-windows/4414325\" rel=\"noopener noreferrer\" target=\"_blank\">VBScript deprecation: Detection strategies for Windows</a>.</li><li>Refer back to <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/vbscript-deprecation-timelines-and-next-steps/4148301\" rel=\"noopener noreferrer\" target=\"_blank\">VBScript deprecation: Timelines and next steps</a>.</li><li>Learn more about <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/deprecation-what-it-means-in-the-windows-lifecycle/4372457\" rel=\"noopener noreferrer\" target=\"_blank\">Deprecation: What it means in the Windows lifecycle</a>.</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [],
+  "EndDateTime": "2026-05-16T17:04:13.877Z",
+  "HasAttachments": false,
+  "Id": "MC1075649",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-05-16T17:04:14.69Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-05-16T17:04:13.923Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "VBScript deprecation: Detection strategies for Windows",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

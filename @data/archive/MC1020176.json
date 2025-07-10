@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Prepare for removal of Data Encryption Standard (DES) in Kerberos for Windows Server 2025 and Windows 11, version 24H2. While it’s an optional component that isn’t installed by default, it’s important to detect and disable your DES use to avoid potential disruption before taking the September 2025 security update. Consider adopting the Advanced Encryption Standard (AES) algorithm as a stronger encryption method.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><ul><li>September 2025: DES in Kerberos will be removed from Windows Server 2025 and Windows 11, version 24H2.&nbsp;</li><li>Alternative solutions are available to you today.&nbsp;</li></ul><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Once DES in Kerberos is removed, it will no longer be supported as an encryption cipher in any function of Kerberos in Windows Sever 2025 and later or in Windows 11, version 24H2. Legacy scenarios using DES on these two versions will stop working until you make configuration changes to Kerberos-related application and network security. DES will not be removed from earlier Windows versions.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>First, detect any use of DES in Kerberos within your network, identify apps that are using DES, and reconfigure them to use a stronger cipher. Ultimately, you’ll need to disable DES before taking the September 2025 Windows security update. Finally, identify apps and callers negotiating DES and upgrade to a more secure encryption cipher, such as Advanced Encryption Standard (AES) algorithm.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><div>Learn more and follow recommended guidance to detect and disable DES usage in <a href=\"https://techcommunity.microsoft.com/blog/WindowsServerNewsandBestPractices/removal-of-des-in-kerberos-for-windows-server-and-client/4386903\" rel=\"noopener noreferrer\" target=\"_blank\">Removal of DES in Kerberos for Windows Server and client</a>.</div>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-02-28T21:59:18.553Z",
+  "HasAttachments": false,
+  "Id": "MC1020176",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-02-28T21:59:19.53Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-02-28T21:59:18.603Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Prepare for removal of DES in Kerberos for Windows Server and client",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

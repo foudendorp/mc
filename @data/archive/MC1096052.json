@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Microsoft is updating the <a href=\"https://support.microsoft.com/topic/windows-support-for-the-application-control-for-business-new-ca-handling-logic-0be5df55-f4d7-458a-808f-7949d6a80850\" rel=\"noopener noreferrer\" target=\"_blank\">logic used by Application Control for Business</a> to handle signer rules that rely on TBS (To Be Signed) hash values for Microsoft intermediate certificate authorities (CAs). This is in response to the upcoming expiration of several 15-year CAs starting in July 2025. The new logic allows Application Control to automatically infer trust for the new 2023 and 2024 CAs if your existing policy already trusts the older CAs. Signer elements like CertEKU,&nbsp;CertPublisher,&nbsp;FileAttribRef&nbsp;and&nbsp;CertOemId&nbsp;are preserved in the inferencing logic.&nbsp;</div><div><br></div><div><b>When this will happen:</b>&nbsp;</div><div>Beginning in July 2025, these CAs will begin to expire&nbsp;according to the following schedule:</div><ul><li>July 6, 2025 - Microsoft Code Signing PCA 2010</li><li>July 6, 2025 - Microsoft Windows PCA 2010</li><li>July 8, 2026 - Microsoft Code Signing PCA 2011</li><li>October 19, 2026 - Windows Production PCA 2011</li><li>April 18, 2027 - Microsoft Windows Third Party Component CA 2012</li></ul><div><br></div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Microsoft has serviced the TBS hash handling logic for the expiring CAs to all supported versions of Windows where Application Control is supported beginning with the following releases:</div><ul><li>Windows Server 2025: <a href=\"https://support.microsoft.com/topic/57181688-a692-49e5-b6cd-6e3919da12ca\" rel=\"noopener noreferrer\" target=\"_blank\">May 13, 2025—KB5058411</a></li><li>Windows 11, version 24H2: <a href=\"https://support.microsoft.com/topic/9324a361-965a-4496-8fd8-ba8a9de9fc38\" rel=\"noopener noreferrer\" target=\"_blank\">April 25, 2025—KB5055627</a></li><li>Windows Server, version 23H2: <a href=\"https://support.microsoft.com/topic/3c3f9c71-6082-4d4a-a6f2-1cd11b0a03e1\" rel=\"noopener noreferrer\" target=\"_blank\">May 13, 2025—KB5058384</a></li><li>Windows 11, version 22H2 and 23H2: <a href=\"https://support.microsoft.com/topic/40cbe5df-063a-4b89-94eb-c79c8975506d\" rel=\"noopener noreferrer\" target=\"_blank\">April 22, 2025—KB5055629</a></li><li>Windows Server 2022: <a href=\"https://support.microsoft.com/topic/45f3b455-92fa-4297-9dde-1428b36e53ad\" rel=\"noopener noreferrer\" target=\"_blank\">May 13, 2025—KB5058385</a></li><li>Windows 10, versions 21H2 and 22H2: <a href=\"https://support.microsoft.com/topic/0a30e9ee-5038-45dd-a5d7-70a8813a5e39\" rel=\"noopener noreferrer\" target=\"_blank\">May 13, 2025—KB5058379</a></li><li>Windows 10 Enterprise LTSC 2019 and Windows Server 2019: <a href=\"https://support.microsoft.com/topic/e72d5090-15f1-4562-a7c0-39c1155fa01c\" rel=\"noopener noreferrer\" target=\"_blank\">May 13, 2025—KB5058392</a></li><li>Windows 10 Enterprise LTSB 2016 and Windows Server 2016: <a href=\"https://support.microsoft.com/topic/f7d561f2-6b70-4a55-9bff-dac9c354812c\" rel=\"noopener noreferrer\" target=\"_blank\">May 13, 2025—KB5058383</a></li></ul><div><br></div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Ensure your systems are updated with the updates listed above or subsequent ones. No policy updates are required&nbsp;if your existing rules reference the expiring CAs. Windows will seamlessly extend trust to the new 2023 and 2024 CAs via Windows updates.</div><div><br></div><div>If you want to opt&nbsp;out of the TBS hash&nbsp;inferencing&nbsp;logic performed by Application Control, set the following flag in policies:&nbsp;<b>Disabled:Default Windows Certificate Remapping</b>.<b>&nbsp;</b>​​​​​​​</div><div><br></div><div><b>Additional information:</b>&nbsp;</div><ul><li><a href=\"https://support.microsoft.com/topic/windows-support-for-the-application-control-for-business-new-ca-handling-logic-0be5df55-f4d7-458a-808f-7949d6a80850\" rel=\"noopener noreferrer\" target=\"_blank\">Windows support for the Application Control for Business new CA handling logic</a></li><li><a href=\"https://learn.microsoft.com/windows/security/application-security/application-control/app-control-for-business/feature-availability\" rel=\"noopener noreferrer\" target=\"_blank\">App Control for Business and AppLocker feature availability</a></li><li><a href=\"https://learn.microsoft.com/windows/security/application-security/application-control/app-control-for-business/appcontrol\" rel=\"noopener noreferrer\" target=\"_blank\">Application Control for Windows</a></li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-07-02T19:36:41.143Z",
+  "HasAttachments": false,
+  "Id": "MC1096052",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-07-02T19:36:42.667Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-07-02T19:36:41.207Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Windows add support for the new certificate authority handling logic in Application Control for Business",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

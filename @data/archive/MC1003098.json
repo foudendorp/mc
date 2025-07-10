@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Last year, Windows updates released on or after April 9, 2024 added new behaviors that start the process of addressing a security risk in the <a href=\"https://learn.microsoft.com/openspecs/windows_protocols/ms-apds/82b7b7c6-413d-4d66-b6b7-4a9224549782\" rel=\"noopener noreferrer\" target=\"_blank\">Kerberos PAC Validation Protocol</a>. Presently, it is still possible to override the enforcement settings related to the new behaviors, and revert to a <b>Compatibility</b>&nbsp;mode.</div><div><br></div><div>This year, beginning with Windows updates to be released in April 2025, there will be no support for <b>Compatibility</b>&nbsp;mode, and the new secure behavior will be enabled during the <b>Enforcement</b>&nbsp;phase.</div><div><br></div><div>For full guidance, see <a href=\"https://support.microsoft.com/help/5037754\" rel=\"noopener noreferrer\" target=\"_blank\">KB5037754: How to manage PAC Validation changes related to CVE-2024-26248 and CVE-2024-29056</a>.</div><div><br></div><div><b>When will this happen?</b></div><div><b>Enforcement</b>&nbsp;phase begins in April 2025. Windows security updates released on or after this date will remove support for the <b>Compatibility</b>&nbsp;mode registry subkeys <b>PacSignatureValidationLevel</b>&nbsp;and <b>CrossDomainFilteringLevel</b>&nbsp;and enforce the new secure behavior. There will be no support for <b>Compatibility</b>&nbsp;mode after installing the April 2025 update.</div><div><b>&nbsp;</b></div><div><b>How will this affect your organization?</b></div><div>To mitigate the risks described in <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26248\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-26248</a> and <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29056\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-29056</a>, you must update your entire Windows environment. This must include all Windows domain controllers and Windows clients. Environments that are not up to date will not recognize the new request structure after the <b>Enforcement </b>phase begins. Because of this, security checks will fail.</div><div>&nbsp;</div><div><b>What do you need to do to prepare?</b></div><div>Be ready to fully enable Enforcement mode later this year.</div><ol><li>Ensure that all Windows domain controllers and Windows clients are updated with a Windows security update released on or after April 9, 2024.</li><li>Review Audit events that are visible in <b>Compatibility</b>&nbsp;mode. This will help identify which devices have not been updated with a Windows security update released on or after April 9, 2024.</li><li>Install the April 2025 Windows update on all Windows domain controllers and Windows clients, once it becomes available later this year. <b>Enforcement </b>mode will be fully enabled in your environment. This will properly mitigate the vulnerabilities described in&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26248\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-26248</a> and <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29056\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-29056</a> will be mitigated.</li></ol><div>&nbsp;</div><div><b>Additional information:</b></div><ul><li><a href=\"https://support.microsoft.com/help/5037754\" rel=\"noopener noreferrer\" target=\"_blank\">KB5037754: How to manage PAC Validation changes related to CVE-2024-26248 and CVE-2024-29056</a></li><li><a href=\"https://support.microsoft.com/help/5020805\" rel=\"noopener noreferrer\" target=\"_blank\">KB5020805: How to manage Kerberos protocol changes related to CVE-2022-37967</a></li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [],
+  "EndDateTime": "2026-02-11T18:00:09.107Z",
+  "HasAttachments": false,
+  "Id": "MC1003098",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-02-11T18:00:13.143Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-02-11T18:00:09.107Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "60-day notice: Manage PAC Validation related to CVE-2024-26248 & CVE-2024-29056",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

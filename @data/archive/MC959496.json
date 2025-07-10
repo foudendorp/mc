@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>The last phase of the changes to certificate-based authentication on domain controllers (DC) is here. As stated in reminders, Full Enforcement mode phase starts in February 2025. This mode change occurs when you install the Windows updates dated February 2025 or later.</div><div><br></div><div>Starting in May 2022, certificate-based authentication on Windows DCs started to go through a series of changes to enhance security, following a planned timeline of Enablement Phases.</div><div><br></div><div>After you install the Windows security updates released in February 2025 or later, authentication for certificates that do not meet the expected mapping requirements will be denied. This change is known as Full Enforcement mode. However, you can move back to Compatibility<b> </b>mode until September 2025. For full details, see <a href=\"https://support.microsoft.com/topic/ad2c23b0-15d8-4340-a468-4d4f3b188f16\" rel=\"noopener noreferrer\" target=\"_blank\">KB5014754</a>.</div><div>&nbsp;</div><div><b>When will this happen:</b></div><div>In February 2025, devices will move to Full Enforcement mode.</div><div>&nbsp;</div><div><b>How this will affect your organization:</b></div><div>When you install the February 2025 or later Windows update, devices that are not already in Full Enforcement mode (<b>StrongCertificateBindingEnforcement</b>&nbsp;registry value is set to 2) will be moved to Full Enforcement mode. If authentication is denied, you will see Event ID 39 (or Event ID 41 for Windows Server 2008 R2 SP1 and Windows Server 2008 SP2). You will have the option to set the registry key value back to 1 (Compatibility mode) at this stage. In the September 2025 Windows update, the <b>StrongCertificateBindingEnforcement</b>&nbsp;registry value will no longer be supported.</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><div>Review the date changes in the “Take action”, “Full Enforcement mode”, and “Registry key information” sections of <a href=\"https://support.microsoft.com/topic/ad2c23b0-15d8-4340-a468-4d4f3b188f16\" rel=\"noopener noreferrer\" target=\"_blank\">KB5014754</a>. Take the appropriate action needed to make your devices more secure.</div><div>&nbsp;</div><div><b>Additional information:</b></div><div>For full detailed information, see <a href=\"https://support.microsoft.com/topic/ad2c23b0-15d8-4340-a468-4d4f3b188f16\" rel=\"noopener noreferrer\" target=\"_blank\">KB5014754: Certificate-based authentication changes on Windows domain controllers</a>.</div>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-02-11T18:00:09.107Z",
+  "HasAttachments": false,
+  "Id": "MC959496",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-02-11T18:00:15.957Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-02-11T18:00:09.107Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": " Full Enforcement mode for certificate-based authentication on Windows DCs effective February 2025",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

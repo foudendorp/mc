@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Starting October 15, 2024, the <b>Enforced by Default</b> phase of <a href=\"https://learn.microsoft.com/openspecs/windows_protocols/ms-apds/82b7b7c6-413d-4d66-b6b7-4a9224549782\" rel=\"noopener noreferrer\" target=\"_blank\">Kerberos&nbsp;PAC signature validation</a> mitigation begins. Updates released on or after this date will move all Windows domain controllers and clients in the environment to&nbsp;<b>Enforced</b>&nbsp;mode, enforcing the secure behavior by default. The&nbsp;<b>Enforced by Default</b>&nbsp;settings can be overridden by an Administrator to revert to&nbsp;<b>Compatibility</b>&nbsp;mode.</div><div><br></div><div><b>When will this happen:</b>&nbsp;</div><ul><li>October 15, 2024: The <b>Enforced by Default</b> phase starts where Windows domain controllers and clients will move to <b>Enforced </b>mode. Note that during this phase, the&nbsp;<b>Enforced by Default</b>&nbsp;settings can be overridden by an Administrator to revert to&nbsp;<b>Compatibility</b>&nbsp;mode.</li><li>April 8, 2025: <b>Enforcement</b> phase begins with no option to revert the new secure behavior.</li></ul><div><br></div><div><b>How this will affect your organization:</b>&nbsp;</div><div>To mitigate vulnerabilities described in&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26248\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-26248</a>&nbsp;and&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29056\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-29056</a>, you must make sure your entire Windows environment (including both domain controllers and clients) is updated. Environments that are not updated will not recognize this new request structure after <b>Enforcement </b>mode begins. This will cause the security check to fail.</div><div><br></div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>To help protect your environment and prevent outages, we recommend the following steps:</div><ol><li><b>UPDATE:</b>&nbsp;Windows domain controllers and Windows clients must be updated with a Windows security update released on or after April 9, 2024.</li><li><b>MONITOR:</b>&nbsp;Audit events will be visible in&nbsp;<b>Compatibility</b>&nbsp;mode to identify devices not updated.</li><li><b>ENABLE:</b>&nbsp;After&nbsp;<b>Enforcement</b>&nbsp;mode&nbsp;is fully enabled in your environment, the vulnerabilities described in&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26248\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-26248</a>&nbsp;and&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29056\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-29056</a>&nbsp;will be mitigated.</li></ol><div><br></div><div><b>Additional information:</b>&nbsp;</div><ul><li><a href=\"https://support.microsoft.com/help/5037754\" rel=\"noopener noreferrer\" target=\"_blank\">KB5037754: How to manage PAC Validation changes related to CVE-2024-26248 and CVE-2024-29056</a></li><li><a href=\"https://support.microsoft.com/help/5020805\" rel=\"noopener noreferrer\" target=\"_blank\">KB5020805: How to manage Kerberos protocol changes related to CVE-2022-37967</a></li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2025-07-15T16:59:30.613Z",
+  "HasAttachments": false,
+  "Id": "MC814189",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2024-07-15T16:59:31.58Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2024-07-15T16:59:30.643Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "90-Day Reminder: The second phase of Kerberos PAC signature validation vulnerability mitigation begins October 15, 2024",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Microsoft recommends disabling the Secure Time Seeding (STS) in Windows Server 2016, Windows Server 2019, Windows Server 2022, and Windows Server 2025 due to reported timekeeping issues.&nbsp;Additionally, organizations should review and ensure proper time synchronization and monitoring on critical servers.&nbsp;&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b></div><div>Microsoft recommends applying this disablement as soon as possible. This recommendation applies to all existing deployments of Windows Server 2016 and later (including domain controllers and member servers).</div><div>&nbsp;</div><div><b>How this will affect your organization:</b></div><div>Disabling Secure Time Seeding (STS) may prevent potential timekeeping errors that could affect time-sensitive workloads, such as Active Directory Domain Services (ADDS) domain controllers, VM hosts, and servers using time for critical functionality.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><div>IT admins should review timekeeping requirements in their environments and then disable the STS feature by modifying registry or Group Policy settings and rebooting the affected machines. See <a href=\"https://learn.microsoft.com/troubleshoot/windows-server/active-directory/sts-recommendations-for-windows-server\" rel=\"noopener noreferrer\" target=\"_blank\">Secure Time Seeding recommendations for Windows Server</a> for steps on how to disable STS in Windows Server.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li><a href=\"https://learn.microsoft.com/archive/blogs/w32time/secure-time-seeding-improving-time-keeping-in-windows\" rel=\"noopener noreferrer\" target=\"_blank\">Secure Time Seeding – improving time keeping in Windows</a></li><li><a href=\"https://learn.microsoft.com/troubleshoot/windows-server/active-directory/sts-recommendations-for-windows-server\" rel=\"noopener noreferrer\" target=\"_blank\">Secure Time Seeding recommendations for Windows Server</a></li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-05-30T16:59:18.27Z",
+  "HasAttachments": false,
+  "Id": "MC1085489",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-05-30T16:59:19.143Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-05-30T16:59:18.317Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Take action: Disable Secure Time Seeding (STS) in Windows Server 2016 and later",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

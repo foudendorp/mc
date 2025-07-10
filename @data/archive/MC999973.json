@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div><em>(Updated 2/7 8:00pm to call out additional prerequisites related to OS version)</em></div><div><br></div><div>Hotpatch is an extension of Windows Update, designed to reduce downtime and disruptions by allowing the installation of Monthly B release security updates without requiring a device restart. We encourage users to test and use Hotpatch.</div><div><br></div><div>However, it's important to note that not all devices are eligible for Hotpatch updates. We want to remind you of the prerequisites necessary to ensure a successful Hotpatch deployment across your environment. For complete details, see&nbsp;<a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#operating-system-configuration-prerequisites\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Autopatch Hotpatch Updates</a>.</div><div><br></div><div><b>When will this happen</b>:</div><div>The Hotpatch feature is currently in public preview. We welcome users to test and use Hotpatch in production environments, as well as provide us their feedback. Enrollment to Hotpatch updates begins at the&nbsp;<a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" rel=\"noopener noreferrer\" target=\"_blank\">Intune admin center</a>. See the resources at the Additional Information section, below.</div><div><br></div><div><b>How this will affect your organization</b>:</div><div>If you've recently added devices to your Hotpatch policy as part of Windows Autopatch, please note the below prerequisites to ensure successful Hotpatch deployment.</div><div><br></div><div>All devices must meet the following prerequisites:</div><ul><li><em>Operating system</em>: Devices must be running Windows 11 24H2, specifically the <a href=\"https://support.microsoft.com/help/5050009\" rel=\"noopener noreferrer\" target=\"_blank\">January 2025 Windows monthly security update - KB5050009 (OS Build 26100.2894)</a> (baseline).</li><li><em>Virtualization-Based Security (VBS)</em>: This must be enabled to ensure secure installation of Hotpatch updates. For details, see <a href=\"https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-hvci-enablement\" rel=\"noopener noreferrer\" target=\"_blank\">Memory integrity and VBS enablement</a>.</li></ul><div><br></div><div><em>Arm64 devices only: </em>Disable compiled hybrid PE usage (CHPE), by making the following changes.</div><ul><li>Edit the Windows registry: Path&nbsp;<em>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management</em></li><li>DWORD key value: <em>HotPatchRestrictions </em>= 1</li><li>You must restart the computer after you set this registry key. Once set, you do not need to set it again because it will persist. See the documentation in the Additional Information section for additional details.</li></ul><div><br></div><div><b>What you need to do to prepare:</b></div><div>In order to take advantage of the benefits of Hotpatch, devices must meet the necessary prerequisites. Review devices in your environment and see the resources at the Additional Information section below if deployment is not occurring as expected.</div><div><br></div><div>Devices that don't meet one or more prerequisites automatically receive the Latest Cumulative Update (LCU) instead. LCUs contain monthly updates that supersede the previous month's updates containing both security and non-security releases. While LCUs require a system restart, they ensure that the device remains fully secure and compliant.</div><div><br></div><div><b>Additional information:</b></div><ul><li>For more details on device requirements, see <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#operating-system-configuration-prerequisites\" rel=\"noopener noreferrer\" target=\"_blank\">Hotpatch updates (public preview) | Operating system configuration prerequisites</a></li><li>To enroll in Hotpatch and see the latest release schedule, see <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#enroll-devices-to-receive-hotpatch-updates\" rel=\"noopener noreferrer\" target=\"_blank\">Hotpatch updates (public preview) | Enroll devices to receive Hotpatch updates</a></li><li>If you have any questions or need further assistance, please reach out to your Microsoft representative.</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-02-08T03:51:21.03Z",
+  "HasAttachments": false,
+  "Id": "MC999973",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-02-08T03:51:22.38Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-02-08T03:51:21.123Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Reminder: Hotpatch eligibility and prerequisites",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

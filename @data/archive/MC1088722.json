@@ -1,0 +1,36 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>Starting June 23, 2025, the Hotpatch setting will be enabled by default in Quality Update policies. This update applies to devices that meet the Hotpatch <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#prerequisites\" target=\"_blank\">prerequisites.</a> Specifically, the <b>\"When available, apply without restarting the device (Hotpatch)\"</b> option will be set to <b>\"Allow.\"</b> To learn more about the Hotpatch setting, visit <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates\" target=\"_blank\">Hotpatch updates | Microsoft Learn</a>.</p><p><b>How will this affect your organization:</b>  \n</p><p>There will be no change to Hotpatch settings in existing Quality Update policies. This update only applies to new policies created on or after June 23, 2025 and to devices that meet the <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#prerequisites\" target=\"_blank\">Hotpatch prerequisites.</a> To receive Hotpatch updates, devices must meet the following requirements:\n</p><ul><li>For licensing requirements, see <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/prepare/windows-autopatch-prerequisites\" target=\"_blank\">Prerequisites</a>\n</li><li>Windows 11 Enterprise version 24H2 or later\n</li><li>Devices must be on the latest baseline release version to qualify for hotpatch updates. Microsoft releases Baseline updates quarterly as standard cumulative updates. For more information on the latest schedule for these releases, see <a href=\"https://support.microsoft.com/topic/release-notes-for-hotpatch-in-azure-automanage-for-windows-server-2022-4e234525-5bd5-4171-9886-b475dabe0ce8?preview=true\" target=\"_blank\">Release notes for Hotpatch.</a>\n</li><li>Microsoft Intune to manage hotpatch update deployment with the <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#enroll-devices-to-receive-hotpatch-updates\" target=\"_blank\">Windows quality update policy with Hotpatch turned on.</a></li></ul><p><b>When will this happen:</b> </p><p>The target GA date for this capability is June 23, 2025.  \n</p><p><b>What you need to do to prepare:</b>  \n</p><p>No action is needed on your end, but to inform your team to prepare for this change. If you have any questions or concerns, or need assistance, file a service request by visiting the <a href=\"https://intune.microsoft.com\" target=\"_blank\">Microsoft Intune admin center. </a></p>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "Starting June 23, 2025, the Hotpatch setting will be enabled by default in new Quality Update policies for devices that meet the prerequisites. Existing policies remain unchanged. Devices must run Windows 11 Enterprise version 24H2 or later and be managed by Microsoft Intune. No immediate action is required."
+    }
+  ],
+  "EndDateTime": "2025-08-05T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1088722",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-06-05T23:37:34.457Z",
+  "Services": [
+    "Windows Autopatch"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-06-05T23:37:18Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Updates to Hotpatch Setting in Windows Autopatch",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

@@ -1,0 +1,38 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>Windows Autopatch will now provide role-based access controls to access key update management features, previously limited to Intune Service administrators. With this change, administrators can assign specific roles and permissions, so that only authorized personnel can perform update management actions and read reports. With this change you will be able to grant appropriate access rights to individuals, resulting in far fewer privileges for update management, therefore minimizing the need for Intune Service administrator privileges.  \n</p><p><b>When will this happen:</b>  \n</p><p>General Availability will take place starting May 27, 2025, Pacific Standard Time, and the change will be completed in 4 weeks.  \n</p><p> <b>How will this affect your organization:</b>  \n</p><p>This release includes the following \n</p><p><b>Built-in roles \n</b></p><ol><li><b>Windows Autopatch Administrator:</b> This includes full permissions necessary for Autopatch Groups, Autopatch reports and Messages.  \n</li><li><b>Windows Autopatch Reader:</b> This includes read permissions necessary for Autopatch Groups, Autopatch reports and Messages but does not permit any changes. \n</li></ol><p>IT admins have been using the Intune role <b>Policy and Profile Manager</b> or an Intune custom role with equivalent permissions that include Device configuration permissions for managing Intune policies. To fully access advanced update management features such as Autopatch Groups, a user must be assigned to both Policy and Profile Manager and Windows Autopatch administrator.  \n</p><p>The roles will be available at  <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a> -&gt; Tenant Administration -&gt; Roles -&gt; All roles \n</p><p>Custom roles – you can create a custom Autopatch role and include just the permissions required for update related activities. You can access this from <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a> -&gt; Tenant Administration -&gt; Roles -&gt; All roles -&gt; Create -&gt; Windows Autopatch role.   \n</p><p>You will be able to assign <b>Intune scope tags</b> to Autopatch Groups and filter Autopatch reports based on scope tags.  \n</p><p><b>Windows Autopatch reports</b> – You will be able to access the Windows Autopatch reports with the above built-in roles, or grant permissions to custom roles.  Learn more about which current roles can access reports at <a href=\"https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/windows-autopatch-windows-quality-and-feature-update-reports-overview#who-can-access-the-reports\" target=\"_blank\"><u>Who can access Windows Autopatch reports</u></a> \n</p><p>In addition to Global administrator and Intune Service administrator, the following Microsoft Entra roles will have access to various Autopatch features. \n</p><ol><li>Service Support Administrator \n</li><li>Security Admin \n</li><li>Security Reader \n</li><li>Billing Administrator \n</li><li>Helpdesk Administrator \n</li></ol><p>We will also remove the <b>\"Modern Workplace Roles - Service Administrator\"</b> and <b>\"Modern Workplace Roles - Service Reader”</b> Microsoft Entra groups, that Autopatch no longer uses, and if they are present in your tenant. Autopatch will not migrate the group membership to any of the above roles, at release.  \n</p><p><b>What you need to do to prepare:</b>  \n</p><p>Review your environment for users in <b>\"Modern Workplace Roles - Service Administrator”</b> or <b>\"Modern Workplace Roles - Service Reader\"</b>. Configure their permission to view Autopatch reports using the roles included in <b>\"Who can access Windows Autopatch reports\"</b>, to prevent loss of access.  \n</p><p>If you have any questions or concerns, or need assistance, file a service request by visiting the <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a>.  \n</p>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "Windows Autopatch introduces role-based access controls for update management, available from May 27, 2025. New roles include Windows Autopatch Administrator and Reader. Custom roles and Intune scope tags are supported. Review and update permissions for users in deprecated Modern Workplace Roles. For assistance, visit the Microsoft Intune admin center."
+    }
+  ],
+  "EndDateTime": "2025-07-23T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1061099",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-04-24T00:50:39.303Z",
+  "Services": [
+    "Windows Autopatch"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-04-24T00:50:29Z",
+  "Tags": [
+    "New feature",
+    "User impact",
+    "Admin impact"
+  ],
+  "Title": "New Feature: Role-based access controls for Windows Autopatch",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
