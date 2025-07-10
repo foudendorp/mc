@@ -70,7 +70,14 @@ export const columns: ColumnDef<MessageView>[] = [
           ))}
         </div>
       )
-    }
+    },
+    filterFn: (row, id, value) => {
+      const services = row.getValue(id) as string[] | undefined;
+      if (!services || !value) return true;
+      return services.some(service => 
+        service.toLowerCase().includes(value.toLowerCase())
+      );
+    },
   },
   {
     accessorKey: "lastUpdated",
