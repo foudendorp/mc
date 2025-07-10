@@ -10,16 +10,16 @@ export const siteConfig = {
       href: "/",
     },
     {
-      title: "Merill.Net",
-      href: "https://merill.net",
+      title: "GetCurrent",
+      href: "https://getcurrent.cloud",
     },
     {
-      title: "Entra.News",
-      href: "https://entra.news",
+      title: "SecMinds",
+      href: "https://secminds.nl",
     },
   ],
   links: {
-    twitter: "https://twitter.com/merill",
-    github: "https://github.com/merill/mc",
+    twitter: "https://twitter.com/foudendorp",
+    github: "https://github.com/foudendorp/mc",
   },
 }
