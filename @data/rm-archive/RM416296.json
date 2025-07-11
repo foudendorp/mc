@@ -1,12 +1,10 @@
 {
   "Services": "Outlook",
-  "LastModifiedDateTime": "Thu, 12 Sep 2024 00:00:50 Z",
-  "IsMajorChange": false,
+  "Description": "Currently, when we determine whether a user is entitled to submit feedback, we only look at the feedback policy for their primary (global) account. Going forward, we are going to make the feedback policy check more restrictive which is more secure. We'll be looking at feedback policies for all users' accounts and basing their eligibility off the most restrictive policy value found. For example, if any of the users' accounts have Feedback disabled by a policy, we won't show the Feedback button in...",
+  "Link": "https://www.microsoft.com/microsoft-365/roadmap?id=416296",
   "Type": "roadmap",
   "Title": "Outlook: Checking feedback policy across all accounts",
-  "PubDate": "Thu, 12 Sep 2024 00:00:50 Z",
-  "Link": "https://www.microsoft.com/microsoft-365/roadmap?id=416296",
-  "Description": "Currently, when we determine whether a user is entitled to submit feedback, we only look at the feedback policy for their primary (global) account. Going forward, we are going to make the feedback policy check more restrictive which is more secure. We'll be looking at feedback policies for all users' accounts and basing their eligibility off the most restrictive policy value found. For example, if any of the users' accounts have Feedback disabled by a policy, we won't show the Feedback button in...",
+  "Id": "RM416296",
   "Categories": [
     "Launched",
     "General Availability",
@@ -15,5 +13,7 @@
     "Desktop",
     "Web"
   ],
-  "Id": "RM416296"
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "Thu, 12 Sep 2024 00:00:50 Z",
+  "PubDate": "Thu, 12 Sep 2024 00:00:50 Z"
 }
