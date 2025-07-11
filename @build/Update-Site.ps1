@@ -29,14 +29,38 @@ function Get-M365RoadmapItems() {
         $response = Invoke-WebRequest -Uri $rssUrl -UseBasicParsing
         
         if ($response.StatusCode -eq 200) {
+            # Clean the content to remove BOM and fix encoding issues
+            $xmlContent = $response.Content
+            
+            # Remove BOM if present
+            if ($xmlContent.StartsWith("﻿")) {
+                $xmlContent = $xmlContent.Substring(1)
+            }
+            
             # Parse the XML content
-            [xml]$rssContent = $response.Content
+            try {
+                [xml]$rssContent = $xmlContent
+            } catch {
+                Write-Warning "Failed to parse XML: $($_.Exception.Message)"
+                # Try with encoding fix
+                $bytes = [System.Text.Encoding]::UTF8.GetBytes($xmlContent)
+                $cleanXml = [System.Text.Encoding]::UTF8.GetString($bytes)
+                if ($cleanXml.StartsWith("﻿")) {
+                    $cleanXml = $cleanXml.Substring(1)
+                }
+                [xml]$rssContent = $cleanXml
+            }
+            
             $roadmapItems = @()
             
             # Check if we have items
             if ($rssContent.rss.channel.item) {
+                $itemCount = 0
                 foreach ($item in $rssContent.rss.channel.item) {
                     try {
+                        $itemCount++
+                        if ($itemCount -gt 50) { break } # Limit to first 50 items for performance
+                        
                         # Extract categories as an array
                         $categories = @()
                         if ($item.category) {
@@ -50,7 +74,7 @@ function Get-M365RoadmapItems() {
                         # Map categories to services
                         $services = @()
                         foreach ($cat in $categories) {
-                            $catLower = $cat.ToLower()
+                            $catLower = $cat.ToString().ToLower()
                             if ($catLower -like "*teams*") { $services += "Microsoft Teams" }
                             elseif ($catLower -like "*sharepoint*") { $services += "SharePoint Online" }
                             elseif ($catLower -like "*exchange*") { $services += "Exchange Online" }
@@ -72,10 +96,16 @@ function Get-M365RoadmapItems() {
                         # Remove duplicates
                         $services = $services | Sort-Object | Get-Unique
                         
+                        # Clean and truncate description
+                        $description = $item.description
+                        if ($description.Length -gt 500) {
+                            $description = $description.Substring(0, 500) + "..."
+                        }
+                        
                         $roadmapItem = @{
                             Id = "ROADMAP_$($item.guid)"
                             Title = $item.title
-                            Description = $item.description
+                            Description = $description
                             Link = $item.link
                             PubDate = $item.pubDate
                             Categories = $categories
@@ -85,13 +115,17 @@ function Get-M365RoadmapItems() {
                         $roadmapItems += $roadmapItem
                     }
                     catch {
-                        Write-Warning "Failed to process roadmap item: $($_.Exception.Message)"
+                        Write-Warning "Failed to process roadmap item $itemCount : $($_.Exception.Message)"
+                        continue
                     }
                 }
             }
             
-            Write-Host "Found $($roadmapItems.Count) roadmap items"
+            Write-Host "Successfully processed $($roadmapItems.Count) roadmap items"
             return $roadmapItems
+        } else {
+            Write-Warning "HTTP request failed with status: $($response.StatusCode)"
+            return @()
         }
     }
     catch {
