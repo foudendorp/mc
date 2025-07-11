@@ -1,23 +1,28 @@
 
 import { DataTable } from "@/app/messages-table/data-table"
 import { MessageView, columns } from "@/app/messages-table/columns";
-import { getAllMessages, getFormattedDate } from "@/lib/messages";
+import { getAllCombinedItems } from "@/lib/messages";
+import { CombinedItem } from "@/lib/roadmap";
+import { use } from "react";
 
-function getData(): MessageView[] {
+async function getData(): Promise<MessageView[]> {
+    const combinedItems = await getAllCombinedItems();
 
-    const dataMessages = getAllMessages();
-
-    return dataMessages.map((item): MessageView => ({
-        id: item.Id,
-        title: item.Title,
-        service: item.Services,
-        lastUpdated: getFormattedDate(item.LastModifiedDateTime),
-        isMajor: item.IsMajorChange ?? false
+    return combinedItems.map((item: CombinedItem): MessageView => ({
+        id: item.id,
+        title: item.title,
+        service: item.service,
+        lastUpdated: item.lastUpdated,
+        isMajor: item.isMajor,
+        type: item.type,
+        link: item.link,
+        description: item.description,
+        category: item.category
     }));
 }
 
 export default function MessagesTable2() {
-    const data = getData();
+    const data = use(getData());
 
     return (
         <div className="">

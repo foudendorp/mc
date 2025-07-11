@@ -1,5 +1,6 @@
 import { Message } from '@/types/message';
 import dataMessages from '@/@data/messages.json'
+import { fetchRoadmapData, getRoadmapServices, type RoadmapItem, type CombinedItem } from './roadmap';
 
 const messages: Message[] = dataMessages;
 
@@ -13,6 +14,40 @@ export function getAllMessageIds(): { id: string }[] {
 
 export function getAllMessages(): Message[] {
     return dataMessages;
+}
+
+export async function getAllCombinedItems(): Promise<CombinedItem[]> {
+    // Get message center data
+    const messageCenterItems: CombinedItem[] = dataMessages.map(msg => ({
+        id: msg.Id,
+        title: msg.Title,
+        service: msg.Services,
+        lastUpdated: getFormattedDate(msg.LastModifiedDateTime),
+        isMajor: msg.IsMajorChange ?? false,
+        type: 'message-center' as const
+    }));
+
+    // Get roadmap data
+    const roadmapItems = await fetchRoadmapData();
+    const roadmapCombinedItems: CombinedItem[] = roadmapItems.map(item => ({
+        id: item.id,
+        title: item.title,
+        service: getRoadmapServices(item.category),
+        lastUpdated: getFormattedDate(item.pubDate),
+        isMajor: false, // Roadmap items are not "major changes" in the same sense
+        type: 'roadmap' as const,
+        link: item.link,
+        description: item.description,
+        category: item.category
+    }));
+
+    // Combine and sort by last updated date (newest first)
+    const combined = [...messageCenterItems, ...roadmapCombinedItems];
+    return combined.sort((a, b) => {
+        const dateA = new Date(a.lastUpdated || '1970-01-01');
+        const dateB = new Date(b.lastUpdated || '1970-01-01');
+        return dateB.getTime() - dateA.getTime();
+    });
 }
 
 export function getMessageData(id: string): Message | undefined{

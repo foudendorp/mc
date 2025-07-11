@@ -43,10 +43,12 @@ export function DataTable<TData, TValue>({
     const idFilter = searchParams.get('id')
     const titleFilter = searchParams.get('title')
     const serviceFilter = searchParams.get('service')
+    const typeFilter = searchParams.get('type')
     
     if (idFilter) filters.push({ id: 'id', value: idFilter })
     if (titleFilter) filters.push({ id: 'title', value: titleFilter })
     if (serviceFilter) filters.push({ id: 'service', value: serviceFilter })
+    if (typeFilter) filters.push({ id: 'type', value: typeFilter })
     
     return filters
   })
@@ -82,6 +84,14 @@ export function DataTable<TData, TValue>({
   return (
     <div>
       <div className="flex items-center py-4 gap-3 flex-wrap">
+        <Input
+          placeholder="Filter by Type..."
+          value={(table.getColumn("type")?.getFilterValue() as string) ?? ""}
+          onChange={(event) =>
+            table.getColumn("type")?.setFilterValue(event.target.value)
+          }
+          className="max-w-40"
+        />
         <Input
           placeholder="Filter by ID..."
           value={(table.getColumn("id")?.getFilterValue() as string) ?? ""}
