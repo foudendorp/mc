@@ -29,21 +29,65 @@ function Get-M365RoadmapItems() {
         $response = Invoke-WebRequest -Uri $rssUrl -UseBasicParsing
         
         if ($response.StatusCode -eq 200) {
+            # Parse the XML content
             [xml]$rssContent = $response.Content
             $roadmapItems = @()
             
-            foreach ($item in $rssContent.rss.channel.item) {
-                $roadmapItem = @{
-                    Id = "ROADMAP_$($item.guid.'#text')"
-                    Title = $item.title
-                    Description = $item.description
-                    Link = $item.link
-                    PubDate = $item.pubDate
-                    Categories = @($item.category)
-                    Services = @("Microsoft 365 Roadmap") # Default service, could be enhanced
-                    Type = "roadmap"
+            # Check if we have items
+            if ($rssContent.rss.channel.item) {
+                foreach ($item in $rssContent.rss.channel.item) {
+                    try {
+                        # Extract categories as an array
+                        $categories = @()
+                        if ($item.category) {
+                            if ($item.category -is [array]) {
+                                $categories = $item.category
+                            } else {
+                                $categories = @($item.category)
+                            }
+                        }
+                        
+                        # Map categories to services
+                        $services = @()
+                        foreach ($cat in $categories) {
+                            $catLower = $cat.ToLower()
+                            if ($catLower -like "*teams*") { $services += "Microsoft Teams" }
+                            elseif ($catLower -like "*sharepoint*") { $services += "SharePoint Online" }
+                            elseif ($catLower -like "*exchange*") { $services += "Exchange Online" }
+                            elseif ($catLower -like "*outlook*") { $services += "Outlook" }
+                            elseif ($catLower -like "*onedrive*") { $services += "OneDrive for Business" }
+                            elseif ($catLower -like "*copilot*") { $services += "Microsoft Copilot" }
+                            elseif ($catLower -like "*viva*") { $services += "Microsoft Viva" }
+                            elseif ($catLower -like "*purview*") { $services += "Microsoft Purview" }
+                            elseif ($catLower -like "*word*") { $services += "Microsoft 365 Apps" }
+                            elseif ($catLower -like "*excel*") { $services += "Microsoft 365 Apps" }
+                            elseif ($catLower -like "*powerpoint*") { $services += "Microsoft 365 Apps" }
+                        }
+                        
+                        # Default to Microsoft 365 Roadmap if no specific service found
+                        if ($services.Count -eq 0) {
+                            $services = @("Microsoft 365 Roadmap")
+                        }
+                        
+                        # Remove duplicates
+                        $services = $services | Sort-Object | Get-Unique
+                        
+                        $roadmapItem = @{
+                            Id = "ROADMAP_$($item.guid)"
+                            Title = $item.title
+                            Description = $item.description
+                            Link = $item.link
+                            PubDate = $item.pubDate
+                            Categories = $categories
+                            Services = $services
+                            Type = "roadmap"
+                        }
+                        $roadmapItems += $roadmapItem
+                    }
+                    catch {
+                        Write-Warning "Failed to process roadmap item: $($_.Exception.Message)"
+                    }
                 }
-                $roadmapItems += $roadmapItem
             }
             
             Write-Host "Found $($roadmapItems.Count) roadmap items"
