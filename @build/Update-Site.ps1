@@ -59,7 +59,7 @@ function Get-M365RoadmapItems() {
                 foreach ($item in $rssContent.rss.channel.item) {
                     try {
                         $itemCount++
-                        if ($itemCount -gt 100) { break } # Limit to first 100 items for performance
+                        if ($itemCount -gt 2500) { break } # Limit to first 2500 items to capture most roadmap content
                         
                         # Extract categories as an array
                         $categories = @()
