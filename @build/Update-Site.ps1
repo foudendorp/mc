@@ -59,7 +59,7 @@ function Get-M365RoadmapItems() {
                 foreach ($item in $rssContent.rss.channel.item) {
                     try {
                         $itemCount++
-                        if ($itemCount -gt 50) { break } # Limit to first 50 items for performance
+                        if ($itemCount -gt 100) { break } # Limit to first 100 items for performance
                         
                         # Extract categories as an array
                         $categories = @()
@@ -75,6 +75,11 @@ function Get-M365RoadmapItems() {
                         $services = @()
                         foreach ($cat in $categories) {
                             $catLower = $cat.ToString().ToLower()
+                            # Debug: Log categories that might be Entra-related
+                            if ($catLower -like "*entra*" -or $catLower -like "*azure*" -or $catLower -like "*identity*" -or $catLower -like "*auth*") {
+                                Write-Host "DEBUG: Found potential Entra category: $cat in item: $($item.title)"
+                            }
+                            
                             if ($catLower -like "*teams*") { $services += "Microsoft Teams" }
                             elseif ($catLower -like "*sharepoint*") { $services += "SharePoint Online" }
                             elseif ($catLower -like "*exchange*") { $services += "Exchange Online" }
@@ -95,7 +100,7 @@ function Get-M365RoadmapItems() {
                             elseif ($catLower -like "*defender*" -and $catLower -like "*identity*") { $services += "Microsoft Defender for Identity" }
                             elseif ($catLower -like "*defender*" -and $catLower -like "*business*") { $services += "Microsoft Defender for Business" }
                             elseif ($catLower -like "*defender*" -and $catLower -like "*cloud*") { $services += "Microsoft Defender for Cloud Apps" }
-                            elseif ($catLower -like "*entra*" -or $catLower -like "*azure ad*" -or $catLower -like "*azuread*") { $services += "Microsoft Entra" }
+                            elseif ($catLower -like "*entra*" -or $catLower -like "*azure ad*" -or $catLower -like "*azuread*" -or $catLower -like "*azure active directory*" -or $catLower -like "*authentication*" -or $catLower -like "*identity*") { $services += "Microsoft Entra" }
                             elseif ($catLower -like "*intune*") { $services += "Microsoft Intune" }
                             elseif ($catLower -like "*planner*") { $services += "Planner" }
                             elseif ($catLower -like "*to do*" -or $catLower -like "*todo*") { $services += "Microsoft To Do" }
