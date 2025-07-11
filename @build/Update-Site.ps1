@@ -138,9 +138,9 @@ function Get-M365RoadmapItems() {
                         # Extract the roadmap ID from the link
                         $roadmapId = ""
                         if ($item.link -and $item.link -match "id=(\d+)") {
-                            $roadmapId = "RM$($matches[1])"
+                            $roadmapId = "$($matches[1])"
                         } else {
-                            $roadmapId = "RM_$itemCount"  # Fallback if no ID found
+                            $roadmapId = "$itemCount"  # Fallback if no ID found
                         }
                         
                         # Use full description without truncation

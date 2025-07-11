@@ -40,9 +40,9 @@ export function getAllCombinedItems() {
         // Extract roadmap ID from Link if available
         let roadmapId = `roadmap-${index}`;
         if (item.Link && item.Link.match(/id=(\d+)/)) {
-            roadmapId = `RM${item.Link.match(/id=(\d+)/)[1]}`;
+            roadmapId = `${item.Link.match(/id=(\d+)/)[1]}`;
         } else if (item.Id && !item.Id.includes('System.Xml.XmlElement')) {
-            roadmapId = item.Id;
+            roadmapId = item.Id.replace('RM', ''); // Remove RM prefix if present
         }
 
         return {
@@ -77,10 +77,12 @@ export function getRoadmapData(id: string): any | undefined {
     // Find roadmap item by the extracted ID or original ID
     const roadmapItem = roadmapItems.find((item: any) => {
         if (item.Link && item.Link.match(/id=(\d+)/)) {
-            const extractedId = `RM${item.Link.match(/id=(\d+)/)[1]}`;
+            const extractedId = `${item.Link.match(/id=(\d+)/)[1]}`;
             return extractedId === id;
         }
-        return item.Id === id;
+        // Handle both RM-prefixed and non-prefixed IDs for backward compatibility
+        const itemId = item.Id ? item.Id.replace('RM', '') : '';
+        return itemId === id || item.Id === id;
     });
     return roadmapItem;
 }

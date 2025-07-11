@@ -43,9 +43,10 @@ export const columns: ColumnDef<MessageView>[] = [
       )
     },
     cell: ({ row }) => {
+      const displayId = row.original.id.startsWith('RM') ? row.original.id.replace('RM', '') : row.original.id;
       return (
         <div className="flex items-center gap-2">
-          <span className="text-nowrap">{row.original.id}</span>
+          <span className="text-nowrap">{displayId}</span>
           {(row.original.isMajor &&
             <TooltipProvider>
               <Tooltip>
