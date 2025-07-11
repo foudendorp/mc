@@ -13,9 +13,9 @@ function getData(): MessageView[] {
         lastUpdated: item.lastUpdated,
         isMajor: item.isMajor,
         type: item.type,
-        link: 'link' in item ? item.link : undefined,
-        description: 'description' in item ? item.description : undefined,
-        category: 'category' in item ? item.category : undefined
+        link: undefined,
+        description: undefined,
+        category: undefined
     }));
 }
 
