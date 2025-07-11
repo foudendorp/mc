@@ -75,10 +75,6 @@ function Get-M365RoadmapItems() {
                         $services = @()
                         foreach ($cat in $categories) {
                             $catLower = $cat.ToString().ToLower()
-                            # Debug: Log categories that might be Entra-related
-                            if ($catLower -like "*entra*" -or $catLower -like "*azure*" -or $catLower -like "*identity*" -or $catLower -like "*auth*") {
-                                Write-Host "DEBUG: Found potential Entra category: $cat in item: $($item.title)"
-                            }
                             
                             if ($catLower -like "*teams*") { $services += "Microsoft Teams" }
                             elseif ($catLower -like "*sharepoint*") { $services += "SharePoint Online" }
@@ -147,11 +143,8 @@ function Get-M365RoadmapItems() {
                             $roadmapId = "RM_$itemCount"  # Fallback if no ID found
                         }
                         
-                        # Clean and truncate description
+                        # Use full description without truncation
                         $description = $item.description
-                        if ($description.Length -gt 500) {
-                            $description = $description.Substring(0, 500) + "..."
-                        }
                         
                         $roadmapItem = @{
                             Id = $roadmapId

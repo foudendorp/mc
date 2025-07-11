@@ -34,15 +34,22 @@ export default function Page({ params }: Props) {
                     
                     {/* Info Cards Section */}
                     <div className="space-y-4 w-full">
-                        {/* Categories badges at the top */}
+                        {/* Services badges at the top */}
                         <div className="space-y-2">
-                            <h3 className="text-lg font-semibold">Categories</h3>
+                            <h3 className="text-lg font-semibold">Services</h3>
                             <div className="flex flex-wrap gap-2">
-                                {roadmapItem.Categories?.map((category: string) => (
-                                    <span key={category} className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
-                                        {category}
-                                    </span>
-                                ))}
+                                {Array.isArray(roadmapItem.Services) ? 
+                                    roadmapItem.Services.map((service: string) => (
+                                        <span key={service} className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
+                                            {service}
+                                        </span>
+                                    )) : 
+                                    roadmapItem.Services && (
+                                        <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
+                                            {roadmapItem.Services}
+                                        </span>
+                                    )
+                                }
                             </div>
                         </div>
 
@@ -136,7 +143,7 @@ export default function Page({ params }: Props) {
                         <div className="overflow-hidden rounded-[0.5rem] border bg-background shadow-md md:shadow-md">
                             <div className="p-6">
                                 <h3 className="text-lg font-semibold mb-4">Description</h3>
-                                <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: roadmapItem.Description }} />
+                                <div className="text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: roadmapItem.Description }} />
                             </div>
                         </div>
 
