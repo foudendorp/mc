@@ -4,6 +4,169 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated July 3, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Extend your sensitivity labels to specific or all subscriptions within Azure Storage, Azure SQL, Azure Cosmos DB, Azure Data Explorer, Azure Database for MySQL, Azure Database for PostgreSQL, Azure Databricks Unity Catalog, Azure SQL Managed Instance, Azure Synapse Analytics, Snowflake, Dataverse, and SQL Server via auto-labeling policy. Clearly define labeling conditions for data sources beyond M365 without fear of it interfering with existing M365 files configurations.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=429876\" target=\"_blank\">429876</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out early July 2025 and expect to complete by late July 2025.</p><p>General Availability (Worldwide): We will begin rolling out late November 2025  and expect to complete by late December 2025.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>You can create new auto-labeling policies for non-m365 workloads Server that allow you to specify specific data assets or ALL assets to be automatically labeled when the out-of-the-box sensitive information types are detected in a column or asset. After the auto-labeling policy is turned on, wait 15 minutes, and then rescan the scoped data assets. The assets will be labeled automatically.\n</p><p>This change will be available by default for admins to configure.\n</p><p>After the rollout, these capabilities will no longer be available:\n</p><ul><li>The ability to extend labeling to assets in the Microsoft Purview Data Map (opt in)\n<ul><li>Instead, you can select where to extend these assets in an auto-labeling policy\n</li></ul></li><li><i>Schematized data assets</i> as an applicable label scope\n<ul><li>You can select any label with the scope <i>Files &amp; other data assets</i> for labeling in non-Microsoft 365 workloads\n</li></ul></li><li>Auto-labeling for schematized data assets in label definition\n<ul><li>If you have configured <i>Auto-labeling for schematized data assets</i> in the label definition, you will need to reconfigure those conditions in an auto-labeling policy. \n</li></ul></li></ul><p>Tip: After you apply labeling to data assets, you can use protection policies to add access control settings associated with the label.\n</p><p>You will be able to select <i>non-m365 workloads</i>&nbsp;in the auto-labeling policy:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/e8fe772e-b2fe-4c68-b96d-a6eced6f3199\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><ul><li><a href=\"https://learn.microsoft.com/purview/sensitivity-labels-frequently-asked-questions\" target=\"_blank\">Sensitivity Labels in the Microsoft Purview Data Map FAQ</a>\n</li><li><a href=\"https://learn.microsoft.com/purview/purview-billing-models\" target=\"_blank\">Learn about Microsoft Purview billing models | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/purview-billing-models\" target=\"_blank\"><a href=\"https://learn.microsoft.com/purview/data-map-data-sources\" target=\"_blank\">Data sources that connect to Microsoft Purview Data Map | Microsoft Learn</a><br></a></li></ul><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "429876"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview's auto-labeling for Azure Storage and Azure SQL will be available in public preview in July 2025 and generally available by December 2025. This feature allows auto-labeling of data assets beyond M365, with specific or all subscriptions. Admins can configure these policies, and existing capabilities will be updated."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-02-09T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC933531",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-11T19:46:59.897Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-11-13T23:14:19Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Information Protection: Auto-labeling for Microsoft Azure Storage and Azure SQL",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 11, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Microsoft SharePoint agents will now bring Viva Connections cards to conversations. When a card is relevant for a specific topic, it will surface in the conversation chat, allowing users to interact with it directly from SharePoint agents without interrupting their flow.</p><p></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=412621\" target=\"_blank\">412621</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out on late March 2025 and expect to complete by late June 2025.</p><p>General Availability (Worldwide): We will begin rolling out on late September 2025 (previously late June) and expect to complete by late October 2025 (previously late August).&nbsp;</p><p><b>How this will affect your organization:</b></p><p><span style=\"font-family: Arial; font-size: 10pt;\">Users will now have the ability to interact with Viva Connections cards directly from any SharePoint agents. This enhancement ensures that relevant information is readily accessible within the context of their conversations, improving productivity and user experience.</span></p><p>For more information, see the following:</p><ul><li><a href=\"https://support.microsoft.com/topic/copilot-in-viva-connections-44534466-5ded-4310-8d70-4d4116afddf2#bkmk_dashboard-card-in-copilot\" target=\"_blank\">Prompt Copilot to display a dashboard card in SharePoint</a></li><li><a href=\"https://support.microsoft.com/topic/copilot-in-viva-connections-faq-b464b3c1-a19e-4496-b9cc-890c6ab56111#bkmk_dashboard-cards-in-copilot-faq\" target=\"_blank\">Copilot in Viva Connections FAQ (Using Copilot to check your Connections dashboard cards)</a></li></ul><div style=\"font-family: Arial; font-size: 10pt;\"><span style=\"font-family: sans-serif; font-size: 14px;\"><b>What you need to do to prepare:</b></span></div><p></p><div style=\"font-family: Arial; font-size: 10pt;\">If Viva Connections is enabled, dashboard cards will be available in SharePoint agents when relevant to a user's conversation. No admin action is required. You may want to notify your users about this change and update any relevant documentation as appropriate.</div>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "412621"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft SharePoint agents will integrate Viva Connections cards into conversations, allowing users to interact with them directly. Public preview starts in late March 2025, with general availability in late September 2025. No admin action is required, but notifying users and updating documentation is recommended."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-12-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1045227",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-11T19:24:08.117Z",
+    "Services": [
+      "SharePoint Online",
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-03-31T22:42:05Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Viva Connections cards in SharePoint agents",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>How informed and prepared are you for Windows updates and changes? Bookmark the tools we’re constantly updating and improving based on your feedback. This toolbox consolidates key links and support resources to streamline planning and deployment.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>The resources summarized in this article are already available and improved.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Be better informed and equipped to manage Windows updates and changes through the resources listed in this toolbox. Experience improved accessibility, discoverability, localization, and the overall user experience across our channels.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>No action is needed. Learn more about these existing resources under Additional information.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><div>Bookmark <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/your-windows-release-information-toolbox/4430980\" rel=\"noopener noreferrer\" target=\"_blank\">Your Windows release information toolbox</a> to access and learn more about:&nbsp;</div><ul><li><a href=\"https://aka.ms/WindowsReleaseHealth\" rel=\"noopener noreferrer\" target=\"_blank\">Windows release health</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 release information page</a>&nbsp;</li><li><a href=\"https://admin.microsoft.com/Adminportal/Home#/homepage\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft 365 admin center</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information#windows-11-hotpatch-calendar\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 hotpatch calendar</a>&nbsp;</li><li><a href=\"https://support.microsoft.com/help/5048812\" rel=\"noopener noreferrer\" target=\"_blank\">Hotpatch update history page for Windows 11, version 24H2 Enterprise clients</a>&nbsp;</li><li><a href=\"https://www.microsoft.com/windows/business/roadmap\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Roadmap</a>&nbsp;</li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows-ITPro-blog\" rel=\"noopener noreferrer\" target=\"_blank\">Windows IT Pro Blog</a>&nbsp;</li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-server-news-and-best/bg-p/WindowsServerNewsandBestPractices\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Server News and Best Practices Blog</a>&nbsp;</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-07-11T17:00:06.063Z",
+    "HasAttachments": false,
+    "Id": "MC1113571",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-11T17:00:06.89Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-11T17:00:06.11Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Your Windows release information toolbox",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 11, 2025: We have updated the content. Thank you for your patience.</p><p>To support a more consistent and secure email experience across Microsoft 365, we are transitioning to a unified domain for all product-generated emails. As part of this change, missed activity emails for Microsoft Teams will now be sent from ‘no-reply@teams.mail.microsoft’ instead of the previous ‘noreply@*email.teams.microsoft.com’ domain.</p><p><b>When this will happen:</b></p><ul><li>Public Preview: Rolling out early July 2025, expected to complete by early July 2025.\n</li><li>Targeted Release: Rolling out early July 2025, expected to complete by early July 2025.\n</li><li>General Availability: Rolling out mid-July 2025, expected to complete by late July 2025.\n</li></ul><p><b>How this will affect your organization:</b></p><p>There is no impact to tenant configuration or admin settings. End users will simply see a new sender address for missed activity emails from Teams. No action is required from users or admins.\n</p><p><b>What you can do to prepare:</b></p><p>No preparation is needed. However, you may wish to inform your helpdesk or communications teams of the sender address change to avoid confusion or misidentification of legitimate messages.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Missed activity emails for Microsoft Teams will now come from ‘no-reply@teams.mail.microsoft’ instead of ‘noreply@*email.teams.microsoft.com’. This change aims for a consistent and secure email experience and will roll out in July 2025. No action is required from users or admins."
+      }
+    ],
+    "EndDateTime": "2025-09-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1112449",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-11T12:49:59.583Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-10T00:15:05Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Missed Activity Emails for Teams Will Now Come from a Unified Domain",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p></p><p><b>Introduction</b></p><p>We’re introducing Multi-Geo In-Region Routing (IRR) for Exchange Online, a new capability that helps organizations meet regional data residency requirements by allowing inbound email routing to be aligned with user locations. With IRR, admins can configure accepted domains to route messages directly to a designated geo-region, ensuring that email data is processed and stored entirely within the recipient’s region—even if it differs from the tenant’s primary location. This helps organizations meet compliance requirements without compromising email delivery performance.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=410245\" target=\"_blank\">410245</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out in early August 2025 and expect to complete by end of August 2025.</p><p>General Availability (Worldwide): We expect to begin rolling out in early October 2025 and expect to complete by late October 2025.</p><p><b>How this will affect your organization:</b></p><p>In-Region Routing (IRR) is disabled by default. If you do not plan to use this feature, no action is required.</p><p>For domains where you choose to enable IRR, the feature allows you to route inbound emails to accepted domains associated with specific geo-regions. When these domains are aligned with users located in the same geo-region, emails are fully processed and stored within the recipient’s region. This ensures that data remains within the user’s Preferred Data Location (PDL), supporting stronger data sovereignty and compliance with regional regulations.</p><p>If your organization uses Microsoft Purview capabilities such as Data Loss Prevention (DLP), retention policies, or eDiscovery, you may need to review and adjust those policies to ensure they align with the new regional routing behavior.</p><p></p><p><b>What you need to do to prepare:</b></p><ul><li>Ensure that admins have the necessary permissions to manage accepted domains and access to either Exchange Online PowerShell or to the Microsoft 365 admin center.</li><li>Review your domain configurations and identify users located in secondary geo-regions.\n</li><li>Prepare to configure accepted domains with the new geo-region property.</li><li>Review the documentation for configuring the feature: <a href=\"https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide\" target=\"_blank\">Microsoft 365 Multi-Geo | Learn</a>&nbsp;</li></ul><p>We value your feedback and want to hear from you if you have any questions or concerns. Please comment or contact us through the M365 Admin Center if you need any assistance.</p><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing user data is processed, stored, or accessed? - Yes. Emails are stored in-region based on domain configuration.</li><li>Does the change modify, interrupt, or disable any Purview capabilities? - Maybe. Depends on how DLP or retention policies are scoped by region.</li><li>Does the change alter how admins can monitor, report on, or demonstrate compliance activities? - Maybe. Regional routing may affect reporting granularity.</li></ul><p></p><p></p>",
       "ContentType": "html"
     },
@@ -215,7 +378,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"496369\":[{\"RoadmapId\":496369,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853611Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853613Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853613Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853615Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853616Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853617Z\",\"LatestRing\":null}]}"
+        "Value": "{\"496369\":[{\"RoadmapId\":496369,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370898Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370899Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370901Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370902Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370904Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370906Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -427,43 +590,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>To support a more consistent and secure email experience across Microsoft 365, we are transitioning to a unified domain for all product-generated emails. As part of this change, missed activity emails for Microsoft Teams will now be sent from <i>teams.mail.microsoft</i> instead of the previous <i>teams.email.microsoft</i> domain.\n</p><p><b>When this will happen:</b></p><ul><li>Public Preview: Rolling out early July 2025, expected to complete by early July 2025.\n</li><li>Targeted Release: Rolling out early July 2025, expected to complete by early July 2025.\n</li><li>General Availability: Rolling out mid-July 2025, expected to complete by late July 2025.\n</li></ul><p><b>How this will affect your organization:</b></p><p>There is no impact to tenant configuration or admin settings. End users will simply see a new sender address for missed activity emails from Teams. No action is required from users or admins.\n</p><p><b>What you can do to prepare:</b></p><p>No preparation is needed. However, you may wish to inform your helpdesk or communications teams of the sender address change to avoid confusion or misidentification of legitimate messages.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Missed activity emails for Microsoft Teams will now come from the domain teams.mail.microsoft instead of teams.email.microsoft. This change will roll out in July 2025 with no impact on tenant configuration or admin settings. No action is required, but informing helpdesk or communications teams is recommended."
-      }
-    ],
-    "EndDateTime": "2025-09-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1112449",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-10T00:15:13.283Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-10T00:15:05Z",
-    "Tags": [
-      "Feature update",
-      "User impact"
-    ],
-    "Title": "Missed Activity Emails for Teams Will Now Come from a Unified Domain",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated July 9, 2025: This release has been launched for tenants in the Worldwide environment. We have updated the timeline below. Thank you for your patience.</p><p>Coming soon to the <a href=\"https://purview.microsoft.com/\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">Microsoft Purview compliance portal</a>: To assist you in diagnosing issues encountered while using Microsoft Information Protection (MIP) and Data Loss Prevention (DLP), we will release a new experience where you can run diagnostics to help identify the root cause of issues and provide remediation options. Before this rollout, these diagnostics were only available as Microsoft PowerShell cmdlets.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=418566\" target=\"_blank\">418566</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out early December 2024 (previously late October) and expect to complete by late December 2024 (previously mid-November).\n</p><p>General Availability (Worldwide): We will begin rolling out mid-April and expect to complete by late April.</p><p>General Availability (GCC, GCCHigh, DoD): We will begin rolling out late July 2025 (previously mid-April) and expect to complete by late August 2025 (previously late April).</p><p><b>How this will affect your organization:</b></p><p>After this rollout, you can troubleshoot issues at <span style=\"background-color: rgb(214, 239, 214);\">Purview compliance portal</span> <i>&gt; Data Loss Prevention &gt; Run diagnostics</i>.\n</p><p>This new feature will be on by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your admins about this change and update any relevant documentation.\n</p><p>Before rollout, we will update this post with revised documentation.\n</p><p><a href=\"https://purview.microsoft.com/\" target=\"_blank\" style=\"\"><font color=\"#000000\" style=\"background-color: rgb(214, 239, 214);\">Microsoft Purview compliance portal</font></a></p>",
       "ContentType": "html"
     },
@@ -599,7 +725,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"472913\":[{\"RoadmapId\":472913,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853151Z\",\"LatestRing\":null},{\"RoadmapId\":472913,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853152Z\",\"LatestRing\":null},{\"RoadmapId\":472913,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853153Z\",\"LatestRing\":null}]}"
+        "Value": "{\"472913\":[{\"RoadmapId\":472913,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.036952Z\",\"LatestRing\":null},{\"RoadmapId\":472913,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369522Z\",\"LatestRing\":null},{\"RoadmapId\":472913,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369523Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1710,53 +1836,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated July 3, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Extend your sensitivity labels to specific or all subscriptions within Azure Storage, Azure SQL, Azure Cosmos DB, Azure Data Explorer, Azure Database for MySQL, Azure Database for PostgreSQL, Azure Databricks Unity Catalog, Azure SQL Managed Instance, Azure Synapse Analytics, Snowflake, Dataverse, and SQL Server via auto-labeling policy. Clearly define labeling conditions for data sources beyond M365 without fear of it interfering with existing M365 files configurations.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=429876\" target=\"_blank\">429876</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out early July 2025 and expect to complete by late July 2025.</p><p>General Availability (Worldwide): We will begin rolling out late November 2025  and expect to complete by late December 2025.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>You can create new auto-labeling policies for non-m365 workloads Server that allow you to specify specific data assets or ALL assets to be automatically labeled when the out-of-the-box sensitive information types are detected in a column or asset. After the auto-labeling policy is turned on, wait 15 minutes, and then rescan the scoped data assets. The assets will be labeled automatically.\n</p><p>This change will be available by default for admins to configure.\n</p><p>After the rollout, these capabilities will no longer be available:\n</p><ul><li>The ability to extend labeling to assets in the Microsoft Purview Data Map (opt in)\n<ul><li>Instead, you can select where to extend these assets in an auto-labeling policy\n</li></ul></li><li><i>Schematized data assets</i> as an applicable label scope\n<ul><li>You can select any label with the scope <i>Files &amp; other data assets</i> for labeling in non-Microsoft 365 workloads\n</li></ul></li><li>Auto-labeling for schematized data assets in label definition\n<ul><li>If you have configured <i>Auto-labeling for schematized data assets</i> in the label definition, you will need to reconfigure those conditions in an auto-labeling policy. \n</li></ul></li></ul><p>Tip: After you apply labeling to data assets, you can use protection policies to add access control settings associated with the label.\n</p><p>You will be able to select <i>non-m365 workloads</i>&nbsp;in the auto-labeling policy:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/e8fe772e-b2fe-4c68-b96d-a6eced6f3199\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><ul><li><a href=\"https://learn.microsoft.com/purview/sensitivity-labels-frequently-asked-questions\" target=\"_blank\">Sensitivity Labels in the Microsoft Purview Data Map FAQ</a>\n</li><li><a href=\"https://learn.microsoft.com/purview/purview-billing-models\" target=\"_blank\">Learn about Microsoft Purview billing models | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/purview-billing-models\" target=\"_blank\"><a href=\"https://learn.microsoft.com/purview/data-map-data-sources\" target=\"_blank\">Data sources that connect to Microsoft Purview Data Map | Microsoft Learn</a><br></a></li></ul><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "429876"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview's auto-labeling for Azure Storage and Azure SQL will be available in public preview in July 2025 and generally available by December 2025. This feature allows auto-labeling of data assets beyond M365, with specific or all subscriptions. Admins can configure these policies, and existing capabilities will be updated."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-08-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC933531",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-03T14:34:43.893Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-11-13T23:14:19Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Information Protection: Auto-labeling for Microsoft Azure Storage and Azure SQL",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated July 3, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>To help you manage metered consumption costs for Microsoft 365 Copilot Chat, we will introduce a new <i>Message consumption</i> usage report in the Microsoft 365 admin center. The new report will give you visibility into billed messages associated with your Microsoft 365 Copilot pay-as-you-go billing policies and includes total messages consumed, cumulative and daily time series, and messages per user, per billing policy, per agent, and per agent-user pair. The new report will roll out in preview. During the preview stage, the report will display a maximum of 30 days of message consumption history. Usage information from prior to May 3, 2025, will not be available in the report.</p><p>This message refers to Microsoft Copilot in a pay-as-you-go model. A Microsoft Copilot license is not required.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=490738\" target=\"_blank\">490738</a>.</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out early May 2025 and expect to complete by late May 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out late September 2025 (previously late July) and expect to complete by late September 2025 (previously late July).</p><p><b>How this will affect your organization:</b>\n</p><p>After you have set up pay-as-you-go billing for Microsoft 365 Copilot, either in the Microsoft 365 admin center or the Microsoft Power Platform admin center, and you have enabled agent usage in your organization, you will see a new report including metrics for messages consumed at the levels of tenant, users, agents, and agent-user. To help you mitigate overspending, you will see alerts when users have consumed more than 2000 billed messages.\n</p><p>This new report will be on by default and will be available in the Microsoft admin center at <i>Reporting &gt; Usage &gt; Microsoft 365 Copilot &gt; Message consumption:</i>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/867710a2-68ce-4be5-b801-a0971a83a225\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify any admins that manage agents on the integrated apps page about this feature.\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/admin/activity-reports/message-consumption\">Microsoft 365 reports in the admin center - Message consumption</a></p>",
       "ContentType": "html"
     },
@@ -2415,7 +2494,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"496175\":[{\"RoadmapId\":496175,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852536Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":496175,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852538Z\",\"LatestRing\":null},{\"RoadmapId\":496175,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852539Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"496175\":[{\"RoadmapId\":496175,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369069Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":496175,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369071Z\",\"LatestRing\":null},{\"RoadmapId\":496175,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369072Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3874,7 +3953,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"369345\":[{\"RoadmapId\":369345,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852711Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852712Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852713Z\",\"LatestRing\":null}]}"
+        "Value": "{\"369345\":[{\"RoadmapId\":369345,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370287Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370288Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.037029Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4384,7 +4463,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"486535\":[{\"RoadmapId\":486535,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853401Z\",\"LatestRing\":null},{\"RoadmapId\":486535,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853402Z\",\"LatestRing\":null},{\"RoadmapId\":486535,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853403Z\",\"LatestRing\":null},{\"RoadmapId\":486535,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853404Z\",\"LatestRing\":null},{\"RoadmapId\":486535,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853405Z\",\"LatestRing\":null},{\"RoadmapId\":486535,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.185342Z\",\"LatestRing\":null}]}"
+        "Value": "{\"486535\":[{\"RoadmapId\":486535,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370631Z\",\"LatestRing\":null},{\"RoadmapId\":486535,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370632Z\",\"LatestRing\":null},{\"RoadmapId\":486535,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370633Z\",\"LatestRing\":null},{\"RoadmapId\":486535,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370634Z\",\"LatestRing\":null},{\"RoadmapId\":486535,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370636Z\",\"LatestRing\":null},{\"RoadmapId\":486535,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370638Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5465,7 +5544,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852632Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852633Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852635Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852636Z\",\"LatestRing\":null}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369221Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369222Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369224Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369225Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6657,7 +6736,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"421607\":[{\"RoadmapId\":421607,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852813Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":421607,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852814Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"421607\":[{\"RoadmapId\":421607,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370462Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":421607,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370464Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -6707,7 +6786,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"483506\":[{\"RoadmapId\":483506,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853283Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853284Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853285Z\",\"LatestRing\":null}]}"
+        "Value": "{\"483506\":[{\"RoadmapId\":483506,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368829Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368831Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368832Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8021,7 +8100,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"394274\":[{\"RoadmapId\":394274,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852177Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":394274,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852179Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"394274\":[{\"RoadmapId\":394274,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369769Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":394274,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369771Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8294,7 +8373,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"471000\":[{\"RoadmapId\":471000,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1854037Z\",\"LatestRing\":null},{\"RoadmapId\":471000,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1854038Z\",\"LatestRing\":null}]}"
+        "Value": "{\"471000\":[{\"RoadmapId\":471000,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371531Z\",\"LatestRing\":null},{\"RoadmapId\":471000,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371533Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8390,7 +8469,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"479744\":[{\"RoadmapId\":479744,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853883Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":479744,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853884Z\",\"LatestRing\":null},{\"RoadmapId\":479744,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853885Z\",\"LatestRing\":null},{\"RoadmapId\":479744,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853886Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"479744\":[{\"RoadmapId\":479744,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371304Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":479744,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371306Z\",\"LatestRing\":null},{\"RoadmapId\":479744,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371307Z\",\"LatestRing\":null},{\"RoadmapId\":479744,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371308Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8440,7 +8519,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"380852\":[{\"RoadmapId\":380852,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852344Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":380852,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852345Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"380852\":[{\"RoadmapId\":380852,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368901Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":380852,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368903Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8490,7 +8569,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487858\":[{\"RoadmapId\":487858,\"Platform\":\"Desktop\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852846Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":487858,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852847Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"487858\":[{\"RoadmapId\":487858,\"Platform\":\"Desktop\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370515Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":487858,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370517Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8862,7 +8941,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"480716\":[{\"RoadmapId\":480716,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852104Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852106Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":480716,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852107Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852109Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"480716\":[{\"RoadmapId\":480716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369654Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":480716,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369656Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369657Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369659Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -9072,7 +9151,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"470597\":[{\"RoadmapId\":470597,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1851925Z\",\"LatestRing\":null},{\"RoadmapId\":470597,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1851926Z\",\"LatestRing\":null},{\"RoadmapId\":470597,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1851927Z\",\"LatestRing\":null}]}"
+        "Value": "{\"470597\":[{\"RoadmapId\":470597,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368457Z\",\"LatestRing\":null},{\"RoadmapId\":470597,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.036846Z\",\"LatestRing\":null},{\"RoadmapId\":470597,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368462Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9148,37 +9227,6 @@
       "Admin impact"
     ],
     "Title": "New Microsoft Outlook and Outlook for the web: New setting to enable two-click view for encrypted emails",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to ensure compliance with geographical regulations and elevate customer satisfaction by customizing quiet time rules per region in Dynamics 365 Customer Insights - Journeys. This feature will reach general availability on July 1, 2025.<br><br>\n<b>How does this affect me?</b><br>\nWith the enhanced quiet time options, you can:<ul>  \n<li>Ensure adherence to various regulations by establishing quiet time rules for different regions or based on your business operation.</li>\n<li>Set the times, days, and dates when customers shouldn't be contacted.</li> \n<li>Customize quiet time settings for a particular journey. Upon activation of the journey, interactions are either initiated or queued in accordance with the preset rules and the identified customer's time zone or location.</li></ul>\nThese options ensure that you can stay compliant with local and regional regulations regarding customer privacy.<br><br>\n<b>What action do I need to take?</b><br>\nThis message is for awareness and no action is required.<br><br>\nIf you would like more information about this feature, please visit <a href=\"https://aka.ms/ADO11069-1\"target=\"_blank\">Set quiet times to prevent messages from sending during unwanted hours</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-11T19:17:50Z",
-    "HasAttachments": false,
-    "Id": "MC1092332",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-11T19:19:56.727Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-11T19:17:50Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Customer Insights - Journeys - Respect quiet times, engage based on location and time zones",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -9322,68 +9370,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to orchestrate journeys using any marketing interaction in Dynamics 365 Customer Insights – Journeys. This feature will reach general availability on July 1, 2025.<br><br>\n<b>How does this affect me?</b><br>\nThis feature enables you to leverage marketing interaction triggers to orchestrate or branch customer journeys, engaging with your customers based on interactions they have with your marketing messages.<br><br>\n<b>What action do I need to take?</b><br>\nThis message is for awareness and no action is required.<br><br>\nIf you would like more information about this feature, please visit the <a href=\"https://aka.ms/ADO11067\"target=\"_blank\">Orchestrate journeys using any marketing interaction</a> article.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-11T16:11:05Z",
-    "HasAttachments": false,
-    "Id": "MC1092181",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-11T16:12:30.837Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-11T16:11:05Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Customer Insights – Journeys - Orchestrate journeys using any marketing interaction",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to manage multiple addresses for accounts in Dynamics 365 Project Operations. This feature will reach general availability on July 11, 2025.<br><br> \n\n<b>How does this affect me?</b><br> \n\nThis feature enables you to maintain multiple invoices and delivery addresses along with multiple contact details for customers, vendors, and contracts. This also enables you to use addresses for invoicing purposes.<br><br> \n\n<b>What do I need to do to prepare?</b><br> \nThis message is for awareness and no action is required.<br><br> \n\nIf you would like more information on this feature, please visit the <a href=\"https://aka.ms/ADO10750\"target=\"_blank\">Manage multiple addresses for accounts</a> learn article.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-11T14:45:09Z",
-    "HasAttachments": false,
-    "Id": "MC1092119",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-11T14:47:12.913Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-11T14:45:09Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Project Operations - Sync global address book with Project Operations",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated June 11, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>If an organizer updates an event that you have been invited to, you will now see Event Updated in the email and the updated location if applicable.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=491018\" target=\"_blank\">491018</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out on late June 2025 (previously early June) and expect to complete by late July 2025.</p><p>General Availability (GCC): We will begin rolling out on late June 2025 (previously early June) and expect to complete by late July 2025.</p><p>General Availability (GCC High): We will begin rolling out on late June 2025 (previously early June) and expect to complete by late July 2025.</p><p>General Availability (DoD): We will begin rolling out on late June 2025 (previously early June) and expect to complete by late July 2025.</p><p><b>How this will affect your organization:</b></p><p>Users will now understand that their event is being updated when receiving event related emails, when applicable.</p><p>If the user has already RSVP’d to an event, and the organizer makes an update to the title, subject, or location, the email update will show “Event Updated” and the updated location (if applicable). Previously, the email update would show the event time and not explain that the event has been updated. This feature will not affect events that the user has not responded to and will not affect event updates where the organizer changes the time.&nbsp;</p><p>New Experience:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4d38d352-9cd7-4d53-b68f-af9274058f00/34c5569b9a3bbc1899ef2cdea7183b778f4cff9e.png\" style=\"width: 500px;\"><br></p><p>Old Experience: If an organizer updates the title, location, or description of an event that the user has already responded to, the email update will only display the event time.&nbsp;</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6124a39e-ef37-4612-a5f7-c7772f070c50/6b198c99583ead5b4fef56843b5c195ca47c6b33.png\" style=\"width: 500px;\"><br></p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically with no admin action required. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>",
       "ContentType": "html"
     },
@@ -9395,7 +9381,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491018\":[{\"RoadmapId\":491018,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853188Z\",\"LatestRing\":null},{\"RoadmapId\":491018,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853189Z\",\"LatestRing\":null},{\"RoadmapId\":491018,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.185319Z\",\"LatestRing\":null}]}"
+        "Value": "{\"491018\":[{\"RoadmapId\":491018,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369587Z\",\"LatestRing\":null},{\"RoadmapId\":491018,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369589Z\",\"LatestRing\":null},{\"RoadmapId\":491018,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.036959Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10389,7 +10375,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"494843\":[{\"RoadmapId\":494843,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853788Z\",\"LatestRing\":null},{\"RoadmapId\":494843,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853789Z\",\"LatestRing\":null},{\"RoadmapId\":494843,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.185379Z\",\"LatestRing\":null}]}"
+        "Value": "{\"494843\":[{\"RoadmapId\":494843,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371159Z\",\"LatestRing\":null},{\"RoadmapId\":494843,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371161Z\",\"LatestRing\":null},{\"RoadmapId\":494843,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371162Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12976,7 +12962,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.185259Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852592Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852593Z\",\"LatestRing\":null}]}"
+        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369153Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369154Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369156Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13112,7 +13098,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.185275Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852751Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852752Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852753Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370352Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370354Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370355Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370356Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -13162,7 +13148,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852396Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852397Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852398Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852399Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852401Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852404Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370133Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370135Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370138Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.037014Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370142Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370144Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14442,7 +14428,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491438\":[{\"RoadmapId\":491438,\"Platform\":\"iOS\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852059Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491438,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.185206Z\",\"LatestRing\":null},{\"RoadmapId\":491438,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852063Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491438\":[{\"RoadmapId\":491438,\"Platform\":\"iOS\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.036866Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491438,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368664Z\",\"LatestRing\":null},{\"RoadmapId\":491438,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368666Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14734,7 +14720,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"476487\":[{\"RoadmapId\":476487,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853339Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":476487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853341Z\",\"LatestRing\":null},{\"RoadmapId\":476487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853342Z\",\"LatestRing\":null},{\"RoadmapId\":476487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853343Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"476487\":[{\"RoadmapId\":476487,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370033Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":476487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370035Z\",\"LatestRing\":null},{\"RoadmapId\":476487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370037Z\",\"LatestRing\":null},{\"RoadmapId\":476487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370039Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14970,7 +14956,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852933Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852934Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852935Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368211Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368213Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368215Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15477,7 +15463,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"484844\":[{\"RoadmapId\":484844,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853737Z\",\"LatestRing\":null},{\"RoadmapId\":484844,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853738Z\",\"LatestRing\":null}]}"
+        "Value": "{\"484844\":[{\"RoadmapId\":484844,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371103Z\",\"LatestRing\":null},{\"RoadmapId\":484844,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371105Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15900,7 +15886,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"488091\":[{\"RoadmapId\":488091,\"Platform\":\"Android\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852309Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":488091,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.185231Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"488091\":[{\"RoadmapId\":488091,\"Platform\":\"Android\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369967Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":488091,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369969Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16826,7 +16812,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"490048\":[{\"RoadmapId\":490048,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852972Z\",\"LatestRing\":null},{\"RoadmapId\":490048,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852974Z\",\"LatestRing\":null}]}"
+        "Value": "{\"490048\":[{\"RoadmapId\":490048,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368311Z\",\"LatestRing\":null},{\"RoadmapId\":490048,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368313Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17615,7 +17601,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"475853\":[{\"RoadmapId\":475853,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853523Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":475853,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853524Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"475853\":[{\"RoadmapId\":475853,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370774Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":475853,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0370776Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17795,7 +17781,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"486694\":[{\"RoadmapId\":486694,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853826Z\",\"LatestRing\":null},{\"RoadmapId\":486694,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853828Z\",\"LatestRing\":null},{\"RoadmapId\":486694,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853828Z\",\"LatestRing\":null}]}"
+        "Value": "{\"486694\":[{\"RoadmapId\":486694,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371239Z\",\"LatestRing\":null},{\"RoadmapId\":486694,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371242Z\",\"LatestRing\":null},{\"RoadmapId\":486694,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371243Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -20911,52 +20897,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Microsoft SharePoint agents will now bring Viva Connections cards to conversations. When a card is relevant for a specific topic, it will surface in the conversation chat, allowing users to interact with it directly from SharePoint agents without interrupting their flow.</p><p></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=412621\" target=\"_blank\">412621</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out on late March 2025 and expect to complete by late June 2025.</p><p>General Availability (Worldwide): We will begin rolling out on late June 2025 and expect to complete by late August 2025.</p><p><b>How this will affect your organization:</b></p><p><span style=\"font-family: Arial; font-size: 10pt;\">Users will now have the ability to interact with Viva Connections cards directly from any SharePoint agents. This enhancement ensures that relevant information is readily accessible within the context of their conversations, improving productivity and user experience.</span></p><p>For more information, see the following:</p><ul><li><a href=\"https://support.microsoft.com/topic/copilot-in-viva-connections-44534466-5ded-4310-8d70-4d4116afddf2#bkmk_dashboard-card-in-copilot\" target=\"_blank\">Prompt Copilot to display a dashboard card in SharePoint</a></li><li><a href=\"https://support.microsoft.com/topic/copilot-in-viva-connections-faq-b464b3c1-a19e-4496-b9cc-890c6ab56111#bkmk_dashboard-cards-in-copilot-faq\" target=\"_blank\">Copilot in Viva Connections FAQ (Using Copilot to check your Connections dashboard cards)</a></li></ul><div style=\"font-family: Arial; font-size: 10pt;\"><span style=\"font-family: sans-serif; font-size: 14px;\"><b>What you need to do to prepare:</b></span></div><p></p><div style=\"font-family: Arial; font-size: 10pt;\">If Viva Connections is enabled, dashboard cards will be available in SharePoint agents when relevant to a user's conversation. No admin action is required. You may want to notify your users about this change and update any relevant documentation as appropriate.</div>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "412621"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft SharePoint agents will integrate Viva Connections cards into conversations, allowing users to interact with them directly. Public preview starts in late March 2025, with general availability by late August 2025. No admin action is required, but notifying users and updating documentation is recommended."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-10-06T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1045227",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-03-31T22:42:48.823Z",
-    "Services": [
-      "SharePoint Online",
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-03-31T22:42:05Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Viva Connections cards in SharePoint agents",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Coming soon for Microsoft Teams: A new setting that allows users to view incoming calls in a small window in Teams to prevent disruptions. Users will be able to take a call in the small window and continue to see what they were working on before the call.</p><p>This message applies to Teams on Windows desktop, Teams on Mac desktop, Teams for the web, and Teams for iOS/Android.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=482747\" target=\"_blank\">482747</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out early May 2025 and expect to complete by mid-May 2025.</p><p>General Availability (Worldwide): We will begin rolling out mid-May 2025 and expect to complete by late May 2025.\n</p><p>General Availability (GCC): We will begin rolling out early June 2025 and expect to complete by mid-June 2025.</p><p></p><p>General Availability: (GCC High, DoD): We will begin rolling out early June 2025 and expect to complete by late June 2025.\n</p><p><b>How this will affect your organization:</b></p><p>Before this rollout: Teams users are disrupted by the larger Teams screen when viewing an incoming call.</p><p>After this rollout: Teams users can turn on this setting to view calls in a small window. Note that both large and small windows are resizable:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b4e236c2-758f-46e9-a1bb-7a6c2a8284ea\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>This feature will be on by default.</p><p><b>What you need to do to prepare:</b> </p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p>",
       "ContentType": "html"
     },
@@ -21698,7 +21638,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"470600\":[{\"RoadmapId\":470600,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853936Z\",\"LatestRing\":null},{\"RoadmapId\":470600,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853937Z\",\"LatestRing\":null},{\"RoadmapId\":470600,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853938Z\",\"LatestRing\":null}]}"
+        "Value": "{\"470600\":[{\"RoadmapId\":470600,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.037141Z\",\"LatestRing\":null},{\"RoadmapId\":470600,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371412Z\",\"LatestRing\":null},{\"RoadmapId\":470600,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0371413Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -21747,7 +21687,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852484Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852485Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852486Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1852487Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368965Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368966Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368967Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0368969Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -22428,7 +22368,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"415249\":[{\"RoadmapId\":415249,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1851712Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":415249,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1851714Z\",\"LatestRing\":null},{\"RoadmapId\":415249,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1851715Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":415249,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1851716Z\",\"LatestRing\":null},{\"RoadmapId\":415249,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1851717Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"415249\":[{\"RoadmapId\":415249,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0367715Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":415249,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0367719Z\",\"LatestRing\":null},{\"RoadmapId\":415249,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0367722Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":415249,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0367723Z\",\"LatestRing\":null},{\"RoadmapId\":415249,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0367725Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -22622,7 +22562,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853062Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853063Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853064Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853065Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853066Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T11:02:22.1853068Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369378Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.036938Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369382Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369384Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369385Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-11T20:15:18.0369388Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
