@@ -1,6 +1,6 @@
 import { Message } from '@/types/message';
 import dataMessages from '@/@data/messages.json'
-import { fetchRoadmapData, getRoadmapServices, type RoadmapItem, type CombinedItem } from './roadmap';
+import roadmapData from '@/@data/roadmap.json'
 
 const messages: Message[] = dataMessages;
 
@@ -16,9 +16,12 @@ export function getAllMessages(): Message[] {
     return dataMessages;
 }
 
-export async function getAllCombinedItems(): Promise<CombinedItem[]> {
-    // Get message center data
-    const messageCenterItems: CombinedItem[] = dataMessages.map(msg => ({
+export function getAllRoadmapItems() {
+    return roadmapData || [];
+}
+
+export function getAllCombinedItems() {
+    const messageCenterItems = dataMessages.map(msg => ({
         id: msg.Id,
         title: msg.Title,
         service: msg.Services,
@@ -27,22 +30,20 @@ export async function getAllCombinedItems(): Promise<CombinedItem[]> {
         type: 'message-center' as const
     }));
 
-    // Get roadmap data
-    const roadmapItems = await fetchRoadmapData();
-    const roadmapCombinedItems: CombinedItem[] = roadmapItems.map(item => ({
-        id: item.id,
-        title: item.title,
-        service: getRoadmapServices(item.category),
-        lastUpdated: getFormattedDate(item.pubDate),
-        isMajor: false, // Roadmap items are not "major changes" in the same sense
+    const roadmapItems = getAllRoadmapItems().map((item: any) => ({
+        id: item.Id,
+        title: item.Title,
+        service: item.Services || ['Microsoft 365 Roadmap'],
+        lastUpdated: getFormattedDate(item.PubDate),
+        isMajor: false,
         type: 'roadmap' as const,
-        link: item.link,
-        description: item.description,
-        category: item.category
+        link: item.Link,
+        description: item.Description,
+        category: item.Categories
     }));
 
     // Combine and sort by last updated date (newest first)
-    const combined = [...messageCenterItems, ...roadmapCombinedItems];
+    const combined = [...messageCenterItems, ...roadmapItems];
     return combined.sort((a, b) => {
         const dateA = new Date(a.lastUpdated || '1970-01-01');
         const dateB = new Date(b.lastUpdated || '1970-01-01');
