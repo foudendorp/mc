@@ -1,5 +1,6 @@
 import { Message } from '@/types/message';
 import dataMessages from '@/@data/messages.json'
+import roadmapData from '@/@data/roadmap.json'
 
 const messages: Message[] = dataMessages;
 
@@ -15,11 +16,14 @@ export function getAllMessages(): Message[] {
     return dataMessages;
 }
 
-// Safely get roadmap data with fallback
+// Get roadmap data with fallback
 export function getAllRoadmapItems() {
-    // For now, return empty array to prevent build errors
-    // This will be populated when the PowerShell script runs
-    return [];
+    try {
+        return roadmapData || [];
+    } catch (error) {
+        console.warn('Failed to load roadmap data:', error);
+        return [];
+    }
 }
 
 export function getAllCombinedItems() {
@@ -32,10 +36,10 @@ export function getAllCombinedItems() {
         type: 'message-center' as const
     }));
 
-    const roadmapItems = getAllRoadmapItems().map((item: any) => ({
-        id: item.Id,
-        title: item.Title,
-        service: item.Services || ['Microsoft 365 Roadmap'],
+    const roadmapItems = getAllRoadmapItems().map((item: any, index: number) => ({
+        id: `roadmap-${index}`, // Use index since the XML IDs are problematic
+        title: item.Title || 'Untitled',
+        service: Array.isArray(item.Services) ? item.Services : [item.Services || 'Microsoft 365 Roadmap'],
         lastUpdated: getFormattedDate(item.PubDate),
         isMajor: false,
         type: 'roadmap' as const,

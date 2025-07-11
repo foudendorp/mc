@@ -27,11 +27,11 @@ import {
 
 import { Badge } from "@/components/ui/badge"
 import Link from 'next/link'
-import { getAllMessages, getFormattedDate } from "@/lib/messages";
+import { getAllCombinedItems, getFormattedDate } from "@/lib/messages";
 
 export function MessagesTable() {
 
-  const dataMessages = getAllMessages();
+  const dataMessages = getAllCombinedItems();
   return (
 
     <Card>
@@ -48,11 +48,11 @@ export function MessagesTable() {
           {dataMessages
             .map((item) => (
 
-              <TableRow key={item.Id}>
-                <TableCell key={item.Id} >
+              <TableRow key={item.id}>
+                <TableCell key={item.id} >
                   <div className="flex items-center gap-2">
-                    <Link href={`/message/${item.Id}`}>{item.Id}</Link>
-                    {(item.IsMajorChange &&
+                    <Link href={`/message/${item.id}`}>{item.id}</Link>
+                    {(item.isMajor &&
                       <TooltipProvider>
                         <Tooltip>
                           <TooltipTrigger>
@@ -67,11 +67,11 @@ export function MessagesTable() {
                   </div>
                 </TableCell>
                 <TableCell className="w-full">
-                  <Link href={`/message/${item.Id}`}>{item.Title}</Link>
+                  <Link href={`/message/${item.id}`}>{item.title}</Link>
                 </TableCell>
                 <TableCell className="hidden md:table-cell">
                   <div className="space-y-0.5">
-                    {item?.Services?.map((service) => (
+                    {item?.service?.map((service) => (
                       <Badge key={service} variant="secondary">
                         <div className="text-nowrap">
                           {service}
@@ -81,7 +81,7 @@ export function MessagesTable() {
                   </div>
                 </TableCell>
                 <TableCell className="text-nowrap hidden md:table-cell">
-                  {getFormattedDate(item.LastModifiedDateTime)}
+                  {item.lastUpdated}
                 </TableCell>
               </TableRow>
             ))}
