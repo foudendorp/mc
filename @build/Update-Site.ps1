@@ -96,6 +96,14 @@ function Get-M365RoadmapItems() {
                         # Remove duplicates
                         $services = $services | Sort-Object | Get-Unique
                         
+                        # Extract the roadmap ID from the link
+                        $roadmapId = ""
+                        if ($item.link -and $item.link -match "id=(\d+)") {
+                            $roadmapId = "RM$($matches[1])"
+                        } else {
+                            $roadmapId = "RM_$itemCount"  # Fallback if no ID found
+                        }
+                        
                         # Clean and truncate description
                         $description = $item.description
                         if ($description.Length -gt 500) {
@@ -103,14 +111,16 @@ function Get-M365RoadmapItems() {
                         }
                         
                         $roadmapItem = @{
-                            Id = "ROADMAP_$($item.guid)"
+                            Id = $roadmapId
                             Title = $item.title
                             Description = $description
                             Link = $item.link
                             PubDate = $item.pubDate
+                            LastModifiedDateTime = $item.pubDate  # Use PubDate as LastModifiedDateTime for consistency
                             Categories = $categories
                             Services = $services
                             Type = "roadmap"
+                            IsMajorChange = $false  # Roadmap items are not marked as major changes
                         }
                         $roadmapItems += $roadmapItem
                     }
@@ -136,6 +146,11 @@ function Get-M365RoadmapItems() {
 
 $dataPath = "./@data"
 
+# Ensure rm-archive directory exists for roadmap items
+if (!(Test-Path "$dataPath/rm-archive")) {
+    New-Item -ItemType Directory -Path "$dataPath/rm-archive" -Force
+}
+
 Connect-MicrosoftGraph
 $msgItems = Get-M365MessageCenterItems
 $roadmapItems = Get-M365RoadmapItems
@@ -149,6 +164,12 @@ foreach($msg in $msgItems){
 
     # Save each message for version history
     $msg | ConvertTo-Json -Depth 10 | Set-Content -Path ("$($dataPath)/archive/$($msg.Id).json")
+}
+
+# Process Roadmap items - save each one individually for version history
+foreach($roadmap in $roadmapItems){
+    # Save each roadmap item for version history in separate rm-archive directory
+    $roadmap | ConvertTo-Json -Depth 10 | Set-Content -Path ("$($dataPath)/rm-archive/$($roadmap.Id).json")
 }
 
 # Save Message Center data
