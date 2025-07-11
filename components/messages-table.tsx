@@ -71,7 +71,7 @@ export function MessagesTable() {
                 </TableCell>
                 <TableCell className="hidden md:table-cell">
                   <div className="space-y-0.5">
-                    {item?.service?.map((service) => (
+                    {item?.service?.map((service: string) => (
                       <Badge key={service} variant="secondary">
                         <div className="text-nowrap">
                           {service}
