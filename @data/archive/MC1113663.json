@@ -1,0 +1,38 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>As mentioned in MC1056257, as part of Microsoft’s Secure Future Initiative (SFI), Windows 365 is enhancing the default security of Cloud PCs by disabling clipboard, drive, USB, and printer redirections for all newly provisioned and reprovisioned Cloud PCs. This change minimizes the risk of data exfiltration and malware injections, providing a more secure experience by default. IT admins can enable these redirections as needed using either the Intune Settings Catalog or Group Policy (GPO).  \n</p><p><b>How This Will Affect Your Organization:</b> \n</p><p>The rollout of this change will begin in August 2025 and will gradually take place over 1-4 months for all customers. To help admins prepare, a banner will be displayed in the Microsoft Intune Admin Center on the provisioning policy, individual device action, and bulk action pages. This banner will notify admins of the new default settings for newly provisioned or reprovisioned Cloud PCs and provide documentation on how to override them by creating Intune device configuration policies or GPO. \n</p><p><b>Admin Impact: \n</b></p><ul><li><b>Manual configuration required:</b> For users that require redirection, IT admins must manually enable redirections through Intune policies or GPO if needed. \n</li><li><b>Minor change in the Microsoft Intune admin center:</b> Banners will be placed across key Intune pages to inform admins ahead of the change. \n</li></ul><p><b>End User Impact: \n</b></p><ul><li><b>Default settings change:</b> Clipboard, drive, USB, and printer redirections will be disabled by default on first-time access to Cloud PCs. \n</li></ul><p><b>What You Need to Do to Prepare:</b> \n</p><ul><li><b>Understand the change: </b>Review the new redirections default settings and their impact on provisioning and reprovisioning Cloud PCs. If redirections are required, enable them for the users who require redirections using multiple device configurations. For Intune-managed redirections, please see the following <a href=\"https://learn.microsoft.com/windows-365/enterprise/manage-rdp-device-redirections\" target=\"_blank\">documentation</a>. For GPO-managed redirections, please see this <a href=\"https://learn.microsoft.com/windows-365/enterprise/manage-rdp-device-redirections#use-a-gpo-to-manage-rdp-device-redirections\" target=\"_blank\">documentation</a>. \n</li><li>If an administrator needs to revert the redirection settings, they can use their established management controls. Alternatively, they can leverage Intune's built-in device groups and filters. For detailed instructions, refer to the section \"Use the 'All devices' group and device filters\" in the official <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/application-deployment-in-windows-365-recommended-practices/3915376\" target=\"_blank\">Microsoft blog post</a>. This method offers the quickest way to revert the redirection settings to be enabled. \n</li><li><b>Communicate with your end users:</b> Inform your end users of the new default settings and provide instructions for requesting redirection enablement if needed. \n</li></ul><p><b>Additional Information: \n</b></p><ul><li><a href=\"https://learn.microsoft.com/windows-365/enterprise/automated-provisioning-steps\" target=\"_blank\">Windows 365 Post-Provisioning Configuration</a>&nbsp;</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "Windows 365 will disable clipboard, drive, USB, and printer redirections by default for newly provisioned Cloud PCs starting August 2025, enhancing security. IT admins can manually enable these redirections if needed using Intune or Group Policy. Banners in the Intune Admin Center will notify admins of these changes."
+    }
+  ],
+  "EndDateTime": "2025-09-10T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1113663",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-07-11T22:11:50.057Z",
+  "Services": [
+    "Windows 365"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-07-11T22:11:25Z",
+  "Tags": [
+    "Feature update",
+    "User impact",
+    "Admin impact"
+  ],
+  "Title": "Plan for Change: Windows 365 Strengthening Security by Default: Redirections Disabled for Newly Provisioned Cloud PCs",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
