@@ -1,9 +1,12 @@
 {
-  "Title": "Microsoft Purview compliance portal: Enhancements to global exclusions in IRM settings",
-  "LastModifiedDateTime": "Mon, 31 Mar 2025 21:15:04 Z",
   "Services": "Microsoft Purview compliance portal",
-  "PubDate": "Mon, 31 Mar 2025 21:15:04 Z",
+  "LastModifiedDateTime": "Mon, 31 Mar 2025 21:15:04 Z",
+  "IsMajorChange": false,
   "Type": "roadmap",
+  "Title": "Microsoft Purview compliance portal: Enhancements to global exclusions in IRM settings",
+  "PubDate": "Mon, 31 Mar 2025 21:15:04 Z",
+  "Link": "https://www.microsoft.com/microsoft-365/roadmap?id=486826",
+  "Description": "In this update, we are making the below enhancements to IRM exclusions to reduce alert noise. 1. Keyword logic update for email - An email will be excluded from scoring only when all the attachments match the keyword exclusions or email subject matches the keyword exclusions. This will be helpful to reduce the email signature noise which commonly contains keyword \"image\". 2. Keyword exclusions on both target and source file paths - For signals like file copied to removable media, keyword exclusi...",
   "Categories": [
     "Rolling out",
     "General Availability",
@@ -13,8 +16,5 @@
     "Microsoft Purview compliance portal",
     "Web"
   ],
-  "Id": "RM486826",
-  "Description": "In this update, we are making the below enhancements to IRM exclusions to reduce alert noise. 1. Keyword logic update for email - An email will be excluded from scoring only when all the attachments match the keyword exclusions or email subject matches the keyword exclusions. This will be helpful to reduce the email signature noise which commonly contains keyword \"image\". 2. Keyword exclusions on both target and source file paths - For signals like file copied to removable media, keyword exclusi...",
-  "Link": "https://www.microsoft.com/microsoft-365/roadmap?id=486826",
-  "IsMajorChange": false
+  "Id": "RM486826"
 }
