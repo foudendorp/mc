@@ -1,18 +1,18 @@
 {
-  "Title": "Microsoft Edge: Use Primary work profile as default profile to open external links",
-  "LastModifiedDateTime": "Fri, 23 May 2025 22:15:52 Z",
-  "Type": "roadmap",
+  "Id": "494835",
   "IsMajorChange": false,
+  "Services": "Microsoft Edge",
+  "LastModifiedDateTime": "Fri, 23 May 2025 22:15:52 Z",
+  "Title": "Microsoft Edge: Use Primary work profile as default profile to open external links",
+  "PubDate": "Fri, 23 May 2025 22:15:52 Z",
+  "Description": "Microsoft Edge currently opens external links using the “Last Used” profile by default. While for enterprise users, the Primary Work Profile (signed in with a Microsoft Entra ID for enrolling the device) is normally the best profile for opening external links. With this feature, for Windows, Edge will check if it the Primary Work Profile exists and make it the default profile for opening external links if available. For Mac and Linux, if only one work profile signed in with a Microsoft Entra ID account is found, it’s treated as the Primary Work Profile. Admins can config the policy “EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled” to turn this feature off. <br>GA date: June CY2025",
+  "Type": "roadmap",
+  "Link": "https://www.microsoft.com/microsoft-365/roadmap?id=494835",
   "Categories": [
     "Rolling out",
     "General Availability",
     "Worldwide (Standard Multi-Tenant)",
     "Microsoft Edge",
     "Web"
-  ],
-  "Description": "Microsoft Edge currently opens external links using the “Last Used” profile by default. While for enterprise users, the Primary Work Profile (signed in with a Microsoft Entra ID for enrolling the device) is normally the best profile for opening external links. With this feature, for Windows, Edge will check if it the Primary Work Profile exists and make it the default profile for opening external links if available. For Mac and Linux, if only one work profile signed in with a Microsoft Entra ID account is found, it’s treated as the Primary Work Profile. Admins can config the policy “EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled” to turn this feature off. <br>GA date: June CY2025",
-  "Id": "494835",
-  "PubDate": "Fri, 23 May 2025 22:15:52 Z",
-  "Link": "https://www.microsoft.com/microsoft-365/roadmap?id=494835",
-  "Services": "Microsoft Edge"
+  ]
 }
