@@ -78,7 +78,7 @@ function Get-M365RoadmapItems() {
                             
                             if ($catLower -like "*teams*") { $services += "Microsoft Teams" }
                             elseif ($catLower -like "*sharepoint*") { $services += "SharePoint Online" }
-                            elseif ($catLower -like "*exchange*") { $services += "Exchange Online" }
+                            elseif ($catLower -eq "exchange" -or $catLower -like "*exchange*") { $services += "Exchange Online" }
                             elseif ($catLower -like "*outlook*") { $services += "Outlook" }
                             elseif ($catLower -like "*onedrive*") { $services += "OneDrive for Business" }
                             elseif ($catLower -like "*copilot*") { $services += "Microsoft Copilot (Microsoft 365)" }
@@ -132,8 +132,15 @@ function Get-M365RoadmapItems() {
                             $services = @("Microsoft 365 Roadmap")
                         }
                         
-                        # Remove duplicates
+                        # Remove duplicates and ensure we have a proper array
                         $services = $services | Sort-Object | Get-Unique
+                        
+                        # Use array if multiple services, string if single service
+                        $servicesField = if ($services.Count -gt 1) {
+                            $services  # Keep as array for multiple services
+                        } else {
+                            $services[0].ToString()  # Convert to string for single service
+                        }
                         
                         # Extract the roadmap ID from the link
                         $roadmapId = ""
@@ -154,7 +161,7 @@ function Get-M365RoadmapItems() {
                             PubDate = $item.pubDate
                             LastModifiedDateTime = $item.pubDate  # Use PubDate as LastModifiedDateTime for consistency
                             Categories = $categories
-                            Services = $services[0]  # Use first service as string for backward compatibility
+                            Services = $servicesField  # Use string for single service, array for multiple
                             Type = "roadmap"
                             IsMajorChange = $false  # Roadmap items are not marked as major changes
                         }
@@ -260,12 +267,21 @@ foreach($roadmap in $roadmapItems){
             $existingServices = $existingContent.Services
             $newServices = $roadmap.Services
             
-            if ($existingServices -is [array] -and $newServices -is [string]) {
-                if ($existingServices[0] -ne $newServices) { $hasChanged = $true }
-            } elseif ($existingServices -is [string] -and $newServices -is [array]) {
-                if ($existingServices -ne $newServices[0]) { $hasChanged = $true }
-            } elseif ($existingServices -ne $newServices) {
-                $hasChanged = $true
+            # Convert both to comparable formats for comparison
+            $existingServicesStr = if ($existingServices -is [array]) {
+                ($existingServices | Sort-Object) -join ","
+            } else {
+                $existingServices.ToString()
+            }
+            
+            $newServicesStr = if ($newServices -is [array]) {
+                ($newServices | Sort-Object) -join ","
+            } else {
+                $newServices.ToString()
+            }
+            
+            if ($existingServicesStr -ne $newServicesStr) { 
+                $hasChanged = $true 
             }
             
             if ($hasChanged) {
