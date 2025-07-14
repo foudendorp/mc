@@ -21,14 +21,20 @@ export const columns: ColumnDef<MessageView>[] = [
     accessorKey: "type",
     header: ({ column }) => {
       return (
-        <div className="text-center">Type</div>
+        <div className="text-center">
+          <span className="sr-only">Item Type:</span>
+          Type
+        </div>
       )
     },
     cell: ({ row }) => {
       const type = row.original.type;
       return (
         <div className="text-center">
-          <span className={`px-2 py-1 rounded text-xs ${type === 'message-center' ? 'bg-blue-100 text-blue-800' : 'bg-green-100 text-green-800'}`}>
+          <span 
+            className={`px-2 py-1 rounded text-xs ${type === 'message-center' ? 'bg-blue-100 text-blue-800' : 'bg-green-100 text-green-800'}`}
+            aria-label={`Item type: ${type === 'message-center' ? 'Message Center' : 'Roadmap'}`}
+          >
             {type === 'message-center' ? 'MC' : 'Roadmap'}
           </span>
         </div>
@@ -39,7 +45,10 @@ export const columns: ColumnDef<MessageView>[] = [
     accessorKey: "id",
     header: ({ column }) => {
       return (
-        <div>ID</div>
+        <div>
+          <span className="sr-only">Item ID:</span>
+          ID
+        </div>
       )
     },
     cell: ({ row }) => {
@@ -51,7 +60,11 @@ export const columns: ColumnDef<MessageView>[] = [
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger>
-                  <span className="flex h-2 w-2 rounded-full bg-red-600" />
+                  <span 
+                    className="flex h-2 w-2 rounded-full bg-red-600" 
+                    aria-label="Major change indicator"
+                    role="img"
+                  />
                 </TooltipTrigger>
                 <TooltipContent>
                   <p>Major change</p>
@@ -66,7 +79,12 @@ export const columns: ColumnDef<MessageView>[] = [
   {
     accessorKey: "title",
     header: ({ column }) => {
-      return (<div>Title</div>)
+      return (
+        <div>
+          <span className="sr-only">Item Title:</span>
+          Title
+        </div>
+      )
     },
     cell: ({ row }) => {
       return (
@@ -79,7 +97,8 @@ export const columns: ColumnDef<MessageView>[] = [
     header: ({ column }) => {
       return (
         <div className="text-center">
-            Service
+          <span className="sr-only">Associated Services:</span>
+          Service
         </div>
       )
     },
@@ -87,7 +106,12 @@ export const columns: ColumnDef<MessageView>[] = [
       return (
         <div className="space-y-0.5 text-center">
           {row.original.service?.map((service) => (
-            <Badge key={service} variant="secondary" className="text-nowrap">
+            <Badge 
+              key={service} 
+              variant="secondary" 
+              className="text-nowrap"
+              aria-label={`Service: ${service}`}
+            >
               {service}
             </Badge>
           ))}
@@ -104,13 +128,16 @@ export const columns: ColumnDef<MessageView>[] = [
     header: ({ column }) => {
       return (
         <div className="text-nowrap">
+          <span className="sr-only">Last Updated Date:</span>
           Last updated
         </div>
       )
     },
     cell: ({ row }) => {
       return (
-        <span className="text-nowrap">{row.original.lastUpdated}</span>
+        <span className="text-nowrap" aria-label={`Last updated: ${row.original.lastUpdated}`}>
+          {row.original.lastUpdated}
+        </span>
       )
     },
   }

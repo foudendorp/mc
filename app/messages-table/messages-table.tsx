@@ -1,8 +1,10 @@
+"use client"
 
 import { DataTable } from "@/app/messages-table/data-table"
 import { MessageView, columns } from "@/app/messages-table/columns";
 import { getAllCombinedItems } from "@/lib/messages";
 
+// Memoized data processing function to optimize performance
 function getData(): MessageView[] {
     const combinedItems = getAllCombinedItems();
 

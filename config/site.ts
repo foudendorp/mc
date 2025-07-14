@@ -4,6 +4,7 @@ export const siteConfig = {
   name: "Microsoft 365 Message Center Archive",
   description:
     "Archive of messages posted in the Message Center of the Microsoft 365 Admin Portal.",
+  url: "https://mc.oudendorp.it", // Add the site URL
   mainNav: [
     {
       title: "Home",
@@ -20,5 +21,6 @@ export const siteConfig = {
   ],
   links: {
     linkedin: "https://www.linkedin.com/company/secminds-solutions/",
+    github: "https://github.com/foudendorp/mc",
   },
 }

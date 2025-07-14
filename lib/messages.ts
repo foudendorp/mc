@@ -27,44 +27,62 @@ export function getAllRoadmapItems() {
 }
 
 export function getAllCombinedItems() {
-    const messageCenterItems = dataMessages.map(msg => ({
-        id: msg.Id,
-        title: msg.Title,
-        service: msg.Services || [],
-        lastUpdated: getFormattedDate(msg.LastModifiedDateTime),
-        isMajor: msg.IsMajorChange ?? false,
-        type: 'message-center' as const
-    }));
+    try {
+        const messageCenterItems = dataMessages.map(msg => ({
+            id: msg.Id,
+            title: msg.Title,
+            service: msg.Services || [],
+            lastUpdated: getFormattedDate(msg.LastModifiedDateTime),
+            isMajor: msg.IsMajorChange ?? false,
+            type: 'message-center' as const
+        }));
 
-    const roadmapItems = getAllRoadmapItems().map((item: any, index: number) => {
-        // Extract roadmap ID from Link if available
-        let roadmapId = `roadmap-${index}`;
-        if (item.Link && item.Link.match(/id=(\d+)/)) {
-            roadmapId = `${item.Link.match(/id=(\d+)/)[1]}`;
-        } else if (item.Id && !item.Id.includes('System.Xml.XmlElement')) {
-            roadmapId = item.Id.replace('RM', ''); // Remove RM prefix if present
+        const roadmapItems = getAllRoadmapItems().map((item: any, index: number) => {
+            // Extract roadmap ID from Link if available
+            let roadmapId = `roadmap-${index}`;
+            if (item.Link && item.Link.match(/id=(\d+)/)) {
+                roadmapId = `${item.Link.match(/id=(\d+)/)[1]}`;
+            } else if (item.Id && !item.Id.includes('System.Xml.XmlElement')) {
+                roadmapId = item.Id.replace('RM', ''); // Remove RM prefix if present
+            }
+
+            return {
+                id: roadmapId,
+                title: item.Title || 'Untitled',
+                service: Array.isArray(item.Services) ? item.Services : [item.Services || 'Microsoft 365 Roadmap'],
+                lastUpdated: getFormattedDate(item.PubDate),
+                isMajor: false,
+                type: 'roadmap' as const,
+                link: item.Link,
+                description: item.Description,
+                category: item.Categories
+            };
+        });
+
+        // Combine and sort by last updated date (newest first)
+        const combined = [...messageCenterItems, ...roadmapItems];
+        return combined.sort((a, b) => {
+            const dateA = new Date(a.lastUpdated || '1970-01-01');
+            const dateB = new Date(b.lastUpdated || '1970-01-01');
+            return dateB.getTime() - dateA.getTime();
+        });
+    } catch (error) {
+        console.error('Error combining message data:', error);
+        // Fallback to just message center items if roadmap fails
+        try {
+            return dataMessages.map(msg => ({
+                id: msg.Id,
+                title: msg.Title,
+                service: msg.Services || [],
+                lastUpdated: getFormattedDate(msg.LastModifiedDateTime),
+                isMajor: msg.IsMajorChange ?? false,
+                type: 'message-center' as const
+            }));
+        } catch (fallbackError) {
+            console.error('Critical error: Unable to load any data:', fallbackError);
+            return [];
         }
-
-        return {
-            id: roadmapId,
-            title: item.Title || 'Untitled',
-            service: Array.isArray(item.Services) ? item.Services : [item.Services || 'Microsoft 365 Roadmap'],
-            lastUpdated: getFormattedDate(item.PubDate),
-            isMajor: false,
-            type: 'roadmap' as const,
-            link: item.Link,
-            description: item.Description,
-            category: item.Categories
-        };
-    });
-
-    // Combine and sort by last updated date (newest first)
-    const combined = [...messageCenterItems, ...roadmapItems];
-    return combined.sort((a, b) => {
-        const dateA = new Date(a.lastUpdated || '1970-01-01');
-        const dateB = new Date(b.lastUpdated || '1970-01-01');
-        return dateB.getTime() - dateA.getTime();
-    });
+    }
 }
 
 export function getMessageData(id: string): Message | undefined{
