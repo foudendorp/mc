@@ -230,7 +230,7 @@ export default function Page({ params }: Props) {
                     <div className="flex flex-col items-start gap-2">
                         <div className="flex items-center justify-between w-full">
                             <h1 className="text-3xl font-extrabold md:text-4xl">
-                            {msg?.Id} - {msg?.Title}</h1>
+                            {msg?.Title}</h1>
                             <CopyLinkButton itemId={params.id} />
                         </div>
 
@@ -247,7 +247,8 @@ export async function generateMetadata(
     { params }: Props,
     parent: ResolvingMetadata
   ): Promise<Metadata> {
-    const isRoadmapId = params.id.startsWith('RM');
+    // Detect roadmap items: pure numeric IDs (not starting with MC)
+    const isRoadmapId = /^\d+$/.test(params.id);
     
     if (isRoadmapId) {
         const roadmapItem = getRoadmapData(params.id);
