@@ -2,7 +2,16 @@
 
 param($GraphSecret)
 function Connect-MicrosoftGraph(){
-    $m365Config = Get-Content ./@build/config-m365.json | ConvertFrom-Json
+    # Use environment variables for tenant and client configuration
+    $tenantId = $env:TENANT_ID
+    $clientId = $env:CLIENT_ID
+    
+    if ([string]::IsNullOrEmpty($tenantId) -or [string]::IsNullOrEmpty($clientId)) {
+        Write-Error "TENANT_ID and CLIENT_ID environment variables must be set"
+        throw "Missing required environment variables: TENANT_ID and/or CLIENT_ID"
+    }
+    
+    Write-Host "Using environment variables for tenant and client configuration"
 
     $secret = $GraphSecret
     if([string]::IsNullOrEmpty($GraphSecret)){ # If we are running in Github get the secret from the parameter
@@ -11,9 +20,9 @@ function Connect-MicrosoftGraph(){
     }
 
     [securestring]$secSecret = ConvertTo-SecureString $secret -AsPlainText -Force
-    [pscredential]$cred = New-Object System.Management.Automation.PSCredential ($m365Config.clientId, $secSecret)
+    [pscredential]$cred = New-Object System.Management.Automation.PSCredential ($clientId, $secSecret)
     Write-Host "Connecting to Microsoft Graph"
-    Connect-MgGraph -TenantId $m365Config.tenantId -Credential $cred -NoWelcome
+    Connect-MgGraph -TenantId $tenantId -Credential $cred -NoWelcome
 }
 
 function Get-M365MessageCenterItems() {

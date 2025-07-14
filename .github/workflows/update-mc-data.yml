@@ -27,6 +27,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      GRAPH_SECRET: ${{ secrets.GRAPH_SECRET }}
+      TENANT_ID: ${{ secrets.TENANT_ID }}
+      CLIENT_ID: ${{ secrets.CLIENT_ID }}
+
     steps:          
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
