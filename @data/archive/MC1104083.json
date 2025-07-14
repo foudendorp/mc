@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "We are announcing a new control for admins, allowing them to block agents created in Microsoft Copilot Studio. This feature provides a PowerShell command to block Copilot Studio agents by the admin. This feature will reach general availability on July 15, 2025.<br><br><b>How does this affect me?</b><br>There may be different reasons where an admin would want to put an agent in a quarantine state, either due to costs or due to a vulnerability that is related to security risk. Blocking an agent is now available as an action that an admin can perform via PowerShell.<br><br>Admins can quarantine an agent via REST API (<a target=\"_blank\" href=\"https://aka.ms/ADO10206_1\">Bots - REST API</a>) or any of our available SDKs (<a target=\"_blank\" href=\"https://aka.ms/ADO10206_2\">Programmability and extensibility - What's new or changed</a>). To run the command, the admin needs to have one of the following roles from Microsoft Entra ID:<ul><li>Global administrator</li><li>Power Platform administrator</li></ul>As an admin, you will have two separate commands, one for blocking an agent and the other for un-blocking an agent. Once an agent is blocked by an admin its new status will be reflected as follows:<ol><li><b>Maker experience</b>: Makers will be able to edit the blocked agent but not test it. When trying to interact with the agent via the test pane in Microsoft Copilot Studio, the maker will receive an error message saying the agent is blocked by the admin.</li><li><b>End user experience</b>: For end users, they will not be able to interact with a blocked agent and will receive an error message every time they try to interact with a blocked agent.</li></ol><b>What action do I need to take?</b><br>This message is for awareness and no action is required.",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2025-07-26T16:05:46Z",
+  "HasAttachments": false,
+  "Id": "MC1104083",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-06-26T16:06:49.96Z",
+  "Services": [
+    "Power Platform"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-06-26T16:05:46Z",
+  "Tags": [
+    "New feature"
+  ],
+  "Title": "Microsoft Copilot Studio – Enhance governance with an admin control to block agents",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

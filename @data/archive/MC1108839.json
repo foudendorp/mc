@@ -1,0 +1,37 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>We’re excited to announce the general availability of Dialogs/Task Module support in Microsoft Copilot Agents. This new capability enables plugin developers to define and invoke URL-based modals within Copilot Agents using iFrames—unlocking richer, more interactive experiences for complex workflows, all while keeping users in context.</p><p><b>When this will happen:</b></p><p>This feature is available now.</p><p><b>How this affects your organization:</b></p><p>With this update, users can interact with dialogs directly within the Copilot canvas via declarative Agents. This allows for focused task completion—such as editing records, reviewing structured data, or submitting forms—without navigating away from Copilot.\n</p><p>Admins and developers can now build more advanced, guided user experiences that streamline workflows and reduce friction. Example use cases include submitting leave requests, escalating support tickets, or reviewing dashboards—all through responsive, embedded dialogs.\n</p><p>This feature is available by default and requires developer implementation to take advantage of the new schema.\n</p><p><b>What you can do to prepare:</b></p><ul><li>Ensure your organization’s Copilot plugins or custom extensions are updated to support the new task module schema.\n</li><li>Review the updated <a href=\"https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/adaptive-card-dialog-box\" target=\"_blank\">Add a dialog box to Adaptive Card templates (preview)</a> for guidance on implementing Task Modules using Adaptive Cards.\n</li><li>Collaborate with your development teams to identify workflows that could benefit from dialog-based interactions.\n</li></ul><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed?\tMaybe - Depending on implementation, dialogs may surface or collect user data within the Copilot canvas.\n</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?\tYes - Declarative Agents can now invoke dialogs that may interact with user data.</li><li>Does the change provide end users any new way of interacting with generative AI?\tYes - Dialogs enhance how users interact with Copilot Agents by enabling richer, guided workflows.</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "Dialogs/Task Module support is now generally available in Microsoft Copilot Agents, enabling richer, interactive experiences through URL-based modals using iFrames. This feature allows users to complete tasks within the Copilot canvas and requires developer implementation. Ensure plugins are updated and review the provided guidance for implementation."
+    }
+  ],
+  "EndDateTime": "2025-08-06T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1108839",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-07-03T23:36:05.88Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-07-03T23:35:59Z",
+  "Tags": [
+    "New feature",
+    "Admin impact"
+  ],
+  "Title": "Dialogs/Task Module Support Now Generally Available in Microsoft Copilot Agents",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

@@ -1,0 +1,47 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>Updated June 9, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Coming soon for Microsoft 365 Copilot: New capabilities for admins and users:</p><ul><li>Users will be allowed to <a href=\"https://learn.microsoft.com/microsoft-copilot-studio/knowledge-add-file-upload\" target=\"_blank\">upload a file as a knowledge source to an agent</a> in Microsoft Copilot Studio agent builder. Only text in the uploaded document is used for grounding. Uploaded files are stored in tenant-owned Microsoft SharePoint Embedded (SPE) containers.\n</li><li>Admins will be able to manage agents with files uploaded as a knowledge source from the Microsoft 365 admin center (MAC). Container management is not part of the MAC. Admins can <a href=\"https://learn.microsoft.com/sharepoint/dev/embedded/administration/consuming-tenant-admin/ctaUX\" target=\"_blank\">manage the underlying SPE container from the SharePoint admin center (SPAC)</a> or from Microsoft PowerShell.</li></ul><p>A Microsoft 365 Copilot license is required to use these features.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=489214\" target=\"_blank\">489214</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out the admin controls mid-June 2025 (previously mid-May) and expect to complete by mid-July 2025 (previously mid-May 2025).</p><p>General Availability (Worldwide): We will begin rolling out the admin controls mid-June 2025 (previously mid-May) and expect to complete by mid-July 2025 (previously mid-May 2025).</p><p>\n<b>How this will affect your organization:</b></p><p>As part of this rollout, we will pre-provision a limited set of SPE containers in your tenant. They will show up in SPAC and as a PowerShell cmdlet under the application name <i>declarative agent.\n</i></p><p><i>Supported file types:</i> doc/docx, ppt/pptx, xls/xlsx, pdf, txt, csv</p><p><i>Maximum file size</i></p><ul><li>512 MB for pptx, pdf, docx  \n</li><li>150 MB for txt, csv, xls, xlsx, ppt, doc</li></ul><p><i>Maximum number of files:</i> 20\n</p><p><i>Sensitivity labels:</i><b> </b>You will be able to view an agent’s sensitivity label on the <i>Overview&nbsp;</i>tab in Copilot Studio agent builder. A sensitivity label will also be applied to the agent level, covering all files uploaded as knowledge sources to an agent. The label is determined as follows:\n</p><p></p><ul><li>Set to the most restrictive. The agent will inherit the highest‑priority (most restrictive) label from any of the uploaded files.</li><li>A sensitivity label will be automatically assigned if you have enabled a default sensitivity labeling policy for your tenant.</li><li>Sensitivity labels are assigned if the agent is created using Microsoft Copilot Studio agent builder.\n</li></ul><p>A user who lacks permission for the agent’s label will not be able to open the agent. Users who can open an agent will see the same sensitivity label in the <i>Agent details</i> dialog that appears when they select the link to the agent. The sensitivity labels will start to appear in late May 2025 in the<i> Agent details </i>dialog.\n</p><p>This change will be available by default.</p><p>After this rollout, users will be able to create agents by uploading files from their local machine:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/85ce3676-476d-437b-a059-c48fabab4c13\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>Users will be able to view the inventory of these agents and manage them appropriately. To access the inventory of agents in Copilot Studio agent builder, go to <i>Settings &gt; Integrated Apps &gt; Shared Agents:</i>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ba8a7cf6-af94-408f-8c57-b668e8c07937\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>Deleting an agent with files uploaded as a knowledge source:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/2559ba03-de09-4251-8505-97d494018af5\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>\nThis rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.</p><p>Learn more: <a href=\"https://learn.microsoft.com/sharepoint/dev/embedded/administration/consuming-tenant-admin/ctaUX\" target=\"_blank\">Manage Containers in SharePoint Admin Center | Microsoft Learn</a></p><p>Before rollout, we will update this post with new documentation.</p><p></p>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [
+    {
+      "Name": "RoadmapIds",
+      "Value": "489214"
+    },
+    {
+      "Name": "Summary",
+      "Value": "Microsoft 365 Copilot will soon allow users to upload files as knowledge sources and enable admins to manage these agents. The rollout starts mid-June 2025 and completes by mid-July 2025. Supported file types include docx, pptx, pdf, txt, csv, and xlsx. Sensitivity labels will be applied to agents. No admin action is required before the rollout."
+    },
+    {
+      "Name": "Platforms",
+      "Value": "Desktop, Web"
+    }
+  ],
+  "EndDateTime": "2025-08-25T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1058260",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-06-12T21:04:35.427Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-04-18T23:54:56Z",
+  "Tags": [
+    "Updated message",
+    "New feature",
+    "User impact",
+    "Admin impact"
+  ],
+  "Title": "Microsoft 365 Copilot: Admin controls and user file uploads for agent knowledge sources",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

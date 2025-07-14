@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "This is an update for the previous Message Center Post about Dataverse search sent out on March 6th, 2025 (to most regions) and April 8th, 2025 (to GCC and GCC High regions), where it was mentioned that the change would result in an increase in consumption of Dataverse storage capacity for database and file storage on April 7th, 2025 (for most regions) and May 12th, 2025 (for GCC and GCC High regions).<br><br>This roll out was immediately paused on April 10, 2025.<br><br><b>What is Dataverse search?</b><br>Today, Dataverse search offers global search experience for all your model-driven apps, powered by the relevance search index currently reported as “RelevanceSearch” in the Database Capacity storage within the Power Platform Admin Center (PPAC). Moving forward, Dataverse search will include both relevance search and additional semantic indexes, all reported as “DataverseSearch”, which will enhance the knowledge experience and quality for agents in Copilot Studio, amongst other Power Platform experiences.<br><br><b>How does this affect me?</b><br>Starting on June 30, 2025, Dataverse search will be enabled automatically for all environments that utilize Dataverse search or any of the AI-enabled experiences that use uploaded files or Dataverse tables to ensure business continuity across the platform, subject to Copilot feature availability.<br><br>All Dataverse indexes will be reported at the Dataverse Database Capacity rate. This change will result in an increase in consumption of storage capacity.<br><br>This is applicable only to Dataverse search and does not turn on any other setting of the experiences that is enabled by Dataverse search.<br><br><b>What are the experiences enabled by Dataverse search?</b><br>Currently, these experiences include:<br><br>Microsoft Copilot Studio Agents<ol style='margin-top: 0px;'><li><a href=\"https://aka.ms/10780/1\" target=\"_blank\">Add Files as a knowledge source</a></li><li><a href=\"https://aka.ms/10780/2\" target=\"_blank\">Add Dataverse as a knowledge source</a></li><li><a href=\"https://aka.ms/10780/3\" target=\"_blank\">Virtual Agent</a></li></ol>Dynamics 365 Copilots<ol start=’4’ style='margin-top: 0px;'><li><a href=\"https://aka.ms/10780/4\" target=\"_blank\">Sales Copilot</a></li><li><a href=\"https://aka.ms/10780/5\" target=\"_blank\">Customer Service Copilot</a></li><li><a href=\"https://aka.ms/10780/6\" target=\"_blank\">Contact Center Copilot</a></li><li><a href=\"https://aka.ms/10780/7\" target=\"_blank\">Field Service Copilot</a></li></ol>Power Apps – Model-Driven Apps<ol start=’8’ style='margin-top: 0px;'><li><a href=\"https://aka.ms/10780/8\" target=\"_blank\">Copilot Chat</a></li><li><a href=\"https://aka.ms/10780/9\" target=\"_blank\">Dataverse search</a></li></ol>Experiences across the Power Platform<ol start=’11’ style='margin-top: 0px;'><li><a href=\"https://aka.ms/10780/10\" target=\"_blank\">In Power Apps / Power Automate</a></li><li><a href=\"https://aka.ms/10780/11\" target=\"_blank\">In Microsoft Copilot Studio</a></li><li><a href=\"https://aka.ms/10780/12\" target=\"_blank\">Power Apps / Power Automate - Custom AI Prompts</a></li></ol>Full list will be kept up to date at <a href=\"https://aka.ms/10780/13\" target=\"_blank\">What is Dataverse search?</a> as the rollout of the enhanced Dataverse search happens, and/or new enabled experiences are added.<br><br><b>How will Dataverse search be reported?</b><br>Storage consumed by Dataverse search is already reported at the Environment level as a table called “RelevanceSearch”.  RelevanceSearch can be viewed at the Dataverse Environment report in Power Platform Admin Center and will be renamed to DataverseSearch. For more information see <a href=\"https://aka.ms/10780/14\" target=\"_blank\">Dataverse capacity-based storage details</a>.<br><br>It is recommended to have Dataverse search enabled so users can leverage the benefits of generative AI experiences for an improved search experience in model-driven apps.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2025-07-29T22:07:00Z",
+  "HasAttachments": false,
+  "Id": "MC1085110",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-05-29T22:09:00.547Z",
+  "Services": [
+    "Microsoft Dataverse"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-05-29T22:07:25Z",
+  "Tags": [
+    "New feature"
+  ],
+  "Title": "Dataverse – AI-powered Dataverse search enhancement update",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

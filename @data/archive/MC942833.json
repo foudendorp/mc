@@ -1,0 +1,33 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>Updated January 29, 2025: This promotion is extending to EDU tenants beginning the middle to end of February 2025.&nbsp;</p><p>During a promotional trial period running from January 6, 2025, through June 30, 2025, organizations with 50 or more Microsoft 365 Copilot licenses will automatically receive 10,000 additional queries per month for agents in SharePoint, giving users without Copilot licenses access to create and use agents. We've added a new setting that allows admins to disable this trial access using the <a href=\"https://learn.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell\" target=\"_blank\">SharePoint Online Management Shell</a>. <a href=\"https://learn.microsoft.com/legal/microsoft-365/in-app-trials-terms-of-service\" target=\"_blank\">View the Trial Agreement details</a>\n</p><p><b>When this will happen:</b></p><p>The promotion will go into effect January 6, 2025, and remain active until June 30, 2025. At the beginning of December 2024, admins can disable trial access at any point during the promotional period, via the SharePoint Online Management Shell. Tenants that are eligible for the promotion will see a message bar on the Copilot Admin page in the Admin Center. \n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/309f50a9-899a-427a-b363-9a9da9b8c306\" style=\"width: 400px;\"><br></p><p><b>What you need to prepare:</b></p><p>Starting the beginning of December, Global administrators or SharePoint admins can use the <a href=\"https://learn.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell\" target=\"_blank\">SharePoint Online Management Shell</a> to manage access to the trial for users without Copilot licenses.</p><p>This can be done by updating to the latest version of the SharePoint Online Management Shell and running the following commands: \n</p><ul><li>To opt out and disable access to the trial use the <a href=\"https://learn.microsoft.com/powershell/module/sharepoint-online/set-spocopilotpromooptinstatus?view=sharepoint-ps\" target=\"_blank\">Set-SPOCopilotPromoOptInStatus</a> cmdlet. \n</li><li>To confirm trial settings, use the <a href=\"https://learn.microsoft.com/powershell/module/sharepoint-online/get-spocopilotpromooptinstatus?view=sharepoint-ps\" target=\"_blank\">Get-SPOCopilotPromoOptInStatus</a>  cmdlet. \n</li><li>To re-enable access to the trial, use the <a href=\"https://learn.microsoft.com/powershell/module/sharepoint-online/set-spocopilotpromooptinstatus?view=sharepoint-ps\" target=\"_blank\">Set-SPOCopilotPromoOptInStatus</a> cmdlet. \n</li></ul><p>Ensure that you have the latest version of SharePoint PowerShell installed to run these cmdlets effectively. \n</p><p><b>How this will affect your organization:</b></p><p>Once the trial promotion is available, your unlicensed users will be able to view and interact directly with agents in SharePoint. They will receive a notification about their promotional access and be encouraged to start exploring the feature.</p><p> \n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/75f6c888-48d6-4627-b723-0af75436e9b9\" style=\"width: 200px;\"><br></p><p>Any time these users interact with agents, it will count toward your organization’s monthly trial use of 10,000 queries. Once the maximum number of queries is reached, users will be notified that the service is temporarily unavailable and prompted to try again next month.</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/c0088e26-95f9-47ed-923b-9134ca8f47f4\" style=\"width: 200px;\"><br></p><p>\n</p><p>Unused queries will not roll over to the following month. If you need more queries, you can get them by adding additional Microsoft 365 Copilot licenses.  After the trial ends on June 30, 2025, users without an M365 Copilot License will no longer be able to create or use the agents. However, agents created and used during the trial promotion will remain available, and no historical data will be lost.\n</p><p>Additional information:</p><ul><li><a href=\"https://aka.ms/agentsinsharepointpromo\" target=\"_blank\">Learn more about the agents in SharePoint promotion</a></li><li>Learn more about <a href=\"https://support.microsoft.com/office/copilot-in-sharepoint-help-learning-44e981e7-dcef-4422-977d-967f3dcfe796?ocid=CopilotLab_SMC_SharePoint\" target=\"_blank\">Copilot in SharePoint</a> \n</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [],
+  "EndDateTime": "2025-08-04T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC942833",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-01-29T22:30:59.157Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2024-11-26T23:50:16Z",
+  "Tags": [
+    "Updated message",
+    "User impact",
+    "Admin impact"
+  ],
+  "Title": "Promotional access to Agents in SharePoint",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

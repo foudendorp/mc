@@ -1,0 +1,36 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>For Microsoft 365 Global Admins there is a new data processing control available now to configure Microsoft 365 Copilot for their tenant; enhanced personalization, documented on Microsoft Learn <a href=\"https://go.microsoft.com/fwlink/?linkid=2314022\" target=\"_blank\">Enhanced personalization control overview</a>.</p><p>This control is forward looking and becoming part of the default configuration for Microsoft 365 Copilot licenses only. This message is to give notice of the new data processing scenario to data controllers (Microsoft 365 Tenant Administrators). The Global Admin role can pre-configure the control to their tenant’s needs before features arrive. New features will be released in the coming months using this control’s scenario permission to enhance a user’s experience with Microsoft 365 Copilot.</p><p><b>When this will happen:</b></p><p>Available now.</p><p> \n</p><p><b>How this affects your organization:</b></p><p>The Microsoft 365 Copilot license configuration will now have a new control called Enhanced Personalization defaulted to “on”. This will enable Microsoft to process communications data of a user to enhance their experience only. Providing enhanced personalization additional to the baseline personalization Microsoft 365 Copilot provides. This consent is fully revocable. \n</p><p><i>NOTE:</i> This does not impact your organization today as no features yet use this control. This is advanced notice.\n</p><p><b>What you can do to prepare:</b></p><p>As a Global admin:</p><ol><li>Read: <a href=\"https://go.microsoft.com/fwlink/?linkid=2314022\" target=\"_blank\">Enhanced personalization control overview</a> to understand the control. \n</li><li>Use <a href=\"https://go.microsoft.com/fwlink/?linkid=2314117\" target=\"_blank\">enhancedPersonalizationSetting resource type</a> to understand how to configure it. \n</li><li>Configure through Microsoft Graph API the control to your tenant’s needs. Reviewing regional and other complexities of controls for data processing scenarios. \n</li><li>Verify configuration using the GET API to ensure it returns as you expect once you’ve applied your configuration</li></ol><p><br></p>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "Microsoft 365 Global Admins can now configure the new Enhanced Personalization control for Microsoft 365 Copilot, which is defaulted to \"on\" and enhances user experience by processing communications data. This control is part of the default configuration for Copilot licenses, with features to be released in the coming months. Full details and configuration instructions are available on Microsoft Learn."
+    }
+  ],
+  "EndDateTime": "2025-07-28T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1057711",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-04-18T03:26:20.13Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-04-18T03:25:42Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Microsoft 365 Copilot Default Configuration Change - Enhanced Personalization Control",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

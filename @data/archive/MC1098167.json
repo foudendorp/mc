@@ -1,0 +1,37 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>Updated June 27, 2025: We have updated the timeline below. Thank you for your patience.</p><p>The Gradual Rollouts (GR) feature in Windows Autopatch will be removed starting late June 2025 (previously July 2), and the process is expected to be completed by October 14, 2025.</p><p><b>How Will this Affect Your Organization:</b></p><p>Starting late June 2025 (previously July 2), you will no longer be able to configure new Gradual rollout policies (via Intune or API) with rollout dates beyond October 14, 2025.\n</p><p>After October 14, 2025:\n</p><ul><li>You will no longer be able to create or modify Gradual rollout policies in the Intune user interface or API.</li><li>Existing gradual rollout policies will continue to function through their configured end dates, but no new gradual rollout-based rollouts can be created.</li></ul><p><b>What you need to do to prepare:</b>\n</p><p>We recommend transitioning to Windows Autopatch Groups (AGs), which offer a modern, flexible, and transparent approach to phased deployments.\n</p><p>Autopatch Groups support:\n</p><ul><li><b>Ring-Based Phased Deployment:</b> Define custom deployment rings backed by Entra ID groups, assign different deferral periods, and monitor rollout progress and compliance per ring.</li><li><b>Multi-Phase Feature Update Releases:</b> Configure multiple phases within a single Feature Update policy, each with its own schedule, target version, and compliance deadline.</li></ul><p>For example:\n</p><ul><li>Phase 1: 10% of devices starting immediately</li><li>Phase 2: 30% of devices after 7 days</li><li>Phase 3: Remaining 60% after 14 days</li></ul><p>This provides a Gradual rollout-like experience with more visibility, control, and policy-level management.</p><p><b>Additional Information:</b></p><ul><li><a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-windows-feature-update-overview\" target=\"_blank\">Windows feature updates overview | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/deploy/windows-autopatch-groups-overview\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif;\">Windows Autopatch groups overview | Microsoft Learn</a></li></ul><p>\n</p>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "The Gradual Rollouts (GR) feature in Windows Autopatch will be removed starting late June 2025, with completion by October 14, 2025. Organizations should transition to Windows Autopatch Groups (AGs) for phased deployments. Existing GR policies will function until their end dates, but no new GR policies can be created after October 14, 2025."
+    }
+  ],
+  "EndDateTime": "2025-11-17T08:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1098167",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-06-27T18:36:25.933Z",
+  "Services": [
+    "Windows Autopatch"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-06-18T23:11:09Z",
+  "Tags": [
+    "Updated message",
+    "Admin impact"
+  ],
+  "Title": "Feature Update: Gradual Rollouts (GR) Removal in Windows Autopatch",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
