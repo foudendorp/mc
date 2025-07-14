@@ -9,6 +9,7 @@ import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://mc.oudendorp.it'),
   title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
