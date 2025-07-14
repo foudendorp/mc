@@ -139,7 +139,12 @@ function Get-M365RoadmapItems() {
                         $servicesField = if ($services.Count -gt 1) {
                             $services  # Keep as array for multiple services
                         } else {
-                            $services[0].ToString()  # Convert to string for single service
+                            # Ensure we get the full string, not just the first character
+                            if ($services -is [array]) {
+                                $services[0]
+                            } else {
+                                $services
+                            }
                         }
                         
                         # Extract the roadmap ID from the link
