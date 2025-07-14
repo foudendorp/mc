@@ -15,7 +15,7 @@ export const Icons = {
   twitter: Twitter,
   logo: (props: LucideProps) => (
     <Image 
-      src="/secminds.png" 
+      src="./public/secminds.png" 
       alt="Logo" 
       width={24} 
       height={24} 
