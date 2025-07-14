@@ -154,7 +154,7 @@ function Get-M365RoadmapItems() {
                             PubDate = $item.pubDate
                             LastModifiedDateTime = $item.pubDate  # Use PubDate as LastModifiedDateTime for consistency
                             Categories = $categories
-                            Services = $services
+                            Services = $services[0]  # Use first service as string for backward compatibility
                             Type = "roadmap"
                             IsMajorChange = $false  # Roadmap items are not marked as major changes
                         }
@@ -206,10 +206,15 @@ foreach($msg in $msgItems){
         # File exists, check if content has changed
         try {
             $existingContent = Get-Content $filePath -Raw | ConvertFrom-Json
-            $newJson = $msg | ConvertTo-Json -Depth 10 -Compress
-            $existingJson = $existingContent | ConvertTo-Json -Depth 10 -Compress
             
-            if ($newJson -ne $existingJson) {
+            # Compare key fields that would indicate a real change
+            $hasChanged = $false
+            
+            if ($existingContent.Title -ne $msg.Title) { $hasChanged = $true }
+            if ($existingContent.LastModifiedDateTime -ne $msg.LastModifiedDateTime) { $hasChanged = $true }
+            if ($existingContent.body.content -ne $msg.body.content) { $hasChanged = $true }
+            
+            if ($hasChanged) {
                 $shouldSave = $true
                 Write-Host "Updated message center item: $($msg.Id) - $($msg.Title)"
             }
@@ -243,10 +248,27 @@ foreach($roadmap in $roadmapItems){
         # File exists, check if content has changed
         try {
             $existingContent = Get-Content $filePath -Raw | ConvertFrom-Json
-            $newJson = $roadmap | ConvertTo-Json -Depth 10 -Compress
-            $existingJson = $existingContent | ConvertTo-Json -Depth 10 -Compress
             
-            if ($newJson -ne $existingJson) {
+            # Compare key fields that would indicate a real change
+            $hasChanged = $false
+            
+            if ($existingContent.Title -ne $roadmap.Title) { $hasChanged = $true }
+            if ($existingContent.Description -ne $roadmap.Description) { $hasChanged = $true }
+            if ($existingContent.PubDate -ne $roadmap.PubDate) { $hasChanged = $true }
+            
+            # For Services field, handle both string and array formats
+            $existingServices = $existingContent.Services
+            $newServices = $roadmap.Services
+            
+            if ($existingServices -is [array] -and $newServices -is [string]) {
+                if ($existingServices[0] -ne $newServices) { $hasChanged = $true }
+            } elseif ($existingServices -is [string] -and $newServices -is [array]) {
+                if ($existingServices -ne $newServices[0]) { $hasChanged = $true }
+            } elseif ($existingServices -ne $newServices) {
+                $hasChanged = $true
+            }
+            
+            if ($hasChanged) {
                 $shouldSave = $true
                 Write-Host "Updated roadmap item: $($roadmap.Id) - $($roadmap.Title)"
             }
