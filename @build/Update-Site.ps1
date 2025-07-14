@@ -193,20 +193,82 @@ $roadmapItems = Get-M365RoadmapItems
 
 Write-Host "Updating site data with $($msgItems.Count) message center items and $($roadmapItems.Count) roadmap items"
 
-# Process Message Center items
+# Process Message Center items (only save if changed or new)
+$newOrUpdatedMCCount = 0
 foreach($msg in $msgItems){
     $msg.Title = $msg.Title.Replace('(Updated) ', '')
     $msg.body.content = $msg.body.content -replace '\[(.*?)\]', '<b>$1</b>'
 
-    # Save each message for version history
-    $msg | ConvertTo-Json -Depth 10 | Set-Content -Path ("$($dataPath)/archive/$($msg.Id).json")
+    $filePath = "$($dataPath)/archive/$($msg.Id).json"
+    $shouldSave = $false
+    
+    if (Test-Path $filePath) {
+        # File exists, check if content has changed
+        try {
+            $existingContent = Get-Content $filePath -Raw | ConvertFrom-Json
+            $newJson = $msg | ConvertTo-Json -Depth 10 -Compress
+            $existingJson = $existingContent | ConvertTo-Json -Depth 10 -Compress
+            
+            if ($newJson -ne $existingJson) {
+                $shouldSave = $true
+                Write-Host "Updated message center item: $($msg.Id) - $($msg.Title)"
+            }
+        }
+        catch {
+            # If we can't read the existing file, save the new one
+            $shouldSave = $true
+            Write-Warning "Could not read existing file $filePath, will overwrite: $($_.Exception.Message)"
+        }
+    } else {
+        # New file
+        $shouldSave = $true
+        Write-Host "New message center item: $($msg.Id) - $($msg.Title)"
+    }
+    
+    if ($shouldSave) {
+        $msg | ConvertTo-Json -Depth 10 | Set-Content -Path $filePath
+        $newOrUpdatedMCCount++
+    }
 }
 
-# Process Roadmap items - save each one individually for version history
+Write-Host "Message Center processing complete: $newOrUpdatedMCCount new or updated items out of $($msgItems.Count) total"
+
+# Process Roadmap items - save each one individually for version history (only if changed or new)
+$newOrUpdatedCount = 0
 foreach($roadmap in $roadmapItems){
-    # Save each roadmap item for version history in separate rm-archive directory
-    $roadmap | ConvertTo-Json -Depth 10 | Set-Content -Path ("$($dataPath)/rm-archive/$($roadmap.Id).json")
+    $filePath = "$($dataPath)/rm-archive/$($roadmap.Id).json"
+    $shouldSave = $false
+    
+    if (Test-Path $filePath) {
+        # File exists, check if content has changed
+        try {
+            $existingContent = Get-Content $filePath -Raw | ConvertFrom-Json
+            $newJson = $roadmap | ConvertTo-Json -Depth 10 -Compress
+            $existingJson = $existingContent | ConvertTo-Json -Depth 10 -Compress
+            
+            if ($newJson -ne $existingJson) {
+                $shouldSave = $true
+                Write-Host "Updated roadmap item: $($roadmap.Id) - $($roadmap.Title)"
+            }
+        }
+        catch {
+            # If we can't read the existing file, save the new one
+            $shouldSave = $true
+            Write-Warning "Could not read existing file $filePath, will overwrite: $($_.Exception.Message)"
+        }
+    } else {
+        # New file
+        $shouldSave = $true
+        Write-Host "New roadmap item: $($roadmap.Id) - $($roadmap.Title)"
+    }
+    
+    if ($shouldSave) {
+        $roadmap | ConvertTo-Json -Depth 10 | Set-Content -Path $filePath
+        $newOrUpdatedCount++
+    }
 }
+
+Write-Host "Roadmap processing complete: $newOrUpdatedCount new or updated items out of $($roadmapItems.Count) total"
 
 # Save Message Center data
 $msgitems | ConvertTo-Json -Depth 10 | Set-Content -Path ($dataPath + "/messages.json")
