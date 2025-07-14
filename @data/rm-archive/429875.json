@@ -1,8 +1,13 @@
 {
   "LastModifiedDateTime": "Wed, 30 Oct 2024 23:30:52 Z",
+  "PubDate": "Wed, 30 Oct 2024 23:30:52 Z",
   "Link": "https://www.microsoft.com/microsoft-365/roadmap?id=429875",
-  "Id": "429875",
   "Services": "OneDrive for Business",
+  "Type": "roadmap",
+  "Description": "If a tenant has the (EnableHoldTheFile) GPO enabled, and the end users run into Office file conflicts, then end users can open the file in Office to merge changes. If a tenant has the GPO disabled, and the end users run into Office file conflicts, then OneDrive automatically creates a copy of the file in conflict. When tenants have this GPO disabled, it leads to end users potentially having to manually merge hundreds of conflicts because OneDrive automatically forks a file instead of allowing the users to have the option to merge conflicts in Office. The proposal no longer allows tenants to disable this GPO thus not automatically forking a file when in conflict for end users. <br>GA date: May CY2025",
+  "IsMajorChange": false,
+  "Title": "OneDrive: Office Files on Hold ",
+  "Id": "429875",
   "Categories": [
     "Launched",
     "General Availability",
@@ -13,10 +18,5 @@
     "OneDrive",
     "Desktop",
     "Mac"
-  ],
-  "Description": "If a tenant has the (EnableHoldTheFile) GPO enabled, and the end users run into Office file conflicts, then end users can open the file in Office to merge changes. If a tenant has the GPO disabled, and the end users run into Office file conflicts, then OneDrive automatically creates a copy of the file in conflict. When tenants have this GPO disabled, it leads to end users potentially having to manually merge hundreds of conflicts because OneDrive automatically forks a file instead of allowing the users to have the option to merge conflicts in Office. The proposal no longer allows tenants to disable this GPO thus not automatically forking a file when in conflict for end users. <br>GA date: May CY2025",
-  "PubDate": "Wed, 30 Oct 2024 23:30:52 Z",
-  "Title": "OneDrive: Office Files on Hold ",
-  "Type": "roadmap",
-  "IsMajorChange": false
+  ]
 }
