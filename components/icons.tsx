@@ -5,7 +5,6 @@ import {
   Twitter,
   type Icon as LucideIcon,
 } from "lucide-react"
-import Image from "next/image"
 
 export type Icon = LucideIcon
 
@@ -14,12 +13,13 @@ export const Icons = {
   moon: Moon,
   twitter: Twitter,
   logo: (props: LucideProps) => (
-    <Image 
-      src="./public/secminds.png" 
+    <img 
+      src="/secminds.png" 
       alt="Logo" 
       width={24} 
       height={24} 
       className={props.className}
+      style={{ objectFit: 'contain' }}
     />
   ),
   gitHub: (props: LucideProps) => (
