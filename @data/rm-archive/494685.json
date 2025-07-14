@@ -1,13 +1,11 @@
 {
-  "Id": "494685",
-  "IsMajorChange": false,
-  "Services": "Microsoft Purview compliance portal",
-  "LastModifiedDateTime": "Tue, 20 May 2025 23:15:01 Z",
-  "Title": "Microsoft Purview compliance portal: Upcoming Update to Audit Records for Microsoft Purview Role Group Changes",
   "PubDate": "Tue, 20 May 2025 23:15:01 Z",
+  "Title": "Microsoft Purview compliance portal: Upcoming Update to Audit Records for Microsoft Purview Role Group Changes",
   "Description": "To improve clarity and transparency, we’re updating the audit data for events related to Microsoft Purview role group membership changes. This update affects audit events under the SecurityComplianceRBAC workload (RecordType 87), specifically for operations for GrantPermission, DeletePermission. While the audit schema remains unchanged, the PreExecutionMessage and PostExecutionMessage fields will be refined to better reflect the nature of the changes captured in the logs. Action Required: If your organization consumes these audit log events programmatically (e.g., via scripts or automation tools), please review and update your parsing logic to accommodate the enhanced message content. Rollout Timeline: This change will be rolled out starting in August. We recommend validating your systems against the updated message format as soon as it becomes available in your environment.<br>GA date: August CY2025<br>Preview date: August CY2025",
-  "Type": "roadmap",
+  "Id": "494685",
+  "LastModifiedDateTime": "Tue, 20 May 2025 23:15:01 Z",
   "Link": "https://www.microsoft.com/microsoft-365/roadmap?id=494685",
+  "Services": "Microsoft Purview compliance portal",
   "Categories": [
     "In development",
     "General Availability",
@@ -17,5 +15,7 @@
     "DoD",
     "Microsoft Purview compliance portal",
     "Web"
-  ]
+  ],
+  "IsMajorChange": false,
+  "Type": "roadmap"
 }
