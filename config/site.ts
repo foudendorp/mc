@@ -19,7 +19,6 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/foudendorp",
-    github: "https://github.com/foudendorp/mc",
+    linkedin: "https://www.linkedin.com/company/secminds-solutions/",
   },
 }
