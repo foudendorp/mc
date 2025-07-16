@@ -4,6 +4,362 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting July 15th, 2025 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2506-july-15\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "ExternalLink",
+        "Value": "https://docs.microsoft.com/officeupdates/"
+      }
+    ],
+    "EndDateTime": "2025-07-30T01:30:16.77Z",
+    "HasAttachments": false,
+    "Id": "MC1116044",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-16T01:30:17.487Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-16T01:30:16.77Z",
+    "Tags": [
+      "Feature update"
+    ],
+    "Title": "Updates available for Microsoft 365 Apps for Current Channel",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>We’re introducing new Viva Engage role management APIs in Microsoft Graph, now available in beta. These APIs allow IT admins to programmatically manage Viva Engage-specific roles—such as Corporate Communicator, Network Administrator, and Verified Administrator, enabling automation, scalability, and integration with existing identity systems.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497131\" target=\"_blank\">497131</a>.</p><p><b>When this will happen:</b>\n</p><p><b>General Availability (Worldwide):</b> We will begin rolling out in early August 2025 and expect to complete by late August 2025.</p><p><b>How this will affect your organization:</b></p><p>These new APIs provide greater flexibility and control for IT admins by enabling:\n</p><ul><li>Automated role assignments\n</li><li>Programmatic retrieval of role data\n</li><li>Streamlined admin workflows across large organizations\n</li></ul><p>This expands on existing Microsoft Graph support for roles like Global Administrator and Yammer Administrator, now including all Viva Engage-specific roles. The update does not change the current UI-based role management experience—it simply adds a new programmatic option for admins and corporate communicators to provision Viva Engage roles.</p><p><b>What you need to do to prepare:</b></p><p>No immediate action is required. If your organization is interested in using these APIs, you can:\n</p><ul><li>Begin testing the <b>beta APIs </b>using either delegated (user-authenticated) or app-only access models</li><li>Ensure the appropriate roles are assigned—<b>Entra admin</b> or <b>Corporate Communicator</b>—as these are required to use the APIs</li><li>Share feedback to help improve the experience ahead of general availability</li></ul><p>Learn more:</p><ul><li><a href=\"http://Review the https://learn.microsoft.com/graph/api/resources/viva-engage-role-management?view=graph-rest-beta\" target=\"_blank\">Introducing Viva Engage Role Management APIs on Microsoft Graph API | Viva Engage | Viva Engage Blog</a></li><li><a href=\"https://learn.microsoft.com/graph/api/resources/engagement-api-overview?view=graph-rest-beta\" target=\"_blank\">Use the Microsoft Graph API to work with Viva Engage | Microsoft Learn</a></li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "497131"
+      },
+      {
+        "Name": "Summary",
+        "Value": "New Viva Engage role management APIs in Microsoft Graph are now in beta, allowing IT admins to manage roles programmatically. The rollout begins in early August 2025. These APIs enable automated role assignments and streamlined admin workflows. No immediate action is required, but testing and feedback are encouraged."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-10-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1115983",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-15T22:53:27.003Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-15T22:53:20Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Viva | New Microsoft Graph APIs for Viva Engage role management",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>We are introducing a new Copilot setting in the Microsoft 365 admin center to make it easier for admins to pin the Microsoft 365 Copilot app to the Windows taskbar. Pinning this app to the Windows taskbar gives users easier access to Copilot Chat, Search, Agents, and more, if these capabilities are already available to them. \n</p><p>This setting applies to all Windows 10 and 11 Intune-managed devices which have the Microsoft 365 Copilot app installed. The setting is off by default as shown below.</p><p><i>New setting to pin Microsoft 365 Copilot  app to the Windows taskbar</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/1c0525c4-ec61-43e3-9a08-b07381e6e032\" width=\"400\" height=\"\"></p><p><b>When this will happen:</b>\n</p><p>General Availability (Production): The new default off admin setting will begin rolling out at the end of July and finish rolling out in the weeks after.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>Global and Intune administrators can manage this setting. \n</p><p>When this setting is enabled, the pinned Microsoft 365 Copilot app will appear to the right of any other apps that are already pinned on the taskbar.</p><p><i>User experience</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/564c0e57-647b-4226-8695-f2ab17999716\" width=\"400\" height=\"\"></p><p>\n</p><p>Users who already pinned the Microsoft 365 Copilot app on their Windows taskbar will experience no change.&nbsp;</p><p><b>What you need to do to prepare:</b>\n</p><p>Since this setting needs the Microsoft 365 Copilot app to be installed on the device, deploy the Microsoft 365 Copilot app to devices where you wish to have the app pinned. \n</p><p>To learn more about this setting, refer to the article <a href=\"https://go.microsoft.com/fwlink/?linkid=2326492\" target=\"_blank\">Pin Microsoft 365 Copilot to the Windows taskbar.</a></p><p><b>Compliance considerations</b>:\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p><p><br></p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "A new setting in the Microsoft 365 admin center allows admins to pin the Microsoft 365 Copilot app to the Windows taskbar for easier access. This setting, off by default, applies to Intune-managed Windows 10 and 11 devices. It will roll out starting at the end of July."
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1115982",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-15T22:53:01.893Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-15T22:52:54Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New Copilot setting for pinning the Microsoft 365 Copilot app to the Windows Taskbar",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><p><b>What and Why</b></p><p>\n</p><p>Starting in early August, Microsoft is introducing a new tenant-level service plan—Insights by MyAnalytics Backend—to support existing user-level service plans: Microsoft MyAnalytics (Full) and Insights by MyAnalytics. This backend-only update ensures alignment with security classification requirements while maintaining current MyAnalytics functionality. No changes are being made to user-facing features or SKU entitlements.</p>\n\n<b>Rollout Schedule</b></p><p>\n<ul>\n<li>Rollout begins: Early August 2025 with expected completion: Mid-August 2025</li>\n</ul>\n\n<b>Impact on Your Organization</b></p><p>\n<ul>\n<li><i>Who is affected:</i>\n  <ul>\n    <li>Tenants with users assigned to Microsoft MyAnalytics (Full) or Insights by MyAnalytics service plans.</li>\n    <li>Admins managing service plan assignments in the Microsoft 365 admin center.</li>\n  </ul>\n</li>\n<li><i>What will happen:</i>\n  <ul>\n    <li>A new tenant-level service plan called Insights by MyAnalytics Backend will appear in the Microsoft 365 admin center.</li>\n    <li>This plan will be enabled and greyed out, indicating it is not assignable or removable by admins.</li>\n    <li>Existing user-level service plans remain unchanged and assignable.</li>\n    <li>Admins will see both the new backend plan and the existing user-level plans in the admin center.</li>\n    <li>No changes to SKU entitlements or service capabilities.</li>\n  </ul>\n</li>\n</ul>\n\n<p><i>Example screenshot of service plan assignment view:</i><br>\n<img src=\"https://cxcs.microsoft.net/file/ccp/en-us/34b8e0a6-563c-4e0a-aca2-044efb0f0410\" width=\"400\" height=\"\"></p>\n\n<b>Action Required / Recommendations</b></p><p>\n<ul>\n<li>Inform helpdesk and support staff about the new backend plan visibility.</li>\n<li>Update internal documentation if you reference MyAnalytics service plans.</li>\n<li>Continue managing user-level service plan assignments as usual.</li>\n<li>If you have questions, contact your Viva Insights support channel.</li>\n</ul>\n\n<b>Compliance Considerations</b></p><p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is introducing a new tenant-level service plan, Insights by MyAnalytics Backend, in early August 2025. This update supports existing user-level service plans and aligns with security requirements without changing user-facing features. Admins will see the new plan in the Microsoft 365 admin center, which will be enabled and non-removable."
+      }
+    ],
+    "EndDateTime": "2025-09-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1115981",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-15T22:52:39.003Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-15T22:52:12Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "New Tenant-level Service Plan in Viva Suite SKU",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>What and Why</b></p><p>We’re introducing a new in-context meeting join experience to help users seamlessly access meetings they’ve RSVP’d to as “Yes” or “Tentative.” When a meeting is live, a banner will appear, allowing users to join directly. If multiple meetings are active, the banner will display the count and offer a “View More” call-to-action, enabling users to choose which meeting to join. This enhancement supports quicker access to meetings and improves user productivity.</p><p><b>Rollout Schedule</b></p>\n<ul>\n<li><b>Public Preview:</b> Mid July 2025 – Late July 2025</li>\n<li><b>Targeted Release:</b> Mid July 2025 – Late July 2025</li>\n<li><b>General Availability:</b>\n  <ul>\n    <li>Worldwide: Mid-July 2025 – Late July 2025</li>\n  </ul>\n</li>\n</ul>\n\n<p><b>Impact on Your Organization</b></p>\n<ul>\n<li><b>Who is affected:</b> <ul><li>All users who RSVP “Yes” or “Tentative” to meetings in Microsoft Teams.</li></ul></li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A banner will appear when a meeting the user has RSVP’d to is live.</li>\n    <li>Users can join the meeting directly from the banner.</li>\n    <li>If multiple meetings are live, the banner will show the number of active meetings and a “View More” option.<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/4840d809-23c2-40cc-ac41-d3f8a705acb3\" width=\"400\" height=\"\"></p></li>\n    <li>This feature is ON by default.</li>\n    <li>Users can disable the banner via Teams notification settings.</li>\n    <li>No admin configuration is required.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b>Action Required/Recommendations</b></p>\n<ul>\n<li>No action is required to enable this feature. However, we recommend the following:</li>\n  <ul>\n    <li>Inform helpdesk and support staff about the new banner experience.</li>\n    <li>Update internal documentation if you reference meeting join workflows.</li>\n    <li>If desired, users can disable the banner via: <b>Teams &gt; Settings &gt; Notifications &gt; Meeting Banner</b></li></ul>\n</ul>\n\n<p><b>Compliance Considerations</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is introducing a new meeting join banner for users who RSVP “Yes” or “Tentative.” The banner allows direct joining of live meetings and shows the count of active meetings with a “View More” option. Rollout is scheduled for mid to late July 2025. No admin action is required."
+      }
+    ],
+    "EndDateTime": "2025-11-24T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1115979",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-15T22:51:02.29Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-15T22:50:56Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Meeting Join Bar",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>More enterprise environments can now experience the power of security updates that do not require a restart. Hotpatching is now available for Windows 11, version 24H2 Arm64 devices. All you need to do is check your prerequisites, disable Compiled Hybrid PE (CHPE), and enroll these devices into a quality update policy with hotpatching enabled.</p><p><b>When this will happen:</b></p><p>Hotpatching for 64-bith Arm architecture is now generally available.</p><p><b>How this will affect your organization:</b></p><p>With hotpatching, your organization can benefit from:</p><ul><li><b>Faster compliance:</b> Security updates are applied immediately, reducing the window of vulnerability.</li><li><b>No downtime:</b> Users stay productive—no forced restarts or interruptions.</li><li><b>Smaller update payloads:</b> Faster installs and easier update orchestration.</li><li><b>Enterprise-grade control:</b> Integrated with Microsoft Intune and Windows Autopatch for streamlined management.</li></ul><p><b>What you need to do to prepare:</b>\n</p><p>Review <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatching-now-available-for-64-bit-arm-architecture/4430949\" target=\"_blank\">Hotpatching now available for 64-bit Arm architecture</a> to check if you meet the prerequisites and additional guidance to get started.\n</p><p>A unique prerequisite for Arm64 devices is disabling Compiled Hybrid PE (CHPE). Do this in one of the following ways:\n</p><ul><li><b>Use the DisableCHPE policy.</b> Apply the following configuration service provider (CSP) setting via Microsoft Intune or Group Policy, then restart the device once: ./Device/Vendor/MSFT/Policy/Config/Hotpatch/DisableCHPE = 1</li><li><b>Use registry keys.</b> You can also set the following registry key value to 1 and then restart the device once: HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management\\HotPatchRestrictions = 1</li></ul><p><b>Additional information:</b></p><ul><li>Read <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatching-now-available-for-64-bit-arm-architecture/4430949\" target=\"_blank\">Hotpatching now available for 64-bit Arm architecture</a> for the complete announcement and technical guide.</li><li>Find the DisableCHPE policy at <a href=\"https://learn.microsoft.com/windows/client-management/mdm/policy-csp-system#disablechpe\" target=\"_blank\">System Policy CSP</a>.</li><li>Learn how to <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates\" target=\"_blank\">Enroll devices to receive hotpatch updates</a>.</li><li>Consult our comprehensive documentation on <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates\" target=\"_blank\">hotpatch updates</a>.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Hotpatching is now available for Windows 11, version 24H2 Arm64 devices, allowing security updates without restarts. Organizations benefit from faster compliance, no downtime, smaller update payloads, and enterprise-grade control. Prerequisites include disabling Compiled Hybrid PE (CHPE) via policy or registry key. For more details, review the provided links."
+      }
+    ],
+    "EndDateTime": "2025-08-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1115976",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-15T22:49:51.827Z",
+    "Services": [
+      "Microsoft Intune",
+      "Windows Autopatch"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-15T22:49:23Z",
+    "Tags": [
+      "Feature update"
+    ],
+    "Title": "Hotpatching is now available for 64-bit Arm architecture",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 15, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>We’re introducing the ability for tenant admins to upload a custom dictionary on the <i>Copilot Settings</i> page in the Microsoft 365 admin center. This feature enhances meeting transcripts for Microsoft Teams users by improving recognition of tenant-specific terminology, benefiting both Copilot and Intelligent Recap experiences.</p><p>A Microsoft 365 Copilot license is required for the Teams meeting organizer or transcription initiator to enable transcript enhancement using the custom dictionary.\n</p><p>This message applies to meeting transcripts in Teams for Windows desktop, Teams for Mac desktop, and Teams for the web, and Teams for iOS/Android.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=487428\" target=\"_blank\">487428</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out late June 2025 and expect to complete by early July 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out mid-July 2025 and expect to complete by late July 2025.</p><p><b>How this will affect your organization:</b></p><p>After this rollout:</p><ul><li>You can upload a flat list of tenant-specific terms (e.g., acronyms, product names, department jargon) organized by language.\n</li><li>Only Global Admins or AI Admins can upload or delete the dictionary.\n</li><li>The dictionary applies to all scheduled Teams meetings across the tenant.\n</li><li>Users cannot edit the dictionary directly; they must request updates through admins.</li><li>After the feature release date, you can upload or manage the dictionary at Microsoft 365 admin center &gt; <i>Copilot &gt; Settings &gt; Other settings &gt; Copilot Custom Dictionary\n</i></li></ul><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/123541b1-a3d8-4766-925d-30af8eb2a6eb\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p><b>What you need to do to prepare:</b></p><ul><li>This rollout will happen automatically by the specified dates with no administrative action required before the rollout. You may want to notify your admins and/or users about this change and update internal documentation.</li><li>Begin collecting relevant terms from internal teams in plain text format. The dictionary will be presented in a flat list format, with the required field <i>Term </i>and optional fields including <i>Sounds like</i>, <i>Long form of the term, </i>and <i>Definition and context.</i></li></ul><p><b>Compliance considerations:</b></p><p>You should collect and upload tenant-specific terminologies that are relevant to the tenant and do not include any confidential, sensitive, or personal information.</p><p>Before rollout, we will update this post with new documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "487428"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Admins can upload custom dictionaries for Microsoft Teams meeting transcripts to improve recognition of tenant-specific terminology. This feature requires a Microsoft 365 Copilot license and will be available for Teams on various platforms. Rollout starts in June 2025 for targeted release and mid-July 2025 for general availability."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-09-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1094050",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-15T21:13:54.4Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-13T21:52:42Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Admins can upload custom dictionaries for Microsoft Teams meeting transcripts",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 15, 2025: We have updated the content. Thank you for your patience.\n</p><p>Before this rollout, Microsoft Teams has one admin policy to control event access for webinars and town halls. After this rollout, admins can control who can attend town halls in their organization with the new policy setting <code>TownhallEventAttendeeAccess</code>.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, Teams for the web, and Teams for iOS/Android.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=483250\" target=\"_blank\">483250</a>.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide, GCC): We will begin rolling out mid-June 2025 and expect to complete by late June 2025.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout, admins can control the event access for town hall created by their users with the new policy setting <code>TownhallEventAttendeeAccess</code> in the Teams admin center and Microsoft PowerShell. The policy has two new attributes: <code>Everyone </code>and <code>Everyone in Organization including Guests</code>:\n</p><ul><li>If <code>Everyone </code>is selected, town halls will not be restricted to a certain identity type; however, your organizers can still choose to restrict their town hall as they wish. This is the default setting.</li><li>If <code>Everyone in Organization including Guests</code> is selected, town halls in your organization will only allow users in your organization and guest users to your tenant to attend. Town hall organizers may choose to further restrict their town halls but cannot invite users who are not part of their organization or who are not guests to attend.\n</li></ul><p>If you have feedback on these attributes or have suggestions for new attributes, please send an email to <a href=\"mailto://EventAccessFeedback@microsoft.com\" target=\"_blank\">EventAccessFeedback@microsoft.com</a></p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p>By default, <code>TownhallEventAttendeeAccess</code> will be set to <code>Everyone</code>. If you would like to change the default setting before the rollout begins, you can use this Microsoft PowerShell code:\n</p><p style=\"margin-left: 25px;\"><code>Set-CsTeamsEventsPolicy -Identity Global -TownhallEventAttendeeAccess EveryoneInOrganizationAndGuests</code></p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/set-up-town-halls\" target=\"_blank\">Manage who can schedule and attend town halls in Microsoft Teams - Microsoft Teams | Microsoft Learn</a> (will be updated before rollout)</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "483250"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is updating its town hall event access policy. Admins can now control who can attend town halls with the new `TownhallEventAttendeeAccess` setting. The rollout will occur from mid to late June 2025. The default setting is `Everyone`, but it can be changed using Microsoft PowerShell. More details are available [here](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=483250)."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Mobile, Web"
+      }
+    ],
+    "EndDateTime": "2025-08-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1047244",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-15T21:05:41.983Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-04-03T02:06:48Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: New town hall event access policy",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>More enterprise environments can now experience the power of security updates that don’t require a restart. Hotpatching is now available for Windows 11, version 24H2 Arm64 devices. All you need to do is check your prerequisites, disable Compiled Hybrid PE (CHPE), and enroll these devices into a quality update policy with hotpatching enabled.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>Hotpatching for 64-bit Arm architecture is now generally available.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>With hotpatching, your organization can benefit from:&nbsp;</div><ul><li><b>Faster compliance</b>: Security updates are applied immediately, reducing the window of vulnerability.&nbsp;</li><li><b>No downtime</b>: Users stay productive—no forced restarts or interruptions.&nbsp;</li><li><b>Smaller update payloads</b>: Faster installs and easier update orchestration.&nbsp;</li><li><b>Enterprise-grade control</b>: Integrated with Microsoft Intune and Windows Autopatch for streamlined management.&nbsp;</li></ul><div><br></div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Read <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatching-now-available-for-64-bit-arm-architecture/4430949\" rel=\"noopener noreferrer\" target=\"_blank\">Hotpatching now available for 64-bit Arm architecture</a><em> </em>to check if you meet the prerequisites and additional guidance to get started.&nbsp;&nbsp;</div><div>&nbsp;</div><div>A unique prerequisite for Arm64 devices is disabling Compiled Hybrid PE (CHPE). Do this in one of the following ways:&nbsp;</div><ul><li><b>Use the DisableCHPE policy.</b> Apply the following configuration service provider (CSP) setting via Microsoft Intune or Group Policy, then restart the device once: ./Device/Vendor/MSFT/Policy/Config/Hotpatch/DisableCHPE = 1&nbsp;</li><li><b>Use registry keys.</b> You can also set the following registry key value to 1 and then restart the device once: HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management\\HotPatchRestrictions = 1&nbsp;</li></ul><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Read <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatching-now-available-for-64-bit-arm-architecture/4430949\" rel=\"noopener noreferrer\" target=\"_blank\">Hotpatching now available for 64-bit Arm architecture</a> for the complete announcement and technical guide.&nbsp;</li><li>Find the DisableCHPE policy at <a href=\"https://learn.microsoft.com/windows/client-management/mdm/policy-csp-system#disablechpe\" rel=\"noopener noreferrer\" target=\"_blank\">System Policy CSP</a>.&nbsp;</li><li>Learn how to <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates\" rel=\"noopener noreferrer\" target=\"_blank\">Enroll devices to receive hotpatch updates</a>.&nbsp;</li><li>Consult our comprehensive documentation on <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates\" rel=\"noopener noreferrer\" target=\"_blank\">Hotpatch updates</a>.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-07-15T17:01:16.183Z",
+    "HasAttachments": false,
+    "Id": "MC1115741",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-15T17:01:17.103Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-15T17:01:16.23Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Hotpatching now available for 64-bit Arm architecture",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Coming soon for Microsoft Copilot in Teams: Intelligent meeting recap will be able to incorporate content shared on screen into the AI-based summary provided after the meeting, providing a richer and more comprehensive recap of the meeting. Intelligent meeting recap will capture details shown when a participant shares their screen, ensuring those unspoken insights become part of the meeting recap.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, Teams for the web, and Teams for iOS/Android.\n</p><p>This feature requires a Microsoft 365 Copilot license.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=490052\" target=\"_blank\">490052</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out late August 2025 and expect to complete by mid-September 2025.</p><p><b>How this will affect your organization:</b>\n</p><p>Copilot users will receive intelligent recap summaries that incorporate shared-screen content, preserving every detail and its context.\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3ac073cb-92c4-4c40-a300-618ec03b3217\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>This feature will be available by default with no admin controls.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/intelligent-recap-calls-meetings\" target=\"_blank\">Intelligent recap for Teams calls, meetings, and events - Microsoft Teams | Microsoft Learn</a> (will be updated before rollout)</p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -10603,52 +10959,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>We’re introducing the ability for tenant admins to upload a custom dictionary on the <i>Copilot Settings</i> page in the Microsoft 365 admin center. This feature enhances meeting transcripts for Microsoft Teams users by improving recognition of tenant-specific terminology, benefiting both Copilot and Intelligent Recap experiences.</p><p>A Microsoft 365 Copilot license is required for the Teams meeting organizer or transcription initiator to enable transcript enhancement using the custom dictionary.\n</p><p>This message applies to meeting transcripts in Teams for Windows desktop, Teams for Mac desktop, and Teams for the web, and Teams for iOS/Android.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=487428\" target=\"_blank\">487428</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out late June 2025 and expect to complete by early July 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out early July 2025 and expect to complete by mid-July 2025.</p><p><b>How this will affect your organization:</b></p><p>After this rollout:</p><ul><li>You can upload a flat list of tenant-specific terms (e.g., acronyms, product names, department jargon) organized by language.\n</li><li>Only Global Admins or AI Admins can upload or delete the dictionary.\n</li><li>The dictionary applies to all scheduled Teams meetings across the tenant.\n</li><li>Users cannot edit the dictionary directly; they must request updates through admins.</li><li>After the feature release date, you can upload or manage the dictionary at Microsoft 365 admin center &gt; <i>Copilot &gt; Settings &gt; Other settings &gt; Copilot Custom Dictionary\n</i></li></ul><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/123541b1-a3d8-4766-925d-30af8eb2a6eb\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p><b>What you need to do to prepare:</b></p><ul><li>This rollout will happen automatically by the specified dates with no administrative action required before the rollout. You may want to notify your admins and/or users about this change and update internal documentation.</li><li>Begin collecting relevant terms from internal teams in plain text format. The dictionary will be presented in a flat list format, with the required field <i>Term </i>and optional fields including <i>Sounds like</i>, <i>Long form of the term, </i>and <i>Definition and context.</i></li></ul><p><b>Compliance considerations:</b></p><p>You should collect and upload tenant-specific terminologies that are relevant to the tenant and do not include any confidential, sensitive, or personal information.</p><p>Before rollout, we will update this post with new documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "487428"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Admins can upload custom dictionaries for Microsoft Teams meeting transcripts via the Copilot Settings page in the Microsoft 365 admin center. This feature, requiring a Microsoft 365 Copilot license, enhances transcript accuracy for tenant-specific terms. The rollout starts in late June 2025 and completes by mid-July 2025."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1094050",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-13T21:52:49.507Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-13T21:52:42Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Admins can upload custom dictionaries for Microsoft Teams meeting transcripts",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated June 13, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Major update: Microsoft Viva Pulse is rolling out a new delegation feature in July 2025 that enables users in your tenant to assign other users as delegates to take actions on their behalf. This feature is designed to support executive assistants, chiefs of staff, and other designated roles who act on behalf of organizational leaders in collecting and analyzing feedback. \n</p><p>\n</p><p>Delegation in Viva Pulse allows a user (the delegator) to authorize another user (the delegate) to manage the Pulse survey lifecycle on their behalf. Delegates can create, send, and manage Pulses, while the delegator retains ownership and visibility into all activity.&nbsp;</p><p>To use this feature, users must have a license for Viva Pulse via Microsoft Viva Suite, Microsoft Viva Workplace Analytics and Employee Feedback, or Microsoft 365 Copilot. This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=479753\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">479753</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will roll out the delegation feature in mid-July 2025.&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Delegation is turned on by default in tenants. Admins can manage delegation at the tenant level, group level using Microsoft Entra ID groups or Microsoft 365 groups, or at the user level for maximum flexibility through centralized feature access management.&nbsp;&nbsp;</p><p>You can create and update policies in the<a href=\"https://learn.microsoft.com/Viva/control-access-admin-center\" target=\"_blank\"> Microsoft 365 admin center</a> or in PowerShell. Use the FeatureID value PulseDelegation to configure delegation in the tenant. See Control access to features in Viva to learn more.</p><p>Delegates will be able to: </p><ol><li>Create and send Pulses on behalf of the delegator. Survey recipients for Pulses sent by the delegate will see the email and Teams notifications indicate that the Pulse was sent on behalf of the delegator. </li><li>View all Pulses sent or drafted. </li><li>View all Pulse reports.&nbsp;</li></ol><p>Delegates cannot view or respond to confidential conversations and cannot share Pulse reports.</p><p> <b>What you need to do to prepare:</b></p><p>This rollout will happen automatically in mid-July 2025 with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.&nbsp;&nbsp;</p><p>Learn more</p><ul><li><a href=\"https://learn.microsoft.com/viva/pulse/setup-admin-access/tenant-admin-dashboard\" target=\"_blank\">View usage metrics with the tenant admin dashboard | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/feature-access-management\" target=\"_blank\">Microsoft Viva - Feature access management | Microsoft Learn</a></li></ul><p>Before we complete rolling out the delegation feature, we will update this post with new documentation that explains how to set up delegation in Viva Pulse.&nbsp;</p>",
       "ContentType": "html"
     },
@@ -20833,53 +21143,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated April 30, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Before this rollout, Microsoft Teams has one admin policy to control event access for webinars and town halls. After this rollout, admins can control who can attend town halls in their organization with the new policy setting <code>TownhallEventAccessType</code>.\n</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, Teams for the web, and Teams for iOS/Android.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=483250\" target=\"_blank\">483250</a>.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide, GCC): We will begin rolling out mid-June 2025 and expect to complete by late June 2025.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout, admins can control the event access for town hall created by their users with the new policy setting <code>TownhallEventAccessType</code> in the Teams admin center and Microsoft PowerShell. The policy has two new attributes: <code>Everyone </code>and <code>Everyone in Organization including Guests</code>:\n</p><ul><li>If <code>Everyone </code>is selected, town halls will not be restricted to a certain identity type; however, your organizers can still choose to restrict their town hall as they wish. This is the default setting.</li><li>If <code>Everyone in Organization including Guests</code> is selected, town halls in your organization will only allow users in your organization and guest users to your tenant to attend. Town hall organizers may choose to further restrict their town halls but cannot invite users who are not part of their organization or who are not guests to attend.\n</li></ul><p>If you have feedback on these attributes or have suggestions for new attributes, please send an email to <a href=\"mailto://EventAccessFeedback@microsoft.com\" target=\"_blank\">EventAccessFeedback@microsoft.com</a></p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p>By default, <code>TownhallEventAccessType</code> will be set to <code>Everyone</code>. If you would like to change the default setting before the rollout begins, you can use this Microsoft PowerShell code:\n</p><p style=\"margin-left: 25px;\"><code>Set-CsTeamsEventsPolicy -Identity Global -TownhallEventAccessType EveryoneInOrganizationAndGuests</code></p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/set-up-town-halls\" target=\"_blank\">Manage who can schedule and attend town halls in Microsoft Teams - Microsoft Teams | Microsoft Learn</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "483250"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams is updating its town hall event access policy. Admins will now have a new setting, `TownhallEventAccessType`, to control who can attend town halls. The rollout starts mid-June 2025 and completes by late June 2025. The default setting is `Everyone`, but it can be changed to `Everyone in Organization including Guests`."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, Mobile, Web"
-      }
-    ],
-    "EndDateTime": "2025-08-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1047244",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-04-30T21:44:22.5Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-03T02:06:48Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: New town hall event access policy",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div>Start using the newest Windows 11 capabilities with helpful tips and actionable steps summarized in one place. Discover hotpatch updates for Windows client, controls and policies to manage new AI features on Copilot+ PCs, public preview of Zero Trust DNS, and more. See how to get started with these and other enhancements across Windows 365, Microsoft Intune, Windows Autopatch, and Windows Server.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>Improvements summarized in this <a href=\"https://aka.ms/WindowsNewsYouCanUse/April2025\" rel=\"noopener noreferrer\" target=\"_blank\">monthly recap</a> are already available. Note that some of them are rolling out gradually.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>You can start seeing improvements across various workflows in your organization with:&nbsp;</div><ul><li>Hotpatch updates for Windows 11, version 24H2&nbsp;</li><li>Built-in controls and policies to manage new AI features on Copilot+ PCs&nbsp;</li><li>Public preview of Zero Trust DNS&nbsp;</li><li>Improved Windows Autopatch groups and reports&nbsp;</li><li>New Copilot app and Copilot key capabilities&nbsp;</li><li>Additional improvements released in April&nbsp;</li></ul><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Read the new monthly recap and additional information to start benefiting from the latest improvements.&nbsp;</div><div><br></div><div><b>Additional information:</b>&nbsp;</div><div>Read the monthly recap at <a href=\"https://aka.ms/WindowsNewsYouCanUse/April2025\" rel=\"noopener noreferrer\" target=\"_blank\">Windows news you can use: April 2025</a>. It includes highlights from the following channels:&nbsp;</div><ul><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows-ITPro-blog\" rel=\"noopener noreferrer\" target=\"_blank\">Windows IT Pro Blog</a></li><li><a href=\"https://techcommunity.microsoft.com/t5/microsoft-intune-blog/bg-p/MicrosoftEndpointManagerBlog\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Intune Blog</a></li><li><a href=\"https://blogs.windows.com/windows-insider/\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Insider Blog</a></li><li><a href=\"https://support.microsoft.com/topic/windows-11-version-24h2-update-history-0929c747-1815-4543-8461-0160d16f15e5\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 update history</a></li><li><a href=\"https://support.microsoft.com/topic/windows-server-2025-update-history-10f58da7-e57b-4a9d-9c16-9f1dcd72d7d7\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Server update history</a></li><li><a href=\"https://blogs.windows.com/windowsexperience/\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Experience Blog</a></li></ul>",
       "ContentType": "html"
     },
@@ -30232,68 +30495,6 @@
       "Admin impact"
     ],
     "Title": "The July 2024 Windows security update is now available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>In late 2024, checkpoint cumulative updates will be introduced for devices running Windows 11, version 24H2 or later and Windows Server 2025. This means that updating your Windows devices will involve smaller update files, resulting in a quicker and more efficient update experience. You will begin to receive checkpoint cumulative updates automatically, with no action required from you. Today, you can preview this experience in <a href=\"https://aka.ms/wip-dev-7-15\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Insider’s Preview Build 26120.1252 (Dev Channel)</a>. Read more in <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/introducing-windows-11-checkpoint-cumulative-updates/ba-p/4182552\" rel=\"noopener noreferrer\" target=\"_blank\">Introducing Windows 11 checkpoint cumulative updates</a>.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>This optimization will become available in the second half of 2024. The preview of this experience is available today in <a href=\"https://aka.ms/wip-dev-7-15\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Insider’s Preview Build 26120.1252 (Dev Channel)</a>.</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>This optimization will allow you to get features and security enhancements via the latest cumulative update through smaller, incremental differentials containing only the changes since the previous checkpoint cumulative update. This means that you can save time, bandwidth, and hard drive space. As Microsoft periodically releases cumulative updates as checkpoints, the subsequent updates will consist of:&nbsp;&nbsp;</div><ul><li>The update package files associated with the checkpoints&nbsp;&nbsp;</li><li>New update package files that contain incremental binary differentials against the version of binaries in the last checkpoint&nbsp;</li></ul><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>You will need to download the Windows 11, version 24H2 update when it becomes available in late 2024. It will be available as a traditional feature update to all devices. After this, checkpoint cumulative updates will automatically become part of your usual update experience, with no action required from you. Learn more from the resources below.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Learn more about this optimization in <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/introducing-windows-11-checkpoint-cumulative-updates/ba-p/4182552\" rel=\"noopener noreferrer\" target=\"_blank\">Introducing Windows 11 checkpoint cumulative updates</a>.&nbsp;</li><li>Try out the preview experience in <a href=\"https://aka.ms/wip-dev-7-15\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Insider’s Preview Build 26120.1252 (Dev Channel)</a>.</li><li>Review how quality updates work in <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-monthly-updates-explained/ba-p/3773544\" rel=\"noopener noreferrer\" target=\"_blank\">Windows monthly updates explained.</a>&nbsp;</li><li>For a refresher on prior improvements, refer to <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/faster-smaller-windows-11-version-22h2-update-fundamentals/ba-p/3631894\" rel=\"noopener noreferrer\" target=\"_blank\">Faster. Smaller. Windows 11, version 22H2 update fundamentals</a>.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-15T21:00:40.717Z",
-    "HasAttachments": false,
-    "Id": "MC814499",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2024-07-15T21:00:41.767Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-07-15T21:00:40.75Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Introducing Windows 11 checkpoint cumulative updates",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>Starting October 15, 2024, the <b>Enforced by Default</b> phase of <a href=\"https://learn.microsoft.com/openspecs/windows_protocols/ms-apds/82b7b7c6-413d-4d66-b6b7-4a9224549782\" rel=\"noopener noreferrer\" target=\"_blank\">Kerberos&nbsp;PAC signature validation</a> mitigation begins. Updates released on or after this date will move all Windows domain controllers and clients in the environment to&nbsp;<b>Enforced</b>&nbsp;mode, enforcing the secure behavior by default. The&nbsp;<b>Enforced by Default</b>&nbsp;settings can be overridden by an Administrator to revert to&nbsp;<b>Compatibility</b>&nbsp;mode.</div><div><br></div><div><b>When will this happen:</b>&nbsp;</div><ul><li>October 15, 2024: The <b>Enforced by Default</b> phase starts where Windows domain controllers and clients will move to <b>Enforced </b>mode. Note that during this phase, the&nbsp;<b>Enforced by Default</b>&nbsp;settings can be overridden by an Administrator to revert to&nbsp;<b>Compatibility</b>&nbsp;mode.</li><li>April 8, 2025: <b>Enforcement</b> phase begins with no option to revert the new secure behavior.</li></ul><div><br></div><div><b>How this will affect your organization:</b>&nbsp;</div><div>To mitigate vulnerabilities described in&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26248\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-26248</a>&nbsp;and&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29056\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-29056</a>, you must make sure your entire Windows environment (including both domain controllers and clients) is updated. Environments that are not updated will not recognize this new request structure after <b>Enforcement </b>mode begins. This will cause the security check to fail.</div><div><br></div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>To help protect your environment and prevent outages, we recommend the following steps:</div><ol><li><b>UPDATE:</b>&nbsp;Windows domain controllers and Windows clients must be updated with a Windows security update released on or after April 9, 2024.</li><li><b>MONITOR:</b>&nbsp;Audit events will be visible in&nbsp;<b>Compatibility</b>&nbsp;mode to identify devices not updated.</li><li><b>ENABLE:</b>&nbsp;After&nbsp;<b>Enforcement</b>&nbsp;mode&nbsp;is fully enabled in your environment, the vulnerabilities described in&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26248\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-26248</a>&nbsp;and&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29056\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-29056</a>&nbsp;will be mitigated.</li></ol><div><br></div><div><b>Additional information:</b>&nbsp;</div><ul><li><a href=\"https://support.microsoft.com/help/5037754\" rel=\"noopener noreferrer\" target=\"_blank\">KB5037754: How to manage PAC Validation changes related to CVE-2024-26248 and CVE-2024-29056</a></li><li><a href=\"https://support.microsoft.com/help/5020805\" rel=\"noopener noreferrer\" target=\"_blank\">KB5020805: How to manage Kerberos protocol changes related to CVE-2022-37967</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-15T16:59:30.613Z",
-    "HasAttachments": false,
-    "Id": "MC814189",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2024-07-15T16:59:31.58Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-07-15T16:59:30.643Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "90-Day Reminder: The second phase of Kerberos PAC signature validation vulnerability mitigation begins October 15, 2024",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
