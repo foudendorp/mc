@@ -16794,44 +16794,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated May 29, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Microsoft Defender for Cloud Apps is continuously working to ensure that our out-of-the-box (OOTB) threat protection capabilities within App Governance are as accurate and effective as possible.</p><p>As part of this effort, we will be disabling by default three specific pre-defined policies that have been found to mostly trigger on legitimate activities, rather than alerting on malicious ones. This change is aimed at improving the overall accuracy of our alerts by relying on more accurate sources that provide a comprehensive view of potential attacks, rather than focusing on isolated anomalous activities.\n</p><p>If you prefer to continue receiving these alerts, the option to re-enable them remains available.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out mid-May (previously late April) and expect to complete by late May 2025.</p><p>General Availability (GCC, GCC High): We will begin rolling out early June 2025 (previously late May) and expect to complete by mid-June 2025 (previously late May).</p><p><b>How this will affect your organization:</b></p><p>These specific pre-defined policies within App Governance will be switched off for all customers by default. The policies being disabled are:\n</p><ul><li>Increase in data usage by an overprivileged or highly privileged app\n</li><li>Unusual activity from an app with priority account consent\n</li><li>Access to sensitive data\n</li></ul><p>This change will reduce the number of alerts triggered by legitimate activities, allowing you to focus on more accurate and relevant security notifications. The remaining policies and our advanced threat detection engines, which are always enabled and running behind the scenes, will continue to provide robust protection by correlating multiple pieces of evidence to identify potential attacks with higher confidence.\n</p><p>If you have made any changes to customize the existing pre-defined policy template, they will not be disabled as part of this change.</p><p>If for any reason you prefer to continue receiving these alerts, you can re-enable the policies via the policy management interface. Additionally, we provide tools for customers to create custom policies tailored to their specific needs. For more details, please refer to the relevant documentation.\n</p><p>For more details, please refer to the relevant documentation: <a href=\"https://learn.microsoft.com/defender-cloud-apps/app-governance-app-policies-get-started\" target=\"_blank\">Get started with app policies</a>\n</p><p>\n</p>\n<p></p>\n<p><b>What you need to do to prepare:</b></p><p>No immediate action is required. However, if you wish to re-enable any of the disabled policies, you can do so through the policy management interface. This will allow you to utilize the full functionality of the policies as you have been up to this point.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Defender for Cloud Apps will disable three pre-defined policies by default to improve alert accuracy. The rollout starts mid-May 2025 (worldwide) and early June 2025 (GCC, GCC High). Users can re-enable these policies if desired. No immediate action is required. More details are available in the documentation."
-      }
-    ],
-    "EndDateTime": "2025-07-21T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1036568",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-05-29T14:39:34.17Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-03-19T23:04:01Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "Admin impact"
-    ],
-    "Title": "Updates to App Governance Pre-Defined Policies in Defender for Cloud Apps",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p style=\"\">Updated May 29, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p style=\"\"><b>What is happening</b>: We have a systems update scheduled between (1 Feb - 2 Feb, 2025). This update is for Export-ContentExplorerData PowerShell Cmdlet</p><p style=\"\"><b>How it impacts you</b>: During the update, any Cmdlet-based scripts running at that time might experience failures for some of the Cmdlet calls. To avoid any disruptions, we recommend running your scripts after 3 Feb 2025, when the updates will be fully in place and operational.</p><p style=\"\"><b>Which Cmdlets were impacted:&nbsp;</b>1.\tExport-ContentExplorerData</p><p style=\"\"><b>What do you need to do?\n</b></p><p style=\"\">•\tAvoid running Cmdlet-based scripts during the (1 Feb - 2 Feb 2025) update.\n</p><p style=\"\">•\tResume running your scripts on 3 Feb 2025 to ensure smooth operation.</p><p style=\"\">We apologize for any inconvenience this may cause and appreciate your understanding and cooperation. If you have any questions or need further assistance, please do not hesitate to reach out to our support team.\n</p><p style=\"\">The current Content Explorer Export feature has a limitation of exporting data only after drilling down to specific location. The new feature coming to General Availability will allow admins to use a new cmdlet within the Security and Compliance PowerShell, Export-ContentExplorerData, to export all rows of data for the content that are scanned and shown on Content Explorer.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=117546\" target=\"_blank\">117546</a></p>\n<p><b>When this will happen:</b></p>\n\n<p>Rollout will begin late July 2025 (previously late April) and is expected to be complete by mid-August (previously mid-May 2025).</p>\n\n<p><b>How this will affect your organization:</b></p>\n\n<p>This feature can be accessed through the Security and Compliance PowerShell, Export-ContentExplorerData.</p>\n\n<p><b>What you need to do to prepare:</b><br></p>\n<p>There are no additional settings needed for this feature. You may want to notify your users about this change and update any relevant documentation as appropriate.&nbsp;</p>",
       "ContentType": "html"
     },
@@ -19594,52 +19556,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Power BI: Tenant setting changes for Microsoft Azure Maps in Power BI",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated May 13, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Coming soon to Microsoft Teams: When in a meeting that is being recorded and has content shared onscreen, Microsoft Copilot will be able to answer questions based on the shared onscreen content. Before this rollout, Copilot was only able to answer questions based on the transcript and meeting chat, and this capability will continue after the rollout. This message applies to Teams on VDI, Teams on Windows desktop, Teams on Mac desktop, Teams on the web, and Teams for iOS/Android. A Microsoft 365 Copilot license is required to use this feature.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=32587\" target=\"_blank\">325873</a>.\n</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out by mid-March 2025 and expect to complete by late March 2025.&nbsp;</p><p>General Availability (Worldwide): We will begin rolling out by late April 2025.and expect to complete by early June 2025 (previously early May).</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout, users will be able to ask Copilot questions about screenshare data, but only if a meeting is recorded <i>and </i>transcribed. If the meeting is only transcribed, users can still use Copilot, just without screenshare data.\n</p><p>Copilot will be able to understand slides, documents, spreadsheets, and websites, or anything else shared onscreen. Users will be able to ask simple recall questions, such as “Show me the content that was shared on the screen” or more specific questions like “what was the Sales target number” if it was shared on a previous slide. Users will also be able to combine screenshare with transcript and chat data to ask, “Show me all the slides and the feedback on each slide,” or “Rewrite the paragraph based on the comments from the audience.”\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/85618e42-22f6-4361-b92d-df2744b46fe3\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>Copilot can only answer questions about content shared onscreen if the meeting is recorded and transcribed, and if the specific slide, document, spreadsheet, and website is shared for longer than 10 seconds. This will alleviate potential accidental shares being used by Copilot. For example, if a user accidentally shares the wrong content and changes it within 10 seconds, Copilot will not have access to it. However, when the meeting is recorded, the recording will still have this information. Deleting a recording will also delete all associated screen data along with it, so Copilot will no longer have access to screen data if the meeting recording was deleted.\n</p><p>This change will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/office/use-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1\" target=\"_blank\">Use Copilot in Microsoft Teams meetings - Microsoft Support</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "325873"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams' Copilot will soon be able to answer questions based on content shared onscreen during recorded and transcribed meetings. This feature will be available across various platforms and requires a Microsoft 365 Copilot license. The rollout will start in mid-March 2025 for targeted release and late April 2025 for general availability."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2025-07-21T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC998512",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-05-13T20:45:38.233Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-02-06T01:01:38Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Microsoft Copilot can analyze content shared onscreen in a meeting",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -26163,52 +26079,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated March 20, 2025: We would like to inform you that the general availability and other releases of this feature will be delayed. New timelines for release will be communicated in due course. In the meantime, this feature will be rolled back for about a month from the current target releases.</p><p>Now users can quickly review files in Microsoft Teams chat and channel conversations using the file preview option. Using preview, users will be able to consume the file within the flow of work, minimizing the context switch and potentially enhancing the efficiency for the users.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=421188\" target=\"_blank\">421188</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will communicate via Message center when we are ready to proceed.</p><p>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.</p><p>General Availability (GCC): We will communicate via Message center when we are ready to proceed.</p><p>General Availability (GCC High): We will communicate via Message center when we are ready to proceed.</p><p>General Availability (DoD): We will communicate via Message center when we are ready to proceed.</p><p><b>How this will affect your organization:</b>\n</p><p>The stage 1 release of this feature will enable previews for single file attachments in Teams messages, starting with PDF files and gradually extending the support for other popular formats such as Microsoft PowerPoint, Microsoft Word, and later Microsoft Excel. The preview option for files in messages with multiple files will be supported in subsequent releases.&nbsp;&nbsp;</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/8aa46256-ef19-40e9-ab5a-d67ba25efa72\" style=\"width: 650px;\"><br></p><p>This new feature is available by default.</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically with no admin action required. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "421188"
-      },
-      {
-        "Name": "Summary",
-        "Value": "The general availability of Microsoft Teams' file interactive previews feature is delayed, with new timelines to be communicated later. The feature allows users to preview files within Teams chats and channels, starting with PDFs and later including other formats. No admin action is required for the rollout."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-07-21T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC934727",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-03-20T14:34:34.697Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-11-15T00:41:52Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: File Interactive Previews",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Microsoft Purview Data Loss Prevention (DLP) for Endpoint is extending support to Mac devices managed by additional third-party endpoint/mobile device management (MDM) solutions other than the currently supported Jamf and Microsoft Intune.</p><p>This message is associated with Microsoft 365 Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=484137\" target=\"_blank\">484137</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out on mid-April 2025 and expect to complete by late April 2025.</p><p>General Availability (Worldwide): We will begin rolling out mid-June 2025 and expect to complete by late June 2025.</p><p><b>How this will affect your organization:</b></p><p></p><div style=\"font-family: Arial; font-size: 10pt;\">Admins can now use their choice of MDM solutions to deploy endpoint DLP to their managed Mac devices.</div><p><b>What you need to do to prepare:</b></p><p></p><div style=\"font-family: Arial; font-size: 10pt;\">There is no impact to any existing deployment to Mac devices. Users that are not using Intune or Jamf can now deploy Purview DLP for Endpoint with their MDM solution.</div>",
       "ContentType": "html"
     },
@@ -26767,7 +26637,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"415249\":[{\"RoadmapId\":415249,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2024-11-01T09:16:28.2692055Z\",\"LatestRing\":null},{\"RoadmapId\":415249,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2024-11-18T16:03:48.4307358Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":415249,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2024-11-01T09:16:28.2692058Z\",\"LatestRing\":null},{\"RoadmapId\":415249,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2024-11-18T16:03:48.4307353Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":415249,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2024-11-18T16:03:48.4307364Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"415249\":[{\"RoadmapId\":415249,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2024-11-18T16:03:48.4307353Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":415249,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2024-11-01T09:16:28.2692055Z\",\"LatestRing\":null},{\"RoadmapId\":415249,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2024-11-18T16:03:48.4307358Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":415249,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2024-11-01T09:16:28.2692058Z\",\"LatestRing\":null},{\"RoadmapId\":415249,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2024-11-18T16:03:48.4307364Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
