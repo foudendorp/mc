@@ -1,5 +1,226 @@
 [
   {
+    "ActionRequiredByDateTime": "2025-07-31T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p><b>What and Why</b></p><p>\nOutlook Newsletters is a new way for users to create and share recurring email updates with internal audiences using the familiar Outlook interface. After a successful public preview, this feature is moving to General Availability (GA) with a change in default behavior: starting at the end of July, 2025, it will now be enabled by default (opt-out). This update aims to increase discoverability and adoption of the feature, helping teams communicate more effectively across the organization.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=328282\" target=\"_blank\">328282</a></p>\n\n<p><b>Rollout Schedule</b></p><ul>\n<li><b>Public Preview (Worldwide):</b>&nbsp;Ending by late July 2025.</li><li><b>General Availability (Targeted Release): </b>Begins late July 2025; expected completion by early August 2025.</li>\n<li><b>General Availability (Worldwide):</b> Begins mid-August 2025; expected completion by late August 2025.</li>\n</ul><p></p>\n\n<p><b>Impact on Your Organization</b></p><p>\n<b>Who is affected:</b><br>\n</p><ul>\n<li>All users of Outlook for the web and the new Outlook for Windows.</li>\n<li>Admins managing mailbox policies via PowerShell.</li>\n</ul>\n<b>What will happen:</b><br>\n<ul>\n<li>Users will see a new drop-down option to create newsletters from the New Mail button.</li>\n<li>A new navigation icon for Newsletters will appear in the left-side panel.</li>\n<li>The feature will be <b>enabled by default</b> (opt-out model).</li>\n<li>Admins can manage access using the Set-OwaMailboxPolicy PowerShell cmdlet.</li>\n<li>The <code>OutlookNewslettersAccessLevel</code> property will default to <b>ReadWrite</b> unless explicitly set.</li>\n</ul><p></p>\n\n<p><b>Action Required / Recommendations</b><br>\n</p><ul>\n<li>Review your organization’s <code>OwaMailboxPolicy</code> settings before August 2025.</li>\n<li>Use the <code>Set-OwaMailboxPolicy</code> cmdlet to configure <code>OutlookNewslettersAccessLevel</code> to one of the following:\n</li>\n<ul><li><code>ReadWrite</code> – users can create and read newsletters.\n</li><li><code>ReadOnly</code> – users can only read newsletters created by others.\n</li><li><code>NoAccess</code> – disables the feature entirely.</li></ul><li>Communicate this change to helpdesk and support teams to prepare for potential user questions.</li>\n<li>Update internal documentation if you reference Outlook capabilities.</li>\n<li>Learn more: <a href=\"https://learn.microsoft.com/en-us/microsoft-365-apps/outlook/manage/newsletters\" target=\"_blank\">Newsletters in Outlook (Preview)</a></li>\n</ul>\n<p><b>Compliance considerations</b></p>\n\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<th>Compliance Area</th>\n\n<th>Explanation</th>\n</tr>\n<tr>\n<td>Does the change provide a new way of communicating between users, tenants, or subscriptions?</td>\n\n<td>Outlook Newsletters introduces a new method for internal communication via recurring email updates.</td>\n</tr>\n<tr>\n<td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td>\n\n<td>Admins can manage access using the <code>Set-OwaMailboxPolicy</code> PowerShell cmdlet and Entra ID group membership.</td>\n</tr>\n<tr>\n<td>Does the change allow a user to enable and disable the feature themselves?</td>\n\n<td>Unless restricted by policy, users can choose to create or not create newsletters within Outlook.</td>\n</tr>\n</tbody></table><p><br></p><p>Thank you for your feedback. We're actively refining the format of Message center posts based on your input. Please let us know if this updated format improves your understanding of the changes being communicated.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "328282"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-22T03:30:07.1379649Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-22T03:30:07.1379652Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-22T03:30:07.1379653Z\",\"LatestRing\":\"StandardRelease\"}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Outlook Newsletters, enabling users to create recurring internal email updates, moves to General Availability in mid-2025 with default opt-out activation. Admins can control access via Set-OwaMailboxPolicy cmdlet. Organizations should review policies and prepare support teams for this new communication feature."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1119406",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-21T23:31:29.913Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-21T23:31:20Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "New Outlook for Windows and Web: Outlook Newsletters – General Availability begins for Targeted Release",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>We're introducing a new self-service capability in the Teams Admin Center (TAC) that allows Teams Phone administrators to resolve and resubmit certain porting order rejections without needing to contact Microsoft support. This enhancement improves efficiency and reduces turnaround time for common porting issues, while preserving the existing support experience for more complex cases.</p><p><b>When this will happen</b></p><p><b>General Availability:</b> We will begin rolling out in<b> late July 2025</b> and expect to complete by <b>early August 2025</b>.</p><p><b>How this will affect your organization</b></p><p>This update streamlines the current porting experience in TAC without removing any existing features. Administrators will now be able to use the existing porting wizard not only to submit new porting orders but also to fix and resubmit certain rejected orders.\n</p><p>When a porting order is rejected for a fixable reason—such as an incorrect ZIP code or missing PIN—administrators will:\n</p><ul><li>Receive an email notification.\n</li><li>See a prompt on the order's detail page in TAC.\n</li><li>Be guided through the porting wizard to correct and resubmit the order.\n</li></ul><p>This self-serve experience is designed to feel familiar and intuitive, minimizing disruption. Rejections that require partner coordination or are otherwise ineligible for self-service will continue to be handled by Microsoft support.\n</p><p>This feature is:\n</p><ul><li>On by default\n</li><li>Available to all tenants\n</li><li>Accessible to Teams Phone administrators with appropriate permissions\n</li></ul><p>Admins can still contact Microsoft support if needed.&nbsp;</p><p><b>Steps to resolve a rejected porting order in Teams Admin Center</b></p><p>To fix and resubmit a rejected porting order:</p><p style=\"\">a. Navigate to Teams Admin Center.&nbsp;\n</p><p style=\"\">b. In the left navigation, expand the <b>Voice&nbsp;</b>drawer and select&nbsp;<b>Phone numbers:</b></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/15454878-a601-400c-ae8c-477acc64a91b/a42ee9b0cc705d20021ac0bdcab3b0e1f6990f88.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>c. On the <b>Phone numbers&nbsp;</b>page, select the<b>&nbsp;Order history</b>&nbsp;tab. If an order requires customer attention, its status will show <b>Customer action required</b>.</p><p>d. Click the name of the order to open its details:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/2485d7ab-1574-4ad8-acb9-e3788ad8167a/2e18c80fb08e7921fbe0f7ce34619697ae22eb88.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>e. In the order details page, select <b>Update</b> to correct the issue and resubmit the order:</p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b137f731-8315-44d8-8331-7075c37540e9/ee2f882cc841b5724bbc295f0b2e98162c6f7f1b.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b>Steps to contact Microsoft support</b></p><p>a. If your order status is <b>Microsoft Support Engaged</b>, it means that your order already has an associated support ticket. On the order details page, select the <b>Contact service desk</b>&nbsp;hyperlink and navigate to the associated ticket.&nbsp;</p><p>b. If your order status is&nbsp;<b>Customer action required</b>, you will need to create a new support ticket. Here are the steps:</p><ol><li>On the <b>Order Details </b>page, select the <b>Action </b>dropdown and select <b>Get support</b>.</li><li>On the support home page, select <b>Create ticket</b></li><li>On the Create ticket page, fill in your Title, Description, Country.</li><li>Ensure your <b>Case Type</b> is \"Port in\"<b> </b>and your <b>Case Creation Reason</b> is \"Question about existing request\"</li></ol><p><b>What you need to do to prepare</b></p><ul><li>Review the updated guidance on porting numbers to Teams:&nbsp;<a href=\"https://learn.microsoft.com/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams?tabs=new-porting-wizard\" target=\"_blank\">Submitting a port request | Microsoft Learn</a>.&nbsp;</li><li>No additional configuration is required to enable this feature.</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting late July 2025, Teams Phone admins can self-fix and resubmit certain rejected porting orders via the Teams Admin Center, improving efficiency without removing existing features. Notifications and guided prompts assist corrections, while complex cases still require Microsoft support. The feature is on by default and available to all tenants."
+      }
+    ],
+    "EndDateTime": "2025-09-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1119404",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-21T23:30:09.75Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-21T23:29:59Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams | New in Admin Center: Self-Serve Fixes for Porting Rejections",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to use Prompt Columns, a new data type in Dataverse. This public preview feature will begin rolling out on July 21, 2025, with an anticipated rollout completion of July 29, 2025.<br><br>\n  \n<b>How does this affect me?</b><br>\nPrompt Columns enable makers to embed AI-powered logic directly into Dataverse tables by defining prompts that generate values based on input columns. These prompts can be anything from simple commands to complex queries. This new capability supports content generation, data analysis, and enhanced workflows without the need to write complex logic. <br><br>\n \n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required. If you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/11231/prompt-column\">Prompt columns (preview) </a> article.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-21T12:08:23Z",
+    "HasAttachments": false,
+    "Id": "MC1119149",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-21T23:16:32.887Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-21T12:08:23Z",
+    "Tags": [
+      "Updated message",
+      "New feature"
+    ],
+    "Title": "Power Platform - Prompt Columns announcement",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to create custom AI agents by using existing knowledge, logic, and actions in Power Apps. This feature will reach general availability on August 15, 2025.<br><br>\n<b>How does this affect me? </b><br>\nAgent builder in Power Apps gives you a fast and convenient way to bring your apps into the agentic era by building agents directly within Power Apps Studio with a streamlined Copilot Studio experience. <br><br>\n<b>What action do I need to take? </b><br>\nThis message is for awareness and no action is required. <br><br>\nIf you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/11570/agent-builder-power-apps\">Agent builder in Power Apps</a> learn article.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-21T22:22:01Z",
+    "HasAttachments": false,
+    "Id": "MC1119382",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-21T22:23:12.967Z",
+    "Services": [
+      "Power Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-21T22:22:01Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Apps – Agent builder in Power Apps",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated June 21, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>New Microsoft Outlook for Windows desktop will soon support an admin setting to define the application of S/MIME signatures in \"reply to\" scenarios. This setting enables admins to define if an S/MIME signature will be inherited by default in Reply and Reply all scenarios.</p><p><b>When this will happen:</b></p><p><i>For new Outlook for Windows desktop:</i></p><ul><li>General Availability (Worldwide): we will begin rolling out late July (previously early July) and expect to complete by early August 2025 (previously mid-July).\n</li><li>General Availability (GCC): We will begin rolling out early August 2025 (previously mid-July) and expect to complete by late August 2025 (previously early August).</li></ul><p>For Outlook for Web:\n</p><p>After further review we have decided not to proceed with this change at this time for Outlook for Web. We apologize for any inconvenience.</p><p>\n</p><p><b>How this will affect your organization:</b></p><p>After this rollout, you can use the new setting called <code>NoSignOnReply</code> to define <i>Signing on Reply</i> and <i>Reply all.</i> Using this setting, admins can define inheritance of S/MIME signature for its users. The <code>NoSignOnReply</code> setting is available in Microsoft Entra ID (formerly Active Directory).\n</p><p><code>NoSignOnReply = $False</code>. When value = False, Reply and Reply all will inherit the S/MIME signature. Users will need to go to S/MIME settings and remove S/MIME signature.</p><p><code>NoSignOnReply = $True</code><i>This is the default state. Reply and Reply all will not inherit S/MIME signature. In cases where incoming email has S/MIME encryption and a signature attached, this setting will only inherit encryption and not the signature. This setting can be useful in scenarios where your organization has not configured S/MIME signatures for its users.</i></p><p>As an alternative, admins can configure this setting with the cmdlet <a href=\"https://learn.microsoft.com/en-us/powershell/module/exchange/set-smimeconfig?view=exchange-ps\" target=\"_blank\">Set-SmimeConfig (Set-SmimeConfig (ExchangePowerShell) | Microsoft Learn</a>. Admins can configure this setting in the Microsoft Exchange Management Shell or the Microsoft Exchange Online Shell.</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users or admins about this change and update any relevant documentation.\n</p><p>If your organization does not use S/MIME emails, you do not need to take any action.\n</p><p>If your organization has enabled communications with S/MIME, you may need to review this setting based on your preferences for the behavior.\n</p><p>Learn more about this new setting and other S/MIME settings available for admins to define: <a href=\"https://learn.microsoft.com/powershell/module/exchange/set-smimeconfig?view=exchange-ps\" target=\"_blank\">Set-SmimeConfig (ExchangePowerShell) | Microsoft Learn</a></p><p>#newoutlookforwindows</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "New Microsoft Outlook for Windows desktop will support an admin setting to define S/MIME signature inheritance in replies, rolling out from late July to late August 2025. The setting, NoSignOnReply, can be configured to inherit or not inherit S/MIME signatures. This change does not apply to Outlook for Web. No admin action is required before rollout."
+      }
+    ],
+    "EndDateTime": "2025-08-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1072404",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-21T20:09:19.94Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 for the web",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-12T23:37:41Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New Microsoft Outlook and Outlook for the web: Admin setting for inheriting a S/MIME signature on reply",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the public preview of a new security control that allows Power Platform admins to <a target=\"_blank\" href=\"https://aka.ms/ADO11381_1\">block the selection and use of agent author authentication</a> for tools in Microsoft Copilot Studio. This feature will be available in preview in early August and will reach general availability in the Fall of 2025.<br><br><b>How does this affect me?</b><br>Agent authors (also known as makers) who are building agents in the configured environments can only select \"User authentication\" when adding a tool to an agent. Authentication will occur at runtime, when the connection is requested during the agent’s conversation and will prompt for the user’s authentication. This feature enables admins to restrict authentication options for tools in Microsoft Copilot Studio.<br><br>By default, agent authors are unrestricted in their choice of authentication methods for agent tools in Microsoft Copilot Studio. This feature gives Power Platform admins the ability to apply this restriction authentication choice across either individual environments or environment groups for all agents created in Microsoft Copilot Studio.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-21T13:17:48Z",
+    "HasAttachments": false,
+    "Id": "MC1119222",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-21T13:18:51.837Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-21T13:17:48Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Microsoft Copilot Studio – Block agent author provided authentication in agent tools",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
     "ActionRequiredByDateTime": null,
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -11270,47 +11491,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated June 17, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>New Microsoft Outlook for Windows desktop will soon support an admin setting to define the application of S/MIME signatures in \"reply to\" scenarios. This setting enables admins to define if an S/MIME signature will be inherited by default in Reply and Reply all scenarios.</p><p><b>When this will happen:</b></p><p><i>For new Outlook for Windows desktop:</i></p><ul><li>General Availability (Worldwide): we will begin rolling out early July 2025 (previously mid-June) and expect to complete by mid-July 2025 (previously late June).</li><li>General Availability (GCC): We will begin rolling out mid-July 2025 (previously late June) and expect to complete by early August 2025 (previously&nbsp; early July).</li></ul><p>For Outlook for Web:\n</p><p>After further review we have decided not to proceed with this change at this time for Outlook for Web. We apologize for any inconvenience.</p><p>\n</p><p><b>How this will affect your organization:</b></p><p>After this rollout, you can use the new setting called <code>NoSignOnReply</code> to define <i>Signing on Reply</i> and <i>Reply all.</i> Using this setting, admins can define inheritance of S/MIME signature for its users. The <code>NoSignOnReply</code> setting is available in Microsoft Entra ID (formerly Active Directory).\n</p><p><code>NoSignOnReply = $False</code>. When value = False, Reply and Reply all will inherit the S/MIME signature. Users will need to go to S/MIME settings and remove S/MIME signature.</p><p><code>NoSignOnReply = $True</code><i>This is the default state. Reply and Reply all will not inherit S/MIME signature. In cases where incoming email has S/MIME encryption and a signature attached, this setting will only inherit encryption and not the signature. This setting can be useful in scenarios where your organization has not configured S/MIME signatures for its users.</i></p><p>As an alternative, admins can configure this setting with the cmdlet <a href=\"https://learn.microsoft.com/en-us/powershell/module/exchange/set-smimeconfig?view=exchange-ps\" target=\"_blank\">Set-SmimeConfig (Set-SmimeConfig (ExchangePowerShell) | Microsoft Learn</a>. Admins can configure this setting in the Microsoft Exchange Management Shell or the Microsoft Exchange Online Shell.</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users or admins about this change and update any relevant documentation.\n</p><p>If your organization does not use S/MIME emails, you do not need to take any action.\n</p><p>If your organization has enabled communications with S/MIME, you may need to review this setting based on your preferences for the behavior.\n</p><p>Learn more about this new setting and other S/MIME settings available for admins to define: <a href=\"https://learn.microsoft.com/powershell/module/exchange/set-smimeconfig?view=exchange-ps\" target=\"_blank\">Set-SmimeConfig (ExchangePowerShell) | Microsoft Learn</a></p><p>#newoutlookforwindows</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "New Microsoft Outlook for Windows desktop will support an admin setting to define S/MIME signature inheritance in replies, rolling out from early July to mid-July 2025. The setting, NoSignOnReply, can be configured to inherit or not inherit S/MIME signatures. This change does not apply to Outlook for Web. No admin action is required before rollout."
-      }
-    ],
-    "EndDateTime": "2025-08-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1072404",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-17T19:11:21.187Z",
-    "Services": [
-      "Exchange Online",
-      "Microsoft 365 for the web",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-12T23:37:41Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "New Microsoft Outlook and Outlook for the web: Admin setting for inheriting a S/MIME signature on reply",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated June 17, 2025: We have updated the content. Thank you for your patience.</p><p>Introducing pay-as-you-go departmental billing for SharePoint Agents in Copilot Control System.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): Starting early June 2025, M365 Administrators can set up Pay-as-you-go for SharePoint Agents via Copilot Control System. Administrators can add billing polices and connect to SharePoint Agents to establish departmental chargeback and billing.</p><p><b>How this will affect your organization:</b></p><p>Admins can set up Pay-as-you-go for SharePoint Agents in Copilot under “Billing &amp; usage”. They can connect Billing Policies to SharePoint Agents, allowing end users within those policies to use SharePoint Agents.</p><p>Users in organizations with 50 or more Microsoft 365 Copilot licenses have had promotional access to SharePoint Agents since January 2025. With this promotional access ending June 30, admins will need to enable Pay-as-you-go billing to allow users in their organization without a Microsoft 365 Copilot license to continue using SharePoint Agents. Departmental billing enables organizations using Pay-as-you-go billing to allocate costs across business units and manage spend more precisely.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a602f734-f754-4789-98c6-10f9db80cdfb\" width=\"400\" height=\"\"></p><br><p><b>What you need to do to prepare:</b></p><p>Before applying billing policies to SharePoint Agents in Copilot Control System, customers who have already set up SharePoint Agents for consumptive billing must:</p><ol><li>Turn off the legacy tenant-level pay-as-you-go for SharePoint Agents from Copilot -&gt; Billing &amp; usage.</li><li>Create the required Billing Policy </li><li>Connect the Billing Policy to SharePoint Agents</li></ol><p></p><br>",
       "ContentType": "html"
     },
@@ -17252,7 +17432,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -30294,37 +30474,6 @@
       "Admin impact"
     ],
     "Title": "The July 2024 Windows non-security preview update is now available for Windows 10, version 22H2",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div><b>Updated on July 22, 2024: </b>Microsoft has released a third mitigation option for the CrowdStrike Falcon agent issue impacting Windows clients and servers. If devices are unable to recover with the two previous options, IT admins can use PXE to remediate. See the revised <a href=\"https://techcommunity.microsoft.com/t5/intune-customer-success/new-recovery-tool-to-help-with-crowdstrike-issue-impacting/ba-p/4196959\" rel=\"noopener noreferrer\" target=\"_blank\">New Recovery Tool to help with CrowdStrike issue impacting Windows endpoints</a> for detailed instructions on prerequisites and configurations to use PXE Recovery.</div><div><br> </div><div><b>Updated on July 21, 2024: </b>As a follow-up to the CrowdStrike Falcon agent issue impacting Windows clients and servers, Microsoft has released an&nbsp;<b><em>updated</em></b>&nbsp;recovery tool with&nbsp;<b><em>two repair options</em></b>&nbsp;to help IT admins expedite the repair process. Based on customer feedback, this new release includes a new option for recovery using safe boot, the option to generate ISO or USB, a fix for ADK detection when the Windows Driver Kit is installed, and a fix for the USB disk size check. See the revised <a href=\"https://techcommunity.microsoft.com/t5/intune-customer-success/new-recovery-tool-to-help-with-crowdstrike-issue-impacting/ba-p/4196959\" rel=\"noopener noreferrer\" target=\"_blank\">New Recovery Tool to help with CrowdStrike issue impacting Windows endpoints</a> for detailed instructions on using the <a href=\"https://go.microsoft.com/fwlink/?linkid=2280386\" rel=\"noopener noreferrer\" target=\"_blank\">signed Microsoft Recovery Tool</a>.</div><div><br></div><div><b>Updated on July 20, 2024:</b> Microsoft has released <a href=\"https://support.microsoft.com/topic/0d7741f7-aca1-4487-8a54-bd431cb49455\" rel=\"noopener noreferrer\" target=\"_blank\">KB5042426</a>, which contains step-by-step guidance for Windows Servers hosted on-premises that are running the CrowdStrike Falcon agent and encountering a 0x50 or 0x7E error message on a blue screen. We will continue to work with CrowdStrike to provide the most up-to-date information available on this issue.&nbsp;</div><div><br></div><div>A new USB Recovery Tool is available to help IT admins expedite the repair process. The new tool can be found in the <a href=\"https://go.microsoft.com/fwlink/?linkid=2280386\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Download Center</a>. Read more about the new recovery tool and usage instructions at <a href=\"https://techcommunity.microsoft.com/t5/intune-customer-success/new-recovery-tool-to-help-with-crowdstrike-issue-impacting/ba-p/4196959\" rel=\"noopener noreferrer\" target=\"_blank\">New Recovery Tool to help with CrowdStrike issue impacting Windows endpoints</a>.</div><div><br></div><div><b>Updated on July 19, 2024:</b> A new Knowledge Base article, <a href=\"https://support.microsoft.com/topic/b1c700e0-7317-4e95-aeee-5d67dd35b92f\" rel=\"noopener noreferrer\" target=\"_blank\">KB5042421</a>, with additional step-by-step guidance is now available for Windows 11 and Windows 10 clients. We will continue to work with CrowdStrike to provide up-to-date mitigation information as it becomes available.</div><div><br></div><div>Microsoft has identified an issue impacting Windows endpoints that are running the CrowdStrike Falcon agent.&nbsp;These endpoints may encounter an error message on a blue screen and experience a continual restarting state.</div><div><br></div><div>We have received reports of successful recovery from some customers attempting multiple restart operations on affected Windows endpoints.</div><div><br></div><div>To mitigate this issue, follow these steps:</div><ol><li>Start Windows into Safe Mode or the Windows Recovery Environment.</li><li>Navigate to the C:\\Windows\\System32\\drivers\\CrowdStrike directory</li><li>Locate the file matching “C-00000291*.sys” and delete it.</li><li>Restart the device.</li><li>Recovery of systems requires a <a href=\"https://learn.microsoft.com/windows/security/operating-system-security/data-protection/bitlocker/recovery-process\" rel=\"noopener noreferrer\" target=\"_blank\">Bitlocker key</a> in some cases.</li></ol><div><br></div><div>For Windows Virtual Machines running on Azure follow the mitigation steps in <a href=\"https://azure.status.microsoft/status\" rel=\"noopener noreferrer\" target=\"_blank\">Azure status</a>.</div><div><br></div><div>Additional details from CrowdStrike are available here: <a href=\"https://www.crowdstrike.com/blog/statement-on-windows-sensor-update/\" rel=\"noopener noreferrer\" target=\"_blank\">Statement on Windows Sensor Update - CrowdStrike Blog</a>.</div>",
-      "ContentType": "html"
-    },
-    "Category": "preventOrFixIssue",
-    "Details": [],
-    "EndDateTime": "2025-07-22T03:10:59Z",
-    "HasAttachments": false,
-    "Id": "MC822418",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2024-07-22T18:31:19.087Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-07-22T03:11:00Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "(Updated: July 22) CrowdStrike issue impacting Windows endpoints causing an error message on a blue screen",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
