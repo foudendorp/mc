@@ -4,6 +4,130 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated July 18, 2025: We've revised the timeline below and broadened the audience to help ensure all customers are informed of the change. We appreciate your continued patience.</p><p>Based on your feedback, we’re simplifying the behavior of Copilot Chat in the Microsoft 365 Copilot app. This change only impacts users without a Microsoft 365 Copilot license.</p><p>\n</p><p>Today, the <a href=\"https://go.microsoft.com/fwlink/?linkid=2310640\" target=\"_blank\">Pin Microsoft 365 Copilot Chat admin setting</a> controls Copilot Chat entry points in Microsoft 365 apps, including the Microsoft 365 Copilot app across web, mobile, and desktop. Pinning is off by default, but users may be prompted to pin.</p><p>\n</p><p>We have heard from customers that this default experience creates confusion in the Microsoft 365 Copilot app. Users expect to see Copilot Chat but don’t know how to find it.</p><p>\n</p><p>To solve this, we are removing the Microsoft 365 Copilot app from the scope of the pinning setting. Instead, Chat will appear as the default module.&nbsp;</p><p><i>Setting before and after this change:</i> </p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/abb10ceb-fa64-4deb-9e0c-d56c24e15043\" width=\"400\" height=\"\"></p><p><br></p><p><b>How this will affect your organization:</b></p><p>There is no change for users with a Microsoft 365 Copilot license. \n</p><p>When users without this license open the Microsoft 365 Copilot app, Chat will appear as the default module, with an entry point in the navigation menu.  \n</p><p><i>Microsoft 365 Copilot app for users without a Microsoft 365 Copilot license:</i> </p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/014a666c-3c6b-413f-8d78-8de2f35ae13c/bd75cd8ed78d83b53728b5071c8ecc3f36344bb2.png\" width=\"400\" height=\"\"></p><p><br></p><p>While this change will help users discover Copilot Chat, these users have the choice to unpin Chat in their navigation bar.</p><p>Copilot Chat in the Microsoft 365 Copilot app will continue to honor other admin controls: <a href=\"https://learn.microsoft.com/copilot/manage\" target=\"_blank\">Manage Microsoft 365 Copilot Chat | Microsoft Learn</a>.</p><p><b>When this will happen:</b></p><p>The rollout of this change begins mid-August 2025 and completes in the weeks following.</p><p><b>What you need to do to prepare:</b></p><p>No admin action is required. If you would like to inform users of this simplification, you could consider the following message:  \n</p><p>“Copilot Chat, Microsoft’s free and secure generative AI powered by GPT-4o, is now available in the Microsoft 365 Copilot app. Try it today to summarize, rewrite, or answer questions so you can work smarter and accomplish more.”  \n</p><p>Discover how users can get value from Copilot Chat and agents: <a href=\"https://adoption.microsoft.com/en-us/copilot/chat-and-agent-starter-kit/\" target=\"_blank\">Microsoft 365 Copilot Chat and agent starter kit | Microsoft Adoption</a>.&nbsp;</p><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed? No. \n</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data? No. \n</li><li>Does the change provide a new way of communicating between users, tenants, or subscriptions? No. \n</li><li>Does the change provide end users any new way of interacting with generative AI? No - It improves access to existing Copilot Chat capabilities for users without a Microsoft 365 Copilot license.&nbsp;</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is simplifying Copilot Chat in the Microsoft 365 Copilot app for users without a Microsoft 365 Copilot license. Chat will now appear as the default module, making it easier to find. This change begins in mid-August 2025, with no admin action required."
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1107496",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-07-23T05:56:24.307Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-01T23:23:51Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Simplifying Copilot Chat in the Microsoft 365 Copilot app",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>We're updating the backend service that powers the Teams Discover Feed. In mid-June 2025, the Discover Feed began transitioning from the People Prediction Service (PPS) to the Substrate Search Service Recommendations (3SR). This change is part of a broader infrastructure evolution to improve scalability and service integration.</p>\n\n<p><b>When this will happen</b></p>\n<p>This change began rolling out on <b>June 18, 2025</b>. The legacy PPS service will be deprecated starting <b>August 2025</b>.</p>\n\n<p><b>How this affects your organization</b></p>\n<p>There is <b>no visible impact</b> to end users or administrators. While the experience remains unchanged, this backend service transition ensures continued support and performance improvements.</p>\n\n<p><b>What you can do to prepare</b></p>\n<p>To ensure compatibility with the updated service, users must be on the following minimum client versions:</p>\n<ul>\n  <li><b>Windows Desktop</b>: Version 25020512900</li>\n  <li><b>iOS</b>: Version 2025031301</li>\n  <li><b>Android</b>: Version 2025031302</li>\n</ul>\n<p>We recommend validating that your organization’s devices meet these version requirements before August 2025.</p>\n<p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><a href=\"https://learn.microsoft.com/microsoftteams/teams-client-update\">\n</a>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The Teams Discover Feed backend is migrating from People Prediction Service to Substrate Search Service Recommendations starting June 18, 2025, with PPS deprecated by August 2025. No user impact is expected. Ensure client versions meet minimum requirements on Windows, iOS, and Android before August."
+      }
+    ],
+    "EndDateTime": "2025-10-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1120270",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-23T03:44:17.42Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-23T03:44:06Z",
+    "Tags": [
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Teams Discover feed Service migration",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Microsoft 365 Copilot in PowerPoint will soon support the use of your organization’s branded images when creating slides. By integrating enterprise assets stored in SharePoint Organization Asset Libraries (OAL) or Templafy (third-party solution), users can generate slides that use your brand images.</p><p>This message is associated with Microsoft 365 Roadmap IDs&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496365\" target=\"_blank\">496365</a>, <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=496366\" target=\"_blank\">496366</a>, and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496367\" target=\"_blank\">496367</a>.</p><p>\n</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out in August and expect to complete by late August 2025.\n</p><p><b>How this will affect your organization</b></p><p>After this rollout, brand managers and admins can connect enterprise image libraries from either SharePoint Organization Asset Libraries (OAL) or Templafy to Microsoft 365 Copilot in PowerPoint. Once connected, users will be able to generate slides using branded images from your organization’s asset library, helping ensure brand consistency.</p><p>This feature will be available by default for admins to configure. If no enterprise image library is connected, the option to use branded images will be disabled in the image source menu, and only Microsoft 365 images will be available.</p><p><b>Sharepoint OAL setup</b></p><p>To enable this feature with SharePoint OAL, admins must:\n</p><ul><li>Create an organization asset library in SharePoint for your company’s brand images.\n</li><li>Run a Microsoft PowerShell command to connect the image library to Microsoft 365 Copilot.\n</li><li>Ensure that images include robust metadata (keywords, titles, and alt-text) to support searchability.</li></ul><p><b>Templafy setup</b></p><p>To enable this feature with Templafy, admins must:\n</p><ul><li>Have an active Templafy account configured with your company’s brand assets.\n</li><li>Enable the Microsoft Graph Connector in your Templafy account settings to establish the Copilot connection.\n</li><li>Ensure that images include robust metadata (keywords, titles, and alt-text) to support searchability.\n</li></ul><p>Once setup is complete, users can select the <b>New Slide Copilot </b>icon in the PowerPoint ribbon, enter a prompt, and choose their preferred image source—either Microsoft 365 images or their organization’s branded image library—via the <b>Image Source</b> menu.</p><p>Admins can email <b>pptentimg_admin@microsoft.com</b> to request connection of their enterprise assets to Copilot in PowerPoint.</p><p><b>Note:</b> We recommend enabling this feature only if your image library contains more than 1,000 images with robust metadata.</p><p><i>After setup, the option to select branded images from your organization’s library will be enabled when generating slides with Copilot in PowerPoint:</i><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/195faa33-9c46-410a-bfc6-393352b66e85/d31f900110e856899061e91fc31b46377dfcbe24.png\" alt=\"user settings\" style=\"width: 500px;\"></p><p></p><p><i>Copilot in PowerPoint allows users to enter a prompt and choose image sources, including your organization’s branded image library, if connected.:&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/848e711e-6c2d-4cd2-b543-d93c710735c9/ea7cf97b017f9729f3b02510c3e97cab8e7cd62d.png\" style=\"width: 500px;\" alt=\"user settings\"></p><p></p><p><b>What you can do to prepare:\n</b></p><p>Admins should:\n</p><ul><li>Notify brand managers of this new capability.\n</li><li>Decide if you'd like to connect SharePoint OAL or Templafy to Copilot. Email pptentimg_admin@microsoft.com to connect enterprise assets.</li><li>If enabled, inform employees that Copilot in PowerPoint can now use organizational images when generating slides.\n</li></ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/topic/keep-your-presentation-on-brand-with-copilot-046c23d5-012e-49e0-8579-fe49302959fc\" target=\"_blank\">Keep your presentation on-brand with Copilot | Copilot in PowerPoint</a></p><p><b>Compliance considerations:\n</b></p><ul><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data? - Yes. This feature expands Copilot’s generative AI capabilities by integrating branded image libraries into slide generation.</li>\n<li>Does the change provide users any new way of interacting with generative AI? - Yes. Users will be able to generate slides with Copilot that automatically incorporate organizational images, which is a new interaction model.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "496365,496366,496367"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot in PowerPoint will support enterprise image libraries via SharePoint OAL or Templafy starting August 2025. Admins can connect branded image libraries to enable users to generate slides with organizational images, ensuring brand consistency. Setup requires metadata-rich images and admin configuration."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web, Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-09-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1120269",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-23T03:42:39.54Z",
+    "Services": [
+      "Microsoft 365 apps",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-23T03:40:55Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot | PowerPoint now supports enterprise image libraries via SharePoint OAL or Templafy",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting July 22nd, 2025 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2506-july-22\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
       "ContentType": "html"
     },
@@ -922,46 +1046,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Viva Engage | Email sender domain migration from @yammer.com to @engage.mail.microsoft",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 18, 2025: We've revised the timeline below and broadened the audience to help ensure all customers are informed of the change. We appreciate your continued patience.</p><p>Based on your feedback, we’re simplifying the behavior of Copilot Chat in the Microsoft 365 Copilot app. This change only impacts users without a Microsoft 365 Copilot license.</p><p>\n</p><p>Today, the <a href=\"https://go.microsoft.com/fwlink/?linkid=2310640\" target=\"_blank\">Pin Microsoft 365 Copilot Chat admin setting</a> controls Copilot Chat entry points in Microsoft 365 apps, including the Microsoft 365 Copilot app across web, mobile, and desktop. Pinning is off by default, but users may be prompted to pin.</p><p>\n</p><p>We have heard from customers that this default experience creates confusion in the Microsoft 365 Copilot app. Users expect to see Copilot Chat but don’t know how to find it.</p><p>\n</p><p>To solve this, we are removing the Microsoft 365 Copilot app from the scope of the pinning setting. Instead, Chat will appear as the default module.&nbsp;</p><p><i>Setting before and after this change:</i> </p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/abb10ceb-fa64-4deb-9e0c-d56c24e15043\" width=\"400\" height=\"\"></p><p><br></p><p><b>How this will affect your organization:</b></p><p>There is no change for users with a Microsoft 365 Copilot license. \n</p><p>When users without this license open the Microsoft 365 Copilot app, Chat will appear as the default module, with an entry point in the navigation menu.  \n</p><p><i>Microsoft 365 Copilot app for users without a Microsoft 365 Copilot license:</i> </p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/014a666c-3c6b-413f-8d78-8de2f35ae13c/bd75cd8ed78d83b53728b5071c8ecc3f36344bb2.png\" width=\"400\" height=\"\"></p><p><br></p><p>While this change will help users discover Copilot Chat, these users have the choice to unpin Chat in their navigation bar.</p><p>Copilot Chat in the Microsoft 365 Copilot app will continue to honor other admin controls: <a href=\"https://learn.microsoft.com/copilot/manage\" target=\"_blank\">Manage Microsoft 365 Copilot Chat | Microsoft Learn</a>.</p><p><b>When this will happen:</b></p><p>The rollout of this change begins mid-August 2025 and completes in the weeks following.</p><p><b>What you need to do to prepare:</b></p><p>No admin action is required. If you would like to inform users of this simplification, you could consider the following message:  \n</p><p>“Copilot Chat, Microsoft’s free and secure generative AI powered by GPT-4o, is now available in the Microsoft 365 Copilot app. Try it today to summarize, rewrite, or answer questions so you can work smarter and accomplish more.”  \n</p><p>Discover how users can get value from Copilot Chat and agents: <a href=\"https://adoption.microsoft.com/en-us/copilot/chat-and-agent-starter-kit/\" target=\"_blank\">Microsoft 365 Copilot Chat and agent starter kit | Microsoft Adoption</a>.&nbsp;</p><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed? No. \n</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data? No. \n</li><li>Does the change provide a new way of communicating between users, tenants, or subscriptions? No. \n</li><li>Does the change provide end users any new way of interacting with generative AI? No - It improves access to existing Copilot Chat capabilities for users without a Microsoft 365 Copilot license.&nbsp;</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft is simplifying Copilot Chat in the Microsoft 365 Copilot app for users without a Microsoft 365 Copilot license. Chat will now appear as the default module, making it easier to find. This change begins in mid-August 2025, with no admin action required."
-      }
-    ],
-    "EndDateTime": "2025-10-06T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1107496",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-07-18T22:41:05.563Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-01T23:23:51Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Simplifying Copilot Chat in the Microsoft 365 Copilot app",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -22658,44 +22742,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Data Loss Prevention: Ability to rename policy and rules",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Windows Autopatch will now provide role-based access controls to access key update management features, previously limited to Intune Service administrators. With this change, administrators can assign specific roles and permissions, so that only authorized personnel can perform update management actions and read reports. With this change you will be able to grant appropriate access rights to individuals, resulting in far fewer privileges for update management, therefore minimizing the need for Intune Service administrator privileges.  \n</p><p><b>When will this happen:</b>  \n</p><p>General Availability will take place starting May 27, 2025, Pacific Standard Time, and the change will be completed in 4 weeks.  \n</p><p> <b>How will this affect your organization:</b>  \n</p><p>This release includes the following \n</p><p><b>Built-in roles \n</b></p><ol><li><b>Windows Autopatch Administrator:</b> This includes full permissions necessary for Autopatch Groups, Autopatch reports and Messages.  \n</li><li><b>Windows Autopatch Reader:</b> This includes read permissions necessary for Autopatch Groups, Autopatch reports and Messages but does not permit any changes. \n</li></ol><p>IT admins have been using the Intune role <b>Policy and Profile Manager</b> or an Intune custom role with equivalent permissions that include Device configuration permissions for managing Intune policies. To fully access advanced update management features such as Autopatch Groups, a user must be assigned to both Policy and Profile Manager and Windows Autopatch administrator.  \n</p><p>The roles will be available at  <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a> -&gt; Tenant Administration -&gt; Roles -&gt; All roles \n</p><p>Custom roles – you can create a custom Autopatch role and include just the permissions required for update related activities. You can access this from <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a> -&gt; Tenant Administration -&gt; Roles -&gt; All roles -&gt; Create -&gt; Windows Autopatch role.   \n</p><p>You will be able to assign <b>Intune scope tags</b> to Autopatch Groups and filter Autopatch reports based on scope tags.  \n</p><p><b>Windows Autopatch reports</b> – You will be able to access the Windows Autopatch reports with the above built-in roles, or grant permissions to custom roles.  Learn more about which current roles can access reports at <a href=\"https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/windows-autopatch-windows-quality-and-feature-update-reports-overview#who-can-access-the-reports\" target=\"_blank\"><u>Who can access Windows Autopatch reports</u></a> \n</p><p>In addition to Global administrator and Intune Service administrator, the following Microsoft Entra roles will have access to various Autopatch features. \n</p><ol><li>Service Support Administrator \n</li><li>Security Admin \n</li><li>Security Reader \n</li><li>Billing Administrator \n</li><li>Helpdesk Administrator \n</li></ol><p>We will also remove the <b>\"Modern Workplace Roles - Service Administrator\"</b> and <b>\"Modern Workplace Roles - Service Reader”</b> Microsoft Entra groups, that Autopatch no longer uses, and if they are present in your tenant. Autopatch will not migrate the group membership to any of the above roles, at release.  \n</p><p><b>What you need to do to prepare:</b>  \n</p><p>Review your environment for users in <b>\"Modern Workplace Roles - Service Administrator”</b> or <b>\"Modern Workplace Roles - Service Reader\"</b>. Configure their permission to view Autopatch reports using the roles included in <b>\"Who can access Windows Autopatch reports\"</b>, to prevent loss of access.  \n</p><p>If you have any questions or concerns, or need assistance, file a service request by visiting the <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a>.  \n</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Windows Autopatch introduces role-based access controls for update management, available from May 27, 2025. New roles include Windows Autopatch Administrator and Reader. Custom roles and Intune scope tags are supported. Review and update permissions for users in deprecated Modern Workplace Roles. For assistance, visit the Microsoft Intune admin center."
-      }
-    ],
-    "EndDateTime": "2025-07-23T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1061099",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-04-24T00:50:39.303Z",
-    "Services": [
-      "Windows Autopatch"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-24T00:50:29Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "New Feature: Role-based access controls for Windows Autopatch",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
