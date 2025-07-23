@@ -1,0 +1,45 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p><b>Introduction</b></p><p>Starting in August 2025, Microsoft Edge for Business will support a new policy—Microsoft365CopilotChatIconEnabled—that allows administrators to control the visibility of the Microsoft 365 Copilot Chat button in the Edge toolbar. This gives organizations more flexibility in managing user access to Copilot features in Edge.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496140\" target=\"_blank\">496140</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide):</b> We will begin rolling out in early August 2025 and expect to complete by mid-August 2025.</p><p><b>How this will affect your organization</b></p><ul><li>This policy will be available starting with <b>Microsoft Edge version 139</b>. It will not be available for configuration prior to rollout.\n</li><li>By default, the policy is <b>not configured</b>, allowing users to manually enable or disable the Copilot Chat button in their Edge settings.\n</li><li>When the policy is enabled, the Copilot Chat button will remain visible in both the Edge toolbar and the Edge PDF reader toolbar.\n</li><li>When the policy is disabled, the Copilot Chat button will be hidden from both locations.\n</li><li>Starting with <b>Edge version 141</b>, the existing <b><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies#hubssidebarenabled\" target=\"_blank\">HubsSidebarEnabled </a></b>policy will no longer affect the visibility of the Copilot Chat button. Organizations should transition to using the new <b>Microsoft365CopilotChatIconEnabled </b>policy for this purpose.</li></ul><p><b>What you need to do to prepare</b></p><ul><li>No admin action is required before the rollout.\n</li><li>Review your current Edge policy configurations to assess potential impact.\n</li><li>Consider notifying users and updating internal documentation to reflect this change.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/microsoft365copilotchaticonenabled\" target=\"_blank\">Microsoft365CopilotChatIconEnabled - Microsoft Edge | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-release-schedule\" target=\"_blank\">Microsoft Edge release schedule - Microsoft Edge | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies\" target=\"_blank\">Microsoft Edge Browser Policy documentation | Microsoft Learn</a></li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [
+    {
+      "Name": "RoadmapIds",
+      "Value": "496140"
+    },
+    {
+      "Name": "Summary",
+      "Value": "Starting August 2025, Microsoft Edge for Business will introduce the Microsoft365CopilotChatIconEnabled policy to control the visibility of the Copilot Chat button in the toolbar. Available from Edge version 139, it replaces the HubsSidebarEnabled policy by version 141. No admin action is needed before rollout."
+    },
+    {
+      "Name": "Platforms",
+      "Value": "Web"
+    }
+  ],
+  "EndDateTime": "2025-09-24T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1120157",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-07-22T22:28:40.28Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-07-22T22:28:34Z",
+  "Tags": [
+    "New feature",
+    "User impact"
+  ],
+  "Title": "Microsoft 365 Copilot | New policy to manage Copilot Chat button visibility in Edge for Business",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

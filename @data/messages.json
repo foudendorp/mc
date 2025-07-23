@@ -1,5 +1,678 @@
 [
   {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting July 22nd, 2025 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2506-july-22\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "ExternalLink",
+        "Value": "https://docs.microsoft.com/officeupdates/"
+      }
+    ],
+    "EndDateTime": "2025-08-05T23:30:29.24Z",
+    "HasAttachments": false,
+    "Id": "MC1120175",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T23:30:30Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-22T23:30:29.24Z",
+    "Tags": [
+      "Feature update"
+    ],
+    "Title": "Updates available for Microsoft 365 Apps for Current Channel",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>Microsoft Viva Amplify now supports custom themes and fonts published to SharePoint’s Brand Center, empowering communicators to align campaigns with organizational branding and maintain visual consistency across channels like Outlook and SharePoint.</p><p>Custom fonts allow organizations to apply their own typography to Viva Amplify communications. These fonts are managed via SharePoint’s Brand Center and can be applied to campaigns for a consistent and professional appearance.\n</p><p>Custom themes enable personalization of communications by applying branded color palettes. Whether sending newsletters, announcements, or event updates, custom themes help ensure your message is polished and on-brand.\n</p><p>This update is associated with Microsoft 365 Roadmap ID<span style=\"background-color: rgb(255, 255, 255);\">&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498322\" target=\"_blank\">498322</a>.</span></p><p><span style=\"background-color: rgb(255, 255, 255);\"><b>When this will happen</b></span></p><p><span style=\"background-color: rgb(255, 255, 255);\"><b>Targeted Release (Worldwide): </b>We began rolling out in mid-July 2025 and expect to complete by late July 2025.\n</span></p><p><span style=\"background-color: rgb(255, 255, 255);\"><b>General Availability (Worldwide &amp; GCC):</b> We will begin rolling out late July 2025 and expect to complete by early August 2025.</span></p><p><span style=\"background-color: rgb(255, 255, 255);\"><b>How this will affect your organization</b></span></p><ul><li>Previously, Viva Amplify campaigns used a default blue theme. If your organization has set a new default SharePoint theme, that theme will now automatically apply to existing Viva Amplify campaigns.\n</li><li>Campaign owners can override the default theme and revert to the original \"Blue\" if desired.\n</li><li>Custom themes created in SharePoint’s Brand Center will now be available to all Viva Amplify campaigns.\n</li><li>Custom fonts can be applied to Viva Amplify communications but must be deployed to user devices via endpoint management tools. Fonts are not embedded in emails.\n</li><li>Font customization is supported only in SharePoint pages and Outlook emails.\n</li><li>Only Viva Amplify campaign owners can change themes or apply custom fonts.\n</li><li>Typically, users will not see changes unless a new default SharePoint theme has been applied.\n</li><li>This feature is on by default for campaign owners.\n</li><li>This feature is available in all languages/locales supported by Viva Amplify.\n</li><li>There are no tenant-level controls to disable custom themes or fonts, but tenant admins can set the default theme via SharePoint.</li></ul><p><b>Visual examples of theme and font customization in Viva Amplify -</b></p><p>Screenshot 1. <i>Campaign site showing default SharePoint theme applied:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e273412d-b531-4c13-b600-0045632aa95f/0c9021f77f84f24e1a01b8403cb45fc01bbe6c6e.png\" style=\"width: 285.995px;\"></p><p></p><p>Screenshot 2. <i>Theme selection menu with Blue and Cobalt options:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/fcb62498-aa13-43ea-ab28-ca54ae7f1067/9b11450e523b8d996085fcf9c56af7478b17b8a9.png\" style=\"width: 325.995px;\"></p><p>Screenshot 3. <i>Font customization panel in Viva Amplify campaign settings:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/7b38d5c3-5adb-4382-8597-ffa72ec7670a/86c51aa0a85fc59cb2ccba1dbf1b1356c98f2c71.png\" style=\"width: 340px;\"></p><p>Screenshot 4 - <i>Some of the available color palettes for custom themes in Viva Amplify:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/942e3b3b-d0d8-4f16-a81b-4108acfdd2ac/36c62b4001bd515ea2a1a8f5a3948ccf0624a5c6.png\" style=\"width: 250.995px;\"></p><p></p><p><b>What you need to do to prepare</b></p><ul><li>Review your organization's SharePoint theme settings. If a new default has been applied, it will now reflect in Viva Amplify campaigns.\n</li><li>If unpublished content appears visually different, campaign owners can manually switch back to the \"Blue\" or \"Cobalt\" theme.\n</li><li>Ensure endpoint management tools are configured to distribute custom fonts to user devices.\n</li><li>Educate campaign owners on how to apply themes and fonts via the Viva Amplify interface.</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "498322"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva Amplify now supports custom themes and fonts from SharePoint’s Brand Center, enabling branded, consistent communications across channels. Default SharePoint themes apply automatically, with options to override. Custom fonts require deployment via endpoint management. Rollout begins mid-July 2025, with no tenant-level disable controls."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-09-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1120158",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T22:29:43.15Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-22T22:28:58Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva: New support for branded themes and typography in Viva Amplify",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>Starting in August 2025, Microsoft Edge for Business will support a new policy—Microsoft365CopilotChatIconEnabled—that allows administrators to control the visibility of the Microsoft 365 Copilot Chat button in the Edge toolbar. This gives organizations more flexibility in managing user access to Copilot features in Edge.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496140\" target=\"_blank\">496140</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide):</b> We will begin rolling out in early August 2025 and expect to complete by mid-August 2025.</p><p><b>How this will affect your organization</b></p><ul><li>This policy will be available starting with <b>Microsoft Edge version 139</b>. It will not be available for configuration prior to rollout.\n</li><li>By default, the policy is <b>not configured</b>, allowing users to manually enable or disable the Copilot Chat button in their Edge settings.\n</li><li>When the policy is enabled, the Copilot Chat button will remain visible in both the Edge toolbar and the Edge PDF reader toolbar.\n</li><li>When the policy is disabled, the Copilot Chat button will be hidden from both locations.\n</li><li>Starting with <b>Edge version 141</b>, the existing <b><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies#hubssidebarenabled\" target=\"_blank\">HubsSidebarEnabled </a></b>policy will no longer affect the visibility of the Copilot Chat button. Organizations should transition to using the new <b>Microsoft365CopilotChatIconEnabled </b>policy for this purpose.</li></ul><p><b>What you need to do to prepare</b></p><ul><li>No admin action is required before the rollout.\n</li><li>Review your current Edge policy configurations to assess potential impact.\n</li><li>Consider notifying users and updating internal documentation to reflect this change.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/microsoft365copilotchaticonenabled\" target=\"_blank\">Microsoft365CopilotChatIconEnabled - Microsoft Edge | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-release-schedule\" target=\"_blank\">Microsoft Edge release schedule - Microsoft Edge | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies\" target=\"_blank\">Microsoft Edge Browser Policy documentation | Microsoft Learn</a></li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "496140"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Starting August 2025, Microsoft Edge for Business will introduce the Microsoft365CopilotChatIconEnabled policy to control the visibility of the Copilot Chat button in the toolbar. Available from Edge version 139, it replaces the HubsSidebarEnabled policy by version 141. No admin action is needed before rollout."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-09-24T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1120157",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T22:28:40.28Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-22T22:28:34Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft 365 Copilot | New policy to manage Copilot Chat button visibility in Edge for Business",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to use Prompt Columns, a new data type in Dataverse. This public preview feature will begin rolling out on July 21, 2025, with an anticipated rollout completion of July 31, 2025.<br><br>\n  \n<b>How does this affect me?</b><br>\nPrompt Columns enable makers to embed AI-powered logic directly into Dataverse tables by defining prompts that generate values based on input columns. These prompts can be anything from simple commands to complex queries. This new capability supports content generation, data analysis, and enhanced workflows without the need to write complex logic. <br><br>\n \n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required. If you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/11231/prompt-column\">Prompt columns (preview) </a> article.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-21T12:08:23Z",
+    "HasAttachments": false,
+    "Id": "MC1119149",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T21:09:47.937Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-21T12:08:23Z",
+    "Tags": [
+      "Updated message",
+      "New feature"
+    ],
+    "Title": "Power Platform - Prompt Columns announcement",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</p><p>We’re adding a new capability to Microsoft Defender that allows SOC teams and admins to dispute submission results directly within the portal.</p><p>This enhancement enables organizations to provide feedback on false positives and false negatives without opening support tickets, streamlining the feedback loop and improving detection accuracy over time.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=488096\" target=\"_blank\">488096</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): Rollout will begin in early August 2025 (previously mid-July) and is expected to complete by late August 2025 (previously late July).\n</p><p><b>How this will affect your organization:</b>\n</p><p>If your organization uses Microsoft Defender for Office 365 admin submission features, you’ll now see an option to dispute submission results directly in the Microsoft Defender portal. This allows admins to flag incorrect verdicts (false positives or false negatives) and provide context or evidence, helping Microsoft improve detection accuracy.\n</p><p>This feature is on by default and does not require any configuration.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>Admins can access the new dispute functionality by navigating to:\n</p><p>Microsoft Defender portal: https://security.microsoft.com\n</p><p>Go to Actions &amp; Submissions &gt; Submissions or directly to https://security.microsoft.com/reportsubmission\n</p><p>To dispute a submission:\n</p><ol><li>Select a tab (Emails, URLs, or Email attachments).\n</li><li>Click on a completed submission row.\n</li><li>Select Dispute submission result.\n</li><li>Choose one or more of the following:\n</li><ul><li>Result\n</li><li>Reason behind result\n</li><li>Recommended steps\n</li></ul><li>Optionally, provide additional information or upload a screenshot.\n</li><li>Click Submit dispute.</li></ol><p>A new submission ID will be generated, and a confirmation message will appear in the flyout. You can view dispute details by clicking the submission panel.</p><p>\n</p><p>Note: Bulk submissions disputes are allowed. However, if a submission contains mixed results, the dispute option will be unavailable.\n</p><p>For more information, refer to:\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/defender-office-365/submissions-admin\" target=\"_blank\">Manage submissions - Microsoft Defender for Office 365 | Microsoft Learn </a>\n</li></ul><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "488096"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Defender for Office 365 will allow SOC teams and admins to dispute submission results directly in the portal, improving detection accuracy by providing feedback on false positives and negatives. This feature, available from early August 2025, is on by default and requires no configuration. Admins can access it via the Microsoft Defender portal."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1108843",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T21:02:52.863Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-03T23:37:21Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Defender for Office 365: Ability to Disagree with admin submissions analysis",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</p><p>Microsoft OneDrive and Microsoft SharePoint for web will soon let users add text or images as watermarks to PDF documents. Users can place the watermark in front of their content and choose the desired location and angle for the watermark.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=485796\" target=\"_blank\">485796</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide, GCC, GCC High, DoD): We will begin rolling out late June 2025 (previously mid-June) and expect to complete by late July 2025 (previously early July).</p><p><b>How this will affect your organization:</b>\n</p><p>To add text as a watermark: \n</p><ol><li>Open a PDF stored in OneDrive or SharePoint and then select <i>Edit </i>at the top right of the screen. \n</li><li>Select <i>Watermark </i>from the top menu, enter your text, customize the formatting and color, and place the watermark in the desired position. Choose from nine positions: top left, top center, top right, middle left, middle center, middle right, bottom left, bottom center, and bottom right. Text formatting options include bold, italic, color, size, transparency, and rotation.</li><li>Preview changes on the right side of the screen, and then select <i>Apply</i> to save changes. \n</li></ol><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/2d734bcd-d409-4253-af28-9a751f6c2b5b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/48bd07d4-8ba2-4ca6-8dad-0f3a34721557\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>To add an image as a watermark:</p><ol><li>From the <i>Watermark</i> dialog box, select <i>Picture</i> to insert an image as a watermark. Adjust scale, transparency, and rotation if desired. Set the image in the desired position. Choose from nine positions: top left, top center, top right, middle left, middle center, middle right, bottom left, bottom center, and bottom right. \n</li><li>Preview changes on the right side of the screen, and then select <i>Apply</i> to save.\n</li></ol><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3929d70b-2f87-458d-bcfd-ca5de8b6579c\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>To edit an existing watermark:</p><ol><li>Select <i>Watermark </i>from the top menu, and then select the watermark to edit. \n</li><li>Follow the same steps for adding text or images to modify text or images in the watermark. \n</li></ol><p>To add another watermark, select <i>Add new</i> under the <i>Watermark</i> toolbar.\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/1bc4122a-7cb3-42c1-a03a-8a2756c896a3\" style=\"width: 400px;\" alt=\"user controls\">\n\n</p><p>To remove a watermark:</p><ol><li>Select <i>Watermark</i> from the top menu, and then select the watermark to remove.\n</li><li>Select the <i>Remove</i> button at the bottom of the screen.</li></ol><p><i>FAQs</i></p><p>Can I modify watermarks using other PDF tools? \n</p><ul><li>Watermarks added in OneDrive or SharePoint will be visible in other PDF tools but cannot be edited or removed with third-party tools. \n</li></ul><p>Does applying a watermark change my original PDF? \n</p><ul><li>Yes, applying a watermark will change your PDF document. The watermark is superimposed on the PDF content. Users can easily remove any watermark applied in OneDrive or SharePoint.</li></ul><p><b>What you need to do to prepare:</b>\n</p><p><b>Note:</b> Some users may see this feature before other users in your organization.</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p><p>Before rollout, we will update this post with new documentation.</p><p> \n</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "485796"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft OneDrive and SharePoint will soon allow users to add text or image watermarks to PDFs, with options for customization and positioning. The rollout will start in late June 2025 and complete by late July 2025. No admin action is required, but user notification and documentation updates are recommended."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-08-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1079736",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T20:39:04.223Z",
+    "Services": [
+      "SharePoint Online",
+      "Microsoft OneDrive"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-21T22:47:59Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft SharePoint and Microsoft OneDrive: Apply watermark to PDFs",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</p><p>Major update: Microsoft Viva Pulse is rolling out a new delegation feature in July 2025 that enables users in your tenant to assign other users as delegates to take actions on their behalf. This feature is designed to support executive assistants, chiefs of staff, and other designated roles who act on behalf of organizational leaders in collecting and analyzing feedback.</p><p>\n</p><p>Delegation in Viva Pulse allows a user (the delegator) to authorize another user (the delegate) to manage the Pulse survey lifecycle on their behalf. Delegates can create, send, and manage Pulses, while the delegator retains ownership and visibility into all activity.&nbsp;</p><p>To use this feature, users must have a license for Viva Pulse via Microsoft Viva Suite, Microsoft Viva Workplace Analytics and Employee Feedback, or Microsoft 365 Copilot. This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=479753\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">479753</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will roll out the delegation feature in mid-August 2025 (previously mid-July).&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Delegation is turned on by default in tenants. Admins can manage delegation at the tenant level, group level using Microsoft Entra ID groups or Microsoft 365 groups, or at the user level for maximum flexibility through centralized feature access management.&nbsp;&nbsp;</p><p>You can create and update policies in the<a href=\"https://learn.microsoft.com/Viva/control-access-admin-center\" target=\"_blank\"> Microsoft 365 admin center</a> or in PowerShell. Use the FeatureID value PulseDelegation to configure delegation in the tenant. See Control access to features in Viva to learn more.</p><p>Delegates will be able to: </p><ol><li>Create and send Pulses on behalf of the delegator. Survey recipients for Pulses sent by the delegate will see the email and Teams notifications indicate that the Pulse was sent on behalf of the delegator. </li><li>View all Pulses sent or drafted. </li><li>View all Pulse reports.&nbsp;</li></ol><p>Delegates cannot view or respond to confidential conversations and cannot share Pulse reports.</p><p> <b>What you need to do to prepare:</b></p><p>This rollout will happen automatically in mid-July 2025 with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.&nbsp;&nbsp;</p><p>Learn more</p><ul><li><a href=\"https://learn.microsoft.com/viva/pulse/setup-admin-access/tenant-admin-dashboard\" target=\"_blank\">View usage metrics with the tenant admin dashboard | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/feature-access-management\" target=\"_blank\">Microsoft Viva - Feature access management | Microsoft Learn</a></li></ul><p>Before we complete rolling out the delegation feature, we will update this post with new documentation that explains how to set up delegation in Viva Pulse.&nbsp;</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "479753"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva Pulse will introduce a new delegation feature in mid-August 2025, allowing users to assign delegates to manage Pulse surveys on their behalf. This feature supports roles like executive assistants and chiefs of staff. Delegation is enabled by default and can be managed at various levels. No admin action is required before the rollout."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-09-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1053652",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T19:40:45.41Z",
+    "Services": [
+      "Microsoft Viva",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-04-11T21:42:37Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva Pulse: New Delegation feature",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</p><p>A new feature in the Project Manager agent that automates the creation of status reports for your plans. This capability streamlines the process to generate, view, modify, and share status reports based on project progress. The concise, accurate, and professional report is summarized based on your plan's progress, key milestones, and upcoming tasks. With this feature, you can ensure stakeholders stay informed effortlessly, saving time while maintaining transparency and alignment across your projects.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=474452\" target=\"_blank\">474452</a></p><p><b>When this will happen:</b></p><p>Public Preview (Worldwide): We will begin rolling out late April 2025 and expect to complete by mid-May 2025.</p><p>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.</p><p><b>How this will affect your organization:</b></p><p>Users with <span>an </span><span>appropriate license will be able to access the Status Report feature within their shared premium plans. Within the Reports tab, users can generate reports based on their defined parameters, view and delete past reports, and share their reports to a larger forum.</span></p><p><b>What you need to do to prepare:</b></p><p>Admins do not need to take action to enable the feature as it will be automatically available after rollout.</p><p>The Status Report feature will begin rolling out before a control in the admin portal to disable Project Manager is available. If you would like to disable Project Manager before the admin control is available, open a support request with Planner support and we can disable it on your behalf temporarily until the self-service option is available.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "474452"
+      },
+      {
+        "Name": "Summary",
+        "Value": "A new Project Manager agent feature in Planner automates status report creation, streamlining the process for generating, viewing, modifying, and sharing reports. Public preview starts late April 2025. Admins need not take action; the feature will be auto-enabled."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-02-02T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1060865",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T19:30:11.987Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-04-23T16:43:10Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Status Report with Project Manager Agent in Planner",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</p><p>We're introducing a new way to seamlessly access your most recently used SharePoint agents directly within the Microsoft 365 Copilot app—no need to navigate back to the SharePoint site. This enhancement helps users stay focused and productive by reducing context switching.</p><p>\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=482601\" target=\"_blank\">482601</a></p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out in mid-September 2025 (previously mid-July).</p><p><b>How this will affect your organization:</b></p><p>With this update, users can quickly return to their most recently used SharePoint agents from within the Microsoft 365 Copilot app. SharePoint agents are implemented as <code>.agent</code> files stored on SharePoint sites. Admins can disable an agent at any time by deleting the corresponding file.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/17e2b503-7a17-42cc-8596-7c547685a9e5\" width=\"400\" height=\"\"></p><p>This feature is designed to streamline workflows and improve discoverability of agents users rely on most. It will be on by default.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><ul><li>Consider updating internal training materials and documentation to reflect this new access point.\n</li><li>Review your organization’s SharePoint agent management practices to ensure appropriate governance and lifecycle management.</li></ul><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed?\tMaybe - It introduces a new access point to existing .agent files.</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?\tYes - SharePoint agents are AI-powered and interact with user data.\n</li><li>Does the change provide end users any new way of interacting with generative AI?\tYes - Users can more easily re-engage with generative AI agents.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "482601"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Access recently used SharePoint agents directly within the Microsoft 365 Copilot app, starting mid-September 2025. This feature aims to reduce context switching and improve productivity. Admins can manage agents by deleting the corresponding .agent files. Update training materials and review SharePoint agent management practices."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-10-27T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1099692",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T18:59:38.14Z",
+    "Services": [
+      "SharePoint Online",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-20T22:16:55Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Copilot: Access SharePoint agents in the Microsoft 365 Copilot app",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>Now generally available for&nbsp;Windows 11, version 24H2&nbsp;are&nbsp;two major advancements that strengthen system resilience and minimize downtime: a redesigned user experience for unexpected restarts and quick machine recovery.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>These enhancements&nbsp;are&nbsp;available with the&nbsp;<a href=\"https://support.microsoft.com/help/5062660\" rel=\"noopener noreferrer\" target=\"_blank\">July 2025 optional non-security preview release</a>&nbsp;for Windows 11, version 24H2.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>In the event of&nbsp;an unexpected restart,&nbsp;users will see a short, simple message&nbsp;plus the&nbsp;stop code and faulty driver information.&nbsp;There&nbsp;will&nbsp;also&nbsp;be a&nbsp;hex version of the stop&nbsp;code to help&nbsp;you&nbsp;quickly gather&nbsp;more&nbsp;information about the issue.&nbsp;While you can continue&nbsp;to collect kernel dumps to support rich diagnostics,&nbsp;you&nbsp;can&nbsp;also&nbsp;opt-in&nbsp;for&nbsp;reduced downtime by configuring devices for a small memory dump.&nbsp;&nbsp;</div><div>&nbsp;</div><div>For quick machine recovery, this&nbsp;feature&nbsp;is now&nbsp;generally available for Windows 11, version 24H2,&nbsp;but is disabled by default for Windows 11 Pro, Education, and Enterprise editions.&nbsp;Once enabled, the feature is&nbsp;activated&nbsp;during critical boot failures. It uses the Windows recovery environment&nbsp;(WinRE)&nbsp;to scan Windows Update for applicable fixes published by Microsoft. If a matching remediation for a widespread issue is available, it is applied automatically, restoring the device without requiring manual intervention.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>&nbsp;</div><div>The new user experience for unexpected restarts&nbsp;will be available on all devices running Windows 11, version 24H2 beginning with the&nbsp;<a href=\"https://support.microsoft.com/help/5062660\" rel=\"noopener noreferrer\" target=\"_blank\">July 2025 optional non-security preview release</a>.&nbsp;If&nbsp;you’d&nbsp;like to&nbsp;configure your devices for the small memory dump, see&nbsp;our documentation on how to&nbsp;<a href=\"https://learn.microsoft.com/troubleshoot/windows-server/performance/memory-dump-file-options#configure-the-dump-type\" rel=\"noopener noreferrer\" target=\"_blank\">Configure the dump type</a>.&nbsp;</div><div>&nbsp;</div><div>If&nbsp;you’d&nbsp;like to enable&nbsp;quick machine recovery, manage auto-remediation behavior, and set scan and reboot intervals, you can do so using the Microsoft Intune&nbsp;settings&nbsp;catalog or the&nbsp;<a href=\"https://learn.microsoft.com/windows/client-management/mdm/remoteremediation-csp\" rel=\"noopener noreferrer\" target=\"_blank\">RemoteRemediation&nbsp;CSP</a>.&nbsp;</div><div>&nbsp;</div><div><b>Additional&nbsp;information:</b>&nbsp;</div><div>For more information on quick machine recovery and the new unexpected restart user experience, see&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/resilience-in-action-for-windows-devices/4434571\" rel=\"noopener noreferrer\" target=\"_blank\">Resilience in action for Windows devices</a>.&nbsp;</div><div>&nbsp;</div><div>Quick machine recovery support for&nbsp;additional&nbsp;editions, including Windows Server, as well as expanded connectivity options for enterprise environments,&nbsp;are&nbsp;coming soon. Future updates will include enhanced IT admin tools for remediation management, monitoring,&nbsp;and&nbsp;additional&nbsp;policy and rollout controls.&nbsp;</div>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-07-22T17:21:19.22Z",
+    "HasAttachments": false,
+    "Id": "MC1119946",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T17:21:20.617Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-22T17:21:19.267Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "New recovery options in Windows 11, version 24H2 boost resilience",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>The July 2025 non-security preview update is now available for Windows 11, versions 24H2, 23H2, and 22H2, as well as Windows 10, version 22H2. Information about the contents of this update is available from the release notes, which are accessible from the <a href=\"https://support.microsoft.com/help/5062660\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11</a> and <a href=\"https://support.microsoft.com/help/5062649\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 10</a> update history pages. To learn more about the different types of monthly quality updates, see <a href=\"https://aka.ms/Windows/MonthlyUpdates\" rel=\"noopener noreferrer\" target=\"_blank\">Windows monthly updates explained</a>.</div><div><br></div><div>Looking to explore upcoming features and improvements in Windows 11? Check out the <a href=\"https://www.microsoft.com/windows/business/roadmap\" rel=\"noopener noreferrer\" target=\"_blank\">Windows roadmap</a>. It includes what’s coming to the Windows Insider Program, what’s gradually rolling out, and what’s generally available.</div><div><br></div><div><b>Highlights for the Windows 11, version 24H2 update:&nbsp;</b></div><ul><li>For all Recall users worldwide, you can now reset Recall and delete all its data. Go to&nbsp;<b>Settings</b>&nbsp;&gt;&nbsp;<b>Privacy &amp; Security</b>&nbsp;&gt;<b>&nbsp;Recall &amp; Snapshots</b>&nbsp;to find a new advanced settings page. There, you’ll see a reset button that deletes all your snapshots and restores Recall to its default settings.</li><li><b>Practice in Reading Coach</b>&nbsp;is a new Click to Do text action that helps you improve reading fluency and pronunciation.</li><li>With the&nbsp;<b>Draft with Copilot in Word</b>&nbsp;text action, you can quickly turn any recognized text into a full draft. Whether it’s a sentence in an email or a snippet on your screen, press&nbsp;<b>Win</b>&nbsp;+&nbsp;<b>Click&nbsp;</b>on the recognized text, then select&nbsp;<b>Draft with Copilot in Word</b>.&nbsp;</li><li>The&nbsp;<b>new agent in Settings</b>&nbsp;is part of the Copilot+ PC experience and is designed to help you find and change settings on your PC.</li><li>Windows Search settings are now easier to find. Instead of two separate pages for settings (\"Search permissions\" and \"Searching Windows\"), you can find everything in one place under&nbsp;<b>Settings</b>&nbsp;&gt;&nbsp;<b>Privacy &amp; security</b>&nbsp;&gt;<b>&nbsp;Search.</b></li></ul><div><br></div><div>For instructions on how to install this update, see the KB for your operating system listed below:&nbsp;</div><ul><li>Windows 11, version 24H2: <a href=\"https://support.microsoft.com/help/5062660\" rel=\"noopener noreferrer\" target=\"_blank\">KB5062660</a></li><li>Windows 11, versions 23H2 and 22H2: <a href=\"https://support.microsoft.com/help/5062663\" rel=\"noopener noreferrer\" target=\"_blank\">KB5062663</a></li><li>Windows 10, version 22H2: <a href=\"https://support.microsoft.com/help/5062649\" rel=\"noopener noreferrer\" target=\"_blank\">KB5062649</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-07-22T17:04:15.47Z",
+    "HasAttachments": false,
+    "Id": "MC1119942",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T17:04:16.27Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-22T17:04:15.517Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "The July 2025 Windows non-security preview update is now available",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon for Microsoft Purview: We are announcing the public preview of the integration of Adaptive protection with Data Lifecycle Management (DLM) to help you find the right balance to protect against data sabotage while enabling productivity. This new integration leverages DLM features to provide an additional control for Adaptive protection that automatically preserves items deleted by a user with an elevated risk level, so items can be restored if needed.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=392839\" target=\"_blank\">392839</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public preview: We will begin rolling out in late June 2024 (previously early May) and expect to complete by late July 2024 (previously mid-July).\n</p><p>General Availability:&nbsp; We will begin rolling out early February 2026 and expect to complete by late February 2026.</p><p><b>How this will affect your organization:</b>\n</p><p>After the rollout, and after you enable Adaptive protection for your tenant, the retention label and auto-apply policy for data lifecycle management will be automatically created for you. This policy will automatically include elevated risk users identified by Microsoft Purview | Insider Risk Management solution. If these users delete content from Microsoft SharePoint, Microsoft OneDrive, or Microsoft Exchange, a retention label is automatically applied to that content to retain it for 120 days. Retention labels are automatically applied to unlabeled content deleted by these users. When these users are no longer at the elevated risk level, they are automatically removed from the DLM policy, and the system will no longer keep a copy of content they delete. Any content copies previously retained when the user had an elevated risk level will be kept for the 120 days as specified by the retention label.\n</p><p>Unlike other retention labeling scenarios, users do not see the retention label, and you do not need to create or manage the retention label or policy. At this time, you can't change the retention period or assign different policies based on the different risk levels, or for different locations. The single retention label and auto-labeling policy for your tenant is not visible in the Microsoft Purview compliance portal.</p><p><b>What you need to do to prepare:</b>\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/retention#dynamically-mitigate-the-risk-of-accidental-or-malicious-deletes\" target=\"_blank\">Learn about retention policies &amp; labels to retain or delete | Microsoft Learn</a>\n</p><p>If you're using Adaptive protection and want to automatically retain content deleted by elevated risk users, follow these steps to turn on this new integration.\n</p><ol><li>Sign in to the <a href=\"https://compliance.microsoft.com/\" target=\"_blank\">Microsoft Purview compliance portal</a>.\n</li><li>Navigate to <i>Data lifecycle management &gt; Microsoft 365 &gt; Adaptive protection settings</i> in the top right corner.\n</li><li>Turn the setting ON and select <i>Save</i>.\n</li></ol><p>\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/fe6a20ed-77ce-44ce-b862-bc7f4b78b93e\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/521b359c-13a9-41ef-ad96-215789a32eb3\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p>If you’re not using Adaptive protection already, turn on Adaptive protection and the new feature will be enabled along with Adaptive protection.\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "392839"
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-11-24T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC791110",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T16:28:45.327Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-05-08T00:10:41Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Data Lifecycle Management: New integration with Adaptive protection",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Starting July 16, 2025, we’re rolling out the new Researcher agent in Microsoft Word for Microsoft 365 Copilot licensed users. This agent combines OpenAI’s deep research model with Copilot’s orchestration and search capabilities to help users conduct complex, multi-step research across work and web data.</p><p><b>When this will happen:</b></p><ul><li>Word on Windows, Word on the web and Mac: Rollout begins August 18, 2025 (previously July 16) and completes by September 1, 2025 (previously July 28).&nbsp;</li></ul><p><b>How this affects your organization:</b></p><ul><li>For users with a Microsoft 365 Copilot license, the Researcher agent will appear:\n<ul><li>In the Copilot prompt box in Word.\n</li><li>In the Copilot Chat Agent Store under “Built by Microsoft.</li></ul></li><li>The Researcher agent supports 37 languages.\n</li><li>Admin settings for the Researcher agent apply specifically to its use in Word.\n</li></ul><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3c12e413-65b4-4cdc-94d0-002aec0c73aa \" width=\"400\" height=\"\" &gt;<=\"\" p=\"\"></p><p><b>What you can do to prepare:</b></p><p>No admin action is required to enable the Researcher agent for Microsoft 365 Copilot users.\n</p><p>To manage agents in the Microsoft 365 admin center, refer to:\n</p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agentsG%2Bxlh%2BQ%3D&amp;reserved=0\" target=\"_blank\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn</a>.&nbsp;</li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agents\" target=\"_blank\">Block or Unblock Agents</a>\n</li></ul><p>For more details, see Message center post MC1085251 (May 2025).\n</p><p><b>Compliance considerations:</b></p><ul><li>Does the change store new customer data?\tMaybe - The Researcher agent may generate or retrieve content based on user prompts. If this content is stored (e.g., in documents or logs), it could involve new customer data. However, storage behavior may depend on tenant configuration and usage.\n</li><li>Does the change alter how existing customer data is processed, stored, or accessed?\tYes - The agent can access and reason over existing work data (e.g., documents, emails) to generate research responses, which changes how that data is processed and potentially accessed.\n</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with customer data?\tYes - This is a new generative AI agent that uses OpenAI models and Copilot orchestration to interact with customer data in Word.\n</li><li>Does the change provide end users any new way of interacting with generative AI?\tYes - This is a new generative AI experience embedded in Word, enabling users to conduct research through natural language prompts.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting August 18, 2025, the Researcher agent will be available in Word for Microsoft 365 Copilot licensed users, combining OpenAI’s research model with Copilot’s capabilities. The rollout completes by September 1, 2025, and supports 37 languages. No admin action is required. Compliance considerations are noted."
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1111176",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T16:02:52.047Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-07T23:57:26Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Researcher is available in Word for Microsoft 365 Copilot licensed users",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</p><p>We're introducing a new delegation capability in Microsoft Viva Pulse to support executive assistants, chiefs of staff, and other designated roles who act on behalf of organizational leaders. Starting mid-July 2025, users will be able to assign delegates to manage the Pulse survey lifecycle on their behalf—helping streamline feedback collection and analysis.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=479753\" target=\"_blank\">479753</a></p><p>\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): Rollout begins mid-August 2025 (previously mid-July).\n</p><p><b>How this will affect your organization:</b>\n</p><p>Delegation will be enabled by default. This feature allows a user (the delegator) to authorize another user (the delegate) to create, send, and manage Pulse surveys. Delegators retain full visibility and ownership of all activity.\n</p><p>Admins can manage delegation settings at the tenant, group (via Microsoft Entra ID or Microsoft 365 groups), or individual user level using centralized feature access management.\n</p><p>Delegates will be able to:\n</p><ul><li>Create and send Pulses on behalf of the delegator. Recipients will see that the Pulse was sent on their behalf.\n</li><li>View all Pulses (sent or drafted) and Pulse reports.\n</li></ul><p>Delegates will not be able to:\n</p><ul><li>View or respond to confidential conversations.\n</li><li>Share Pulse reports.\n</li></ul><p><b>What you can do to prepare:</b>\n</p><p>No admin action is required before rollout. However, we recommend:\n</p><ul><li>Reviewing your current configuration to assess impact.\n</li><li>Notifying users and updating internal documentation.\n</li><li>Managing delegation policies in the Microsoft 365 admin center or via PowerShell using the <code>FeatureID</code> value <code>PulseDelegation</code>.\n</li></ul><p>Learn more:\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/viva/feature-access-management\" target=\"_blank\">Microsoft Viva - Feature access management | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/en-us/Viva/control-access-admin-center\" target=\"_blank\">Control who can access features in Microsoft 365 using the Microsoft 365 admin center</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/Viva/manage-access-policies\" target=\"_blank\">Control access to features in Microsoft 365 using PowerShell</a></li></ul><p>We’ll update this post with setup documentation before rollout completes.</p><p><b>Compliance considerations:</b></p><ul><li>Changes to data processing/storage/access: Yes - Delegates gain access to Pulse survey content and reports on behalf of the delegator.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "479753"
+      },
+      {
+        "Name": "Summary",
+        "Value": "New delegation capability in Microsoft Viva Pulse will allow designated roles to manage Pulse surveys on behalf of leaders, starting mid-August 2025. Delegation will be enabled by default, with admins able to manage settings. No immediate admin action is required, but reviewing configurations and notifying users is recommended."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-09-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1104314",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T15:39:05.81Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-26T23:18:07Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "New feature in Microsoft Viva Pulse to enable delegation",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><span style=\"font-family: Arial; font-size: 10pt;\">Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</span></p><p><span style=\"font-family: Arial; font-size: 10pt;\">Within Microsoft Purview Data Security Posture Management for AI, a </span><span style=\"font-family: Arial; font-size: 10pt;\">specific page</span><span style=\"font-family: Arial; font-size: 10pt;\"> is dedicated to showing protection capabilities and usage for Microsoft 365 Copilot. This page will be on the Data Security Posture Management for AI overview page, which will have a tab for Microsoft 365 Copilot.</span></p><p></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=489828\" target=\"_blank\">489828</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out in mid-June 2025 and expect to complete by late June 2025.</p><p>General Availability (Worldwide): We will begin rolling out in late July 2025 (previously mid-July) and expect to complete by early August 2025 (previously late July).</p><p><b>How this will affect your organization:</b></p><p></p><div style=\"\"><span style=\"font-family: Arial; font-size: 10pt; font-weight: 400;\">Admins will be able to use this page to view recommendations for securely deploying Copilot and view the sensitivity labels and sensitive information types found in Copilot interactions.&nbsp;</span></div><p><b>What you need to do to prepare:</b></p><p></p><div style=\"\"><font face=\"Arial\"><span style=\"font-size: 13.3333px;\">This rollout will happen automatically with no admin action required.</span></font></div>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "489828"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview will include a page in Data Security Posture Management for AI to show protection capabilities and usage for Microsoft 365 Copilot. This feature will roll out in mid-2025, with public preview in June and general availability in July. No admin action is required."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-09-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1066341",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T15:20:46.387Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-01T22:31:34Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: Microsoft 365 Copilot view in Data Security Posture Management for AI",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>New Microsoft Outlook for Windows desktop will soon support an admin setting to define the application of S/MIME signatures in \"reply to\" scenarios. This setting enables admins to define if an S/MIME signature will be inherited by default in Reply and Reply all scenarios.</p><p><b>When this will happen:</b></p><p><i>For new Outlook for Windows desktop:</i></p><ul><li>General Availability (Worldwide): we will begin rolling out late July (previously early July) and expect to complete by early August 2025 (previously mid-July).\n</li><li>General Availability (GCC): We will begin rolling out early August 2025 (previously mid-July) and expect to complete by late August 2025 (previously early August).</li></ul><p>For Outlook for Web:\n</p><p>After further review we have decided not to proceed with this change at this time for Outlook for Web. We apologize for any inconvenience.</p><p>\n</p><p><b>How this will affect your organization:</b></p><p>After this rollout, you can use the new setting called <code>NoSignOnReply</code> to define <i>Signing on Reply</i> and <i>Reply all.</i> Using this setting, admins can define inheritance of S/MIME signature for its users. The <code>NoSignOnReply</code> setting is available in Microsoft Entra ID (formerly Active Directory).\n</p><p><code>NoSignOnReply = $False</code>. When value = False, Reply and Reply all will inherit the S/MIME signature. Users will need to go to S/MIME settings and remove S/MIME signature.</p><p><code>NoSignOnReply = $True</code><i>This is the default state. Reply and Reply all will not inherit S/MIME signature. In cases where incoming email has S/MIME encryption and a signature attached, this setting will only inherit encryption and not the signature. This setting can be useful in scenarios where your organization has not configured S/MIME signatures for its users.</i></p><p>As an alternative, admins can configure this setting with the cmdlet <a href=\"https://learn.microsoft.com/en-us/powershell/module/exchange/set-smimeconfig?view=exchange-ps\" target=\"_blank\">Set-SmimeConfig (Set-SmimeConfig (ExchangePowerShell) | Microsoft Learn</a>. Admins can configure this setting in the Microsoft Exchange Management Shell or the Microsoft Exchange Online Shell.</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users or admins about this change and update any relevant documentation.\n</p><p>If your organization does not use S/MIME emails, you do not need to take any action.\n</p><p>If your organization has enabled communications with S/MIME, you may need to review this setting based on your preferences for the behavior.\n</p><p>Learn more about this new setting and other S/MIME settings available for admins to define: <a href=\"https://learn.microsoft.com/powershell/module/exchange/set-smimeconfig?view=exchange-ps\" target=\"_blank\">Set-SmimeConfig (ExchangePowerShell) | Microsoft Learn</a></p><p>#newoutlookforwindows</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "New Microsoft Outlook for Windows desktop will support an admin setting to define S/MIME signature inheritance in replies, rolling out from late July to late August 2025. The setting, NoSignOnReply, can be configured to inherit or not inherit S/MIME signatures. This change does not apply to Outlook for Web. No admin action is required before rollout."
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1072404",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-22T13:47:36.63Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 for the web",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-12T23:37:41Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New Microsoft Outlook and Outlook for the web: Admin setting for inheriting a S/MIME signature on reply",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
     "ActionRequiredByDateTime": "2025-07-31T07:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -12,10 +685,6 @@
       {
         "Name": "RoadmapIds",
         "Value": "328282"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-22T10:19:45.7105601Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-22T10:19:45.7105606Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-22T10:19:45.7105607Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -90,38 +759,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to use Prompt Columns, a new data type in Dataverse. This public preview feature will begin rolling out on July 21, 2025, with an anticipated rollout completion of July 29, 2025.<br><br>\n  \n<b>How does this affect me?</b><br>\nPrompt Columns enable makers to embed AI-powered logic directly into Dataverse tables by defining prompts that generate values based on input columns. These prompts can be anything from simple commands to complex queries. This new capability supports content generation, data analysis, and enhanced workflows without the need to write complex logic. <br><br>\n \n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required. If you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/11231/prompt-column\">Prompt columns (preview) </a> article.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-08-21T12:08:23Z",
-    "HasAttachments": false,
-    "Id": "MC1119149",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-21T23:16:32.887Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-21T12:08:23Z",
-    "Tags": [
-      "Updated message",
-      "New feature"
-    ],
-    "Title": "Power Platform - Prompt Columns announcement",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to create custom AI agents by using existing knowledge, logic, and actions in Power Apps. This feature will reach general availability on August 15, 2025.<br><br>\n<b>How does this affect me? </b><br>\nAgent builder in Power Apps gives you a fast and convenient way to bring your apps into the agentic era by building agents directly within Power Apps Studio with a streamlined Copilot Studio experience. <br><br>\n<b>What action do I need to take? </b><br>\nThis message is for awareness and no action is required. <br><br>\nIf you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/11570/agent-builder-power-apps\">Agent builder in Power Apps</a> learn article.",
       "ContentType": "html"
     },
@@ -141,47 +778,6 @@
       "New feature"
     ],
     "Title": "Power Apps – Agent builder in Power Apps",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 21, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>New Microsoft Outlook for Windows desktop will soon support an admin setting to define the application of S/MIME signatures in \"reply to\" scenarios. This setting enables admins to define if an S/MIME signature will be inherited by default in Reply and Reply all scenarios.</p><p><b>When this will happen:</b></p><p><i>For new Outlook for Windows desktop:</i></p><ul><li>General Availability (Worldwide): we will begin rolling out late July (previously early July) and expect to complete by early August 2025 (previously mid-July).\n</li><li>General Availability (GCC): We will begin rolling out early August 2025 (previously mid-July) and expect to complete by late August 2025 (previously early August).</li></ul><p>For Outlook for Web:\n</p><p>After further review we have decided not to proceed with this change at this time for Outlook for Web. We apologize for any inconvenience.</p><p>\n</p><p><b>How this will affect your organization:</b></p><p>After this rollout, you can use the new setting called <code>NoSignOnReply</code> to define <i>Signing on Reply</i> and <i>Reply all.</i> Using this setting, admins can define inheritance of S/MIME signature for its users. The <code>NoSignOnReply</code> setting is available in Microsoft Entra ID (formerly Active Directory).\n</p><p><code>NoSignOnReply = $False</code>. When value = False, Reply and Reply all will inherit the S/MIME signature. Users will need to go to S/MIME settings and remove S/MIME signature.</p><p><code>NoSignOnReply = $True</code><i>This is the default state. Reply and Reply all will not inherit S/MIME signature. In cases where incoming email has S/MIME encryption and a signature attached, this setting will only inherit encryption and not the signature. This setting can be useful in scenarios where your organization has not configured S/MIME signatures for its users.</i></p><p>As an alternative, admins can configure this setting with the cmdlet <a href=\"https://learn.microsoft.com/en-us/powershell/module/exchange/set-smimeconfig?view=exchange-ps\" target=\"_blank\">Set-SmimeConfig (Set-SmimeConfig (ExchangePowerShell) | Microsoft Learn</a>. Admins can configure this setting in the Microsoft Exchange Management Shell or the Microsoft Exchange Online Shell.</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users or admins about this change and update any relevant documentation.\n</p><p>If your organization does not use S/MIME emails, you do not need to take any action.\n</p><p>If your organization has enabled communications with S/MIME, you may need to review this setting based on your preferences for the behavior.\n</p><p>Learn more about this new setting and other S/MIME settings available for admins to define: <a href=\"https://learn.microsoft.com/powershell/module/exchange/set-smimeconfig?view=exchange-ps\" target=\"_blank\">Set-SmimeConfig (ExchangePowerShell) | Microsoft Learn</a></p><p>#newoutlookforwindows</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "New Microsoft Outlook for Windows desktop will support an admin setting to define S/MIME signature inheritance in replies, rolling out from late July to late August 2025. The setting, NoSignOnReply, can be configured to inherit or not inherit S/MIME signatures. This change does not apply to Outlook for Web. No admin action is required before rollout."
-      }
-    ],
-    "EndDateTime": "2025-08-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1072404",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-21T20:09:19.94Z",
-    "Services": [
-      "Exchange Online",
-      "Microsoft 365 for the web",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-12T23:37:41Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "New Microsoft Outlook and Outlook for the web: Admin setting for inheriting a S/MIME signature on reply",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -490,53 +1086,6 @@
       "User impact"
     ],
     "Title": "Autoplay videos in Engage (Muted)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 18, 2025: We have updated the timeline. Thank you for your patience.</p><p>A new feature in the Project Manager agent that automates the creation of status reports for your plans. This capability streamlines the process to generate, view, modify, and share status reports based on project progress. The concise, accurate, and professional report is summarized based on your plan's progress, key milestones, and upcoming tasks. With this feature, you can ensure stakeholders stay informed effortlessly, saving time while maintaining transparency and alignment across your projects.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=474452\" target=\"_blank\">474452</a></p><p><b>When this will happen:</b></p><p>Public Preview (Worldwide): We will begin rolling out late April 2025 and expect to complete by mid-May 2025.</p><p>General Availability (Worldwide): We will begin rolling out on late August 2025 (previously late June) and expect to complete by late September 2025 (previously late August).</p><p><b>How this will affect your organization:</b></p><p>Users with <span>an </span><span>appropriate license will be able to access the Status Report feature within their shared premium plans. Within the Reports tab, users can generate reports based on their defined parameters, view and delete past reports, and share their reports to a larger forum.</span></p><p><b>What you need to do to prepare:</b></p><p>Admins do not need to take action to enable the feature as it will be automatically available after rollout.</p><p>The Status Report feature will begin rolling out before a control in the admin portal to disable Project Manager is available. If you would like to disable Project Manager before the admin control is available, open a support request with Planner support and we can disable it on your behalf temporarily until the self-service option is available.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "474452"
-      },
-      {
-        "Name": "Summary",
-        "Value": "A new Project Manager agent feature in Planner automates status report creation, streamlining the process for generating, viewing, modifying, and sharing reports. Public preview starts late April 2025, with general availability by late August 2025. Admins need not take action; the feature will be auto-enabled."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2025-10-06T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1060865",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-18T19:21:19.363Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-23T16:43:10Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Status Report with Project Manager Agent in Planner",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -3723,42 +4272,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>We&#39;ve released updates to the following update channels for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li>\r\n<li>Monthly Enterprise Channel</li>\r\n<li>Semi-Annual Enterprise Channel (Preview)</li>\r\n<li>Semi-Annual Enterprise Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out these updates of Microsoft 365 Apps to users on those update channels starting July 8th, 2025 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download these latest updates and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about these updates view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2505-june-10\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li>\r\n<li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2506-july-08\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li>\r\n<li><a href=\"https://docs.microsoft.com/officeupdates/monthly-enterprise-channel#version-2504-june-10\" target=\"_blank\" rel=\"noopener noreferrer\">Monthly Enterprise Channel</a></li>\r\n<li><a href=\"https://docs.microsoft.com/officeupdates/monthly-enterprise-channel#version-2505-july-08\" target=\"_blank\" rel=\"noopener noreferrer\">Monthly Enterprise Channel</a></li>\r\n<li><a href=\"https://docs.microsoft.com/officeupdates/semi-annual-enterprise-channel-preview#version-2502-june-10\" target=\"_blank\" rel=\"noopener noreferrer\">Semi-Annual Enterprise Channel (Preview)</a></li>\r\n<li><a href=\"https://docs.microsoft.com/officeupdates/semi-annual-enterprise-channel-preview#version-2502-july-08\" target=\"_blank\" rel=\"noopener noreferrer\">Semi-Annual Enterprise Channel (Preview)</a></li>\r\n<li><a href=\"https://docs.microsoft.com/officeupdates/semi-annual-enterprise-channel#version-2502-july-08\" target=\"_blank\" rel=\"noopener noreferrer\">Semi-Annual Enterprise Channel</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "ExternalLink",
-        "Value": "https://docs.microsoft.com/officeupdates/"
-      }
-    ],
-    "EndDateTime": "2025-07-22T23:45:54.657Z",
-    "HasAttachments": false,
-    "Id": "MC1111786",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-08T23:45:55.363Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-08T23:45:54.657Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Updates available for Microsoft 365 Apps for all channels",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated July 8, 2025: We have updated this message with additional information. Thank you for your feedback.</p><p>We’re introducing the next evolution of Copilot in Engage—transforming it from a writing assistant into a personalized AI companion. This enhanced experience helps users stay informed, discover insights, and recall important information across their network.\n</p><p>This change is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=481282\" target=\"_blank\">481282</a>&nbsp;</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): Rollout begins end of July 2025. And we expect to complete the rollout by the end of August 2025</p><p><b>How this affects your organization:</b></p><p>Users with a Microsoft 365 Copilot license will gain access to new capabilities in Engage, including:\n</p><ul><li>Community Catch-Up: Stay current on conversations, trending content, and key updates in your network.\n</li><li>Information Discovery: Find relevant insights and answers from colleagues, communities, and storylines.\n</li><li>Recall: Retrieve past conversations, updates, and shared knowledge quickly.\n</li></ul><p>These features are built on the Avalon/M365 Copilot platform and leverage Microsoft Graph data for a deeply integrated experience.</p><p>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/567ee103-3bc1-4e83-9748-bc0c9fd0d539\" width=\"400\" height=\"\"></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/d0d5d30a-8a2e-4cc1-b56c-57687bb01c92\" width=\"400\" height=\"\"></p><p>Note: Users without a Microsoft 365 Copilot license will not have access to these enhanced capabilities.\n</p><p><b>What you can do to prepare:</b></p><ul><li>Review licensing: Ensure users who need access are assigned the Microsoft 365 Copilot license.\n</li><li>Communicate the change: Let users know about the new capabilities and how they can benefit from them.\n</li><li>Update training materials: Reflect the new Copilot experience in Engage.</li></ul><p><b>Compliance considerations:</b></p><ul><li>Stores new customer data\tYes</li><li>Alters how existing customer data is processed, stored, or accessed\tYes\n</li><li>Introduces or modifies AI/ML capabilities that interact with customer data\tYes\n</li><li>Provides new ways of interacting with generative AI\tYes</li><li>Modifies or disables Purview capabilities (DLP, labels, audit, etc.)\tMaybe\n</li><li>Alters admin compliance monitoring or reporting\tMaybe\n</li><li>Modifies how users access/export/delete/correct personal data (GDPR)\tMaybe</li></ul>",
       "ContentType": "html"
     },
@@ -3943,45 +4456,6 @@
       "Retirement"
     ],
     "Title": "PowerPoint: Deprecation of Reuse Slides Button in Ribbon",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 8, 2025: We have updated the content. Thank you for your patience.</p><p>Starting July 16, 2025, we’re rolling out the new Researcher agent in Microsoft Word for Microsoft 365 Copilot licensed users. This agent combines OpenAI’s deep research model with Copilot’s orchestration and search capabilities to help users conduct complex, multi-step research across work and web data.</p><p><b>When this will happen:</b></p><ul><li>Word on the web and Mac: Rollout begins July 16, 2025, and completes by July 28, 2025.\n</li><li>Word on Windows: Rollout begins July 28, 2025, and completes by August 14, 2025.\n</li></ul><p><b>How this affects your organization:</b></p><ul><li>For users with a Microsoft 365 Copilot license, the Researcher agent will appear:\n<ul><li>In the Copilot prompt box in Word.\n</li><li>In the Copilot Chat Agent Store under “Built by Microsoft.</li></ul></li><li>The Researcher agent supports 37 languages.\n</li><li>Admin settings for the Researcher agent apply specifically to its use in Word.\n</li></ul><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3c12e413-65b4-4cdc-94d0-002aec0c73aa \" width=\"400\" height=\"\" &gt;<=\"\" p=\"\"></p><p><b>What you can do to prepare:</b></p><p>No admin action is required to enable the Researcher agent for Microsoft 365 Copilot users.\n</p><p>To manage agents in the Microsoft 365 admin center, refer to:\n</p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agentsG%2Bxlh%2BQ%3D&amp;reserved=0\" target=\"_blank\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn</a>.&nbsp;</li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agents\" target=\"_blank\">Block or Unblock Agents</a>\n</li></ul><p>For more details, see Message center post MC1085251 (May 2025).\n</p><p><b>Compliance considerations:</b></p><ul><li>Does the change store new customer data?\tMaybe - The Researcher agent may generate or retrieve content based on user prompts. If this content is stored (e.g., in documents or logs), it could involve new customer data. However, storage behavior may depend on tenant configuration and usage.\n</li><li>Does the change alter how existing customer data is processed, stored, or accessed?\tYes - The agent can access and reason over existing work data (e.g., documents, emails) to generate research responses, which changes how that data is processed and potentially accessed.\n</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with customer data?\tYes - This is a new generative AI agent that uses OpenAI models and Copilot orchestration to interact with customer data in Word.\n</li><li>Does the change provide end users any new way of interacting with generative AI?\tYes - This is a new generative AI experience embedded in Word, enabling users to conduct research through natural language prompts.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting July 16, 2025, the Researcher agent will be available in Word for Microsoft 365 Copilot licensed users, combining OpenAI’s research model with Copilot’s capabilities. The rollout completes by August 14, 2025, and supports 37 languages. No admin action is required. Compliance considerations are noted."
-      }
-    ],
-    "EndDateTime": "2025-08-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1111176",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-08T21:25:59.49Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-07T23:57:26Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Researcher is available in Word for Microsoft 365 Copilot licensed users",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -4632,51 +5106,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot Search General Availability",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We’re adding a new capability to Microsoft Defender that allows SOC teams and admins to dispute submission results directly within the portal.</p><p>This enhancement enables organizations to provide feedback on false positives and false negatives without opening support tickets, streamlining the feedback loop and improving detection accuracy over time.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=488096\" target=\"_blank\">488096</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): Rollout will begin in mid-July 2025 and is expected to complete by end-July 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>If your organization uses Microsoft Defender for Office 365 admin submission features, you’ll now see an option to dispute submission results directly in the Microsoft Defender portal. This allows admins to flag incorrect verdicts (false positives or false negatives) and provide context or evidence, helping Microsoft improve detection accuracy.\n</p><p>This feature is on by default and does not require any configuration.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>Admins can access the new dispute functionality by navigating to:\n</p><p>Microsoft Defender portal: https://security.microsoft.com\n</p><p>Go to Actions &amp; Submissions &gt; Submissions or directly to https://security.microsoft.com/reportsubmission\n</p><p>To dispute a submission:\n</p><ol><li>Select a tab (Emails, URLs, or Email attachments).\n</li><li>Click on a completed submission row.\n</li><li>Select Dispute submission result.\n</li><li>Choose one or more of the following:\n</li><ul><li>Result\n</li><li>Reason behind result\n</li><li>Recommended steps\n</li></ul><li>Optionally, provide additional information or upload a screenshot.\n</li><li>Click Submit dispute.</li></ol><p>A new submission ID will be generated, and a confirmation message will appear in the flyout. You can view dispute details by clicking the submission panel.</p><p>\n</p><p>Note: Bulk submissions disputes are allowed. However, if a submission contains mixed results, the dispute option will be unavailable.\n</p><p>For more information, refer to:\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/defender-office-365/submissions-admin\" target=\"_blank\">Manage submissions - Microsoft Defender for Office 365 | Microsoft Learn </a>\n</li></ul><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "488096"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Defender for Office 365 will allow SOC teams and admins to dispute submission results directly in the portal, improving detection accuracy by providing feedback on false positives and negatives. This feature, available from mid-July 2025, is on by default and requires no configuration. Admins can access it via the Microsoft Defender portal."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1108843",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-03T23:37:32.85Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-03T23:37:21Z",
-    "Tags": [
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Defender for Office 365: Ability to Disagree with admin submissions analysis",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -8034,51 +8463,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>We're introducing a new delegation capability in Microsoft Viva Pulse to support executive assistants, chiefs of staff, and other designated roles who act on behalf of organizational leaders. Starting mid-July 2025, users will be able to assign delegates to manage the Pulse survey lifecycle on their behalf—helping streamline feedback collection and analysis.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=479753\" target=\"_blank\">479753</a></p><p>\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): Rollout begins mid-July 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>Delegation will be enabled by default. This feature allows a user (the delegator) to authorize another user (the delegate) to create, send, and manage Pulse surveys. Delegators retain full visibility and ownership of all activity.\n</p><p>Admins can manage delegation settings at the tenant, group (via Microsoft Entra ID or Microsoft 365 groups), or individual user level using centralized feature access management.\n</p><p>Delegates will be able to:\n</p><ul><li>Create and send Pulses on behalf of the delegator. Recipients will see that the Pulse was sent on their behalf.\n</li><li>View all Pulses (sent or drafted) and Pulse reports.\n</li></ul><p>Delegates will not be able to:\n</p><ul><li>View or respond to confidential conversations.\n</li><li>Share Pulse reports.\n</li></ul><p><b>What you can do to prepare:</b>\n</p><p>No admin action is required before rollout. However, we recommend:\n</p><ul><li>Reviewing your current configuration to assess impact.\n</li><li>Notifying users and updating internal documentation.\n</li><li>Managing delegation policies in the Microsoft 365 admin center or via PowerShell using the <code>FeatureID</code> value <code>PulseDelegation</code>.\n</li></ul><p>Learn more:\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/viva/feature-access-management\" target=\"_blank\">Microsoft Viva - Feature access management | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/en-us/Viva/control-access-admin-center\" target=\"_blank\">Control who can access features in Microsoft 365 using the Microsoft 365 admin center</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/Viva/manage-access-policies\" target=\"_blank\">Control access to features in Microsoft 365 using PowerShell</a></li></ul><p>We’ll update this post with setup documentation before rollout completes.</p><p><b>Compliance considerations:</b></p><ul><li>Changes to data processing/storage/access: Yes - Delegates gain access to Pulse survey content and reports on behalf of the delegator.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "479753"
-      },
-      {
-        "Name": "Summary",
-        "Value": "New delegation capability in Microsoft Viva Pulse will allow designated roles to manage Pulse surveys on behalf of leaders, starting mid-July 2025. Delegation will be enabled by default, with admins able to manage settings. No immediate admin action is required, but reviewing configurations and notifying users is recommended."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1104314",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-26T23:18:17.327Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-26T23:18:07Z",
-    "Tags": [
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "New feature in Microsoft Viva Pulse to enable delegation",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>We're updating how Microsoft Edge handles external links for enterprise users. Before this rollout, Edge opens external links using the last used profile. After this rollout, for users signed in with Microsoft Entra ID, Edge will default to the Primary work profile to open links. The Primary profile is typically the most secure and appropriate profile for work-related content. This change will be on by default.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494835\" target=\"_blank\">494835</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out late June 2025 and expect to complete by mid-July 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>This change affects the user experience for how external links are opened in Microsoft Edge:\n</p><ul><li>Windows users: The Primary work profile is the one signed in with the Entra ID account used to join the device. If this profile exists, Edge will use it by default for external links.\n</li><li>macOS and Linux users: If only one work profile signed in with an Entra ID account is detected, it will be used as the Primary work profile. If multiple Entra ID profiles are present, the setting will not apply.</li></ul><p>Admins can manage this behavior using the <code>EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled</code> policy:\n</p><ul><li>Enabled or Not Configured: Edge will use the Primary work profile by default.\n</li><li>Disabled: Edge reverts to using the last used profile.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/edgeopenexternallinkswithprimaryworkprofileenabled\" target=\"_blank\">Microsoft Edge Browser Policy Documentation EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled | Microsoft Learn</a> </p><p><i>Before this rollout:</i></p><p>Users see <i>Last used (default)</i>&nbsp;selected by default in Edge <i>Settings </i>at <a href=\"edge://settings/profiles/multiProfileSettings\" target=\"_blank\">edge://settings/profiles/multiProfileSettings</a>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/fc61eb35-247b-4662-9493-c602d1ae899b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><i>After this rollout:</i></p><p>Users will see <i>(default) Work</i>&nbsp;selected by default in Edge <i>Settings </i>at <a href=\"edge://settings/profiles/multiProfileSettings\" target=\"_blank\">edge://settings/profiles/multiProfileSettings</a></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5fc9a3ac-f986-4dc0-9d28-a0602fc6472f\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.</p><p></p>",
       "ContentType": "html"
     },
@@ -8266,53 +8650,6 @@
       "Admin impact"
     ],
     "Title": "The June 2025 Windows non-security preview update is now available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 26, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Microsoft OneDrive and Microsoft SharePoint for web will soon let users add text or images as watermarks to PDF documents. Users can place the watermark in front of their content and choose the desired location and angle for the watermark.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=485796\" target=\"_blank\">485796</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide, GCC, GCC High, DoD): We will begin rolling out late June 2025 (previously mid-June) and expect to complete by mid-July 2025 (previously early July).\n</p><p><b>How this will affect your organization:</b>\n</p><p>To add text as a watermark: \n</p><ol><li>Open a PDF stored in OneDrive or SharePoint and then select <i>Edit </i>at the top right of the screen. \n</li><li>Select <i>Watermark </i>from the top menu, enter your text, customize the formatting and color, and place the watermark in the desired position. Choose from nine positions: top left, top center, top right, middle left, middle center, middle right, bottom left, bottom center, and bottom right. Text formatting options include bold, italic, color, size, transparency, and rotation.</li><li>Preview changes on the right side of the screen, and then select <i>Apply</i> to save changes. \n</li></ol><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/2d734bcd-d409-4253-af28-9a751f6c2b5b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/48bd07d4-8ba2-4ca6-8dad-0f3a34721557\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>To add an image as a watermark:</p><ol><li>From the <i>Watermark</i> dialog box, select <i>Picture</i> to insert an image as a watermark. Adjust scale, transparency, and rotation if desired. Set the image in the desired position. Choose from nine positions: top left, top center, top right, middle left, middle center, middle right, bottom left, bottom center, and bottom right. \n</li><li>Preview changes on the right side of the screen, and then select <i>Apply</i> to save.\n</li></ol><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3929d70b-2f87-458d-bcfd-ca5de8b6579c\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>To edit an existing watermark:</p><ol><li>Select <i>Watermark </i>from the top menu, and then select the watermark to edit. \n</li><li>Follow the same steps for adding text or images to modify text or images in the watermark. \n</li></ol><p>To add another watermark, select <i>Add new</i> under the <i>Watermark</i> toolbar.\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/1bc4122a-7cb3-42c1-a03a-8a2756c896a3\" style=\"width: 400px;\" alt=\"user controls\">\n\n</p><p>To remove a watermark:</p><ol><li>Select <i>Watermark</i> from the top menu, and then select the watermark to remove.\n</li><li>Select the <i>Remove</i> button at the bottom of the screen.</li></ol><p><i>FAQs</i></p><p>Can I modify watermarks using other PDF tools? \n</p><ul><li>Watermarks added in OneDrive or SharePoint will be visible in other PDF tools but cannot be edited or removed with third-party tools. \n</li></ul><p>Does applying a watermark change my original PDF? \n</p><ul><li>Yes, applying a watermark will change your PDF document. The watermark is superimposed on the PDF content. Users can easily remove any watermark applied in OneDrive or SharePoint.</li></ul><p><b>What you need to do to prepare:</b>\n</p><p><b>Note:</b> Some users may see this feature before other users in your organization.</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p><p>Before rollout, we will update this post with new documentation.</p><p> \n</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "485796"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft OneDrive and SharePoint will soon allow users to add text or image watermarks to PDFs, with options for customization and positioning. The rollout will start in late June 2025 and complete by mid-July 2025. No admin action is required, but user notification and documentation updates are recommended."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-08-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1079736",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-26T20:16:40.247Z",
-    "Services": [
-      "SharePoint Online",
-      "Microsoft OneDrive"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-21T22:47:59Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft SharePoint and Microsoft OneDrive: Apply watermark to PDFs",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -10066,52 +10403,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><span style=\"font-family: Arial; font-size: 10pt;\">Within Microsoft Purview Data Security Posture Management for AI, a </span><span style=\"font-family: Arial; font-size: 10pt;\">specific page</span><span style=\"font-family: Arial; font-size: 10pt;\"> is dedicated to showing protection capabilities and usage for Microsoft 365 Copilot. This page will be on the Data Security Posture Management for AI overview page, which will have a tab for Microsoft 365 Copilot.</span></p><p></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=489828\" target=\"_blank\">489828</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out in mid-June 2025 and expect to complete by late June 2025.</p><p>General Availability (Worldwide): We will begin rolling out in mid-July 2025 and expect to complete by late July 2025.</p><p><b>How this will affect your organization:</b></p><p></p><div style=\"\"><span style=\"font-family: Arial; font-size: 10pt; font-weight: 400;\">Admins will be able to use this page to view recommendations for securely deploying Copilot and view the sensitivity labels and sensitive information types found in Copilot interactions.&nbsp;</span></div><p><b>What you need to do to prepare:</b></p><p></p><div style=\"\"><font face=\"Arial\"><span style=\"font-size: 13.3333px;\">This rollout will happen automatically with no admin action required.</span></font></div>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "489828"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview will include a page in Data Security Posture Management for AI to show protection capabilities and usage for Microsoft 365 Copilot. This feature will roll out in mid-2025, with public preview in June and general availability in July. No admin action is required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-08-11T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1066341",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-24T18:21:48.227Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-01T22:31:34Z",
-    "Tags": [
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview: Microsoft 365 Copilot view in Data Security Posture Management for AI",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div>The June 2025 non-security preview update is now available for Windows 10, version 22H2. The non-security preview update for Windows 11, versions 24H2, 23H2, and 22H2 will be available soon. Information about the contents of this update is available from the release notes, which are accessible from the <a href=\"https://support.microsoft.com/help/5061087\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 10</a> update history page. To learn more about the different types of monthly quality updates, see <a href=\"https://aka.ms/Windows/MonthlyUpdates\" rel=\"noopener noreferrer\" target=\"_blank\">Windows monthly updates explained</a>.</div><div><br></div><div><b>Highlights for the Windows 10, version 22H2 update:&nbsp;</b></div><ul><li>The version of the curl tool included in Windows is updated to v8.13.0.</li><li>This update fixes an issue affecting the device registration in <a href=\"https://learn.microsoft.com/entra/identity-platform/reference-entra-id-wam-api\" rel=\"noopener noreferrer\" target=\"_blank\">Entra ID Windows Account Manager (WAM)</a> plugin.</li><li>This update fixes an issue affecting the complete removal of unused language packs and Feature on Demand (FOD) packages. This issue led to unnecessary storage use and increased Windows update installation time.</li><li>This update fixes an issue causing jump lists to disappear from the Start Menu.</li></ul><div><br></div><div>For instructions on how to install this update, see the KB for your operating system listed below:&nbsp;</div><ul><li>Windows 10, version 22H2: <a href=\"https://support.microsoft.com/help/5061087\" rel=\"noopener noreferrer\" target=\"_blank\">KB5061087</a></li></ul>",
       "ContentType": "html"
     },
@@ -10796,53 +11087,6 @@
       "User impact"
     ],
     "Title": "Microsoft Teams: App ratings will be visible in context",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We're introducing a new way to seamlessly access your most recently used SharePoint agents directly within the Microsoft 365 Copilot app—no need to navigate back to the SharePoint site. This enhancement helps users stay focused and productive by reducing context switching.</p><p>\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=482601\" target=\"_blank\">482601</a></p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out in mid-July 2025.</p><p><b>How this will affect your organization:</b></p><p>With this update, users can quickly return to their most recently used SharePoint agents from within the Microsoft 365 Copilot app. SharePoint agents are implemented as <code>.agent</code> files stored on SharePoint sites. Admins can disable an agent at any time by deleting the corresponding file.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/17e2b503-7a17-42cc-8596-7c547685a9e5\" width=\"400\" height=\"\"></p><p>This feature is designed to streamline workflows and improve discoverability of agents users rely on most. It will be on by default.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><ul><li>Consider updating internal training materials and documentation to reflect this new access point.\n</li><li>Review your organization’s SharePoint agent management practices to ensure appropriate governance and lifecycle management.</li></ul><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed?\tMaybe - It introduces a new access point to existing .agent files.</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?\tYes - SharePoint agents are AI-powered and interact with user data.\n</li><li>Does the change provide end users any new way of interacting with generative AI?\tYes - Users can more easily re-engage with generative AI agents.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "482601"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Access recently used SharePoint agents directly within the Microsoft 365 Copilot app, starting mid-July 2025. This feature aims to reduce context switching and improve productivity. Admins can manage agents by deleting the corresponding .agent files. Update training materials and review SharePoint agent management practices."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-08-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1099692",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-20T22:17:08.957Z",
-    "Services": [
-      "SharePoint Online",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-20T22:16:55Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Copilot: Access SharePoint agents in the Microsoft 365 Copilot app",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -11908,54 +12152,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Insider Risk Management- Risky AI usage",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 13, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Major update: Microsoft Viva Pulse is rolling out a new delegation feature in July 2025 that enables users in your tenant to assign other users as delegates to take actions on their behalf. This feature is designed to support executive assistants, chiefs of staff, and other designated roles who act on behalf of organizational leaders in collecting and analyzing feedback. \n</p><p>\n</p><p>Delegation in Viva Pulse allows a user (the delegator) to authorize another user (the delegate) to manage the Pulse survey lifecycle on their behalf. Delegates can create, send, and manage Pulses, while the delegator retains ownership and visibility into all activity.&nbsp;</p><p>To use this feature, users must have a license for Viva Pulse via Microsoft Viva Suite, Microsoft Viva Workplace Analytics and Employee Feedback, or Microsoft 365 Copilot. This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=479753\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">479753</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will roll out the delegation feature in mid-July 2025.&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Delegation is turned on by default in tenants. Admins can manage delegation at the tenant level, group level using Microsoft Entra ID groups or Microsoft 365 groups, or at the user level for maximum flexibility through centralized feature access management.&nbsp;&nbsp;</p><p>You can create and update policies in the<a href=\"https://learn.microsoft.com/Viva/control-access-admin-center\" target=\"_blank\"> Microsoft 365 admin center</a> or in PowerShell. Use the FeatureID value PulseDelegation to configure delegation in the tenant. See Control access to features in Viva to learn more.</p><p>Delegates will be able to: </p><ol><li>Create and send Pulses on behalf of the delegator. Survey recipients for Pulses sent by the delegate will see the email and Teams notifications indicate that the Pulse was sent on behalf of the delegator. </li><li>View all Pulses sent or drafted. </li><li>View all Pulse reports.&nbsp;</li></ol><p>Delegates cannot view or respond to confidential conversations and cannot share Pulse reports.</p><p> <b>What you need to do to prepare:</b></p><p>This rollout will happen automatically in mid-July 2025 with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.&nbsp;&nbsp;</p><p>Learn more</p><ul><li><a href=\"https://learn.microsoft.com/viva/pulse/setup-admin-access/tenant-admin-dashboard\" target=\"_blank\">View usage metrics with the tenant admin dashboard | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/feature-access-management\" target=\"_blank\">Microsoft Viva - Feature access management | Microsoft Learn</a></li></ul><p>Before we complete rolling out the delegation feature, we will update this post with new documentation that explains how to set up delegation in Viva Pulse.&nbsp;</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "479753"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Pulse will introduce a new delegation feature in mid-July 2025, allowing users to assign delegates to manage Pulse surveys on their behalf. This feature supports roles like executive assistants and chiefs of staff. Delegation is enabled by default and can be managed at various levels. No admin action is required before the rollout."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-08-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1053652",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-13T21:09:59.343Z",
-    "Services": [
-      "Microsoft Viva",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-11T21:42:37Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva Pulse: New Delegation feature",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -17432,7 +17628,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -24567,49 +24763,6 @@
       "Admin impact"
     ],
     "Title": "Hotpatch for Windows client now available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated April 9, 2025: We have updated the rollout timeline below. Thank you for your patience.\n</p><p>Coming soon for Microsoft Purview: We are announcing the public preview of the integration of Adaptive protection with Data Lifecycle Management (DLM) to help you find the right balance to protect against data sabotage while enabling productivity. This new integration leverages DLM features to provide an additional control for Adaptive protection that automatically preserves items deleted by a user with an elevated risk level, so items can be restored if needed.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=392839\" target=\"_blank\">392839</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public preview: We will begin rolling out in late June 2024 (previously early May) and expect to complete by late July 2024 (previously mid-July).\n</p><p>General Availability:&nbsp; We will begin rolling out in late September 2025 (previously late May) and expect to complete by mid-October 2025 (previously mid-June).</p><p><b>How this will affect your organization:</b>\n</p><p>After the rollout, and after you enable Adaptive protection for your tenant, the retention label and auto-apply policy for data lifecycle management will be automatically created for you. This policy will automatically include elevated risk users identified by Microsoft Purview | Insider Risk Management solution. If these users delete content from Microsoft SharePoint, Microsoft OneDrive, or Microsoft Exchange, a retention label is automatically applied to that content to retain it for 120 days. Retention labels are automatically applied to unlabeled content deleted by these users. When these users are no longer at the elevated risk level, they are automatically removed from the DLM policy, and the system will no longer keep a copy of content they delete. Any content copies previously retained when the user had an elevated risk level will be kept for the 120 days as specified by the retention label.\n</p><p>Unlike other retention labeling scenarios, users do not see the retention label, and you do not need to create or manage the retention label or policy. At this time, you can't change the retention period or assign different policies based on the different risk levels, or for different locations. The single retention label and auto-labeling policy for your tenant is not visible in the Microsoft Purview compliance portal.</p><p><b>What you need to do to prepare:</b>\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/retention#dynamically-mitigate-the-risk-of-accidental-or-malicious-deletes\" target=\"_blank\">Learn about retention policies &amp; labels to retain or delete | Microsoft Learn</a>\n</p><p>If you're using Adaptive protection and want to automatically retain content deleted by elevated risk users, follow these steps to turn on this new integration.\n</p><ol><li>Sign in to the <a href=\"https://compliance.microsoft.com/\" target=\"_blank\">Microsoft Purview compliance portal</a>.\n</li><li>Navigate to <i>Data lifecycle management &gt; Microsoft 365 &gt; Adaptive protection settings</i> in the top right corner.\n</li><li>Turn the setting ON and select <i>Save</i>.\n</li></ol><p>\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/fe6a20ed-77ce-44ce-b862-bc7f4b78b93e\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/521b359c-13a9-41ef-ad96-215789a32eb3\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p>If you’re not using Adaptive protection already, turn on Adaptive protection and the new feature will be enabled along with Adaptive protection.\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "392839"
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-11-24T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC791110",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-04-09T14:20:48.34Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-05-08T00:10:41Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Data Lifecycle Management: New integration with Adaptive protection",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,

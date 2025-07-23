@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Now generally available for&nbsp;Windows 11, version 24H2&nbsp;are&nbsp;two major advancements that strengthen system resilience and minimize downtime: a redesigned user experience for unexpected restarts and quick machine recovery.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>These enhancements&nbsp;are&nbsp;available with the&nbsp;<a href=\"https://support.microsoft.com/help/5062660\" rel=\"noopener noreferrer\" target=\"_blank\">July 2025 optional non-security preview release</a>&nbsp;for Windows 11, version 24H2.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>In the event of&nbsp;an unexpected restart,&nbsp;users will see a short, simple message&nbsp;plus the&nbsp;stop code and faulty driver information.&nbsp;There&nbsp;will&nbsp;also&nbsp;be a&nbsp;hex version of the stop&nbsp;code to help&nbsp;you&nbsp;quickly gather&nbsp;more&nbsp;information about the issue.&nbsp;While you can continue&nbsp;to collect kernel dumps to support rich diagnostics,&nbsp;you&nbsp;can&nbsp;also&nbsp;opt-in&nbsp;for&nbsp;reduced downtime by configuring devices for a small memory dump.&nbsp;&nbsp;</div><div>&nbsp;</div><div>For quick machine recovery, this&nbsp;feature&nbsp;is now&nbsp;generally available for Windows 11, version 24H2,&nbsp;but is disabled by default for Windows 11 Pro, Education, and Enterprise editions.&nbsp;Once enabled, the feature is&nbsp;activated&nbsp;during critical boot failures. It uses the Windows recovery environment&nbsp;(WinRE)&nbsp;to scan Windows Update for applicable fixes published by Microsoft. If a matching remediation for a widespread issue is available, it is applied automatically, restoring the device without requiring manual intervention.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>&nbsp;</div><div>The new user experience for unexpected restarts&nbsp;will be available on all devices running Windows 11, version 24H2 beginning with the&nbsp;<a href=\"https://support.microsoft.com/help/5062660\" rel=\"noopener noreferrer\" target=\"_blank\">July 2025 optional non-security preview release</a>.&nbsp;If&nbsp;you’d&nbsp;like to&nbsp;configure your devices for the small memory dump, see&nbsp;our documentation on how to&nbsp;<a href=\"https://learn.microsoft.com/troubleshoot/windows-server/performance/memory-dump-file-options#configure-the-dump-type\" rel=\"noopener noreferrer\" target=\"_blank\">Configure the dump type</a>.&nbsp;</div><div>&nbsp;</div><div>If&nbsp;you’d&nbsp;like to enable&nbsp;quick machine recovery, manage auto-remediation behavior, and set scan and reboot intervals, you can do so using the Microsoft Intune&nbsp;settings&nbsp;catalog or the&nbsp;<a href=\"https://learn.microsoft.com/windows/client-management/mdm/remoteremediation-csp\" rel=\"noopener noreferrer\" target=\"_blank\">RemoteRemediation&nbsp;CSP</a>.&nbsp;</div><div>&nbsp;</div><div><b>Additional&nbsp;information:</b>&nbsp;</div><div>For more information on quick machine recovery and the new unexpected restart user experience, see&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/resilience-in-action-for-windows-devices/4434571\" rel=\"noopener noreferrer\" target=\"_blank\">Resilience in action for Windows devices</a>.&nbsp;</div><div>&nbsp;</div><div>Quick machine recovery support for&nbsp;additional&nbsp;editions, including Windows Server, as well as expanded connectivity options for enterprise environments,&nbsp;are&nbsp;coming soon. Future updates will include enhanced IT admin tools for remediation management, monitoring,&nbsp;and&nbsp;additional&nbsp;policy and rollout controls.&nbsp;</div>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-07-22T17:21:19.22Z",
+  "HasAttachments": false,
+  "Id": "MC1119946",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-07-22T17:21:20.617Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-07-22T17:21:19.267Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "New recovery options in Windows 11, version 24H2 boost resilience",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
