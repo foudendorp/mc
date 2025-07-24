@@ -4,6 +4,483 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b>What and Who</b></p><p></p><p>To enhance the security and integrity of Microsoft Teams meetings, we are introducing a new feature that validates Teams meeting join URLs. This update helps ensure that meeting links are not altered or rewritten by security products in ways that could render them unusable or flagged as malicious.<b><br></b>\n\n</p><p><b>Rollout Schedule</b></p><p></p><ul><li><b>Worldwide:</b> September 30, 2025</li>\n<li><b>GCC, GCC High, DoD:</b> November 30, 2025</li>\n</ul>\n\n<p></p><p><b>Impact on Your Organization</b><b><br></b></p><ul><li><b>Who is affected:</b> <ul><li>Organizations using security products that inspect or rewrite URLs, and users who join Microsoft Teams meetings via meeting links.</li></ul></li></ul><p></p><ul>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Microsoft Teams will validate join URLs to ensure they have not been modified.</li>\n    <li>If a join URL is rewritten or altered by a security product, it may be marked as malicious.</li>\n    <li>Users may be prevented from joining meetings if URLs are not in their original format.</li>\n    <li>This feature is enabled by default and does not require admin configuration.</li></ul></li></ul><p><b>Action Required/Recommendations</b></p><ul><li>Ensure that your security products do <b>not</b> rewrite Microsoft Teams meeting join URLs.</li>\n<li>Whitelist Microsoft Teams join URLs in your security software.</li>\n<li>Review your organization’s URL rewriting or inspection policies before the rollout date.</li>\n<li>Communicate this change to your helpdesk and security teams.</li>\n</ul>\n\n<p></p><p><b>Compliance Considerations</b></p><p></p><p>No compliance considerations identified, review as appropriate for your organization.</p>\n<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will validate meeting join URLs starting September 30, 2025 (November 30 for GCC/DoD) to prevent altered or rewritten links from being used. Security products must avoid rewriting these URLs to prevent users from being blocked. No admin action is needed, but organizations should update security policies accordingly."
+      }
+    ],
+    "EndDateTime": "2026-01-12T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1120871",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-07-24T00:28:38.093Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-24T00:28:12Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Important Update: Teams Meeting Join URL Validation",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction:\n</b></p><p>We're introducing a new feature in Outlook that helps users quickly find and access all files shared within a conversation thread. Instead of scrolling through individual messages to locate attachments, users will see a <b>Browse Files</b> button at the top of the conversation view that opens a consolidated list of all shared files. This feature is supported exclusively on Outlook for iOS and Android.</p><p><b></b><b>When this will happen:\n</b><b></b></p><p><b>General Availability (Worldwide, DoD, GCC, GCCH):</b> Rollout began in early July 2025 and completed in late July 2025.</p><p><b>How this affects your organization:\n</b></p><p>Once this feature is available, users who have set their Mail view to “Newest on Top” will see a new Browse Files button at the top of conversation threads. Selecting this button will display all classic attachments shared in that conversation, improving discoverability and productivity.\n</p><ul><li>The <b>Browse Files </b>button is <b>always visible</b> when the <b>“Newest on Top”</b> setting is enabled.\n</li><li>This feature is <b>exclusive to mobile clients</b>—only available in <b>Outlook for iOS and Outlook for Android</b>. It is <b>not supported</b> in Outlook on the web or desktop.\n</li><li>Users can only reference <b>local files</b> (classic attachments); links to files in <b>OneDrive or SharePoint </b>are not supported.\n</li><li>This feature is <b>on by default</b> and requires<b> no admin configuration</b>.</li></ul><p><i>New “Browse Files” button in conversation view:</i><i></i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/745a274e-5df6-45ff-b50a-10cf8f705b1c/d1ca48f19d28ef152833c9d9dfeae799940ee3c1.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p><b></b></p><p><b></b></p><p><b></b></p><p></p><p></p><p><b>What you can do to prepare:</b></p><p>No admin action is required before the rollout.\n</p><p>Consider notifying your users about this update and updating any relevant training or documentation to reflect:\n</p><ul><li>The feature’s availability only on mobile clients.\n</li><li>The visibility condition tied to the “Newest on Top” setting.\n</li><li>The limitation to classic attachments (no cloud file links).</li></ul><p><b>Compliance considerations:\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p><i></i></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook for iOS and Android now features a \"Browse Files\" button in conversation threads (with \"Newest on Top\" view) to quickly access all classic attachments. This mobile-only feature rolled out worldwide in July 2025, requires no admin setup, and excludes OneDrive or SharePoint links."
+      }
+    ],
+    "EndDateTime": "2025-08-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1120868",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-24T00:27:45.153Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-24T00:27:33Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Outlook for iOS and Android | Browse conversation files",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 23, 2025: We have updated the timeline. Thank you for your patience.</p><p>We're introducing a new drag-and-drop capability in the new Microsoft Outlook for Windows. This feature will users to drag emails and files from one personal or enterprise account and drop them into another personal or enterprise account as attachments—streamlining cross-account workflows and improving productivity.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=493289\" target=\"_blank\">493289</a>.</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out mid-August 2025 and expect to complete by mid-September 2025.\n</p><p>General Availability (Worldwide, GCC): We will begin rolling out mid-October 2025 and expect to complete by mid-November 2025.</p><p><b>How this will affect your organization:</b></p><p>Before this rollout, users are not able to drag emails and files from one account to another.\n</p><p>After this rollout, users from organizations with the <code>ItemsToOtherAccountsEnabled</code> parameter set to  <code>TRUE</code> in the <code>OWAMailboxPolicy</code> will be able to:</p><ul><li>Drag and drop emails and files from one mailbox into a draft in another mailbox as attachments.\n</li><li>Attach content from Shared Mailboxes or Shared Folders into another mailbox.\n</li></ul><p>To enhance security, users will see a confirmation prompt before completing the drag-and-drop action:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/0244f18c-a1b0-4e2e-bf08-5857c3d69b88\" style=\"width: 300px;\" alt=\"user message\">\n</p><p>This confirmation does not appear when attaching files from a Shared Mailbox.\n</p><p>This feature respects your existing <code>OWAMailboxPolicy</code> settings and does not change any defaults.\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates. Review your current  <code>OWAMailboxPolicy</code> settings, particularly the <code>ItemsToOtherAccountsEnabled</code> parameter, to determine if you would like to enable or disable this feature after roll out occurs. No change to your existing <code>ItemsToOtherAccountsEnabled</code> configuration will occur with this rollout.  You may want to notify your admins and/or users about this change and update internal documentation.</p><p>Learn more about the <code>ItemsToOtherAccountsEnabled</code> parameter in <a href=\"https://learn.microsoft.com/powershell/module/exchange/set-owamailboxpolicy?view=exchange-ps#-itemstootheraccountsenabled\" target=\"_blank\">Set-OwaMailboxPolicy (ExchangePowerShell) | Microsoft Learn</a></p><p>#newoutlookforwindows</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "493289"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The new Microsoft Outlook for Windows will allow users to drag and drop emails and files as attachments between personal or enterprise accounts, starting mid-August 2025 for Targeted Release and mid-October 2025 for General Availability. This requires the ItemsToOtherAccountsEnabled setting in OwaMailboxPolicy."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2025-12-29T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1104315",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-23T21:41:18.48Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-26T23:18:38Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New Microsoft Outlook for Windows: Drag and drop files between accounts as attachments",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 23, 2025: We have updated the timeline. Thank you for your patience.</p><p>To strengthen security and align with customer feedback, Microsoft Fabric is updating how Workspace Identity permissions are handled. This change removes default Contributor access from Workspace Identities, reducing the risk of unintended access or misuse. This change will be on by default.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out late July 2025 (previously mid-July) and expect to complete by early August&nbsp;2025.</p><p><b>How this will affect your organization:</b></p><p>After this rollout, new Workspace Identities will no longer be granted default Contributor permissions.\n</p><p>We will also remove the default Contributor access from existing Workspace Identities.\n</p><p><b>Important:</b> Modifying the application associated with a Workspace Identity is not supported and may cause the identity to stop functioning.\n</p><p>You can still manually assign Workspace Identity service principals to any workspace role (such as Contributor, Member) using role-based access control (RBAC). However, be aware that anyone with access to the identity can assume it.</p><p>To access this change:\n</p><ol><li>Navigate to the Fabric Workspace where you want to add RBAC role.\n</li><li>Select <i>Manage Access</i>.\n</li><li>Select <i>Add people or groups</i>.\n</li><li>Enter the name of the Workspace identity (same as Workspace Name).\n</li><li>Assign roles as appropriate.\n</li></ol><p><b>NOTE:</b> After this rollout, admins can still add Workspace identity service principles to any workspace RBAC role if needed. Consider the implications if you plan on doing so, as any individual given access to the identity—example through workspace roles such as member or contributor—is allowed to assume the identity. Learn more: <a href=\"https://learn.microsoft.com/fabric/security/workspace-identity\" target=\"_blank\">Workspace identity - Microsoft Fabric | Microsoft Learn</a>\n</p><p><b>What you need to do to prepare:</b></p><p> This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current Workspace Identity configurations and evaluate whether any existing workflows rely on default Contributor access. You may want to notify your admins and/or users about this change and update internal documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Fabric will remove default Contributor access from Workspace Identities starting late July 2025 to enhance security. Existing and new Workspace Identities will no longer have this access by default. Admins can manually assign roles via RBAC. No action is required before rollout, but review current configurations."
+      }
+    ],
+    "EndDateTime": "2025-10-03T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1102778",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-07-23T21:34:25.46Z",
+    "Services": [
+      "Power BI"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-25T00:11:35Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Fabric: Removing default contributor access for Workspace Identity",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to re-enable locked customer managed key environments in  \n\nPower Platform admin center. This public preview feature will begin rolling out globally on July 23, 2025, with an anticipated rollout completion of July 30, 2025.<br><br><b>How does this affect me?</b><br>Previously, if customer-managed key environments were deactivated due to the revocation of key access of the enterprise policy, you needed to submit a support ticket to activate these environments once the key access was restored.<br><br>Now, administrators can unlock and activate environments directly through the Power Platform admin center. They can also identify which environments were deactivated due to unhealthy enterprise policies and proactively manage these environments to ensure smooth operations.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO11590\">Lock and unlock environments through key vaults access – Power Platform</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-23T21:07:54Z",
+    "HasAttachments": false,
+    "Id": "MC1120631",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-23T21:09:41.747Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-23T21:07:54Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Platform admin center - Unlock customer managed key environments by restoring access to the key vault",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 23, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re expanding the file types supported in Copilot Chat to align with the Microsoft Search experience. This enhancement allows users to ground their questions in a broader range of content types, improving the relevance and accuracy of Copilot responses.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=492268\" target=\"_blank\">492268</a>.</p><p><b>When this will happen</b></p><p>General Availability (Worldwide): We will begin rolling out in late August 2025 (previously late July) and expect to complete by mid-September 2025 (previously mid-August).</p><p><b>How this will affect your organization</b></p><p>Users will be able to ask Copilot questions about additional file types, including CAD, ZIP, and MP4. This update enhances Copilot’s ability to retrieve and reason over content from a wider variety of files, improving productivity and search flexibility. </p><p>There are no changes to the user experience with this update — the feature enhancement is entirely on the back end and will not alter the Copilot interface or behavior for users.</p><p>This feature will be on by default.</p><p><b>What you need to do to prepare</b></p><p>No action is required at this time. However, to take advantage of this feature, users must be licensed for Microsoft 365 Copilot Chat. Eligible licenses include:\n</p><ul><li>Microsoft 365 A1/A3/A5 (including MA3/MA5 for students and faculty)\n</li><li>Microsoft 365 Business Basic, Standard, and Premium\n</li><li>Microsoft 365 E3/E5\n</li><li>Microsoft 365 F1/F3\n</li><li>Microsoft Teams (all SKUs including Enterprise, Essentials, and Rooms)\n</li><li>Office 365 A1/A1 Plus/A3/A5\n</li><li>Office 365 E1/E1 Plus/E3/E5\n</li><li>Office 365 F3\n</li></ul><p>Note: Versions labeled \"(no Teams)\" and \"EEA (no Teams)\" are also supported.</p><p>Learn more:&nbsp;</p><ul><li><a href=\"https://support.microsoft.com/topic/file-formats-supported-by-microsoft-365-copilot-1afb9a70-2232-4753-85c2-602c422af3a8\" target=\"_blank\">File formats supported by Microsoft 365 Copilot</a></li><li><a href=\"https://learn.microsoft.com/copilot/manage\" target=\"_blank\">Manage Microsoft 365 Copilot Chat | Microsoft Learn</a></li></ul><p><b>Compliance considerations</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed? - Yes. Additional file types are now accessed for grounding Copilot responses.</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data? - Yes. Copilot’s grounding capabilities are extended to more file types.</li><li>Does the change provide users any new way of interacting with generative AI? - Yes. Users can now query Copilot using content from more file types.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "492268"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot Chat will support new file types like CAD, ZIP, and MP4 for search grounding, enhancing response relevance. The rollout begins late August 2025, completing by mid-September. No user interface changes; feature is on by default and requires eligible Microsoft 365 Copilot Chat licenses."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2025-10-27T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1116511",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-23T21:06:53.82Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-16T22:51:32Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft 365 Copilot | Chat now supports new file types in search grounding",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 23, 2025: After further review, we are not able to continue rolling this out at this time.  We apologize for any inconvenience.</p><p>We're excited to announce a new Microsoft Engage feed card in Microsoft Viva Connections dashboard called <i>Stay Engaged.</i></p><p>This message applies to Viva Engage, Viva Connections, and Microsoft Teams on Windows desktop, on the web, and on iOS/Android.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=471446\" target=\"_blank\">471446</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release:&nbsp; We will communicate via Message center when we are ready to proceed.</p><p>General Availability (Worldwide):&nbsp; We will communicate via Message center when we are ready to proceed.</p><p><b>How this will affect your organization:</b>\n</p><p>Viva Connections users will be able to view and interact with their Viva Engage feed through the new <i>Stay Engaged</i> card in the dashboard under these conditions:\n</p><p>\n</p><ul><li><i>Unconfigured or default state:</i> If the Connections dashboard is in an unconfigured or default state and Viva Engage is enabled for the tenant, this card will be added to the Connections dashboard by default in the fourth position for all users.</li><li><i>Configured dashboard: </i>If the dashboard has already been configured and Viva Engage is enabled for the tenant, the card will not be added to the dashboard by default. Connections editors can add the card to the dashboard for their users.</li></ul><p>When the card is available on your company dashboard, a user can select the card to load Engage app in Teams, where the user can view and engage with feed conversations. User can select <i>Back</i> to return to Connections.\n</p><p>The new<i> Stay Engaged </i>card in the Connections dashboard on desktop:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/188a5e5d-27ec-4462-8fd6-1128b4c73912\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>A desktop user who selects the <i>Stay Engaged</i> card will be redirected to the Engage app in Teams where the user can view and engage with feed conversations:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/02839c4b-cf71-465a-8f29-12b539c80026\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>The new <i>Stay Engaged</i> card in the Connections dashboard on iOS/Android and the redirection experience in Teams:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/9ca3bb9b-a1e6-43db-bed6-23d5f8e5a618\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current Viva Connections dashboard and Viva Engage configuration to determine the impact for your organization. </p><p>You may want to notify your users about this change and update any relevant documentation.</p><p><a href=\"https://learn.microsoft.com/viva/connections/available-dashboard-cards\" target=\"_blank\">Available dashboard cards in Viva Connections | Microsoft Learn</a> (will be updated before rollout)</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "471446"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft paused the rollout of the new \"Stay Engaged\" Engage feed card in the Viva Connections dashboard. When available, it allows users to interact with Viva Engage feeds via Teams. The card auto-adds in default dashboards if Viva Engage is enabled; configured dashboards require manual addition by editors."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Web"
+      }
+    ],
+    "EndDateTime": "2025-07-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1052164",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-23T20:55:38.617Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-04-10T01:45:46Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva Connections: New Engage card in Connections dashboard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 23, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon for Microsoft Teams: In channels, we will rename the <i>Files </i>tab as the <i>Shared </i>tab to enable users to view content shared in posts and content in the document library in one place. Note: The <i>Shared </i>tab in chats will not be affected by this change.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=470597\" target=\"_blank\">470597</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early September 2025 and expect to complete by mid-September 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out mid-September 2025 and expect to complete by late September 2025</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout, users can still work with files and folders in the Microsoft SharePoint document library linked to the channel. All existing functionality in the <i>Files </i>tab will be available in the <i>In library</i> view of the <i>Shared </i>tab in channels. The <i>In posts</i> view in the <i>Shared</i> tab will display all files and links shared in channel posts:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/44ba8268-eb33-476e-97c4-6eaba6cabb54\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>Users can use the order the files by date using the <i>Recent </i>view and then filter by <i>Files </i>or <i>Links</i>. Before this rollout, this functionality was only available in chats:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/44ebb1cf-8160-4586-85a5-1f968904f319\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>Users can use the <i>In posts</i> view to find links:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b46314df-99e6-41d8-8a8a-c4aa215f28a8\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>These changes to channels will be available by default. \n</p><p>Coming soon after this rollout for the <i>In posts</i> view of the <i>Shared </i>tab in channels: Keyword search</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p><p>Before rollout, we will update this post with new documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "470597"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The \"Files\" tab in Microsoft Teams channels will be renamed to \"Shared\" tab, combining content from posts and the document library. This change will roll out in early September 2025 for targeted release and by mid-September 2025 for general availability. No admin action is required, but user notification is recommended."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-09-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1025217",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-23T20:11:40.027Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-03-07T01:18:23Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: In channels, the \"Shared\" tab (formerly the \"Files\" tab) will have new capabilities",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 23, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon: We are excited to announce a new feature in Microsoft Teams that allows users to insert emojis in the compose box by typing a word surrounded by colons. For example, :smile: will turn into the smiling face emoji. Users can soon add any emoji, including custom ones, for faster and easier personal expression.</p><p>This feature applies to Teams for Windows desktop and Windows for Mac desktop.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=369345\" target=\"_blank\">369345</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early June 2025 and expect to complete by mid-June 2025.</p><p>General Availability (Worldwide): We will begin rolling out early August 2025 and expect to complete by mid-August 2025. \n</p><p>\n</p><p>General Availability (GCC): We will begin rolling out mid-August 2025 and expect to complete by late August 2025.&nbsp;</p><p>General Availability (GCC High): We will begin rolling out mid-August 2025 and expect to complete by late August 2025.&nbsp;</p><p>General Availability (DoD): We will begin rolling out early September 2025 and expect to complete by mid-September 2025.&nbsp;</p><p>&nbsp;<b>How this will affect your organization:</b>\n</p><p>This feature will be available by default.\n</p><p><a href=\"https://cxcs.microsoft.net/file/ccp/en-us/c7fcab0a-41a6-4848-96cb-049addb05d98\" target=\"_blank\">Watch the video: Use colons to insert emojis</a> (0:04 minutes)\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before or after the rollout. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/office/send-an-emoji-gif-or-sticker-in-microsoft-teams-174248c9-e64d-4de1-9f41-3199cc0751ad\" target=\"_blank\">Send an emoji, GIF, or sticker in Microsoft Teams - Microsoft Support</a> (will be updated before rollout)</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "369345"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"369345\":[{\"RoadmapId\":369345,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341137Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341142Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341146Z\",\"LatestRing\":null}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will soon allow users to insert emojis in the compose box by typing a word surrounded by colons (e.g., :smile:). This feature will be available on Windows and Mac desktops, rolling out from June to September 2025, depending on the release group. No admin action is required."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-10-27T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1000269",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-23T19:31:56.567Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-02-07T23:03:35Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: New keyboard shortcut for adding emojis",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 23, 2025: We have updated the timeline. Thank you for your patience.</p><p>We're updating how Microsoft Edge handles external links for enterprise users. Before this rollout, Edge opens external links using the last used profile. After this rollout, for users signed in with Microsoft Entra ID, Edge will default to the Primary work profile to open links. The Primary profile is typically the most secure and appropriate profile for work-related content. This change will be on by default.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494835\" target=\"_blank\">494835</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out late August 2025 (previously late June) and expect to complete by mid-September 2025 (previously mid-July).\n</p><p><b>How this will affect your organization:</b>\n</p><p>This change affects the user experience for how external links are opened in Microsoft Edge:\n</p><ul><li>Windows users: The Primary work profile is the one signed in with the Entra ID account used to join the device. If this profile exists, Edge will use it by default for external links.\n</li><li>macOS and Linux users: If only one work profile signed in with an Entra ID account is detected, it will be used as the Primary work profile. If multiple Entra ID profiles are present, the setting will not apply.</li></ul><p>Admins can manage this behavior using the <code>EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled</code> policy:\n</p><ul><li>Enabled or Not Configured: Edge will use the Primary work profile by default.\n</li><li>Disabled: Edge reverts to using the last used profile.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/edgeopenexternallinkswithprimaryworkprofileenabled\" target=\"_blank\">Microsoft Edge Browser Policy Documentation EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled | Microsoft Learn</a> </p><p><i>Before this rollout:</i></p><p>Users see <i>Last used (default)</i>&nbsp;selected by default in Edge <i>Settings </i>at <a href=\"edge://settings/profiles/multiProfileSettings\" target=\"_blank\">edge://settings/profiles/multiProfileSettings</a>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/fc61eb35-247b-4662-9493-c602d1ae899b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><i>After this rollout:</i></p><p>Users will see <i>(default) Work</i>&nbsp;selected by default in Edge <i>Settings </i>at <a href=\"edge://settings/profiles/multiProfileSettings\" target=\"_blank\">edge://settings/profiles/multiProfileSettings</a></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5fc9a3ac-f986-4dc0-9d28-a0602fc6472f\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "494835"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Edge will default to opening external links with the Primary work profile for users signed in with Microsoft Entra ID, starting late August 2025. This change affects Windows, macOS, and Linux users differently and can be managed with the `EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled` policy. No admin action is required before the rollout."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-11-10T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1104313",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-23T18:13:51.737Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-26T23:17:40Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Edge: Primary work profile will open external links by default",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 3, 2025: This post has been updated to include mobile and associated timelines</p><p>Coming soon: With the new <i>Generate an audio overview</i> option, users can listen to AI-generated audio overviews that summarize or discuss the contents of Microsoft Word documents, PDF files, and Microsoft Teams meeting recordings with transcripts that are stored in OneDrive.</p><p>This feature is also coming to mobile for Microsoft Word documents and PDF files.</p><p>A Microsoft 365 Copilot license is required to access this feature.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=478649\" target=\"_blank\">478649</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out early May 2025 and expect to complete by mid-July 2025 (previously mid-June) for OneDrive web.</p><p>General Availability (Worldwide): We will begin rolling out in July 2025 and expect to complete by August 2025 for OneDrive mobile.</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout, users can access the new feature in OneDrive web by going to a Word document, PDF, or Teams meeting recording with transcript, selecting the Copilot icon, and choosing <i>Generate an audio overview:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/84219389-986c-4206-96ba-1f10cafb4f4d\" style=\"width: 50%;\">\n</p><p>The floating, draggable audio player will launch and after a little while, the audio overview will play:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/6ac6c811-51b5-415f-b109-ec1f4f6d09a6\" style=\"width: 50%;\">\n</p><p>Audio overviews will play in a summary style by default (one person, professional, and succinct). If desired, users can switch to <i>Podcast style </i>from the three-dot menu for a longer, two-person, more casual discussion of the content of their files:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c33767de-4854-4d84-817e-6eba1abdb5da\" style=\"width: 50%;\">\n</p><p>\n</p><p>After this rollout, users can access the new feature in OneDrive mobile by taking the follow steps:</p><ol><li>Open the OneDrive mobile app&nbsp;</li><li>Ensure you are in your OneDrive for work account&nbsp;</li><li>Navigate to a Word document or PDF&nbsp;</li><li>Click on the three dots next to the file or open the file and swipe up.&nbsp;</li><li>Tap on “Generate an audio overview</li></ol><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d4420e93-4916-4ff8-816a-bc8d675300e9/20b0ccb0a9c7d522594431dea86af8d186cde7c2.png\" style=\"\"></p><p><br></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e81f98df-fb09-4c38-be92-ac5895e1db67/9e8c635d16352e090d2a8375410ff5a3ab5e6eab.png\" style=\"\"><br></p><p>This feature will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>You may consider updating your training and documentation as appropriate. These features are available to users with a Copilot license.</p><p>Review the following resource to understand how to manage Microsoft 365 Copilot access within your organization:</p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-page\" target=\"_blank\">Manage Microsoft 365 Copilot scenarios in the Microsoft 365 admin center</a></li></ul><p>You can manage Copilot for specific apps or users through either the Microsoft 365 Admin center or Group Policy.</p>\n<p>Learn more:</p><ul><li><a href=\"https://support.microsoft.com/topic/generate-audio-overviews-with-copilot-in-onedrive-e5f2d98f-a53e-4242-aba7-d9b1d69f1089?preview=true\" target=\"_blank\">Generate audio overviews with Copilot in OneDrive - Microsoft Support</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "478649"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot will soon offer AI-generated audio overviews for Word documents, PDF files, and Teams meeting recordings stored in OneDrive. This feature will be available on both web and mobile platforms, requiring a Copilot license. Rollout begins in May 2025 for web and July 2025 for mobile."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Mobile, Web"
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1060872",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-23T15:31:59.117Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-04-23T16:50:57Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft 365 Copilot: New audio overviews for Word and PDF files in Microsoft OneDrive",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated July 18, 2025: We've revised the timeline below and broadened the audience to help ensure all customers are informed of the change. We appreciate your continued patience.</p><p>Based on your feedback, we’re simplifying the behavior of Copilot Chat in the Microsoft 365 Copilot app. This change only impacts users without a Microsoft 365 Copilot license.</p><p>\n</p><p>Today, the <a href=\"https://go.microsoft.com/fwlink/?linkid=2310640\" target=\"_blank\">Pin Microsoft 365 Copilot Chat admin setting</a> controls Copilot Chat entry points in Microsoft 365 apps, including the Microsoft 365 Copilot app across web, mobile, and desktop. Pinning is off by default, but users may be prompted to pin.</p><p>\n</p><p>We have heard from customers that this default experience creates confusion in the Microsoft 365 Copilot app. Users expect to see Copilot Chat but don’t know how to find it.</p><p>\n</p><p>To solve this, we are removing the Microsoft 365 Copilot app from the scope of the pinning setting. Instead, Chat will appear as the default module.&nbsp;</p><p><i>Setting before and after this change:</i> </p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/abb10ceb-fa64-4deb-9e0c-d56c24e15043\" width=\"400\" height=\"\"></p><p><br></p><p><b>How this will affect your organization:</b></p><p>There is no change for users with a Microsoft 365 Copilot license. \n</p><p>When users without this license open the Microsoft 365 Copilot app, Chat will appear as the default module, with an entry point in the navigation menu.  \n</p><p><i>Microsoft 365 Copilot app for users without a Microsoft 365 Copilot license:</i> </p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/014a666c-3c6b-413f-8d78-8de2f35ae13c/bd75cd8ed78d83b53728b5071c8ecc3f36344bb2.png\" width=\"400\" height=\"\"></p><p><br></p><p>While this change will help users discover Copilot Chat, these users have the choice to unpin Chat in their navigation bar.</p><p>Copilot Chat in the Microsoft 365 Copilot app will continue to honor other admin controls: <a href=\"https://learn.microsoft.com/copilot/manage\" target=\"_blank\">Manage Microsoft 365 Copilot Chat | Microsoft Learn</a>.</p><p><b>When this will happen:</b></p><p>The rollout of this change begins mid-August 2025 and completes in the weeks following.</p><p><b>What you need to do to prepare:</b></p><p>No admin action is required. If you would like to inform users of this simplification, you could consider the following message:  \n</p><p>“Copilot Chat, Microsoft’s free and secure generative AI powered by GPT-4o, is now available in the Microsoft 365 Copilot app. Try it today to summarize, rewrite, or answer questions so you can work smarter and accomplish more.”  \n</p><p>Discover how users can get value from Copilot Chat and agents: <a href=\"https://adoption.microsoft.com/en-us/copilot/chat-and-agent-starter-kit/\" target=\"_blank\">Microsoft 365 Copilot Chat and agent starter kit | Microsoft Adoption</a>.&nbsp;</p><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed? No. \n</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data? No. \n</li><li>Does the change provide a new way of communicating between users, tenants, or subscriptions? No. \n</li><li>Does the change provide end users any new way of interacting with generative AI? No - It improves access to existing Copilot Chat capabilities for users without a Microsoft 365 Copilot license.&nbsp;</li></ul>",
       "ContentType": "html"
     },
@@ -2037,52 +2514,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Meeting Join Bar",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We’re expanding the file types supported in Copilot Chat to align with the Microsoft Search experience. This enhancement allows users to ground their questions in a broader range of content types, improving the relevance and accuracy of Copilot responses.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=492268\" target=\"_blank\">492268</a>.</p><p><b>When this will happen</b></p><p>General Availability (Worldwide): We will begin rolling out in late July 2025 and expect to complete by mid-August 2025.</p><p><b>How this will affect your organization</b></p><p>Users will be able to ask Copilot questions about additional file types, including CAD, ZIP, and MP4. This update enhances Copilot’s ability to retrieve and reason over content from a wider variety of files, improving productivity and search flexibility. </p><p>There are no changes to the user experience with this update — the feature enhancement is entirely on the back end and will not alter the Copilot interface or behavior for users.</p><p>This feature will be on by default.</p><p><b>What you need to do to prepare</b></p><p>No action is required at this time. However, to take advantage of this feature, users must be licensed for Microsoft 365 Copilot Chat. Eligible licenses include:\n</p><ul><li>Microsoft 365 A1/A3/A5 (including MA3/MA5 for students and faculty)\n</li><li>Microsoft 365 Business Basic, Standard, and Premium\n</li><li>Microsoft 365 E3/E5\n</li><li>Microsoft 365 F1/F3\n</li><li>Microsoft Teams (all SKUs including Enterprise, Essentials, and Rooms)\n</li><li>Office 365 A1/A1 Plus/A3/A5\n</li><li>Office 365 E1/E1 Plus/E3/E5\n</li><li>Office 365 F3\n</li></ul><p>Note: Versions labeled \"(no Teams)\" and \"EEA (no Teams)\" are also supported.</p><p>Learn more:&nbsp;</p><ul><li><a href=\"https://support.microsoft.com/topic/file-formats-supported-by-microsoft-365-copilot-1afb9a70-2232-4753-85c2-602c422af3a8\" target=\"_blank\">File formats supported by Microsoft 365 Copilot</a></li><li><a href=\"https://learn.microsoft.com/copilot/manage\" target=\"_blank\">Manage Microsoft 365 Copilot Chat | Microsoft Learn</a></li></ul><p><b>Compliance considerations</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed? - Yes. Additional file types are now accessed for grounding Copilot responses.</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data? - Yes. Copilot’s grounding capabilities are extended to more file types.</li><li>Does the change provide users any new way of interacting with generative AI? - Yes. Users can now query Copilot using content from more file types.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "492268"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot Chat will support new file types (CAD, ZIP, MP4) starting late July 2025, enhancing search relevance and accuracy. No user action is required; the update is backend-only. Users need appropriate Microsoft 365 licenses. Compliance considerations include changes in data processing and AI capabilities."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Web"
-      }
-    ],
-    "EndDateTime": "2025-09-16T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1116511",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-16T22:53:14.353Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-16T22:51:32Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft 365 Copilot | Chat now supports new file types in search grounding",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -4317,7 +4748,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"472913\":[{\"RoadmapId\":472913,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1772416Z\",\"LatestRing\":null},{\"RoadmapId\":472913,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1772417Z\",\"LatestRing\":null},{\"RoadmapId\":472913,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1772419Z\",\"LatestRing\":null}]}"
+        "Value": "{\"472913\":[{\"RoadmapId\":472913,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1772417Z\",\"LatestRing\":null},{\"RoadmapId\":472913,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1772416Z\",\"LatestRing\":null},{\"RoadmapId\":472913,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1772419Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5467,52 +5898,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Viva Engage: Introducing segmentation for personalized experiences (preview)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 3, 2025: This post has been updated to include mobile and associated timelines</p><p>Coming soon: With the new <i>Generate an audio overview</i> option, users can listen to AI-generated audio overviews that summarize or discuss the contents of Microsoft Word documents, PDF files, and Microsoft Teams meeting recordings with transcripts that are stored in OneDrive.</p><p>This feature is also coming to mobile for Microsoft Word documents and PDF files.</p><p>A Microsoft 365 Copilot license is required to access this feature.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=478649\" target=\"_blank\">478649</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out early May 2025 and expect to complete by mid-July 2025 (previously mid-June) for OneDrive web.</p><p>General Availability (Worldwide): We will begin rolling out in July 2025 and expect to complete by August 2025 for OneDrive mobile.</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout, users can access the new feature in OneDrive web by going to a Word document, PDF, or Teams meeting recording with transcript, selecting the Copilot icon, and choosing <i>Generate an audio overview:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/84219389-986c-4206-96ba-1f10cafb4f4d\" style=\"width: 50%;\">\n</p><p>The floating, draggable audio player will launch and after a little while, the audio overview will play:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/6ac6c811-51b5-415f-b109-ec1f4f6d09a6\" style=\"width: 50%;\">\n</p><p>Audio overviews will play in a summary style by default (one person, professional, and succinct). If desired, users can switch to <i>Podcast style </i>from the three-dot menu for a longer, two-person, more casual discussion of the content of their files:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c33767de-4854-4d84-817e-6eba1abdb5da\" style=\"width: 50%;\">\n</p><p>\n</p><p>After this rollout, users can access the new feature in OneDrive mobile by taking the follow steps:</p><ol><li>Open the OneDrive mobile app&nbsp;</li><li>Ensure you are in your OneDrive for work account&nbsp;</li><li>Navigate to a Word document or PDF&nbsp;</li><li>Click on the three dots next to the file or open the file and swipe up.&nbsp;</li><li>Tap on “Generate an audio overview</li></ol><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d4420e93-4916-4ff8-816a-bc8d675300e9/20b0ccb0a9c7d522594431dea86af8d186cde7c2.png\" style=\"\"></p><p><br></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e81f98df-fb09-4c38-be92-ac5895e1db67/9e8c635d16352e090d2a8375410ff5a3ab5e6eab.png\" style=\"\"><br></p><p>This feature will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>You may consider updating your training and documentation as appropriate. These features are available to users with a Copilot license.</p><p>Review the following resource to understand how to manage Microsoft 365 Copilot access within your organization:</p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-page\" target=\"_blank\">Manage Microsoft 365 Copilot scenarios in the Microsoft 365 admin center</a></li></ul><p>You can manage Copilot for specific apps or users through either the Microsoft 365 Admin center or Group Policy.</p>\n<p>Learn more:</p><ul><li><a href=\"https://support.microsoft.com/topic/generate-audio-overviews-with-copilot-in-onedrive-e5f2d98f-a53e-4242-aba7-d9b1d69f1089?preview=true\" target=\"_blank\">Generate audio overviews with Copilot in OneDrive - Microsoft Support</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "478649"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot will soon offer AI-generated audio overviews for Word documents, PDF files, and Teams meeting recordings stored in OneDrive. This feature will be available on both web and mobile platforms, requiring a Copilot license. Rollout begins in May 2025 for web and July 2025 for mobile."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-26T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1060872",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-03T16:47:24.09Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-23T16:50:57Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft 365 Copilot: New audio overviews for Word and PDF files in Microsoft OneDrive",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -8319,56 +8704,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated June 27, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Coming soon: We are excited to announce a new feature in Microsoft Teams that allows users to insert emojis in the compose box by typing a word surrounded by colons. For example, :smile: will turn into the smiling face emoji. Users can soon add any emoji, including custom ones, for faster and easier personal expression.</p><p>This feature applies to Teams for Windows desktop and Windows for Mac desktop.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=369345\" target=\"_blank\">369345</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early June 2025 and expect to complete by mid-June 2025.</p><p>General Availability (Worldwide): We will begin rolling out mid-July 2025 and expect to complete by late July 2025. \n</p><p>\n</p><p> \n</p><p>General Availability (GCC): We will begin rolling out late July 2025 and expect to complete by early August 2025.&nbsp;</p><p>General Availability (GCC High): We will begin rolling out mid-August 2025 and expect to complete by late August 2025.</p><p>General Availability (DoD): We will begin rolling out early September 2025 and expect to complete by mid-September 2025.&nbsp;</p><p>&nbsp;<b>How this will affect your organization:</b>\n</p><p>This feature will be available by default.\n</p><p><a href=\"https://cxcs.microsoft.net/file/ccp/en-us/c7fcab0a-41a6-4848-96cb-049addb05d98\" target=\"_blank\">Watch the video: Use colons to insert emojis</a> (0:04 minutes)\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before or after the rollout. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/office/send-an-emoji-gif-or-sticker-in-microsoft-teams-174248c9-e64d-4de1-9f41-3199cc0751ad\" target=\"_blank\">Send an emoji, GIF, or sticker in Microsoft Teams - Microsoft Support</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "369345"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"369345\":[{\"RoadmapId\":369345,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341137Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341142Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341146Z\",\"LatestRing\":null}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will soon allow users to insert emojis in the compose box by typing a word surrounded by colons (e.g., :smile:). This feature will be available on Windows and Mac desktops, rolling out from June to September 2025, depending on the release group. No admin action is required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-10-27T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1000269",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-27T14:45:02.17Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-02-07T23:03:35Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: New keyboard shortcut for adding emojis",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated June 27, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Coming soon to Microsoft Purview | Insider Risk Management (IRM), admins will be able to select any Communication Compliance (CC) policy alerts as indicators in IRM policies. After this rollout, IRM admins can select\nany CC policies that they would like to bring into IRM and detect if a user has alerts for these selected CC policies. When an IRM alert is generated, admins can review if there are any alerts for the user in CC under the policies that are enabled as indicators. This feature will help admins and analysts view this information in IRM without switching to CC.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=489838\" target=\"_blank\">489838</a>.\n</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out late July 2025 (previously late May) and expect to complete by early August 2025 (previously early June).\n</p><p>General Availability (Worldwide): We will begin rolling out mid-August 2025 (previously mid-June) and expect to complete by early September 2025 (previously early July).</p><p><b>How this will affect your organization:</b></p><p>After this rollout, admins will be able to enable this indicator in IRM’s global settings for policy indicators. When enabled, this indicator can be selected in\nany IRM policy.</p><p>Using the indicator\n</p><ol><li>In IRM, go to <i>Settings </i>&gt;<i> Insider Risk Management &gt; Policy indicat</i>ors<i> &gt;</i> <i>Built-in Indicators. </i>Open the <i>Communication Compliance indicators &gt; Detect messages matched by specific CC policies </i>drop-down menu. Check the box and choose the CC policies to bring into IRM. Save the changes. \n</li><li>To use in a policy: In the policy wizard for any IRM policy, configure the policies as applicable until you get to the <i>Indicators </i>page.\nOpen the <i>Communication Compliance indicators </i>drop-down menu and\ncheck the box for <i>Sending messages flagged by selected CC policies.</i> Configure\nthe rest of the policy as applicable.\n</li></ol><p>These changes will be available by default for admins to configure.\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to\nnotify your admins about this change and update any relevant documentation. \n</p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/insider-risk-management-settings-policy-indicators?tabs=purview-portal\">Configure policy indicators in insider risk management |\nMicrosoft Learn</a> (will be updated before rollout)</p>",
       "ContentType": "html"
     },
@@ -8488,99 +8823,6 @@
       "User impact"
     ],
     "Title": "Meeting Search in MS Teams Desktop",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We're introducing a new drag-and-drop capability in the new Microsoft Outlook for Windows. This feature will users to drag emails and files from one personal or enterprise account and drop them into another personal or enterprise account as attachments—streamlining cross-account workflows and improving productivity.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=493289\" target=\"_blank\">493289</a>.</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out mid-July 2025 and expect to complete by mid-August 2025.\n</p><p>General Availability (Worldwide, GCC): We will begin rolling out mid-September 2025 and expect to complete by mid-October 2025.</p><p><b>How this will affect your organization:</b></p><p>Before this rollout, users are not able to drag emails and files from one account to another.\n</p><p>After this rollout, users from organizations with the <code>ItemsToOtherAccountsEnabled</code> parameter set to  <code>TRUE</code> in the <code>OWAMailboxPolicy</code> will be able to:</p><ul><li>Drag and drop emails and files from one mailbox into a draft in another mailbox as attachments.\n</li><li>Attach content from Shared Mailboxes or Shared Folders into another mailbox.\n</li></ul><p>To enhance security, users will see a confirmation prompt before completing the drag-and-drop action:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/0244f18c-a1b0-4e2e-bf08-5857c3d69b88\" style=\"width: 300px;\" alt=\"user message\">\n</p><p>This confirmation does not appear when attaching files from a Shared Mailbox.\n</p><p>This feature respects your existing <code>OWAMailboxPolicy</code> settings and does not change any defaults.\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates. Review your current  <code>OWAMailboxPolicy</code> settings, particularly the <code>ItemsToOtherAccountsEnabled</code> parameter, to determine if you would like to enable or disable this feature after roll out occurs. No change to your existing <code>ItemsToOtherAccountsEnabled</code> configuration will occur with this rollout.  You may want to notify your admins and/or users about this change and update internal documentation.</p><p>Learn more about the <code>ItemsToOtherAccountsEnabled</code> parameter in <a href=\"https://learn.microsoft.com/powershell/module/exchange/set-owamailboxpolicy?view=exchange-ps#-itemstootheraccountsenabled\" target=\"_blank\">Set-OwaMailboxPolicy (ExchangePowerShell) | Microsoft Learn</a></p><p>#newoutlookforwindows</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "493289"
-      },
-      {
-        "Name": "Summary",
-        "Value": "New Microsoft Outlook for Windows will allow users to drag and drop emails and files between accounts as attachments starting mid-July 2025 for targeted release and mid-September 2025 for general availability. Users must review their OWAMailboxPolicy settings, specifically the ItemsToOtherAccountsEnabled parameter, to manage this feature."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2025-12-01T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1104315",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-26T23:18:44.3Z",
-    "Services": [
-      "Exchange Online",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-26T23:18:38Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "New Microsoft Outlook for Windows: Drag and drop files between accounts as attachments",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We're updating how Microsoft Edge handles external links for enterprise users. Before this rollout, Edge opens external links using the last used profile. After this rollout, for users signed in with Microsoft Entra ID, Edge will default to the Primary work profile to open links. The Primary profile is typically the most secure and appropriate profile for work-related content. This change will be on by default.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494835\" target=\"_blank\">494835</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out late June 2025 and expect to complete by mid-July 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>This change affects the user experience for how external links are opened in Microsoft Edge:\n</p><ul><li>Windows users: The Primary work profile is the one signed in with the Entra ID account used to join the device. If this profile exists, Edge will use it by default for external links.\n</li><li>macOS and Linux users: If only one work profile signed in with an Entra ID account is detected, it will be used as the Primary work profile. If multiple Entra ID profiles are present, the setting will not apply.</li></ul><p>Admins can manage this behavior using the <code>EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled</code> policy:\n</p><ul><li>Enabled or Not Configured: Edge will use the Primary work profile by default.\n</li><li>Disabled: Edge reverts to using the last used profile.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/edgeopenexternallinkswithprimaryworkprofileenabled\" target=\"_blank\">Microsoft Edge Browser Policy Documentation EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled | Microsoft Learn</a> </p><p><i>Before this rollout:</i></p><p>Users see <i>Last used (default)</i>&nbsp;selected by default in Edge <i>Settings </i>at <a href=\"edge://settings/profiles/multiProfileSettings\" target=\"_blank\">edge://settings/profiles/multiProfileSettings</a>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/fc61eb35-247b-4662-9493-c602d1ae899b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><i>After this rollout:</i></p><p>Users will see <i>(default) Work</i>&nbsp;selected by default in Edge <i>Settings </i>at <a href=\"edge://settings/profiles/multiProfileSettings\" target=\"_blank\">edge://settings/profiles/multiProfileSettings</a></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5fc9a3ac-f986-4dc0-9d28-a0602fc6472f\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "494835"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Edge will default to opening external links with the Primary work profile for users signed in with Microsoft Entra ID, starting late June 2025. This change affects Windows, macOS, and Linux users differently and can be managed with the `EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled` policy. No admin action is required before the rollout."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1104313",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-26T23:17:48.963Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-26T23:17:40Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Edge: Primary work profile will open external links by default",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -10027,44 +10269,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>To strengthen security and align with customer feedback, Microsoft Fabric is updating how Workspace Identity permissions are handled. This change removes default Contributor access from Workspace Identities, reducing the risk of unintended access or misuse. This change will be on by default.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out mid-July 2025 and expect to complete by early August&nbsp;2025.</p><p><b>How this will affect your organization:</b></p><p>After this rollout, new Workspace Identities will no longer be granted default Contributor permissions.\n</p><p>We will also remove the default Contributor access from existing Workspace Identities.\n</p><p><b>Important:</b> Modifying the application associated with a Workspace Identity is not supported and may cause the identity to stop functioning.\n</p><p>You can still manually assign Workspace Identity service principals to any workspace role (such as Contributor, Member) using role-based access control (RBAC). However, be aware that anyone with access to the identity can assume it.</p><p>To access this change:\n</p><ol><li>Navigate to the Fabric Workspace where you want to add RBAC role.\n</li><li>Select <i>Manage Access</i>.\n</li><li>Select <i>Add people or groups</i>.\n</li><li>Enter the name of the Workspace identity (same as Workspace Name).\n</li><li>Assign roles as appropriate.\n</li></ol><p><b>NOTE:</b> After this rollout, admins can still add Workspace identity service principles to any workspace RBAC role if needed. Consider the implications if you plan on doing so, as any individual given access to the identity—example through workspace roles such as member or contributor—is allowed to assume the identity. Learn more: <a href=\"https://learn.microsoft.com/fabric/security/workspace-identity\" target=\"_blank\">Workspace identity - Microsoft Fabric | Microsoft Learn</a>\n</p><p><b>What you need to do to prepare:</b></p><p> This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current Workspace Identity configurations and evaluate whether any existing workflows rely on default Contributor access. You may want to notify your admins and/or users about this change and update internal documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Fabric is removing default Contributor access for Workspace Identities to enhance security. This change will be rolled out from mid-July to early August 2025. Admins can still manually assign roles using RBAC. Review and update your configurations and notify relevant personnel. Learn more [here](https://learn.microsoft.com/fabric/security/workspace-identity)."
-      }
-    ],
-    "EndDateTime": "2025-10-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1102778",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-06-25T00:11:46.527Z",
-    "Services": [
-      "Power BI"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-25T00:11:35Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Fabric: Removing default contributor access for Workspace Identity",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Coming soon: Microsoft Purview Insider Risk Management is enhancing the <i>Risky AI usage</i> policy template with support for priority content. This allows organizations to define what content is most sensitive—such as <i>Sensitive Info Types (SITs), Trainable Classifiers, </i>and <i>Sensitivity Labels</i>—and receive alerts only when risky AI activity involves that content.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=484085\" target=\"_blank\">484085</a>.</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out mid-July 2025 and expect to complete by late July 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out mid-August 2025 and expect to complete by late August 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>This update enables more targeted risk detection by allowing admins to specify content to be considered high priority. Alerts will only trigger when risky AI activity involves this defined content, reducing noise and improving signal clarity.\n</p><p>The feature will be available by default and configurable by admins.\n</p><p>No changes will be made to existing policies unless updated by your organization.</p><p>Priority content matched in Insider Risk Management &gt; <i>Alerts:</i>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3920ce53-42fa-484b-9355-ec0256f34091\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>Define priority content in the policy at Insider Risk Management &gt; <i>Content to prioritize &gt; New insider risk policy &gt; Decide whether to prioritize content:</i>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/1b732827-704c-4bc5-9479-90859c9ec596\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your admins and/or users about this change and update internal documentation.\n</p><p>Review your current Insider Risk Management policies and identify content that should be marked as priority.</p><p>Microsoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage, and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance, and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.</p><p>Learn more: The <i>Prioritize content in policies</i> section of <a href=\"https://learn.microsoft.com/purview/insider-risk-management-policies#prioritize-content-in-policies\" target=\"_blank\">Create and manage insider risk management policies | Microsoft Learn</a> (will be updated before rollout)</p>",
       "ContentType": "html"
     },
@@ -10759,37 +10963,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to leverage Copilot Studio agents to engage in real-time personalized voice conversations, offering alternative, solutions-based ongoing dialogue with your customers in Dynamics 365 Customer Insights – Journeys. This feature will reach general availability on July 31, 2025.<br><br><b>How does this affect me?</b><br>With the Copilot-powered voice conversations feature, you can:<br><ul><li>Enable seamless integration with Contact Center Proactive Engagement.</li><li>Manage the audience configuration and compliance profiles for your voice channel.</li><li>Choose a Conversational Voice message in a journey by selecting a Contact Center Proactive Engagement.</li><li>Design your journey to include conversational voice messages and react to message outcomes.</li><li>View detailed engagement metrics, such as the number of attempts, outcomes, and specific results for each call interaction in the out-of-the-box journey reporting.</li><li>Access all voice and engagement interaction data in storage and build custom reports using Microsoft Fabric integration.</li></ul><br><b>What action do I need to take?</b><br> This message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-23T21:30:36Z",
-    "HasAttachments": false,
-    "Id": "MC1101839",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-23T21:35:10.123Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-23T21:30:36Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Customer Insights - Journeys - Transform your outreach with Copilot-powered voice conversations",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated June 23, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Copilot users in a business-to-business multi-tenant organization set up can now view the intelligent meeting recap after the meeting from the resource tenant where the meeting was hosted.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=488298\" target=\"_blank\">488298</a></p><p>\n</p><p>\n</p><p><b>When this will happen:</b></p><p>Targeted release: We will begin rolling out early August 2025 and expect to complete by mid-August 2025.\n</p><p>General Availability: We will begin rolling out mid-August 2025 and expect to complete by late August 2025.</p><p><b>How this will affect your organization:</b></p><p>The new capability empowers users in multi-tenant setup to access meeting recap post meeting.</p><p><b>What you need to do to prepare:</b></p><p>No action required for either admin or users. Any Copilot users configured as a business-to-business user in a multi-tenant organization will have the capability after the launch.</p><p>For additional information on B2B muti-tenant: <a href=\"https://learn.microsoft.com/entra/external-id/what-is-b2b\" target=\"_blank\">Overview: B2B collaboration with external guests for your workforce</a></p>",
       "ContentType": "html"
     },
@@ -11091,37 +11264,6 @@
       "User impact"
     ],
     "Title": "Microsoft Teams: Pop out Chat, Copilot, and Notes panes in meetings",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing an enhancement to reduce the system downtime while processing customer-managed keys which will start to roll out on June 23, 2025 and reach global availability on July 7, 2025.<br><br><b>How does this affect me?</b><br>Previously, when you applied customer-managed keys or reverted a customer-managed key to a Microsoft managed key, the environments were deactivated until all the Dataverse storage services complete the data encryption.  This system downtime could take up to 4 days for all data encryption to complete.<br><br>We have now streamlined the Dataverse data encryption process to re-enable the environment’s online status as soon as the core storage services that required system downtime are complete. The environment is released with a customer-managed key encryption status of “Encrypting – online” while the storage services that don’t require system downtime continue to run.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>For more information, please review the documentation available here: <a href=\"https://aka.ms/11156\" target=\"_blank\">Manage your customer-managed encryption key - Power Platform | Microsoft Learn.</a>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-23T13:58:02Z",
-    "HasAttachments": false,
-    "Id": "MC1101626",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-23T13:59:12.33Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-23T13:58:02Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Platform - Reduce system downtime with streamlined customer-managed key processing",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -13428,52 +13570,6 @@
       "User impact"
     ],
     "Title": "Microsoft Viva Engage app for iOS/Android will have a shorter name in app stores",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 11, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Coming soon for Microsoft Teams: In channels, we will rename the <i>Files </i>tab as the <i>Shared </i>tab to enable users to view content shared in posts and content in the document library in one place. Note: The <i>Shared </i>tab in chats will not be affected by this change.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=470597\" target=\"_blank\">470597</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early August 2025 and expect to complete by mid-August 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out late August 2025 and expect to complete by mid-September 2025.</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout, users can still work with files and folders in the Microsoft SharePoint document library linked to the channel. All existing functionality in the <i>Files </i>tab will be available in the <i>In library</i> view of the <i>Shared </i>tab in channels. The <i>In posts</i> view in the <i>Shared</i> tab will display all files and links shared in channel posts:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/44ba8268-eb33-476e-97c4-6eaba6cabb54\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>Users can use the order the files by date using the <i>Recent </i>view and then filter by <i>Files </i>or <i>Links</i>. Before this rollout, this functionality was only available in chats:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/44ebb1cf-8160-4586-85a5-1f968904f319\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>Users can use the <i>In posts</i> view to find links:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b46314df-99e6-41d8-8a8a-c4aa215f28a8\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>These changes to channels will be available by default. \n</p><p>Coming soon after this rollout for the <i>In posts</i> view of the <i>Shared </i>tab in channels: Keyword search</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p><p>Before rollout, we will update this post with new documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "470597"
-      },
-      {
-        "Name": "Summary",
-        "Value": "The \"Files\" tab in Microsoft Teams channels will be renamed to \"Shared\" tab, combining content from posts and the document library. This change will roll out in August 2025 for targeted release and by mid-September 2025 for general availability. No admin action is required, but user notification is recommended."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1025217",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-11T19:26:45.99Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-03-07T01:18:23Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: In channels, the \"Shared\" tab (formerly the \"Files\" tab) will have new capabilities",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -16082,53 +16178,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Expanded and enhanced peripheral auto-association support for Bring Your Own Device (BYOD) spaces",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 3, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>We're excited to announce a new Microsoft Engage feed card in Microsoft Viva Connections dashboard called <i>Stay Engaged.</i></p><p>This message applies to Viva Engage, Viva Connections, and Microsoft Teams on Windows desktop, on the web, and on iOS/Android.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=471446\" target=\"_blank\">471446</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out late June 2025 (previously mid-May) and expect to complete by mid-July 2025 (previously late May).</p><p>General Availability (Worldwide): We will begin rolling out early July 2025 (previously early June) and expect to complete by late July 2025 (previously late June 2025).</p><p><b>How this will affect your organization:</b>\n</p><p>Viva Connections users will be able to view and interact with their Viva Engage feed through the new <i>Stay Engaged</i> card in the dashboard under these conditions:\n</p><p>\n</p><ul><li><i>Unconfigured or default state:</i> If the Connections dashboard is in an unconfigured or default state and Viva Engage is enabled for the tenant, this card will be added to the Connections dashboard by default in the fourth position for all users.</li><li><i>Configured dashboard: </i>If the dashboard has already been configured and Viva Engage is enabled for the tenant, the card will not be added to the dashboard by default. Connections editors can add the card to the dashboard for their users.</li></ul><p>When the card is available on your company dashboard, a user can select the card to load Engage app in Teams, where the user can view and engage with feed conversations. User can select <i>Back</i> to return to Connections.\n</p><p>The new<i> Stay Engaged </i>card in the Connections dashboard on desktop:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/188a5e5d-27ec-4462-8fd6-1128b4c73912\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>A desktop user who selects the <i>Stay Engaged</i> card will be redirected to the Engage app in Teams where the user can view and engage with feed conversations:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/02839c4b-cf71-465a-8f29-12b539c80026\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>The new <i>Stay Engaged</i> card in the Connections dashboard on iOS/Android and the redirection experience in Teams:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/9ca3bb9b-a1e6-43db-bed6-23d5f8e5a618\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current Viva Connections dashboard and Viva Engage configuration to determine the impact for your organization. </p><p>You may want to notify your users about this change and update any relevant documentation.</p><p><a href=\"https://learn.microsoft.com/viva/connections/available-dashboard-cards\" target=\"_blank\">Available dashboard cards in Viva Connections | Microsoft Learn</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "471446"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Connections is introducing a new \"Stay Engaged\" card in the dashboard, allowing users to interact with their Viva Engage feed. The rollout begins late June 2025 for targeted release and early July 2025 for general availability. No admin action is required, but reviewing current configurations and notifying users is recommended."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Web"
-      }
-    ],
-    "EndDateTime": "2025-09-26T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1052164",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-03T15:43:28.113Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-10T01:45:46Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva Connections: New Engage card in Connections dashboard",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -30642,37 +30691,6 @@
       "Admin impact"
     ],
     "Title": "The July 2024 Windows non-security preview update is now available for Windows 11, versions 23H2 and 22H2",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>The July&nbsp;2024 non-security preview update is now available for Windows 10, version 22H2. The non-security preview update for Windows 11, versions 23H2 and 22H2 will be available soon.&nbsp;Information about the contents of this update is available from the release notes, which are accessible from the <a href=\"https://support.microsoft.com/help/5040525\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 10</a>&nbsp;update history page. To learn more about the different types of monthly quality updates, see <a href=\"https://aka.ms/Windows/MonthlyUpdates\" rel=\"noopener noreferrer\" target=\"_blank\">Windows monthly updates explained</a>. To be informed about the latest updates and releases, follow us on X <a href=\"https://x.com/windowsupdate\" rel=\"noopener noreferrer\" target=\"_blank\">@WindowsUpdate</a>.</div><div><br></div><div><b>Highlights for the Windows 10, version 22H2 update:</b></div><ul><li>This update addresses an issue with Print Support App. When you use the app with a USB device, the app stops responding and does not print. This issue also limits the functions of the user interface.</li><li>This update addresses an issue with Universal Print clients failing to communicate with the Universal Print service. This affects printing functions. This issue occurs when you turn on Web Proxy Auto Discovery (WPAD).</li><li>This update addresses an issue with Windows Backup sometimes failing. This occurs when a device has an Extensible Firmware Interface (EFI) system partition (ESP).</li></ul><div><br></div><div><b>For instructions on how to install this update, see the KB for your OS listed below:&nbsp;</b></div><ul><li>Windows 10, version 22H2: <a href=\"https://support.microsoft.com/help/5040525\" rel=\"noopener noreferrer\" target=\"_blank\">KB5040525</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-23T21:04:16.09Z",
-    "HasAttachments": false,
-    "Id": "MC832353",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2024-07-23T21:04:17.07Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-07-23T21:04:16.153Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "The July 2024 Windows non-security preview update is now available for Windows 10, version 22H2",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
