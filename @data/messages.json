@@ -11707,7 +11707,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"483506\":[{\"RoadmapId\":483506,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378722Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null}]}"
+        "Value": "{\"483506\":[{\"RoadmapId\":483506,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378722Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13168,56 +13168,6 @@
       "User impact"
     ],
     "Title": "Microsoft Teams: Customize the location of notifications in Teams for the web",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 13, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Coming soon in Microsoft Teams: When creating a new channel, creators can select any team to host the channel -- including teams with no shown channels -- provided they have the necessary permissions to create channels in that team. Previously, only teams with shown channels were included in the list of host teams.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=479744\" target=\"_blank\">479744</a>.\n</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out early May 2025 and expect to complete by early May 2025.</p><p>General Availability (Worldwide): We will begin rolling out mid-May 2025 and expect to complete by late June 2025 (previously late May).</p><p><b>How this will affect your organization:</b></p><p>The admin or user creating a channel from the New items drop-down will be able to select any team to host the channel (not just the user's<b> </b>teams with shown channels in the teams and channels list), provided they have the necessary permissions to create channels in that team. During the channel creation process will appear alphabetically in the window called Pick a team to add the new channel to.</p><p>To create a new channel, the user selects the <i>New items</i> icon at the top of the list of chats and channels, and then selects <i>New channel </i>from the menu:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/3ef61d2c-146e-4f1a-855e-87575aea3a01/5de314482c7ec25d71198df1caaaea825e49c946.png\" style=\"width: 400px;\"><br></p><p>The user completes the new channel details:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/38e9dc16-4417-4fc4-b13d-612f2093c9d1\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>When the user selects <i>Select a team</i> to host the channel in the previous screenshot, an alphabetical list of teams displays on the screen called <i>Pick a team to add the new channel to </i>(like this example): \n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/9b4a2aa1-437e-4f55-a3a2-81718bb8c09b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>This change will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/office/create-a-standard-private-or-shared-channel-in-microsoft-teams-fda0b75e-5b90-4fb8-8857-7e102b014525\" target=\"_blank\">Create a standard, private, or shared channel in Microsoft Teams - Microsoft Support</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "479744"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"479744\":[{\"RoadmapId\":479744,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5962257Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":479744,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8820625Z\",\"LatestRing\":null},{\"RoadmapId\":479744,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8820626Z\",\"LatestRing\":null},{\"RoadmapId\":479744,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5962278Z\",\"LatestRing\":\"StandardRelease\"}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting mid-May 2025, Microsoft Teams will allow users to create new channels from the \"New items\" menu, selecting any team to host the channel, including those with no shown channels, provided they have the necessary permissions. This update applies to Teams for Windows, Mac, and the web. No admin action is required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2025-07-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1053645",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-13T15:56:08.95Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-11T21:39:42Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Create new channels faster from the \"New items\" menu at top of the list of chats and channels",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18041,7 +17991,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -18649,45 +18599,6 @@
       "User impact"
     ],
     "Title": "Microsoft Loop – Require Existing Microsoft 365 Group for New Loop workspaces",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated May 22, 2025: We have updated the content. Thank you for your patience.\n</p><p>Coming soon for Microsoft Purview | Endpoint Data Loss Prevention (DLP): Pause and Resume support for printer scenarios for customers trying to override a DLP soft warning policy tip when submitting a print job. Before this rollout, the user must reinitiate the print job for the intended result. After this rollout, the override will be stored temporarily, and the print job will execute. This rollout is a fix for the <i>Block with override action</i> described in <a href=\"https://learn.microsoft.com/purview/dlp-create-deploy-policy?tabs=purview#actions\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Create and deploy a data loss prevention policy | Microsoft Learn</a>.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=486369\" target=\"_blank\">486369</a></p><p><b>When this will happen:</b></p><p>Public Preview: We began rolling out early April 2025 and expect to complete by early April 2025.</p><p>\n</p><p>General Availability (Worldwide): We began rolling out late May 2025 (previously late April) and expect to complete by early June 2025 (previously early May).</p><p><b>How this will affect your organization:</b>\n</p><p>This feature should reduce clicks for users and lessen frequency of alerts.\n</p><p>After this rollout, when a print job is blocked by a policy, a user will see this pop-up notice. After the user enters the <i>Business justification, </i>the justification will be stored, and the content will print:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b70bd317-1e1c-4aef-82ad-6f7bd28ca16d\" style=\"width: 344.006px;\"></p><p>This change will be available by default.\n</p><p><b>What you need to do to prepare:</b></p><p>Identify Endpoint DLP policies to test after rollout to ensure the new experience is in place.</p><p>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout.  You may want to notify your users about this change and update any relevant documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview's Endpoint Data Loss Prevention will soon support Pause and Resume for printer scenarios, allowing users to override a DLP soft warning without reinitiating print jobs. This feature, rolling out from April to June 2025, aims to reduce user clicks and alert frequency. No admin action is required."
-      }
-    ],
-    "EndDateTime": "2025-07-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1052913",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-05-22T19:45:28.583Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-10T23:34:27Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Endpoint Data Loss Prevention: Pause and Resume support for printer scenarios",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -22638,43 +22549,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated April 25, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Before this rollout, Microsoft Purview | Endpoint Data Loss Prevention admins cannot restrict Microsoft Edge browser access to sensitive files through <i>Restricted apps and app groups.</i> After this rollout, admins can configure apps or app groups to be blocked in Edge, including a message showing policy violation details.</p><p><b>When this will happen:</b></p><p>Public Preview: We began rolling out early April) and expect to complete by early April 2025.\n</p><p>\n</p><p>\n</p><p>General Availability (Worldwide): We began rolling out early July 2025 (previously early April and expect to complete by late July 2025 (previously early April).</p><p><b>How this will affect your organization:</b>\n</p><p>Purview admins should be aware that these groups are now enforceable in Edge and that non-Edge supported browsers will suggest opening the link in Edge if blocked.</p><p>Purview admins can configure groups in Purview at <i>Data Loss Prevention &gt; Endpoint DLP settings &gt; Restricted apps and app groups</i> that are extensible to the Edge browser.\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5a7c7031-37f5-4481-bc2e-7f1e272b174d\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>Users will see a DLP notice when an app or app group attempts to open a protected file.</p><p>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/29bc7297-b29c-492f-bce4-f0df2fc55a7c\" alt=\"user controls\" style=\"width: 400px;\">\n</p><p>This change will be available by default for admins to configure.</p><p><b>What you need to do to prepare:</b>\n</p><p>Identify policies that could be impacted, modify, and help test the new protected Edge experience.</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p><p>Learn more: The <i>Edge support for apps and app groups (preview)</i> section of <a href=\"https://learn.microsoft.com/purview/dlp-configure-endpoint-settings#edge-support-for-apps-and-app-groups-preview\" target=\"_blank\">Configure endpoint DLP settings | Microsoft Learn</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Endpoint Data Loss Prevention will now support app or app group restrictions in the Microsoft Edge browser. This feature, rolling out from April to July 2025, allows admins to block apps or app groups in Edge and show policy violation details. Admins should update policies and notify users."
-      }
-    ],
-    "EndDateTime": "2025-07-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1052914",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-04-25T18:22:34.35Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-10T23:35:05Z",
-    "Tags": [
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Endpoint Data Loss Prevention: App or app group restriction support for Microsoft Edge browser",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div>Windows has always been the place where computing innovation happens first. This was the case when we introduced Copilot+ PCs last <a href=\"https://blogs.windows.com/windowsexperience/2024/05/20/accelerating-innovation-a-new-era-of-ai-at-work-begins/\" rel=\"noopener noreferrer\" target=\"_blank\">May</a> – the fastest, most intelligent, and most secure Windows PCs ever built. The innovation continues today with the general availability (GA) of exclusive AI experiences like Recall (preview), Click to Do (preview) and improved Windows search across Copilot+ PCs.</div><div><br></div><div>To learn more about the exclusive Copilot+ PC features available starting today, see the blog post <a href=\"https://www.aka.ms/April22GA\" rel=\"noopener noreferrer\" target=\"_blank\">Copilot+ PCs are the most performant Windows PCs ever built, now with more AI features that empower you every day</a>.&nbsp;</div><div><br></div><div><b>When will this happen:</b></div><div>The new features and policies are available to eligible Copilot+ PCs with the April 2025 Windows non-security preview update.</div><div>&nbsp;</div><div><em>Note: Copilot+ PC experiences vary by device and market and may require updates continuing to roll out through 2025; Recall and Click to Do will be coming to European Economic Area later in 2025. Timing varies. See aka.ms/copilotpluspcs.</em></div><div><br></div><div><b>How this will affect your organization:</b></div><div>Copilot+ PCs have redefined what it means to be a premium PC with unparalleled features, performance and security out of the box. Now, with the availability of Recall, improved Windows search, and Click to Do, we’re adding even more AI benefits, making it easier to pick up where you left off, find what you’re looking for and do more with less time and hassle.</div><div><br></div><div><b>Additional information</b></div><ul><li>Learn more about these <a href=\"https://www.aka.ms/April22GA\" rel=\"noopener noreferrer\" target=\"_blank\">new AI features</a>.</li><li>Learn how to <a href=\"https://aka.ms/WindowsAIControls/April2025\" rel=\"noopener noreferrer\" target=\"_blank\">manage them with built-in controls and policies</a>.</li><li>Dive deeper into <a href=\"https://blogs.windows.com/windowsexperience/?p=179678\" rel=\"noopener noreferrer\" target=\"_blank\">Responsible AI principles</a>.&nbsp;</li><li>See when these and other AI features are coming to your organization on the <a href=\"https://aka.ms/windowsroadmap\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Roadmap</a>.</li></ul>",
       "ContentType": "html"
     },
@@ -24058,43 +23932,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Effective May 17, 2025, we will retire the option for users to invite external partners to Microsoft Teams by sending an SMS to their phone number to join Teams and continue the conversation. We are retiring this feature to provide a more consistent experience. Organizations can continue to use emails to invite partners outside of their organizations for external teamwork.</p><p>Alternatively, customers can sign up for a two-way SMS calling plan to continue inviting external partners to Teams by sending an SMS to their phone number. \n</p><p>This change will happen automatically by the specified date. No admin action is required. Please notify your users about this change, update relevant documentation as appropriate, and share alternatives for users to invite external partners to Teams.</p><p><i>Learn more</i></p><ul><li><a href=\"https://support.microsoft.com/office/add-or-invite-people-outside-your-org-to-a-chat-in-microsoft-teams-6897ab47-9f60-4db6-8b95-18599714fe57\" target=\"_blank\">Add or invite people outside your org to a chat in Microsoft Teams - Microsoft Support</a> (will be updated before feature retires)</li><li>About two-way SMS: <a href=\"https://learn.microsoft.com/microsoftteams/sms-overview\" target=\"_blank\">Planning for SMS in Microsoft Teams - Microsoft Teams | Microsoft Learn</a></li></ul><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will retire SMS invitations to external partners effective May 17, 2025. Users can continue inviting external partners via email or by signing up for a two-way SMS calling plan. This change requires no admin action, but users should be informed, and documentation updated."
-      }
-    ],
-    "EndDateTime": "2025-07-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1057714",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-04-18T03:29:12.64Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-18T03:28:52Z",
-    "Tags": [
-      "User impact",
-      "Retirement"
-    ],
-    "Title": "Microsoft Teams: We will retire SMS invitations from Teams to external partners",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Coming soon for new Microsoft Outlook for Windows desktop: Users will be able to quickly categorize their emails using predefined shortcuts, enhancing productivity and streamlining their email organization process.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=483507\" target=\"_blank\">483507</a>.\n</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out mid-May 2025 and expect to complete by mid-June 2025.</p><p>General Availability (Worldwide): We will begin rolling out mid-June 2025 and expect to complete by mid-July 2025.</p><p><b>How this will affect your organization:</b></p><p>The category shortcuts will work in the same way as they worked in classic Outlook, where the user can assign a shortcut to function keys ranging from CTRL+F2 to CTRL+F12. We will migrate the classic Outlook category shortcuts to the new Outlook for Windows. This feature is currently only available in new Outlook for Windows.\n</p><p>After this rollout, users can manage category shortcuts in Outlook <i>Settings </i>at <i>Accounts &gt; Categories,</i> which has a new column called <i>Shortcut</i>. The user can select the pencil icon to assign a function key to an existing shortcut:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/30993863-bde5-4443-8304-ae0e99ad1438\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>When creating or editing a new category, users can add a new category <i>Shortcut</i>:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f0b4880f-0d32-4445-83b2-ab2ad17f7318\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>This feature is on by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before or after the rollout. You may want to notify your users about this change and update any relevant documentation.</p><p>Learn more: <a href=\"https://support.microsoft.com/office/use-categories-in-outlook-87f27f03-4d9f-48dd-9623-2702692a4480\" target=\"_blank\">Use categories in Outlook - Microsoft Support</a> (will be updated before rollout)</p><p>#newoutlookforwindows</p>",
       "ContentType": "html"
     },
@@ -24930,39 +24767,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Coming soon: Users can create images using natural language to visualize concepts and ideas in the flow of work in iOS/Android mobile apps for Microsoft 365 Copilot, Microsoft Teams, and Microsoft Outlook.</p><p>\n</p><p>A Microsoft 365 Copilot license or a Microsoft 365 license is required to use this feature.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out on mid-April 2025 and expect to complete by late April 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>This new feature will be available by default.</p><p>\n</p><p>In the <i>Chat </i>tab of the Microsoft 365 Copilot mobile app, users can enter natural language to ask Copilot to generate an image:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/675e89b4-adb2-464c-b2b4-029f2d5aedce\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically with no admin action required. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1052161",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-04-10T01:44:20.807Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-10T01:43:58Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft 365 Copilot mobile apps: Generate images",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div>Updated April 9, 2025:&nbsp;This message was updated to reflect the current availability of Windows 10 2015 LTSB.</div><div><br></div><div>The April&nbsp;2025 security update is now available for all supported versions of Windows. We recommend that you install these updates promptly. For more information about the contents of this update, see the release notes, which are easily accessible from the&nbsp;<a href=\"https://support.microsoft.com/help/5055523\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11</a> and&nbsp;<a href=\"https://support.microsoft.com/help/5055518\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 10</a> update history pages. To learn more about the different types of monthly quality updates, see <a href=\"https://aka.ms/Windows/MonthlyUpdates\" rel=\"noopener noreferrer\" target=\"_blank\">Windows monthly updates explained</a>.</div><div>&nbsp;&nbsp;</div><div><b>Highlights for the Windows 11, version 24H2 update:&nbsp;</b></div><ul><li>This security update includes improvements that were a part of update&nbsp;<a href=\"https://support.microsoft.com/help/5053656\" rel=\"noopener noreferrer\" target=\"_blank\">KB5053656</a> (released March 27, 2025).</li><li>This update makes quality improvements to the servicing stack, which is the component that installs Windows updates.</li><li>This update addresses an issue where machine passwords might not rotate correctly in the Identity Update Manager, which can result in user authentication issues.</li><li>This update adds support for the Aysen region in Chile Daylight Saving Time (DST) change in 2025. For more info&nbsp;about DST changes, see&nbsp;the&nbsp;<a href=\"https://techcommunity.microsoft.com/category/windows/blog/dstblog\" rel=\"noopener noreferrer\" target=\"_blank\">Daylight Saving Time &amp; Time Zone Blog</a>.</li></ul><div><br></div><div>Short on time? Watch our <a href=\"https://aka.ms/Windows11/ReleaseNotes/Video/2504\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 release notes video</a> for this month's tips.</div><div><br></div><div>For instructions on how to install this update, see the KB for your operating system listed below:&nbsp;</div><ul><li>Windows 11, version 24H2: <a href=\"https://support.microsoft.com/help/5055523\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055523</a></li><li>Windows 11, versions 23H2 and 22H2: <a href=\"https://support.microsoft.com/help/5055528\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055528</a></li><li>Windows 10, versions 22H2 and 21H2: <a href=\"https://support.microsoft.com/help/5055518\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055518</a></li><li>Windows 10 Enterprise LTSC 2019 and Windows Server 2019: <a href=\"https://support.microsoft.com/help/5055519\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055519</a></li><li>Windows 10 LTSB 2016 and Windows Server 2016: <a href=\"https://support.microsoft.com/help/5055521\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055521</a></li><li>Windows 10 LTSB 2015: <a href=\"https://support.microsoft.com/help/5055547\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055547</a></li><li>Windows Server 2025: <a href=\"https://support.microsoft.com/topic/348facce-4988-4c6a-8cb9-50cab59fd385\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055523</a></li><li>Windows Server 2022: <a href=\"https://support.microsoft.com/help/5055526\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055526</a></li><li>Windows Server 2012 R2: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5055557\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055557</a></li><li>Windows Server 2012: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5055581\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055581</a></li><li>Windows Server 2008 R2 Service Pack 1: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5055561\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055561</a>&nbsp;/ Security Only: <a href=\"https://support.microsoft.com/help/5055570\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055570</a></li><li>Windows Server 2008 SP2: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5055609\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055609</a> / Security Only: <a href=\"https://support.microsoft.com/help/5055596\" rel=\"noopener noreferrer\" target=\"_blank\">KB5055596</a></li></ul>",
       "ContentType": "html"
     },
@@ -25373,40 +25177,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>The Microsoft 365 network connectivity test for Microsoft 365 Copilot is rolling out worldwide to general availability.</p><p>A Microsoft 365 Copilot license is not required to use this feature.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We began rolling out in late March 2025 and expect to complete by early April 2025.</p><p><b>How this will affect your organization:</b></p><p>With this tool, users can locally run a network connectivity test to measure the performance from their device and location and then share the report with others or with Microsoft customer support team to diagnose network issues.</p><p>After this rollout, admin and users can run the connectivity tests including <i>The test for Copilot </i>from <a href=\"https://connectivity.m365.cloud.microsoft\" target=\"_blank\">https://connectivity.m365.cloud.microsoft</a>:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5eda1d40-f7e4-4739-b88b-77659dfb570e\" style=\"width: 400px;\" alt=\"user controls\"></p><p>Sample of the <i>Details </i>tab for the <i>Network connectivity test results for your location:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5bbf3325-f2a5-473f-bb42-fa0105a631a2\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b></p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool?view=o365-worldwide\" target=\"_blank\">Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise | Microsoft Learn</a>&nbsp;</p><p>You may want to notify your users about this change and update any relevant documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1047926",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-04-07T16:12:24.973Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-04T02:55:50Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 network connectivity test for Microsoft 365 Copilot is generally available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2025-07-01T07:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -25618,52 +25388,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated April 3, 2025: We have updated the rollout timeline below. Thank you for your patience.</p><p>Coming soon: Microsoft PowerPoint will soon offer text editing with Microsoft Copilot, where users can ask Copilot to convert their paragraphs of text to bullet points or numbered lists.\n</p><p>A Microsoft 365 Copilot license is required to access this feature.</p><p>This message refers to PowerPoint for Windows desktop, PowerPoint for Mac desktop, and PowerPoint for the web.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=483002\" target=\"_blank\">483002</a>, Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=483003\" target=\"_blank\">483003</a>, and Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=483004\" target=\"_blank\">483004</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out mid-April 2025 (previously late March) and expect to complete by mid-May 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>To access this feature in a saved PowerPoint presentation, users can select the entire block of text, select the Copilot icon next to that text, and then choose <i>Visualize as a list:</i>\n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/13c0464e-44e5-493c-b7a2-486bab3fadbd/b37088f9ce000b9588683ccfddfaa4ccc8af929a.png\" style=\"width: 400px;\"><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/539366f3-3f25-42b7-af8c-33bce7426846/8980853b5d1b515f20c68b2cc8fcdb210ac8f955.png\" style=\"width: 440px;\"><br></p><p>This feature will be on by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p><p>Learn more: <a href=\"https://support.microsoft.com/topic/elevate-your-presentation-game-with-copilot-s-text-rewrite-feature-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd\" target=\"_blank\">Elevate your presentation game with Copilot's text rewrite feature in PowerPoint - Microsoft Support</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "483002,483003,483004"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft PowerPoint will soon allow users to convert text to bullet points or numbered lists using Microsoft 365 Copilot. This feature requires a Microsoft 365 Copilot license and will be available on Windows, Mac, and web versions. The rollout starts in mid-April 2025 and completes by mid-May 2025."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2025-07-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1041967",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-04-03T17:29:06.767Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-03-26T23:41:44Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft PowerPoint: Microsoft 365 Copilot can convert text to bullet points or a list",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated April 3, 2025: We have updated the rollout timeline below. Thank you for your patience.\n</p><p>When investigating alerts in Microsoft Purview Insider Risk Management, you can now use the power of Microsoft Copilot for Security. This tool not only provides concise alert summaries but also allows you to delve into specific user activities. By doing so, you can promptly assess whether the user associated with the alert warrants further investigation or if the alert can be safely dismissed. Also, in one click, you can obtain a summary of the user’s risk profile, highlighting crucial details and top risk factors. Copilot for Security streamlines investigations by reducing the triage workload and enabling faster decisions.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=407864\" target=\"_blank\">407864</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out early August 2024 and expect to complete by late August 2024. \n</p><p>General Availability (Worldwide): We will begin rolling out early June 2025 (previously early March) and expect to complete by late June (previously late March)</p><p><b>How this will affect your organization:</b>\n</p><p>Before this rollout: Customers with Copilot for Security licenses can use it for alert summarization only.\n</p><p>After this rollout, enhanced alert and user investigation with Copilot for Security in Purview Insider Risk Management:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/b7191ee7-8eb2-44b3-a4a7-6d442796ef56\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>Using Copilot for Security in Purview Insider Risk Management for Exfiltration actions involving the user:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/4bb18166-900e-40a7-8965-0782ea30fb15\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>You must have a Copilot for Security license configured for your tenant and give proper permissions to users who will use this feature. Learn about <a href=\"https://learn.microsoft.com/security-copilot/get-started-security-copilot#assign-roles-to-users\" target=\"_blank\">permissions required to access Copilot for Security: Copilot for Security</a>.\n</p><p>Access the Insider Risk Management solution in the <a href=\"https://purview.microsoft.com/compliance\" target=\"_blank\">Microsoft Purview compliance portal</a>.\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/copilot-in-purview-overview\" target=\"_blank\">Microsoft Copilot for Security in Microsoft Purview | Microsoft Learn</a>.\n</p><p>Microsoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your admins about this change and update any relevant documentation.</p>",
       "ContentType": "html"
     },
@@ -25830,43 +25554,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Data Lifecycle Management: Retention based on “last accessed” for OneDrive and SharePoint files",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Following MC973503 <i>(Updated) Microsoft Defender for Office: Introducing \"Threat classification\" for email</i> (published January 2025, updated March 2025), we will introduce <i>Threat classification</i> into the <i>Mail flow status summary</i> report and the <i>Threat protection status</i> report to enhance understanding of the intent behind an email attack.\n</p><p><b>When this will happen</b>\n</p><p>General Availability (Worldwide): We began rolling out mid-March 2025 and expect to complete by late May 2025.\n</p><p><b>How this will affect your organization</b>\n</p><p>Mail flow status report:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/15d6a19f-29ce-4509-a11a-790b0da15a55\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><i>Threat classification</i> breakdown in the <i>Mail flow status</i> report:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e6bcb4b1-1a5f-49e3-843f-c0a6fa4aa1b4\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><i>Threat classification</i> breakdown in the <i>Threat protection status</i> report:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/750c1d70-34c8-4392-94cd-82eb2eb4891f\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>As a result of this change, we will introduce <i>Threat classification</i> as a new column in the output of the <a href=\"https://learn.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport?view=exchange-ps\" target=\"_blank\">Get-MailTrafficATPReport</a> Microsoft PowerShell cmdlet:</p><p>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/2fc1ba5c-b032-4a9c-b5b7-a6475fd14d6b\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>These changes will be available by default.\n</p><p><b>What you need to do to prepare</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p><i>Learn more</i>\n</p><p></p><ul><li><a href=\"https://learn.microsoft.com/defender-office-365/reports-email-security\" target=\"_blank\">View email security reports - Microsoft Defender for Office 365 | Microsoft Learn</a><ul><li><a href=\"https://learn.microsoft.com/defender-office-365/reports-email-security#mailflow-view-for-the-mailflow-status-report\" target=\"_blank\">Mail flow status report</a></li><li><a href=\"https://learn.microsoft.com/defender-office-365/reports-email-security#view-data-by-email--phish-and-chart-breakdown-by-threat-classification-defender-for-office-365\" target=\"_blank\">Threat protection status report</a>\n</li></ul></li><li><a href=\"https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/microsoft-ignite-redefining-email-security-with-llms-to-tackle-a-new-era-of-soci/4302421\" target=\"_blank\">Microsoft Ignite: Redefining email security with LLMs to tackle a new era of social engineering | Microsoft Community Hub</a></li></ul><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Defender for Office is introducing \"Threat classification\" into the Mail flow status summary and Threat protection status reports to better understand email attack intent. The rollout began in mid-March 2025 and will complete by late May 2025. No admin action is required, but reviewing current configurations and notifying users is recommended."
-      }
-    ],
-    "EndDateTime": "2025-07-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1046168",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-04-02T00:55:34.857Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-02T00:55:21Z",
-    "Tags": [
-      "Feature update",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Defender for Office: \"Threat classification\" in Mail flow status summary and Threat protection status reports",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -26779,51 +26466,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Coming soon for Microsoft Viva Engage: Community admins will have an upgraded experience for approving multiple community membership requests in one place. Community admins receive an email when a community membership request is made. After this rollout, when community admins select the link in the email, they will go to a centralized approval page that compiles all community membership requests across all their communities.\n</p><p>This message applies to:\n</p><ul><li>Engage app on the desktop (as a progressive web app)\n</li><li>Engage app in Microsoft Outlook (new Outlook for Windows desktop, Outlook for the web, and new Outlook for Mac desktop)\n</li><li>Engage app in Microsoft Teams (Teams for Windows desktop, Teams for Mac desktop, and Teams for the web)\n</li><li>Engage on the web (www.engage.cloud.microsoft.com)\n</li></ul><p></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=479406\" target=\"_blank\">479406</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out early April 2025 and expect to complete by late April 2025.</p><p><b>How this will affect your organization:</b>\n</p><p>Community admins will be able to access the new experience through the link in an email requesting community membership:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/702ae4c8-c50d-4879-8667-25ed12569ba7\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>This change will be on by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p>#newoutlookforwindows</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "479406"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Engage will soon allow community admins to approve multiple membership requests from a centralized page accessed via email notifications. This update applies to various platforms and will roll out in April 2025. No admin action is required, but organizations should review configurations and notify users."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2025-07-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1035702",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-03-19T00:13:50.327Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-03-19T00:13:28Z",
-    "Tags": [
-      "Feature update",
-      "User impact"
-    ],
-    "Title": "Microsoft Viva Engage: Updates to Community membership approval from email notifications",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>As communicated in 168828 <i>(Updated) SharePoint eSignature electronic signature service </i>(published November 2024, updated March 2025), SharePoint eSignature is Microsoft's first party electronic signature service which allows users to easily request eSignatures on a PDF document via SharePoint online. Signers can easily add their electronic signature. Signed documents are saved securely back to SharePoint.\n</p><p>Before this rollout, when users request an eSignature using the native SharePoint eSignature capability on a PDF, users must wait for their request to complete processing before creating an additional request.\n</p><p>After this rollout, users will be able to create additional requests without needing to wait for the previous request to complete sending.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability: We will begin rolling out mid-April 2025 and expect to complete by late May 2025 to <a href=\"https://learn.microsoft.com/microsoft-365/syntex/esignature-overview#regional-availability\" target=\"_blank\">these regions</a>.\n</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout, new toast notifications will inform users of the processing state of requests. Users can access the in-progress PDF through the toast notification.\n</p><p>This change will be on by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Please notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/syntex/esignature-send-requests\" target=\"_blank\">Create a signature request using SharePoint Signature - Microsoft Syntex | Microsoft Learn</a> (will be updated before rollout)</p>",
       "ContentType": "html"
     },
@@ -27415,43 +27057,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>We will retire Microsoft Skype interoperability from Microsoft Teams on May 1, 2025. Teams users will no longer be able to communicate with Skype accounts after this change is implemented.\n</p><p>This retirement will happen automatically by the specified date. No admin action is required. Please notify your users about this change, update relevant documentation, and share information about continuing communication through Teams free interoperability.\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/teams-skype-interop\" target=\"_blank\">https://go.microsoft.com/fwlink/?linkid=2302203</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Skype interoperability with Microsoft Teams will retire on May 1, 2025. Teams users will no longer communicate with Skype accounts after this date. No admin action is required, but users should be notified, and documentation updated. More information is available [here](https://learn.microsoft.com/microsoftteams/teams-skype-interop)."
-      }
-    ],
-    "EndDateTime": "2025-07-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1019985",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-02-28T18:25:28.597Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-02-28T18:25:10Z",
-    "Tags": [
-      "User impact",
-      "Retirement"
-    ],
-    "Title": "Microsoft Skype interoperability with Microsoft Teams will retire",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated February 28, 2025: We have updated the rollout timeline below. Thank you for your patience.\n</p><p>\n</p><p>Please note that information about meeting link expiry changes related to this rollout has been added.</p><p>We are reducing the length of Microsoft Teams meeting URLs for easier sharing. This rollout applies to all Microsoft Teams platforms (Teams for iOS, Android, Mac, Teams devices, desktop, and web).</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=381953\" target=\"_blank\">381953</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out mid-February 2025 (previously mid-January) and expect to complete by late February 2025 (previously late January). Only Meet Now use cases (except Meet Now in chats and channels) will be affected in this timeframe. There will be no impact on the scheduled meetings in this phase.</p><p>General Availability (Worldwide, GCC): We will begin rolling out mid-May 2025 (previously mid-April) and expect to complete by late May 2025 (previously late April). Only Meet Now use cases (except Meet Now in chats and channels) will be affected in this timeframe. There will be no impact on the scheduled meetings in this phase. Rollout for scheduled meetings and channel Meet Now will be started in early July 2025 and expected to be completed by mid-July 2025. </p><p>General Availability (GCC High, DoD):&nbsp; We will begin rolling out early August 2025 (previously early June) and expect to complete by mid-August 2025 (previously late June).</p><p><b>How this will affect your organization:</b>\n</p><p>The new URL syntax is: https://teams.microsoft.com/meet/&lt;meeting_id&gt;?p=&lt;HashedPasscode&gt; \n</p><p>To make meeting URL shorter, we are removing several parameters such as tenant ID, conversation ID etc. This change serves two main goals: 1) improving usability of URL during sharing and 2) making the URL more secure and less susceptible to malicious attacks. \n</p><p>Here are some details about how meeting links work and when they expire: \n</p><ol><li>In case the meeting organizer gets removed from the tenant, the links to the meetings scheduled by them automatically expire. \n</li><li>&nbsp;Every meeting link expires in 60 days after the scheduled event or in 8 hours, if it was created as Meet Now. Learn more about expiration timelines for different types of meetings. \n</li></ol><p>With the Short Meeting URL release, expiration limit will be applied to all newly created links. \n</p><p>Once the change to Short Meeting URL is released, all newly created meetings will expire as described in the documentation: 60 days after meeting ends for scheduled meetings and 8 hours after creation for Meet Now. Once this expiry period is over, in case someone clicks the link (e.g. outside of Teams app OR in the meeting details inside Teams calendar section), they will be unable to join the meeting.</p><p>Note: Old links created before short meeting URL release will continue working as it previously was (user will be able to join even after the documented expiry limits).</p><p>The reason why we are making this change is simple: security is our topmost priority. Maintaining a high security level is essential to protect sensitive data, prevent financial losses, ensure business continuity, and meet compliance and legal obligations. It is a critical aspect of modern digital life and business operations. This adjustment is designed to enhance the security of Teams meeting links, thereby better safeguarding the customer tenant. We want to be on par with modern security standards, that’s why the new behavior is a step in the right direction that we must take. It’s not possible to keep the current behavior. If you think it breaks some of your business processes, please leave comment to the MC post and describe your case there. \n</p><p>Recommendations in case the meeting link has expired:  \n</p><p>For meeting organizer: We recommend scheduling a new meeting. If the meeting organizer got removed from the tenant someone else should reschedule their meetings from scratch. \n</p><p>For participant: Please reach out to the meeting organizer and ask them to reschedule the meeting or send you an updated link.</p><p><b>What you need to do to prepare:</b>\n</p><p>You may want to check if you have any integrations that use parameters from URL. After the rollout, the URL will only contain the meeting ID. Parameters such as tenant ID, organizer ID, conversation ID and message ID will not be in the URL. \n</p><p>You may inform meeting organizers from your tenant who use expired meeting links, or you may want to make a tenant-wide announcement about this change. \n</p><p>This rollout will happen automatically by the specified date with no admin action required. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>",
       "ContentType": "html"
     },
@@ -27463,7 +27068,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
