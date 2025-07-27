@@ -4,6 +4,37 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<div><b>IMPORTANT</b>: This notice is only relevant for environments where:</div><ul><li>Microsoft SharePoint Server is&nbsp;installed on the computer.</li><li>Scan Cab is used to check for update compliance.</li><li>The July 2025 Scan Cab was deployed before 8:00 am PT on July 26, 2025.</li></ul><div>&nbsp;</div><div>An updated version of the July 2025 Scan Cab was made available at 8:00 am PT on July 26, 2025. This Scan Cab includes new metadata corresponding to new updates for the following versions of SharePoint Server:</div><ul><li>SharePoint Enterprise Server 2016 (<a href=\"https://support.microsoft.com/topic/5002760\" rel=\"noopener noreferrer\" target=\"_blank\">KB5002760</a>)</li><li>SharePoint Enterprise Server 2016 Language Pack (<a href=\"https://support.microsoft.com/topic/5002759\" rel=\"noopener noreferrer\" target=\"_blank\">KB5002759</a>)</li><li>SharePoint Server 2019 (<a href=\"https://support.microsoft.com/topic/5002754\" rel=\"noopener noreferrer\" target=\"_blank\">KB5002754</a>)</li><li>SharePoint Server 2019 Language Pack (<a href=\"https://support.microsoft.com/topic/5002753\" rel=\"noopener noreferrer\" target=\"_blank\">KB5002753</a>)</li><li>SharePoint Server Subscription Edition (<a href=\"https://support.microsoft.com/topic/5002768\" rel=\"noopener noreferrer\" target=\"_blank\">KB5002768</a>)</li></ul><div>&nbsp;</div><div>The new Microsoft updates for these SharePoint Server versions,&nbsp;released July 21, 2025, included additional protections to address&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53770\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2025-53770</a> and <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53771\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2025-53771</a>. See the additional information section of this message for details.</div><div><br></div><div><b>How this affects your organization:</b></div><div>IT administrators who downloaded the Scan Cab before 8:00 am PT on July 26, 2025, should re-acquire and re-deploy their Scan Cab if it is used to assess updates for environments where SharePoint Server is&nbsp;installed on the computer.</div><div>&nbsp;</div><div>No action is required on environments where Scan Cab is not employed or SharePoint Server is not installed. However, please note that there might be non-Microsoft applications which utilize Scan Cab. Review the documentation for any software and update deployment tools which might be in use for your organization, to understand if this is applicable in your environment.</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><div>Administrators can re-deploy the updated Scan Cab via their usual processes. For detailed guidance, see the Additional information section below.</div><div>&nbsp;</div><div><b>Additional information:</b></div><ul><li><a href=\"https://go.microsoft.com/fwlink/?LinkID=74689\" rel=\"noopener noreferrer\" target=\"_blank\">Updated Scan Cab: Download the new Scan Cab here</a></li><li><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53770\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2025-53770</a>: Microsoft SharePoint Server Remote Code Execution Vulnerability</li><li><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53771\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2025-53771</a>: Microsoft SharePoint Server Spoofing Vulnerability</li><li><a href=\"https://support.microsoft.com/topic/5002760\" rel=\"noopener noreferrer\" target=\"_blank\">KB5002760</a>: Description of the security update for SharePoint Enterprise Server 2016: July 21, 2025</li><li><a href=\"https://support.microsoft.com/topic/5002759\" rel=\"noopener noreferrer\" target=\"_blank\">KB5002759</a>: Description of the security update for SharePoint Enterprise Server 2016 Language Pack: July 21, 2025</li><li><a href=\"https://support.microsoft.com/topic/5002754\" rel=\"noopener noreferrer\" target=\"_blank\">KB5002754</a>: Description of the security update for SharePoint Server 2019: July 21, 2025</li><li><a href=\"https://support.microsoft.com/topic/5002753\" rel=\"noopener noreferrer\" target=\"_blank\">KB5002753</a>: Description of the security update for SharePoint Server 2019 Language Pack: July 21, 2025</li><li><a href=\"https://support.microsoft.com/topic/5002768\" rel=\"noopener noreferrer\" target=\"_blank\">KB5002768</a>: Description of the security update for SharePoint Server Subscription Edition: July 21, 2025</li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/announcing-a-smaller-wsus-scan-cab/ba-p/2928256?msclkid=256145ccd0c011ec9266b53af8d0aca1\" rel=\"noopener noreferrer\" target=\"_blank\">Announcing a smaller WSUS Scan Cab - Microsoft Tech Community</a>: Learn more about WSUS and the Scan Cab process</li><li><a href=\"https://learn.microsoft.com/windows/win32/wua_sdk/using-wua-to-scan-for-updates-offline?tabs=vbscript\" rel=\"noopener noreferrer\" target=\"_blank\">Using WUA to Scan for Updates Offline - Win32 apps | Microsoft Docs</a>: Windows Update Agent (WUA) can be used to scan computers for security updates without connecting to Windows Update</li><li><a href=\"https://learn.microsoft.com/windows-server/administration/windows-server-update-services/manage/wsus-and-the-catalog-site\" rel=\"noopener noreferrer\" target=\"_blank\">WSUS and the Catalog Site | Microsoft Docs</a>: The Catalog Site used by WSUS to import updates and drivers</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-07-26T14:54:20.68Z",
+    "HasAttachments": false,
+    "Id": "MC1122435",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-26T14:54:21.703Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-26T14:54:20.757Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "An updated version of the July 2025 Scan Cab is available",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>We’re introducing the new Microsoft Places Management web portal—a centralized, intuitive interface that simplifies how administrators manage Places directory data. This new experience replaces the need for PowerShell scripts, offering a more visual and user-friendly way to manage buildings, floors, rooms, and desks.\n</p><p>This new Microsoft Places Management portal can be accessed via the admin view in the Places app or Place Web, within the Space Management tab for those who have the appropriate RBAC permissions mentioned later in this message:</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=487860\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">487860</a>.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out on mid-August 2025 and expect to complete by late August 2025.</p><p><b>How this will affect your organization:</b></p><p></p><p>This update impacts Microsoft Places administrators. The new web portal provides a streamlined experience to:\n</p><ul><li>View a hierarchical list of spaces (buildings, floors, desk-pools, rooms, desks).\n</li><li>Filter buildings by country, state/province, or city, and refine by floor, section, object type, or modes.\n</li><li>Create, delete, or re-parent space objects (based on permissions).\n</li><li>Edit metadata and configure booking settings (based on permissions).\n</li></ul><p>The portal is on by default and available to Global admins, Exchange Online admins, and the newly introduced Places Admin role. No additional setup is required.</p><p><b>What you need to do to prepare:</b></p><p></p><p>No action is needed to enable this feature. Admins can begin using the portal as soon as it becomes available. A Learn article with detailed guidance is in development and will be shared in a future update.</p><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed?\tYes – Places directory data is now managed via a new interface.</li></ul>",
       "ContentType": "html"
     },
@@ -1750,7 +1781,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"369345\":[{\"RoadmapId\":369345,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341137Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341142Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341146Z\",\"LatestRing\":null}]}"
+        "Value": "{\"369345\":[{\"RoadmapId\":369345,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341142Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341137Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5341146Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5412,7 +5443,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"496369\":[{\"RoadmapId\":496369,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8383078Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8383079Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.838308Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8383081Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8383082Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8383085Z\",\"LatestRing\":null}]}"
+        "Value": "{\"496369\":[{\"RoadmapId\":496369,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8383082Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8383078Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8383079Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.838308Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8383081Z\",\"LatestRing\":null},{\"RoadmapId\":496369,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8383085Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10242,37 +10273,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Insider Risk Management: Policy tuning analysis for priority content only policies",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing a new control for admins, allowing them to block agents created in Microsoft Copilot Studio. This feature provides a PowerShell command to block Copilot Studio agents by the admin. This feature will reach general availability on July 15, 2025.<br><br><b>How does this affect me?</b><br>There may be different reasons where an admin would want to put an agent in a quarantine state, either due to costs or due to a vulnerability that is related to security risk. Blocking an agent is now available as an action that an admin can perform via PowerShell.<br><br>Admins can quarantine an agent via REST API (<a target=\"_blank\" href=\"https://aka.ms/ADO10206_1\">Bots - REST API</a>) or any of our available SDKs (<a target=\"_blank\" href=\"https://aka.ms/ADO10206_2\">Programmability and extensibility - What's new or changed</a>). To run the command, the admin needs to have one of the following roles from Microsoft Entra ID:<ul><li>Global administrator</li><li>Power Platform administrator</li></ul>As an admin, you will have two separate commands, one for blocking an agent and the other for un-blocking an agent. Once an agent is blocked by an admin its new status will be reflected as follows:<ol><li><b>Maker experience</b>: Makers will be able to edit the blocked agent but not test it. When trying to interact with the agent via the test pane in Microsoft Copilot Studio, the maker will receive an error message saying the agent is blocked by the admin.</li><li><b>End user experience</b>: For end users, they will not be able to interact with a blocked agent and will receive an error message every time they try to interact with a blocked agent.</li></ol><b>What action do I need to take?</b><br>This message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-26T16:05:46Z",
-    "HasAttachments": false,
-    "Id": "MC1104083",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-26T16:06:49.96Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-26T16:05:46Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Microsoft Copilot Studio – Enhance governance with an admin control to block agents",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -27510,7 +27510,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
