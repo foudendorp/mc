@@ -1,5 +1,476 @@
 [
   {
+    "ActionRequiredByDateTime": "2025-09-04T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>Microsoft Entra is updating how Conditional Access (CA) policies apply to Azure DevOps sign-ins. Azure DevOps will no longer rely on the Azure Resource Manager (ARM) resource during sign-in or token refresh flows. This change ensures that access controls are applied directly to Azure DevOps. Organizations must update their Conditional Access policies to explicitly include Azure DevOps to maintain secure access.</p><p><b>When this will happen\n</b></p><p>This change will take effect starting <b>September 2, 2025</b>, and will be <b>fully enforced by September 4, 2025</b>, across all environments.</p><p><b>How does this affect your organization?</b></p><p>If your organization has Conditional Access policies targeting the Windows Azure Service Management API (App ID: 797f4846-ba00-4fd7-ba43-dac1f8f63013), those policies will no longer apply to Azure DevOps sign-ins. This may result in <b>unprotected access</b> unless these policies are updated to include Azure DevOps (App ID: 499b84ac-1321-427f-aa17-267ca6975798).\n</p><ul><li>Access controls such as MFA or compliant device requirements may not be enforced unless policies are updated.\n</li><li>If you already have a policy that targets all users and all cloud apps and does not explicitly exclude Azure DevOps, no action is required—Azure DevOps sign-ins will continue to be protected.\n</li><li>This change does not introduce any new user-facing experience or UI changes.\n</li><li>Sign-in activity can be monitored using Microsoft Entra ID sign-in logs.</li><li>Licensing requirement: Microsoft Entra ID P1 or P2 is required. There are no functional differences by license type. This is a feature change, not a new feature, so trial or preview options are not applicable.</li><li>Unlicensed users may also be impacted.\n</li><li>Existing Conditional Access policies will be affected, specifically those targeting the Windows Azure Service Management API.\n</li><li>A small subset of tenants may see the app name as \"Microsoft Visual Studio Team Services\" instead of \"Azure DevOps\"—the App ID remains the same.</li></ul><p>&nbsp;<b>What do you need to do to prepare?</b></p><p>To ensure continued protection of Azure DevOps sign-ins, administrators should:\n</p><ul><li><b>Review existing Conditional Access policies</b> - Identify any policies that target the Windows Azure Service Management API.\n</li><li><b>Update policies to include Azure DevOps:</b><ul><li>Go to the Entra admin center.\n</li><li>Navigate to <b>Entra ID &gt; Conditional Access &gt; Policies</b>.\n</li><li>Select the relevant policy.\n</li><li>Under <b>Target resources</b>, choose<b> Select resources</b> and add Azure DevOps (App ID: 499b84ac-1321-427f-aa17-267ca6975798).\n</li><li>Save the policy.</li></ul></li><li><b>Use Entra ID group membership</b> to scope policies to specific users or groups.</li><li><b>Monitor sign-in activity</b> using Entra ID sign-in logs.</li><li><b>Review licensing requirements</b> - Conditional Access requires Microsoft Entra ID P1 or higher. Organizations without the required license may explore trial options.</li></ul><p>Learn more: </p><ul><li><a href=\"https://devblogs.microsoft.com/devops/removing-azure-resource-manager-reliance-on-azure-devops-sign-ins/\" target=\"_blank\">Removing Azure Resource Manager reliance on Azure DevOps sign-ins | Azure DevOps Blog</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/conditional-access/overview\" target=\"_blank\">What is Conditional Access? | Conditional Access | Microsoft Entra ID | Microsoft Learn</a></li></ul><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Entra requires updating Conditional Access policies by September 4, 2025, to explicitly include Azure DevOps (App ID: 499b84ac-1321-427f-aa17-267ca6975798) for secure sign-ins. Policies targeting the Windows Azure Service Management API will no longer protect Azure DevOps access. Microsoft Entra ID P1 or higher license is needed."
+      }
+    ],
+    "EndDateTime": "2025-10-04T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1123830",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-07-28T23:50:06.253Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-28T23:49:43Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Entra: Action Required – Update Conditional Access Policies for Azure DevOps Sign-ins",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 28, 2025: We have updated the content, timeline, and additional resources.</p><p>We are changing the recommended method for disabling Outlook for the web so that users can continue to access the new Outlook for Windows.</p><p><b>When this will happen:</b>\n</p><p>There is no change that is rolling out. We have published a new support article with instructions on how to use our existing infrastructure to block users from access Outlook for the web without impacting Outlook for Windows.</p><p><b>How this will affect your organization:</b></p><p>Admins can follow the instructions in <a href=\"https://learn.microsoft.com/microsoft-365-apps/outlook/manage/enable-new-outlook-if-outlook-web-is-blocked?view=o365-worldwidehttps%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fmicrosoft-365-apps%2Foutlook%2Fmanage%2Fenable-new-outlook-if-outlook-web-is-blocked%3Fview%3Do365-worldwide\" target=\"_blank\">this support article</a> to block access to Outlook for the web using <a href=\"https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies\" target=\"_blank\">Conditional Access</a>. Blocking Outlook for the web using this policy has no impact on Outlook for Windows.</p><p>Once Outlook for the web is blocked, admins can set the CASMailbox policy -<code>OWAEnabled</code> to $true. This will have no impact on users' ability to access outlook for the web since the work was already done to block Outlook for the web with another policy.&nbsp;</p><p>\n</p><p><b>What you need to do to prepare:</b>\n</p><p>There are no changes to existing polices, so there is nothing you need to do to prepare.</p><p>Learn more</p><ul><li><a href=\"https://learn.microsoft.com/exchange/clients/outlook-on-the-web/mailbox-access\" target=\"_blank\">Enable or disable Outlook on the web access to mailboxes in Exchange Server | Microsoft Learn (will be updated before rollout)</a></li><li><a href=\"https://learn.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/enable-disable-employee-access-new-outlook\" target=\"_blank\">Enable or disable access to the new Outlook for Windows | Microsoft Learn (will be updated before rollout)</a></li></ul><p>#newoutlookforwindows</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft updated guidance on disabling Outlook for the web without affecting Outlook for Windows. Admins can use Conditional Access policies to block Outlook for the web while keeping Outlook for Windows enabled. No policy changes or preparation are needed; updated support articles provide detailed instructions."
+      }
+    ],
+    "EndDateTime": "2025-08-25T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC922623",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-07-28T21:46:22.837Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 for the web",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-10-31T23:03:11Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft new Outlook for Windows and Outlook for the web: Changing how to disable/enable",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 28, 2025: We have updated the timeline. Thank you for your patience.</p><p>As outlined in MC677236 (July 2024), Azure to OneDrive migration of existing Whiteboards has now started and will reach your tenant (if you haven’t received it already) in the coming months, before June 2025. Complete details can be found in this support article: <a href=\"https://support.microsoft.com/office/migration-of-whiteboards-from-azure-to-onedrive-6ddc6df1-540e-4b70-8e6a-541fafdc24f4\" target=\"_blank\">Migration of Whiteboards from Azure to OneDrive - Microsoft Support</a>.\n</p><p><i>Action for admins</i>: The migration affects only Microsoft Azure-based Whiteboards. If your tenant does not have any Azure Whiteboards, this migration does not impact you. Check if your tenant has Azure Whiteboards using this PowerShell cmdlet: <a href=\"https://learn.microsoft.com/powershell/module/whiteboard/get-whiteboardsfortenant?view=whiteboard-ps\" target=\"_blank\">- Get-WhiteboardsForTenant</a>\n</p><p><i>Action item for users:</i> Until the migration completes. When your tenant receives the migration code, users can trigger a migration by starting a Whiteboard session from a web browser by simply going to <a href=\"https://whiteboard.microsoft.com/\" target=\"_blank\">https://whiteboard.microsoft.com/</a> or by using a Whiteboard in their Teams meetings.</p><p>Whiteboard previously stored whiteboard files in Azure storage. In 2022, Whiteboard switched to OneDrive as the storage location for most newly created boards. We made a client-based migration available for your organization, which is currently rolling out gradually.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=117394%2C\" target=\"_blank\">117394</a>.\n</p><p><b>When this will happen</b>\n</p><p>The client-based migration experience started in December 2024 (previously July), and we expect to complete the migration by early August 2025 (previously early June).</p><p><b>How this will affect your organization</b>\n</p><p>Any user who launches an eligible Whiteboard client (Whiteboard on Windows, Whiteboard in Teams desktop/web) will automatically kick off a non-blocking migration of all their whiteboards. Depending on how many whiteboards they have, on average the process will take between a few seconds to a few minutes.\n</p><p>The migration will provide many benefits for your organization and users on the migrated boards, including:\n</p><ul><li>Features unique to whiteboards stored in OneDrive, such as Follow, Commenting, and more.\n</li><li>Improved performance on whiteboards now stored in OneDrive.\n</li><li>Improved compliance and security associated with whiteboard being stored in OneDrive.\n</li></ul><p>There is no possibility to delay the migration.\n</p><p><b>What you need to do to prepare</b>\n</p><p>The migration will happen naturally and automatically for most users in your organization with no disruption, but please ensure that users are aware they need to launch Whiteboard in one of the previously mentioned clients in order to keep their content prior to the conclusion of the migration.\n</p><p>In the unlikely case that a user’s whiteboards fail to migrate, they will see an error banner. We will attempt to migrate the board again in 30 days. If the board contains important information, we recommend the user copy the content to a new whiteboard.\n</p><p>Users will be able to see which boards have not migrated in a dedicated section on the board picker. Admins will be able to verify what whiteboard content remains in Azure and obtain the userIDs via our PowerShell cmdlets, if you wish to proactively notify users to get their content.\n</p><p>Complete details about the migration can be found in <a href=\"https://support.microsoft.com/office/migration-of-whiteboards-from-azure-to-onedrive-6ddc6df1-540e-4b70-8e6a-541fafdc24f4\" target=\"_blank\">Migration of Whiteboards from Azure to OneDrive - Microsoft Support</a>, including how start and completion of migration will be notified, how errors will be communicated, and the new PowerShell cmdlets.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "117394"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The migration of existing Whiteboards from Azure to OneDrive storage began in December 2024 and will complete by August 2025. Users must launch Whiteboard clients to trigger migration, which improves features, performance, and security. Admins can monitor migration status via PowerShell. No delays are possible."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2025-09-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC677236",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-07-28T21:12:45.05Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2023-09-25T23:31:30Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Whiteboard: existing Azure board migration to ODB storage",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to migrate an environment from one tenant to another in Microsoft Dataverse. This feature will reach general availability on July 31, 2025.<br><br><b>How does this affect me?</b><br>With this feature, tenant admins can migrate their environments from a source tenant to a target tenant using PowerShell, streamlining the migration process and giving admins more control and flexibility. Using this feature allows admins to meet compliance requirements.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>If you would like more information about this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO11612\">Tenant-to-tenant migrations</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-28T20:25:10Z",
+    "HasAttachments": false,
+    "Id": "MC1123611",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-28T20:26:20.443Z",
+    "Services": [
+      "Microsoft Dataverse"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-28T20:25:10Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Microsoft Dataverse – Tenant-to-tenant environment move",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 28, 2025:&nbsp; After further review we have decided not to proceed with this change at this time. We apologize for any inconvenience.</p><p>A new feature in the Project Manager agent that automates the creation of status reports for your plans. This capability streamlines the process to generate, view, modify, and share status reports based on project progress. The concise, accurate, and professional report is summarized based on your plan's progress, key milestones, and upcoming tasks. With this feature, you can ensure stakeholders stay informed effortlessly, saving time while maintaining transparency and alignment across your projects.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=474452\" target=\"_blank\">474452</a></p><p><b>When this will happen:</b></p><p>Public Preview (Worldwide): We will communicate via Message center when we are ready to proceed.&nbsp;</p><p>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.</p><p><b>How this will affect your organization:</b></p><p>Users with <span>an </span><span>appropriate license will be able to access the Status Report feature within their shared premium plans. Within the Reports tab, users can generate reports based on their defined parameters, view and delete past reports, and share their reports to a larger forum.</span></p><p><b>What you need to do to prepare:</b></p><p>Admins do not need to take action to enable the feature as it will be automatically available after rollout.</p><p>The Status Report feature will begin rolling out before a control in the admin portal to disable Project Manager is available. If you would like to disable Project Manager before the admin control is available, open a support request with Planner support and we can disable it on your behalf temporarily until the self-service option is available.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "474452"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The planned Status Report feature in Project Manager for Planner, which automates report creation and sharing, will not proceed at this time. Users with appropriate licenses would have accessed it in shared premium plans. Admins need no action, and temporary disablement can be requested via support."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2025-08-04T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1060865",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-28T19:07:26.53Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-04-23T16:43:10Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Status Report with Project Manager Agent in Planner",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 28, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon to new Microsoft Outlook: Users will be able to share Microsoft Word, Microsoft Excel and Microsoft PowerPoint files stored on their device (not stored in a cloud like Microsoft OneDrive) from new Outlook for Windows.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=397094\" target=\"_blank\">397094</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide, GCC): We will begin rolling out mid-September 2025 (previously early July 2025) and expect to complete by late October 2025 (previously late August).&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>Before this rollout, users are only able to see old Outlook for Windows when they try to share a Word, Excel or PowerPoint fie.\n</p><p>After this rollout, when users want to share a Word, Excel, or PowerPoint file that is saved to their device (not stored in a cloud like Microsoft OneDrive), the user can right-click the file name in File Explorer, select <i>Share</i>, and select new Outlook for Windows to email the file.\n</p><p>This option is on by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "397094"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Starting mid-September to late October 2025, new Outlook for Windows will allow sharing local Word, Excel, and PowerPoint files via right-click Share in File Explorer. This replaces the old Outlook sharing method and requires no admin action, though user notification is recommended."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2025-12-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC882252",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-28T18:51:54.953Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-09-03T23:06:57Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "New Microsoft Outlook for Windows: Sharing Word, Excel, and PowerPoint local files through email",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing assisted mapping for standard dataflows in Power Platform. This feature will reach general availability on July 31, 2025.<br><br><b>How does this affect me?</b><br>This feature updates the <b>Load to existing table</b> option within standard dataflows in Power Platform. It updates the user interface and adds functionality that recommends existing Dataverse tables for new data. When you select a target Dataverse table, the feature recommends how to map the columns and alerts you to any type mismatches.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/11611/1\">Assisted mapping for standard dataflows</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-28T18:44:27Z",
+    "HasAttachments": false,
+    "Id": "MC1123586",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-28T18:45:19.66Z",
+    "Services": [
+      "Microsoft Dataverse"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-28T18:44:27Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Platform – Assisted mapping for standard dataflows",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "The public IP addresses of Dynamics 365 Marketing services in all regions are being updated. These new IPs are already available for allowlisting, and Dynamics 365 Marketing services will begin using them beginning August 4, 2025.<br><br><b> How does this affect me?</b><br>If you use custom analytics, as detailed in <a target=\"_blank\" href=\"https://aka.ms/ADO11610\">Prepare for analytic reporting with Power BI</a>, and restrict access to your storage accounts by firewall rules <b>using IP addresses</b>, you will be affected by the change.<br><br> If your custom analytics meet these criteria and are impacted, the marketing analytics export will be stopped due to unauthorized access to customer blob storage from Dynamics 365 Marketing services.<br><br>To verify if this affects your Analytics configuration, you can review the entity <i>Analytics configuration and check Service status</i>.<b> If your organization is using allowlisting by VNets (subnets), you will not be affected by this change</b>.<br><br><b>What action do I need to take?</b><br>Administrators with firewalls or network rights should adjust their allowlists accordingly. A list of all public IP addresses divided by geo is available here: <a target=\"_blank\" href=\"https://aka.ms/ADO11610/2\">Dynamics 365 Customer Insights - Journeys public IP addresses</a>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [],
+    "EndDateTime": "2025-08-28T18:04:25Z",
+    "HasAttachments": false,
+    "Id": "MC1123571",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-28T18:09:32.533Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-28T18:04:25Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Dynamics 365 Marketing – The public IP addresses of Dynamics 365 Marketing service are updating",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 28, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>As part of the final phase of the Viva Engage rebranding, we’re updating the email sender domains used for Viva Engage communications. This change ensures a consistent and secure brand experience across all surfaces and completes the transition from Yammer to Viva Engage.</p><p>This update was previously communicated in MC679739, “Yammer Rebranding to Viva Engage Domain Migration Update,” in October 2023.</p><p><b>When this will happen</b></p><ul><li>The email sender domain rollout will begin in late August 2025 for U.S. and EU tenants currently receiving messages from @yammer.com and @eu.yammer.com respectively. The entire rollout is expected to complete by the end of October 2025.\n</li><li>A fallback/coexistence period will be in place between August and the end of October, during which both the old and new domains will be supported. This will be managed via an internal experiment. During this time, some users within a tenant may receive emails from the old domain while others receive them from the new domain.</li></ul><p></p><p><b>How this will affect your organization</b></p><p>The sender domain for Viva Engage emails will change as follows:\n</p><ul><li>From @yammer.com to @engage.mail.microsoft for U.S. and global regions.\n</li><li>From @eu.yammer.com to @eu.engage.mail.microsoft for European regions.\n</li></ul><p>These new domains are secured with industry-standard authentication protocols (e.g., SPF) to help prevent spoofing and ensure reliable delivery.\n</p><p>To enhance security and reduce cross-tenant spam, sender addresses will now include a tenant-specific prefix. You may see emails from:\n</p><ul><li>noreply_tenant@engage.mail.microsoft (digests and delegate notifications)\n</li><li>notifications_tenant@engage.mail.microsoft (community, storyline, and activity notifications)\n</li><li>announcements_tenant@engage.mail.microsoft (leadership announcements)\n</li></ul><p>These changes apply to all Viva Engage tenants, regardless of license tier (e.g., Viva P1, P2), and affect all Viva Engage emails, including notifications, announcements, and digests.</p><p>Third-party integrations (e.g., journaling, archiving, or routing systems) that rely on the @yammer.com domain for classification or authentication may be impacted. Any such configurations should be reviewed and updated to recognize the new domains.</p><p><i>An example of a new Viva Engage email notification sent from the updated @engage.mail.microsoft domain:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/55498900-45c4-4375-be35-b989948d2946/c7973dd8d9bde265ced10161ed090ee81bad55cb.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b>What you need to do to prepare</b></p><p>Admins should review and update the following configurations:\n</p><ul><li>Transport rules and email gateways: Update any rules that reference @yammer.com to include the new domains.\n</li><li>Exchange filtering: Ensure filtering rules remain effective with the new sender domains.\n</li><li>Outlook rules: Inform users that any rules based on @yammer.com will no longer apply. Users can manually update or remove these rules.\n</li></ul><p>No admin action is required unless your organization has custom configurations based on the old domain.</p><p>Learn more:&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-is-evolving-to-viva-engage/3738825\" target=\"_blank\">Yammer is evolving to Viva Engage | Viva Engage Blog</a></p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva Engage is updating its email sender domains from @yammer.com to @engage.mail.microsoft, starting late August 2025 with completion by October 2025. This includes tenant-specific prefixes for security. Admins should update any custom rules referencing the old domains; no compliance issues identified."
+      }
+    ],
+    "EndDateTime": "2025-11-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1117814",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-28T17:26:24.693Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-18T23:38:18Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva Engage | Email sender domain migration from @yammer.com to @engage.mail.microsoft",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 28, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We're introducing a new self-service capability in the Teams Admin Center (TAC) that allows Teams Phone administrators to resolve and resubmit certain porting order rejections without needing to contact Microsoft support. This enhancement improves efficiency and reduces turnaround time for common porting issues, while preserving the existing support experience for more complex cases.</p><p><b>When this will happen</b></p><p><b>General Availability:</b> We will begin rolling out in<b>&nbsp;early August 2025 (previously late July) </b>and expect to complete by <b>early August 2025</b>.</p><p><b>How this will affect your organization</b></p><p>This update streamlines the current porting experience in TAC without removing any existing features. Administrators will now be able to use the existing porting wizard not only to submit new porting orders but also to fix and resubmit certain rejected orders.\n</p><p>When a porting order is rejected for a fixable reason—such as an incorrect ZIP code or missing PIN—administrators will:\n</p><ul><li>Receive an email notification.\n</li><li>See a prompt on the order's detail page in TAC.\n</li><li>Be guided through the porting wizard to correct and resubmit the order.\n</li></ul><p>This self-serve experience is designed to feel familiar and intuitive, minimizing disruption. Rejections that require partner coordination or are otherwise ineligible for self-service will continue to be handled by Microsoft support.\n</p><p>This feature is:\n</p><ul><li>On by default\n</li><li>Available to all tenants\n</li><li>Accessible to Teams Phone administrators with appropriate permissions\n</li></ul><p>Admins can still contact Microsoft support if needed.&nbsp;</p><p><b>Steps to resolve a rejected porting order in Teams Admin Center</b></p><p>To fix and resubmit a rejected porting order:</p><p style=\"\">a. Navigate to Teams Admin Center.&nbsp;\n</p><p style=\"\">b. In the left navigation, expand the <b>Voice&nbsp;</b>drawer and select&nbsp;<b>Phone numbers:</b></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/15454878-a601-400c-ae8c-477acc64a91b/a42ee9b0cc705d20021ac0bdcab3b0e1f6990f88.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>c. On the <b>Phone numbers&nbsp;</b>page, select the<b>&nbsp;Order history</b>&nbsp;tab. If an order requires customer attention, its status will show <b>Customer action required</b>.</p><p>d. Click the name of the order to open its details:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/2485d7ab-1574-4ad8-acb9-e3788ad8167a/2e18c80fb08e7921fbe0f7ce34619697ae22eb88.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>e. In the order details page, select <b>Update</b> to correct the issue and resubmit the order:</p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b137f731-8315-44d8-8331-7075c37540e9/ee2f882cc841b5724bbc295f0b2e98162c6f7f1b.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b>Steps to contact Microsoft support</b></p><p>a. If your order status is <b>Microsoft Support Engaged</b>, it means that your order already has an associated support ticket. On the order details page, select the <b>Contact service desk</b>&nbsp;hyperlink and navigate to the associated ticket.&nbsp;</p><p>b. If your order status is&nbsp;<b>Customer action required</b>, you will need to create a new support ticket. Here are the steps:</p><ol><li>On the <b>Order Details </b>page, select the <b>Action </b>dropdown and select <b>Get support</b>.</li><li>On the support home page, select <b>Create ticket</b></li><li>On the Create ticket page, fill in your Title, Description, Country.</li><li>Ensure your <b>Case Type</b> is \"Port in\"<b> </b>and your <b>Case Creation Reason</b> is \"Question about existing request\"</li></ol><p><b>What you need to do to prepare</b></p><ul><li>Review the updated guidance on porting numbers to Teams:&nbsp;<a href=\"https://learn.microsoft.com/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams?tabs=new-porting-wizard\" target=\"_blank\">Submitting a port request | Microsoft Learn</a>.&nbsp;</li><li>No additional configuration is required to enable this feature.</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting early August 2025, Teams Admin Center will let administrators self-serve fixes for certain porting order rejections, improving efficiency by allowing corrections and resubmissions without Microsoft support. Notifications and prompts guide admins through the process, while complex cases still involve support. No extra setup needed."
+      }
+    ],
+    "EndDateTime": "2025-09-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1119404",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-28T16:54:43.97Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-21T23:29:59Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams | New in Admin Center: Self-Serve Fixes for Porting Rejections",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 28, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Microsoft SharePoint <i>Page Analytics</i> will soon be upgraded with new capabilities. This rollout will be targeted to SharePoint News posts only. All these capabilities will be made available to all SharePoint pages in future releases.</p><p>If you have a license for <a href=\"https://www.microsoft.com/microsoft-viva/pricing\" target=\"_blank\">Microsoft Viva Suite or Microsoft Viva Employee Communications and Communities</a>, you will have all the new capabilities. If you do not have one of these licenses, you will continue to see the existing metrics and charts in <i>Page Analytics</i> with a modern page design.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=488502\" target=\"_blank\">488502</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out mid-August 2025 (previously late July) and expect to complete by mid-September 2025 (previously late August).</p><p><b>How this will affect your organization:</b>\n\n</p><p>This rollout will provide these new capabilities: \n</p><ul><li>Long-term data: Up to 365 days from current limit of up to 90 days.</li><li>Breakdown by distribution channels: For all <i>Page Analytics</i> charts (including <i>Unique viewers, Total views, </i>and <i>Average time spent per user)</i>, you will be able to see the breakdown by distribution channels (Microsoft Outlook, SharePoint, Microsoft Teams, Microsoft Viva Engage) where a news post was shared. \n</li><li>Two new metrics called <i>Reactions </i>and <i>Promotions</i>. <i>Reactions </i>will indicate how many times have users reacted to a post and a breakdown of reactions by positive, negative, and others to gauge user sentiment for a post. <i>Promotions </i>will indicate the total number of shares, @mentions, and email forwards that a news post has received. \n</li><li>Export analytics data: You will be able to export the analytics data to Excel or PowerPoint. \n</li><li>Audience calculation: Unique viewers as a percentage of number of users to which the post was shared. \n</li><li>Copy a chart as image\n</li><li>Upgraded page design</li></ul><p>\n</p><p>This change will be on by default.\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/0b480c7b-bf92-47a8-85d7-e3d60935d489\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.</p><p>Learn more: <a href=\"https://support.microsoft.com/office/view-usage-data-for-sharepoint-pages-and-news-e3186199-ccc8-4445-9162-bb1bcec8b7ee\" target=\"_blank\">View usage data for SharePoint pages and news - Microsoft Support</a> (will be updated before rollout)</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "488502"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft SharePoint Page Analytics will upgrade starting mid-August 2025, initially for News posts, adding long-term data (365 days), channel breakdowns, new metrics (Reactions, Promotions), export options, audience calculation, chart copying, and a modern design. Available fully with Microsoft Viva licenses; no admin action needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-10-27T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1069561",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-28T16:43:33.883Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-07T23:45:55Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft SharePoint: Updated Page Analytics",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>What and Why</b></p><p>\nWe’re introducing immersive events in Microsoft Teams, enabling organizers to host interactive virtual experiences using avatars in customizable 3D environments. This feature enhances engagement for remote and hybrid meetings by allowing attendees to move freely in a virtual space, participate in spatial audio conversations, and express themselves with avatar reactions. This update aligns with our goal to make virtual collaboration more engaging and inclusive—no additional app downloads required.</p>\n\n<p><b>Rollout Schedule</b></p><p>\n<b>Public Preview:</b> Rolling out now.</p>\n\n<p><b>Impact on Your Organization</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Organizers with Teams Premium license and Teams access to Public Preview features enabled.</li>\n  <li>Attendees with Teams access to Public Preview features enabled (no Teams license required).</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Organizers can schedule immersive events directly from the Teams calendar on PC or Mac.</li>\n  <li>Immersive events will appear under “Organization templates” in the \"New event\" dropdown menu.</li>\n  <li>Organizers can customize 3D spaces with images, videos, and 3D models—no coding required.</li>\n  <li>Attendees can interact using avatars, spatial audio, and reactions, and take selfies to share in the Teams chat.</li>\n  <li>Each immersive event supports up to 300 attendees.</li>\n</ul>\n\n<p><b>Action Required / Recommendations</b></p>\n<ul>\n  <li>Ensure organizers and attendees have Teams' access to Public Preview features enabled. Learn how: <a href=\"https://learn.microsoft.com/microsoftteams/public-preview-doc-updates\">Enable Teams Public Preview</a>.</li><li>Verify that organizers have a Teams Premium license.</li><li><a href=\"https://support.microsoft.com/en-us/office/schedule-an-immersive-event-in-microsoft-teams-7281466a-1d09-45d8-ad7f-bca1ed91c2e2\" target=\"_blank\">Test immersive event creation</a>:\n    <ul>\n      <li>Go to Teams &gt; Calendar &gt; New Event dropdown &gt; Immersive event.</li>\n      <li>Create, customize, and join a test immersive event to validate setup.</li>\n    </ul>\n  </li>\n  <li>Communicate this feature to helpdesk and relevant users.</li>\n  <li>Update internal documentation if you maintain Teams feature guides.</li>\n</ul>\n\n<p><b>Compliance Considerations</b><br>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Immersive events in Microsoft Teams are now in public preview, allowing organizers with Teams Premium to host interactive 3D virtual experiences for up to 300 attendees using avatars, spatial audio, and customizable environments. Organizers schedule events via Teams calendar; attendees need Public Preview access. No compliance issues noted."
+      }
+    ],
+    "EndDateTime": "2025-09-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1123552",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-28T16:36:46.947Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-28T16:36:37Z",
+    "Tags": [
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Immersive events in Microsoft Teams is available in public preview",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
     "ActionRequiredByDateTime": null,
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -2337,53 +2808,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</p><p>A new feature in the Project Manager agent that automates the creation of status reports for your plans. This capability streamlines the process to generate, view, modify, and share status reports based on project progress. The concise, accurate, and professional report is summarized based on your plan's progress, key milestones, and upcoming tasks. With this feature, you can ensure stakeholders stay informed effortlessly, saving time while maintaining transparency and alignment across your projects.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=474452\" target=\"_blank\">474452</a></p><p><b>When this will happen:</b></p><p>Public Preview (Worldwide): We will begin rolling out late April 2025 and expect to complete by mid-May 2025.</p><p>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.</p><p><b>How this will affect your organization:</b></p><p>Users with <span>an </span><span>appropriate license will be able to access the Status Report feature within their shared premium plans. Within the Reports tab, users can generate reports based on their defined parameters, view and delete past reports, and share their reports to a larger forum.</span></p><p><b>What you need to do to prepare:</b></p><p>Admins do not need to take action to enable the feature as it will be automatically available after rollout.</p><p>The Status Report feature will begin rolling out before a control in the admin portal to disable Project Manager is available. If you would like to disable Project Manager before the admin control is available, open a support request with Planner support and we can disable it on your behalf temporarily until the self-service option is available.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "474452"
-      },
-      {
-        "Name": "Summary",
-        "Value": "A new Project Manager agent feature in Planner automates status report creation, streamlining the process for generating, viewing, modifying, and sharing reports. Public preview starts late April 2025. Admins need not take action; the feature will be auto-enabled."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2026-02-02T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1060865",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-22T19:30:11.987Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-23T16:43:10Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Status Report with Project Manager Agent in Planner",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</p><p>We're introducing a new way to seamlessly access your most recently used SharePoint agents directly within the Microsoft 365 Copilot app—no need to navigate back to the SharePoint site. This enhancement helps users stay focused and productive by reducing context switching.</p><p>\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=482601\" target=\"_blank\">482601</a></p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out in mid-September 2025 (previously mid-July).</p><p><b>How this will affect your organization:</b></p><p>With this update, users can quickly return to their most recently used SharePoint agents from within the Microsoft 365 Copilot app. SharePoint agents are implemented as <code>.agent</code> files stored on SharePoint sites. Admins can disable an agent at any time by deleting the corresponding file.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/17e2b503-7a17-42cc-8596-7c547685a9e5\" width=\"400\" height=\"\"></p><p>This feature is designed to streamline workflows and improve discoverability of agents users rely on most. It will be on by default.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><ul><li>Consider updating internal training materials and documentation to reflect this new access point.\n</li><li>Review your organization’s SharePoint agent management practices to ensure appropriate governance and lifecycle management.</li></ul><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed?\tMaybe - It introduces a new access point to existing .agent files.</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?\tYes - SharePoint agents are AI-powered and interact with user data.\n</li><li>Does the change provide end users any new way of interacting with generative AI?\tYes - Users can more easily re-engage with generative AI agents.</li></ul>",
       "ContentType": "html"
     },
@@ -2724,43 +3148,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We're introducing a new self-service capability in the Teams Admin Center (TAC) that allows Teams Phone administrators to resolve and resubmit certain porting order rejections without needing to contact Microsoft support. This enhancement improves efficiency and reduces turnaround time for common porting issues, while preserving the existing support experience for more complex cases.</p><p><b>When this will happen</b></p><p><b>General Availability:</b> We will begin rolling out in<b> late July 2025</b> and expect to complete by <b>early August 2025</b>.</p><p><b>How this will affect your organization</b></p><p>This update streamlines the current porting experience in TAC without removing any existing features. Administrators will now be able to use the existing porting wizard not only to submit new porting orders but also to fix and resubmit certain rejected orders.\n</p><p>When a porting order is rejected for a fixable reason—such as an incorrect ZIP code or missing PIN—administrators will:\n</p><ul><li>Receive an email notification.\n</li><li>See a prompt on the order's detail page in TAC.\n</li><li>Be guided through the porting wizard to correct and resubmit the order.\n</li></ul><p>This self-serve experience is designed to feel familiar and intuitive, minimizing disruption. Rejections that require partner coordination or are otherwise ineligible for self-service will continue to be handled by Microsoft support.\n</p><p>This feature is:\n</p><ul><li>On by default\n</li><li>Available to all tenants\n</li><li>Accessible to Teams Phone administrators with appropriate permissions\n</li></ul><p>Admins can still contact Microsoft support if needed.&nbsp;</p><p><b>Steps to resolve a rejected porting order in Teams Admin Center</b></p><p>To fix and resubmit a rejected porting order:</p><p style=\"\">a. Navigate to Teams Admin Center.&nbsp;\n</p><p style=\"\">b. In the left navigation, expand the <b>Voice&nbsp;</b>drawer and select&nbsp;<b>Phone numbers:</b></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/15454878-a601-400c-ae8c-477acc64a91b/a42ee9b0cc705d20021ac0bdcab3b0e1f6990f88.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>c. On the <b>Phone numbers&nbsp;</b>page, select the<b>&nbsp;Order history</b>&nbsp;tab. If an order requires customer attention, its status will show <b>Customer action required</b>.</p><p>d. Click the name of the order to open its details:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/2485d7ab-1574-4ad8-acb9-e3788ad8167a/2e18c80fb08e7921fbe0f7ce34619697ae22eb88.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>e. In the order details page, select <b>Update</b> to correct the issue and resubmit the order:</p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b137f731-8315-44d8-8331-7075c37540e9/ee2f882cc841b5724bbc295f0b2e98162c6f7f1b.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b>Steps to contact Microsoft support</b></p><p>a. If your order status is <b>Microsoft Support Engaged</b>, it means that your order already has an associated support ticket. On the order details page, select the <b>Contact service desk</b>&nbsp;hyperlink and navigate to the associated ticket.&nbsp;</p><p>b. If your order status is&nbsp;<b>Customer action required</b>, you will need to create a new support ticket. Here are the steps:</p><ol><li>On the <b>Order Details </b>page, select the <b>Action </b>dropdown and select <b>Get support</b>.</li><li>On the support home page, select <b>Create ticket</b></li><li>On the Create ticket page, fill in your Title, Description, Country.</li><li>Ensure your <b>Case Type</b> is \"Port in\"<b> </b>and your <b>Case Creation Reason</b> is \"Question about existing request\"</li></ol><p><b>What you need to do to prepare</b></p><ul><li>Review the updated guidance on porting numbers to Teams:&nbsp;<a href=\"https://learn.microsoft.com/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams?tabs=new-porting-wizard\" target=\"_blank\">Submitting a port request | Microsoft Learn</a>.&nbsp;</li><li>No additional configuration is required to enable this feature.</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting late July 2025, Teams Phone admins can self-fix and resubmit certain rejected porting orders via the Teams Admin Center, improving efficiency without removing existing features. Notifications and guided prompts assist corrections, while complex cases still require Microsoft support. The feature is on by default and available to all tenants."
-      }
-    ],
-    "EndDateTime": "2025-09-08T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1119404",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-21T23:30:09.75Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-21T23:29:59Z",
-    "Tags": [
-      "Feature update",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams | New in Admin Center: Self-Serve Fixes for Porting Rejections",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to create custom AI agents by using existing knowledge, logic, and actions in Power Apps. This feature will reach general availability on August 15, 2025.<br><br>\n<b>How does this affect me? </b><br>\nAgent builder in Power Apps gives you a fast and convenient way to bring your apps into the agentic era by building agents directly within Power Apps Studio with a streamlined Copilot Studio experience. <br><br>\n<b>What action do I need to take? </b><br>\nThis message is for awareness and no action is required. <br><br>\nIf you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/11570/agent-builder-power-apps\">Agent builder in Power Apps</a> learn article.",
       "ContentType": "html"
     },
@@ -2886,44 +3273,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams | Know Your Customer (KYC) onboarding required for new phone number requests",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p><p>As part of the final phase of the Viva Engage rebranding, we’re updating the email sender domains used for Viva Engage communications. This change ensures a consistent and secure brand experience across all surfaces and completes the transition from Yammer to Viva Engage.</p><p>This update was previously communicated in MC679739, “Yammer Rebranding to Viva Engage Domain Migration Update,” in October 2023.</p><p><b>When this will happen</b></p><ul><li>The email sender domain rollout will begin in mid to late August 2025 for U.S. tenants currently receiving messages from @yammer.com. </li><li>It will expand to EU tenants using @eu.yammer.com in early September. The entire rollout is expected to complete by the end of October 2025.</li><li>A fallback/coexistence period will be in place between August and the end of October, during which both the old and new domains will be supported. This will be managed via an internal experiment.</li></ul><p></p><p><b>How this will affect your organization</b></p><p>The sender domain for Viva Engage emails will change as follows:\n</p><ul><li>From @yammer.com to @engage.mail.microsoft for U.S. and global regions.\n</li><li>From @eu.yammer.com to @eu.engage.mail.microsoft for European regions.\n</li></ul><p>These new domains are secured with industry-standard authentication protocols (e.g., SPF) to help prevent spoofing and ensure reliable delivery.\n</p><p>To enhance security and reduce cross-tenant spam, sender addresses will now include a tenant-specific prefix. You may see emails from:\n</p><ul><li>noreply_tenant@engage.mail.microsoft (digests and delegate notifications)\n</li><li>notifications_tenant@engage.mail.microsoft (community, storyline, and activity notifications)\n</li><li>announcements_tenant@engage.mail.microsoft (leadership announcements)\n</li></ul><p>These changes apply to all Viva Engage tenants, regardless of license tier (e.g., Viva P1, P2), and affect all Viva Engage emails, including notifications, announcements, and digests.</p><p>Third-party integrations (e.g., journaling, archiving, or routing systems) that rely on the @yammer.com domain for classification or authentication may be impacted. Any such configurations should be reviewed and updated to recognize the new domains.</p><p><i>An example of a new Viva Engage email notification sent from the updated @engage.mail.microsoft domain:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/55498900-45c4-4375-be35-b989948d2946/c7973dd8d9bde265ced10161ed090ee81bad55cb.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b>What you need to do to prepare</b></p><p>Admins should review and update the following configurations:\n</p><ul><li>Transport rules and email gateways: Update any rules that reference @yammer.com to include the new domains.\n</li><li>Exchange filtering: Ensure filtering rules remain effective with the new sender domains.\n</li><li>Outlook rules: Inform users that any rules based on @yammer.com will no longer apply. Users can manually update or remove these rules.\n</li></ul><p>No admin action is required unless your organization has custom configurations based on the old domain.</p><p>Learn more:&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-is-evolving-to-viva-engage/3738825\" target=\"_blank\">Yammer is evolving to Viva Engage | Viva Engage Blog</a></p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Engage is changing its email sender domains from @yammer.com to @engage.mail.microsoft, starting August 2025 for U.S. tenants and completing by October 2025 globally. This update includes tenant-specific prefixes for enhanced security and requires admins to update any custom email rules or integrations referencing the old domains."
-      }
-    ],
-    "EndDateTime": "2025-11-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1117814",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-18T23:38:58.163Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-18T23:38:18Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva Engage | Email sender domain migration from @yammer.com to @engage.mail.microsoft",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -9709,52 +10058,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft PowerPoint: Stay on-brand when creating a presentation with Microsoft 365 Copilot",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 27, 2025: We have updated the content and rollout timeline below. Thank you for your patience.\n</p><p>In Microsoft Purview, Information Protection will introduce a new feature called Protection Policy to create new protection policies for label-based protection. This enhanced protection can be applied to the following services:</p><p><b>\n</b></p><p>\n</p><ul><li>Azure SQL: Databases hosted on Microsoft’s cloud platform.</li><li>Azure Data Lake Gen 2: Large-scale data storage and analytics service.\n</li><li>Azure Blob Storage: A service for storing large amounts of unstructured data.\n</li><li>Amazon S3: Amazon’s cloud storage service.\n</li></ul><p></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters=&amp;searchterms=394282\" target=\"_blank\">394282</a></p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out late August 2025 (previously late June) and expect to complete by late October 2025 (previously late June).&nbsp;</p><p>\n</p><p><b>How this will affect your organization:</b></p><p>During the public preview phase, you can use these label-based protections without any extra cost. However, once this period ends, a pay-as-you-go pricing model will be implemented for continued use of these features.<br></p><p>To create your initial protection policy, go to the Microsoft Purview Portal and navigate to the Information Protection application.</p><p>This image shows a protection policy created for data sources within Azure:</p><p><img src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW1kR1Q?ver=2625\" style=\"width: 600px;\"></p>\n<p><b>What you need to do to prepare:</b></p><p>Visit the Information Protection app in Microsoft Purview Portal and try to create your first protection policy. Learn more here:</p><ul><li>Authoring and publishing protection policies (preview) | Microsoft Learn) - https://learn.microsoft.com/en-us/purview/how-to-create-protection-policy</li></ul>\n<p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "394282"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Information Protection introduces a new Protection Policy feature for label-based protection on Azure SQL, Azure Data Lake Gen 2, Azure Blob Storage, and Amazon S3. General availability begins late August 2025. Public preview is free, with pay-as-you-go pricing post-preview. Create policies via the Microsoft Purview Portal."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-07-28T16:29:00Z",
-    "HasAttachments": false,
-    "Id": "MC790716",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-27T15:21:24.093Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-05-06T16:29:47Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Information Protection - Sensitivity label protection policy for Azure SQL, Storage, and Amazon S3",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18252,7 +18555,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -18532,53 +18835,6 @@
       "Admin impact"
     ],
     "Title": "AI adoption category in Adoption Score now generally available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated May 7, 2025: After further review, we are not able to continue rolling this out at this time until July 2025.  We apologize for any inconvenience.</p><p>Coming soon to new Microsoft Outlook: Users will be able to share Microsoft Word, Microsoft Excel and Microsoft PowerPoint files stored on their device (not stored in a cloud like Microsoft OneDrive) from new Outlook for Windows.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=397094\" target=\"_blank\">397094</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide, GCC): We will begin rolling out early July 2025 (previously early October) and expect to complete by late October 2025 (previously late August).&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>Before this rollout, users are only able to see old Outlook for Windows when they try to share a Word, Excel or PowerPoint fie.\n</p><p>After this rollout, when users want to share a Word, Excel, or PowerPoint file that is saved to their device (not stored in a cloud like Microsoft OneDrive), the user can right-click the file name in File Explorer, select <i>Share</i>, and select new Outlook for Windows to email the file.\n</p><p>This option is on by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "397094"
-      },
-      {
-        "Name": "Summary",
-        "Value": "The rollout of the new Microsoft Outlook for Windows feature allowing users to share local Word, Excel, and PowerPoint files via email is delayed until July 2025. The rollout will complete by late October 2025. No admin action is required, but user notification and documentation updates are recommended."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2025-12-15T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC882252",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-05-23T16:52:21.417Z",
-    "Services": [
-      "Exchange Online",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-09-03T23:06:57Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "New Microsoft Outlook for Windows: Sharing Word, Excel, and PowerPoint local files through email",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -21079,46 +21335,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated May 8, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>We are changing how you enable or disable the new Microsoft Outlook for Windows and Microsoft Outlook for the web.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide, GCC): We will begin rolling out late June 2025 (previously late April) and expect to complete by mid-July 2025 (previously mid-May).</p><p><b>How this will affect your organization:</b></p><p>We're changing the CASMailbox -<code>OWAEnabled</code> parameter that enables or disables access to user mailboxes using Outlook for the web (formerly known as Outlook Web App or OWA) to block only Outlook for the web and to not affect the behavior of new Outlook for Windows.\n</p><p>You can manage new Outlook for Windows with the CASMailbox-<code>OneWinNativeOutlookEnabled</code> policy.\n</p><p>You are receiving this message because our reporting indicates one or more users in your organization may be using the New Outlook for Windows.\n</p><p>Note: We will not change any existing value for the settings, but we will change which <b>setting controls if the new Outlook for Windows is allowed for the user.</b> Before this rollout, both CASMailbox-<code>OWAEnabled</code> and CASMailbox<code>OneWinNativeOutlookEnabled</code> policies are checked. After this rollout, we will remove the check for CASMailbox-<code>OWAEnabled</code> so you can have the chance to enable new Outlook and still disable Outlook for the web if desired.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your admins about this change and update any relevant documentation.\n</p><p>After this change takes effect, please confirm the CASMailbox&nbsp;<code>OneWinNativeOutlookEnabled</code> policy state for each mailbox. The default value is <code>Enabled</code>.\n</p><p><i>Learn more</i></p><ul><li><a href=\"https://learn.microsoft.com/exchange/clients/outlook-on-the-web/mailbox-access\" target=\"_blank\">Enable or disable Outlook on the web access to mailboxes in Exchange Server | Microsoft Learn</a>&nbsp;(will be updated before rollout)</li><li><a href=\"https://learn.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/enable-disable-employee-access-new-outlook\" target=\"_blank\">Enable or disable access to the new Outlook for Windows | Microsoft Learn</a>&nbsp;(will be updated before rollout)</li></ul><p>#newoutlookforwindows</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft is changing how to enable or disable the new Outlook for Windows and Outlook for the web. The rollout will begin in late June 2025 and complete by mid-July 2025. The CASMailbox-`OWAEnabled` parameter will only affect Outlook for the web, while the new Outlook for Windows will be managed with the CASMailbox-`OneWinNativeOutlookEnabled` policy. No admin action is required before the rollout."
-      }
-    ],
-    "EndDateTime": "2025-08-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC922623",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-05-08T20:47:51.29Z",
-    "Services": [
-      "Exchange Online",
-      "Microsoft 365 for the web",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-10-31T23:03:11Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft new Outlook for Windows and Outlook for the web: Changing how to disable/enable",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated May 8, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Understanding, collaborating on and refining a document takes time and effort. That’s why Copilot will soon include a dynamic document snapshot that updates in real time, giving you a clear summary, key insights, activity and comment highlights, and coaching suggestions in the top of your document. Whether you're learning, managing projects, or need a writing assistant, Copilot helps you stay focused and in control.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=483519\" target=\"_blank\">483519</a>.</p><p><b>When this will happen:</b>\n</p><p>General availability (Worldwide):</p><ul><li>Document snapshot - Summary is currently rolling out in Web and in Word desktop.</li><li>Document snapshot - Insights tab will roll out late April 2025 in Web and will start rolling out July 2025 in Word desktop.</li><li>Document snapshot - Activity will roll out late May 2025 (previously mid-May) in Web and will start rolling out July 2025 in Word desktop</li><li>Document snapshot - Discussion will roll out mid-May 2025 in Web and will start rolling out around August 2025 in Word desktop</li><li>Document snapshot - Coaching will start rolling out in June 2025 in Web. There is no ETA for Word desktop at present.&nbsp;</li></ul><p><b>How this will affect your organization:</b></p><p>With the new Copilot document snapshot, you can:</p><ul><li>See an automatic summary in the document snapshot (Summary tab). In the summary, you can choose the level of summary detail –brief, standard, or detailed. Detailed summary now supports up to 3000 pages in a document, an upgrade from the previous cap of 300 pages (a 10x increase!).\n</li><li>Get a quick view of key numbers in the document, or example questions you could ask to get other details (Insights tab). If you have more questions, you can scroll down to the bottom, select the chat button and enter a prompt.\n</li><li>Catch up on what has changed in the document since you last opened it (Activity tab). You can also decide to look back what happened over the last 3 days, 1 week or 2 weeks.\n</li><li>See a summary of all active document comments and discussions (Discussion tab).&nbsp;</li><li>See coaching suggestions to improve your document (Coach tab).</li></ul><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c626b645-ad3f-4dd2-a754-5b891cf37607\" style=\"width: 450px;\"></p><p><b>What you need to do to prepare:</b>\n</p><p>You may consider updating your training and documentation as appropriate. These features are available to users with a Copilot license.</p><p>Review the following resource to understand how to manage Microsoft 365 Copilot access within your organization:</p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-page\" target=\"_blank\">Manage Microsoft 365 Copilot scenarios in the Microsoft 365 admin center</a></li></ul><p>You can manage Copilot for specific apps or users through either the Microsoft 365 Admin center or Group Policy.</p>",
       "ContentType": "html"
     },
@@ -21222,51 +21438,6 @@
       "Admin impact"
     ],
     "Title": "SharePoint agents trial usage data now available in Microsoft Admin Center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Microsoft SharePoint <i>Page Analytics</i> will soon be upgraded with new capabilities. This rollout will be targeted to SharePoint News posts only. All these capabilities will be made available to all SharePoint pages in future releases.\n</p><p>If you have a license for <a href=\"https://www.microsoft.com/microsoft-viva/pricing\" target=\"_blank\">Microsoft Viva Suite or Microsoft Viva Employee Communications and Communities</a>, you will have all the new capabilities. If you do not have one of these licenses, you will continue to see the existing metrics and charts in <i>Page Analytics</i> with a modern page design.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=488502\" target=\"_blank\">488502</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out late May 2025 and expect to complete by late June 2025.\n</p><p><b>How this will affect your organization:</b>\n\n</p><p>This rollout will provide these new capabilities: \n</p><ul><li>Long-term data: Up to 365 days from current limit of up to 90 days.</li><li>Breakdown by distribution channels: For all <i>Page Analytics</i> charts (including <i>Unique viewers, Total views, </i>and <i>Average time spent per user)</i>, you will be able to see the breakdown by distribution channels (Microsoft Outlook, SharePoint, Microsoft Teams, Microsoft Viva Engage) where a news post was shared. \n</li><li>Two new metrics called <i>Reactions </i>and <i>Promotions</i>. <i>Reactions </i>will indicate how many times have users reacted to a post and a breakdown of reactions by positive, negative, and others to gauge user sentiment for a post. <i>Promotions </i>will indicate the total number of shares, @mentions, and email forwards that a news post has received. \n</li><li>Export analytics data: You will be able to export the analytics data to Excel or PowerPoint. \n</li><li>Audience calculation: Unique viewers as a percentage of number of users to which the post was shared. \n</li><li>Copy a chart as image\n</li><li>Upgraded page design</li></ul><p>\n</p><p>This change will be on by default.\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/0b480c7b-bf92-47a8-85d7-e3d60935d489\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.</p><p>Learn more: <a href=\"https://support.microsoft.com/office/view-usage-data-for-sharepoint-pages-and-news-e3186199-ccc8-4445-9162-bb1bcec8b7ee\" target=\"_blank\">View usage data for SharePoint pages and news - Microsoft Support</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "488502"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft SharePoint Page Analytics will be upgraded with new capabilities for SharePoint News posts starting late May 2025. New features include long-term data, breakdown by distribution channels, new metrics, export options, audience calculation, and an upgraded page design. No admin action is required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-08-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1069561",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-05-07T23:46:04.037Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-07T23:45:55Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft SharePoint: Updated Page Analytics",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
