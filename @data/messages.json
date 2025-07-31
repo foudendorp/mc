@@ -4,6 +4,534 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b>Introduction\n</b></p><p>To enhance workbook security, a new group policy is being introduced to expand File Block Settings to external workbook links. This policy allows administrators to control whether links to blocked file types can be refreshed.\n</p><p>If not configured, no changes will take effect immediately. However, starting October 2025, the default behavior will block external links to file types currently blocked by the Trust Center. When this policy is enabled, new references to blocked file types will return a <code>#BLOCKED</code> error. Existing links will display the last successfully refreshed values but will no longer refresh.\n</p><p><b>When this will happen\n</b></p><p><b>General Availability:</b> We will begin rolling out the default change in early October 2025 and end in late July 2026.\n</p><p><b>How this affects your organization\n</b></p><ul><li><b>Policy not configured:</b> No immediate change will occur.\n</li><li><b>Build 2509 warning bar: </b>Users will see a business bar when opening workbooks containing external links to blocked file types, alerting them to the upcoming change.\n</li><li><b>Build 2510 enforcement: </b>If the policy remains unconfigured, users will no longer be able to refresh or create new references to blocked file types.\n</li><li><b>Existing links behavior:</b> External links will retain the last successfully loaded value but will not refresh.\n</li><li><b>New links behavior: </b>Creating a new external link to a blocked file type will return a <code>#BLOCKED</code> error.\n</li><li><b>Workbook Links pane: </b>Will indicate which workbooks failed to refresh due to being blocked.</li></ul><p><b>What you can do to prepare\n</b></p><p>Administrators who need to allow workbook links to blocked file types can revert to the previous behavior using the following methods:\n</p><ul><li>Registry setting: Set <code>HKCU\\Software\\Microsoft\\Office\\16.0\\Excel\\Security\\FileBlock\\FileBlockExternalLinks</code> to 0.\n</li><li>Group Policy setting: <code>Set File Block Includes External Link</code> Files to <code>Disabled</code>:\n</li><li><code>Excel Group Policy Template &gt; Excel Options &gt; Security &gt; Trust Center &gt; File Block Settings &gt; File Block includes external link files</code>\n</li></ul><p>We recommend reviewing existing workbooks and communicating this change to users who rely on external links to ensure continuity of workflows.\n</p><p><b>Learn more:</b>&nbsp;<a href=\"https://learn.microsoft.com/en-us/deployoffice/security/internet-macros-blocked\" target=\"_blank\">Macros from the internet are blocked by default in Office</a><a href=\"https://learn.microsoft.com/en-us/deployoffice/security/internet-macros-blocked\" target=\"_blank\"></a></p><p><b>Learn more:</b> <a href=\"https://support.microsoft.com/en-us/topic/external-workbook-links-to-blocked-file-types-will-be-disabled-by-default-6dd12903-0592-463d-9e68-0741cf62ee58\" target=\"_blank\">External Workbook Links to Blocked File Types Will Be Disabled by Default</a></p><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting October 2025, external workbook links to blocked file types will be disabled by default, showing a #BLOCKED error for new links and preventing refresh of existing ones. Administrators can revert this via registry or group policy settings. A rollout and user warnings will occur from October 2025 to July 2026."
+      }
+    ],
+    "EndDateTime": "2026-08-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1125497",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-07-30T23:51:29.75Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-30T23:50:24Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "External workbook links to blocked file types will be disabled by default",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction\n</b></p><p>We’re enhancing offline functionality in the new Microsoft Outlook for Windows. This update (Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&amp;searchterms=496371\" target=\"_blank\">496371</a>) enables users to add file attachments while composing emails offline, improving productivity for those working without an internet connection.\n</p><p><b>When this will happen\n</b></p><ul><li><b>Targeted Release (Worldwide): </b>Rollout begins in mid August 2025 and is expected to complete by mid September 2025.\n</li><li><b>General Availability (Worldwide):</b> Rollout begins in mid October 2025 and is expected to complete by late October 2025.\n</li><li><b>General Availability (GCC):</b> Rollout begins in early November 2025 and is expected to complete by mid November 2025.\n</li></ul><p><b>How this affects your organization\n</b></p><p>Users with offline mode enabled in the new Outlook for Windows will be able to attach files to draft emails while offline. These emails, including attachments, will be sent automatically once the device reconnects to the internet.\n</p><p>This feature will be on or off by default based on your current configuration of the <code>OWAMailboxPolicy-OfflineEnabledWin</code> policy. No changes will be made to existing configurations.\n</p><p><b>What you can do to prepare\n</b></p><p>To enable this functionality, ensure the following settings are configured in the new Outlook under <i>Settings </i>&gt; <i>General </i>&gt; <i>Offline</i>:\n</p><ul><li>Enable offline email, calendar, and people\n</li><li>Include file attachments</li></ul><p>Admins can manage this feature using the <code>OWAMailboxPolicy-OfflineEnabledWin</code> mailbox policy. Learn more at&nbsp;<a href=\"https://learn.microsoft.com/powershell/module/exchange/set-owamailboxpolicy\" target=\"_blank\">Set-OwaMailboxPolicy</a>.</p><p><i>Caption i. Offline editing can be enabled or disabled in Settings &gt; General &gt; Offline</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5512c4e3-99b6-44f5-b266-6f994f939ded/5c49e703b9acbba35362a284dab2a3567e666d9a.png\" style=\"width: 400px;\" alt=\"Screenshot highlighting toggle to Enable offline email, calendar, and people.\"></p><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "496371"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Outlook for Windows will allow users to add file attachments to emails while offline, sending them automatically when reconnected. Rollout starts mid-August 2025 for Targeted Release and mid-October 2025 for General Availability. Admins can manage this via the OWAMailboxPolicy-OfflineEnabledWin policy."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2025-12-08T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1125491",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-30T23:48:17.27Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-30T23:48:11Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Microsoft Outlook for Windows: Add attachments while offline",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p>You can now save a meeting as a draft on your calendar when you're not ready to send invites. This update gives users more flexibility when planning events, especially when details are still being finalized.</p>\n\n<b>When this will happen</b><p></p><p>\n</p><ul>\n<li><b>General Availability (Worldwide, GCC, GCC High, DoD):</b> Rollout will begin in July 2025 and is expected to complete by late August 2025.</li>\n</ul>\n\n<b>How this affects your organization</b><p></p><p>\n</p><p>Users will be able to save events as drafts when creating a meeting with at least one attendee. To do this, select the <b>Discard</b> button while composing the event, then choose <b>Save as a draft</b>. Draft events will appear on the calendar with a “<b>Draft</b>” prefix in the title.<br>This feature is available on mobile and will be <b>on by default</b>.</p>\n\n<p></p><p><b>What you can do to prepare</b></p><p>\n</p><ul>\n<li>No admin action is required. You may want to:</li>\n<li>Inform your users about this new capability.</li>\n<li>Update internal training materials or documentation as needed.</li>\n</ul><b>Compliance considerations</b><p></p><a href=\"https://support.microsoft.com/outlook\">\n</a><p></p><p></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook will allow saving meetings as drafts starting July 2025, showing “[Draft]” in titles. Users can discard and save events as drafts with attendees, available by default on mobile. No admin action is needed; inform users and update training as needed. No compliance issues identified."
+      }
+    ],
+    "EndDateTime": "2025-09-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1125489",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-30T23:47:43.65Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-30T23:47:37Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Outlook | Save an Event as a Draft",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>\n<b>Introduction</b>\n\n</p><p>We’re improving the presentation creation experience in Microsoft 365 Copilot. With this update, Copilot will generate presentations with greater depth in content, narrative flow, structure, and visual design—helping users create more compelling and professional presentations faster. Copilot will create a link to the presentation saved in your OneDrive for you to open and review. This enhancement builds on the existing \"Create presentation\" feature in Bizchat and interacts with Microsoft 365 services such as OneDrive and SharePoint.\n</p><p>A Microsoft 365 Copilot license is required to use this feature.</p>\n\n<b>When this will happen</b>\n\n<p><b>General Availability (Worldwide):</b> Rollout will begin in mid-August 2025 and is expected to complete by late August 2025.</p>\n\n<b>How this affects your organization</b><p></p><p><b></b>\n</p>\n<p>After this rollout, users with Microsoft 365 Copilot will experience improved presentation generation capabilities. Copilot will automatically apply enhancements to content structure, storytelling, and design elements when creating presentations.\n</p><p>This feature will be available by default and requires no configuration.\n</p><p><b>Known limitations at launch:\n</b></p><ul><li>Template selection during presentation creation is not yet supported.\n</li><li>Users can specify text content, but descriptions of graphical elements are not yet supported.</li></ul>\n\n<p><b>Example experience</b></p>\n<p><i>Copilot prompt used to generate a presentation with structured narrative and visual design:</i></p>\n<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c13cc5ec-97ec-4ec2-8126-cf23ce0365c0/d1d3da1093ebb9866b6e326ff064757996feb507.png\" style=\"width: 400px;\" alt=\"user settings\"><b><br></b></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f882b30b-4bb2-457e-85be-14f81800a3df/7adb6da6a059ff91a78d21ea6c851cc194bbacaa.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><br></p><p><b></b></p>\n\n<p><i>Generated slide screenshot\" with enhanced design and content depth:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b81b135d-5eff-478a-b3fc-0a2a9795b6e7/b5570934f609f808e4c6db86e7fd2ec8babb1abe.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><br></p><p><b>What you can do to prepare</b></p><p>No admin action is required before the rollout. You may want to:</p><ul><li>Inform your users about the enhanced presentation capabilities.\n</li><li>Update internal documentation or training materials as needed.</li></ul><p>\n</p><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-overview\" target=\"_blank\">Microsoft 365 Copilot overview | Microsoft Learn</a></p><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot will enhance presentation creation with improved content depth, narrative flow, structure, and design, saving presentations to OneDrive. The update rolls out worldwide from mid to late August 2025, requires no admin action, and has some limitations like no template selection at launch."
+      }
+    ],
+    "EndDateTime": "2025-09-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1125486",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-30T23:45:46.05Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-30T23:45:39Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Enhanced presentation creation quality",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting July 30th, 2025 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2507-july-30\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "ExternalLink",
+        "Value": "https://docs.microsoft.com/officeupdates/"
+      }
+    ],
+    "EndDateTime": "2025-08-13T22:46:09.873Z",
+    "HasAttachments": false,
+    "Id": "MC1125449",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-30T22:46:10.623Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-30T22:46:09.873Z",
+    "Tags": [
+      "Feature update"
+    ],
+    "Title": "Updates available for Microsoft 365 Apps for Current Channel",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Beginning mid-August 2025, we're introducing a new Tools feature in the Copilot Chat prompt box. Tools acts as a lightweight entry point into high-value, task-specific Copilot features and capabilities directly from the prompt box. By selecting Tools, users get a menu where they can easily discover and trigger the right Copilot feature or capability for their current task, while also providing consistent interactions across tools. Based on the user's license, Tools provides easy access to features and capabilities like Researcher, Analyst, Pages, and image generation.</p><p><b>When this will happen</b><br></p><p>General Availability (Worldwide): We will begin rollout mid-August 2025 and expect to complete by late August 2025.</p><p><b>How this affects your organization</b></p><p>Once this update is rolled out, users will see a new Tools button in the Copilot Chat prompt box. Selecting this button opens a menu of AI-powered features tailored to the user’s license. This enhancement improves discoverability and usability of Copilot capabilities, helping users complete tasks more efficiently.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5d805de7-b16b-48ae-92e7-afc0df17e66c  \" width=\"400\" height=\"\"></p><p>This feature is on by default and does not require admin configuration.</p><p><b>What you can do to prepare</b><br></p><p>No admin action is required. However, you may want to:</p><ul><li>Inform users about the new Tools experience in Copilot Chat.</li><li>Update internal documentation or training materials if needed.</li></ul><ul></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting mid-August 2025, Microsoft Copilot Chat will feature a new Tools button offering easy access to task-specific AI capabilities based on user licenses. This default-enabled update enhances feature discoverability without requiring admin action; organizations should inform users and update training as needed."
+      }
+    ],
+    "EndDateTime": "2025-10-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1122153",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-30T21:57:19.093Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-25T22:32:28Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "New Tools feature coming to the Microsoft Copilot Chat prompt box",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>What and Why</b></p><p>\nTo help organizations better manage and monitor their Microsoft 365 Copilot Chat pay-as-you-go spending, we’re introducing budget controls in the Microsoft 365 Admin Center. This new capability allows global and billing admins to set budget thresholds, receive alerts, and view historical spending data—supporting financial oversight and proactive cost management.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=497417\" target=\"_blank\">497417</a></p>\n\n<p><b>Rollout Schedule</b></p><p>\nGeneral Availability (Worldwide): Rollout begins mid-July 2025 and is expected to complete by early August 2025.</p>\n\n<p><b>Impact on Your Organization</b></p>\n<ul>\n<li><b>Who is affected:</b> <ul><li>Global and billing administrators managing Microsoft 365 Copilot Chat pay-as-you-go billing policies.</li></ul></li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A new budget setting will be available in the Microsoft 365 Admin Center for Copilot Chat billing policies.<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/801b49f9-8196-41e1-9ef2-9d4ca8ab2aae \" width=\"400\" height=\"\"></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/8349dcd4-e651-421d-a818-0af57c2ce7d9 \" width=\"400\" height=\"\"></p></li>\n    <li>Admins can:\n      <ul>\n        <li>Set a dollar-based budget limit per billing policy.</li>\n        <li>Configure email alerts at customizable thresholds (e.g., 50%, 80%, 90%, 100% of budget).</li>\n        <li>View up to 6 months of historical pay-as-you-go spending data.</li>\n      </ul>\n    </li>\n    <li>Alerts will initially be sent from Azure and transition to Microsoft 365 Admin Center in a future update.</li>\n    <li>Budgets can only be created and edited in the Microsoft 365 Admin Center.</li>\n    <li>Billing will <b>not</b> automatically stop when the budget is reached; admins must manually disconnect the payment method or service if needed.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b>Action Required / Recommendations</b></p>\n<ul>\n  <li>No action is required to prepare.</li>\n  <li>Once available, you may:\n    <ul>\n      <li>Set budget limits for Copilot Chat billing policies in the Microsoft 365 Admin Center.</li>\n      <li>Configure alert thresholds to notify mail-enabled security groups.</li>\n      <li>Monitor historical spending data to inform future budgeting decisions.</li></ul></li>\n</ul>\n\n<p><b>Compliance Considerations</b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "497417"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Admin Center will add budget controls for Copilot Chat pay-as-you-go billing, allowing global and billing admins to set budget limits, receive customizable alerts, and view six months of spending data. Rollout starts mid-July 2025, with no automatic service shutdown at budget limits."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-09-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1122160",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-30T20:17:17.503Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-25T22:36:04Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot Chat: Set budget limits for \"Pay-as-you-go billing\" in Microsoft 365 admin center",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 30, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Windows Autopatch will now provide role-based access controls to access key update management features, previously limited to Intune Service administrators. With this change, administrators can assign specific roles and permissions, so that only authorized personnel can perform update management actions and read reports. With this change you will be able to grant appropriate access rights to individuals, resulting in far fewer privileges for update management, therefore minimizing the need for Intune Service administrator privileges.  \n</p><p><b>When will this happen:</b>  \n</p><p>General Availability will take place starting May 27, 2025, Pacific Standard Time, and the change will be completed on August 4, 2025.</p><p> <b>How will this affect your organization:</b>  \n</p><p>This release includes the following \n</p><p><b>Built-in roles \n</b></p><ol><li><b>Windows Autopatch Administrator:</b> This includes full permissions necessary for Autopatch Groups, Autopatch reports and Messages.  \n</li><li><b>Windows Autopatch Reader:</b> This includes read permissions necessary for Autopatch Groups, Autopatch reports and Messages but does not permit any changes. \n</li></ol><p>IT admins have been using the Intune role <b>Policy and Profile Manager</b> or an Intune custom role with equivalent permissions that include Device configuration permissions for managing Intune policies. To fully access advanced update management features such as Autopatch Groups, a user must be assigned to both Policy and Profile Manager and Windows Autopatch administrator.  \n</p><p>The roles will be available at  <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a> -&gt; Tenant Administration -&gt; Roles -&gt; All roles \n</p><p>Custom roles – you can create a custom Autopatch role and include just the permissions required for update related activities. You can access this from <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a> -&gt; Tenant Administration -&gt; Roles -&gt; All roles -&gt; Create -&gt; Windows Autopatch role.   \n</p><p>You will be able to assign <b>Intune scope tags</b> to Autopatch Groups and filter Autopatch reports based on scope tags.  \n</p><p><b>Windows Autopatch reports</b> – You will be able to access the Windows Autopatch reports with the above built-in roles, or grant permissions to custom roles.  Learn more about which current roles can access reports at <a href=\"https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/windows-autopatch-windows-quality-and-feature-update-reports-overview#who-can-access-the-reports\" target=\"_blank\"><u>Who can access Windows Autopatch reports</u></a> \n</p><p>In addition to Global administrator and Intune Service administrator, the following Microsoft Entra roles will have access to various Autopatch features. \n</p><ol><li>Service Support Administrator \n</li><li>Security Admin \n</li><li>Security Reader \n</li><li>Billing Administrator \n</li><li>Helpdesk Administrator \n</li></ol><p>We will also remove the <b>\"Modern Workplace Roles - Service Administrator\"</b> and <b>\"Modern Workplace Roles - Service Reader”</b> Microsoft Entra groups, that Autopatch no longer uses, and if they are present in your tenant. Autopatch will not migrate the group membership to any of the above roles, at release.  \n</p><p><b>What you need to do to prepare:</b>  \n</p><p>Review your environment for users in <b>\"Modern Workplace Roles - Service Administrator”</b> or <b>\"Modern Workplace Roles - Service Reader\"</b>. Configure their permission to view Autopatch reports using the roles included in <b>\"Who can access Windows Autopatch reports\"</b>, to prevent loss of access.  \n</p><p>If you have any questions or concerns, or need assistance, file a service request by visiting the <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a>.  \n</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Windows Autopatch introduces role-based access controls starting May 27, 2025, allowing assignment of specific update management roles—Administrator and Reader—reducing reliance on Intune Service administrator privileges. Custom roles and Intune scope tags are supported. Some legacy Entra groups will be removed; review user permissions accordingly."
+      }
+    ],
+    "EndDateTime": "2025-09-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1061099",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-30T20:07:08.303Z",
+    "Services": [
+      "Windows Autopatch"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-04-24T00:50:29Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New Feature: Role-based access controls for Windows Autopatch",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 30, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Copilot users in a business-to-business multi-tenant organization set up can now view the intelligent meeting recap after the meeting from the resource tenant where the meeting was hosted.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=488298\" target=\"_blank\">488298</a></p><p>\n</p><p>\n</p><p><b>When this will happen:</b></p><p>Targeted release: We will begin rolling out early September 2025 and expect to complete by mid-September 2025.\n</p><p>General Availability: We will begin rolling out mid-September 2025 and expect to complete by late September 2025.</p><p><b>How this will affect your organization:</b></p><p>The new capability empowers users in multi-tenant setup to access meeting recap post meeting.</p><p><b>What you need to do to prepare:</b></p><p>No action required for either admin or users. Any Copilot users configured as a business-to-business user in a multi-tenant organization will have the capability after the launch.</p><p>For additional information on B2B muti-tenant: <a href=\"https://learn.microsoft.com/entra/external-id/what-is-b2b\" target=\"_blank\">Overview: B2B collaboration with external guests for your workforce</a></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "488298"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Copilot users in multi-tenant organizations can access intelligent meeting recaps from the resource tenant after meetings. Rollout starts early September 2025, completing by late September 2025. No action is needed from admins or users for this update."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1084034",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-07-30T19:36:00.66Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-27T23:15:55Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Intelligent Recap Access for Multi-tenant Organization",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "Starting on September 3, 2025, the classic Power Platform admin center (PPAC) experience will have reached an end of support. The new <a target=\"_blank\" href=\"https://admin.powerplatform.microsoft.com/\">PPAC</a> offers improved features and enhanced management experience.<br><br><b>How does this affect me?</b><br>As access to the classic admin center will end on September 3, 2025, users need to begin the transition to the new PPAC as soon as possible for task management to avoid interrupted administration and leverage the latest enhancements.<br><br><b>What action do I need to take?</b><br>Please transition to the new PPAC and reference the <a target=\"_blank\" href=\"https://aka.ms/ADO11587\">Use the new and improved Power Platform admin center</a> learn article for further assistance.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-30T19:04:08Z",
+    "HasAttachments": false,
+    "Id": "MC1125273",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-30T19:05:12.047Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-30T19:04:08Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Power Platform admin center – Information regarding the end of support for classic PPAC",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 30, 2025: We have updated the timeline. Thank you for your patience.</p><p>We’re introducing a new capability in Microsoft Purview Information Protection: On-demand classification of files on Windows devices. This feature will enable you to discover and classify sensitive content stored on devices, helping to strengthen your data security posture and meet compliance requirements.</p><p>This capability is especially useful for:</p><ul><li>Investigating potential incidents or exposure risks \n</li><li>Surfacing older files that weren’t captured in Data Loss Prevention (DLP) activity logs \n</li><li>Identifying sensitive content in place for audit or compliance use</li></ul><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496593\" target=\"_blank\">496593</a>.</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out mid-August 2025 (previously mid-July) and expect to complete by late September 2025 (previously late July).\n</p><p>General Availability (Worldwide): We will begin rolling out mid-November 2025 and expect to complete by late November 2025.</p><p><b>How this will affect your organization:</b></p><p>After this rollout, admins can access this feature in Purview Information Protection at <i>Data Loss Protection &gt; Classifiers &gt; On-demand classification:&nbsp;</i></p><p>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/975f728e-5a91-45a8-8d52-a7f0b499107f\" style=\"width: 400px;\" alt=\"user settings\"></p><p>There will be no impact to existing Purview configuration or user experience by default. You can choose to use this capability to discover existing content and apply applicable policies.</p><p> \n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/2ff6d84b-0d78-4580-8f8b-8b57860008ff/dd10d6daa89b263ead02f3ff31431ac86dbb54b9.png\" style=\"width: 400px\" alt=\"user settings\"></p><p><b>What you need to do to prepare:</b></p><p>No immediate action is required. Once available, you can initiate scans on Windows devices to classify existing data based on your organization’s compliance or security needs. Before rollout, we will update the following post: <a href=\"https://learn.microsoft.com/purview/on-demand-classification\" target=\"_blank\">On-demand classification (preview) - Microsoft Purview | Microsoft Learn</a>.</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p>\n<p></p><p><b>Compliance considerations:</b></p><ul><li>Does the change modify, interrupt, or disable any audit logging capabilities (Purview): Yes. - New audit event introduced.</li></ul><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "496593"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Information Protection will introduce on-demand classification of files on Windows devices starting mid-August 2025 (public preview) and mid-November 2025 (general availability). This helps discover and classify sensitive data for security and compliance without impacting existing configurations. New audit events will be introduced."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-12-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1106875",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-30T14:17:07.913Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-30T23:03:11Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | ​Information Protection: On-demand classification of files on Windows devices for sensitive data",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 30, 2025: We have updated the timeline. Thank you for your patience.</p><p>We are excited to announce a new feature in the Copilot menu in Word: Fix grammar and spellings. This feature provides a one-click solution to apply all grammar and spelling corrections simultaneously, with the option to review and undo any changes you prefer not to keep.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=483954\" target=\"_blank\">483954</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out by mid-May 2025 (previously late April) and expect to complete by mid-August 2025 (previously mid-June).</p><p><b>How this will affect your organization:</b></p><p>Customers will have access to a new feature in their Copilot menu: Fix grammar and spellings. This feature provides a one-click solution to apply all grammar and spelling corrections simultaneously, with the option to review and undo any changes they prefer not to keep.</p><p> </p><p>Users can select text in a Word document to review all the spelling and grammar errors and Copilot will help them fix those errors inline and allow users the ability to review each of the changes made.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/037c1788-47c7-4ef3-ab59-3e5b3cfec51a\" width=\"400\" height=\"\"></p><p></p><p>This feature is available to users with a Copilot license</p><p><b>What you need to do to prepare:</b>\n</p><p>You may consider updating your training and documentation as appropriate. These features are available to users with a Copilot license.</p><p>Review the following resource to understand how to manage Microsoft 365 Copilot access within your organization:</p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-page\" target=\"_blank\">Manage Microsoft 365 Copilot scenarios in the Microsoft 365 admin center</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "483954"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Word's Copilot now offers a one-click \"Fix grammar and spellings\" feature to correct all errors simultaneously, with review and undo options. Rolling out worldwide from mid-May to mid-August 2025, it requires a Copilot license. Organizations should update training and manage access accordingly."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-09-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1060868",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-30T13:57:45.207Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-04-23T16:48:17Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Word: Fix spelling and grammar all at once with Copilot",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 30, 2025: We have updated the timeline. Thank you for your patience.</p><p>We’re introducing a new contextual entry point under the <i>References </i>tab in Word that helps users discover third-party citation tools alongside the default Word citation functionality. This update is designed to support users who are familiar with citation principles but need help navigating specific formatting styles like APA, MLA, and Chicago.</p><p>By surfacing both first-party and third-party options, users can quickly onboard to built-in tools or explore additional solutions that best fit their needs.\n</p><p><b>When this will happen:</b></p><p>Targeted Release: Rollout is expected to complete by early July 2025.\n</p><p>General Availability (Worldwide, GCC, GCC-High, DoD): Rollout will begin early July 2025 and is expected to complete by late August 2025 (previously late July).\n</p><p><b>How this will affect your organization:</b></p><p>This update enhances the discoverability of third-party citation tools directly within the Word app. Users will see a new contextual entry point under the References tab, making it easier to access and compare citation solutions.\n</p><ul><li>The default Word citation tool will remain visible and accessible.\n</li><li>Third-party tools will appear in parallel, offering users more flexibility and choice.\n</li></ul><p>This feature is on by default and requires no admin configuration to enable.\n</p><p><b>What you can do to prepare:</b></p><p>If your organization uses custom citation tools or has specific compliance requirements, consider reviewing the available third-party options to ensure alignment with your policies.</p>\n<p></p>\n<p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "A new entry under Word's References tab will show third-party citation tools alongside the default tool, aiding users with formatting styles like APA and MLA. Rollout starts early July 2025 and completes by late August. The feature is on by default and needs no admin setup."
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1108849",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-30T13:43:54.5Z",
+    "Services": [
+      "Microsoft 365 for the web",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-03T23:39:42Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "3rd party citation add-in in Word reference tab",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b>Introduction\n</b></p><p>Organizers and co-organizers of Teams Town Hall events can now edit event details directly from their Outlook calendar. This update introduces a direct link to the Teams Town Hall edit page, streamlining the event management experience and aligning it with the existing webinar editing capabilities for consistency across event types.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&amp;searchterms=496986\" target=\"_blank\">496986</a>.\n</p><p><b>When this will happen\n</b></p><p><b>General Availability (Worldwide):</b> Rollout will begin in mid-August 2025 and is expected to complete by late August 2025.\n</p><p><b>How this affects your organization\n</b></p><p>This update does not introduce any changes to default settings or user permissions. It enhances usability for event organizers by providing a more intuitive way to manage Town Hall details. No end-user or admin action is required.\n</p><p><b>What you can do to prepare\n</b></p><p>No preparation is needed. However, you may wish to inform event organizers of this new capability to improve awareness and adoption. For more information about managing Teams Town Hall events, visit the <a href=\"https://learn.microsoft.com/microsoftteams/town-hall-overview\" target=\"_blank\">https://learn.microsoft.com/microsoftteams/town-hall-overview</a>.\n</p><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -1381,53 +1909,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>What and Why</b></p><p>\nTo help organizations better manage and monitor their Microsoft 365 Copilot Chat pay-as-you-go spending, we’re introducing budget controls in the Microsoft 365 Admin Center. This new capability allows global and billing admins to set budget thresholds, receive alerts, and view historical spending data—supporting financial oversight and proactive cost management.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=497417\" target=\"_blank\">497417</a></p>\n\n<p><b>Rollout Schedule</b></p><p>\nGeneral Availability (Worldwide): Rollout begins mid-July 2025 and is expected to complete by early August 2025.</p>\n\n<p><b>Impact on Your Organization</b></p>\n<ul>\n<li><b>Who is affected:</b> <ul><li>Global and billing administrators managing Microsoft 365 Copilot Chat pay-as-you-go billing policies.</li></ul></li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A new budget setting will be available in the Microsoft 365 Admin Center for Copilot Chat billing policies.</li>\n    <li>Admins can:\n      <ul>\n        <li>Set a dollar-based budget limit per billing policy.</li>\n        <li>Configure email alerts at customizable thresholds (e.g., 50%, 80%, 90%, 100% of budget).</li>\n        <li>View up to 6 months of historical pay-as-you-go spending data.</li>\n      </ul>\n    </li>\n    <li>Alerts will initially be sent from Azure and transition to Microsoft 365 Admin Center in a future update.</li>\n    <li>Budgets can only be created and edited in the Microsoft 365 Admin Center.</li>\n    <li>Billing will <b>not</b> automatically stop when the budget is reached; admins must manually disconnect the payment method or service if needed.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b>Action Required / Recommendations</b></p>\n<ul>\n  <li>No action is required to prepare.</li>\n  <li>Once available, you may:\n    <ul>\n      <li>Set budget limits for Copilot Chat billing policies in the Microsoft 365 Admin Center.</li>\n      <li>Configure alert thresholds to notify mail-enabled security groups.</li>\n      <li>Monitor historical spending data to inform future budgeting decisions.</li></ul></li>\n</ul>\n\n<p><b>Compliance Considerations</b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "497417"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Admin Center will add budget controls for Copilot Chat pay-as-you-go billing, allowing global and billing admins to set budget limits, receive customizable alerts, and view six months of spending data. Rollout starts mid-July 2025, with no automatic service shutdown at budget limits."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1122160",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-25T22:36:09.757Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-25T22:36:04Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot Chat: Set budget limits for \"Pay-as-you-go billing\" in Microsoft 365 admin center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>We're introducing a new capability in Preview for the Project Manager agent in Planner. This enhancement enables the agent to utilize encrypted files from the SharePoint site associated with the Microsoft 365 group of the Plan for grounding. By leveraging these files, the agent can improve task creation from goals and execution of assigned tasks, ensuring more accurate and secure project management automation.</p>\n\n<b>When this will happen</b><p></p><p>\n</p><ul>\n<li>Public Preview rollout begins: Late July 2025</li>\n<li>Expected completion: Late August 2025</li>\n</ul>\n\n<b>How this affects your organization</b><p></p><p>\n</p><ul>\n<li>New Plans with Project Manager agent:\n  <ul>\n    <li>SharePoint Site grounding is enabled by default during Plan creation.</li>\n    <li>Admins and users can disable this feature during or after Plan creation.</li>\n  </ul>\n</li>\n<li>Existing Plans with Project Manager agent or Premium Plans:\n  <ul>\n    <li>SharePoint Site grounding is disabled by default.</li>\n    <li>Admins can enable it manually within the Plan settings.</li>\n  </ul>\n</li>\n<li>Task and file behavior:\n  <ul>\n    <li>When encrypted SharePoint files are used for grounding, the resulting tasks and files are unencrypted and can be exported, printed, and downloaded.</li>\n  </ul>\n</li>\n</ul>\n\n<b>What you can do to prepare</b><p></p><p>\n</p><ul>\n<li>Review Plan creation workflows and determine if SharePoint Site grounding should be enabled by default for your organization.</li>\n<li>Educate users and admins on how to toggle the grounding feature during and after Plan creation.</li>\n<li>If needed, disable the Project Manager agent for your tenant by following guidance here: <a href=\"https://learn.microsoft.com/Planner/turn-off-project-manager-agent\"><font color=\"#000000\" style=\"\">Microsoft Learn</font></a></li></ul>\n<b>Compliance considerations</b><p></p><p>\n</p><table>\n<tbody>\n<tr><td>Alters how existing customer data is processed, stored, or accessed</td><td>If SP Site grounding is enabled, the Project Manager agent can access encrypted files stored in the SharePoint site of the M365 group associated with the Plan.</td></tr>\n</tbody></table>\n<p></p><p></p>",
       "ContentType": "html"
     },
@@ -1493,44 +1974,6 @@
       "Admin impact"
     ],
     "Title": "Scoped Knowledge in Declarative Agents",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Beginning mid-August 2025, we're introducing a new Tools feature in the Copilot Chat prompt box. Tools acts as a lightweight entry point into high-value, task-specific Copilot features and capabilities directly from the prompt box. By selecting Tools, users get a menu where they can easily discover and trigger the right Copilot feature or capability for their current task, while also providing consistent interactions across tools. Based on the user's license, Tools provides easy access to features and capabilities like Researcher, Analyst, Pages, and image generation.</p><p><b>When this will happen</b><br></p><p>General Availability (Worldwide): We will begin rollout mid-August 2025 and expect to complete by late August 2025.</p><p><b>How this affects your organization</b></p><p>Once this update is rolled out, users will see a new Tools button in the Copilot Chat prompt box. Selecting this button opens a menu of AI-powered features tailored to the user’s license. This enhancement improves discoverability and usability of Copilot capabilities, helping users complete tasks more efficiently.</p><p>This feature is on by default and does not require admin configuration.</p><p><b>What you can do to prepare</b><br></p><p>No admin action is required. However, you may want to:</p><ul><li>Inform users about the new Tools experience in Copilot Chat.</li><li>Update internal documentation or training materials if needed.</li></ul><ul></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting mid-August 2025, Microsoft Copilot Chat will feature a new Tools button offering easy access to task-specific AI capabilities based on user licenses. This default-enabled update enhances feature discoverability without requiring admin action; organizations should inform users and update training as needed."
-      }
-    ],
-    "EndDateTime": "2025-10-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1122153",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-25T22:32:42.037Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-25T22:32:28Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "New Tools feature coming to the Microsoft Copilot Chat prompt box",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -7531,44 +7974,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>We’re introducing a new contextual entry point under the <i>References </i>tab in Word that helps users discover third-party citation tools alongside the default Word citation functionality. This update is designed to support users who are familiar with citation principles but need help navigating specific formatting styles like APA, MLA, and Chicago.</p><p>By surfacing both first-party and third-party options, users can quickly onboard to built-in tools or explore additional solutions that best fit their needs.\n</p><p><b>When this will happen:</b></p><p>Targeted Release: Rollout is expected to complete by early July 2025.\n</p><p>General Availability (Worldwide, GCC, GCC-High, DoD): Rollout will begin early July 2025 and is expected to complete by late July 2025.\n</p><p><b>How this will affect your organization:</b></p><p>This update enhances the discoverability of third-party citation tools directly within the Word app. Users will see a new contextual entry point under the References tab, making it easier to access and compare citation solutions.\n</p><ul><li>The default Word citation tool will remain visible and accessible.\n</li><li>Third-party tools will appear in parallel, offering users more flexibility and choice.\n</li></ul><p>This feature is on by default and requires no admin configuration to enable.\n</p><p><b>What you can do to prepare:</b></p><p>If your organization uses custom citation tools or has specific compliance requirements, consider reviewing the available third-party options to ensure alignment with your policies.</p>\n<p></p>\n<p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "A new contextual entry point under the References tab in Word will help users discover third-party citation tools alongside the default Word citation functionality. The rollout will complete by late July 2025, enhancing tool discoverability and flexibility. No admin configuration is required."
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1108849",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-03T23:39:56.587Z",
-    "Services": [
-      "Microsoft 365 for the web",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-03T23:39:42Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "3rd party citation add-in in Word reference tab",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>We're updating the output format of certain properties returned by Exchange Online PowerShell cmdlets to improve performance and align with backend service optimizations. This change reduces unnecessary data retrieval and enhances consistency across services.\n</p><p><b>When this will happen:</b></p><p>Rollout will begin in August 2025.\n</p><p><b>How this affects your organization:</b></p><p>This update changes the string format of specific properties returned by Exchange Online cmdlets. For example, the Database property in the output of Get-Mailbox will change from:\n</p><p><code>Database : APCP153DG038-db080</code>\n</p><p>to:\n</p><p><code>Database : APCP153.PROD.OUTLOOK.COM/7ad9dea1-26b7-4088-ad73-708c219faff6</code>\n</p><p>This change applies only to <i>Exchange Online</i>. On-premises Exchange environments are not affected.\n</p><p>We do not expect organizations to have dependencies on these output formats. These values are informational only and not intended for admin control or automation. No changes to user workflows, admin configurations, or help desk processes are expected.\n</p><p><b>What you can do to prepare:</b></p><p>No action is required. There are no settings or controls to manage this change. If you have scripts that parse these property values, we recommend reviewing them to ensure compatibility.</p>",
       "ContentType": "html"
     },
@@ -9846,53 +10251,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>We’re introducing a new capability in Microsoft Purview Information Protection: On-demand classification of files on Windows devices. This feature will enable you to discover and classify sensitive content stored on devices, helping to strengthen your data security posture and meet compliance requirements.</p><p>This capability is especially useful for:</p><ul><li>Investigating potential incidents or exposure risks \n</li><li>Surfacing older files that weren’t captured in Data Loss Prevention (DLP) activity logs \n</li><li>Identifying sensitive content in place for audit or compliance use</li></ul><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496593\" target=\"_blank\">496593</a>.</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out mid-July 2025 and expect to complete by late July 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out mid-November 2025 and expect to complete by late November 2025.</p><p><b>How this will affect your organization:</b></p><p>After this rollout, admins can access this feature in Purview Information Protection at <i>Data Loss Protection &gt; Classifiers &gt; On-demand classification:&nbsp;</i></p><p>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/975f728e-5a91-45a8-8d52-a7f0b499107f\" style=\"width: 400px;\" alt=\"user settings\"></p><p>There will be no impact to existing Purview configuration or user experience by default. You can choose to use this capability to discover existing content and apply applicable policies.</p><p> \n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/2ff6d84b-0d78-4580-8f8b-8b57860008ff/dd10d6daa89b263ead02f3ff31431ac86dbb54b9.png\" style=\"width: 400px\" alt=\"user settings\"></p><p><b>What you need to do to prepare:</b></p><p>No immediate action is required. Once available, you can initiate scans on Windows devices to classify existing data based on your organization’s compliance or security needs. Before rollout, we will update the following post: <a href=\"https://learn.microsoft.com/purview/on-demand-classification\" target=\"_blank\">On-demand classification (preview) - Microsoft Purview | Microsoft Learn</a>.</p><p><b>Compliance considerations:</b></p><ul><li>Does the change modify, interrupt, or disable any audit logging capabilities (Purview): Yes. - New audit event introduced.</li></ul><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "496593"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Information Protection is introducing on-demand classification of files on Windows devices to enhance data security and compliance. Public preview starts mid-July 2025, with general availability in mid-November 2025. Admins can access this feature in Purview without impacting existing configurations. No immediate action is required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-12-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1106875",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-30T23:04:44.553Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-30T23:03:11Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | ​Information Protection: On-demand classification of files on Windows devices for sensitive data",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Coming soon for Microsoft Teams: An enhanced agent engagement experience in Chats and Channels.\n</p><p>Some Teams users in your organization may see a new experience for engaging with agents in Chats and Channels. This new feature will be available to a randomized subset of Teams users as an experiment to collect data and feedback before a broader rollout.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web.</p><p><b>When this will happen:</b></p><p>Targeted Release (Worldwide): We will begin rolling out in early June 2025 and expect to complete in late June 2025.\n</p><p>We will communicate the plan for General Availability in a future post.</p><p><b>How this will affect your organization:</b></p><p>Before this rollout, when users select the people roster icon in the top right corner of a Chat or Channels window, a pop-up window opens to provide a list of agents and bots that users can add to the Chat or Channel.</p><p>After this rollout, when users select the people roster icon and choose <i>Add agents and bots</i> from the menu. An <i>Agents and bots</i> panel will open on the right side of Teams where users can select apps or agents without leaving the Chat or Channel. This ensures users continue to have an unobstructed view of their conversations while engaging with agents and bots.</p><p>1. A user selects the People icon, notices two apps that are already available in the <i>Agents and bots</i> section, and selects <i>Add agents and bots</i> from the menu:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/49cbc461-2fac-4d9a-ba24-34a12ea23415\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>2. A user selects a new agent to add to the Chat from the <i>Agent and bots </i>panel:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/23327d3f-4a43-415d-b09d-2d773038a882\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><i>Why did we do this?</i></p><ul><li>We received feedback that the current experience is obstructive and disrupts user flow, especially when they are in the middle of a Chat or Channel conversation.\n</li><li>The current experience limits the amount of time users have to choose an app.\n</li></ul><p>Adding apps to a Tab in Teams</p><p>Based on feedback from previous experiments, users will continue to be able to add apps by selecting the + sign at the top of the Teams Chat or Channels window for the duration of this experiment.</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update your relevant documentation.</p><p>Before rollout, we will update this post with new documentation.</p>",
       "ContentType": "html"
     },
@@ -9950,99 +10308,6 @@
       "Admin impact"
     ],
     "Title": "Get started with June 2025 improvements in Windows 11",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to govern Copilot agent development in your environments and enforce governance policies for Copilot agents. This feature will reach general availability on July 31, 2025.  <br><br><b>How does this affect me?</b><br>This feature introduces controls that will allow you to enforce Microsoft Entra ID authentication or disable anonymous access and enforce your preferred authentication method to enhance your organization security.<br><br><b>What do I need to do to prepare?</b><br>This message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-08-01T15:55:00Z",
-    "HasAttachments": false,
-    "Id": "MC1106717",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-30T15:55:50.26Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-30T15:55:09Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Platform admin center - Manage agent security with enhanced admin controls",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to use Microsoft Teams Phone in Dynamics 365 Contact Center. This feature will reach general availability on July 30, 2025.<br><br><b>How does this affect me?</b><br>With this feature, environments can use their Microsoft Teams Phone system with the voice channel configuration if it is configured in the Microsoft Copilot Service admin center. Configured environments can take advantage of their Microsoft Teams phone number, emergency calling (E911) and early media support for customer service representative-initiated outbound calls.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>For more information about this feature, please review <a target=\"_blank\" href=\"https://aka.ms/ADO11207\">Configure Teams Phone in voice channel</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-30T15:13:31Z",
-    "HasAttachments": false,
-    "Id": "MC1106584",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-30T15:16:32.803Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-30T15:13:31Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Contact Center – Use Microsoft Teams Phone within Contact Center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing a testing framework for desktop flows in Microsoft Power Automate for desktop. This feature will reach general availability on July 30, 2025.<br><br><b>How does this affect me?</b><br>The testing framework for Robotic Process Automation (RPA) is a structured approach to automate the process of testing desktop flows to ensure they function as intended. This feature introduces a \"Testing\" module that includes two new actions for testing purposes: \"Assert\" and \"Test a desktop flow.\"<br><br>This feature enhances test case development by:<ul><li>Enabling you to create, edit, list and delete test cases associated with a desktop flow</li><li>Adding support for Power Automate for desktop actions to help with testing</li><li>Allowing run and debug tests from Power Automate for desktop</li></ul>In addition, this feature improves orchestration and pipeline integration, adding:<ul><li>Support for running as part of an automated pipeline</li><li>Export/Import tests along with a desktop flow</li></ul><b>What action do I need to take?</b><br>This message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-30T14:20:30Z",
-    "HasAttachments": false,
-    "Id": "MC1106569",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-30T14:21:04.62Z",
-    "Services": [
-      "Microsoft Power Automate"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-30T14:20:30Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Microsoft Power Automate – Testing framework for desktop flows",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -12605,52 +12870,6 @@
       "Retirement"
     ],
     "Title": "Microsoft Teams: Speaker Coach (Preview) will retire",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 23, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Copilot users in a business-to-business multi-tenant organization set up can now view the intelligent meeting recap after the meeting from the resource tenant where the meeting was hosted.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=488298\" target=\"_blank\">488298</a></p><p>\n</p><p>\n</p><p><b>When this will happen:</b></p><p>Targeted release: We will begin rolling out early August 2025 and expect to complete by mid-August 2025.\n</p><p>General Availability: We will begin rolling out mid-August 2025 and expect to complete by late August 2025.</p><p><b>How this will affect your organization:</b></p><p>The new capability empowers users in multi-tenant setup to access meeting recap post meeting.</p><p><b>What you need to do to prepare:</b></p><p>No action required for either admin or users. Any Copilot users configured as a business-to-business user in a multi-tenant organization will have the capability after the launch.</p><p>For additional information on B2B muti-tenant: <a href=\"https://learn.microsoft.com/entra/external-id/what-is-b2b\" target=\"_blank\">Overview: B2B collaboration with external guests for your workforce</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "488298"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Copilot users in a multi-tenant organization can now access intelligent meeting recaps from the hosting tenant. The rollout starts in early August 2025 and completes by late August 2025. No action is required from admins or users. For more details, refer to Microsoft 365 Roadmap ID 488298."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-10-06T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1084034",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-06-23T21:12:02.95Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-27T23:15:55Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Intelligent Recap Access for Multi-tenant Organization",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -20376,52 +20595,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated May 15, 2025: We have updated the timeline below. Thank you for your patience.</p><p>We are excited to announce a new feature in the Copilot menu in Word: Fix grammar and spellings. This feature provides a one-click solution to apply all grammar and spelling corrections simultaneously, with the option to review and undo any changes you prefer not to keep.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=483954\" target=\"_blank\">483954</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out by mid-May 2025 (previously late April) and expect to complete by mid-June 2025.</p><p><b>How this will affect your organization:</b></p><p>Customers will have access to a new feature in their Copilot menu: Fix grammar and spellings. This feature provides a one-click solution to apply all grammar and spelling corrections simultaneously, with the option to review and undo any changes they prefer not to keep.</p><p> </p><p>Users can select text in a Word document to review all the spelling and grammar errors and Copilot will help them fix those errors inline and allow users the ability to review each of the changes made.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/037c1788-47c7-4ef3-ab59-3e5b3cfec51a\" width=\"400\" height=\"\"></p><p></p><p>This feature is available to users with a Copilot license</p><p><b>What you need to do to prepare:</b>\n</p><p>You may consider updating your training and documentation as appropriate. These features are available to users with a Copilot license.</p><p>Review the following resource to understand how to manage Microsoft 365 Copilot access within your organization:</p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-page\" target=\"_blank\">Manage Microsoft 365 Copilot scenarios in the Microsoft 365 admin center</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "483954"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Word's new Copilot feature, \"Fix grammar and spellings,\" offers a one-click solution for correcting all grammar and spelling errors simultaneously, with review and undo options. Rolling out from mid-May to mid-June 2025, it requires a Copilot license. Update your training and documentation accordingly."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-08-11T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1060868",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-05-15T16:05:48.903Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-23T16:48:17Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Word: Fix spelling and grammar all at once with Copilot",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated May 14, 2025: After further review we have decided not to proceed with this change at this time. We will communicate via Message center when we are ready to proceed. We apologize for any inconvenience.\n</p><p>In Microsoft Purview, audit search provides your organization with access to critical audit log event data, allowing you to gain insight and further investigate user activities. The Microsoft Purview Compliance portal’s audit search UI currently includes several search fields (i.e., date range, activities, workloads, users, etc.) to facilitate the retrieval of relevant logs. With a recent update, we have added four additional fields to the audit search UI.</p><p>These four fields are described below:</p>\n\n\n<table>\n<tbody><tr>\n<th>New filter field</th>\n<th>Description</th>\n</tr>\n<tr>\n<th>Id</th>\n<td>Unique identifier of an audit record.</td>\n</tr>\n<tr>\n<th>UserType</th>\n<td>The type of user that performed the operation. See the UserType table for details on the types of users.</td>\n\n</tr>\n<tr>\n<th>UserKey</th>\n<td>Azure Active Directory Object ID in GUID format.</td>\n\n</tr>\n<tr>\n<th>ClientIP</th>\n<td>The IP address of the device that was used when the activity was logged.</td>\n\n</tr>\n \n</tbody></table>\n\n<p><br></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters=&amp;searchterms=384092\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">384092</a>.</p><p><b>When this will happen:</b></p>\n\n<p>Public Preview: We will communicate via Message center when we are ready to proceed.</p><p>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.</p>\n\n<p><b>How this will affect your organization:</b></p>\n\n<p>Security admins in your organization who use audit in the Microsoft Purview compliance portal will be able to use these four additional fields to retrieve relevant audit logs.  \n</p>\n\n<p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>\n\n<p>Additional resources</p><ul><li><a href=\"https://learn.microsoft.com/purview/audit-search?view=o365-worldwide&amp;tabs=microsoft-purview-portal\" target=\"_blank\">Search the audit log | Microsoft Learn</a></li></ul><p></p>",
       "ContentType": "html"
     },
@@ -27046,7 +27219,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
