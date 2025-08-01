@@ -4,6 +4,650 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<b>Update: </b>Release of this feature has been postponed, we will announce a new date in the future.<br><br>\nWe are announcing the ability to govern Copilot agent development in your environments and enforce governance policies for Copilot agents. This feature will reach general availability on July 31, 2025.<br><br>\n<b>How does this affect me? </b><br>\nThis feature allows administrators to configure authentication for all agent interactions in the environment. Admins can select one of the following options:\n<ul>\n<li><b>Authenticate with Microsoft or Authenticate Manually</b> – This allows you to force authentication through Microsoft Entra ID or set up manual authentication. </li>\n<li><b>No authentication</b> allows anonymous access. </li>\n</ul>\nThe <b>Authentication for agents</b> feature is a modernized framework of the existing Data Policy virtual connector, <b>Chat without Microsoft Entra ID</b>, helping you scale through environment-level configurations and rules. <br><br>\nPlease note: If you block anonymous access in either one of the places, then at runtime the most restrictive behavior is enforced, and it will be blocked. If you're using both the virtual connector and the <b>Authentication for agents</b> setting in the <b>Security</b> area of the Power Platform admin center, <b><i>then access must be allowed in both places for it to be allowed at runtime</i></b>. <br><br>\nWe recommend that you move towards using the <b>Authentication for agents</b> setting in the Power Platform admin center to leverage the capability of groups and rules.<br><br>\n<b>What do I need to do to prepare? </b><br>\nThis message is for awareness and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-31T21:45:07Z",
+    "HasAttachments": false,
+    "Id": "MC1126232",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-01T02:54:38.323Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-31T21:45:07Z",
+    "Tags": [
+      "Updated message",
+      "New feature"
+    ],
+    "Title": "Power Platform admin center - Manage agent security with enhanced admin controls",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2025-12-30T08:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction\n</b></p><p>As part of our ongoing efforts to modernize and streamline audit logging in Exchange Online, we are retiring the <code>Search-MailboxAuditLog</code> and <code>New-MailboxAuditLogSearch </code>cmdlet. Organizations should transition to the <code>Search-UnifiedAuditLog</code>cmdlet for long-term audit log access and compliance.\n</p><p><b>When this will happen\n</b></p><ul><li><b>March 1, 2025:</b> New audit log data will no longer be written to individual mailboxes.\n</li><li><b>June 2025:</b> Migration tools and documentation will be available to support transition.\n</li><li><b>End of December 2025: </b>The <code>Search-MailboxAuditLog</code> and <code>New-MailboxAuditLogSearch</code> cmdlets will be fully retired.</li></ul><p><b>How this affects your organization\n</b></p><p>After March 1, 2025, mailbox audit log data will become static and read-only. While existing data will remain accessible for historical review, no new data will be written to mailbox audit logs. By the end of 2025, the legacy cmdlets will no longer be available, and any scripts or tools relying on them will fail.\n</p><p>Organizations should ensure they are using the <code>Search-UnifiedAuditLog</code> cmdlet for audit log access going forward. This change supports improved scalability, centralized access, and long-term retention of audit data.\n</p><p><b>What you can do to prepare\n</b></p><p>To ensure a smooth transition:\n</p><ul><li>Review your current usage of <code>Search-MailboxAuditLog</code> and <code>New-MailboxAuditLogSearch</code> to identify dependencies in scripts, tools, or workflows.\n</li><li>Engage with your legal and compliance teams to ensure regulatory requirements are met.\n</li><li>Confirm that auditing is enabled for your tenant.\n</li><li>Use the documentation (available June 2025) to transition to <code>Search-UnifiedAuditLog</code>.\n</li></ul><p>Learn more:&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsoft-exchange-online-search-mailboxauditlog-and-new-mailboxauditlogsearch-w/4366310\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Microsoft Exchange Online: Search-MailboxAuditLog and New-MailboxAuditLogSearch will retire</a></p><p><b>Compliance considerations</b></p><p>\n</p><table>\n<tbody><tr><th>Impacted Area</th><th>Explanation</th></tr>\n<tr><td>Audit logging capabilities</td><td>Yes – This change retires legacy audit log cmdlets and shifts audit access to the unified audit log.</td></tr>\n<tr><td>eDiscovery or Content Search</td><td>Yes – Organizations must use Search-UnifiedAuditLog for audit log searches going forward.</td></tr>\n<tr><td>Retention policies, holds, or deletion workflows</td><td>Yes – Mailbox audit logs become static and read-only after March 2025.</td></tr>\n<tr><td>Admin monitoring and reporting</td><td>Yes – Admins must update monitoring tools and reports to use the unified audit log.</td></tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The Search-MailboxAuditLog and New-MailboxAuditLogSearch cmdlets will retire by December 2025. After March 1, 2025, mailbox audit logs become read-only. Organizations must transition to the Search-UnifiedAuditLog cmdlet for audit access, with migration support available from June 2025."
+      }
+    ],
+    "EndDateTime": "2026-01-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1126353",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T23:20:03.853Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-31T23:19:56Z",
+    "Tags": [
+      "User impact",
+      "Retirement"
+    ],
+    "Title": "Retirement of Search-MailboxAuditLog and New-MailboxAuditLogSearch Cmdlets by End of 2025",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing an update to the prerequisites for managing access to public system views with security roles for Power Platform. This update streamlines admin management when enabling system views for users. This update will be available for public preview on August 4, 2025.<br><br>\n<b>How does this affect me? </b><br>\nAfter this update, admins will no longer need to enable the <b>EnableRoleBasedSystemViews</b> setting within your environment. Any system views that you previously set to this security role are automatically filtered to the users who have the selected security role assigned.<br><br> \n<b>What action do I need to take?</b><br>\nNo action is needed for the system views that you have already set to the security role. <br><br>\nIf you would like more information on this update, please refer to <a href=\"https://aka.ms/11650/manage-view-access\" target=\"_blank\">Manage access to public system views</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-31T23:00:35Z",
+    "HasAttachments": false,
+    "Id": "MC1126345",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T23:10:54.737Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-31T23:00:35Z",
+    "Tags": [
+      "Feature update"
+    ],
+    "Title": "Power Platform – Manage system views with security role service update",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to set a timer to wrap up conversations in seconds within Dynamics 365 Contact Center. This feature will reach general availability on August 30, 2025.<br><br>\n<b>How does this affect me? </b><br>\nThe wrap-up timer can now be configured in seconds—giving contact centers precise control over post-conversation workflows. The key benefits of this feature include: <ul>\n<li>Tailoring wrap-up durations to business needs</li>\n<li>Improving agent efficiency and reducing idle time</li>\n<li>Supporting cost-effective capacity management</li>\n</ul>\n<b>What action do I need to take? </b><br>\nThis message is for awareness and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-31T23:00:24Z",
+    "HasAttachments": false,
+    "Id": "MC1126343",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T23:05:09.58Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-31T23:00:24Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center - Set timer to wrap-up conversations in seconds",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to monitor the health of your resources in Power Platform admin center and in Power Apps. This feature will reach general availability on August 4, 2025.<br><br>\n<b>How does this affect me?</b><br>\nWith this feature, admins can use the Monitor area of the Power Platform admin center to bring attention to resources that have degraded operational health and highlight resources that have opportunities for improvement. Those resources include canvas apps, model-driven apps, cloud flows, and Desktop flows.<br><br>\nPower Apps makers can view data only for canvas apps and model-driven apps that they have edit privileges for in the runtime environment.<br><br>\n<b>What action do I need to take?</b><br>\nThis message is for awareness and no action is required.<br><br>\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/ADO11664\" target=\"_blank\">Monitor the health of your resources</a> for Monitor in PPAC, and <a href=\"https://aka.ms/ADO11664_1\" target=\"_blank\">Monitor app performance for Monitor in Power Apps</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-31T22:00:25Z",
+    "HasAttachments": false,
+    "Id": "MC1126234",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T22:02:38.337Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-31T22:00:25Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Platform – Monitor the health of your resources",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "Our monitoring has identified an issue with the Share dialog box in Power Apps and have temporarily disabled it to prevent impact to your environment. The classic app sharing experience has been re-enabled while we address this issue.<br><br><b>How does this affect me?</b><br>When sharing a canvas app in your environment, the Power Apps UI displays the share panel from the classic app sharing experience instead of the simplified Share dialog box.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-08-31T21:10:37Z",
+    "HasAttachments": false,
+    "Id": "MC1126222",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T21:11:09.713Z",
+    "Services": [
+      "Power Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-31T21:10:37Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Apps – Temporary reversion to the classic app sharing experience",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>Start using the newest Windows 11 capabilities with helpful tips and actionable steps summarized in one place. Discover enhancements to Microsoft Store apps, hotpatching, Windows Autopilot, update and driver management, AI, resiliency, and more. Learn how to get started with these and other improvements across Microsoft Intune, Windows Server, and Windows security.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>Improvements summarized in this <a href=\"https://aka.ms/WindowsNewsYouCanUse/July2025\" rel=\"noopener noreferrer\" target=\"_blank\">monthly recap</a> are already available. Note that some of them are rolling out gradually.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>You can start seeing improvements across various workflows in your organization with:&nbsp;</div><ul><li>Refreshed media for inbox Windows apps&nbsp;&nbsp;</li><li>General availability of hotpatching for Windows x64 and Arm64 devices&nbsp;</li><li>General availability of hotpatching for Window Server 2025 through Azure Arc&nbsp;&nbsp;</li><li>Windows Autopatch groups&nbsp;</li><li>Innovations for system resilience including quick machine recovery&nbsp;&nbsp;</li><li>Additional improvements released in July&nbsp;</li></ul><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Read the new <a href=\"https://aka.ms/WindowsNewsYouCanUse/July2025\" rel=\"noopener noreferrer\" target=\"_blank\">monthly recap</a> and additional information to start benefiting from the latest improvements.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><div>Read the monthly recap at <a href=\"https://aka.ms/WindowsNewsYouCanUse/July2025\" rel=\"noopener noreferrer\" target=\"_blank\">Windows news you can use: July 2025</a>. It includes highlights from the following channels:&nbsp;</div><ul><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows-ITPro-blog\" rel=\"noopener noreferrer\" target=\"_blank\">Windows IT Pro Blog</a>&nbsp;</li><li><a href=\"https://techcommunity.microsoft.com/category/microsoftintune/blog/microsoftintuneblog\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Intune Blog</a>&nbsp;</li><li><a href=\"https://www.microsoft.com/security/blog/?msockid=0a62a344849c68fe1290b07a85ff6967\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Security Blog</a>&nbsp;</li><li><a href=\"https://support.microsoft.com/topic/windows-11-version-24h2-update-history-0929c747-1815-4543-8461-0160d16f15e5\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 update history</a>&nbsp;</li><li><a href=\"https://support.microsoft.com/topic/windows-server-2025-update-history-10f58da7-e57b-4a9d-9c16-9f1dcd72d7d7\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Server update history</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-07-31T21:01:02.86Z",
+    "HasAttachments": false,
+    "Id": "MC1126220",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T21:01:07.987Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-31T21:01:02.86Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Get started with July 2025 improvements in Windows 11",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>Follow 5 steps to turn your Windows 10 domain-joined and co-managed devices to Microsoft Entra joined with Microsoft Intune. The same steps apply if you’re transitioning away from hybrid joined Windows 11 devices.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>All methods and tools outlined in this blog post have been available for a while. If you haven’t yet transitioned to Windows 11, we encourage you to do this before Windows 10 reaches end of support on October 14, 2025.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>This guide can help IT admins effectively move to cloud-native management with Windows 11 and Microsoft Intune.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Read the <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-11-cloud-native-migration-with-microsoft-intune/4434495\" rel=\"noopener noreferrer\" target=\"_blank\">new blog article</a> that describes the following steps:&nbsp;</div><ol><li>Prepare your environment.&nbsp;</li><li>Transition Group Policy to Intune management.&nbsp;</li><li>Upgrade devices to Windows 11.&nbsp;</li><li>Migrate applications from Microsoft Configuration Manager to Intune.&nbsp;</li><li>Transition devices from domain-joined to Microsoft Entra ID joined.&nbsp;</li></ol><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Find the details at <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-11-cloud-native-migration-with-microsoft-intune/4434495\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 cloud-native migration with Microsoft Intune</a>.&nbsp;</li><li>See <a href=\"https://www.microsoft.com/microsoft-365/blog/2023/12/05/3-reasons-why-now-is-the-time-to-go-cloud-native-for-device-management\" rel=\"noopener noreferrer\" target=\"_blank\">3 reasons why now is the time to go cloud native for device management</a>.&nbsp;</li><li>Follow a more comprehensive guide to complete this migration here: <a href=\"https://learn.microsoft.com/intune/solutions/cloud-native-endpoints/cloud-native-endpoints-planning-guide\" rel=\"noopener noreferrer\" target=\"_blank\">Update your workloads to support cloud-native endpoints</a>.&nbsp;</li><li>Skill up in 2-hour intervals with these skilling snacks: <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/skilling-snack-go-cloud-first-with-windows-device-management/4213270\" rel=\"noopener noreferrer\" target=\"_blank\">Go cloud first with Windows device management</a> and <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/skilling-snack-from-on-premises-to-the-cloud/3744927\" rel=\"noopener noreferrer\" target=\"_blank\">From on premises to the cloud</a>.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-07-31T21:01:02.797Z",
+    "HasAttachments": false,
+    "Id": "MC1126219",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T21:01:04.397Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-31T21:01:02.86Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Windows 11 cloud-native migration with Microsoft Intune",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 29, 2025, Update: The rollout for Word, Excel, PowerPoint and OneNote has been delayed to mid-August. The original timing has been updated in the original message. Additionally, Copilot Chat in the apps will respect the most recent user state (open or closed) when opening a file.&nbsp;</p><p>We’re excited to announce that we are making Copilot Chat available as a side-by-side experience in Word, Excel, PowerPoint, Outlook, and OneNote to help users access AI in their flow of work.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/8806cc60-a99a-4d54-aed6-6c1a9ab5c620\" width=\"400\" height=\"\"></p><p><i>Copilot Chat in Word (Windows desktop) for users without a Microsoft 365 Copilot license. UI elements subject to change.</i></p><p>Users can open Copilot Chat from the app ribbon. Copilot Chat in the apps will respect the most recent user state (open or closed) when opening a file.&nbsp;&nbsp;</p><p>Copilot Chat will be available in these apps for users with a Microsoft 365 Copilot license, and for users without a Microsoft 365 Copilot license who have pinning enabled. We will update the text of the <a href=\"https://go.microsoft.com/fwlink/?linkid=2310640\" target=\"_blank\">Pin Microsoft 365 Copilot Chat admin setting</a> to reflect its expanded scope across Microsoft 365 apps.</p><p><b>Pin Microsoft 365 Copilot Chat in the Microsoft 365 admin center: Existing setting with updated language</b></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/577939e0-be74-4a06-9036-02fe66db1e03\" width=\"200\" height=\"\">\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=494830\" target=\"_blank\">494830</a>\n</p><p><b>When this will happen:</b></p><p>General Availability:</p><ul><li><b>•\tOutlook for Web, new Outlook for Windows, and classic Outlook for Windows: </b>Rollout of this change starts in late June and completes in the weeks following. \n</li><li><b>•\tOutlook for Mac: </b>Rollout of this change for Mac starts in mid-July and completes in the weeks following. \n</li><li><b>•\tWord, Excel, PowerPoint, OneNote (Web, Mac, Windows): </b>Rollout of this change starts in mid-August and completes in the weeks following. \n<ul style=\"\"><li style=\"\">Windows: Current Channel rollout will start in mid-August. Monthly Enterprise Channel rollout will be included as part of Patch Tuesday in September.\n</li><li style=\"\">Mobile (Word/PowerPoint) / iPad (all) rollout will start no earlier than mid-August.</li></ul></li></ul><p><b>What you need to do to prepare:</b></p><p>No admin action is required. However, if your <a href=\"https://go.microsoft.com/fwlink/?linkid=2310640\" target=\"_blank\">Pin Microsoft 365 Copilot Chat admin setting</a> is configured to “Do not pin,” you should adjust it to “Pin” if you want your users without a Microsoft 365 Copilot license to access Copilot Chat in their Microsoft 365 apps.</p><p>Learn more about pinning and managing Copilot Chat: <a href=\"https://learn.microsoft.com/copilot/manage\" target=\"_blank\">Manage Microsoft 365 Copilot Chat | Microsoft Learn</a>.</p><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed? No.</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data? No.&nbsp;</li><li>Does the change provide a new way of communicating between users, tenants, or subscriptions? No.&nbsp;</li><li>Does the change provide end users any new way of interacting with generative AI? No.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "494830"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot Chat is being extended to Word, Excel, PowerPoint, Outlook, and OneNote with a delayed rollout to mid-August for some apps. It respects the user's last state and is available for licensed users and those with pinning enabled. No admin action is needed unless adjusting pin settings."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1096218",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T19:29:16.073Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-16T23:13:24Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Extending Copilot Chat to Microsoft 365 apps",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 31, 2025: We have updated the timeline. Thank you for your patience.</p><p>Introducing the Meeting Audio Overview, a feature that uses AI to capture and summarize key topics discussed during your Teams meetings with an engaging audio output. It converts the selected meeting transcriptions into audio summaries, allowing users to quickly review highlights for multiple meetings, helping them focusing on the most relevant topics to stay up to date.</p><p>It is supported on Windows, macOS, web, iOS, and Android platforms.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=490051\" target=\"_blank\">490051</a></p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out early September 2025 and expect to complete by mid-September 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out mid-September 2025 and expect to complete by late September 2025.\n</p><p><b>How this will affect your organization:</b></p><p>License requirement: To experience audio overview for Teams meetings, users must have a Microsoft 365 Copilot license.</p><p>There is no administrative policy required for this.</p><p><i>How to enables this:</i></p><p>\n</p><p><i>Desktop:&nbsp;</i><b>&nbsp;</b>audio overview is part of the Meet app on desktop clients, navigate to the \"Meet\" app by clicking on \"More\" on the left-hand side panel.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3419fb1c-6311-4c30-8400-51e68ee00cf5\" width=\"200\" height=\"\">\n</p><p>Click on the \"Audio overview\" tab on the top bar, select the desired time range, overview format and style, select meetings to start your generation</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f970d8d8-1e09-4f50-b301-fb5f1500ffd9\" width=\"300\" height=\"\">\n</p><p>\n</p><p><i>Mobile:\n</i></p><p>Access to meeting recap page, click on “Try it now” button for audio overview banner</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f479aaed-1c45-4f30-b739-b4c8e27ded1d\" width=\"200\" height=\"\"></p><p>\n</p><p>Select the desired time range, overview format and style, select meetings to start your generation</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/95e84732-793e-4727-aa82-964467dd56d9\" width=\"200\" height=\"\"></p><p><br></p><p><b>What you need to do to prepare:</b>\n</p><p>You may want to update your training materials indicating that this feature is now supported.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "490051"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The updated Teams Meeting Audio Overview, launching September 2025, uses AI to create audio summaries of meeting transcriptions, helping users quickly review key topics. Available on multiple platforms, it requires a Microsoft 365 Copilot license and no admin setup. Users enable it via the Meet app on desktop or mobile."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac"
+      }
+    ],
+    "EndDateTime": "2025-11-10T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1073070",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T19:11:08.71Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-13T22:56:03Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Teams Meeting Audio Overview",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 31, 2025: We have updated the content. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p><p>We’re introducing Multi-Geo In-Region Routing (IRR) for Exchange Online, a new capability that helps organizations meet regional data residency requirements by allowing inbound email routing to be aligned with user locations. With IRR, admins can configure accepted domains to route messages directly to a designated geo-region, ensuring that email data is processed and stored entirely within the recipient’s region—even if it differs from the tenant’s primary location. This helps organizations meet compliance requirements without compromising email delivery performance.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=410245\" target=\"_blank\">410245</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out in early August 2025 and expect to complete by end of August 2025.</p><p>General Availability (Worldwide): We expect to begin rolling out in early October 2025 and expect to complete by late October 2025.</p><p><b>How this will affect your organization:</b></p><p>In-Region Routing (IRR) is disabled by default. If you do not plan to use this feature, no action is required.</p><p>For domains where you choose to enable IRR, the feature allows you to route inbound emails to accepted domains associated with specific geo-regions. When these domains are aligned with users located in the same geo-region, emails are fully processed and stored within the recipient’s region. This ensures that data remains within the user’s Preferred Data Location (PDL), supporting stronger data sovereignty and compliance with regional regulations.</p><p>If your organization uses Microsoft Purview capabilities such as Data Loss Prevention (DLP), retention policies, or eDiscovery, you may need to review and adjust those policies to ensure they align with the new regional routing behavior.</p><p></p><p><b>What you need to do to prepare:</b></p><ul><li>Ensure that admins have the necessary permissions to manage accepted domains and access to either Exchange Online PowerShell or to the Microsoft 365 admin center.</li><li>Review your domain configurations and identify users located in secondary geo-regions.\n</li><li>Prepare to configure accepted domains with the new geo-region property.</li><li>Review the licensing terms, as Multi-Geo licenses will be indefinitely required to use In-Region Routing:<ul><li><a href=\"https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide#licensing\" target=\"_blank\">https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide#licensing</a></li><li><a href=\"https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide#getting-started\" target=\"_blank\">https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide#getting-started</a>&nbsp;</li></ul></li><li>Review the documentation for configuring the feature: <a href=\"https://learn.microsoft.com/en-us/microsoft-365/enterprise/multi-geo-region-routing?view=o365-worldwide\" target=\"_blank\">Configure Multi-Geo In-Region Routing (In Preview) - Microsoft 365 Enterprise | Microsoft Learn\"</a></li></ul><p>We value your feedback and want to hear from you if you have any questions or concerns. Please comment or contact us through the M365 Admin Center if you need any assistance.</p><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing user data is processed, stored, or accessed? - Yes. Emails are stored in-region based on domain configuration.</li><li>Does the change modify, interrupt, or disable any Purview capabilities? - Maybe. Depends on how DLP or retention policies are scoped by region.</li><li>Does the change alter how admins can monitor, report on, or demonstrate compliance activities? - Maybe. Regional routing may affect reporting granularity.</li></ul><p></p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "410245"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is releasing Multi-Geo In-Region Routing for Exchange Online to route inbound emails based on user location, ensuring data residency compliance. Rolling out from August to October 2025, it requires Multi-Geo licenses and may impact Purview policies. Admins must prepare domain configurations and permissions accordingly."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2025-11-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1113112",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T18:53:30.07Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-10T23:34:01Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Exchange Online | Releasing Multi-Geo In-Region Routing",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 31, 2025: We have updated the timeline. Thank you for your patience.</p><p>Based on your feedback, we are excited to announce that Microsoft 365 service health email notifications for<i> Issues in your organization that require action </i>will soon be available by default in your preferred language.</p><p><b>When this will happen:</b>\n</p><p>\n</p><p>\n</p><p>General Availability (Worldwide): We will begin rolling out mid-July 2025 (previously late June) and expect to complete by late August 2025 (previously late July).</p><p><b>How this will affect your organization:</b></p><p>Before this rollout, service health email notifications for<i> Issues in your organization that require action</i> were only sent in English. With this update, admins will receive alerts in their preferred language, making it easier to understand and act on service health issues that affect your organization. This change improves accessibility and ensures critical service health information is actionable for all admins, regardless of their language preference.\n\n</p><p>After this rollout, if you’ve already subscribed to service health notification alerts for<i> Issues in your environment that require action,</i> you will start receiving these email notifications in the language set in your Microsoft 365 admin center preferences. We will support these 72 languages for email translation:</p><ol><li>af-za: Afrikaans (South Africa)\n</li><li>am-et: Amharic (Ethiopia)\n</li><li>ar-sa: Arabic (Saudi Arabia)\n</li><li>as-in: Assamese (India)\n</li><li>az-latn-az   Azerbaijani (Latin, Azerbaijan)\n</li><li>bg-bg: Bulgarian (Bulgaria)\n</li><li>bn-in: Bengali (India)\n</li><li>bs-latn-ba   Bosnian (Latin, Bosnia &amp; Herzegovina)\n</li><li>ca-es: Catalan (Spain)\n</li><li>ca-es-valencia Valencian (Spain)\n</li><li>cs-cz: Czech (Czechia)\n</li><li>da-dk: Danish (Denmark)\n</li><li>de-de: German (Germany)\n</li><li>el-gr: Greek (Greece)\n</li><li>es-es: Spanish (Spain)\n</li><li>et-ee: Estonian (Estonia)</li><li>eu-es: Basque (Spain)\n</li><li>fa-ir: Persian (Iran)\n</li><li>fi-fi: Finnish (Finland)\n</li><li>fil-ph: Filipino (Philippines)\n</li><li>fr-fr: French (France)\n</li><li>ga-ie: Irish (Ireland)\n</li><li>gl-es: Galician (Spain)\n</li><li>gu-in: Gujarati (India)\n</li><li>he-il: Hebrew (Israel)\n</li><li>hi-in: Hindi (India)\n</li><li>hr-hr: Croatian (Croatia)\n</li><li>hu-hu: Hungarian (Hungary)\n</li><li>id-id: Indonesian (Indonesia)\n</li><li>is-is: Icelandic (Iceland)\n</li><li>it-it: Italian (Italy)\n</li><li>ja-jp: Japanese (Japan)\n</li><li>ka-ge: Georgian (Georgia)\n</li><li>kk-kz: Kazakh (Kazakhstan)\n</li><li>km-kh: Khmer (Cambodia)\n</li><li>kn-in: Kannada (India)\n</li><li>ko-kr: Korean (Korea)\n</li><li>lo-la: Lao (Laos)\n</li><li>lt-lt: Lithuanian (Lithuania)\n</li><li>lv-lv: Latvian (Latvia)\n</li><li>mi-nz: Maori (New Zealand)\n</li><li>mk-mk: Macedonian (North Macedonia)\n</li><li>ml-in: Malayalam (India)\n</li><li>mr-in: Marathi (India)\n</li><li>mt-mt: Maltese (Malta)\n</li><li>nb-no: Norwegian Bokmål (Norway)\n</li><li>ne-np: Nepali (Nepal)\n</li><li>nl-nl: Dutch (Netherlands)\n</li><li>or-in: Odia (India)\n</li><li>pa-in: Punjabi (India)\n</li><li>pl-pl: Polish (Poland)\n</li><li>pt-br: Portuguese (Brazil)\n</li><li>pt-pt: Portuguese (Portugal)\n</li><li>ro-ro: Romanian (Romania)\n</li><li>ru-ru: Russian (Russia)\n</li><li>sk-sk: Slovak (Slovakia)\n</li><li>sl-si: Slovenian (Slovenia)\n</li><li>sq-al: Albanian (Albania)\n</li><li>sr-cyrl-rs: Serbian (Cyrillic, Serbia)\n</li><li>sr-latn-rs: Serbian (Latin, Serbia)\n</li><li>sv-se: Swedish (Sweden)\n</li><li>ta-in: Tamil (India)\n</li><li>te-in: Telugu (India)\n</li><li>th-th: Thai (Thailand)\n</li><li>tr-tr: Turkish (Türkiye)\n</li><li>tt-ru: Tatar (Russia)\n</li><li>uk-ua: Ukrainian (Ukraine)\n</li><li>ur-pk: Urdu (Pakistan)\n</li><li>vi-vn: Vietnamese (Vietnam)\n</li><li>zh-cn: Chinese (Simplified, China)\n</li><li>zh-tw: Chinese (Traditional, Taiwan\n</li></ol><p>To configure this feature:</p><ul><li>Go to Microsoft 365 admin center &gt; <i>Service Health Dashboard &gt; Customize tab &gt; Email </i>tab to subscribe to <i>Issues in your environment that require action</i> (and <i>Issues with priority accounts notifications</i>, available for certain licenses).</li><li>Keep the <i>Translate emails to</i> &lt;preferred language&gt; checkbox checked to start receiving these notifications in your preferred language. <b>Note: </b>This box will be checked by default.</li><li>You can opt out of translation at any time to go back to receiving emails in English.\n</li></ul><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/638f33be-fcad-445d-89d8-52c6c46a9150\" style=\"width: 400px;\" alt=\"admin controls>\n</p><p><b>Note:</b> Translation for Microsoft-side incident and advisory notifications is not yet available but is planned for a future release.\n</p><p>This change will be on by default. Translation for <i>Incident </i>and <i>Advisory </i>notifications (Microsoft-side issues) is not yet available but is planned for a future release.</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your admins and/or users about this change and update internal documentation.</p><p>Learn more: <a href=\" https:=\"\" learn.microsoft.com=\"\" microsoft-365=\"\" enterprise=\"\" view-service-health?view=\"o365-worldwide&amp;source=docs&quot;\" target=\"_blank\">How to check Microsoft 365 service health - Microsoft 365 Enterprise | Microsoft Learn (will be updated before rollout)</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting mid-July to late August 2025, Microsoft 365 service health email notifications for issues requiring action will be sent in admins' preferred languages by default, supporting 72 languages. Admins can manage preferences in the admin center; translation for Microsoft-side incidents is planned for later."
+      }
+    ],
+    "EndDateTime": "2025-09-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1091448",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T18:46:35.303Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-10T23:17:57Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 admin center: Email notifications for service health issues available in multiple languages",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 31, 2025: We have updated the timeline. Thank you for your patience.</p><p>Prompt categories will be available in Microsoft Copilot Dashboard in Microsoft Viva Insights on the web to help you understand key Copilot use cases for your organization. In Microsoft Copilot Chat (work), which is grounded in work data, these prompt categories will include <i>Ask and find, Catch up, Draft and brainstorm, </i>and <i>Other.</i> These metrics will be added to the metrics library in the advanced insights app.</p><p>\n</p><p>Learn more about Copilot Dashboard licensing requirements in <a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard\" target=\"_blank\">Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Microsoft Learn</a></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=486698\" target=\"_blank\">486698</a>.</p><p>General Availability (Worldwide): We will begin rolling mid-August 2025 (previously mid-July) and will complete by late August 2025 (previously late July).</p><p><b>How this will affect your organization:</b></p><p>Users enabled to view Copilot dashboard will see these updates:\n</p><p>1. <i>Adoption </i>tab: Prompt categories will be available at Viva Insights &gt; <i>Microsoft Copilot Dashboard &gt; Adoption &gt; Adoption by app &gt; Copilot Chat (work)</i> dropdown:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/06f43072-7d4d-4789-ad93-b898c78c7e04\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>2. <i>Impact </i>tab: Admins can go to Viva Insights <i>&gt; Microsoft Copilot Dashboard &gt; Impact &gt; Copilot chat card &gt;</i> <i>Explore more </i>button to access the prompt categories as metrics in the <i>Copilot impact trend</i> section and the <i>Comparison between groups</i> section:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/da018107-53a6-4a5e-bab7-96d16dcfc67c\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/707eb149-ff29-4827-8130-9039080016c7\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>This change will be available by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your admins and/or users about this change and update internal documentation.\n</p><p>Review and assess the impact for your organization. You might consider reviewing with your works council and updating your training and documentation as appropriate.</p><p>Learn more: <a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard\" target=\"_blank\">Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Microsoft Learn</a></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "486698"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva Insights will add new prompt categories—Ask and find, Catch up, Draft and brainstorm, and Other—to the Microsoft Copilot Dashboard starting mid-August 2025. These categories will appear in Adoption and Impact tabs with no admin action needed. Organizations should prepare by notifying users and updating documentation."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1092459",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T17:19:25.95Z",
+    "Services": [
+      "Microsoft Viva",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-11T23:29:57Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva Insights: New prompt categories in the Microsoft Copilot Dashboard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>Use Windows Autopatch groups to gradually roll out Windows 11 before Windows 10 reaches end of servicing on October 14, 2025. A newly published upgrade playbook guides you to: assess Windows 11 readiness, segment devices into Windows Autopatch groups, configure how fast the feature update rolls out, and monitor your rollout.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>The capabilities and tools mentioned in this article are widely available and can be used today. Windows 10 will reach end of servicing on October 14, 2025.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Windows Autopatch offers the fastest, safest way to upgrade to Windows 11—built for phased, controlled rollouts that align with IT priorities. Windows Autopatch groups can make the process faster and easier with phased deployments, readiness insights, and powerful reporting so you can upgrade with confidence.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Follow the steps in this <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/upgrade-to-windows-11-with-windows-autopatch-groups/4434497\" rel=\"noopener noreferrer\" target=\"_blank\">upgrade playbook</a> to gradually upgrade your devices to Windows 11.&nbsp;</div><div><br></div><div>For any Windows 10 devices enrolled in Extended Security Updates (ESU), remember to create a dedicated group and manage them separately.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Read all the details for common and ESU scenarios in <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/upgrade-to-windows-11-with-windows-autopatch-groups/4434497\" rel=\"noopener noreferrer\" target=\"_blank\">Upgrade to Windows 11 with Windows Autopatch groups</a>.&nbsp;</li><li>Learn how to manage <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-windows-feature-update-overview\" rel=\"noopener noreferrer\" target=\"_blank\">Windows feature updates</a> with Windows Autopatch.&nbsp;</li><li>Visit official documentation on how to <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-manage-autopatch-groups\" rel=\"noopener noreferrer\" target=\"_blank\">Manage Windows Autopatch groups</a>.&nbsp;</li><li>Enhance your monitoring with <a href=\"https://learn.microsoft.com/intune/intune-service/protect/windows-update-compatibility-reports#use-the-windows-feature-update-compatibility-risks-report\" rel=\"noopener noreferrer\" target=\"_blank\">Windows update compatibility reports</a>.&nbsp;&nbsp;</li><li>For more details on the ESU scenario, see <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/when-to-use-windows-10-extended-security-updates/4102628\" rel=\"noopener noreferrer\" target=\"_blank\">When to use Windows 10 Extended Security Updates</a>.&nbsp;</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-07-31T17:00:33.66Z",
+    "HasAttachments": false,
+    "Id": "MC1126054",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T17:00:34.61Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-31T17:00:33.707Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Upgrade to Windows 11 with Windows Autopatch groups",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p style=\"\">Updated July 31, 2025: We have updated the timeline. Thank you for your patience.</p><p style=\"\">Today, users can see Outlook contacts created with their Entra ID (AAD) account in Teams, but contacts created in Teams are not available in Outlook. To provide a consistent experience we are making changes to allow Teams contacts, created with a user's&nbsp;Entra ID (AAD) account, to be visible in Outlook as well.</p><p style=\"\"><b>Upcoming changes to contacts in Teams and Outlook:</b></p><p>Currently, Teams and Outlook maintain separate contact lists for enterprise users. Based on your feedback, we plan to introduce a unified contact experience, ensuring a consistent contacts experience across Outlook and Teams. In future, changes to contacts in users’ organization (Entra ID) account in Teams will reflect in Outlook and vice versa.&nbsp;</p><p>What's Happened so far:&nbsp;</p><ul><li>We have completed one round of migration of all Teams contacts to Outlook in January 2024.&nbsp;</li><li>As a result, users may see more contacts in Outlook, namely those created in Teams and potentially Skype for Business contacts (if enabled).&nbsp;</li><li>Existing Outlook contacts may also be enriched with additional details from corresponding Teams contacts.&nbsp;</li><li>Teams users can see Outlook contacts but cannot edit them inside Teams.&nbsp;</li></ul><p><b>What's Coming:</b>&nbsp;</p><p>Users will gradually upgrade to the new unified experience from December 2024. The new experience will be enabled for each user across all endpoints (Desktop, Mobile, Devices etc.) simultaneously. Once the new experience is enabled for a user, they will see same set of contacts in Outlook and Teams. Any change in Outlook will reflect in Teams and vice versa.&nbsp;</p><p>All Teams contact changes (creations and edits) made since January will be included in the unified store. During creations, a small set of users may see duplicate contacts in the unified store. To help users navigate the transition, category label ‘Teams Conflict’ will be applied to duplicate contacts. This label will help users see any conflicts (duplicates or inconsistencies) that need their attention.&nbsp;</p><p> <b>When this will happen:</b></p><p>This activity is expected to be completed for all active users by August 2025 tentatively (previously June). Once this activity is complete, users will work with a single contact list across Teams and Outlook.&nbsp;</p><p><b>How this will affect your organization</b><br></p><p>Once this change is complete, users will be able to see created contacts across both Outlook and Teams and vice versa.<br></p><p><b>What you need to do to prepare</b></p><p>Action Required: Update your organisation documentation and training materials to reflect the upcoming changes for the new unified contact experience.</p><p>You may consider updating your training and documentation as appropriate. If users wish to retain a snapshot of their existing contacts in Outlook, please encourage users to back-up their existing contacts using the export capability in Outlook.</p><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Teams and Outlook contacts will be unified by August 2025, allowing changes in one to reflect in the other. Migration began in January 2024, with a full unified experience rolling out from December 2024. Users may see duplicate contacts labeled ‘Teams Conflict’ during transition. Update training and documentation accordingly."
+      }
+    ],
+    "EndDateTime": "2025-10-06T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC695487",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T14:09:19.277Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2023-12-04T23:40:45Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Contact Unification across Outlook and Teams",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 31, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon: IT administrators will be able to run silent, synthetic Microsoft Teams call simulations to specific subnets—enabling proactive network readiness checks and early detection of issues before they affect users. This will ensure high-quality, seamless communication experiences across the organization.</p><p>This feature requires a Teams Premium license on your user's devices.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=490055\" target=\"_blank\">490055</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out early September 2025 and expect to complete by mid-September 2025\n</p><p>General Availability (Worldwide): We will begin rolling out mid-September 2025 and expect to complete by late September 2025.</p><p><b>How this will affect your organization:</b></p><p>Silent test calls offer proactive monitoring, allowing IT teams to detect and address network issues before they affect users. By integrating silent test calls into your operational routines, you can proactively detect and resolve potential issues.</p><ul><li>Tests run silently in the background on the Teams client at scheduled times.\n</li><li>A test runs for 60 seconds.\n</li><li>Tests are targeted at a specific subnet.\n</li><li>Test will run only on Desktop clients (Windows and Mac).</li><li>Tests only run if the device is idle (user is not in an active Teams call).\n</li><li>Users experience no disruption: no notifications, sounds, or visible changes.</li></ul><p>This feature will be available by default for admins to configure.</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update your relevant documentation.</p><p>Before rollout, we will update this post with new documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "490055"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Starting September 2025, IT admins can run silent, 60-second Teams call tests on specific subnets for proactive network monitoring on Windows and Mac desktops. This requires Teams Premium licenses, runs only on idle devices, causes no user disruption, and will roll out automatically with no admin action needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-10-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1089323",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T13:55:19.797Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-06T23:36:39Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Support for making a silent test call",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 31, 2025: We have updated the timeline. Thank you for your patience.</p><p>Users will now be able to use File Type Filters and People Refiners to apply search criteria to get to relevant files faster.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=481136\" target=\"_blank\">481136</a></p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out by late August 2025 (previously late July).</p><p><b>How this will affect your organization:</b>\n</p><p>Users will now be able to refine their file searches more efficiently within the Files tab of the CIQ menu using two new filters:\n</p><ul><li>File Type Filters to narrow results by document type\n</li><li>People Refiners to filter files by collaborators or owners\n</li></ul><p>These enhancements are designed to help users quickly locate relevant files, improving productivity and reducing time spent searching.\n</p><p><b>What you can do to prepare:</b>\n</p><p>No admin action is required. This feature will be enabled by default for all users. You may consider notifying your users about this update to help them take advantage of the new filters.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "481136"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Copilot Chat's CIQ Menu File Tab now includes File Type and People filters for faster, more precise file searches. The feature rollout begins late August 2025, requires no admin action, and aims to improve user productivity by simplifying file location."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1108139",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-07-31T13:24:28.493Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-02T22:41:43Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Copilot Chat now offers better Search Refinement on CIQ Menu File Tab",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b>Introduction\n</b></p><p>To enhance workbook security, a new group policy is being introduced to expand File Block Settings to external workbook links. This policy allows administrators to control whether links to blocked file types can be refreshed.\n</p><p>If not configured, no changes will take effect immediately. However, starting October 2025, the default behavior will block external links to file types currently blocked by the Trust Center. When this policy is enabled, new references to blocked file types will return a <code>#BLOCKED</code> error. Existing links will display the last successfully refreshed values but will no longer refresh.\n</p><p><b>When this will happen\n</b></p><p><b>General Availability:</b> We will begin rolling out the default change in early October 2025 and end in late July 2026.\n</p><p><b>How this affects your organization\n</b></p><ul><li><b>Policy not configured:</b> No immediate change will occur.\n</li><li><b>Build 2509 warning bar: </b>Users will see a business bar when opening workbooks containing external links to blocked file types, alerting them to the upcoming change.\n</li><li><b>Build 2510 enforcement: </b>If the policy remains unconfigured, users will no longer be able to refresh or create new references to blocked file types.\n</li><li><b>Existing links behavior:</b> External links will retain the last successfully loaded value but will not refresh.\n</li><li><b>New links behavior: </b>Creating a new external link to a blocked file type will return a <code>#BLOCKED</code> error.\n</li><li><b>Workbook Links pane: </b>Will indicate which workbooks failed to refresh due to being blocked.</li></ul><p><b>What you can do to prepare\n</b></p><p>Administrators who need to allow workbook links to blocked file types can revert to the previous behavior using the following methods:\n</p><ul><li>Registry setting: Set <code>HKCU\\Software\\Microsoft\\Office\\16.0\\Excel\\Security\\FileBlock\\FileBlockExternalLinks</code> to 0.\n</li><li>Group Policy setting: <code>Set File Block Includes External Link</code> Files to <code>Disabled</code>:\n</li><li><code>Excel Group Policy Template &gt; Excel Options &gt; Security &gt; Trust Center &gt; File Block Settings &gt; File Block includes external link files</code>\n</li></ul><p>We recommend reviewing existing workbooks and communicating this change to users who rely on external links to ensure continuity of workflows.\n</p><p><b>Learn more:</b>&nbsp;<a href=\"https://learn.microsoft.com/en-us/deployoffice/security/internet-macros-blocked\" target=\"_blank\">Macros from the internet are blocked by default in Office</a><a href=\"https://learn.microsoft.com/en-us/deployoffice/security/internet-macros-blocked\" target=\"_blank\"></a></p><p><b>Learn more:</b> <a href=\"https://support.microsoft.com/en-us/topic/external-workbook-links-to-blocked-file-types-will-be-disabled-by-default-6dd12903-0592-463d-9e68-0741cf62ee58\" target=\"_blank\">External Workbook Links to Blocked File Types Will Be Disabled by Default</a></p><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -927,54 +1571,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: New threaded conversation layout option for channels",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 29, 2025, Update: The rollout for Word, Excel, PowerPoint and OneNote has been delayed to mid-August. The original timing has been updated in the original message. Additionally, Copilot Chat in the apps will respect the most recent user state (open or closed) when opening a file.&nbsp;</p><p>We’re excited to announce that we are making Copilot Chat available as a side-by-side experience in Word, Excel, PowerPoint, Outlook, and OneNote to help users access AI in their flow of work.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/8806cc60-a99a-4d54-aed6-6c1a9ab5c620\" width=\"400\" height=\"\"></p><p><i>Copilot Chat in Word (Windows desktop) for users without a Microsoft 365 Copilot license. UI elements subject to change.</i></p><p>Users can open Copilot Chat from the app ribbon. Copilot Chat in the apps will respect the most recent user state (open or closed) when opening a file.&nbsp;&nbsp;</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/1608b526-08e4-4b99-a265-52f64cce6b5f\" width=\"400\" height=\"\"></p><p><i>Reference image of the Copilot settings menu in Word (Windows desktop). UI elements subject to change.</i></p><p>Copilot Chat will be available in these apps for users with a Microsoft 365 Copilot license, and for users without a Microsoft 365 Copilot license who have pinning enabled. We will update the text of the <a href=\"https://go.microsoft.com/fwlink/?linkid=2310640\" target=\"_blank\">Pin Microsoft 365 Copilot Chat admin setting</a> to reflect its expanded scope across Microsoft 365 apps.</p><p><b>Pin Microsoft 365 Copilot Chat in the Microsoft 365 admin center: Existing setting with updated language</b></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/577939e0-be74-4a06-9036-02fe66db1e03\" width=\"200\" height=\"\">\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=494830\" target=\"_blank\">494830</a>\n</p><p><b>When this will happen:</b></p><p>General Availability:</p><ul><li><b>•\tOutlook for Web, new Outlook for Windows, and classic Outlook for Windows: </b>Rollout of this change starts in late June and completes in the weeks following. \n</li><li><b>•\tOutlook for Mac: </b>Rollout of this change for Mac starts in mid-July and completes in the weeks following. \n</li><li><b>•\tWord, Excel, PowerPoint, OneNote (Web, Mac, Windows): </b>Rollout of this change starts in mid-August and completes in the weeks following. \n<ul style=\"\"><li style=\"\">Windows: Current Channel rollout will start in mid-August. Monthly Enterprise Channel rollout will be included as part of Patch Tuesday in September.\n</li><li style=\"\">Mobile (Word/PowerPoint) / iPad (all) rollout will start no earlier than mid-August.</li></ul></li></ul><p><b>What you need to do to prepare:</b></p><p>No admin action is required. However, if your <a href=\"https://go.microsoft.com/fwlink/?linkid=2310640\" target=\"_blank\">Pin Microsoft 365 Copilot Chat admin setting</a> is configured to “Do not pin,” you should adjust it to “Pin” if you want your users without a Microsoft 365 Copilot license to access Copilot Chat in their Microsoft 365 apps.</p><p>Learn more about pinning and managing Copilot Chat: <a href=\"https://learn.microsoft.com/copilot/manage\" target=\"_blank\">Manage Microsoft 365 Copilot Chat | Microsoft Learn</a>.</p><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed? No.</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data? No.&nbsp;</li><li>Does the change provide a new way of communicating between users, tenants, or subscriptions? No.&nbsp;</li><li>Does the change provide end users any new way of interacting with generative AI? No.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "494830"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot Chat is being extended to Word, Excel, PowerPoint, Outlook, and OneNote with a delayed rollout to mid-August for some apps. It respects users' last chat state and is available to licensed users and those with pinning enabled. No admin action is required unless changing pin settings."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Web"
-      }
-    ],
-    "EndDateTime": "2025-10-06T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1096218",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-29T17:22:08.303Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-16T23:13:24Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Extending Copilot Chat to Microsoft 365 apps",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -5415,53 +6011,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated July 16, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Prompt categories will be available in Microsoft Copilot Dashboard in Microsoft Viva Insights on the web to help you understand key Copilot use cases for your organization. In Microsoft Copilot Chat (work), which is grounded in work data, these prompt categories will include <i>Ask and find, Catch up, Draft and brainstorm, </i>and <i>Other.</i> These metrics will be added to the metrics library in the advanced insights app.</p><p>\n</p><p>Learn more about Copilot Dashboard licensing requirements in <a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard\" target=\"_blank\">Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Microsoft Learn</a></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=486698\" target=\"_blank\">486698</a>.</p><p>General Availability (Worldwide): We will begin rolling mid-July 2025 (previously early July) and will complete by late July 2025.</p><p><b>How this will affect your organization:</b></p><p>Users enabled to view Copilot dashboard will see these updates:\n</p><p>1. <i>Adoption </i>tab: Prompt categories will be available at Viva Insights &gt; <i>Microsoft Copilot Dashboard &gt; Adoption &gt; Adoption by app &gt; Copilot Chat (work)</i> dropdown:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/06f43072-7d4d-4789-ad93-b898c78c7e04\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>2. <i>Impact </i>tab: Admins can go to Viva Insights <i>&gt; Microsoft Copilot Dashboard &gt; Impact &gt; Copilot chat card &gt;</i> <i>Explore more </i>button to access the prompt categories as metrics in the <i>Copilot impact trend</i> section and the <i>Comparison between groups</i> section:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/da018107-53a6-4a5e-bab7-96d16dcfc67c\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/707eb149-ff29-4827-8130-9039080016c7\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>This change will be available by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your admins and/or users about this change and update internal documentation.\n</p><p>Review and assess the impact for your organization. You might consider reviewing with your works council and updating your training and documentation as appropriate.</p><p>Learn more: <a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard\" target=\"_blank\">Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Microsoft Learn</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "486698"
-      },
-      {
-        "Name": "Summary",
-        "Value": "New prompt categories will be available in the Microsoft Copilot Dashboard within Microsoft Viva Insights, including \"Ask and find,\" \"Catch up,\" \"Draft and brainstorm,\" and \"Other.\" The rollout will occur mid-to-late July 2025. No admin action is required, but organizations should notify users and update documentation."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1092459",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-16T19:51:56.697Z",
-    "Services": [
-      "Microsoft Viva",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-11T23:29:57Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva Insights: New prompt categories in the Microsoft Copilot Dashboard",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div>Built-in Windows apps have a significant update through media releases of Windows 11, version 24H2 and Windows Server 2025. Use media refreshed in or after June 2025 with newer versions of 36 inbox apps for client and 2 for server for a more secure, compliant, and user-friendly experience. There’s no longer a need for immediate updates from the Microsoft Store.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>The refreshed media is available now.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>The new media, refreshed monthly in or after June 2025, keeps apps up-to-date, reducing security vulnerabilities at your organization. You’ll also save bandwidth and time with the ability to use the apps immediately and improved features and fixes.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>To take advantage of the built-in Windows apps, get the updated ISO images by signing into the Microsoft 365 admin center. The images are also available from Microsoft websites via the <a href=\"https://go.microsoft.com/fwlink/?linkid=2156295\" rel=\"noopener noreferrer\" target=\"_blank\">Media Creation Tool</a> or <a href=\"https://azuremarketplace.microsoft.com/marketplace/apps/microsoftwindowsdesktop.windows-11?tab=Overview\" rel=\"noopener noreferrer\" target=\"_blank\">Azure Marketplace</a>. Then deploy devices on Windows 11, version 24H2 or Windows Server 2025 using the media refreshed in June 2025 or later.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Read <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/inbox-microsoft-store-apps-update-in-windows-media/4433131\" rel=\"noopener noreferrer\" target=\"_blank\">Inbox Microsoft Store apps update in Windows media</a> for a list of the updated apps and additional details.&nbsp;</li><li>For an overview of Windows deployment and imaging processes, refer to the <a href=\"https://learn.microsoft.com/windows/deployment/\" rel=\"noopener noreferrer\" target=\"_blank\">Windows deployment documentation</a>.&nbsp;</li><li>Visit <a href=\"https://learn.microsoft.com/intune/intune-service/apps/store-apps-microsoft\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft guide on adding and updating Microsoft Store apps via Intune</a> for more details on managing app updates in enterprise environments.</li></ul>",
       "ContentType": "html"
     },
@@ -6539,52 +7088,6 @@
       "User impact"
     ],
     "Title": "Missed Activity Emails for Teams Will Now Come from a Unified Domain",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p></p><p><b>Introduction</b></p><p>We’re introducing Multi-Geo In-Region Routing (IRR) for Exchange Online, a new capability that helps organizations meet regional data residency requirements by allowing inbound email routing to be aligned with user locations. With IRR, admins can configure accepted domains to route messages directly to a designated geo-region, ensuring that email data is processed and stored entirely within the recipient’s region—even if it differs from the tenant’s primary location. This helps organizations meet compliance requirements without compromising email delivery performance.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=410245\" target=\"_blank\">410245</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out in early August 2025 and expect to complete by end of August 2025.</p><p>General Availability (Worldwide): We expect to begin rolling out in early October 2025 and expect to complete by late October 2025.</p><p><b>How this will affect your organization:</b></p><p>In-Region Routing (IRR) is disabled by default. If you do not plan to use this feature, no action is required.</p><p>For domains where you choose to enable IRR, the feature allows you to route inbound emails to accepted domains associated with specific geo-regions. When these domains are aligned with users located in the same geo-region, emails are fully processed and stored within the recipient’s region. This ensures that data remains within the user’s Preferred Data Location (PDL), supporting stronger data sovereignty and compliance with regional regulations.</p><p>If your organization uses Microsoft Purview capabilities such as Data Loss Prevention (DLP), retention policies, or eDiscovery, you may need to review and adjust those policies to ensure they align with the new regional routing behavior.</p><p></p><p><b>What you need to do to prepare:</b></p><ul><li>Ensure that admins have the necessary permissions to manage accepted domains and access to either Exchange Online PowerShell or to the Microsoft 365 admin center.</li><li>Review your domain configurations and identify users located in secondary geo-regions.\n</li><li>Prepare to configure accepted domains with the new geo-region property.</li><li>Review the documentation for configuring the feature: <a href=\"https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide\" target=\"_blank\">Microsoft 365 Multi-Geo | Learn</a>&nbsp;</li></ul><p>We value your feedback and want to hear from you if you have any questions or concerns. Please comment or contact us through the M365 Admin Center if you need any assistance.</p><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing user data is processed, stored, or accessed? - Yes. Emails are stored in-region based on domain configuration.</li><li>Does the change modify, interrupt, or disable any Purview capabilities? - Maybe. Depends on how DLP or retention policies are scoped by region.</li><li>Does the change alter how admins can monitor, report on, or demonstrate compliance activities? - Maybe. Regional routing may affect reporting granularity.</li></ul><p></p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "410245"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Exchange Online is introducing Multi-Geo In-Region Routing (IRR) to help organizations meet regional data residency requirements by routing inbound emails to user-specific geo-regions. Public preview starts in August 2025, with general availability in October 2025. IRR is disabled by default and may require policy adjustments for compliance."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2025-11-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1113112",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-10T23:34:16.19Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-10T23:34:01Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Exchange Online | Releasing Multi-Geo In-Region Routing",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -8578,51 +9081,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Copilot | Copilot Extensibility: Agents management moving to new Agents",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Users will now be able to use File Type Filters and People Refiners to apply search criteria to get to relevant files faster.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=481136\" target=\"_blank\">481136</a></p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): Rollout has begun and is expected to complete by late July 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>Users will now be able to refine their file searches more efficiently within the Files tab of the CIQ menu using two new filters:\n</p><ul><li>File Type Filters to narrow results by document type\n</li><li>People Refiners to filter files by collaborators or owners\n</li></ul><p>These enhancements are designed to help users quickly locate relevant files, improving productivity and reducing time spent searching.\n</p><p><b>What you can do to prepare:</b>\n</p><p>No admin action is required. This feature will be enabled by default for all users. You may consider notifying your users about this update to help them take advantage of the new filters.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "481136"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Copilot Chat now offers improved search refinement in the CIQ Menu File Tab with File Type Filters and People Refiners, enhancing file search efficiency. The rollout is expected to complete by late July 2025. No admin action is required, but notifying users is recommended."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Web"
-      }
-    ],
-    "EndDateTime": "2025-09-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1108139",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-02T22:41:52.38Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-02T22:41:43Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Copilot Chat now offers better Search Refinement on CIQ Menu File Tab",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -10685,52 +11143,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated June 27, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Introducing the Meeting Audio Overview, a feature that uses AI to capture and summarize key topics discussed during your Teams meetings with an engaging audio output. It converts the selected meeting transcriptions into audio summaries, allowing users to quickly review highlights for multiple meetings, helping them focusing on the most relevant topics to stay up to date.</p><p>It is supported on Windows, macOS, web, iOS, and Android platforms.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=490051\" target=\"_blank\">490051</a></p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out mid-August 2025 (previously mid-July) and expect to complete by late August 2025 (previously late July).\n</p><p>General Availability (Worldwide): We will begin rolling out late August 2025 (previously late July) and expect to complete by early September 2025 (previously early August).</p><p><b>How this will affect your organization:</b></p><p>License requirement: To experience audio overview for Teams meetings, users must have a Microsoft 365 Copilot license.</p><p>There is no administrative policy required for this.</p><p><i>How to enables this:</i></p><p>\n</p><p><i>Desktop:&nbsp;</i><b>&nbsp;</b>audio overview is part of the Meet app on desktop clients, navigate to the \"Meet\" app by clicking on \"More\" on the left-hand side panel.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3419fb1c-6311-4c30-8400-51e68ee00cf5\" width=\"200\" height=\"\">\n</p><p>Click on the \"Audio overview\" tab on the top bar, select the desired time range, overview format and style, select meetings to start your generation</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f970d8d8-1e09-4f50-b301-fb5f1500ffd9\" width=\"300\" height=\"\">\n</p><p>\n</p><p><i>Mobile:\n</i></p><p>Access to meeting recap page, click on “Try it now” button for audio overview banner</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f479aaed-1c45-4f30-b739-b4c8e27ded1d\" width=\"200\" height=\"\"></p><p>\n</p><p>Select the desired time range, overview format and style, select meetings to start your generation</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/95e84732-793e-4727-aa82-964467dd56d9\" width=\"200\" height=\"\"></p><p><br></p><p><b>What you need to do to prepare:</b>\n</p><p>You may want to update your training materials indicating that this feature is now supported.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "490051"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Introducing the Meeting Audio Overview, an AI feature that summarizes key topics from Teams meetings into audio. It supports multiple platforms and requires a Microsoft 365 Copilot license. Rollout starts mid-August 2025 for targeted release and late August 2025 for general availability. No administrative policy is needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1073070",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-27T18:57:38.42Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-13T22:56:03Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Teams Meeting Audio Overview",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated June 27, 2025: We have updated the timeline below. Thank you for your patience.</p><p>The Gradual Rollouts (GR) feature in Windows Autopatch will be removed starting late June 2025 (previously July 2), and the process is expected to be completed by October 14, 2025.</p><p><b>How Will this Affect Your Organization:</b></p><p>Starting late June 2025 (previously July 2), you will no longer be able to configure new Gradual rollout policies (via Intune or API) with rollout dates beyond October 14, 2025.\n</p><p>After October 14, 2025:\n</p><ul><li>You will no longer be able to create or modify Gradual rollout policies in the Intune user interface or API.</li><li>Existing gradual rollout policies will continue to function through their configured end dates, but no new gradual rollout-based rollouts can be created.</li></ul><p><b>What you need to do to prepare:</b>\n</p><p>We recommend transitioning to Windows Autopatch Groups (AGs), which offer a modern, flexible, and transparent approach to phased deployments.\n</p><p>Autopatch Groups support:\n</p><ul><li><b>Ring-Based Phased Deployment:</b> Define custom deployment rings backed by Entra ID groups, assign different deferral periods, and monitor rollout progress and compliance per ring.</li><li><b>Multi-Phase Feature Update Releases:</b> Configure multiple phases within a single Feature Update policy, each with its own schedule, target version, and compliance deadline.</li></ul><p>For example:\n</p><ul><li>Phase 1: 10% of devices starting immediately</li><li>Phase 2: 30% of devices after 7 days</li><li>Phase 3: Remaining 60% after 14 days</li></ul><p>This provides a Gradual rollout-like experience with more visibility, control, and policy-level management.</p><p><b>Additional Information:</b></p><ul><li><a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-windows-feature-update-overview\" target=\"_blank\">Windows feature updates overview | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/deploy/windows-autopatch-groups-overview\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif;\">Windows Autopatch groups overview | Microsoft Learn</a></li></ul><p>\n</p>",
       "ContentType": "html"
     },
@@ -11542,44 +11954,6 @@
       "User impact"
     ],
     "Title": "Microsoft Teams: CVI coordinates enables presenters to join Town hall via VTC devices",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 26, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Based on your feedback, we are excited to announce that Microsoft 365 service health email notifications for<i> Issues in your organization that require action </i>will soon be available by default in your preferred language.</p><p><b>When this will happen:</b>\n</p><p>\n</p><p>\n</p><p>General Availability (Worldwide): We will begin rolling out mid-July 2025 (previously late June) and expect to complete by late July 2025 (previously mid-July).</p><p><b>How this will affect your organization:</b></p><p>Before this rollout, service health email notifications for<i> Issues in your organization that require action</i> were only sent in English. With this update, admins will receive alerts in their preferred language, making it easier to understand and act on service health issues that affect your organization. This change improves accessibility and ensures critical service health information is actionable for all admins, regardless of their language preference.\n\n</p><p>After this rollout, if you’ve already subscribed to service health notification alerts for<i> Issues in your environment that require action,</i> you will start receiving these email notifications in the language set in your Microsoft 365 admin center preferences. We will support these 72 languages for email translation:</p><ol><li>af-za: Afrikaans (South Africa)\n</li><li>am-et: Amharic (Ethiopia)\n</li><li>ar-sa: Arabic (Saudi Arabia)\n</li><li>as-in: Assamese (India)\n</li><li>az-latn-az   Azerbaijani (Latin, Azerbaijan)\n</li><li>bg-bg: Bulgarian (Bulgaria)\n</li><li>bn-in: Bengali (India)\n</li><li>bs-latn-ba   Bosnian (Latin, Bosnia &amp; Herzegovina)\n</li><li>ca-es: Catalan (Spain)\n</li><li>ca-es-valencia Valencian (Spain)\n</li><li>cs-cz: Czech (Czechia)\n</li><li>da-dk: Danish (Denmark)\n</li><li>de-de: German (Germany)\n</li><li>el-gr: Greek (Greece)\n</li><li>es-es: Spanish (Spain)\n</li><li>et-ee: Estonian (Estonia)</li><li>eu-es: Basque (Spain)\n</li><li>fa-ir: Persian (Iran)\n</li><li>fi-fi: Finnish (Finland)\n</li><li>fil-ph: Filipino (Philippines)\n</li><li>fr-fr: French (France)\n</li><li>ga-ie: Irish (Ireland)\n</li><li>gl-es: Galician (Spain)\n</li><li>gu-in: Gujarati (India)\n</li><li>he-il: Hebrew (Israel)\n</li><li>hi-in: Hindi (India)\n</li><li>hr-hr: Croatian (Croatia)\n</li><li>hu-hu: Hungarian (Hungary)\n</li><li>id-id: Indonesian (Indonesia)\n</li><li>is-is: Icelandic (Iceland)\n</li><li>it-it: Italian (Italy)\n</li><li>ja-jp: Japanese (Japan)\n</li><li>ka-ge: Georgian (Georgia)\n</li><li>kk-kz: Kazakh (Kazakhstan)\n</li><li>km-kh: Khmer (Cambodia)\n</li><li>kn-in: Kannada (India)\n</li><li>ko-kr: Korean (Korea)\n</li><li>lo-la: Lao (Laos)\n</li><li>lt-lt: Lithuanian (Lithuania)\n</li><li>lv-lv: Latvian (Latvia)\n</li><li>mi-nz: Maori (New Zealand)\n</li><li>mk-mk: Macedonian (North Macedonia)\n</li><li>ml-in: Malayalam (India)\n</li><li>mr-in: Marathi (India)\n</li><li>mt-mt: Maltese (Malta)\n</li><li>nb-no: Norwegian Bokmål (Norway)\n</li><li>ne-np: Nepali (Nepal)\n</li><li>nl-nl: Dutch (Netherlands)\n</li><li>or-in: Odia (India)\n</li><li>pa-in: Punjabi (India)\n</li><li>pl-pl: Polish (Poland)\n</li><li>pt-br: Portuguese (Brazil)\n</li><li>pt-pt: Portuguese (Portugal)\n</li><li>ro-ro: Romanian (Romania)\n</li><li>ru-ru: Russian (Russia)\n</li><li>sk-sk: Slovak (Slovakia)\n</li><li>sl-si: Slovenian (Slovenia)\n</li><li>sq-al: Albanian (Albania)\n</li><li>sr-cyrl-rs: Serbian (Cyrillic, Serbia)\n</li><li>sr-latn-rs: Serbian (Latin, Serbia)\n</li><li>sv-se: Swedish (Sweden)\n</li><li>ta-in: Tamil (India)\n</li><li>te-in: Telugu (India)\n</li><li>th-th: Thai (Thailand)\n</li><li>tr-tr: Turkish (Türkiye)\n</li><li>tt-ru: Tatar (Russia)\n</li><li>uk-ua: Ukrainian (Ukraine)\n</li><li>ur-pk: Urdu (Pakistan)\n</li><li>vi-vn: Vietnamese (Vietnam)\n</li><li>zh-cn: Chinese (Simplified, China)\n</li><li>zh-tw: Chinese (Traditional, Taiwan\n</li></ol><p>To configure this feature:</p><ul><li>Go to Microsoft 365 admin center &gt; <i>Service Health Dashboard &gt; Customize tab &gt; Email </i>tab to subscribe to <i>Issues in your environment that require action</i> (and <i>Issues with priority accounts notifications</i>, available for certain licenses).</li><li>Keep the <i>Translate emails to</i> &lt;preferred language&gt; checkbox checked to start receiving these notifications in your preferred language. <b>Note: </b>This box will be checked by default.</li><li>You can opt out of translation at any time to go back to receiving emails in English.\n</li></ul><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/638f33be-fcad-445d-89d8-52c6c46a9150\" style=\"width: 400px;\" alt=\"admin controls>\n</p><p><b>Note:</b> Translation for Microsoft-side incident and advisory notifications is not yet available but is planned for a future release.\n</p><p>This change will be on by default. Translation for <i>Incident </i>and <i>Advisory </i>notifications (Microsoft-side issues) is not yet available but is planned for a future release.</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your admins and/or users about this change and update internal documentation.</p><p>Learn more: <a href=\" https:=\"\" learn.microsoft.com=\"\" microsoft-365=\"\" enterprise=\"\" view-service-health?view=\"o365-worldwide&amp;source=docs&quot;\" target=\"_blank\">How to check Microsoft 365 service health - Microsoft 365 Enterprise | Microsoft Learn (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 admin center will soon provide service health email notifications in multiple languages by default. The rollout starts mid-July 2025 and completes by late July 2025. Admins will receive notifications in their preferred language, improving accessibility and actionability. No admin action is required before the rollout."
-      }
-    ],
-    "EndDateTime": "2025-08-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1091448",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-26T14:48:04.49Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-10T23:17:57Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 admin center: Email notifications for service health issues available in multiple languages",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -12901,53 +13275,6 @@
       "Admin impact"
     ],
     "Title": "The Microsoft 365 Feed widget is no longer available with the Microsoft 365 Feed app",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 23, 2025: We have updated the content. Thank you for your patience.</p><p>Coming soon: IT administrators will be able to run silent, synthetic Microsoft Teams call simulations to specific subnets—enabling proactive network readiness checks and early detection of issues before they affect users. This will ensure high-quality, seamless communication experiences across the organization.</p><p>This feature requires a Teams Premium license on your user's devices.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=490055\" target=\"_blank\">490055</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out early August 2025 and expect to complete by mid-August 2025\n</p><p>General Availability (Worldwide): We will begin rolling out mid-August 2025 and expect to complete by late August 2025.</p><p><b>How this will affect your organization:</b></p><p>Silent test calls offer proactive monitoring, allowing IT teams to detect and address network issues before they affect users. By integrating silent test calls into your operational routines, you can proactively detect and resolve potential issues.</p><ul><li>Tests run silently in the background on the Teams client at scheduled times.\n</li><li>A test runs for 60 seconds.\n</li><li>Tests are targeted at a specific subnet.\n</li><li>Test will run only on Desktop clients (Windows and Mac).</li><li>Tests only run if the device is idle (user is not in an active Teams call).\n</li><li>Users experience no disruption: no notifications, sounds, or visible changes.</li></ul><p>This feature will be available by default for admins to configure.</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update your relevant documentation.</p><p>Before rollout, we will update this post with new documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "490055"
-      },
-      {
-        "Name": "Summary",
-        "Value": "IT administrators will soon be able to run silent Microsoft Teams call simulations for proactive network checks, requiring a Teams Premium license. This feature, available for Windows and Mac desktops, will roll out in August 2025. No user disruption occurs during tests. Admins should review configurations and notify users."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-10-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1089323",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-23T20:57:13.937Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-06T23:36:39Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Support for making a silent test call",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18882,7 +19209,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -26816,7 +27143,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -29852,37 +30179,6 @@
       "Admin impact"
     ],
     "Title": "60-Day Reminder: Upcoming end of servicing date for some editions of Windows 11, versions 21H2 and 22H2",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>If you’re an IT professional or decision maker, start using the newest Windows 11 capabilities with helpful tips and actionable steps summarized in one place. Read <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-11-news-you-can-use-july-2024/ba-p/4204680\" rel=\"noopener noreferrer\" target=\"_blank\">this month’s recap</a> of improvements in Windows security, device management, Windows Server, productivity and collaboration, lifecycle milestones, and preview opportunities. Get started with Secure Boot protections, checkpoint cumulative updates, security baselines and cross-region disaster recovery for Windows 365, Windows Server preview opportunities, IoT LTSC, and other improvements released in July.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>All improvements summarized in this monthly recap are already available.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Whatever tools you use, you can start seeing improvements across various workflows in your organization with:&nbsp;</div><ul><li>Secure Boot protections&nbsp;</li><li>Checkpoint cumulative updates for Windows 11&nbsp;</li><li>Security baselines for Windows 365&nbsp;</li><li>Cross-region disaster recovery for Windows 365&nbsp;</li><li>Windows Server hotpatch baseline and preview opportunities&nbsp;</li><li>IoT LTSC&nbsp;</li><li>Other improvements released in July&nbsp;</li></ul><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Read the new monthly recap and additional information to start benefiting from the latest improvements.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><div>Read the monthly recap at <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-11-news-you-can-use-july-2024/ba-p/4204680\" rel=\"noopener noreferrer\" target=\"_blank\">Windows news you can use: July 2024</a>. It includes highlights from the following channels:&nbsp;</div><ul><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-resiliency-best-practices-and-the-path-forward/ba-p/4201550\" rel=\"noopener noreferrer\" target=\"_blank\">Windows resiliency: Best practices and the path forward</a>&nbsp;</li><li><a href=\"https://support.microsoft.com/topic/july-9-2024-kb5040442-os-builds-22621-3880-and-22631-3880-0864308e-61cc-413b-8194-0294331aba52\" rel=\"noopener noreferrer\" target=\"_blank\">July 2024 security update for Windows 11, version 23H2</a>&nbsp;</li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows-ITPro-blog\" rel=\"noopener noreferrer\" target=\"_blank\">Windows IT Pro Blog</a>&nbsp;</li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-os-platform-blog/bg-p/WindowsOSPlatform\" rel=\"noopener noreferrer\" target=\"_blank\">Windows OS Platform Blog</a>&nbsp;</li><li><a href=\"https://techcommunity.microsoft.com/t5/microsoft-intune-blog/bg-p/MicrosoftEndpointManagerBlog\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Intune Blog</a>&nbsp;</li><li><a href=\"https://blogs.windows.com/windows-insider/\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Insider Blog</a>&nbsp;</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-07-31T17:09:24.22Z",
-    "HasAttachments": false,
-    "Id": "MC844361",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2024-07-31T17:09:25.21Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-07-31T17:09:24.297Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Get started with July 2024 improvements in Windows 11",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
