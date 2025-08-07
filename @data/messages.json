@@ -4,6 +4,91 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b>Introduction</b></p><p>We’re introducing <b>Immersive Search</b>, a new experience across Outlook for Web, Mac, iOS, Android, and the new Outlook for Windows. After performing a search, users will see an entry point to the Microsoft Copilot side pane, which presents a highly relevant, AI-generated summary based on their query. This summary includes content from emails, Teams messages, and documents—helping users quickly understand and act on their information.\n</p><p>This feature uses Microsoft 365 Copilot with an Outlook-specific experience and is available only to tenants with Copilot licenses.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498319\" target=\"_blank\">498319</a>.</p><p><b>When this will happen</b></p><p><ul><li><b>General Availability (Worldwide):</b> We will begin rolling out in early September and expect to complete by late September 2025.</li></ul></p><p><b>How this will affect your organization</b></p><p>Once rolled out, users will see a new entry point to the Copilot side pane after executing a search in Outlook. This pane surfaces AI-generated summaries, improving productivity and reducing time spent navigating search results.</p><p><i>Copilot side pane in Outlook search results:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/637e0f0a-ec4a-4ed7-bbf9-bac01707af2f/1c37dbf805f887009b8835de52b7be13a2ecd93e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p>\n</p><p>Key details:</p><ul><li>The Copilot side pane appears only after a user performs a search and selects the entry point on the search results page (SERP).\n</li><li>Summaries include all content supported by Microsoft 365 Copilot, such as indexed emails, Teams messages, attachments, and shared files from OneDrive or SharePoint.\n</li><li>This feature is <b>on by default </b>and <b>does not require admin configuration</b>.</li><li>There are no changes to existing DLP, eDiscovery, or retention policies.\n</li><li>Admins cannot control access to this feature via policy settings or Entra ID group membership.\n</li><li>There is currently no setting in the Microsoft 365 admin center or Outlook user settings to manage or disable this experience.\n</li><li>There is no way to monitor or audit usage of this feature through Microsoft Purview or Microsoft 365 audit logs.</li></ul><p><b>What you can do to prepare\n</b></p><p>No action is required at this time. However, we recommend informing users about this new experience to reduce confusion and help desk inquiries.\n</p><p>You may also want to review your organization's Copilot licensing and ensure users are aware of how to use the Copilot side pane effectively.</p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does this change store new customer data?</td><td>AI-generated summaries may be temporarily cached to improve performance, but they are not permanently stored.</td></tr><tr><td>Does this change alter how existing customer data is processed, stored, or accessed?&nbsp;</td><td>Emails, Teams messages, and documents are processed by large language models (LLMs) to generate summaries based on user search queries.</td></tr><tr><td>Does this change introduce or significantly modify AI or machine learning capabilities that interact with customer data?</td><td>This feature introduces generative AI capabilities that analyze and summarize user content across Outlook and connected Microsoft 365 services.</td></tr><tr><td>Does this change provide end users with a new way of interacting with generative AI?</td><td>Users can interact with Copilot summaries directly in the Outlook interface after performing a search.</td></tr></tbody></table><p>\n</p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "498319"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Outlook introduces Immersive Search with a Copilot side pane across platforms, providing AI-generated summaries from emails, Teams, and documents after searches. Available to Copilot-licensed tenants, it rolls out worldwide by late September 2025, requires no admin setup, and enhances productivity without changing data policies."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2025-10-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1130610",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-07T06:35:39.153Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-07T06:34:24Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Outlook: Enhanced search experience with Copilot across Web, Mac, and Mobile",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>Starting September 9, 2025, we will begin retiring the<b> ‘Mobile devices’ </b>page from the Settings module in <b>Outlook Web Access</b> and <b>new Outlook</b>. This change simplifies device management and aligns with modern tools that offer more robust controls for administrators and end users.</p><p><b>When this will happen</b></p><ul><li>Start: September 9, 2025\n</li><li>Complete: October 9, 2025</li></ul><p><b>How this will affect your organization</b></p><p>After this change, users will no longer be able to manage mobile device connections to their Microsoft 365 Exchange mailbox directly from Outlook Web Access or new Outlook. Instead, they should use one of the following supported alternatives:</p><ul><li><b>Microsoft Intune (Endpoint Manager): </b>For administrators to monitor, enforce policies, and remotely wipe devices.&nbsp;</li><li><b>My Account portal: </b>For users to view and manage their connected devices.</li><li><b>iOS and Android native tools:</b> For remote wipe capabilities in case of lost or stolen devices.</li></ul><p><b>What you need to do to prepare</b></p><p>No admin action is required. This change will roll out automatically. We recommend:\n</p><ul><li>Informing your users about the upcoming change.\n</li><li>Updating internal documentation.\n</li><li>Sharing the alternative device management options listed above.\n</li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://support.microsoft.com/office/mobile-devices-options-in-outlook-on-the-web-7d5efe71-511f-42fa-b068-e3714a25b3cb\" target=\"_blank\">Mobile devices options in Outlook on the web | Microsoft Support</a>&nbsp;(Article will be updated once this change takes effect.)</li><li><a href=\"https://learn.microsoft.com/intune/intune-service/fundamentals/manage-devices\" target=\"_blank\">Learn about managing and securing your devices in Microsoft Intune | Microsoft Learn</a></li><li><a href=\"https://support.microsoft.com/account-billing/manage-your-work-or-school-account-connected-devices-from-the-devices-page-6b5a735d-0a7f-4e94-8cfd-f5da6bc13d4e\" target=\"_blank\">Manage your work or school account connected devices from the Devices page | Microsoft Support</a></li><li><a href=\"https://support.apple.com/guide/icloud/erase-a-device-mmfc0ef36f/icloud\" target=\"_blank\">Erase a device in Find Devices on iCloud.com | iCloud User Guide | Apple Support</a></li><li><a href=\"https://support.google.com/accounts/answer/6160491\" target=\"_blank\">Find, secure, or erase a lost Android device | Google Support</a></li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting September 9, 2025, the ‘Mobile devices’ settings page will be removed from Outlook Web Access and new Outlook. Users must manage mobile devices via Microsoft Intune, the My Account portal, or native iOS/Android tools. No admin action is needed; inform users and update documentation accordingly."
+      }
+    ],
+    "EndDateTime": "2025-11-09T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1130607",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-08-07T06:31:53.147Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 for the web"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-07T06:30:49Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Outlook Web Access and new Outlook: ‘Mobile devices’ settings page to be removed",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We previously announced that the ability to view usage and value metrics for Copilot agents in Power Apps in the Copilot hub within the Power Platform admin center would reach general availability on June 15, 2025. This feature was delayed and started rollout to be generally available on July 28, 2025.<br><br><b>How does this affect me?</b><br>Admins will be able to utilize a new, dedicated product page for Power Apps in the Copilot hub within the Power Platform admin center to view usage and value metrics for Copilot in Power Apps. In the initial release, usage data will be available for the <a target=\"_blank\" href=\"https://aka.ms/11680Link1\">data exploration agent</a>. In the future, we plan to add usage data for additional Copilot agents.<br><br><b>What do I need to do to prepare?</b><br>This message is for awareness and no action is required.<br><br>To learn more, please visit <a target=\"_blank\" href=\"https://aka.ms/11680Link2\">Track, manage, and scale Copilot adoption in the Power Platform</a>.",
       "ContentType": "html"
     },
@@ -7331,7 +7416,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-07T03:31:37.7322107Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-07T03:31:37.7322109Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-07T03:31:37.732211Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-07T11:02:47.3836025Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-07T11:02:47.3836026Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-07T11:02:47.3836027Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16159,7 +16244,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"480716\":[{\"RoadmapId\":480716,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958668Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595867Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378077Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":480716,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378085Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"480716\":[{\"RoadmapId\":480716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378077Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":480716,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958668Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595867Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378085Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
