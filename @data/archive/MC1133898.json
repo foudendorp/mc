@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Windows PowerShell 2.0 is removed from Windows 11, version 24H2 starting with the August 2025 non-security update. It’s also removed from Windows Server 2025 starting with the September 2025 security update. Windows Insider preview builds already reflect this change as of July 2025. Windows PowerShell 2.0 is over 14 years old, lacks many security enhancements of the later versions, and has been deprecated since 2017. By using the newer and supported PowerShell 7 or PowerShell 5.1, you can help ensure that scripts run safer. If you have legacy scripts or software that explicitly depend on PowerShell 2.0, you’ll need to either update them or use a workaround to prevent disruptions.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><ul><li>2017: PowerShell 2.0 was <a href=\"https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/\" rel=\"noopener noreferrer\" target=\"_blank\">deprecated</a>.&nbsp;</li><li>July 2025: PowerShell 2.0 is removed from <a href=\"https://blogs.windows.com/windows-insider/2025/07/03/announcing-windows-11-insider-preview-build-27891-canary-channel/\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Insider preview builds</a>.&nbsp;</li><li>August 2025 Windows non-security update: PowerShell 2.0 is removed from Windows 11, version 24H2 and later.&nbsp;</li><li>September 2025 Windows security update: PowerShell 2.0 is removed from Windows Server 2025 and later.&nbsp;</li></ul><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>This removal is part of a <a href=\"https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/\" rel=\"noopener noreferrer\" target=\"_blank\">broader effort</a> to clean up legacy code, reduce the complexity of the PowerShell ecosystem, and improve Windows security. For most users and organizations, this change will be uneventful – newer versions of PowerShell (5.1 and 7.x) continue to be available and supported. However, if you have legacy scripts or software that explicitly depends on PowerShell 2.0, you will need to take action (update them or use a workaround) to prevent any disruptions.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><ul><li>Recommended: Migrate scripts and tools to newer PowerShell versions. Microsoft primary guidance is to update anything using PowerShell 2.0 to use PowerShell 5.1 or PowerShell 7. PowerShell 5.x introduced many improvements and is backward-compatible for almost all commands and modules. The PowerShell team <a href=\"https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/#i%E2%80%99m-a-powershell-expert-just-give-me-the-quick-version\" rel=\"noopener noreferrer\" target=\"_blank\">article</a> provides a guide for this migration.&nbsp;</li><li>Update or replace outdated software. In some cases, the fix might be to upgrade the software that needed PowerShell 2.0. For example, if an old installer fails, look for a newer version of that product.&nbsp;</li><li>See Additional information for more resources.&nbsp;</li></ul><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Read <a href=\"https://support.microsoft.com/topic/fe6d1edc-2ed2-4c33-b297-afe82a64200a\" rel=\"noopener noreferrer\" target=\"_blank\">PowerShell 2.0 removal in Windows</a> for further details.&nbsp;</li><li>Developers’ <a href=\"https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/#i%E2%80%99m-a-powershell-expert-just-give-me-the-quick-version\" rel=\"noopener noreferrer\" target=\"_blank\">quick guide</a> to PowerShell migration.&nbsp;</li><li>Consult the comprehensive list of <a href=\"https://learn.microsoft.com/windows/whats-new/deprecated-features\" rel=\"noopener noreferrer\" target=\"_blank\">deprecated features for Windows client</a>.&nbsp;</li><li>Visit the <a href=\"https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/\" rel=\"noopener noreferrer\" target=\"_blank\">original 2017 deprecation announcement</a>.&nbsp;</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-08-12T17:01:27.267Z",
+  "HasAttachments": false,
+  "Id": "MC1133898",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-08-12T17:01:29.953Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-08-12T17:01:27.267Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "PowerShell 2.0 removal in Windows",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
