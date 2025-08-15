@@ -1,5 +1,36 @@
 [
   {
+    "ActionRequiredByDateTime": "2025-09-15T00:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "A Data Privacy message regarding your organization is available within Message Center. The contents of this message can be accessed within Message Center by a Global Administrator or someone designated as a Message Center Privacy Reader.<br/><br/>Please sign in to Admin Center to view the details of this message in the M365 Message center.",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [],
+    "EndDateTime": "2025-09-15T04:21:37Z",
+    "HasAttachments": false,
+    "Id": "MC1135479",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-15T04:41:14.283Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "critical",
+    "StartDateTime": "2025-08-15T04:21:37Z",
+    "Tags": [
+      "GDPR"
+    ],
+    "Title": "[Action Required] Credential management requires additional MFA Prompt for enhanced security",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
     "ActionRequiredByDateTime": "2025-09-19T07:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -4113,7 +4144,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"498490\":[{\"RoadmapId\":498490,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T03:27:07.9788744Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T03:27:07.9788746Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T03:27:07.9788747Z\",\"LatestRing\":null}]}"
+        "Value": "{\"498490\":[{\"RoadmapId\":498490,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T10:33:31.5110211Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T10:33:31.5110213Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T10:33:31.5110214Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5728,7 +5759,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"498895\":[{\"RoadmapId\":498895,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-08-15T03:27:07.9785815Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T03:27:07.9785816Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T03:27:07.9785817Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T03:27:07.9785818Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T03:27:07.9785818Z\",\"LatestRing\":null}]}"
+        "Value": "{\"498895\":[{\"RoadmapId\":498895,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-08-15T10:33:31.5106822Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T10:33:31.5106824Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T10:33:31.5106825Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T10:33:31.5106826Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-15T10:33:31.5106827Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9923,44 +9954,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction:\n</b></p><p>We're introducing a new feature in Outlook that helps users quickly find and access all files shared within a conversation thread. Instead of scrolling through individual messages to locate attachments, users will see a <b>Browse Files</b> button at the top of the conversation view that opens a consolidated list of all shared files. This feature is supported exclusively on Outlook for iOS and Android.</p><p><b></b><b>When this will happen:\n</b><b></b></p><p><b>General Availability (Worldwide, DoD, GCC, GCCH):</b> Rollout began in early July 2025 and completed in late July 2025.</p><p><b>How this affects your organization:\n</b></p><p>Once this feature is available, users who have set their Mail view to “Newest on Top” will see a new Browse Files button at the top of conversation threads. Selecting this button will display all classic attachments shared in that conversation, improving discoverability and productivity.\n</p><ul><li>The <b>Browse Files </b>button is <b>always visible</b> when the <b>“Newest on Top”</b> setting is enabled.\n</li><li>This feature is <b>exclusive to mobile clients</b>—only available in <b>Outlook for iOS and Outlook for Android</b>. It is <b>not supported</b> in Outlook on the web or desktop.\n</li><li>Users can only reference <b>local files</b> (classic attachments); links to files in <b>OneDrive or SharePoint </b>are not supported.\n</li><li>This feature is <b>on by default</b> and requires<b> no admin configuration</b>.</li></ul><p><i>New “Browse Files” button in conversation view:</i><i></i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/745a274e-5df6-45ff-b50a-10cf8f705b1c/d1ca48f19d28ef152833c9d9dfeae799940ee3c1.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p><b></b></p><p><b></b></p><p><b></b></p><p></p><p></p><p><b>What you can do to prepare:</b></p><p>No admin action is required before the rollout.\n</p><p>Consider notifying your users about this update and updating any relevant training or documentation to reflect:\n</p><ul><li>The feature’s availability only on mobile clients.\n</li><li>The visibility condition tied to the “Newest on Top” setting.\n</li><li>The limitation to classic attachments (no cloud file links).</li></ul><p><b>Compliance considerations:\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p><i></i></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Outlook for iOS and Android now features a \"Browse Files\" button in conversation threads (with \"Newest on Top\" view) to quickly access all classic attachments. This mobile-only feature rolled out worldwide in July 2025, requires no admin setup, and excludes OneDrive or SharePoint links."
-      }
-    ],
-    "EndDateTime": "2025-08-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1120868",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-24T00:27:45.153Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-24T00:27:33Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Outlook for iOS and Android | Browse conversation files",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated July 23, 2025: We have updated the timeline. Thank you for your patience.</p><p>We're introducing a new drag-and-drop capability in the new Microsoft Outlook for Windows. This feature will users to drag emails and files from one personal or enterprise account and drop them into another personal or enterprise account as attachments—streamlining cross-account workflows and improving productivity.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=493289\" target=\"_blank\">493289</a>.</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out mid-August 2025 and expect to complete by mid-September 2025.\n</p><p>General Availability (Worldwide, GCC): We will begin rolling out mid-October 2025 and expect to complete by mid-November 2025.</p><p><b>How this will affect your organization:</b></p><p>Before this rollout, users are not able to drag emails and files from one account to another.\n</p><p>After this rollout, users from organizations with the <code>ItemsToOtherAccountsEnabled</code> parameter set to  <code>TRUE</code> in the <code>OWAMailboxPolicy</code> will be able to:</p><ul><li>Drag and drop emails and files from one mailbox into a draft in another mailbox as attachments.\n</li><li>Attach content from Shared Mailboxes or Shared Folders into another mailbox.\n</li></ul><p>To enhance security, users will see a confirmation prompt before completing the drag-and-drop action:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/0244f18c-a1b0-4e2e-bf08-5857c3d69b88\" style=\"width: 300px;\" alt=\"user message\">\n</p><p>This confirmation does not appear when attaching files from a Shared Mailbox.\n</p><p>This feature respects your existing <code>OWAMailboxPolicy</code> settings and does not change any defaults.\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates. Review your current  <code>OWAMailboxPolicy</code> settings, particularly the <code>ItemsToOtherAccountsEnabled</code> parameter, to determine if you would like to enable or disable this feature after roll out occurs. No change to your existing <code>ItemsToOtherAccountsEnabled</code> configuration will occur with this rollout.  You may want to notify your admins and/or users about this change and update internal documentation.</p><p>Learn more about the <code>ItemsToOtherAccountsEnabled</code> parameter in <a href=\"https://learn.microsoft.com/powershell/module/exchange/set-owamailboxpolicy?view=exchange-ps#-itemstootheraccountsenabled\" target=\"_blank\">Set-OwaMailboxPolicy (ExchangePowerShell) | Microsoft Learn</a></p><p>#newoutlookforwindows</p>",
       "ContentType": "html"
     },
@@ -10833,7 +10826,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-15T03:27:07.9787942Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-15T03:27:07.9787943Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-15T03:27:07.9787944Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-15T10:33:31.5109131Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-15T10:33:31.5109132Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-15T10:33:31.5109133Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12151,43 +12144,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Facilitator agent real-time notes in meetings",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>More enterprise environments can now experience the power of security updates that do not require a restart. Hotpatching is now available for Windows 11, version 24H2 Arm64 devices. All you need to do is check your prerequisites, disable Compiled Hybrid PE (CHPE), and enroll these devices into a quality update policy with hotpatching enabled.</p><p><b>When this will happen:</b></p><p>Hotpatching for 64-bith Arm architecture is now generally available.</p><p><b>How this will affect your organization:</b></p><p>With hotpatching, your organization can benefit from:</p><ul><li><b>Faster compliance:</b> Security updates are applied immediately, reducing the window of vulnerability.</li><li><b>No downtime:</b> Users stay productive—no forced restarts or interruptions.</li><li><b>Smaller update payloads:</b> Faster installs and easier update orchestration.</li><li><b>Enterprise-grade control:</b> Integrated with Microsoft Intune and Windows Autopatch for streamlined management.</li></ul><p><b>What you need to do to prepare:</b>\n</p><p>Review <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatching-now-available-for-64-bit-arm-architecture/4430949\" target=\"_blank\">Hotpatching now available for 64-bit Arm architecture</a> to check if you meet the prerequisites and additional guidance to get started.\n</p><p>A unique prerequisite for Arm64 devices is disabling Compiled Hybrid PE (CHPE). Do this in one of the following ways:\n</p><ul><li><b>Use the DisableCHPE policy.</b> Apply the following configuration service provider (CSP) setting via Microsoft Intune or Group Policy, then restart the device once: ./Device/Vendor/MSFT/Policy/Config/Hotpatch/DisableCHPE = 1</li><li><b>Use registry keys.</b> You can also set the following registry key value to 1 and then restart the device once: HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management\\HotPatchRestrictions = 1</li></ul><p><b>Additional information:</b></p><ul><li>Read <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatching-now-available-for-64-bit-arm-architecture/4430949\" target=\"_blank\">Hotpatching now available for 64-bit Arm architecture</a> for the complete announcement and technical guide.</li><li>Find the DisableCHPE policy at <a href=\"https://learn.microsoft.com/windows/client-management/mdm/policy-csp-system#disablechpe\" target=\"_blank\">System Policy CSP</a>.</li><li>Learn how to <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates\" target=\"_blank\">Enroll devices to receive hotpatch updates</a>.</li><li>Consult our comprehensive documentation on <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates\" target=\"_blank\">hotpatch updates</a>.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Hotpatching is now available for Windows 11, version 24H2 Arm64 devices, allowing security updates without restarts. Organizations benefit from faster compliance, no downtime, smaller update payloads, and enterprise-grade control. Prerequisites include disabling Compiled Hybrid PE (CHPE) via policy or registry key. For more details, review the provided links."
-      }
-    ],
-    "EndDateTime": "2025-08-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1115976",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-15T22:49:51.827Z",
-    "Services": [
-      "Microsoft Intune",
-      "Windows Autopatch"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-15T22:49:23Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Hotpatching is now available for 64-bit Arm architecture",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -20175,44 +20131,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>On July 1, 2025, the <a href=\"https://adoption.microsoft.com/virtual-event-guidance/assistance/\" target=\"_blank\">Microsoft 365 Live Event Assistance Program (LEAP)</a> will transition from a complimentary preview offer to a paid service provided by <a href=\"https://www.microsoft.com/microsoft-unified\" target=\"_blank\">Microsoft Unified</a> that will be known as Teams Events Hosting Assistance.</p><p>We are also pleased to inform you that we will be expanding our services to include Microsoft Teams Events Advanced Production Services, which will provide production and broadcasting services for town halls, webinars, and events.\n</p><p>To learn more and benefit from these services, please contact your account management team. We are committed to ensuring that your transition is smooth and successful.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "On July 1, 2025, the Microsoft 365 Live Event Assistance Program (LEAP) will become a paid service under Microsoft Unified, known as Teams Events Hosting Assistance. Additionally, Microsoft Teams Events Advanced Production Services will be introduced for town halls, webinars, and events. Contact your account management team for more details."
-      }
-    ],
-    "EndDateTime": "2025-08-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1087565",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-06-03T20:03:30.337Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-03T20:02:32Z",
-    "Tags": [
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Microsoft Teams: LEAP will transition to Microsoft Unified",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated June 3, 2025: We have updated the timeline below. Thank you for your patience.</p><p>People Skills is an intelligent data layer in Microsoft 365 Copilot that infers skills derived from user activity mapped to a customizable built-in skill taxonomy, enhancing Copilot Chat, Microsoft 365, and Viva experiences with contextualized information about the people in your organization.  For employees, People Skills empowers them to discover, connect, and learn about others in the organization while leaders gain visibility into talent landscape strengths, gaps, and opportunities.\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out in early June 2025 (previously late May) and expect to complete by early July 2025 (previously late June).</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=485726\" target=\"_blank\">485726</a></p><p><b>How this affects your organization:</b></p><p>Once available and configured, users can launch People Skills, so your organization enjoys the following benefits right away: \n</p><ul><li>Skill inferencing from an advanced AI model to help users keep their skills fresh* \n</li><li>A built-in skills library, ready to use out-of-the-box or customize as needed  \n</li><li>Personalized skills in Microsoft 365 experiences including Microsoft 365 Copilot, Microsoft 365 profile card, Microsoft 365 profile editor, Org explorer, and People companion. \n</li><li>Skills landscape reports for leaders and analysts available from the Advanced Insights template page in Viva Insights.\n</li><li>Skills-based learning experience in Viva Learning\n</li><li>Available in June 2025, People Skills will also power a new Skill Discovery agent for employees and leaders: \n</li><li>The Skill Discovery agent enables employees to easily find experts in the organization, understand colleague’s skillsets, and make informed decisions about skill development.\n</li><li>The Skill Discovery agent informs leaders on strategic workforce planning decisions with an up-to-date view of talent landscape strengths, gaps, and opportunities. \n</li></ul><p><i>*Notes: \n</i></p><ul><li>Availability: For this May release, People Skills will be available to Microsoft 365 Copilot customers, and select Microsoft 365 and Viva customers, excluding customers with education (student or faculty) or government SKUs. More information coming soon about support for additional SKUs. \n</li><li>People Skills - Foundation service plan (PEOPLE_SKILLS_FOUNDATION): Customers with the “People Skills – Foundation\" service plan (Microsoft 365 commercial customers without a Microsoft 365 Copilot SKU, excluding education and government) will have access to the People Skills service excluding AI inferencing and Microsoft 365 Copilot capabilities. \n</li><li>People Skills – Advanced service plan (SKILLS_IN_VIVA): Customers with the “People Skills – Advanced\" service plan (including Microsoft Viva Suite, Viva Insights (including Workplace Analytics and Feedback customers), and Viva Learning customers) will have access to the People Skills service with AI inferencing, excluding Microsoft 365 Copilot capabilities.\n</li><li>Microsoft 365 Copilot in Productivity Apps service plan: Customers with the “Microsoft 365 Copilot in Productivity Apps service plan,” excluding education and government SKUs, will now have People Skills available, including AI-inferencing and related Copilot experiences. \n</li><li>User Profile Application (UPA) Skills: If your organization has a dependency on skills data that surfaces in About Me on the Microsoft 365 profile card and editor (formerly in Delve), or on the skills field in the UPA API or Graph API, note those skills will be hidden from the Microsoft 365 profile card and editor when you deploy People Skills, and replaced with this new experience:\n<ul><li>People Skills will migrate shared UPA user skills data to this new experience at a future date. <a href=\"https://go.microsoft.com/fwlink/?linkid=2313228&amp;clcid=0x409\" target=\"_blank\">Learn more about this transition before you deploy People Skills</a> \n</li></ul></li></ul><p><b>What you can do to prepare:</b></p><p>Most organizations can quickly set up People Skills using our out-of-the-box skills library of over 16,000 skills. You also have the option to curate your own library by importing custom skills. \n</p><ol><li>From the Copilot page in the <a href=\"https://admin.microsoft.com/adminportal/home#/featureexplorer\" target=\"_blank\">Microsoft 365 admin center</a>, select People Skills in Microsoft 365 Copilot\n</li><li>You’ll be redirected to the page in the M365 Admin Center to complete setup\n</li><li>Select “Begin quick setup” \n</li></ol><p>All skills in the library, including 16,000+ skills across multiple domains and industries, are pre-selected by default. You have the option to filter out skills from the People Skills library. The more skills you include from the People Skills library, the more relevant skills users will see in their profiles.\n</p><p><i>Note:</i> You may add or remove skills later after setting up People Skills. Learn more about how to <a href=\"https://go.microsoft.com/fwlink/?linkid=2313228&amp;clcid=0x409\" target=\"_blank\">Manage your skills library</a> \n</p><p>Within a few days after your organization launches People Skills, people enabled for AI inferencing in skills will see a personalized list of skills on their profile cards by default, which they can curate , and skills will appear in Copilot searches and other Microsoft 365 experiences. Both skills people confirm and those provided by AI based on their role and work activity in Microsoft 365 will be visible by default on their profile card. Skills added by AI will be identified as skills someone the person might have. \n</p><p>You can change visibility settings in PowerShell, and people can also adjust their own skills visibility . Both admins and users have control over their skills inference setting and skill profile visibility. Admins can adjust setting in PowerShell, while users can update settings in their Microsoft 365 profile editor. \u2028<a href=\"https://go.microsoft.com/fwlink/?linkid=2313228&amp;clcid=0x409\" target=\"_blank\">Learn more about People Skills settings.</a>\n</p><p><i>Note:</i> Users without a license that provides access to skills AI inferencing will receive a skills experience that does not include AI features. They will be able to search the skills library you deploy to create and share a skills profile. <a href=\"https://go.microsoft.com/fwlink/?linkid=2310915\" target=\"_blank\">Learn more about licensing</a>.\n</p>",
       "ContentType": "html"
     },
@@ -21495,7 +21413,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -27231,7 +27149,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
