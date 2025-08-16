@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div><b>IMPORTANT</b>: This notice is only relevant for environments where:</div><ul><li><a href=\"https://learn.microsoft.com/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Server Update Services (WSUS)</a> is used to deploy Windows security updates to Windows 11, version 24H2 devices.</li><li>Scan Cab is used to check for update compliance</li><li>The August 2025 Scan Cab was deployed before 9:15 AM PT on August 15, 2025.</li></ul><div>&nbsp;</div><div>An updated version of the August 2025 Scan Cab was made available at 9:15 AM PT on August 15, 2025. This Scan Cab includes new metadata corresponding to the republished August 2025 security update for Windows 11, version 24H2 (KB5063878). The new Scan Cab only needs to be re-deployed in the environments where Windows Server Update Services (WSUS) is used for installing updates.&nbsp;</div><div>&nbsp;</div><div>The&nbsp;republished&nbsp;update for Windows 11, version 24H2 addresses an issue where the August 2025 Windows security update (<a href=\"https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Fhelp%2F5063878&amp;data=05%7C02%7CMabel.Gomes%40microsoft.com%7Caa88877b46cb4903764b08dddb79427a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638908036044196649%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=gYXXLQhRWJ6jvABU4WKcyYzIdR%2FSLMMXCsUW2BfgXDI%3D&amp;reserved=0\" rel=\"noopener noreferrer\" target=\"_blank\">KB5063878</a>)&nbsp;failed&nbsp;to&nbsp;install with error code 0x80240069 when installed via WSUS.&nbsp;The issue was not related to any content in&nbsp;KB5063878, but to how the update was published itself.&nbsp;&nbsp;</div><div><br></div><div>See the Additional Information section of this message for&nbsp;details.&nbsp;</div><div><br></div><div><b>How this affects your organization:</b></div><div>IT administrators who downloaded the Scan Cab before 9:15 AM PT on August 15, 2025, should re-acquire and re-deploy it if the Scan Cab is used to assess updates for environments where WSUS is used to deploy Windows security updates to Windows 11, version 24H2 devices.</div><div>&nbsp;</div><div>No action is required on environments where Scan Cab is not employed and does not use WSUS to deploy updates to Windows 11, version 24H2 devices. However, please note that there might be non-Microsoft applications which utilize Scan Cab. Review the documentation for any software and update deployment tools which might be in use for your organization, to understand if this is applicable in your environment.</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><div>Administrators can re-deploy the updated Scan Cab via their usual processes. For detailed guidance, see the Additional Information section below.</div><div>&nbsp;</div><div><b>Additional information:</b></div><ul><li><a href=\"https://go.microsoft.com/fwlink/?LinkID=74689\" rel=\"noopener noreferrer\" target=\"_blank\">Updated Scan Cab: Download the new Scan Cab here</a></li><li><a href=\"https://learn.microsoft.com/windows/release-health/status-windows-11-24h2#3635msgdesc\" rel=\"noopener noreferrer\" target=\"_blank\">August 2025 security update might fail to install via WSUS with Error 0x80240069</a></li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/announcing-a-smaller-wsus-scan-cab/ba-p/2928256?msclkid=256145ccd0c011ec9266b53af8d0aca1\" rel=\"noopener noreferrer\" target=\"_blank\">Announcing a smaller WSUS Scan Cab - Microsoft Tech Community</a>: Learn more about WSUS and the Scan Cab process</li><li><a href=\"https://learn.microsoft.com/windows/win32/wua_sdk/using-wua-to-scan-for-updates-offline?tabs=vbscript\" rel=\"noopener noreferrer\" target=\"_blank\">Using WUA to Scan for Updates Offline - Win32 apps | Microsoft Docs</a>: Windows Update Agent (WUA) can be used to scan computers for security updates without connecting to Windows Update</li><li><a href=\"https://learn.microsoft.com/windows-server/administration/windows-server-update-services/manage/wsus-and-the-catalog-site\" rel=\"noopener noreferrer\" target=\"_blank\">WSUS and the Catalog Site | Microsoft Docs</a>: The Catalog Site used by WSUS to import updates and drivers</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "preventOrFixIssue",
+  "Details": [],
+  "EndDateTime": "2026-08-15T16:24:14.613Z",
+  "HasAttachments": false,
+  "Id": "MC1135775",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-08-15T16:24:15.947Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-08-15T16:24:14.69Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "An updated version of the August 2025 Scan Cab is available\t",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
