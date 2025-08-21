@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Prepare for hotpatch in your environment by meeting a key requirement to&nbsp;enable&nbsp;virtualization-based security (VBS) on Windows client. With the hotpatching feature of Windows Autopatch, you can apply security updates to Windows without requiring a restart. VBS protects against kernel-level exploits and other advanced threats to help ensure your endpoints are secure and ready for patching.&nbsp;It’s&nbsp;straightforward to enable VBS, and here&nbsp;we’ll&nbsp;show you how—whether deploying at scale with Microsoft Intune or on a single device using PowerShell or Windows Command Prompt.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>You’ll&nbsp;need to enable VBS as a requirement for hotpatch, which&nbsp;applies security updates to Windows without requiring a restart. Hotpatch&nbsp;minimizes&nbsp;downtime while&nbsp;improving patch compliance and reducing risk.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>You’ll&nbsp;need to ensure VBS is enabled for hotpatch. Learn&nbsp;the steps&nbsp;to&nbsp;take for three different&nbsp;methods&nbsp;of enabling VBS at your organization—whether at scale using Microsoft Intune or on single devices&nbsp;using&nbsp;PowerShell&nbsp;or Windows Command Prompt.&nbsp;Then learn how to&nbsp;validate&nbsp;and monitor&nbsp;VBS.&nbsp;&nbsp;</div><div><br></div><div>To enable VBS using the Intune method, follow these steps:</div><ul><li>In the Intune admin center, go to&nbsp;<b>Devices</b>&nbsp;&gt;&nbsp;<b>Manage Devices</b>&nbsp;&gt;&nbsp;<b>Configuration</b>.&nbsp;</li><li>Under the&nbsp;<b>Policies</b>&nbsp;tab, create a new profile&nbsp;by selecting&nbsp;<b>Create</b>&nbsp;&gt;&nbsp;<b>New policy</b>.&nbsp;</li><li>In the&nbsp;<b>Create a profile</b>&nbsp;flyout, select&nbsp;<b>Windows 10 and later</b>.&nbsp;</li><li>For<b>&nbsp;</b>profile type, select <b>Settings catalog</b>.&nbsp;</li><li>On the next screen, name your profile under&nbsp;<b>Basics</b>.&nbsp;&nbsp;</li><li>Navigate&nbsp;to&nbsp;the&nbsp;<b>Configuration&nbsp;settings&nbsp;</b>tab and select&nbsp;<b>Add settings</b>.&nbsp;</li><li>In the&nbsp;<b>Settings picker</b>&nbsp;flyout, start typing “Virtualization Based Technology” and select it from the search results.&nbsp;&nbsp;</li><li>Locate and select the&nbsp;<b>Hypervisor Enforced Code Integrity</b>&nbsp;setting name among the results to&nbsp;enable memory&nbsp;integrity.&nbsp;&nbsp;</li><li>Complete the wizard by setting scope, assignments, and reviewing your&nbsp;configuration.</li></ul><div><br></div><div><b>Additional&nbsp;information:</b>&nbsp;</div><ul><li>Find step-by-step instructions to enable VBS and to&nbsp;validate&nbsp;and monitor enablement at&nbsp;<a href=\"https://aka.ms/EnableVBSatScale\" rel=\"noopener noreferrer\" target=\"_blank\">Hotpatch readiness: Enable VBS at scale</a>&nbsp;</li><li>Dive deeper into&nbsp;<a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates\" rel=\"noopener noreferrer\" target=\"_blank\">Hotpatch updates</a>&nbsp;</li><li>Review the&nbsp;<a href=\"https://support.microsoft.com/topic/release-notes-for-hotpatch-on-windows-11-version-24h2-enterprise-clients-c0906ee6-5e62-498f-bd5a-8f4966349f3c\" rel=\"noopener noreferrer\" target=\"_blank\">release notes for hotpatch on Windows 11, version 24H2 Enterprise clients</a>&nbsp;</li><li>Learn more from&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatch-for-client-frequently-asked-questions/4413582\" rel=\"noopener noreferrer\" target=\"_blank\">Hotpatch for client: Frequently asked questions</a>&nbsp;and&nbsp;<a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/overview/windows-autopatch-faq#hotpatch-updates\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Autopatch: Frequently asked questions</a>&nbsp;</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-08-20T17:04:14.343Z",
+  "HasAttachments": false,
+  "Id": "MC1138549",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-08-20T17:04:15.317Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-08-20T17:04:14.42Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Hotpatch readiness: Enable VBS at scale",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
