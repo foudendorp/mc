@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<div>Secure Boot protects Windows systems by&nbsp;validating&nbsp;firmware and boot components using trusted certificates. Microsoft-issued certificates used in Secure Boot are expiring in 2026.&nbsp;In the coming months, Microsoft will be rolling out updated Secure Boot certificates needed to ensure a secure startup environment of Windows.&nbsp;IT-managed environments must take action to ensure their systems remain secure and serviceable.&nbsp;This post outlines what enterprise IT admins need to know and do.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><ul><li>Microsoft UEFI CA 2011 and Microsoft KEK CA 2011 expire in June 2026.&nbsp;</li><li>Microsoft Windows Production PCA 2011 expires in October 2026.&nbsp;</li><li>Microsoft is rolling out updated certificates now via Windows Update to home users, businesses,&nbsp;and schools with devices that have updates managed by Microsoft.&nbsp;</li></ul><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Without updated certificates, Secure Boot-enabled systems may:&nbsp;</div><ul><li>Fail to&nbsp;receive future security updates.&nbsp;</li><li>Be unable to&nbsp;validate&nbsp;new boot components.&nbsp;</li><li>Face increased risk from boot-level vulnerabilities.&nbsp;</li></ul><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><ul><li>Check with your OEM for the latest available firmware updates. These updates ensure your device’s Secure Boot configuration can accept new certificates.&nbsp;</li><li>Review the KB articles and blog post listed below.&nbsp;</li><li>Get familiar with the <a href=\"https://support.microsoft.com/topic/windows-devices-for-businesses-and-organizations-with-it-managed-updates-e2b43f9f-b424-42df-bc6a-8476db65ab2f\" rel=\"noopener noreferrer\" target=\"_blank\">update paths available</a>:&nbsp;&nbsp;</li></ul><ol><li class=\"ql-indent-1\">Opt&nbsp;in to Microsoft-managed updates by enabling diagnostic data and setting the registry key&nbsp;MicrosoftUpdateManagedOptIn.&nbsp;</li><li class=\"ql-indent-1\">Follow manual update steps for DB and KEK using&nbsp;published&nbsp;Microsoft&nbsp;guidance.&nbsp;</li><li class=\"ql-indent-1\">Plan for future partially automated solutions that Microsoft will release to support self-service deployments.&nbsp;</li></ol><div>&nbsp;</div><div><b>Additional&nbsp;information:</b>&nbsp;</div><ul><li>Read <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/act-now-secure-boot-certificates-expire-in-june-2026/4426856\" rel=\"noopener noreferrer\" target=\"_blank\">Act now: Secure Boot certificates expire in June 2026</a>.&nbsp;</li><li>Bookmark the <a href=\"https://aka.ms/getsecureboot\" rel=\"noopener noreferrer\" target=\"_blank\">Secure Boot certificate rollout landing page</a>.&nbsp;</li><li>Consult guidance for <a href=\"https://support.microsoft.com/topic/e2b43f9f-b424-42df-bc6a-8476db65ab2f\" rel=\"noopener noreferrer\" target=\"_blank\">Windows devices for businesses and organizations with IT-managed updates</a>.&nbsp;</li><li>For unmanaged scenarios, see <a href=\"https://support.microsoft.com/topic/29bfd847-5855-49f1-bb94-e18497fe2315\" rel=\"noopener noreferrer\" target=\"_blank\">Windows devices for home users, businesses, and schools with Microsoft-managed updates</a>.&nbsp;</li><li>Follow guidance in <a href=\"https://support.microsoft.com/windows/windows-11-and-secure-boot-a8ff1202-c0d9-42f5-940f-843abef64fad\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 and Secure Boot</a> to check if it’s enabled.&nbsp;</li><li>Check OEM guidance in <a href=\"https://learn.microsoft.com/windows-hardware/manufacture/desktop/windows-secure-boot-key-creation-and-management-guidance?view=windows-11\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Secure Boot Key Creation and Management Guidance&nbsp;</a></li><li>Get additional technical guidance at <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/updating-microsoft-secure-boot-keys/4055324\" rel=\"noopener noreferrer\" target=\"_blank\">Updating Microsoft Secure Boot keys</a>.&nbsp;</li></ul>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2026-08-21T22:47:27.293Z",
+  "HasAttachments": false,
+  "Id": "MC1139443",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-08-21T22:47:28.247Z",
+  "Services": [
+    "Windows"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-08-21T22:47:27.353Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Secure Boot certificate expiration: What Windows IT admins need to know now",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
