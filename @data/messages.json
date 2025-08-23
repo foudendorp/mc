@@ -4,6 +4,673 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>\n</p><b>Introduction</b><p>We are retiring the standalone <i>Share to Teams</i> experience in Outlook for users who do not have the Teams desktop app installed. This retirement supports our goal of streamlining the sharing experience and reducing maintenance overhead, while ensuring a consistent and modern user experience across Outlook clients.\n</p><p></p><p><b>When this will happen</b></p><ul><li>Retirement begins: September 22, 2025\n</li><li>Retirement completes: October 3, 2025\n</li></ul><p><b>How this affects your organization</b></p><p>After September 22, 2025, users who select the <i>Share to Teams</i>&nbsp;button in Outlook without having the Teams desktop app installed will be redirected to a launcher page prompting installation. The standalone web dialog previously used for sharing will no longer be available.\n</p><p></p><ul><li>Users with the Teams desktop app will continue to share via the Teams client.\n</li><li>Users without the app will be prompted to install it via a launcher page.\n</li><li>Mac users may encounter an error due to Apple’s restrictions on launcher dialogs.\n</li></ul><p>This change affects the following Outlook clients:\n</p><p></p><ul><li>Outlook for Windows (New and Classic)\n</li><li>Outlook for Mac (New and Legacy)\n</li><li>Outlook Web App (OWA)\n</li></ul><p><b>What you can do to prepare</b></p><p></p><p>No admin action is required. However, we recommend notifying your users of this retirement and encouraging installation of the Teams desktop app to maintain access to the <i>Share to Teams</i> functionality.</p><p><b>Compliance considerations</b></p><p></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p><p></p><p></p><p></p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The web-based \"Share to Teams\" feature in Outlook will retire between September 22 and October 3, 2025. Users without the Teams desktop app will be prompted to install it, while those with the app continue sharing via Teams. No admin action is required, but user notification is recommended."
+      }
+    ],
+    "EndDateTime": "2025-11-03T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1140180",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-08-22T22:42:52.557Z",
+    "Services": [
+      "Microsoft Teams",
+      "Microsoft 365 for the web",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-22T22:42:28Z",
+    "Tags": [
+      "User impact",
+      "Retirement"
+    ],
+    "Title": "Retirement of web-based “Share to Teams” experience from Outlook",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p><i>Teams Rooms on Windows touch boards</i> now support Microsoft Edge in private browsing mode. This feature enables users to securely access websites and line-of-business web apps both during and outside of Teams meetings. IT admins can manage browser settings to ensure a safe and controlled experience.</p><p>This feature is associated with Microsoft 365 Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494148\" target=\"_blank\">494148</a>.</p><p>\n</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide, GCC): </b>We will begin rolling out in late September 2025 and expect to complete by mid-October 2025.\n</p><p><b>General Availability (GCC High, DoD):</b>&nbsp;We will begin rolling out in early October 2025 and expect to complete by late October 2025.\n</p><p><b>How this affects your organization</b></p><p>This feature is <b>off by default</b> and <b>requires a Teams Rooms Pro license</b>. It is <b>available on certified Teams Rooms on Windows touch board devices</b>, including <b>Surface Hub 2S (in Teams Rooms mode)</b>, <b>Surface Hub 3</b>, <b>MaxHub XBoard</b>, and <b>Yealink Meeting Board</b>.\n</p><p>Once enabled, users and admins will see the following changes:</p><ul><li><b>Outside of meetings</b><ul><li>The <i>Microsoft Edge</i> icon appears on the home screen.\n</li><li>Tapping the icon launches Edge in Kiosk mode with private browsing.\n</li><li>Users can end the session at any time, which closes the browser and clears session data.</li><li>Sessions auto-close after 10 minutes of inactivity (default setting).\n</li></ul></li><li><b>During meetings</b><ul><li>Users can share the Edge browser via the <i>Universal Bar Share</i> tray.\n</li><li>Shared content is outlined in red; audio is not shared by default.\n</li><li>Users can enable audio via the<i> “Share sound” </i>toggle from the share tray when selecting Edge.&nbsp;</li><li>A mini meeting gallery pop-up displayed at the top of the Edge browser allows monitoring of meeting activity.\n</li><li>Sharing can be stopped anytime, and Edge remains usable locally.\n</li><li>Edge does not access the room’s camera or microphone.\n</li></ul></li><li><b>Admin controls</b><ul><li>Admins can enable or disable the feature via the Teams Rooms Pro Management portal.</li><li>They can also adjust the inactivity timeout duration (default: 10 minutes), which automatically closes the Edge browser session after the defined period of inactivity.\n</li><li>Default start page(s) for Edge can be configured.</li><li>XML setting: <font color=\"#c7254e\" face=\"Menlo, Monaco, Consolas, Courier New, monospace\">&lt;EdgeBrowserEnabled&gt;true&lt;/EdgeBrowserEnabled&gt;</font></li></ul></li></ul><p><i>Screenshot 1 - Edge button on Home screen:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ca11c730-b75a-46ef-8dbd-5f460b515477/868f61b67cd0b01714968b940886e9d7767ab6b0.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 2 - Edge being shared during a meeting:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/84c6918c-6ef3-486a-85a7-8d725a39b719/d2aa318ff561b552b288b5b853e15430fddae640.png\" style=\"width: 400px;\" alt=\"user settings\"><i>&nbsp;</i></p><p><b>What you can do to prepare</b></p><ul><li>Review device eligibility and licensing requirements.\n</li><li>Use the Teams Rooms Pro Management portal or XML configuration to enable the feature.\n</li><li>Restart devices after applying settings to ensure the<i> Edge icon</i> appears.</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "494148"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Teams Rooms on Windows touch boards will support Microsoft Edge in private browsing mode, allowing secure web access during and outside meetings. This feature, off by default and requiring a Teams Rooms Pro license, rolls out from September to October 2025 and offers admin controls for session management and browser settings."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "TeamsAndSurfaceDevices"
+      }
+    ],
+    "EndDateTime": "2025-11-24T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1140179",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T22:42:04.333Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-22T22:41:45Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams Rooms on Windows touch boards: Browser support with Microsoft Edge",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction\n</b></p><p><b>Prevent screen capture</b> is a Microsoft Teams Premium feature that helps protect sensitive meeting content by blocking screenshots and recordings across supported platforms. When enabled by the meeting organizer, this feature restricts screen capture using native device tools and most third-party apps. It enhances meeting confidentiality and is especially useful for high-security discussions. Attendees on unsupported platforms will join in audio-only mode. Organizers and co-organizers can <b>enable this feature via Meeting Options</b>. It is not governed by meeting policy.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=490561\" target=\"_blank\">490561</a>.</p><p><b>When this will happen\n</b></p><p><b>Targeted Release: </b>We begin rolling out in mid-September 2025 and expect to complete by late September 2025.</p><p><b>General Availability (Worldwide): </b>We begin rolling out in&nbsp;mid-October 2025 and expect to complete by late October 2025.</p><p><b>How this affects your organization\n</b></p><p>When enabled, platform-specific behavior includes:\n</p><ul><li><b>Windows desktop: </b>Screenshots show a black rectangle around the meeting window, including pop-outs.\n</li><li><b>Mac desktop: </b>Captured content disappears, effectively hiding the meeting window and pop-outs.\n</li><li><b>Android (phones and tablets): </b>Screenshots and recordings are blocked. Users see a message indicating screen capture is restricted. Applies to key views such as stage, chat, participant list, notes, banners, Copilot panels, and more.\n</li><li><b>iOS (phones and iPads): </b>Screenshots and recordings are allowed, but live video (such as participant feeds) will not be captured. Profile pictures or static content will appear instead. Additional protections for more screens are planned for a future release.\n</li></ul><p>This feature is <b>off by default </b>and <b>must be manually enabled per meeting</b>.</p><p><i>Screenshot - Meeting options with Prevent screen capture (default off). To enable it, please turn on the toggle:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/eb6cd5a7-b002-4429-8f73-ada38eda0268/96b3cc7f425fb35e99271f7b7208236aec4f9394.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><b>What you can do to prepare\n</b></p><ul><li>Inform meeting organizers and security/compliance teams about the availability and purpose of this feature.\n</li><li>Review and update internal guidance for Teams Premium usage.\n</li><li>Ensure mobile devices are Intune-enrolled to support screen capture prevention.\n</li><li>Familiarize organizers with enabling the feature via <b>Meeting Options</b>.</li></ul><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change modify how users can access, export, delete, or correct their personal data within Microsoft 365 services (GDPR Data Subject Rights)?</td><td>Yes. The feature restricts access to visual meeting content, which may impact how users capture or retain personal data shared during meetings.</td></tr><tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes. The feature is enabled via Meeting Options by organizers and co-organizers. Admins can manage Teams Premium licensing and device enrollment via Entra ID.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Meeting organizers and co-organizers can enable or disable the feature per meeting.</td></tr></tbody></table><p></p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "490561"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams Premium introduces a \"Prevent screen capture\" feature to block screenshots and recordings during meetings, enhancing confidentiality. Enabled by organizers via Meeting Options, it restricts capture differently across platforms, is off by default, and requires manual activation per meeting. Rollout begins mid-September 2025."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Web"
+      }
+    ],
+    "EndDateTime": "2026-03-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1140178",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T22:41:23.837Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-22T22:41:16Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Prevent screen capture (Premium feature)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Planned Maintenance: Teams Q&amp;A</p><p>To ensure continued reliability and performance, Teams Q&amp;A will undergo planned maintenance. During this period, Teams Q&amp;A will operate in read-only mode. This is the second of two planned maintenance windows.</p><p>We have maintenance planned for Teams Q&amp;A:</p><ul><li>Maintenance Window: Starting Friday, September 5th, 2025 at 18:00 UTC. The maintenance window will last approximately 8 hours. This is the second of two planned maintenance windows.</li></ul><p><b>How this will affect you organization:</b></p><p>During this maintenance window, Teams Q&amp;A will operate in read-only mode. Users will be able to view Q&amp;A messages, but will be unable to:\n</p><ul><li>Create meetings, Town halls, or webinars with Q&amp;A added\n</li><li>Turn Q&amp;A off/on in meeting options\n</li><li>Edit Q&amp;A engagement settings \n</li><li>Reply or react to Q&amp;A messages\n</li><li>Perform any other write-related actions\n</li></ul><p>When users attempt these actions during the maintenance windows, they will see error messages such as:\n</p><ul><li>\"Your message wasn't posted, please try again soon.\"\n</li><li>\"Sorry, something went wrong, please try again soon.\"\n</li></ul><p>This maintenance is planned outside of normal business hours to help minimize any impact to your organization.\n</p><p>For organizations with users around the globe, we recognize that \"outside of normal business hours\" might affect you differently. We apologize for the impact this may have on your users. We are working hard to improve Teams Q&amp;A and to minimize these maintenance windows.</p><p><b>What you need to do to prepare:</b></p><p>During these planned maintenance windows, please plan accordingly. No specific workaround is applicable.\n</p><p>We appreciate your understanding and cooperation.\n</p><p>Thank you, The Teams Q&amp;A Team</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Teams Q&A will undergo an 8-hour planned maintenance starting September 5, 2025, at 18:00 UTC, operating in read-only mode. Users can view messages but cannot create or edit Q&A content. Maintenance occurs outside normal business hours to minimize impact; no workaround is available."
+      }
+    ],
+    "EndDateTime": "2025-10-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1140175",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T22:40:06.88Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-22T22:39:26Z",
+    "Tags": [
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Teams Q&A Planned Maintenance",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 22, 2025: We have updated the content. Thank you for your patience.</p><p>We’re updating the Event scheduling experience with a refreshed user interface and new Copilot capabilities to streamline meeting creation and improve usability for end users.</p><p>As part of this new experience, the Meeting Insights feature will no longer be offered for users without a Copilot license. For Copilot license users, the capabilities previously found in the meeting insights feature are now available within a new Meeting Prepare experience and includes more refined and additional types of information along with additional features to help users prepare for upcoming meetings.&nbsp;</p><p></p><p>\n\n</p><p><b>When this will happen:</b></p><p></p><p>\n</p><ul>\n  <li><b>Public Preview:</b> Rolling out mid-September 2025 (previously mid-August) – mid-October 2025 (previously mid-September).</li>\n  <li><b>Targeted Release:</b> Rolling out mid-October 2025 (previously mid-September) – mid-November 2025 (previously mid-October).</li>\n  <li><b>General Availability:</b> Rolling out mid-November 2025 (previously mid-October) – mid-December 2025 (previously mid-November).</li>\n</ul>\n\n<b>How this affects your organization:</b><p></p><p>\n</p><p>The updated Event form introduces a modernized layout with relocated controls and entry points for common actions. It also includes new Copilot capabilities designed to assist users in setting up and managing meetings more efficiently.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/4f10f2ba-fd73-4170-9390-d4507790dab9 \" width=\"400\" height=\"\"></p><p>The New Meeting Prepare experience for Copilot licensed users will appear show up when available as follows:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f00f04cc-4f51-4eef-aacf-b0e9d9cf6cef/5b81a1d8e40d3cb1ac8220ab54c421962e8da1b2.png\" style=\"width: 25%;\"><br></p>\n<p>The update will be enabled by default and does not require admin configuration.</p>\n\n<b>What you can do to prepare:</b><p></p><p>\n</p><ul>\n  <li>Inform users about the updated layout and new entry points for scheduling meetings.</li>\n  <li>Provide guidance or training on how to use the new Copilot features.</li>\n  <li>Review internal documentation or help desk materials to reflect the updated experience.</li>\n</ul>\n<p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>\n<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook and Teams are updating event scheduling with a modernized interface and new Copilot features to improve meeting setup. Meeting Insights will be replaced by Meeting Prepare for Copilot users. Rollout begins mid-September 2025, enabled by default, requiring user communication and training."
+      }
+    ],
+    "EndDateTime": "2026-01-26T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1129717",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T21:03:21.373Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-05T22:57:27Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "(Update) New Event Scheduling User Experience for Outlook and Teams",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 22, 2025: The ability to create shared Loop workspaces that are managed by Microsoft 365 Groups launched in April 2025 with Roadmap ID 472022. As a result, the work described below was canceled. For your reference, the ability for IT admins to enforce that an existing Microsoft 365 Group be used to govern all new Loop workspaces is still tracked by Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=422725\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">422725</a>.</p><p>Work below has been canceled. See above.</p><p>---\n</p><p>When creating a new Loop workspace, users will be able to choose an existing Microsoft 365 Group to manage the workspace's lifetime, governance, and compliance, similar to SharePoint Team sites.</p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out late September 2025 (previously late June) and expect to complete by late October 2025 (previously late July).</p><p><b>How this will affect your organization:</b></p><p>Once available, when creating a new Loop workspace, users will be able to choose an existing Microsoft 365 Group to manage the workspace's lifetime, governance, and compliance, similar to SharePoint Team sites.</p><p><b>What you need to do to prepare:</b></p><p>There is nothing you need to do to prepare. These changes will roll to your tenant automatically.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "422728"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The ability to create shared Loop workspaces managed by Microsoft 365 Groups launched in April 2025, canceling related prior work. From late September to October 2025, users can choose existing Microsoft 365 Groups to govern new Loop workspaces, with no preparation needed from admins."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-12-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC929023",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T21:00:55.013Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-11-08T23:22:44Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Loop – Microsoft 365 Groups for Managing New Loop workspaces",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 22, 2025: We have updated the content. Thank you for your patience.</p><p><b>Introduction</b></p><p>As part of the final phase of the Viva Engage rebranding, we’re updating the email sender domains used for Viva Engage communications. This change ensures a consistent and secure brand experience across all surfaces and completes the transition from Yammer to Viva Engage.</p><p>This update was previously communicated in MC679739, “Yammer Rebranding to Viva Engage Domain Migration Update,” in October 2023.</p><p><b>When this will happen</b></p><ul><li>The email sender domain rollout will begin in early September 2025 (previously late August) for U.S. and EU tenants currently receiving messages from @yammer.com and @eu.yammer.com respectively. The entire rollout is expected to complete by the end of October 2025.\n</li><li>A fallback/coexistence period will be in place between September (previously August) and the end of October, during which both the old and new domains will be supported. During this time, some users within a tenant may receive emails from the old domain while others receive them from the new domain.</li></ul><p></p><p><b>How this will affect your organization</b></p><p>The sender domain for Viva Engage emails will change as follows:\n</p><ul><li>From @yammer.com to @engage.mail.microsoft for U.S. and global regions.\n</li><li>From @eu.yammer.com to @eu.engage.mail.microsoft for European regions.\n</li></ul><p>These new domains are secured with industry-standard authentication protocols (e.g., SPF) to help prevent spoofing and ensure reliable delivery.\n</p><p>To enhance security and reduce cross-tenant spam, sender addresses will now include a tenant-specific prefix. You may see emails from:\n</p><ul><li>noreply_tenant@engage.mail.microsoft (digests and delegate notifications)</li><li>\n</li><li>notifications_tenant@engage.mail.microsoft (community, storyline, and activity notifications)\n</li><li>announcements_tenant@engage.mail.microsoft (leadership announcements)\n</li></ul><p>These changes apply to all Viva Engage tenants, regardless of license tier (e.g., Viva P1, P2), and affect all Viva Engage emails, including notifications, announcements, and digests.</p><p>Third-party integrations (e.g., journaling, archiving, or routing systems) that rely on the @yammer.com domain for classification or authentication may be impacted. Any such configurations should be reviewed and updated to recognize the new domains.</p><p><i>An example of a new Viva Engage email notification sent from the updated @engage.mail.microsoft domain:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/55498900-45c4-4375-be35-b989948d2946/c7973dd8d9bde265ced10161ed090ee81bad55cb.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b>What you need to do to prepare</b></p><p>Admins should review and update the following configurations:\n</p><ul><li>Transport rules and email gateways: Update any rules that reference @yammer.com to include the new domains.\n</li><li>Exchange filtering: Ensure filtering rules remain effective with the new sender domains.\n</li><li>Outlook rules: Inform users that any rules based on @yammer.com will no longer apply. Users can manually update or remove these rules.\n</li></ul><p>No admin action is required unless your organization has custom configurations based on the old domain.</p><p>Learn more:&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-is-evolving-to-viva-engage/3738825\" target=\"_blank\">Yammer is evolving to Viva Engage | Viva Engage Blog</a></p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva Engage is updating its email sender domains from @yammer.com to @engage.mail.microsoft, starting September 2025 with a coexistence period until October. This change enhances security with tenant-specific prefixes and requires admins to update any custom email rules or integrations referencing the old domains."
+      }
+    ],
+    "EndDateTime": "2025-12-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1117814",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T20:59:10.53Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-18T23:38:18Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva Engage | Email sender domain migration from @yammer.com to @engage.mail.microsoft",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 22, 2025: We have updated the content. Thank you for your patience.</p><p><b>Introduction</b></p><p>We're introducing the ability to reference Microsoft Loop components (Loops/Pages) when creating presentations using Microsoft 365 Copilot in PowerPoint. This enhancement enables users to seamlessly incorporate collaborative content from Loop into their presentations, improving productivity and content reuse.</p><p>This message is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=500862\" target=\"_blank\">500862</a>, <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=500863\" target=\"_blank\">500863</a>, and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=500864\" target=\"_blank\">500864</a>.</p>\n\n<p><b>When this will happen</b></p><p>Targeted Release: Rollout will begin late August and complete early September.</p><p>\nGeneral Availability (Worldwide): Rollout will begin mid-September 2025 and is expected to complete by late September 2025.</p><p><b>How this affects your organization</b></p><p>\nOnce available, users with a Microsoft 365 Copilot license will be able to reference Loop components when creating presentations in PowerPoint for Windows desktop, Mac desktop, and the web.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/597003f6-7074-46ee-8713-5eef0354527e\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p>\n<ul>\n<li>Select the Copilot icon above the top corner of the slide in PowerPoint.</li>\n<li>Choose <i>Create a presentation from <b>file</b></i>.</li>\n<li>Search for Loop components by file name or paste the URL from Microsoft OneDrive or SharePoint.</li>\n</ul>\n<p>This feature will be on by default and requires no configuration changes.</p>\n\n<p><b>What you can do to prepare</b></p><p>\nNo admin action is required prior to rollout.</p>\n<ul>\n<li>Review your current Loop and Copilot configurations.</li>\n<li>Notify users of this new capability.</li>\n<li>Update internal documentation as needed.</li>\n</ul>\n<p>Learn more: <a href=\"https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d\" target=\"_blank\">Create a new presentation with Copilot in PowerPoint</a>&nbsp;(link will be updated before rollout)</p>\n\n<p><b>Compliance considerations</b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot in PowerPoint will soon allow users to reference Microsoft Loop components when creating presentations, enhancing collaboration and content reuse. The feature rolls out from late August to late September 2025, requires no admin action, and will be enabled by default for licensed users on desktop and web."
+      }
+    ],
+    "EndDateTime": "2025-10-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1138789",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T18:58:00.793Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-20T23:35:42Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Copilot in PowerPoint: Reference Loop components when creating presentations",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 22, 2025: After further review, this has been delayed to a later date. We apologize for any inconvenience.</p><p><b>Introduction</b></p><p>We're enhancing the quarantine experience in Microsoft Defender and Exchange Online to improve visibility and control over items that have been temporarily deleted. With this update, users will be able to view and restore messages that were previously removed from the quarantine view but still exist in the system.</p><p><b>When this will happen</b></p><ul><li>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.&nbsp;</li><li>General Availability (GCC, GCC High, DoD): We will communicate via Message center when we are ready to proceed.</li></ul><p><b>How this affects your organization</b></p><p>Users in both Microsoft Defender and Exchange Online quarantine portals will gain the ability to:</p><ul><li>View messages that were temporarily deleted from quarantine using the new Temporarily deleted filter under Release Status.</li><li>Restore these messages back to the quarantine view using the new Restore temporarily deleted option.</li></ul><p>Messages that have been permanently deleted will remain inaccessible. This feature is on by default and applies only to temporarily deleted items.</p><p><b>What you can do to prepare</b></p><ul><li>Inform users about the new filter and restore option to reduce confusion and potential help desk calls.</li><li>Update internal documentation or training materials to reflect the new functionality.</li><li>Monitor user feedback and usage to determine if additional guidance or support is needed.</li></ul><p>No configuration changes are required to enable this feature.</p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The update to Microsoft Defender and Exchange Online quarantine will allow users to view and restore temporarily deleted messages via a new filter and restore option. The release has been delayed, no configuration is needed, and permanently deleted messages remain inaccessible. Users should be informed and documentation updated."
+      }
+    ],
+    "EndDateTime": "2025-10-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1134736",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T18:39:13.903Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-13T23:09:13Z",
+    "Tags": [
+      "Updated message",
+      "Feature update"
+    ],
+    "Title": "Quarantine experience update in Microsoft Defender and Exchange Online: Restore temporarily deleted items",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 22, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction\n</b></p><p>We're introducing a new integration between Microsoft Teams and Microsoft Defender for Office 365 that enables security admins to manage blocked external domains in Teams using the Tenant Allow/Block List (TABL) in the Microsoft Defender portal. This feature enhances security by allowing organizations to centrally manage domain blocks across Microsoft 365 services.\n</p><p>This capability is available to customers with Microsoft Defender for Office 365 Plan 1 or Plan 2 and Microsoft Teams.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=492985\" target=\"_blank\">492985</a>.</p><p><b>When this will happen</b><b><br></b></p><p>Targeted Release: We will begin rolling out late August 2025 and expect to complete by early September 2025.</p><p>General Availability (Worldwide): We will begin rolling out late September 2025 and expect to complete by early October 2025.</p><p><b>How this affects your organization</b></p><p>Security admins, with permission from Teams admins, will be able to:\n</p><ul><li>Add, delete, and view blocked external domains in Microsoft Teams using the Microsoft Defender portal.\n</li><li>Prevent incoming communications (chats, channels, meetings, and calls) from blocked domains.\n</li><li>Automatically delete existing communications from users in blocked domains.\n</li><li>Track actions taken to block domains in audit logs, supporting compliance monitoring and reporting.</li></ul><p><i>View and manage blocked domains for Teams in the Microsoft Defender portal:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/98f65c85-40f3-4c26-96b3-9c9332523855/8fec2ed76df00338187a21f63d826c9ff7b46988.png\" style=\"width: 400px;\" alt=\"admin settings\"></p><p>This change does <b>not</b> affect existing federation configurations or domain blocks set in the Teams admin center.\n</p><ul><li><b>Entry limit: </b>Up to 4,000 blocked domains can be configured for Teams.\n</li><li><b>Client impact: </b>Applies to all Teams clients and the Defender XDR web portal.</li></ul><p><b>What you can do to prepare\n</b></p><p>To enable this feature -&nbsp;</p><ul><li>Ensure that external access in the Teams admin center is set to either:\n<ul><li>Block only specific external domains, or\n</li><li>Allow all external domains\n</li></ul></li><li>Teams admins must enable the setting<b> “Allow my security team to manage blocked domains”</b> in the Teams admin center. This setting is <b>off by default</b>.</li></ul><p><i>Enable security team access to manage blocked domains in the Teams admin center:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9d24ff00-dee8-4395-a9b3-818a071fff88/349d94c309bbb10fac8ca04c3f520e70bab9b400.png\" style=\"width: 400px;\" alt=\"admin settings\"></p><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/defender-office-365/tenant-allow-block-list-teams-domains-configure\" target=\"_blank\">Block domains in Microsoft Teams using the Tenant Allow/Block List | Microsoft Defender for Office 365 | Microsoft Defender | Microsoft Learn</a></p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change modify how admins can monitor, report on, or demonstrate compliance activities such as Purview or admin reporting?</td><td>Both Microsoft Teams and the Defender portal generate audit logs for actions taken on blocked domains. These logs can be accessed via Microsoft Purview or Defender audit capabilities.</td></tr><tr><td>Does the change provide a new way of communicating between users, tenants, or subscriptions?&nbsp;</td><td>Security admins can now block external domains in Microsoft Teams using the Tenant Allow/Block List, which affects cross-tenant communications across chats, channels, meetings, and calls.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Teams admins must enable the toggle “Allow my security team to manage blocked domains” in the Teams admin center to grant access. This control can be managed through Entra ID group membership.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "492985"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams now integrates with Microsoft Defender for Office 365 Tenant Allow/Block List, enabling security admins to centrally manage blocked external domains in Teams. This feature, rolling out from August to October 2025, allows blocking communications, deleting existing messages, and auditing actions, with admin controls managed via Teams and Entra ID."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-12-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1133508",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T18:34:04.077Z",
+    "Services": [
+      "Microsoft Teams",
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-11T23:31:53Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams Integration with Microsoft Defender for Office Tenant Allow/Block List for blocking domains",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2025-07-01T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 22, 2025: We have updated the content. Thank you for your patience.&nbsp;</p><p>&nbsp;We’re making some changes to DNS provisioning of A records for all new Accepted Domains provisioned after October 1st, 2025 (previously August 1st). Between early and late October 2025 (previously early August and late August), we will gradually switch provisioning of all A records for new Accepted Domains into the new subdomains under mx.microsoft.</p><p>We are doing this to reduce the friction of adopting DNSSEC in the long run. DNSSEC is a set of extensions to DNS that provides cryptographic verification of DNS records, preventing DNS spoofing and adversary-in-the-middle attacks to DNS.\n</p><p><b>How this will affect your organization:</b>\n</p><p>After October 1st, 2025 (previously August 1st), all A records for new Accepted Domains will be provisioned into the new subdomains under mx.microsoft.\n</p><p>DNS resolution will safely fallback to “plain” DNS if a domain is not DNSSEC enabled. If an Accepted Domain you add to the Exchange Admin Center after October 1st (previously August 1st) is not secured with DNSSEC at the domain level (ex. contoso.com), then DNS resolution will work as usual. If an Accepted Domain you add to the EAC after October 1st (previously August 1st) is secured with DNSSEC, then DNSSEC will extend to the mx.microsoft DNS record automatically and you will get the benefits of DNSSEC without having to take any further action. Any issues with DNSSEC can be addressed by disabling DNSSEC for the Accepted Domain (ex. contoso.com) via your DNS provider.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>If you have any automation in place, for example in workflows for Domain Setup, for MX record creation that expects A records for newly provisioned Accepted Domains to be provisioned in mail.protection.outlook.com, this automation needs to be updated by October 1st (previously August 1st) to use List serviceConfigurationRecords Graph API (<a href=\"https://learn.microsoft.com/graph/api/domain-list-serviceconfigurationrecords?view=graph-rest-1.0&amp;tabs=http\" target=\"_blank\">List serviceConfigurationRecords</a>). Use List serviceConfigurationRecords to retrieve the mailExchange value for your MX record. After October 1st (previously August 1st), List serviceConfigurationRecords Graph API will be the only source of truth for your Accepted Domains’ MX record value. You will not be able to rely on the Accepted Domain’s A record being provisioned in mail.protection.outlook.com after October 1st (previously August 1st.</p><p>If you are using automation that expects the record to end with mail.protection.outlook.com, when you add a new Accepted Domain to the Exchange Admin Center after October 1st (previously August 1st), mail flow may not work upon initial configuration and you will have to update your MX record to match what the Exchange Admin Center says for the domain or use the mailExchange value returned by List serviceConfigurationRecords Graph API.\n</p><p>If you expect this change to cause any issues for your organization, please share that feedback. \n</p><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting October 1, 2025, A records for new Accepted Domains will be provisioned under mx.microsoft to support DNSSEC adoption. Automation relying on mail.protection.outlook.com must update to use the List serviceConfigurationRecords Graph API for MX records. DNS resolution will fallback if DNSSEC is not enabled."
+      }
+    ],
+    "EndDateTime": "2025-12-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1048624",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-08-22T17:29:54.94Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-04-04T23:12:38Z",
+    "Tags": [
+      "Updated message",
+      "Admin impact"
+    ],
+    "Title": "DNS Provisioning Change",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 22, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Starting September 8th, 2025, we’re rolling out the new Researcher agent in Microsoft Word for Microsoft 365 Copilot licensed users. This agent combines OpenAI’s deep research model with Copilot’s orchestration and search capabilities to help users conduct complex, multi-step research across work and web data.</p><p><b>When this will happen:</b></p><ul><li>Word on Windows, Word on the web and Mac: Rollout begins September 8th, 2025 (previously August 18, 2025) and completes by October 6th, 2025 (previously September 1st).&nbsp;</li></ul><p><b>How this affects your organization:</b></p><ul><li>For users with a Microsoft 365 Copilot license, the Researcher agent will appear:\n<ul><li>In the Copilot prompt box in Word.\n</li><li>In the Copilot Chat Agent Store under “Built by Microsoft.</li></ul></li><li>The Researcher agent supports 37 languages.\n</li><li>Admin settings for the Researcher agent apply specifically to its use in Word.\n</li></ul><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3c12e413-65b4-4cdc-94d0-002aec0c73aa \" width=\"400\" height=\"\" &gt;<=\"\" p=\"\"></p><p><b>What you can do to prepare:</b></p><p>No admin action is required to enable the Researcher agent for Microsoft 365 Copilot users.\n</p><p>To manage agents in the Microsoft 365 admin center, refer to:\n</p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agentsG%2Bxlh%2BQ%3D&amp;reserved=0\" target=\"_blank\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn</a>.&nbsp;</li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agents\" target=\"_blank\">Block or Unblock Agents</a>\n</li></ul><p>For more details, see Message center post MC1085251 (May 2025).\n</p><p><b>Compliance considerations:</b></p><ul><li>Does the change store new customer data?\tMaybe - The Researcher agent may generate or retrieve content based on user prompts. If this content is stored (e.g., in documents or logs), it could involve new customer data. However, storage behavior may depend on tenant configuration and usage.\n</li><li>Does the change alter how existing customer data is processed, stored, or accessed?\tYes - The agent can access and reason over existing work data (e.g., documents, emails) to generate research responses, which changes how that data is processed and potentially accessed.\n</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with customer data?\tYes - This is a new generative AI agent that uses OpenAI models and Copilot orchestration to interact with customer data in Word.\n</li><li>Does the change provide end users any new way of interacting with generative AI?\tYes - This is a new generative AI experience embedded in Word, enabling users to conduct research through natural language prompts.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting September 8, 2025, Microsoft 365 Copilot licensed users will get the Researcher agent in Word, combining OpenAI’s model with Copilot for advanced research across work and web data. It supports 37 languages, requires no admin action, and changes how customer data is accessed and processed."
+      }
+    ],
+    "EndDateTime": "2025-11-10T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1111176",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T17:24:29.347Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-07T23:57:26Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Researcher is available in Word for Microsoft 365 Copilot licensed users",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 22, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Microsoft PowerPoint is introducing a new capability that enables users to rephrase or rewrite text using natural language instructions via Microsoft 365 Copilot. This enhancement allows for more tailored and expressive content creation directly in PowerPoint.</p><p>A Microsoft 365 Copilot license is required to access this feature.</p><p>This message refers to PowerPoint for Windows desktop, PowerPoint for Mac desktop, and PowerPoint for the web.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494831\" target=\"_blank\">494831</a>, Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494832\" target=\"_blank\">494832</a> and Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494833\" target=\"_blank\">494833</a>.\n</p><p><b>When this will happen:</b>\n</p><p>When this will happen:]\n</p><p>General Availability (Worldwide): We will begin rolling out early July 2025 and expect to complete by early October 2025 (previously late August).</p><p>General Availability (GCC): We will begin rolling out late September 2025 (previously mid-August) and expect to complete by mid-November 2025 (previously mid-October).</p><p><b>How this will affect your organization:</b></p><p>After this rollout, users will see a new option under the existing Copilot rewrite dropdown menu in textboxes. This feature introduces a prompt box where users can enter natural language instructions to rephrase or replace selected text.</p><ul><li>This feature will be on by default.\n</li><li>No changes to existing permissions or settings are required.</li></ul><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p><p>Learn more: The section called <i>Using the PowerPoint Rewrite Feature</i> in <a href=\"https://support.microsoft.com/topic/elevate-your-presentation-game-with-copilot-s-text-rewrite-feature-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8d\" target=\"_blank\">Elevate your presentation game with Copilot's text rewrite feature in PowerPoint - Microsoft Support</a> (will be updated before rollout)</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "494831,494832,494833"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft PowerPoint will introduce a Copilot feature allowing users to rephrase text using natural language prompts, rolling out globally from July to October 2025. It requires a Microsoft 365 Copilot license, is enabled by default, and needs no admin action. Users should be notified accordingly."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-01-26T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1099688",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T17:13:58.313Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-20T22:15:22Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft PowerPoint: Use Microsoft 365 Copilot to rephrase text with natural language prompts",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 22, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re introducing a new way to search in Microsoft Teams using structured, SQL-like query commands in the search bar. This enhancement allows users to filter messages, files, and conversations more precisely using keywords such as from:username, with:username, in:channel, or is:type (message, file, group chat, channel). This feature is especially useful for developers and power users who prefer to express specific search intent to narrow down search results and easily find what they are looking for.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496590\" target=\"_blank\">496590</a>.</p><p><b>When this will happen</b></p><p><b>Targeted Release: </b>We began rolling out in early August 2025 and expect to complete by early August 2025 - Completed</p><p><b>General Availability (Worldwide): </b>We began rolling out mid-August 2025 and expect to complete by mid-August 2025 - Completed\n</p><p><b>General Availability (GCC, GCCH, and DoD): </b>We began rolling out late August 2025 and expect to complete by late September 2025.</p><p><b>How this affects your organization</b></p><p>This feature enhances the search experience in Microsoft Teams by enabling structured, SQL-like queries. It will be available on the following platforms at launch:\n</p><ul><li>Teams Web\n</li><li>Teams Desktop\n</li><li>Teams Mac</li></ul><p>Users will be able to filter messages, files, and conversations using commands such as is:, in:, from:, and with:. This applies to all Teams content that is accessible to the user, including private chats, shared channels, and files.\n</p><p>Once available, the feature will be on demand—users can begin typing one of the supported commands in the search bar to activate it.\n</p><p>If a user enters an unsupported or malformed query, the system will default to standard search results. Users can also leverage query suggestions to help formulate correct queries.\n</p><p>This update provides a faster, more accurate way to locate content, especially in large or complex Teams environments.</p><p><b>What you can do to prepare</b></p><p>No admin action is required. You may wish to:\n</p><ul><li>Inform users about this new capability.\n</li><li>Encourage users to try structured search queries.\n</li><li>Share training materials or internal documentation to support adoption.</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "496590"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams now supports structured, SQL-like search queries (e.g., from:, in:, is:) for precise filtering of messages, files, and conversations across platforms. The feature rolled out globally by August 2025, requires no admin action, and improves search accuracy, especially in complex environments."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-11-03T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1130388",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T16:41:19.413Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-06T23:31:40Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams | Search with key query language",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 21, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon for Microsoft SharePoint: A new web part for FAQs, to help assist content owners keep their content fresh and relevant. Powered by Microsoft 365 Copilot, this new web part can help content owner easily curate FAQ by working with agents and connected grounding data.</p><p>Copilot license requirements:</p><ul><li>Reading: All readers can view FAQ web part content without a Copilot license.\n</li><li>Creating &amp; Editing: A Copilot license is necessary for creating and editing content using Copilot features.</li></ul><p>\n</p><p>This feature requires a SharePoint license and a Microsoft 365 Copilot license.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=482198\" target=\"_blank\">482198</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out early August 2025 and expect to complete by late August 2025.</p><p>\n</p><p>Targeted Release: We will begin rolling out early October 2025 and expect to complete by late October 2025.</p><p>General Availability (Worldwide, GCC): We will begin rolling out early November 2025 and expect to complete by late November 2025.</p><p><b>How this will affect your organization:</b></p><p>After this rollout, authors can add the web part for FAQs directly to pages or news posts during editing:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/49f6a030-e9ed-472e-bdb6-c33997562530\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>By selecting one or more grounding source files, AI will automatically generate FAQ content, reducing the time and effort needed for manual creation of FAQs. The web part currently supports FAQ types such as<i> Event, Product, and Policy,</i> with the option for authors to provide additional descriptions to guide more targeted content generation. \n</p><p>FAQs created using the web part can be indexed for search and shared via email, making it easier to distribute consistent, up-to-date information to your organization.</p><p>This change will be available by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically with no admin action required. You may want to notify your users about this change and update any relevant documentation as appropriate.</p><p>Before rollout, we will update this post with new documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "482198"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft SharePoint will introduce a new FAQ web part powered by Microsoft 365 Copilot, enabling easy FAQ creation from grounding data. Readers don’t need a Copilot license, but creators do. Rollout starts August 2025, with no admin action required. FAQs support indexing and sharing for consistent information."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-01-26T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1074972",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T16:18:24.72Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-15T23:00:10Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft SharePoint: New web part for FAQs powered by Microsoft 365 Copilot",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 21, 2025: We have updated the content. Thank you for your patience.</p><p>The Teams Video Clips recording limit is increasing from 1 minute to 5 minutes so that users can share longer asynchronous video messages with their teammates.&nbsp;&nbsp;</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out by late May 2025 and expect to complete by early September 2025 (previously late June).</p><p>General Availability (GCC, GCC High): We will begin rolling out early September 2025 (previously mid-July) and expect to complete by mid-September 2025 (previously mid-August).</p><p>General Availability (DoD): We will begin rolling out mid-September 2025 (previously mid-July) and expect to complete by mid-September 2025 (previously mid-August).</p><p><b>How this will affect your organization:</b></p><p>Users will now be able to record Teams Video Clips up to 5 minutes long.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically with no admin action required. Tenants who have already disabled Teams Video Clips won't have any impact. If tenants have Teams Video Clips enabled, they will automatically see the recording limit increase.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is increasing video clip recording limits from 1 to 5 minutes, rolling out worldwide from late May to early September 2025. GCC and DoD rollouts start mid-September 2025. No admin action is needed; disabled clips remain unaffected."
+      }
+    ],
+    "EndDateTime": "2025-10-27T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1066938",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-22T15:33:30.407Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-02T23:00:57Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Video clips recording limit increased from 1 minute to 5 minutes",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b>Introduction</b></p><p>We’re updating the default behavior of <b>Microsoft Teams Copilot in meetings</b>. Copilot without transcription will become the default mode for newly scheduled Teams meetings where Copilot is allowed. Additionally, conversation history will now persist during meetings, improving multitasking and continuity of insights.\n</p><p>This update is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=478611\" target=\"_blank\">478611</a>.\n</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out in mid-September 2025 and expect to complete by late September 2025.\n</p><p><b>How this affects your organization</b></p><ul><li><b>Copilot without transcription becomes default:\n</b><ul style=\"\"><li style=\"\">Applies to new tenants and new users.\n</li><li style=\"\">Existing users without a set policy will inherit the host configuration and receive this new default.\n</li><li style=\"\">Custom policies will remain unchanged.</li><li style=\"\">In Teams meeting policy, the default property value for “Copilot” will change from <b>EnabledWithTranscript to Enabled</b>. This affects how Copilot behaves in newly scheduled meetings unless overridden by custom policy.</li><li style=\"\">Starting Copilot during a meeting will no longer automatically start transcription.\n</li><li style=\"\">Transcription must be manually enabled in Meeting Options or during the meeting if users want post-meeting insights or access to Copilot conversation history.\n</li></ul></li><li><b>Conversation history now persists during meetings:\n</b><ul style=\"\"><li style=\"\">Users can switch between meeting features (chat, participant list) without losing Copilot insights.\n</li><li style=\"\">This change applies to all users using Copilot without transcription.</li></ul></li></ul><p><b>What you can do to prepare</b></p><ul><li>Review your organization’s Teams meeting policies for dependencies on transcription defaults.\n</li><li>Update internal documentation and training to reflect the new default behavior and conversation history persistence.\n</li><li>Communicate to users how to manually enable transcription when needed, especially if they want to retain Copilot insights after the meeting.\n</li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/microsoftteams/copilot-teams-transcription\" target=\"_blank\">Manage Microsoft 365 Copilot in Teams meetings and events | Microsoft Teams | Microsoft Learn</a></li><li><a href=\"https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9\" target=\"_blank\">Use Copilot without recording a Teams meeting | Copilot in Teams | Copilot | Microsoft Support</a></li></ul><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Conversation history is now retained during the meeting instead of being cleared when switching panels.</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Copilot behavior is updated to persist conversation history, enhancing AI-driven meeting insights.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Users can now maintain a continuous Copilot interaction during meetings without transcription.</td></tr><tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>IT admins can enforce or override defaults via Teams meeting policy.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Users can manually enable transcription during meetings to retain Copilot insights post-meeting.</td></tr></tbody></table><p></p>",
       "ContentType": "html"
     },
@@ -1325,43 +1992,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We're introducing the ability to reference Microsoft Loop components (Loops/Pages) when creating presentations using Microsoft 365 Copilot in PowerPoint. This enhancement enables users to seamlessly incorporate collaborative content from Loop into their presentations, improving productivity and content reuse.</p>\n\n<p><b>When this will happen</b></p><p>Targeted Release: Rollout will begin late August and complete early September.</p><p>\nGeneral Availability (Worldwide): Rollout will begin mid-September 2025 and is expected to complete by late September 2025.</p><p><b>How this affects your organization</b></p><p>\nOnce available, users with a Microsoft 365 Copilot license will be able to reference Loop components when creating presentations in PowerPoint for Windows desktop, Mac desktop, and the web.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/597003f6-7074-46ee-8713-5eef0354527e\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p>\n<ul>\n<li>Select the Copilot icon above the top corner of the slide in PowerPoint.</li>\n<li>Choose <i>Create a presentation from <b>file</b></i>.</li>\n<li>Search for Loop components by file name or paste the URL from Microsoft OneDrive or SharePoint.</li>\n</ul>\n<p>This feature will be on by default and requires no configuration changes.</p>\n\n<p><b>What you can do to prepare</b></p><p>\nNo admin action is required prior to rollout.</p>\n<ul>\n<li>Review your current Loop and Copilot configurations.</li>\n<li>Notify users of this new capability.</li>\n<li>Update internal documentation as needed.</li>\n</ul>\n<p>Learn more: <a href=\"https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d\" target=\"_blank\">Create a new presentation with Copilot in PowerPoint</a>&nbsp;(link will be updated before rollout)</p>\n\n<p><b>Compliance considerations</b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot in PowerPoint will soon allow referencing Microsoft Loop components in presentations, enhancing collaboration and content reuse. Rollout starts late August for targeted release and mid-September 2025 worldwide. No admin action is needed; the feature is on by default for licensed users on desktop and web."
-      }
-    ],
-    "EndDateTime": "2025-10-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1138789",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-20T23:36:12.013Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-20T23:35:42Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Copilot in PowerPoint: Reference Loop components when creating presentations",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<b>Introduction</b><p>We’re expanding the visibility of Viva Engage content in enterprise search experiences. Users will now be able to discover&nbsp;<i>discussion posts</i> from <i>public Communities</i> and <i>Storylines</i> in search results across Microsoft 365 surfaces such as <i>Office.com</i>, <i>SharePoint.com</i>, and <i>Copilot Search</i>. This builds on existing support for <i>question posts</i> from <i>Communities</i>, <i>Storylines</i>, and <i>Answers</i>, helping users discover more relevant conversations and knowledge across their organization. This feature is available by default. A <i>Copilot</i> license is required to use <i>Copilot Search</i>.</p>\n\n<b>When this will happen</b><p>General Availability: Rollout will begin in late August 2025 and is expected to complete by late&nbsp;October 2025.</p>\n\n<b>How this affects your organization</b><p>Users will encounter Viva Engage content—now including <i>public discussion posts</i>—when searching in supported enterprise search surfaces. This enhancement improves content discoverability and knowledge sharing.</p><p><i>Figure i. Enterprise search</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4012d48a-b063-4aba-a746-15eb6eefdc5a/db6ef284a9f8e54d1eee76d79a899e26553f543f.png\" style=\"width: 400px;\" alt=\"user settings\"><i><br></i></p><p><i style=\"\">Figure ii. Copilot search</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/100a1265-449c-42b2-82bb-5e33c375caaf/75bf18b3c0bdef44b7683e8520920a578fb3756e.png\" style=\"width: 400px;\" alt=\"user settings\"><i style=\"\"><br></i></p>\n<ul>\n<li>No configuration is required.</li>\n<li>Content is only shown if the user has access to it.</li>\n<li>Applies to <i>Office.com</i>, <i>SharePoint.com</i>, and <i>Copilot Search</i>.</li>\n</ul>\n\n<b>What you can do to prepare</b><ul>\n<li>No admin action is required.</li>\n<li>Inform users about the expanded search experience.</li>\n<li>Update internal documentation or training materials as needed.</li>\n<li>Ensure users have appropriate licenses for <i>Copilot Search</i>.</li>\n</ul>\n\n<b>Compliance considerations</b><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -1495,44 +2125,6 @@
       "New feature"
     ],
     "Title": "Microsoft Dataverse - Copilot support for finance and operations development",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 20, 2025: We have updated the content. Thank you for your patience.</p><p>We’re updating the Event scheduling experience with a refreshed user interface and new Copilot capabilities to streamline meeting creation and improve usability for end users.</p><p>As part of this new experience, the Meeting Insights feature will no longer be offered for users without a Copilot license. For Copilot license users, the capabilities previously found in the meeting insights feature are now available within a new Meeting Prepare experience and includes more refined and additional types of information along with additional features to help users prepare for upcoming meetings.&nbsp;</p><p></p><p>\n\n</p><p><b>When this will happen:</b></p><p></p><p>\n</p><ul>\n  <li><b>Public Preview:</b> Rolling out mid-September 2025 (previously mid-August) – mid-October 2025 (previously mid-September).</li>\n  <li><b>Targeted Release:</b> Rolling out mid-October 2025 (previously mid-September) – mid-November 2025 (previously mid-October).</li>\n  <li><b>General Availability:</b> Rolling out mid-November 2025 (previously mid-October) – mid-December 2025 (previously mid-November).</li>\n</ul>\n\n<b>How this affects your organization:</b><p></p><p>\n</p><p>The updated Event form introduces a modernized layout with relocated controls and entry points for common actions. It also includes new Copilot capabilities designed to assist users in setting up and managing meetings more efficiently.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/4f10f2ba-fd73-4170-9390-d4507790dab9 \" width=\"400\" height=\"\"></p>\n<p>The update will be enabled by default and does not require admin configuration.</p>\n\n<b>What you can do to prepare:</b><p></p><p>\n</p><ul>\n  <li>Inform users about the updated layout and new entry points for scheduling meetings.</li>\n  <li>Provide guidance or training on how to use the new Copilot features.</li>\n  <li>Review internal documentation or help desk materials to reflect the updated experience.</li>\n</ul>\n<p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>\n<p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Outlook and Teams are updating the Event scheduling experience with a refreshed interface and new Copilot features. Meeting Insights will be replaced by Meeting Prepare for Copilot users. Rollout occurs from mid-September to mid-December 2025. The update is automatic and requires user communication and training."
-      }
-    ],
-    "EndDateTime": "2026-01-26T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1129717",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-20T21:20:55.32Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-05T22:57:27Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "(Update) New Event Scheduling User Experience for Outlook and Teams",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -4522,43 +5114,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We're enhancing the quarantine experience in Microsoft Defender and Exchange Online to improve visibility and control over items that have been temporarily deleted. With this update, users will be able to view and restore messages that were previously removed from the quarantine view but still exist in the system.</p><p><b>When this will happen</b></p><ul><li>General Availability (Worldwide): Rollout will begin mid-August 2025 and is expected to complete by mid-September 2025.</li><li>General Availability (GCC, GCC High, DoD): Rollout will begin early September 2025 and is expected to complete by late September 2025.</li></ul><p><b>How this affects your organization</b></p><p>Users in both Microsoft Defender and Exchange Online quarantine portals will gain the ability to:</p><ul><li>View messages that were temporarily deleted from quarantine using the new Temporarily deleted filter under Release Status.</li><li>Restore these messages back to the quarantine view using the new Restore temporarily deleted option.</li></ul><p>Messages that have been permanently deleted will remain inaccessible. This feature is on by default and applies only to temporarily deleted items.</p><p><b>What you can do to prepare</b></p><ul><li>Inform users about the new filter and restore option to reduce confusion and potential help desk calls.</li><li>Update internal documentation or training materials to reflect the new functionality.</li><li>Monitor user feedback and usage to determine if additional guidance or support is needed.</li></ul><p>No configuration changes are required to enable this feature.</p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Defender and Exchange Online will allow users to view and restore temporarily deleted quarantine messages starting mid-August 2025 (worldwide). This feature is on by default, requires no configuration, and helps improve message recovery without affecting permanently deleted items."
-      }
-    ],
-    "EndDateTime": "2025-10-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1134736",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-13T23:09:19.367Z",
-    "Services": [
-      "Exchange Online",
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-13T23:09:13Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Quarantine experience update in Microsoft Defender and Exchange Online: Restore temporarily deleted items",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated August 13, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re introducing new Viva Engage role management APIs in Microsoft Graph, now available in beta. These APIs allow IT admins to programmatically manage Viva Engage-specific roles—such as Corporate Communicator, Network Administrator, and Verified Administrator, enabling automation, scalability, and integration with existing identity systems.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497131\" target=\"_blank\">497131</a>.</p><p><b>When this will happen:</b>\n</p><p><b>General Availability (Worldwide):</b> We will begin rolling out in early September 2025 (previously early August) and expect to complete by late September 2025 (previously late August).</p><p><b>How this will affect your organization:</b></p><p>These new APIs provide greater flexibility and control for IT admins by enabling:\n</p><ul><li>Automated role assignments\n</li><li>Programmatic retrieval of role data\n</li><li>Streamlined admin workflows across large organizations\n</li></ul><p>This expands on existing Microsoft Graph support for roles like Global Administrator and Yammer Administrator, now including all Viva Engage-specific roles. The update does not change the current UI-based role management experience—it simply adds a new programmatic option for admins and corporate communicators to provision Viva Engage roles.</p><p><b>What you need to do to prepare:</b></p><p>No immediate action is required. If your organization is interested in using these APIs, you can:\n</p><ul><li>Begin testing the <b>beta APIs </b>using either delegated (user-authenticated) or app-only access models</li><li>Ensure the appropriate roles are assigned—<b>Entra admin</b> or <b>Corporate Communicator</b>—as these are required to use the APIs</li><li>Share feedback to help improve the experience ahead of general availability</li></ul><p>Learn more:</p><ul><li><a href=\"http://Review the https://learn.microsoft.com/graph/api/resources/viva-engage-role-management?view=graph-rest-beta\" target=\"_blank\">Introducing Viva Engage Role Management APIs on Microsoft Graph API | Viva Engage | Viva Engage Blog</a></li><li><a href=\"https://learn.microsoft.com/graph/api/resources/engagement-api-overview?view=graph-rest-beta\" target=\"_blank\">Use the Microsoft Graph API to work with Viva Engage | Microsoft Learn</a></li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p>\n</p>",
       "ContentType": "html"
     },
@@ -6345,53 +6900,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction\n</b></p><p>We're introducing a new integration between Microsoft Teams and Microsoft Defender for Office 365 that enables security admins to manage blocked external domains in Teams using the Tenant Allow/Block List (TABL) in the Microsoft Defender portal. This feature enhances security by allowing organizations to centrally manage domain blocks across Microsoft 365 services.\n</p><p>This capability is available to customers with Microsoft Defender for Office 365 Plan 1 or Plan 2 and Microsoft Teams.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=492985\" target=\"_blank\">492985</a>.</p><p><b>When this will happen</b></p><p><b>Targeted Release: </b>We will begin rolling out in mid-August 2025 and expect to complete by mid-September 2025.\n</p><p><b>General Availability (Worldwide): </b>We will begin rolling out mid-September 2025 and expect to complete by late September 2025.</p><p><b>How this affects your organization</b></p><p>Security admins, with permission from Teams admins, will be able to:\n</p><ul><li>Add, delete, and view blocked external domains in Microsoft Teams using the Microsoft Defender portal.\n</li><li>Prevent incoming communications (chats, channels, meetings, and calls) from blocked domains.\n</li><li>Automatically delete existing communications from users in blocked domains.\n</li><li>Track actions taken to block domains in audit logs, supporting compliance monitoring and reporting.</li></ul><p><i>View and manage blocked domains for Teams in the Microsoft Defender portal:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/98f65c85-40f3-4c26-96b3-9c9332523855/8fec2ed76df00338187a21f63d826c9ff7b46988.png\" style=\"width: 400px;\" alt=\"admin settings\"></p><p>This change does <b>not</b> affect existing federation configurations or domain blocks set in the Teams admin center.\n</p><ul><li><b>Entry limit: </b>Up to 4,000 blocked domains can be configured for Teams.\n</li><li><b>Client impact: </b>Applies to all Teams clients and the Defender XDR web portal.</li></ul><p><b>What you can do to prepare\n</b></p><p>To enable this feature -&nbsp;</p><ul><li>Ensure that external access in the Teams admin center is set to either:\n<ul><li>Block only specific external domains, or\n</li><li>Allow all external domains\n</li></ul></li><li>Teams admins must enable the setting<b> “Allow my security team to manage blocked domains”</b> in the Teams admin center. This setting is <b>off by default</b>.</li></ul><p><i>Enable security team access to manage blocked domains in the Teams admin center:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9d24ff00-dee8-4395-a9b3-818a071fff88/349d94c309bbb10fac8ca04c3f520e70bab9b400.png\" style=\"width: 400px;\" alt=\"admin settings\"></p><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/defender-office-365/tenant-allow-block-list-teams-domains-configure\" target=\"_blank\">Block domains in Microsoft Teams using the Tenant Allow/Block List | Microsoft Defender for Office 365 | Microsoft Defender | Microsoft Learn</a></p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change modify how admins can monitor, report on, or demonstrate compliance activities such as Purview or admin reporting?</td><td>Both Microsoft Teams and the Defender portal generate audit logs for actions taken on blocked domains. These logs can be accessed via Microsoft Purview or Defender audit capabilities.</td></tr><tr><td>Does the change provide a new way of communicating between users, tenants, or subscriptions?&nbsp;</td><td>Security admins can now block external domains in Microsoft Teams using the Tenant Allow/Block List, which affects cross-tenant communications across chats, channels, meetings, and calls.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Teams admins must enable the toggle “Allow my security team to manage blocked domains” in the Teams admin center to grant access. This control can be managed through Entra ID group membership.</td></tr></tbody></table><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "492985"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams now integrates with Microsoft Defender for Office 365 Tenant Allow/Block List, enabling security admins to centrally manage blocked external domains in Teams. This blocks communications from those domains, supports audit logging, and requires Teams admins to enable security team access. Rollout begins mid-August 2025."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-10-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1133508",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-11T23:32:01.04Z",
-    "Services": [
-      "Microsoft Teams",
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-11T23:31:53Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams Integration with Microsoft Defender for Office Tenant Allow/Block List for blocking domains",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>As mentioned in MC1097219, later this year, we expect macOS Tahoe 26 to be released by Apple. Microsoft Intune, the Company Portal app and the Intune MDM agent will be moving to support macOS 14 (Sonoma) and later. Since the Company Portal app for iOS and macOS are a unified app, this change will occur shortly after the release of macOS 26. This does not affect existing enrolled devices.</p><p><b>How this will affect your organization:</b>\n</p><p>This will only affect you if you currently manage, or plan to manage macOS devices with Intune. This may not impact you because your users have likely already upgraded their macOS devices. Refer to <a href=\"https://support.apple.com/105113\" target=\"_blank\">macOS Sonoma is compatible with these computers – Apple Support</a> for a list of devices that are supported.</p><p><b>Note:</b> Devices that are currently enrolled on macOS 13.x or below will continue to remain enrolled even when those versions are no longer supported. New devices will be unable to enroll if they are running macOS 13.x or below.</p><p>Enrolled macOS devices without user affinity, either through Automated Device Enrollment (ADE) without user affinity or Direct Enrollment, have a slightly nuanced support statement due to their shared usage. For more details, see <a href=\"https://aka.ms/Intune/macOS/ADE-DE-support\" target=\"_blank\">https://aka.ms/Intune/macOS/ADE-DE-support</a>.</p><p><b>What you need to do to prepare:</b>\n</p><p>Check your Intune reporting to see which devices or users may be affected. Go to <b>Devices </b>&gt; <b>All devices</b> and filter by macOS. You can add in additional columns to help identify who in your organization has devices running macOS 13.x or below. Request that your users upgrade their devices to a supported OS version before this change.&nbsp;</p>",
       "ContentType": "html"
     },
@@ -7115,52 +7623,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated August 8, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Microsoft PowerPoint is introducing a new capability that enables users to rephrase or rewrite text using natural language instructions via Microsoft 365 Copilot. This enhancement allows for more tailored and expressive content creation directly in PowerPoint.</p><p>A Microsoft 365 Copilot license is required to access this feature.</p><p>This message refers to PowerPoint for Windows desktop, PowerPoint for Mac desktop, and PowerPoint for the web.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494831\" target=\"_blank\">494831</a>, Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494832\" target=\"_blank\">494832</a> and Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494833\" target=\"_blank\">494833</a>.\n</p><p><b>When this will happen:</b>\n</p><p>When this will happen:]\n</p><p>General Availability (Worldwide): We will begin rolling out early July 2025 and expect to complete by late August 2025 (previously late July) - Completed.</p><p>General Availability (GCC): We will begin rolling out late September 2025 (previously mid-August) and expect to complete by mid-October 2025 (previously late August).\n</p><p><b>How this will affect your organization:</b></p><p>After this rollout, users will see a new option under the existing Copilot rewrite dropdown menu in textboxes. This feature introduces a prompt box where users can enter natural language instructions to rephrase or replace selected text.</p><ul><li>This feature will be on by default.\n</li><li>No changes to existing permissions or settings are required.</li></ul><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p><p>Learn more: The section called <i>Using the PowerPoint Rewrite Feature</i> in <a href=\"https://support.microsoft.com/topic/elevate-your-presentation-game-with-copilot-s-text-rewrite-feature-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8d\" target=\"_blank\">Elevate your presentation game with Copilot's text rewrite feature in PowerPoint - Microsoft Support</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "494831,494832,494833"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft PowerPoint will add a feature allowing users to rephrase text using natural language prompts via Microsoft 365 Copilot, rolling out worldwide from July to August 2025 and in GCC from September to October 2025. The feature is on by default and requires no admin action."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2025-10-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1099688",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-08T18:29:10.127Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-20T22:15:22Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft PowerPoint: Use Microsoft 365 Copilot to rephrase text with natural language prompts",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated August 8, 2025: We have updated the content. Thank you for your patience.</p><p>This feature will empower administrators to manage the availability of trusted Microsoft Teams apps based on rules, for enhanced security. Admins will be able to manage Microsoft 365 certified apps in the Teams admin center through a new control in <i>Org-wide settings</i>. You can further customize the availability of these apps based on permissions accessed and publisher names. The system automatically checks the Microsoft 365 certified apps that meet all the conditions you specify and makes those apps available.&nbsp;<b>&nbsp;</b></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=485712\" target=\"_blank\">485712</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out mid-September 2025 (earlier mid-July 2025) and expect to complete by mid-October (earlier August 2025)</p><p><b>How this will affect your organization:</b></p><p>Before this rollout, you cannot manage at bulk the availability of Microsoft 365 certified apps. They are only controlled by third-party app tenant settings.\n</p><p>After this rollout, you can manage Microsoft 365 certified apps availability from org-wide settings in the Teams admin center at <i>Manage apps &gt; Actions &gt; Org-wide app settings &gt; Microsoft 365 certified apps</i>.&nbsp;</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e2c6ba81-7623-471a-8d06-0b6ad6e2ef00\" style=\"width: 400px;\" alt=\"admin settings\"></p><p>You can configure additional criteria from the <i>Customize availability </i>option:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c2d0f382-0897-432d-8a46-028de82b2e2d\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before or after the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation. This new control will be disabled by default.</p><p>Learn more: <i>Manage org-wide app settings</i> in <a href=\"https://learn.microsoft.com/microsoftteams/manage-apps#manage-org-wide-app-settings\" target=\"_blank\">Manage your apps in the Microsoft Teams admin center - Microsoft Teams | Microsoft Learn</a> (will be updated before rollout)</p>",
       "ContentType": "html"
     },
@@ -7475,7 +7937,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"498490\":[{\"RoadmapId\":498490,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-22T11:02:00.4915013Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-22T11:02:00.4915014Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-22T11:02:00.4915015Z\",\"LatestRing\":null}]}"
+        "Value": "{\"498490\":[{\"RoadmapId\":498490,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-23T03:16:29.3052678Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-23T03:16:29.3052681Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-23T03:16:29.3052682Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8230,51 +8692,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We’re introducing a new way to search in Microsoft Teams using structured, SQL-like query commands in the search bar. This enhancement allows users to filter messages, files, and conversations more precisely using keywords such as from:username, with:username, in:channel, or is:type (message, file, group chat, channel). This feature is especially useful for developers and power users who prefer to express specific search intent to narrow down search results and easily find what they are looking for.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496590\" target=\"_blank\">496590</a>.</p><p><b>When this will happen</b></p><ul><li><b>Targeted Release: </b>We began rolling out in early August 2025 and expect to complete by early August 2025.</li><li><b>General Availability<span style=\"background-color: rgb(255, 255, 255);\"> (Worldwide, GCC, GCCH, and DoD)</span>: </b>We began rolling out mid-August 2025 and expect to complete by mid-August 2025.</li></ul><p><b>How this affects your organization</b></p><p>This feature enhances the search experience in Microsoft Teams by enabling structured, SQL-like queries. It will be available on the following platforms at launch:\n</p><ul><li>Teams Web\n</li><li>Teams Desktop\n</li><li>Teams Mac</li></ul><p>Users will be able to filter messages, files, and conversations using commands such as is:, in:, from:, and with:. This applies to all Teams content that is accessible to the user, including private chats, shared channels, and files.\n</p><p>Once available, the feature will be on demand—users can begin typing one of the supported commands in the search bar to activate it.\n</p><p>If a user enters an unsupported or malformed query, the system will default to standard search results. Users can also leverage query suggestions to help formulate correct queries.\n</p><p>This update provides a faster, more accurate way to locate content, especially in large or complex Teams environments.</p><p><b>What you can do to prepare</b></p><p>No admin action is required. You may wish to:\n</p><ul><li>Inform users about this new capability.\n</li><li>Encourage users to try structured search queries.\n</li><li>Share training materials or internal documentation to support adoption.</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "496590"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams is introducing SQL-like structured search queries (e.g., from:, in:, is:) to filter messages, files, and conversations more precisely. Rolling out August 2025 on Web, Desktop, and Mac, this feature enhances search accuracy without admin action needed. Users can activate it by typing supported commands in the search bar."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-09-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1130388",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-06T23:31:55.27Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-06T23:31:40Z",
-    "Tags": [
-      "Feature update",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams | Search with key query language",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction\n</b></p><p>We're retiring support for inline SVG images in Outlook for Web and the new Outlook for Windows starting early September 2025. This change enhances security and aligns with current email client behavior, which already restricts inline SVG rendering.\n</p><p><b>When this will happen</b></p><p><b></b></p><ul><li>Worldwide rollout: Begins early September 2025, expected to complete by mid-September 2025.\n</li><li>GCC, GCC-H, DoD rollout: Begins mid-September 2025, expected to complete by late September 2025.\n</li></ul><p><b>How this affects your organization\n</b></p><ul><li>Inline SVG images will no longer be displayed in Outlook for Web or the new Outlook for Windows. Instead, users will see blank spaces where these images would have appeared.\n</li><li>This change affects less than 0.1% of all images used in Outlook, so impact is expected to be minimal.\n</li><li>SVG images sent as classic attachments will continue to be supported and viewable from the attachment well.\n</li><li>This update helps mitigate potential security risks, such as cross-site scripting (XSS) attacks.\n</li></ul><p><b>What you can do to prepare\n</b></p><p>No action is required from users or administrators.\n</p><p>We recommend:\n</p><ul><li>Updating internal documentation to reflect this change.\n</li><li>Informing users who may rely on inline SVGs in email communications.\n</li></ul><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p>\n</p>",
       "ContentType": "html"
     },
@@ -8405,43 +8822,6 @@
       "Retirement"
     ],
     "Title": "Microsoft Purview | ​Retirement of the classic eDiscovery (Premium) experience",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": "2025-07-01T07:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 6, 2025: We have updated the timeline. Thank you for your patience.</p><p>We’re making some changes to DNS provisioning of A records for all new Accepted Domains provisioned after August 1st, 2025. Between early August and late August, 2025 (previously July 1st and August 1st, we will gradually switch provisioning of all A records for new Accepted Domains into the new subdomains under mx.microsoft.</p><p>We are doing this to reduce the friction of adopting DNSSEC in the long run. DNSSEC is a set of extensions to DNS that provides cryptographic verification of DNS records, preventing DNS spoofing and adversary-in-the-middle attacks to DNS.\n</p><p><b>How this will affect your organization:</b>\n</p><p>After August 1st, 2025, all A records for new Accepted Domains will be provisioned into the new subdomains under mx.microsoft.\n</p><p>DNS resolution will safely fallback to “plain” DNS if a domain is not DNSSEC enabled. If an Accepted Domain you add to the Exchange Admin Center after August 1st is not secured with DNSSEC at the domain level (ex. contoso.com), then DNS resolution will work as usual. If an Accepted Domain you add to the EAC after August 1st is secured with DNSSEC, then DNSSEC will extend to the mx.microsoft DNS record automatically and you will get the benefits of DNSSEC without having to take any further action. Any issues with DNSSEC can be addressed by disabling DNSSEC for the Accepted Domain (ex. contoso.com) via your DNS provider.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>If you have any automation in place, for example in workflows for Domain Setup, for MX record creation that expects A records for newly provisioned Accepted Domains to be provisioned in mail.protection.outlook.com, this automation needs to be updated by August 1st to use List serviceConfigurationRecords Graph API (<a href=\"https://learn.microsoft.com/graph/api/domain-list-serviceconfigurationrecords?view=graph-rest-1.0&amp;tabs=http\" target=\"_blank\">List serviceConfigurationRecords</a>). Use List serviceConfigurationRecords to retrieve the mailExchange value for your MX record. After August 1st, List serviceConfigurationRecords Graph API will be the only source of truth for your Accepted Domains’ MX record value. You will not be able to rely on the Accepted Domain’s A record being provisioned in mail.protection.outlook.com after August 1st.</p><p>If you are using automation that expects the record to end with mail.protection.outlook.com, when you add a new Accepted Domain to the Exchange Admin Center after August 1st, mail flow may not work upon initial configuration and you will have to update your MX record to match what the Exchange Admin Center says for the domain or use the mailExchange value returned by List serviceConfigurationRecords Graph API.\n</p><p>If you expect this change to cause any issues for your organization, please share that feedback. \n</p><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting August 1, 2025, new Accepted Domains' A records will be provisioned under mx.microsoft subdomains to support DNSSEC adoption. Automation relying on mail.protection.outlook.com must update by August 1 to use the List serviceConfigurationRecords Graph API for MX records. DNS resolution will fallback if DNSSEC is not enabled."
-      }
-    ],
-    "EndDateTime": "2025-12-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1048624",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-08-06T19:56:26.147Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-04T23:12:38Z",
-    "Tags": [
-      "Updated message",
-      "Admin impact"
-    ],
-    "Title": "DNS Provisioning Change",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -8978,7 +9358,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"498895\":[{\"RoadmapId\":498895,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-08-22T11:02:00.4908825Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":498895,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-22T11:02:00.4908826Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-22T11:02:00.4908827Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-22T11:02:00.4908828Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-22T11:02:00.4908829Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"498895\":[{\"RoadmapId\":498895,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-08-23T03:16:29.3055624Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":498895,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-23T03:16:29.3055626Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-23T03:16:29.3055626Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-23T03:16:29.3055627Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-23T03:16:29.3055628Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -9269,45 +9649,6 @@
       "User impact"
     ],
     "Title": "Microsoft Outlook: Replace quick compose pop-up with inline appointment creation in new Outlook for Windows and web",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 5, 2025: We have updated the content. Thank you for your patience.</p><p><b>Introduction</b></p><p>As part of the final phase of the Viva Engage rebranding, we’re updating the email sender domains used for Viva Engage communications. This change ensures a consistent and secure brand experience across all surfaces and completes the transition from Yammer to Viva Engage.</p><p>This update was previously communicated in MC679739, “Yammer Rebranding to Viva Engage Domain Migration Update,” in October 2023.</p><p><b>When this will happen</b></p><ul><li>The email sender domain rollout will begin in late August 2025 for U.S. and EU tenants currently receiving messages from @yammer.com and @eu.yammer.com respectively. The entire rollout is expected to complete by the end of October 2025.\n</li><li>A fallback/coexistence period will be in place between August and the end of October, during which both the old and new domains will be supported. During this time, some users within a tenant may receive emails from the old domain while others receive them from the new domain.</li></ul><p></p><p><b>How this will affect your organization</b></p><p>The sender domain for Viva Engage emails will change as follows:\n</p><ul><li>From @yammer.com to @engage.mail.microsoft for U.S. and global regions.\n</li><li>From @eu.yammer.com to @eu.engage.mail.microsoft for European regions.\n</li></ul><p>These new domains are secured with industry-standard authentication protocols (e.g., SPF) to help prevent spoofing and ensure reliable delivery.\n</p><p>To enhance security and reduce cross-tenant spam, sender addresses will now include a tenant-specific prefix. You may see emails from:\n</p><ul><li>noreply_tenant@engage.mail.microsoft (digests and delegate notifications)\n</li><li>notifications_tenant@engage.mail.microsoft (community, storyline, and activity notifications)\n</li><li>announcements_tenant@engage.mail.microsoft (leadership announcements)\n</li></ul><p>These changes apply to all Viva Engage tenants, regardless of license tier (e.g., Viva P1, P2), and affect all Viva Engage emails, including notifications, announcements, and digests.</p><p>Third-party integrations (e.g., journaling, archiving, or routing systems) that rely on the @yammer.com domain for classification or authentication may be impacted. Any such configurations should be reviewed and updated to recognize the new domains.</p><p><i>An example of a new Viva Engage email notification sent from the updated @engage.mail.microsoft domain:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/55498900-45c4-4375-be35-b989948d2946/c7973dd8d9bde265ced10161ed090ee81bad55cb.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b>What you need to do to prepare</b></p><p>Admins should review and update the following configurations:\n</p><ul><li>Transport rules and email gateways: Update any rules that reference @yammer.com to include the new domains.\n</li><li>Exchange filtering: Ensure filtering rules remain effective with the new sender domains.\n</li><li>Outlook rules: Inform users that any rules based on @yammer.com will no longer apply. Users can manually update or remove these rules.\n</li></ul><p>No admin action is required unless your organization has custom configurations based on the old domain.</p><p>Learn more:&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-is-evolving-to-viva-engage/3738825\" target=\"_blank\">Yammer is evolving to Viva Engage | Viva Engage Blog</a></p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Engage is updating its email sender domains from @yammer.com to @engage.mail.microsoft, starting late August 2025 and completing by October 2025. This change enhances security with tenant-specific prefixes and requires admins to update any custom email rules or integrations referencing the old domains."
-      }
-    ],
-    "EndDateTime": "2025-11-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1117814",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-05T16:39:39.66Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-18T23:38:18Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva Engage | Email sender domain migration from @yammer.com to @engage.mail.microsoft",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -13496,45 +13837,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Starting July 16, 2025, we’re rolling out the new Researcher agent in Microsoft Word for Microsoft 365 Copilot licensed users. This agent combines OpenAI’s deep research model with Copilot’s orchestration and search capabilities to help users conduct complex, multi-step research across work and web data.</p><p><b>When this will happen:</b></p><ul><li>Word on Windows, Word on the web and Mac: Rollout begins August 18, 2025 (previously July 16) and completes by September 1, 2025 (previously July 28).&nbsp;</li></ul><p><b>How this affects your organization:</b></p><ul><li>For users with a Microsoft 365 Copilot license, the Researcher agent will appear:\n<ul><li>In the Copilot prompt box in Word.\n</li><li>In the Copilot Chat Agent Store under “Built by Microsoft.</li></ul></li><li>The Researcher agent supports 37 languages.\n</li><li>Admin settings for the Researcher agent apply specifically to its use in Word.\n</li></ul><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3c12e413-65b4-4cdc-94d0-002aec0c73aa \" width=\"400\" height=\"\" &gt;<=\"\" p=\"\"></p><p><b>What you can do to prepare:</b></p><p>No admin action is required to enable the Researcher agent for Microsoft 365 Copilot users.\n</p><p>To manage agents in the Microsoft 365 admin center, refer to:\n</p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agentsG%2Bxlh%2BQ%3D&amp;reserved=0\" target=\"_blank\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn</a>.&nbsp;</li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agents\" target=\"_blank\">Block or Unblock Agents</a>\n</li></ul><p>For more details, see Message center post MC1085251 (May 2025).\n</p><p><b>Compliance considerations:</b></p><ul><li>Does the change store new customer data?\tMaybe - The Researcher agent may generate or retrieve content based on user prompts. If this content is stored (e.g., in documents or logs), it could involve new customer data. However, storage behavior may depend on tenant configuration and usage.\n</li><li>Does the change alter how existing customer data is processed, stored, or accessed?\tYes - The agent can access and reason over existing work data (e.g., documents, emails) to generate research responses, which changes how that data is processed and potentially accessed.\n</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with customer data?\tYes - This is a new generative AI agent that uses OpenAI models and Copilot orchestration to interact with customer data in Word.\n</li><li>Does the change provide end users any new way of interacting with generative AI?\tYes - This is a new generative AI experience embedded in Word, enabling users to conduct research through natural language prompts.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting August 18, 2025, the Researcher agent will be available in Word for Microsoft 365 Copilot licensed users, combining OpenAI’s research model with Copilot’s capabilities. The rollout completes by September 1, 2025, and supports 37 languages. No admin action is required. Compliance considerations are noted."
-      }
-    ],
-    "EndDateTime": "2025-10-06T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1111176",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-22T16:02:52.047Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-07T23:57:26Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Researcher is available in Word for Microsoft 365 Copilot licensed users",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><span style=\"font-family: Arial; font-size: 10pt;\">Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</span></p><p><span style=\"font-family: Arial; font-size: 10pt;\">Within Microsoft Purview Data Security Posture Management for AI, a </span><span style=\"font-family: Arial; font-size: 10pt;\">specific page</span><span style=\"font-family: Arial; font-size: 10pt;\"> is dedicated to showing protection capabilities and usage for Microsoft 365 Copilot. This page will be on the Data Security Posture Management for AI overview page, which will have a tab for Microsoft 365 Copilot.</span></p><p></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=489828\" target=\"_blank\">489828</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out in mid-June 2025 and expect to complete by late June 2025.</p><p>General Availability (Worldwide): We will begin rolling out in late July 2025 (previously mid-July) and expect to complete by early August 2025 (previously late July).</p><p><b>How this will affect your organization:</b></p><p></p><div style=\"\"><span style=\"font-family: Arial; font-size: 10pt; font-weight: 400;\">Admins will be able to use this page to view recommendations for securely deploying Copilot and view the sensitivity labels and sensitive information types found in Copilot interactions.&nbsp;</span></div><p><b>What you need to do to prepare:</b></p><p></p><div style=\"\"><font face=\"Arial\"><span style=\"font-size: 13.3333px;\">This rollout will happen automatically with no admin action required.</span></font></div>",
       "ContentType": "html"
     },
@@ -13634,7 +13936,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-22T11:02:00.4914151Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-22T11:02:00.4914154Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-22T11:02:00.4914155Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-23T03:16:29.3053904Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-23T03:16:29.3053906Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-23T03:16:29.3053907Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15663,52 +15965,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated June 8, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Coming soon for Microsoft SharePoint: A new web part for FAQs, to help assist content owners keep their content fresh and relevant. Powered by Microsoft 365 Copilot, this new web part can help content owner easily curate FAQ by working with agents and connected grounding data.</p><p>Copilot license requirements:</p><ul><li>Reading: All readers can view FAQ web part content without a Copilot license.\n</li><li>Creating &amp; Editing: A Copilot license is necessary for creating and editing content using Copilot features.</li></ul><p>\n</p><p>This feature requires a SharePoint license and a Microsoft 365 Copilot license.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=482198\" target=\"_blank\">482198</a>.</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out late June 2025 (previously early June) and expect to complete by late June 2025 (previously mid-June).\n</p><p>General Availability (Worldwide, GCC): We will begin rolling out mid-July 2025 (previously early July) and expect to complete by late July 2025 (previously mid-July).</p><p><b>How this will affect your organization:</b></p><p>After this rollout, authors can add the web part for FAQs directly to pages or news posts during editing:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/49f6a030-e9ed-472e-bdb6-c33997562530\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>By selecting one or more grounding source files, AI will automatically generate FAQ content, reducing the time and effort needed for manual creation of FAQs. The web part currently supports FAQ types such as<i> Event, Product, and Policy,</i> with the option for authors to provide additional descriptions to guide more targeted content generation. \n</p><p>FAQs created using the web part can be indexed for search and shared via email, making it easier to distribute consistent, up-to-date information to your organization.</p><p>This change will be available by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically with no admin action required. You may want to notify your users about this change and update any relevant documentation as appropriate.</p><p>Before rollout, we will update this post with new documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "482198"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft SharePoint is introducing a new FAQ web part powered by Microsoft 365 Copilot, available late June 2025 for targeted release and mid-July 2025 for general availability. Creating and editing require a Copilot license, while viewing does not. The feature will automatically generate FAQ content, supporting Event, Product, and Policy types."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-26T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1074972",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-08T19:43:55.433Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-15T23:00:10Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft SharePoint: New web part for FAQs powered by Microsoft 365 Copilot",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div>Starting with the April 8, 2025, Windows security updates, protections for <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-26647\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2025-26647</a> are being rolled out and enforced in phases. These updates change how certificate-based authentication (CBA) is handled when the issuing certificate authority (CA) is not in the NTAuth store but a Subject Key Identifier (SKI) mapping exists in the altSecID attribute.</div><div><br></div><div>The second phase, <b>Enforced by Default phase,</b> begins today, July 8, 2025.</div><div><br></div><div><b>When will this happen:</b></div><div><b>July 8, 2025: Enforced by Default phase</b></div><ul><li>Updates released on or after July 8, 2025, will enforce the NTAuth store check by default. The <b>AllowNtAuthPolicyBypass</b> registry key setting will still allow customers to move back to Audit mode if needed. However, the ability to completely disable this security update will be removed.</li></ul><div><b>October 14, 2025: Enforcement mode</b></div><ul><li>Updates released on or after October 14, 2025, will discontinue Microsoft support for the <b>AllowNtAuthPolicyBypass</b> registry key. At this stage, all certificates must be issued by authorities that are a part of NTAuth store.</li></ul><div><br></div><div><b>How this will affect your organization:</b></div><div>If your environment uses CBA and relies on certificates from CAs not in the NTAuth store, authentication may fail once Enforcement mode is enabled. This change affects domain controllers and requires updates to ensure secure authentication behavior. New audit events will help identify affected certificates and CAs.</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><ul><li><b>UPDATE</b> all domain controllers with a Windows update released on or after April 8, 2025.</li><li><b>MONITOR</b> new events (e.g., Event ID 45 and 21) that will be visible on domain controllers to identify affected certificate authorities.</li><li><b>ENABLE</b>&nbsp;Enforcement mode after your environment is now only using logon certificates&nbsp;issued by authorities that are in the NTAuth store.</li><li><b>REVIEW AND UPDATE</b> altSecID mappings if needed to ensure compatibility.</li></ul><div>&nbsp;</div><div><b>Additional information:</b></div><ul><li>For full technical details, including registry settings and audit event IDs, see <a href=\"https://support.microsoft.com/topic/5f5d753b-4023-4dd3-b7b7-c8b104933d53\" rel=\"noopener noreferrer\" target=\"_blank\">KB5057784: Protections for CVE-2025-26647 (Kerberos Authentication)</a></li></ul><div><br></div><div>To learn more about these protections, please see <a href=\"https://support.microsoft.com/topic/5f5d753b-4023-4dd3-b7b7-c8b104933d53\" rel=\"noopener noreferrer\" target=\"_blank\">Guidance for applying protections related to CVE-2025-26647</a>.</div>",
       "ContentType": "html"
     },
@@ -15759,52 +16015,6 @@
       "Admin impact"
     ],
     "Title": "The July 2025 Windows security update is now available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 8, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>When creating a new Loop workspace, users will be able to choose an existing Microsoft 365 Group to manage the workspace's lifetime, governance, and compliance, similar to SharePoint Team sites.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out late September 2025 (previously late June) and expect to complete by late October 2025 (previously late July).</p><p><b>How this will affect your organization:</b></p><p>Once available, when creating a new Loop workspace, users will be able to choose an existing Microsoft 365 Group to manage the workspace's lifetime, governance, and compliance, similar to SharePoint Team sites.</p><p><b>What you need to do to prepare:</b></p><p>There is nothing you need to do to prepare. These changes will roll to your tenant automatically.\n</p><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "422728"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Users will be able to choose an existing Microsoft 365 Group to manage new Loop workspaces starting late September 2025, with completion expected by late October 2025. No preparation is needed as changes will roll out automatically."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-12-08T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC929023",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-08T16:26:19.353Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-11-08T23:22:44Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Loop – Microsoft 365 Groups for Managing New Loop workspaces",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -25336,43 +25546,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>The Teams Video Clips recording limit is increasing from 1 minute to 5 minutes so that users can share longer asynchronous video messages with their teammates.&nbsp;&nbsp;</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out by late May 2025 and expect to complete by late June 2025.</p><p>General Availability (GCC, GCC High, DoD): We will begin rolling out mid-July 2025 and expect to complete by mid-August 2025.</p><p><b>How this will affect your organization:</b></p><p>Users will now be able to record Teams Video Clips up to 5 minutes long.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically with no admin action required. Tenants who have already disabled Teams Video Clips won't have any impact. If tenants have Teams Video Clips enabled, they will automatically see the recording limit increase.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams is increasing the Video Clips recording limit from 1 minute to 5 minutes. The rollout will occur from late May to late June 2025 for general availability and from mid-July to mid-August 2025 for GCC, GCC High, and DoD. No admin action is required."
-      }
-    ],
-    "EndDateTime": "2025-09-22T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1066938",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-05-02T23:01:06.793Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-02T23:00:57Z",
-    "Tags": [
-      "Feature update",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Video clips recording limit increased from 1 minute to 5 minutes",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Coming soon for Microsoft Purview | Data Loss Prevention: We will support adding Microsoft SharePoint sites to existing administrative units. When you assign a DLP policy for the SharePoint location to an administrative unit, the policy will only apply to the sites that are part of that administrative unit.\n</p><p>This message is associated with Microsoft 365 Roadmap ID ​<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=475970\" target=\"_blank\">475970</a>.​\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We began rolling out late April 2025 and expect to complete by early May 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out mid-June 2025 and expect to complete by late August 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>This change will be available by default for admins to configure. Users will be able to scope for the desired SharePoint sites in the Microsoft Purview compliance portal at Data loss prevention &gt; Create policy &gt; Locations:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/24c49cba-1500-4cfe-8fc0-30e8dc671be0\" style=\"width: 400px;\" alt=\"admin\" controls\"=\"\">\n</p><p>If you participated in the Private Preview for this feature, we have made a change. In the Private Preview, admins could manually add specific SharePoint sites to scope the feature. For the Public Preview and General Availability, due to underlying issues, we will revoke the specific sites option. We will only support scoping for All sites.\n</p><p>Private Preview customers: You can continue to use current policies scoped to specific sites. The policies will continue to function as before, but you won’t be able to modify those existing configurations, and any new changes must use the All-sites option.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization.\n</p><p>Learn more: The section called <a href=\"https://learn.microsoft.com/purview/dlp-policy-reference?branch=main#support-for-adding-sharepoint-sites-to-administrative-units-preview\" target=\"_blank\">Support for adding SharePoint sites to Administrative Units (preview)</a> in <a href=\"https://learn.microsoft.com/purview/dlp-policy-reference\" target=\"_blank\">Data Loss Prevention policy reference | Microsoft Learn</a></p>",
       "ContentType": "html"
     },
@@ -28915,7 +29088,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
