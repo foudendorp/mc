@@ -4,6 +4,351 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>As a follow up to MC804771, based on Admin feedback, we are updating the behavior for automated hiding of inactive channels to be opt-in (suggestions) only. With this update, Teams will offer users suggestions on channels that are inactive, and the user is prompted to review their inactive channels and hide them only if they choose. The user will also be able to view when they last visited the channel to help them decide if they would like to hide the channel. The settings support this opt-in workflow and there are no changes to the on demand hiding process.\n</p><p>This message is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=325780\" target=\"_blank\">325780</a></p><p>\n</p><p><b><b>When this will happen:</b>\n</b></p><p>Targeted Release: Available now.</p><p>General Availability (Worldwide, GCC, GCC High, DoD): We will begin rolling out in late August 2025.</p><p>\n</p><p><b><b>How this will affect your organization:</b>\n</b></p><p><b>Before this rollout:</b></p><p>Users had to manually manage their relevant channels list by hiding inactive and irrelevant channels.\n</p><p><b>After this rollout: \n</b></p><p>Manage preferences for automated suggestions via Teams Settings\n</p><p>If users prefer to manage channels manually, they can opt out of the auto-suggestions process. Simply go to Teams settings, select General, and toggle off \"Suggestions for hiding inactive channels.\" \n</p><p>Hide inactive channels on demand when needed\n</p><p>Users can manually view which channels are inactive and choose to hide some or all of them whenever you need. This can be done from Settings, under General, by clicking the \"Get Suggestions\" button. Note that this action can be performed once every 24 hours.</p><p>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/d494c053-239e-476e-a16d-039d28cfde29 \" width=\"400\" height=\"\"></p><p><b>Automated suggestions of inactive channels \n</b></p><p>With this, Teams will suggest channels that have been inactive for the user. Once the inactive channels are identified, the user is notified with the coach mark message, \"Looks like you haven’t visited some channels lately. Hide them to help you focus.\" \n</p><p>The user can select Review and Hide to see the details and decide which channels they would like to hide. The user can choose not hide any channels by selecting Not Now. \n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3d2da16e-14da-48bd-8e1c-272a046b412f  \" width=\"400\" height=\"\"></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c022ea8a-d6b1-48a0-897b-57b5f7eb1014\" width=\"400\" height=\"\"></p><p>If a user has less than or equal to 25 shown channels, no channels will be suggested for that user. This feature is on by default and all Teams users on the affected platforms will have access to it.\n</p><p><b><b>What you need to do to prepare:</b>\n</b></p><p>Admins need to be aware of this feature, but no additional action is needed. \n</p><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "325780"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007267Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007272Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007278Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007283Z\",\"LatestRing\":\"StandardRelease\"}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will offer opt-in suggestions to hide inactive channels, allowing users to review and choose which channels to hide. Users can toggle this feature in Settings or manage channels manually. The rollout begins late August 2025, with no admin action required."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2025-10-10T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1141958",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-25T22:53:27.903Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-25T22:53:21Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Choose to hide inactive channels",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Due to low usage, we’re retiring the <b>sub-domains feature</b> in Microsoft Defender for Cloud Apps – Cloud Discovery. This change simplifies the Cloud Discovery experience and aligns with broader improvements in app discovery and reporting.</p>\n\n<b>When this will happen</b><p></p><p>\n</p><ul>\n<li><b>Start of retirement</b>: September 22, 2025</li>\n<li><b>Full deprecation</b>: December 31, 2025</li>\n</ul>\n<p>This change will be applied automatically. No admin action is required.</p>\n\n<b>How this affects your organization</b><p></p><p>\n</p><p>If your organization currently uses sub-domain discovery insights in Cloud Discovery, these insights will no longer be available after the deprecation date. This may impact how administrators view and analyze discovered apps at the sub-domain level.</p>\n<p>The feature is currently <b>on by default</b> for organizations using Cloud Discovery.</p>\n\n<b>What you can do to prepare</b><p></p><p>\n</p><p>We recommend reviewing your current Cloud Discovery configurations and adjusting any workflows or reports that rely on sub-domain insights. For more information on discovered apps and alternative insights, visit:</p>\n<ul>\n<li><a href=\"https://learn.microsoft.com/en-us/defender-cloud-apps/discovered-apps\">Learn more about discovered apps</a></li></ul>\n<p><b>Compliance considerations</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The sub-domains feature in Microsoft Defender for Cloud Apps – Cloud Discovery will be retired starting September 22, 2025, and fully deprecated by December 31, 2025, due to low usage. No admin action is needed, but sub-domain insights will no longer be available after deprecation."
+      }
+    ],
+    "EndDateTime": "2025-09-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1141957",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-08-25T22:51:57.29Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-25T22:51:38Z",
+    "Tags": [
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Upcoming Retirement of Sub-Domains Feature in Defender for Cloud Apps – Cloud Discovery",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>We're introducing a refreshed user experience (UX) for <i>Microsoft Entra credential enrollment and management</i>. This update improves usability and accessibility across credential enrollment and management screens, with no changes to existing functionality.</p>\n\n<p><b>When this will happen\n</b></p><p><b> General Availability (Worldwide, GCC, and GCCHigh): </b>We will begin rolling out in <b>early November 2025</b> and expect to <b>complete by</b> <b>early November 2025</b>.</p>\n\n<p><b>How this affects your organization</b></p><p>Users and administrators will see an updated visual experience for credential management workflows. There are no changes to underlying functionality or user flows.</p><p><i>Screenshots 1-4. Refreshed credential enrollment and management UX with modern design element:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c3445d29-f1c6-4ecd-9b64-6d971469c78f/bc2d490d81dc40cf02f4e1748d72f5dca29e55ac.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/dcf5725d-7ead-4df9-91a0-5029bfe36bd9/684f540662d23912de4e5e3fa5060324e1aad204.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6c252359-e263-4fbd-b74c-bdba0d8a83a7/c5b094d834a0efdb5b15fe612f43e091b9e1e0a6.png\" style=\"width: 400px;\" alt=\"user settings\"><br></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/cabaf0c7-d336-4598-9464-4979010e955d/a48c4495b1d12ce2dde998495c460623a95b72f3.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n\n<p><b>What you can do to prepare</b></p><p>No action is required. We recommend informing help desk teams of the visual refresh to reduce potential confusion.</p>\n\n<p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Entra will roll out a refreshed credential enrollment and management user experience in early November 2025, improving usability and accessibility without changing functionality. No action is required, but informing help desk teams is recommended to ease the transition. No compliance issues identified."
+      }
+    ],
+    "EndDateTime": "2025-12-21T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1141956",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-25T22:51:17.603Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-25T22:50:58Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Entra: Refreshed credential enrollment and management UX",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction:</b></p><p>We’re introducing a new Posts tab in the Microsoft Viva Communications dashboard. This enhancement provides corporate communicators and network administrators with a centralized location to manage communications across their lifecycle. The tab allows users to view drafts, scheduled posts, and published history, filter by ownership, and initiate new communications—all without leaving the dashboard.</p>\n\n<b>When this will happen:</b>  \n<p>We will begin rolling out in mid-September 2025 and expect to complete by the end of October 2025.</p>\n\n<b>How this affects your organization:</b>  \n<ul>\n</ul><p>The new Posts tab will be available to all Microsoft 365 tenants using Viva Engage. Published posts will be retroactively visible from May 2025 onward. </p><p>Users can:</p><ul><li>View drafts, scheduled posts, and published history.\n</li><li>Filter posts by ownership using the “Owned by” filter to view content created by themselves or others.\n</li><li>Initiate new communications directly from the dashboard.\n</li></ul><p>This feature is <b>on by default</b> and does not require admin configuration.</p><p><i>New Posts tab - Manage drafts, scheduled posts, and published history in one place:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/274232b0-9a59-4af1-a6fb-dfc8a1230427/2ba019f08df7cb4864ecaf1a437175647680a2d7.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul>\n</ul>\n\n<b>What you can do to prepare:</b>  \n<ul>\n<li>No action is required to enable the feature.</li>\n<li>Admins may wish to inform communications teams about the new functionality and encourage adoption.</li>\n</ul>\n\n<b>Compliance considerations:</b>  \n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva is adding a new Posts tab to the Communications dashboard, allowing users to manage drafts, scheduled, and published posts, filter by ownership, and create posts directly. Rolling out mid-September to October 2025, it’s on by default with no admin action needed."
+      }
+    ],
+    "EndDateTime": "2025-11-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1141953",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-25T22:48:51.523Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-25T22:48:45Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva : New Posts tab added to Communications dashboard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p><b>Introduction</b></p><p>We’re expanding AI capabilities to SharePoint document libraries in Microsoft 365 on the web. <i>AI file actions</i>—already available in OneDrive—will now be accessible in SharePoint, enabling users to summarize content, compare files, generate FAQs, ask questions, and create audio overviews directly from document libraries.</p>\n\n<b>When this will happen</b>\n<ul>\n  <li>General Availability (Worldwide, GCC, GCC High, DoD): Rollout began mid-May 2025 and is expected to complete by mid-September 2025.</li>\n  <li>Targeted Release (Worldwide): Rollout began mid-May 2025 and is expected to complete by early September 2025.</li>\n</ul>\n\n<b>How this affects your organization</b><p></p><p><i>Figure i. You can access AI actions from the “AI Actions” button in the toolbar in document libraries in SharePoint<br></i></p><p></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/dc042b2d-bf1e-433b-a385-37929cd8c0a0\" style=\"width: 400px;\" alt=\"user settings\"><b></b></p><p>\n</p><p><i>Figure ii. You can also find these actions when you select or hover over an item in a document library</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e793b758-d9de-450b-920b-a27c3d41ec7a/8f6346dffcdacbdcbc5b7988d190f0ca91c36e86.png\" style=\"width: 400px;\" alt=\"user settings\"><i><br></i></p><p><i>AI file actions</i> will be available to all users with a Copilot license in SharePoint document libraries on the web. These actions mirror those currently available in OneDrive and offer enhanced productivity by enabling users to interact with files using natural language prompts. </p><p>This feature is <b>on by default </b>and does not require admin configuration.</p>\n\n<b>What you can do to prepare</b>\n<ul><li>No action is required to enable this feature. </li><li>We recommend informing your users about the new capabilities and reviewing Copilot licensing to ensure appropriate access.</li></ul><p><b>Compliance considerations</b></p><p></p><p></p><table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Compliance Question</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td>\n    <td>Copilot file actions use AI to process and summarize document content, compare files, and generate responses based on user prompts.</td>\n  </tr>\n  <tr>\n    <td>Does the change provide end users any new way of interacting with generative AI?</td>\n    <td>Users can now interact with generative AI directly within SharePoint document libraries using actions such as summarization, Q&amp;A, and audio overview generation.</td>\n  </tr>\n  <tr>\n    <td>Does the change modify, interrupt, or disable any of the following capabilities (Purview)?</td>\n    <td>Audit logging will capture Copilot interactions with files, ensuring traceability and compliance monitoring.</td>\n  </tr>\n  <tr>\n    <td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td>\n    <td>Access to Copilot features can be managed via licensing and Entra ID group membership.</td>\n  </tr>\n</tbody></table><br>\n<p></p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "488297"
+      },
+      {
+        "Name": "Summary",
+        "Value": "AI file actions are expanding to SharePoint document libraries on the web, enabling users with a Copilot license to summarize, compare, generate FAQs, ask questions, and create audio overviews from files. The feature is on by default, rolling out from mid-May to mid-September 2025, requiring no admin setup."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-10-19T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1141949",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-08-25T22:46:27.007Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-25T22:45:58Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "AI actions coming to SharePoint document libraries",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>To better reflect the identity and functionality of the Microsoft 365 Copilot app, we are updating the executable name on Windows devices. This change improves clarity for IT admins, developers, and users managing diagnostics or process monitoring. \n</p><p><b>When this will happen:</b></p><p>This update will roll out to affected users with the next app update after September 20, 2025.  \n</p><p><b>How this affects your organization:</b></p><p>With the change, the executable name for the Microsoft 365 Copilot Windows app will change from Webviewhost.exe  to M365Copilot.exe. For users who installed the app via the Microsoft Store, the update will happen automatically on September 20 if their device settings allow for automatic updates. For users who installed the app through other platforms or have settings that do not allow automatic updates, the change will happen once users update their app.  \n</p><p>This update does not affect app functionality or user experience.  \n</p><p><b>What you can do to prepare:</b></p><p>No action is required unless your organization has dependencies on Webviewhost.exe. If so, update those references to M365Copilot.exe to ensure continued functionality.  \n</p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The Microsoft 365 Copilot app for Windows will change its executable name from Webviewhost.exe to M365Copilot.exe after September 20, 2025. The update is automatic for Microsoft Store users with auto-updates enabled. No functionality changes occur, but organizations should update dependencies if needed."
+      }
+    ],
+    "EndDateTime": "2025-12-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1141945",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-25T22:42:05.913Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft 365 apps",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-25T22:41:48Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Executable name update for Microsoft 365 Copilot app for Windows",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing a product feature setting, preview and experimental AI models, to govern the availability of preview and experimental models in Microsoft Copilot Studio. This setting will be available on August 29, 2025.<br><br>This setting will replace the current AI Builder \"Enable the usage of AI Builder model types that are in preview\" setting. There is no impact from this change on existing AI Builder experiences.<br><br><b>How does this affect me?</b><br>With this setting, administrators can control the availability of preview and experimental AI models in an environment.<br><br>To access this setting:<ol><li>Navigate to the <a target=\"_blank\" href=\"https://admin.powerplatform.microsoft.com/\">Power Platform admin center</a></li><li>Go to Manage > Environments</li><li>Select an environment</li><li>Go to Settings > Product > Features > Preview and experimental AI models</li></ol><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.<br><br>If you would like more information, please review the <a target=\"_blank\" href=\"https://aka.ms/ADO11862\">Select a primary AI model for your agent article</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-09-25T17:54:47Z",
+    "HasAttachments": false,
+    "Id": "MC1141861",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-25T17:55:36.56Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-25T17:54:47Z",
+    "Tags": [],
+    "Title": "Microsoft Copilot Studio – Information about the preview and experimental AI models setting",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>Starting in September 2025, the latest Windows quality updates will be available by default during the out-of-box experience (OOBE). With Windows Autopilot and Microsoft Intune, you can manage this capability with a policy setting for eligible Microsoft Entra joined or Microsoft Entra hybrid joined devices running Windows 11, version 22H2 or higher.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;&nbsp;</div><div>This experience will&nbsp;be available starting with the September&nbsp;2025 Windows security update.&nbsp;Note:&nbsp;When Windows quality update support is available in the&nbsp;<a href=\"https://learn.microsoft.com/autopilot/enrollment-status\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Autopilot Enrollment Status Page (ESP)</a>&nbsp;at the end of August 2025,&nbsp;you’ll&nbsp;see the new quality update setting enabled by default.&nbsp;&nbsp;</div><div><br></div><div><b>How this will affect your organization:</b>&nbsp;</div><div>This new capability&nbsp;has several key benefits for your organization: the&nbsp;latest&nbsp;quality updates&nbsp;are already&nbsp;applied out of the box,&nbsp;security&nbsp;is enhanced&nbsp;from day 1, and post-deployment update overhead&nbsp;is reduced.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>If you want to manage this experience,&nbsp;ensure your organization has&nbsp;eligible&nbsp;Microsoft Entra joined or Microsoft Entra hybrid joined&nbsp;devices&nbsp;and that those devices&nbsp;meet criteria for Windows 11 versions,&nbsp;are managed using Intune, and&nbsp;have the&nbsp;required updates. Additionally,&nbsp;you’ll&nbsp;need to:&nbsp;&nbsp;&nbsp;</div><ul><li>Assign a Windows Autopilot Enrollment Status Page (ESP) profile to devices.&nbsp;</li><li>Confirm&nbsp;or edit&nbsp;new settings in Intune&nbsp;to ensure&nbsp;updates can be installed during provisioning.&nbsp;</li><li>Assign Windows&nbsp;Update rings profile&nbsp;to&nbsp;ensure&nbsp;the OOBE respects&nbsp;pause and deferral settings.&nbsp;</li></ul><div>&nbsp;</div><div>Note:&nbsp;If any&nbsp;non-Microsoft&nbsp;management solutions&nbsp;are&nbsp;used at your organization, you need to confirm they&nbsp;are capable of&nbsp;using the ESP functionality.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>Additional&nbsp;information:</b>&nbsp;</div><ul><li>Review the&nbsp;step-by-step instructions&nbsp;to&nbsp;<a href=\"https://aka.ms/W11QualityUpdates/OOBE\" rel=\"noopener noreferrer\" target=\"_blank\">Get ready for Windows quality updates out of the box</a>.&nbsp;</li><li>Learn more about&nbsp;the&nbsp;<a href=\"https://learn.microsoft.com/autopilot/enrollment-status\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Autopilot Enrollment Status Page (ESP)</a>.&nbsp;</li><li>Read the&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/coming-soon-quality-updates-during-the-out-of-box-experience/4374291\" rel=\"noopener noreferrer\" target=\"_blank\">preannouncement</a>.&nbsp;</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-08-25T17:04:14.323Z",
+    "HasAttachments": false,
+    "Id": "MC1141830",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-25T17:04:15.203Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-25T17:04:14.37Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Get ready for Windows quality updates out of the box",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>\n</p><p>Updated August 25, 2025: We have updated the content to show as intended. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re enhancing Microsoft Secure Score by introducing new improvement actions based on Microsoft Defender for Identity posture recommendations. These updates provide a more accurate reflection of your organization’s identity security posture and help strengthen your overall security configuration.\n</p><p><b>When this will happen</b></p><p><b></b></p><ul><li>Public Preview: Rollout begins mid-August 2025 and completes by mid-September 2025.\n</li><li>General Availability: Rollout begins mid-September 2025 and completes by late October 2025. Applies to Worldwide, GCC, GCC High, and DoD environments.\n</li></ul><p><b>How this affects your organization</b></p><p>New posture recommendations will appear in Microsoft Secure Score as improvement actions. These include:\n</p><ul><li>Remove <b>stale </b>service accounts\n</li><li>Remove discovered passwords in Active Directory account attributes\n</li></ul><p>These recommendations will be visible only if your tenant has a Defender for Identity sensor deployed in your identity infrastructure. The update is enabled by default and requires no configuration changes.\n</p><p><b>What you can do to prepare</b></p><ul><li>No admin action is required before or after rollout.\n</li><li>Review your current identity configuration to assess potential impact.\n</li><li>Notify relevant administrators and update internal documentation as needed.\n</li><li>Regularly review Microsoft Secure Score to monitor and act on new improvement suggestions.\n</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Secure Score will add new improvement actions based on Microsoft Defender for Identity recommendations, rolling out from mid-August to late October 2025. These include removing inactive service accounts and discovered passwords. No admin action is needed; updates appear if a Defender for Identity sensor is deployed."
+      }
+    ],
+    "EndDateTime": "2025-10-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1130384",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-08-25T16:27:37.327Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-06T23:26:13Z",
+    "Tags": [
+      "Updated message",
+      "Feature update"
+    ],
+    "Title": "Microsoft Defender for Identity: New recommendations added to Microsoft Secure Score",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>\n</p><b>Introduction</b><p>We are retiring the standalone <i>Share to Teams</i> experience in Outlook for users who do not have the Teams desktop app installed. This retirement supports our goal of streamlining the sharing experience and reducing maintenance overhead, while ensuring a consistent and modern user experience across Outlook clients.\n</p><p></p><p><b>When this will happen</b></p><ul><li>Retirement begins: September 22, 2025\n</li><li>Retirement completes: October 3, 2025\n</li></ul><p><b>How this affects your organization</b></p><p>After September 22, 2025, users who select the <i>Share to Teams</i>&nbsp;button in Outlook without having the Teams desktop app installed will be redirected to a launcher page prompting installation. The standalone web dialog previously used for sharing will no longer be available.\n</p><p></p><ul><li>Users with the Teams desktop app will continue to share via the Teams client.\n</li><li>Users without the app will be prompted to install it via a launcher page.\n</li><li>Mac users may encounter an error due to Apple’s restrictions on launcher dialogs.\n</li></ul><p>This change affects the following Outlook clients:\n</p><p></p><ul><li>Outlook for Windows (New and Classic)\n</li><li>Outlook for Mac (New and Legacy)\n</li><li>Outlook Web App (OWA)\n</li></ul><p><b>What you can do to prepare</b></p><p></p><p>No admin action is required. However, we recommend notifying your users of this retirement and encouraging installation of the Teams desktop app to maintain access to the <i>Share to Teams</i> functionality.</p><p><b>Compliance considerations</b></p><p></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p><p></p><p></p><p></p><p></p>",
       "ContentType": "html"
     },
@@ -7937,7 +8282,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"498490\":[{\"RoadmapId\":498490,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T11:02:15.8672027Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T11:02:15.8672028Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T11:02:15.8672029Z\",\"LatestRing\":null}]}"
+        "Value": "{\"498490\":[{\"RoadmapId\":498490,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6598708Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.659871Z\",\"LatestRing\":null},{\"RoadmapId\":498490,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.659871Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8729,42 +9074,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>\n</p><p><b>Introduction</b></p><p>We’re enhancing Microsoft Secure Score by introducing new improvement actions based on Microsoft Defender for Identity posture recommendations. These updates provide a more accurate reflection of your organization’s identity security posture and help strengthen your overall security configuration.\n</p><p><b>When this will happen</b></p><p><b></b></p><ul><li>Public Preview: Rollout begins mid-August 2025 and completes by mid-September 2025.\n</li><li>General Availability: Rollout begins mid-September 2025 and completes by late October 2025. Applies to Worldwide, GCC, GCC High, and DoD environments.\n</li></ul><p><b>How this affects your organization</b></p><p>New posture recommendations will appear in Microsoft Secure Score as improvement actions. These include:\n</p><ul><li>Remove inactive service accounts\n</li><li>Remove discovered passwords in Active Directory account attributes\n</li></ul><p>These recommendations will be visible only if your tenant has a Defender for Identity sensor deployed in your identity infrastructure. The update is enabled by default and requires no configuration changes.\n</p><p><b>What you can do to prepare</b></p><ul><li>No admin action is required before or after rollout.\n</li><li>Review your current identity configuration to assess potential impact.\n</li><li>Notify relevant administrators and update internal documentation as needed.\n</li><li>Regularly review Microsoft Secure Score to monitor and act on new improvement suggestions.\n</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Secure Score will add new improvement actions based on Microsoft Defender for Identity recommendations, rolling out from mid-August to late October 2025. These include removing inactive service accounts and discovered passwords. No admin action is needed; updates appear if a Defender for Identity sensor is deployed."
-      }
-    ],
-    "EndDateTime": "2025-10-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1130384",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-06T23:26:31.427Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-06T23:26:13Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Microsoft Defender for Identity: New recommendations added to Microsoft Secure Score",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div>Emerging technologies including AI and agents are reshaping the cybersecurity landscape and how organizations operate. Read about five key trends in security, including AI agents that multiply risk, cyber-physical agents that expand the security perimeter, quantum computing that can create retroactive threats, AI-augmented workforces that reshape risk, and hardware security that reduces risk. Discover how to address these trends and help keep your organization agile, protected, and prepared.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Inaction regarding new security risks carries tangible consequences. A resilient, forward-looking security program that can absorb disruption and adapt to change is a business differentiator.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Take these five actions now to help enhance your organization’s security posture now and for the future:&nbsp;</div><ul><li>Secure software and hardware supply chains&nbsp;</li><li>Prioritize prevention over detection&nbsp;</li><li>Use agentic AI to counter modern threats&nbsp;</li><li>Ensure source integrity&nbsp;</li><li>Mandate security hygiene protocols&nbsp;</li></ul><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><div>Read the details at <a href=\"https://blogs.windows.com/windowsexperience/2025/08/05/security-leadership-in-the-age-of-constant-disruption/\" rel=\"noopener noreferrer\" target=\"_blank\">Security leadership in the age of constant disruption</a>, refer to the Microsoft <a href=\"https://go.microsoft.com/fwlink/?linkid=2286391\" rel=\"noopener noreferrer\" target=\"_blank\">cybersmart toolkit</a>, and learn more about Microsoft Security initiatives:</div><ul><li><a href=\"https://www.microsoft.com/trust-center/security/secure-future-initiative\" rel=\"noopener noreferrer\" target=\"_blank\">Secure Future Initiative (SFI)</a> – Embeds security into Microsoft products and services&nbsp;</li><li><a href=\"https://blogs.windows.com/windowsexperience/2024/11/19/windows-security-and-resiliency-protecting-your-business/\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Resiliency Initiative (WRI)</a> – Recovery and reliability across Windows&nbsp;</li><li><a href=\"https://learn.microsoft.com/unified-secops-platform/virus-initiative-criteria\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Virus Initiative (MVI)</a> – Collaborates with vendors to enhance anti-malware solutions&nbsp;</li><li><a href=\"https://www.microsoft.com/security/business/zero-trust\" rel=\"noopener noreferrer\" target=\"_blank\">Zero Trust</a> – Emphasizes explicit verification, least privilege access, and breach assumption&nbsp;</li></ul>",
       "ContentType": "html"
     },
@@ -9358,7 +9667,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"498895\":[{\"RoadmapId\":498895,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-08-25T11:02:15.8669487Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":498895,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T11:02:15.8669489Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T11:02:15.866949Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T11:02:15.8669491Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T11:02:15.8669492Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"498895\":[{\"RoadmapId\":498895,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595833Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":498895,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595835Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595831Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595832Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595836Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12718,37 +13027,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the public preview of Generative Pages. This new capability allows admins to simplify the app design process for model-drive apps using AI. This feature began rolling out to North America on July 22, 2025, and will become available in other regions at a later date.<br><br>  \n\n<b>How does this affect me?</b><br> \n\nGenerative Pages enable makers to describe their page needs in natural language and generate fully structured pages automatically. The system uses AI to produce React code that powers both the frontend experience and corresponding business logic, delivering modern, consumer-grade UI experiences within enterprise applications.<br><br> \n\nPlease note, pages must be published before they become available in apps. Additionally, while this feature is in public preview, it is not intended for use in your production environments.<br><br> \n\n<b>What action do I need to take?</b><br> \n\nThis message is for awareness and no action is required. However, admins can disable this capability at the environment level by turning off “Enable new AI-powered Copilot features for people who make apps” under Settings > Features in the Power Platform Admin Center (PPAC).<br><br> \n\nFor more information, please review <a href=\"https://aka.ms/ADO11546\"target=\"_blank\">Generate a page using natural language (preview)</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-08-25T20:19:01Z",
-    "HasAttachments": false,
-    "Id": "MC1121967",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-25T20:20:25.48Z",
-    "Services": [
-      "Power Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-25T20:19:01Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Apps – Generative Pages feature available for preview",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated July 25, 2025: We have updated the supporting documentation. Thank you for your patience.</p><p>We're introducing <b>Sharing Links for Videos</b> in SharePoint to improve video accessibility when pages or news posts are shared. This enhancement ensures that videos remain viewable to users—even if they don’t have direct access to the site—by automatically generating secure sharing links for videos stored on the site. Additionally, users will see updated dialogs that provide more control and transparency when adding videos from external sources.</p>\n\n<b>When this will happen</b><p></p><p>\n</p><ul>\n  <li><b>Targeted Release:</b> Available now.</li>\n  <li><b>General Availability:</b> Rollout begins mid-July 2025 and is expected to complete by early August 2025.</li>\n</ul>\n\n<b>How this affects your organization</b><p></p><p>\n</p><p>Users will experience new dialogs when adding videos to SharePoint pages or news posts:</p>\n<ul>\n  <li><b>Create a shareable link for this video?</b>\n    <ul>\n      <li><b>Create link:</b> Generates a sharing link allowing anyone in the organization to view the video.</li>\n      <li><b>Don't create:</b> No sharing link is created; access remains restricted to users with existing permissions.</li>\n    </ul>\n  </li>\n  <li><b>Copy video to this page?</b>\n    <ul>\n      <li><b>Copy:</b> Copies the video to the site asset folder and creates a sharing link.</li>\n      <li><b>Don't copy:</b> Leaves the video in its original location; only users with existing permissions can view it.</li>\n    </ul>\n  </li>\n</ul>\n<p>This feature is <b>on by default</b> and applies to videos added via the File and media web part or the Stream web part.</p>\n\n<b>What you can do to prepare</b><p></p><p>\n</p><ul>\n  <li>Notify users about the new video sharing experience.</li>\n  <li>Update training materials to reflect the new dialogs and options.</li>\n  <li>Prepare your help desk to support questions related to video sharing and permissions.</li>\n  <li>For more information, refer to https://learn.microsoft.com/sharepoint.</li>\n</ul>\n\n<b>Compliance considerations</b><p></p><p>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p><p>Additional information:<a href=\"https://support.microsoft.com/office/using-videos-on-sharepoint-pages-5a0eb37c-81a8-45b7-875e-ff0515dd2e5f\" target=\"_blank\"> Using videos on SharePoint pages - Microsoft Support</a></p><p><br></p>\n<p></p>",
       "ContentType": "html"
     },
@@ -13865,7 +14143,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T11:02:15.8671259Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T11:02:15.867126Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T11:02:15.8671261Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6597961Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6597962Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6597963Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -21405,10 +21683,6 @@
         "Value": "494843"
       },
       {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"494843\":[{\"RoadmapId\":494843,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5342641Z\",\"LatestRing\":null},{\"RoadmapId\":494843,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5342643Z\",\"LatestRing\":null},{\"RoadmapId\":494843,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T18:37:29.5342645Z\",\"LatestRing\":null}]}"
-      },
-      {
         "Name": "Summary",
         "Value": "Microsoft Teams is introducing Sign Language Mode to enhance meeting experiences for Deaf and hard-of-hearing participants. This feature will identify and visually distinguish interpreters, elevate sign language users to active speaker status, and ensure equal prominence with audio participants. Rollout begins in July 2025 for desktop and web platforms."
       },
@@ -24734,7 +25008,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"488091\":[{\"RoadmapId\":488091,\"Platform\":\"Android\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-06-20T11:53:58.0520508Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":488091,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-06-20T11:53:58.0520523Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"488091\":[{\"RoadmapId\":488091,\"Platform\":\"Android\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595659Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":488091,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595662Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -25845,7 +26119,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"486694\":[{\"RoadmapId\":486694,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8820585Z\",\"LatestRing\":null},{\"RoadmapId\":486694,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8820587Z\",\"LatestRing\":null},{\"RoadmapId\":486694,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8820588Z\",\"LatestRing\":null}]}"
+        "Value": "{\"486694\":[{\"RoadmapId\":486694,\"Platform\":\"iOS\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6598516Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":486694,\"Platform\":\"Android\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6598519Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":486694,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6598521Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -28418,7 +28692,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
