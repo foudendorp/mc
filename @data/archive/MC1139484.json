@@ -3,27 +3,28 @@
   "Attachments": null,
   "AttachmentsArchive": null,
   "Body": {
-    "Content": "<p>We are introducing improvements to how the Windows Autopatch Client Broker is managed and installed. The broker performs device readiness checks to identify whether a device is fully prepared to be managed by Windows Autopatch. Further, when a support request is created, it enables automated log collection to help diagnose and resolve issues more quickly. For information on data storage, see <a href=\"https://teams.microsoft.com/l/message/19:2605e3fb-72df-4db1-880d-c3e21557f38e_c3c976db-1556-41e7-8261-164ed547fd0f@unq.gbl.spaces/1755635431855?context=%7B%22contextType%22%3A%22chat%22%7D\" target=\"_blank\"><u>Privacy</u></a>.  \n</p><p>You will soon have the flexibility to deploy the client broker on-demand, either to all Autopatch devices or scoped to specific Entra ID groups. As part of this update, Win32 app deployment will become the default installation method, replacing the previous PowerShell-based approach. This change helps overcome limitations associated with PowerShell scripts and ensures a more reliable installation experience. Admins who prefer to use PowerShell can still manually install the broker using scripts if needed. \n</p><p><b>When will this happen:</b>  \n</p><p>The changes will be gradually rolled out starting September 22, 2025.  \n</p><p><b>How will this affect your organization:</b>  \n</p><p>There will be no changes to your current set of devices with the client broker installed—they will remain assigned to the PowerShell script. However, with the upcoming launch, you’ll have the option to migrate to a Win32 app-based installation for improved reliability. Additionally, you’ll be able to use portal controls to selectively install the client broker on devices based on Entra ID groups. \n</p><p><b>What you need to do to prepare:</b> </p><p>You should prepare for these changes in the Microsoft Intune admin center and inform your team. If you have any questions or concerns, or need assistance, file a service request by visiting the <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a>. Additional Information and details will also be included on any docs.microsoft.com post feature release.&nbsp;</p>",
+    "Content": "<p>Updated August 26, 2025: We have updated the content. Thank you for your patience.</p><p>We are introducing improvements to how the Windows Autopatch Client Broker is managed and installed. The broker performs device readiness checks to identify whether a device is fully prepared to be managed by Windows Autopatch. Further, when a support request is created, it enables automated log collection to help diagnose and resolve issues more quickly. For information on data storage, see <a href=\"https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/overview/windows-autopatch-privacy\" target=\"_blank\"><u><a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/overview/windows-autopatch-privacy\" target=\"_blank\">Privacy</a></u><a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/overview/windows-autopatch-privacy\" target=\"_blank\">.</a></a>  \n</p><p>You will soon have the flexibility to deploy the client broker on-demand, either to all Autopatch devices or scoped to specific Entra ID groups. As part of this update, Win32 app deployment will become the default installation method, replacing the previous PowerShell-based approach. This change helps overcome limitations associated with PowerShell scripts and ensures a more reliable installation experience. Admins who prefer to use PowerShell can still manually install the broker using scripts if needed. \n</p><p><b>When will this happen:</b>  \n</p><p>The changes will be gradually rolled out starting September 22, 2025.  \n</p><p><b>How will this affect your organization:</b>  \n</p><p>There will be no changes to your current set of devices with the client broker installed—they will remain assigned to the PowerShell script. However, with the upcoming launch, you’ll have the option to migrate to a Win32 app-based installation for improved reliability. Additionally, you’ll be able to use portal controls to selectively install the client broker on devices based on Entra ID groups. \n</p><p><b>What you need to do to prepare:</b> </p><p>You should prepare for these changes in the Microsoft Intune admin center and inform your team. If you have any questions or concerns, or need assistance, file a service request by visiting the <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a>. Additional Information and details will also be included on any docs.microsoft.com post feature release.&nbsp;</p><p><b>\n</b></p><p><b>\n</b></p><p><b>\n</b></p><p><b>\n</b></p><p><b>\n</b></p><p><b> \n</b></p><p><b>\n</b></p><p><b>\n</b></p>",
     "ContentType": "html"
   },
   "Category": "planForChange",
   "Details": [
     {
       "Name": "Summary",
-      "Value": "Windows Autopatch Client Broker will be improved with on-demand deployment via Win32 app (replacing PowerShell), scoped by Entra ID groups. Rollout starts September 22, 2025. Existing installations remain unchanged. Admins should prepare in Intune and can still use PowerShell if preferred."
+      "Value": "Windows Autopatch Client Broker improvements include on-demand deployment to all or specific Entra ID groups, switching the default installation to Win32 app from PowerShell for better reliability, with rollout starting September 22, 2025. Current installations remain unchanged; admins should prepare via Microsoft Intune."
     }
   ],
   "EndDateTime": "2025-11-28T08:00:00Z",
   "HasAttachments": false,
   "Id": "MC1139484",
   "IsMajorChange": false,
-  "LastModifiedDateTime": "2025-08-22T00:03:59.803Z",
+  "LastModifiedDateTime": "2025-08-26T15:51:17.653Z",
   "Services": [
     "Windows Autopatch"
   ],
   "Severity": "normal",
   "StartDateTime": "2025-08-22T00:03:42Z",
   "Tags": [
+    "Updated message",
     "Feature update",
     "User impact",
     "Admin impact"
