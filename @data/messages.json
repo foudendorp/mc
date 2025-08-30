@@ -4011,7 +4011,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007278Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007267Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007272Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007283Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007267Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007272Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007278Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007283Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -23494,45 +23494,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated June 4, 2025: We have updated the content below to provide additional information. Thank you for your feedback.</p><p>We’re excited to announce the general availability (GA) of the Analyst and Researcher agents. As shared in MC1041319, the Analyst and Researcher agents began rolling out in May 2025 to Microsoft 365 Copilot-licensed users under the Frontier program.\n</p><p><u>What's New:</u></p><p>Starting May 30, 2025, the Analyst and Researcher agents will be generally available for Microsoft 365 Copilot licensed users as part of the Copilot experience.\n</p><ul><li><i>Researcher:</i> Combines OpenAI’s deep research model with Copilot’s advanced orchestration and deep search capabilities to help users tackle complex, multi-step research at work. It can simultaneously reason over work and web data, including third-party data via connectors or data pulled in from other agents, for its response.\n</li><li><i>Analyst:</i> Leverages OpenAI’s o3-mini reasoning model and is optimized to do advanced data analysis at work. Analyst uses chain-of-thought reasoning to progress through problems iteratively, taking as many steps as necessary to refine its reasoning and provide a high-quality answer that mirrors human analytical thinking. It can run Python to tackle complex data queries, and users can view the code it's running in real time and check its work.\n</li></ul><p>&nbsp;<u>What’s changing:\n</u></p><ul><li>The Analyst and Researcher agents will transition out of the Frontier preview program and become generally available globally.\n</li><li>They will appear at the top of the agent list in Microsoft 365 chat for Copilot-licensed users.</li><li>Researcher will initially be available in 37 languages, while Analyst will support 8.\n</li><li>These agents can be managed via the Microsoft 365 admin center, refer to <a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agentsG%2Bxlh%2BQ%3D&amp;reserved=0\" target=\"_blank\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn</a>. To Block Researcher or Analyst for everyone in your organizations see <a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agents\" target=\"_blank\">Block or Unblock Agents</a>.</li></ul><p><b>When this will happen:</b>\n</p><p>General availability (Worldwide): We will begin rolling out Friday, May 30, 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><ul><li>The Analyst and Researcher agents without the Frontier label/notation will appear in the Agent Store under ‘Built by Microsoft’ located within the ‘All agents’ and ‘Get agents’ landing page across the Microsoft 365 Copilot app, Teams, and Outlook entry points for Copilot Chat. \n<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/1a566d5c-6b6f-4f03-b3d7-0c42d378159e\" width=\"400\" height=\"\"></p></li><li>For users with a Microsoft 365 Copilot licensed assigned, Researcher and Analyst agents will be easily accessible.<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/07d7668d-c476-4c78-8ab3-a5209ea0d1ee/ab097470ee41c4b0453dfebe53180711e1331acb.png\n\" width=\"400\" height=\"\"></p>\n</li><li>Users without Microsoft 365 Copilot licenses will not be able to access these agents.\n</li></ul><p><b>What you need to do to prepare:</b>\n</p><ul><li>No additional admin action is required.\n</li><li>For managing these agents via Microsoft 365 admin center, refer to <a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agents\" target=\"_blank\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn</a>.\n</li></ul><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Analyst and Researcher agents for Microsoft 365 Copilot-licensed users will be generally available starting May 30, 2025. These agents offer advanced research and data analysis capabilities. They will be accessible globally, managed via the Microsoft 365 admin center, and available in multiple languages. No additional admin action is required."
-      }
-    ],
-    "EndDateTime": "2025-08-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1085251",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-04T22:12:12.427Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-30T06:35:53Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Researcher and Analyst moving to General Availability",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated June 4, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>We will retire the <i>Monitor </i>action in the <i>Safe attachments</i> policy in Microsoft Exchange Online Protection (Microsoft Defender for Office 365) starting early July 2025 (previously late March) and ending by late August 2025 (previously late May).</p><p><b>How this will affect your organization:</b>\n</p><p>A <i>Safe attachments</i> policy provides an additional layer of protection against malicious content (attachments) in emails by analyzing attachment content and behavior in a sandbox environment. This policy provides four actions: <i>Off, Monitor, Block, </i>and <i>Dynamic delivery.</i> We made the <i>Monitor </i>action available for customers who wanted a <i>Safe attachments</i> policy to process attachments, deliver the emails (without blocking malicious attachments), and track what happened with attachments identified as malicious.  Customers used <a href=\"https://learn.microsoft.com/en-us/defender-office-365/try-microsoft-defender-for-office-365?view=o365-worldwide#reports-for-your-evaluation-or-trial-of-defender-for-office-365\" target=\"_blank\">reports </a>to see detections from the <i>Monitor </i>action in the policy.\n</p><p>As part of this retirement, if your organization has <i>Safe attachments</i> policies set to the <i>Monitor </i>action, we will automatically change the action in from <i>Monitor </i>to <i>Block.</i> We will not change the policy's recipients, status, or priority. After retirement, the <i>Monitor </i>option will not be available in the Safe Attachments policy page in the Defender security portal or the corresponding Microsoft PowerShell cmdlet.\n</p><p>Before retirement, you can find the <i>Monitor </i>action in Defender &gt; <i>Email &amp; collaboration &gt; Policies &amp; rules &gt; Threat policies &gt; Safe attachments &gt;</i> choose a policy or create a new policy &gt;<i> Edit settings</i> (or <i>Settings </i>if creating a new policy). We will also retire <i>Redirect messages with detected attachments</i>, because this option only supports the Monitor action):\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/5e1bad8a-b171-4d2a-8c35-5d705176f4d3\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>After the retirement, the only actions in the Safe attachments policy will be <i>Off, Block, </i>and <i>Dynamic delivery.</i>\n</p><p><b>What you need to do to prepare:</b>\n</p><p>Before the retirement, review your <i>Safe attachments</i> policies and take appropriate action if your organization has <i>Safe attachments policies</i> set to the <i>Monitor </i>action. We recommend changing the action from <i>Monitor </i>to <i>Block</i>.\n</p><p>Alternatively, if you still need to run Safe attachment policy in audit mode, we recommend using <a href=\"https://security.microsoft.com/atpEvaluation\" target=\"_blank\">Evaluation mode</a>. <a href=\"https://learn.microsoft.com/defender-office-365/try-microsoft-defender-for-office-365?view=o365-worldwide#set-up-an-evaluation-or-trial-in-audit-mode\" target=\"_blank\">Learn more about Evaluation mode</a>.\n</p><p>You can also review <a href=\"https://learn.microsoft.com/defender-office-365/try-microsoft-defender-for-office-365?view=o365-worldwide#set-up-an-evaluation-or-trial-in-audit-mode\" target=\"_blank\">detections by Evaluation mode policies</a> using the <a href=\"https://learn.microsoft.com/defender-office-365/try-microsoft-defender-for-office-365?view=o365-worldwide#reports-for-your-evaluation-or-trial-of-defender-for-office-365\" target=\"_blank\">Threat Protection Status report</a>.\n</p><p>Learn more: The <a href=\"https://learn.microsoft.com/defender-office-365/safe-attachments-about#safe-attachments-policy-settings\" target=\"_blank\">Safe Attachment policy settings</a> section of <a href=\"https://learn.microsoft.com/defender-office-365/safe-attachments-about#safe-attachments-policy-settings\" target=\"_blank\">Safe Attachments - Microsoft Defender for Office 365 | Microsoft Learn</a></p>",
       "ContentType": "html"
     },
@@ -24678,43 +24639,6 @@
       "User impact"
     ],
     "Title": "Microsoft Teams: Users can add multiple emoji reactions to each chat or channel message",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We’re updating the default global calling policy for new tenants to allow users to transcribe or record calls. Previously, these settings were turned off by default in the host global policy. With this update, recording and transcription will be enabled by default in the global calling policy for new tenants and existing tenants who have not modified the host global policy. This change will not impact existing custom policies or modified global policies. After this rollout, recording and transcription services will be more accessible to users, allowing them to turn on and use recording and transcription as needed during Teams calls. Neither recording nor transcription will be automatically enabled in Teams calls.&nbsp;</p><p>Important: This change will not impact existing custom or modified global policies.&nbsp;</p><p>This update is designed to broaden access to AI-powered features like Calls Recap and Calling Copilot, enhancing the overall calling experience. It also brings calling policy defaults in line with Teams meetings policies, where recording and transcription are already enabled by default.</p><p><b>When this will happen:</b></p><p>Starting July 2025, we're changing the following:</p><ul><li>New tenants and tenants without customized Teams calling policies: The new default will apply automatically, allowing call recording and transcription.</li><li>Tenants with customized global or custom Teams calling policies: Any policy customizations will remain in place and will not be affected.</li></ul><p><b>How this will affect your organization:</b></p><p>After this rollout, recording and transcription services will be more accessible to users, allowing them to turn on and use recording and transcription as needed during Teams calls. Neither recording nor transcription will be automatically enabled.</p><p>This update is designed to broaden access to AI-powered features like Calls Recap and Calling Copilot, enhancing the overall calling experience. It also brings calling policy defaults in line with Teams meetings policies, where recording and transcription are already enabled by default.</p><p>For new tenants, recording and transcription will be enabled by default in the global calling policy. Existing tenants who have not modified the host global policy will also have the policy turned on by default.</p><p>Transcription policy on by default in Teams admin center. Admins can turn off the policy if needed:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/761d22b5-787f-4558-887d-ade769c7a955\" width=\"400\" height=\"\"></p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/call-recording-transcription-captions\" target=\"_blank\">Configure call recording, transcription, and captions in Teams</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting July 2025, Teams Calling global policy will enable recording and transcription by default for new tenants and those without customized policies. This change aligns with Teams meetings policies and enhances access to AI-powered features. Existing custom or modified policies remain unaffected. No admin action is required before the rollout."
-      }
-    ],
-    "EndDateTime": "2025-08-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1084030",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-05-27T23:14:32.657Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-27T23:14:23Z",
-    "Tags": [
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Allow recording and transcription by default in Teams Calling global policy",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -31594,48 +31518,6 @@
       "Admin impact"
     ],
     "Title": "30-Day Reminder: Upcoming end of servicing date for some editions of Windows 11, versions 21H2 and 22H2",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>The cloud.microsoft domain was <a href=\"https://techcommunity.microsoft.com/t5/microsoft-365-blog/introducing-cloud-microsoft-a-unified-domain-for-microsoft-365/ba-p/3804961\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">provisioned in early 2023</a> to provide a unified, trusted, and dedicated DNS domain space to host Microsoft’s first-party authenticated SaaS products and experiences. This post is to inform admins that the following Microsoft products and scenarios are now available at the cloud.microsoft domain, in parallel with the previous domains.<br></p><ul><li>Microsoft Excel (<a href=\"https://excel.cloud.microsoft\" target=\"_blank\">https://excel.cloud.microsoft</a>)\n</li><li>Microsoft PowerPoint (<a href=\"https://powerpoint.cloud.microsoft\" target=\"_blank\">https://powerpoint.cloud.microsoft</a>)\n</li><li>Microsoft Word (<a href=\"https://word.cloud.microsoft\" target=\"_blank\">https://word.cloud.microsoft</a>)\n</li></ul><p>A full list of product experiences already being delivered on this domain can be found here: <a href=\"https://learn.microsoft.com/microsoft-365/enterprise/cloud-microsoft-domain?view=o365-worldwide\" target=\"_blank\">Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise | Microsoft Learn</a>.</p><p><b>When this will happen:</b></p><p>The services above are already available on cloud.microsoft, in parallel to their previous domains. You can expect the previous domains to be redirected to cloud.microsoft in the coming months.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><ul><li>The cloud.microsoft domain has been a part of standard <a href=\"https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges\" target=\"_blank\">Microsoft network guidance on domains and service endpoints</a> since April 2023. If you are currently following this guidance, <i>this change should not impact users in your organization using the above applications under the new domain.\n</i></li><li>Users will be redirected to applications under cloud.microsoft domains gradually and automatically. No specific user action is required. Links to the previous domains are backwards compatible and continue to be supported. Users may notice that the new application domains are lacking the “.com” extension.  This is by design, as “.microsoft” is Microsoft’s own top-level domain – and this exclusivity allows for additional security and protection against spoofing.</li></ul><p><b>What you need to do to prepare:</b>\n</p><ul><li>Educate users to recognize and expect cloud.microsoft as a key domain for Microsoft cloud experiences. You can refer them to <a href=\"https://support.microsoft.com/en-us/office/what-is-cloud-microsoft-7ba4c8b9-d062-4444-84a5-fca6c3006d2b\" target=\"_blank\">What is cloud.microsoft? - Microsoft Support</a> for more information.\n</li><li>If your organizational websites, tools, or other materials reference the old URL, those links will be automatically redirected. However, it would be good practice to update those assets to avoid user confusion.\n</li><li>Partner with developers of in-house Teams apps - including those that run on Outlook and Microsoft 365 - to take the actions described in <a href=\"https://devblogs.microsoft.com/microsoft365dev/action-required-ensure-your-microsoft-teams-apps-are-ready-for-upcoming-domain-changes/\" target=\"_blank\">Action required: ensure your Microsoft Teams apps are ready for upcoming domain changes</a> so the apps continue to function on the new domain. \n</li><li>Admins should ensure that connections to *.cloud.microsoft are not blocked from their clients and enterprise networks. This should require no action if standard <a href=\"https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges\" target=\"_blank\">Microsoft network guidance on domains and service endpoints</a> is being followed.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft products Excel, PowerPoint, and Word are now available on the cloud.microsoft domain, which will soon redirect from previous domains. No user action is needed as links are backwards compatible. Organizations should update references and ensure *.cloud.microsoft is unblocked to prepare for this transition."
-      },
-      {
-        "Name": "HelpLink",
-        "Value": "https://learn.microsoft.com/microsoft-365/enterprise/cloud-microsoft-domain?view=o365-worldwide"
-      }
-    ],
-    "EndDateTime": "2025-08-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC878423",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2024-08-30T20:49:24.51Z",
-    "Services": [
-      "Microsoft 365 for the web",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-08-30T20:49:04Z",
-    "Tags": [
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Product transitions to the cloud.microsoft domain - August 2024",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
