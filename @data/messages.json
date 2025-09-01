@@ -13693,38 +13693,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<b>Update: </b>Release of this feature has been postponed, we will announce a new date in the future.<br><br>\nWe are announcing the ability to govern Copilot agent development in your environments and enforce governance policies for Copilot agents. This feature will reach general availability on July 31, 2025.<br><br>\n<b>How does this affect me? </b><br>\nThis feature allows administrators to configure authentication for all agent interactions in the environment. Admins can select one of the following options:\n<ul>\n<li><b>Authenticate with Microsoft or Authenticate Manually</b> – This allows you to force authentication through Microsoft Entra ID or set up manual authentication. </li>\n<li><b>No authentication</b> allows anonymous access. </li>\n</ul>\nThe <b>Authentication for agents</b> feature is a modernized framework of the existing Data Policy virtual connector, <b>Chat without Microsoft Entra ID</b>, helping you scale through environment-level configurations and rules. <br><br>\nPlease note: If you block anonymous access in either one of the places, then at runtime the most restrictive behavior is enforced, and it will be blocked. If you're using both the virtual connector and the <b>Authentication for agents</b> setting in the <b>Security</b> area of the Power Platform admin center, <b><i>then access must be allowed in both places for it to be allowed at runtime</i></b>. <br><br>\nWe recommend that you move towards using the <b>Authentication for agents</b> setting in the Power Platform admin center to leverage the capability of groups and rules.<br><br>\n<b>What do I need to do to prepare? </b><br>\nThis message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-08-31T21:45:07Z",
-    "HasAttachments": false,
-    "Id": "MC1126232",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-01T02:54:38.323Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-31T21:45:07Z",
-    "Tags": [
-      "Updated message",
-      "New feature"
-    ],
-    "Title": "Power Platform admin center - Manage agent security with enhanced admin controls",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2025-12-30T08:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -13754,130 +13722,6 @@
       "Retirement"
     ],
     "Title": "Retirement of Search-MailboxAuditLog and New-MailboxAuditLogSearch Cmdlets by End of 2025",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing an update to the prerequisites for managing access to public system views with security roles for Power Platform. This update streamlines admin management when enabling system views for users. This update will be available for public preview on August 4, 2025.<br><br>\n<b>How does this affect me? </b><br>\nAfter this update, admins will no longer need to enable the <b>EnableRoleBasedSystemViews</b> setting within your environment. Any system views that you previously set to this security role are automatically filtered to the users who have the selected security role assigned.<br><br> \n<b>What action do I need to take?</b><br>\nNo action is needed for the system views that you have already set to the security role. <br><br>\nIf you would like more information on this update, please refer to <a href=\"https://aka.ms/11650/manage-view-access\" target=\"_blank\">Manage access to public system views</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-08-31T23:00:35Z",
-    "HasAttachments": false,
-    "Id": "MC1126345",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-31T23:10:54.737Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-31T23:00:35Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Power Platform – Manage system views with security role service update",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to set a timer to wrap up conversations in seconds within Dynamics 365 Contact Center. This feature will reach general availability on August 30, 2025.<br><br>\n<b>How does this affect me? </b><br>\nThe wrap-up timer can now be configured in seconds—giving contact centers precise control over post-conversation workflows. The key benefits of this feature include: <ul>\n<li>Tailoring wrap-up durations to business needs</li>\n<li>Improving agent efficiency and reducing idle time</li>\n<li>Supporting cost-effective capacity management</li>\n</ul>\n<b>What action do I need to take? </b><br>\nThis message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-08-31T23:00:24Z",
-    "HasAttachments": false,
-    "Id": "MC1126343",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-31T23:05:09.58Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-31T23:00:24Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Contact Center - Set timer to wrap-up conversations in seconds",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to monitor the health of your resources in Power Platform admin center and in Power Apps. This feature will reach general availability on August 4, 2025.<br><br>\n<b>How does this affect me?</b><br>\nWith this feature, admins can use the Monitor area of the Power Platform admin center to bring attention to resources that have degraded operational health and highlight resources that have opportunities for improvement. Those resources include canvas apps, model-driven apps, cloud flows, and Desktop flows.<br><br>\nPower Apps makers can view data only for canvas apps and model-driven apps that they have edit privileges for in the runtime environment.<br><br>\n<b>What action do I need to take?</b><br>\nThis message is for awareness and no action is required.<br><br>\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/ADO11664\" target=\"_blank\">Monitor the health of your resources</a> for Monitor in PPAC, and <a href=\"https://aka.ms/ADO11664_1\" target=\"_blank\">Monitor app performance for Monitor in Power Apps</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-08-31T22:00:25Z",
-    "HasAttachments": false,
-    "Id": "MC1126234",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-31T22:02:38.337Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-31T22:00:25Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Platform – Monitor the health of your resources",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "Our monitoring has identified an issue with the Share dialog box in Power Apps and have temporarily disabled it to prevent impact to your environment. The classic app sharing experience has been re-enabled while we address this issue.<br><br><b>How does this affect me?</b><br>When sharing a canvas app in your environment, the Power Apps UI displays the share panel from the classic app sharing experience instead of the simplified Share dialog box.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-08-31T21:10:37Z",
-    "HasAttachments": false,
-    "Id": "MC1126222",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-31T21:11:09.713Z",
-    "Services": [
-      "Power Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-31T21:10:37Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Apps – Temporary reversion to the classic app sharing experience",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -20972,7 +20816,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"483506\":[{\"RoadmapId\":483506,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378722Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null}]}"
+        "Value": "{\"483506\":[{\"RoadmapId\":483506,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378722Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -21570,38 +21414,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Data Lifecycle Management: Separate Copilot retention policies from Teams chats",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "Starting June 20, 2025, we will be deprecating the legacy version of <a href=\"https://aka.ms/10650/configure-topics-clustering-cases-cs\" target=\"_blank\">Case</a> and <a href=\"https://aka.ms/10650/ai-topic-clustering-conversations\" target=\"_blank\">Conversation Topics</a> features in Dynamics 365 Customer Service and Dynamics 365 Contact Center. This feature will reach the end of support on June 20, 2025.<br><br>\n\n<b>How does this affect me? </b><br>\nAfter August 31, 2025, this feature will be removed, and users will no longer be able to utilize it in Dynamics 365 Customer Service and Dynamics 365 Contact Center.<br><br>\n\n<b>What action do I need to take? </b><br>\nThis message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-08-31T21:57:00Z",
-    "HasAttachments": false,
-    "Id": "MC1088700",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-16T21:09:09.76Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-05T21:57:00Z",
-    "Tags": [
-      "Updated message",
-      "Retirement"
-    ],
-    "Title": "Dynamics 365 Customer Service - Information regarding the end of support for legacy Conversation Topics",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -25994,38 +25806,6 @@
       "Admin impact"
     ],
     "Title": "Plan for Change: Updates to required permissions for Microsoft Graph Beta API deviceManagement",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the Connect to external sources in agents through Single Sign-On (SSO) feature for Microsoft Copilot Studio. This feature allows users to build agents that connect to external sources without needing to manually authenticate each time to external sources. This feature will reach general availability on July 31. 2025.<br><br><b>How does this affect me?</b><br>When an end user initiates a connection to an agent utilizing external sources, all authentication and connection details will be handled automatically, using preconfigured data set by the maker during agent creation.<br><br><b>What do I need to do to prepare?</b><br>This message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-08-31T21:17:00Z",
-    "HasAttachments": false,
-    "Id": "MC1061008",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-05-01T22:16:02.943Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-23T21:17:55Z",
-    "Tags": [
-      "Updated message",
-      "New feature"
-    ],
-    "Title": "Microsoft Copilot Studio – Connect to external sources in agents through Single Sign-On",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
