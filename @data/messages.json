@@ -4,6 +4,341 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>To improve discoverability and empower users to configure data-driven alerts, we’re introducing a new tenant setting in Microsoft Fabric. This setting enables visibility of the “Set alert” button for all Power BI web users, allowing them to create Fabric Activator alerts when permissions are in place.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul><li>Rollout begins: <b>September 14, 2025</b></li>\n<li>Rollout completes: <b>September 19, 2025</b></li>\n<li>Default enablement begins: <b>Week of October 13, 2025</b></li></ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul><li>All Power BI web users in Microsoft Fabric environments.</li>\n<li>Admins managing Fabric tenant settings.</li></ul>\n\n<p><b>What will happen:</b>\n</p><ul>\n<li>A new tenant setting will be introduced: <b>All Power BI users can see \"Set alert\" button to create Fabric Activator alerts</b></li>\n<li>When enabled:\n  <ul>\n    <li>All Power BI web users will see the “Set alert” button in reports.</li>\n    <li>Users can configure <a href=\"https://go.microsoft.com/fwlink/?linkid=2331953\" target=\"_blank\">Fabric Activator alerts</a> if they have permission to create Fabric items.</li>\n  </ul>\n</li>\n<li>When disabled:\n  <ul>\n    <li>The button remains visible only to users with tenant-level Fabric access.</li>\n  </ul>\n</li>\n<li>Default behavior:\n  <ul>\n    <li>The setting will be <b>disabled by default</b> during rollout.</li>\n    <li>Beginning the week of <b>13 October 2025</b>, the setting will be <b>enabled by default</b> for all tenants.</li>\n  </ul>\n</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Review the new tenant setting before <b>13 October 2025</b>.</li>\n<li>If you wish to prevent automatic enablement:\n  <ul>\n    <li>Manually toggle the setting <b>on</b>, then <b>off</b> before the default change takes effect.</li>\n  </ul>\n</li>\n<li>Communicate this change to helpdesk and support teams.</li>\n<li>Update internal documentation if you reference alert configuration in Power BI or Fabric.</li>\n<li>Learn more about <a href=\"https://go.microsoft.com/fwlink/?linkid=2331953\" target=\"_blank\">Fabric Activator alerts</a>.</li></ul>\n\n<p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "A new Microsoft Fabric tenant setting will make the “Set alert” button visible to all Power BI web users, enabling them to create Fabric Activator alerts if permitted. Rollout starts September 14, 2025, with default enablement by October 13, 2025. Admins can manage this setting beforehand."
+      }
+    ],
+    "EndDateTime": "2025-12-01T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1150124",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-08T23:32:01.433Z",
+    "Services": [
+      "Power BI"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-08T23:31:54Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New Fabric Tenant Setting: “Set alert” Button Visibility for Power BI Users",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>We are introducing a new capability in Microsoft Teams external collaboration that allows Teams administrators to specify which users or groups within the organization can interact with specific external domains. This enhancement provides more granular control over external collaboration, enabling scenarios such as piloting with select departments, restricting high-risk roles, or enabling broader federation where appropriate.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=501275\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">501275</a>.</p><p><b>When this will happen</b></p><p>Targeted Release: Begins early September 2025 and completes by mid-September 2025.</p><p>General Availability (Worldwide): Begins late October 2025 and completes by mid-December 2025.</p><p><b>How this affects your organization</b></p><p>Previously, external access settings could only be configured at the tenant level, with policy-level settings limited to either inheriting tenant settings or blocking all external domains. With this update, you can assign custom external access policies to users or groups with five configuration options:</p><ul><li><i>Use organization settings</i>: Inherits the tenant’s default external access configuration</li><li><i>Allow all external domains</i>: All external organizations are trusted</li><li><i>Allow only specific external domains</i>: Only domains in the allow list are trusted</li><li><i>Block only specific external domains</i>: Domains in the block list are restricted; all others are trusted</li><li><i>Block all</i>: All external domains are blocked for users assigned to this policy</li></ul><p>Users assigned a custom policy may interact with different external domains than those defined in the organization-wide settings.</p><p><b>What you can do to prepare</b></p><p>Administrators should begin identifying users and groups that require differentiated external access and plan pilot scenarios accordingly.</p><p>During the public preview, configuration must be done via PowerShell using the following cmdlets:</p><ul><li><code>Set-CsExternalAccessPolicy</code></li><li><code>Set-CsTenantFederationConfiguration</code></li></ul><p><i>Note: </i>Changes made through these cmdlets will not be reflected in the Teams admin center UI during the Targeted Release.</p><p>Once the feature reaches general availability, the Teams admin center UI will support these configurations, allowing policy management via both PowerShell and the UI.</p><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/manage-external-access\" target=\"_blank\">Manage external meetings and chat with people and organizations using Microsoft identities</a>.</p><p><b>Compliance considerations</b></p><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n\n<tr>\n  <td>Admin control via Entra ID group membership</td>\n  <td>Policies can be assigned to Entra ID groups for targeted external access control.</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "501275"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will enable admins to assign custom external access policies by user or group, allowing specific control over which external domains they can interact with. This feature, available from September 2025, supports five policy options and will be manageable via PowerShell initially, then through the Teams admin center UI."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-01-20T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1150123",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-09-08T23:31:37.08Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-08T23:31:18Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Teams Admin Center: Control External Access by Domain for Specific Users and Groups",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<b><b>Introduction</b></b>\n<p>To improve visibility and alignment across Microsoft Defender for Office 365 and Microsoft Sentinel, we’re updating how email verdict and location changes are handled in the <i>EmailEvents</i> table. This change ensures that Sentinel reflects both current and historical verdicts, enabling more accurate threat analysis and investigation.</p>\n\n<b><b>When this will happen:</b></b>\n<p><b>General Availability:</b> Rollout begins in <b>early October 2025</b> and is expected to complete by <b>early November 2025</b>.</p>\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b> Admins using <i>Microsoft Defender for Office 365</i>, <i>Streaming API</i>, and the <i>EmailEvents</i> table in Microsoft Sentinel.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>The <i>Streaming API</i> will begin streaming updated records when an email’s verdict or location changes.</li>\n    <li>Microsoft Sentinel will store both the updated and previous records, rather than replacing them.</li>\n    <li>You may see multiple rows for the same email if its verdict or location is updated.</li>\n    <li>This update aligns the <i>EmailEvents</i> table in Microsoft Sentinel with the behavior of the <i>Advanced Hunting</i> <i>EmailEvents</i> table.</li>\n  </ul>\n</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Review and update existing queries and dashboards that rely on the <i>EmailEvents</i> table.</li>\n<li>Use the following KQL pattern to retrieve the latest record per email:</li>\n</ul>\n<pre>summarize arg_max(Timestamp, *) by NetworkMessageId, RecipientEmailAddress\n</pre>\n<p>Example query for emails with a \"Phish\" verdict:</p>\n<pre>EmailEvents\n| where ThreatTypes has \"Phish\"\n| summarize arg_max(Timestamp, *) by NetworkMessageId, RecipientEmailAddress\n</pre>\n<p>Learn more about the <code>arg_max</code> function: <a href=\"https://learn.microsoft.com/kusto/query/arg-max-aggregation-function?view=microsoft-fabric\">KQL arg_max documentation</a></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.\n</p><p><b><br></b></p><p><a href=\"http://\"></a></p><a href=\"https://learn.microsoft.com/en-us/kusto/query/arg-max-aggregation-function?view=microsoft-fabric\">\n</a>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting early October 2025, Microsoft Defender for Office 365's Streaming API and Sentinel EmailEvents table will store both current and historical email verdicts and locations, showing multiple records per email. Admins should update queries and dashboards accordingly, using KQL's arg_max to retrieve the latest records."
+      }
+    ],
+    "EndDateTime": "2026-01-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1150118",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-08T23:28:17.123Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-08T23:28:04Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Defender for Office 365: New records in Streaming API and Sentinel EmailEvents table",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<b><b>Introduction</b></b>\n<p>To streamline learning experiences and focus development efforts, we’re retiring the <i>Manage interest</i> feature in Viva Learning and replacing it with <i style=\"\">Manage People Skills</i>. This change reflects our commitment to enhancing skill-based learning and simplifying admin management.</p>\n\n<b><b>When this will happen:</b></b>\n<p>This change will take effect on <b>December 31, 2025</b>.</p>\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b> Organizations currently using the <i style=\"\">Manage interest</i> feature in Viva Learning.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>The <i>Manage interest</i> feature will be retired and removed from Viva Learning.</li>\n    <li>Admins will no longer be able to import or manage interests.</li>\n    <li>Users will no longer be able to select or view interests.</li>\n    <li>All existing interest data—including user-selected interests, interest inventory, and manual interest tags—will be permanently deleted.</li>\n    <li>The <i style=\"\">Manage People Skills</i> feature will be available as the recommended replacement.</li>\n  </ul>\n</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Before December 31, 2025:\n  <ul>\n    <li>Explore and test the <i style=\"\">Manage People Skills</i> feature in Viva Learning.</li>\n    <li>Enable <i style=\"\">Manage People Skills</i> for your organization to ensure a smooth transition.</li>\n    <li>Communicate this change to helpdesk and training teams.</li>\n    <li>Update internal documentation to reflect the new feature.</li>\n  </ul>\n</li>\n<li>After December 31, 2025:\n  <ul>\n    <li>No action is needed to remove <i style=\"\">Manage interest</i>; it will be automatically replaced.</li>\n  </ul>\n</li>\n<li>Learn more: <a href=\"https://learn.microsoft.com/viva/learning/manage-people-skills#migrating-from-interests-to-people-skills-in-viva-learning\">Migrating from interests to people skills in Viva Learning</a>\n</li></ul><p>\n<b><b>Compliance considerations:</b></b>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The Manage interest feature in Viva Learning will be retired and replaced by Manage People Skills by December 31, 2025. Existing interest data will be deleted, and admins should enable and prepare for Manage People Skills before the transition. No compliance issues are identified."
+      }
+    ],
+    "EndDateTime": "2026-01-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1150117",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-08T23:27:36.63Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-08T23:25:49Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Manage interest is being replaced by Manage People Skills by December 31, 2025",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 5, 2025: We have updated the timeline. Thank you for your patience.</p><p>Microsoft Purview eDiscovery (Premium) is introducing support for pre-authorized and non pre-authorized export download links, to enhance the reliability and performance of export download. \n</p><p><b>Introduction\n</b></p><p>A new capability in Microsoft Purview eDiscovery (Premium) enables organizations to configure export download links as either pre-authorized or non pre-authorized.\n</p><ul><li>Pre-authorized links offer faster downloads and maintain session continuity for a specified duration configurable by eDiscovery administrators.\n</li><li>Non pre-authorized links require re-authentication after each connection loss and are needed for restricted environments that allow access only to limited Microsoft 365 IP ranges.</li></ul><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498160\" target=\"_blank\">498160</a>.</p><p></p><p><b><b>When this will happen:</b>\n</b></p><p>General Availability (Worldwide): Rollout begins mid-September 2025 and completes by end of September 2025.\n</p><p>General Availability (GCC, GCC High, DoD): Rollout begins early October 2025 and completes by end of October 2025</p><p></p><p><b>How this will affect your organization\n</b></p><p>This update allows organizations to maintain strict control over data access while optimizing download performance based on environment needs.\n</p><p><b>What you need to do to prepare\n</b></p><p>Admins should:\n</p><ul><li>Review organizational policies and familiarize themselves with new export configuration options, including link type selection and duration settings.\n</li><li>Update internal documentation and training materials to reflect this capability.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "498160"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview eDiscovery (Premium) will support pre-authorized and non pre-authorized export download links starting mid-September 2025, enhancing download reliability and control. Pre-authorized links enable faster downloads; non pre-authorized require re-authentication for restricted environments. Admins should review policies and update documentation accordingly."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-11-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1147383",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-08T21:48:27.783Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-03T23:23:12Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Export download with pre-authorized link support",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 8, 2025: We have updated the title and content. Thank you for your patience.</p><p><b>What it is\n</b></p><p>Microsoft is rolling out a new feature to streamline how app and agent availability is managed across Teams, Outlook, and Microsoft 365 Copilot. Until now, IT admins configured availability settings separately in both the Microsoft 365 Admin Center (MAC) and the Teams Admin Center (TAC), which led to mismatches. With this update, you’ll be able to unify availability policies for apps and agents across both portals, making app management more consistent and efficient<b>.</b></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=393931\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">393931</a>.</p><p><b>When this will happen:\n</b></p><p>We will begin rolling out this feature late September 2025 and expect to complete by mid-November 2025.</p><p>1. <b>Phase 1 – Default Tenant Unification</b></p><p>We will begin rolling out this feature at the end of September 2025. This initial phase targets tenants that have never modified their organization-wide defaults, app availability, or block/unblock in either the Microsoft 365 admin center or the Teams admin center.  At the end of this phase, agent and app manageability will be unified across both Microsoft 365 admin center and Teams admin center ensuring agent and Microsoft 365 <b>apps availability</b> policies are in alignment for all future administrative changes. This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=393931\" target=\"_blank\">393931.</a></p><p>2.\t<b>Phase 2 - Availability Alignment\n</b></p><p>We will begin rolling out this feature at the end of October 2025. This phase targets tenants that have previously modified their organization-wide defaults, app availability, or block/unblock settings in either admin center. These tenants will be transitioned to a unified management experience across both Microsoft 365 and Teams admin centers.</p><ul><li><b>For tenants with agent or app availability differences across both admin centers</b>, a <b>wizard</b> in the Teams admin center will help identify affected agents and apps and guide through resolving discrepancies.</li><li><b>For tenants with no agent or app availability differences across both admin centers, guidance </b>will be provided to help maintain unified availability policy for all future changes.</li></ul><p>3.\t<b>Phase 3 – Automatic Unification\n</b></p><p>Tenants that haven’t transitioned as part of Phase 1 &amp; Phase 2, will be automatically moved to unified app agent management. We will update this post with a timeline and more details later.</p><p><b>How this will affect your organization</b></p><p>Before this rollout, managing Teams apps that work in Outlook and the Microsoft 365 app was fragmented between the Integrated apps page in the Microsoft 365 admin center for Outlook and the Microsoft 365 app, and the Teams admin center for Teams. This sometimes resulted in different settings for the same app in the two admin centers. With Unified agent app management, you will be able to manage apps on the Integrated apps page in the Microsoft 365 admin center or in the Teams admin center, and any changes made in either admin center will synchronize.</p><div>What you can expect:\n</div><ul><li>You’ll gain a consolidated view of agent and Microsoft 365 app availability across both Microsoft 365 and Teams admin centers.\n</li><li>Changes made in either admin center to the agent and app availability will automatically apply across all supported hosts.\n</li><li>Organization-wide defaults for both admin centers will be in sync and govern app availability across Teams, Outlook, and the Microsoft 365 copilot app.</li></ul><p><b>&nbsp;What you need to do to prepare</b></p><p>To ensure a smooth transition, review your tenant-level and individual agent/app settings (app allow/block &amp; user availability) in both the Microsoft 365 Admin Center and the Teams Admin Center. If different departments within your organization manage these settings, we suggest coordinating efforts to complete the review collaboratively.\n</p><p>This update will be rolled out automatically by the stated date, and no immediate action is required. However, it's a good time to update any internal documentation related to agent and app management policies.&nbsp;</p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "393931"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is unifying app and agent availability management across Teams, Outlook, and Microsoft 365 admin centers to ensure consistent settings. The rollout begins late September 2025 in three phases, synchronizing policies and providing tools to resolve discrepancies. No immediate action is required, but reviewing current settings is recommended."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-11-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC796790",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-09-08T21:42:56.013Z",
+    "Services": [
+      "Microsoft Teams",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-05-29T22:15:48Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Update: Microsoft 365 and Microsoft Teams: Unified management of Teams apps in Teams, Outlook, and the Microsoft 365 app",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 8, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Microsoft Purview Communication Compliance is improving the capabilities and customization of policy alerts.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=181825\" target=\"_blank\">181825</a>.</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out late July 2025 (previously late June) and expect to complete by mid-Aug 2025 (previously mid-July).</p><p>General Availability (Worldwide): We will begin rolling out early January 2026 and expect to complete by early January 2026.</p><p><b>How this will affect your organization:</b>\n</p><p>Communication Compliance is improving the capabilities and customization of policy alerts. Admins will be able to customize the alert frequency per policy as well as adjust the email alerts frequency and recipients within the policy creation wizard by navigating to the new alerts page.</p><p>This new feature is available by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>Microsoft Purview Communication Compliance provides the tools to help organizations detect business conduct and regulatory compliance violations (e.g. SEC or FINRA), such as sensitive or confidential information, harassing or threatening language, and sharing of adult content. Usernames are pseudonymized by default, role-based access controls are built in, investigators are opted in by an admin, and audit logs are in place to help ensure user-level privacy.</p><p>You can access the Communication Compliance solution in the <a href=\"https://purview.microsoft.com/compliance\" target=\"_blank\">Microsoft Purview compliance portal.&nbsp;</a></p><p>Learn more:&nbsp;</p><p>•\t<a href=\"https://docs.microsoft.com/microsoft-365/compliance/communication-compliance?view=o365-worldwide\" target=\"_blank\">Learn about communication compliance&nbsp;</a></p><p>•\t<a href=\"https://learn.microsoft.com/purview/communication-compliance-policies?view=o365-worldwide#alert-policies\" target=\"_blank\">Create and manage communication compliance alert policies | Microsoft Learn</a></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "181825"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Communication Compliance is enhancing policy alerts with customizable frequency and recipients. Public preview starts late July 2025, general availability in January 2026. Features include pseudonymized usernames, role-based access, and audit logs to ensure privacy and compliance monitoring."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-03-02T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC920304",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-08T19:28:57.72Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-10-28T22:51:49Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Communication Compliance: Policy alerts improvements",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 8, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We're expanding the capabilities of document processing rules in SharePoint libraries to help site owners and members better manage content. New actions—<i>copy file to</i>, <i>move file to</i>, and <i>set content</i> <i>type to</i>—will be available to all users with edit permissions, enabling more flexible automation based on file metadata.</p><p><b>When this will happen</b></p><p>Rollout will begin in late August 2025 and is expected to complete by mid-September 2025 (previously early September).</p><p><b>How this affects your organization</b></p><p>SharePoint users will see three new actions in the rules editor interface. These actions allow users to:</p><ul><li>Automatically copy or move files based on metadata triggers.</li><li>Set a published content type for files that meet specific criteria.</li></ul><p>Rules can be created by site owners or members with edit permissions. Destination libraries must be accessible to the rule creator and can reside in the same site or a different one. Each library can support up to 15 rules, but destination libraries cannot be targeted by multiple copy/move rules.</p><p><b>What you can do to prepare</b></p><p>We recommend informing your SharePoint users about these new capabilities and reviewing existing rules to avoid conflicts.&nbsp;</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/documentprocessing/content-processing-overview?view=o365-worldwide\" target=\"_blank\">Overview of content processing rules</a></p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft SharePoint libraries will gain new document processing rule actions—copy file to, move file to, and set content type—rolling out from late August to mid-September 2025. These enable automated file management based on metadata for users with edit permissions. Users should prepare by informing teams and reviewing existing rules."
+      }
+    ],
+    "EndDateTime": "2025-10-13T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1137601",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-08T17:37:58.85Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-18T23:02:52Z",
+    "Tags": [
+      "Updated message",
+      "Feature update"
+    ],
+    "Title": "Additional document processing rule actions for Microsoft SharePoint libraries",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing the ability to prevent duplicate emails to shared email addresses in Dynamics 365 Commerce. This feature will reach general availability on September 24, 2025.<br><br><b>How does this affect me?</b><br>This feature enables email deduplication, ensuring that even if your data has multiple contacts with the same email address, your message will only be sent once to your customers.<br><br>Admins can enable or disable email deduplication for real-time segment-based journeys, and review duplicated email addresses in journey analytics.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.",
       "ContentType": "html"
     },
@@ -290,7 +625,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499892\":[{\"RoadmapId\":499892,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9017254Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":499892,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9017255Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9017256Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9017257Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9017257Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"499892\":[{\"RoadmapId\":499892,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2672069Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":499892,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.267207Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2672071Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2672072Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2672073Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -340,7 +675,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9011654Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9011661Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9011662Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9011662Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9011663Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2670168Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.267017Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2670172Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2670173Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2670174Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -838,53 +1173,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot Chat: New ways to include files and emails in prompts",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 5, 2025: We have updated the timeline. Thank you for your patience.</p><p>Microsoft Purview eDiscovery (Premium) is introducing support for pre-authorized and non pre-authorized export download links, to enhance the reliability and performance of export download. \n</p><p><b>Introduction\n</b></p><p>A new capability in Microsoft Purview eDiscovery (Premium) enables organizations to configure export download links as either pre-authorized or non pre-authorized.\n</p><ul><li>Pre-authorized links offer faster downloads and maintain session continuity for a specified duration configurable by eDiscovery administrators.\n</li><li>Non pre-authorized links require re-authentication after each connection loss and are needed for restricted environments that allow access only to limited Microsoft 365 IP ranges.</li></ul><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498160\" target=\"_blank\">498160</a>.</p><p></p><p><b><b>When this will happen:</b>\n</b></p><p>General Availability (Worldwide): Rollout begins mid-September 2025 and completes by end of September 2025.\n</p><p>General Availability (GCC, GCC High, DoD): Rollout begins early October 2025 and completes by end of October 2025</p><p></p><p><b>How this will affect your organization\n</b></p><p>This update allows organizations to maintain strict control over data access while optimizing download performance based on environment needs.\n</p><p><b>What you need to do to prepare\n</b></p><p>Admins should:\n</p><ul><li>Review organizational policies and familiarize themselves with new export configuration options, including link type selection and duration settings.\n</li><li>Update internal documentation and training materials to reflect this capability.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "498160"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview eDiscovery (Premium) will support pre-authorized and non pre-authorized export download links starting mid-September 2025, enhancing download reliability and control. Pre-authorized links enable faster downloads; non pre-authorized require re-authentication for restricted environments. Admins should review policies and update documentation accordingly."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-11-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1147383",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-05T19:01:33.807Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-03T23:23:12Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | eDiscovery - Guest access for export downloads",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -1428,7 +1716,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"501202\":[{\"RoadmapId\":501202,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9017005Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":501202,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9017006Z\",\"LatestRing\":null},{\"RoadmapId\":501202,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9017007Z\",\"LatestRing\":null},{\"RoadmapId\":501202,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9017009Z\",\"LatestRing\":null},{\"RoadmapId\":501202,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.901701Z\",\"LatestRing\":null},{\"RoadmapId\":501202,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9017012Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"501202\":[{\"RoadmapId\":501202,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2671845Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":501202,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2671846Z\",\"LatestRing\":null},{\"RoadmapId\":501202,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2671847Z\",\"LatestRing\":null},{\"RoadmapId\":501202,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2671848Z\",\"LatestRing\":null},{\"RoadmapId\":501202,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2671849Z\",\"LatestRing\":null},{\"RoadmapId\":501202,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.267185Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -2368,7 +2656,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500379\":[{\"RoadmapId\":500379,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9015581Z\",\"LatestRing\":null},{\"RoadmapId\":500379,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9015583Z\",\"LatestRing\":null},{\"RoadmapId\":500379,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9015584Z\",\"LatestRing\":null}]}"
+        "Value": "{\"500379\":[{\"RoadmapId\":500379,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2668782Z\",\"LatestRing\":null},{\"RoadmapId\":500379,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2668784Z\",\"LatestRing\":null},{\"RoadmapId\":500379,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2668786Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3050,7 +3338,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500634\":[{\"RoadmapId\":500634,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9013354Z\",\"LatestRing\":null},{\"RoadmapId\":500634,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-08T11:02:22.9013355Z\",\"LatestRing\":null}]}"
+        "Value": "{\"500634\":[{\"RoadmapId\":500634,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2665899Z\",\"LatestRing\":null},{\"RoadmapId\":500634,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-09T03:15:46.2665904Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6841,53 +7129,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated August 27, 2025: We have updated the content. Thank you for your patience.&nbsp;</p><p>&nbsp;In 2023, we introduced Microsoft Teams apps that are compatible with Microsoft Outlook and the Microsoft 365 App (manifest version v1.13 or higher). Before this rollout, admin changes made in the Integrated apps section of the Microsoft 365 admin center would only affect these Teams apps in Outlook and the Microsoft 365 app. Similarly, changes made in the Teams admin center would exclusively affect Teams. Starting in June 2024, we will roll out Unified App Management to streamline the management of these apps across Teams, Outlook and the Microsoft 365 App, so they are consistently available across all supported clients.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=393931\" target=\"_blank\">393931</a>.\n</p><p><b>When this will happen:</b>\n</p><p>This rollout will happen in two major phases. Unified App Management can apply only to tenants that have migrated to app centric management in Teams admin center, as communicated in MC688930 <i>(Updated) Teams admin center: App centric management and changes to app permission policies</i> (November 2023).\n</p><ul><li>Phase 1 | General Availability (Worldwide): We will begin rolling out this feature end of September 2025. This initial phase targets tenants that have never modified their organization-wide defaults, app availability, or block/unblock in either the Microsoft 365 admin center or the Teams admin center.  At the end of this phase, agent and app manageability will be unified across both Microsoft 365 admin center and Teams admin center ensuring agent and M365 apps availability configuration policies are in alignment for all future administrative changes.</li><li>Phase 2: We will update this post with a timeline and more details in August 2025 (previously May 2025).&nbsp;&nbsp;</li></ul><p>\n</p><p><b>How this will affect your organization:</b>\n</p><p>Before this rollout, managing Teams apps that work in Outlook and the Microsoft 365 app was fragmented between the <i>Integrated app</i>s page in the Microsoft 365 admin center for Outlook and the Microsoft 365 app, and the Teams admin center for Teams. This sometimes resulted in different settings for the same app in the two admin centers. With Unified App Management, we will be consolidating app catalog management into a single platform. You will be able to manage apps on the <i>Integrated apps</i> page in the Microsoft 365 admin center or in the Teams admin center, and any changes made in either admin center will synchronize.\n</p><p><i>What you can expect</i>\n</p><ol><li>App catalog enhancements: Apps will start showing hosts where they are available: Teams, Outlook, or the Microsoft 365 app. \n</li><li>Organization-wide settings: App availability default settings will now apply to apps used in Teams, Outlook, and Microsoft 365 app.\n</li><li>App installs: Apps deployed from the Integrated apps page in Microsoft 365 admin center will be preinstalled in all applicable hosts for the app. Unlike app preinstallation in the Teams App setup policy, new app installs will provide access to the preinstalled apps, similar to deploying the app for Outlook and the Microsoft 365 App.. For more details on app deployment, refer to MC795355 Microsoft Teams admin center: App centric management for app installation and changes to app setup policies (May 2024)].</li><li>App availability: Managing app availability will apply to all applicable app hosts. \n</li><li>App block/unblock: Blocking or unblocking apps will apply to all applicable app hosts. \n</li><li>Consolidation of existing app settings: All existing app settings will be unified between Integrated apps (MAC) and Manage apps (TAC) pages. Merge rules can be found in&nbsp;<a href=\"https://learn.microsoft.com/MicrosoftTeams/manage-apps-across-m365\" target=\"_blank\">Manage apps that work across Teams, Outlook, and Microsoft 365 | Microsoft Learn</a>. These changes cannot be rolled back.\n</li><li>Consolidation report: After further review we have decided not to proceed with this change at this time. We apologize for any inconvenience.</li></ol><p><b>What you need to do to prepare:</b>\n</p><p>We recommend that you review app and tenant settings in the Microsoft 365 admin center and the Teams admin center. If these are managed by different departments in your organization, we recommend conducting these reviews collaboratively.\n</p><p>We also recommend that you review the merge rules and consider their potential impact on apps in your organization. Make any necessary adjustments to unify them in advance, if the merge rules in this message do not align with your expectations.\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to update any relevant documentation as appropriate.\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "393931"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting September 2025, Microsoft will unify Teams app management across Teams, Outlook, and Microsoft 365 admin centers, synchronizing settings and app availability. This consolidation simplifies administration, applies organization-wide settings, and requires reviewing current app configurations to align with new merge rules. No admin action is needed before rollout."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2026-11-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC796790",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-08-27T18:43:41.03Z",
-    "Services": [
-      "Microsoft Teams",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-05-29T22:15:48Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Update: Microsoft 365 and Microsoft Teams: Unified management of Teams apps in Teams, Outlook, and the Microsoft 365 app",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing an embedded experience for Copilot summaries in Dynamics 365 Sales. This feature will reach general availability on September 26, 2025.<br><br> \n\n<b>How does this affect me?</b><br> \n\nThis feature enables an in-form banner experience for the Opportunity, Lead, and Account forms that brings key information to the top of the record, eliminating the need to open a Copilot side pane.<br><br> \n\n<b>What action do I need to take?</b><br> \nThis message is for awareness and no action is required.<br><br> \nIf you would like more information on this feature, please check out the release note <a href=\"https://aka.ms/ADO11770\"target=\"_blank\">Get embedded experience for Copilot summaries</a>.",
       "ContentType": "html"
     },
@@ -10645,42 +10886,6 @@
       "Feature update"
     ],
     "Title": "Copilot Chat usage in Word, Excel, PowerPoint, and OneNote now included in Copilot Analytics",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We're expanding the capabilities of document processing rules in SharePoint libraries to help site owners and members better manage content. New actions—<i>copy file to</i>, <i>move file to</i>, and <i>set content</i> <i>type to</i>—will be available to all users with edit permissions, enabling more flexible automation based on file metadata.</p><p><b>When this will happen</b></p><p>Rollout will begin in late August 2025 and is expected to complete by early September 2025.</p><p><b>How this affects your organization</b></p><p>SharePoint users will see three new actions in the rules editor interface. These actions allow users to:</p><ul><li>Automatically copy or move files based on metadata triggers.</li><li>Set a published content type for files that meet specific criteria.</li></ul><p>Rules can be created by site owners or members with edit permissions. Destination libraries must be accessible to the rule creator and can reside in the same site or a different one. Each library can support up to 15 rules, but destination libraries cannot be targeted by multiple copy/move rules.</p><p><b>What you can do to prepare</b></p><p>We recommend informing your SharePoint users about these new capabilities and reviewing existing rules to avoid conflicts.&nbsp;</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/documentprocessing/content-processing-overview?view=o365-worldwide\" target=\"_blank\">Overview of content processing rules</a></p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "SharePoint libraries will gain new document processing rule actions—copy file to, move file to, and set content type—available to users with edit permissions. Rolling out late August to early September 2025, these enable automated file management based on metadata, with up to 15 rules per library."
-      }
-    ],
-    "EndDateTime": "2025-10-05T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1137601",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-18T23:03:11.967Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-18T23:02:52Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Additional document processing rule actions for Microsoft SharePoint libraries",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -20945,52 +21150,6 @@
       "User impact"
     ],
     "Title": "New Microsoft Outlook for Windows and Outlook on the web: Optimized hover actions in the message list",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 1, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Microsoft Purview Communication Compliance is improving the capabilities and customization of policy alerts.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=181825\" target=\"_blank\">181825</a>.</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out late July 2025 (previously late June) and expect to complete by mid-Aug 2025 (previously mid-July).</p><p>General Availability (Worldwide): We will begin rolling out late August 2025 (previously late June) and expect to complete by mid-September 2025 (previously mid-July).</p><p><b>How this will affect your organization:</b>\n</p><p>Communication Compliance is improving the capabilities and customization of policy alerts. Admins will be able to customize the alert frequency per policy as well as adjust the email alerts frequency and recipients within the policy creation wizard by navigating to the new alerts page.</p><p>This new feature is available by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>Microsoft Purview Communication Compliance provides the tools to help organizations detect business conduct and regulatory compliance violations (e.g. SEC or FINRA), such as sensitive or confidential information, harassing or threatening language, and sharing of adult content. Usernames are pseudonymized by default, role-based access controls are built in, investigators are opted in by an admin, and audit logs are in place to help ensure user-level privacy.</p><p>You can access the Communication Compliance solution in the <a href=\"https://purview.microsoft.com/compliance\" target=\"_blank\">Microsoft Purview compliance portal.&nbsp;</a></p><p>Learn more:&nbsp;</p><p>•\t<a href=\"https://docs.microsoft.com/microsoft-365/compliance/communication-compliance?view=o365-worldwide\" target=\"_blank\">Learn about communication compliance&nbsp;</a></p><p>•\t<a href=\"https://learn.microsoft.com/purview/communication-compliance-policies?view=o365-worldwide#alert-policies\" target=\"_blank\">Create and manage communication compliance alert policies | Microsoft Learn</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "181825"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Communication Compliance is enhancing policy alerts with improved capabilities and customization. The rollout for Public Preview is now scheduled for late July 2025, and General Availability for late August 2025. Admins can customize alert frequency and recipients. This feature is enabled by default."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-11-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC920304",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-01T14:30:40.193Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-10-28T22:51:49Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Communication Compliance: Policy alerts improvements",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
