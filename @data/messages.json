@@ -4,6 +4,590 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>In mid-October 2025, the export of the <a href=\"https://learn.microsoft.com/intune/intune-service/apps/powershell-scripts#monitor-run-status\" target=\"_blank\">Device status report</a> for Platform scripts <i>(Devices &gt; Scripts and remediations &gt; Platform scripts &gt; select a script &gt; Device status)</i> from the Intune admin center will change to match the Intune Export API format. Field names in the exported report will align with the properties documented in <a href=\"https://learn.microsoft.com/intune/intune-service/fundamentals/reports-export-graph-available-reports\" target=\"_blank\">Intune reports and properties available using Graph API</a>.</p><p><b>How this will affect your organization:</b>\n</p><p>If you rely on the export of the Device status report for Platform scripts from the Intune admin center, you will see the following updated field names:</p><ul><li>Device name &gt; DeviceName\n</li><li>User name &gt; UserName\n</li><li>OS Version &gt; OSVersion\n</li><li>Status &gt; RunState\n</li><li>Last Updated &gt; ModifiedTime\n</li><li>Result &gt; PolicyResultDetail (macOS only)\n</li></ul><p><b>Note:</b> This change does not affect any automation or reporting that already uses the Intune Export API.</p><p><b>What you need to do to prepare:</b>\n</p><p>Update your documentation and reporting as needed. Otherwise, no action is required, only awareness.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "In mid-October 2025, the Device Status report export for Platform scripts in Intune will update field names to match the Intune Export API format. Users should update documentation and reporting accordingly; no changes affect existing API-based automation or reporting."
+      }
+    ],
+    "EndDateTime": "2025-11-11T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1151687",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T22:21:24.067Z",
+    "Services": [
+      "Microsoft Intune"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-11T22:20:29Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Update to the export of the Device Status report for Platform scripts",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b><br>\nSecurity Operations Center (SOC) teams rely on remediation actions like <i>Move to Junk</i>, <i>Delete</i>, <i>Soft Delete</i>, and <i>Hard Delete</i> to swiftly eliminate email threats from user inboxes. However, meeting invite emails have posed an additional challenge: even after the email is removed, <i>Outlook</i> automatically creates a calendar entry during delivery, which remains active and accessible to users.</p>\n\n<p>This residual calendar entry can still contain malicious links or phishing content, creating a security gap. We’re closing that gap.</p>\n\n<p>With this update, the <i>Hard Delete</i> action will now also remove the associated calendar entry for any meeting invite email. This ensures that threats are fully eradicated—not just from the inbox, but also from the calendar—reducing the risk of user interaction with potentially harmful content. Note that calendar entries manually created by users by adding <i>.ics</i> attachments to the calendar will not be deleted.</p>\n\n<p><b>When this will happen</b></p><ul><li>\nGeneral Availability (Worldwide): Rollout will begin early September 2025 and is expected to complete by late September 2025.</li><li>General Availability (GCC, GCC High, DoD): Rollout will begin early October 2025 and is expected to complete by late October 2025.</li></ul>\n\n<p><b>How this affects your organization</b><br>\n<i>Hard Delete</i> actions will now automatically remove calendar entries created by malicious meeting invite emails. This reduces the risk of user interaction with phishing links or harmful content that may persist in calendar entries. Deleted calendar entries can only be recreated by resending the invite or manually by the user.</p>\n\n<p>This change is <b>on by default</b> and requires no configuration.</p>\n\n<p><b>What you can do to prepare</b><br>\nNo action is required. We recommend informing SOC teams and security administrators of this enhancement to ensure awareness and alignment with incident response procedures.</p>\n\n<p><b>Compliance considerations</b></p>\n<ul>\n</ul><table border=\"1\">\n<tbody><tr>\n<th>Compliance area</th>\n<th>Explanation</th>\n</tr>\n<tr>\n<td>Alters how existing customer data is processed, stored, or accessed</td>\n<td>Calendar entries created by meeting invite emails will now be automatically deleted when <i>Hard Delete</i> is applied, changing how calendar data is retained.</td>\n</tr>\n<tr>\n<td>Modifies deletion workflows</td>\n<td><i>Hard Delete</i> now includes calendar entry removal, extending its scope beyond email content.</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "preventOrFixIssue",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Hard Delete now removes calendar entries from malicious meeting invites, closing a security gap by fully eradicating threats from inboxes and calendars. This update rolls out worldwide in September 2025 and GCC regions in October 2025, is on by default, and requires no user action."
+      }
+    ],
+    "EndDateTime": "2025-12-01T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1151684",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T22:18:14.607Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-11T22:18:09Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Hard delete action now removes calendar entries from malicious meeting invite emails",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction:</b></p><p>The Microsoft Defender for Identity team is rolling out improvements to several detections based on customer feedback and internal analysis. These updates are designed to reduce alert noise and improve detection accuracy, helping security teams focus on the most actionable threats. An active Microsoft Defender for Identity (MDI) license is required to benefit from these improvements.</p><p><b>When this will happen:</b></p><p>These improvements will begin rolling out gradually starting in late September 2025 and will complete by mid-October 2025.</p><p><b>How this affects your organization:</b></p><p>Who is affected: Admins managing Microsoft Defender for Identity in commercial tenants.</p><p>What will happen:</p><ul><li>Several existing detections will be updated to reduce false positives and improve precision.</li><li>You may observe a decrease in the number of alerts raised for the following detections:<ul><li>Suspicious communication over DNS&nbsp; &nbsp; &nbsp; </li><li>Suspected Netlogon privilege elevation attempt (CVE-2020-1472 exploitation)</li><li>Honeytoken authentication activity</li><li>Remote code execution attempt over DNS</li><li>Suspicious password reset by Entra Connect account</li><li>Data exfiltration over SMB</li><li> Suspected skeleton key attack (encryption downgrade)</li><li>Suspicious modification of the Resource-Based Constrained Delegation attribute by a machine account</li><li>Remote code execution attempt</li></ul></li></ul><p>No changes to configuration or policy settings are required.</p><p><b>What you can do to prepare:</b></p><ul><li>&nbsp;No action is required at this time.</li><li>&nbsp;Review alert volumes and detection behavior after rollout to assess impact.</li><li>&nbsp;Communicate this change to your security operations team.</li><li>&nbsp;Update internal documentation if you track detection logic or alert thresholds.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/defender-for-identity/alerts-overview\" target=\"_blank\">Security alerts - Microsoft Defender for Identity | Microsoft Learn</a></p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Defender for Identity will update several detections from late September to mid-October 2025 to reduce false positives and improve accuracy, lowering alert noise without requiring configuration changes. Admins should review alert volumes post-rollout and inform their security teams accordingly."
+      }
+    ],
+    "EndDateTime": "2025-11-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1151683",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T22:17:50.7Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-11T22:17:44Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Defender for Identity | Detections improvements to reduce noise and improve accuracy",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction:</b></p><p>The <i>August Copilot readiness insights</i> have been refreshed with the latest monthly data and are now available on the <i>Copilot Health</i> page in the <i>Microsoft 365 admin center</i>. These insights help administrators monitor and resolve configuration issues that may impact the Copilot experience. Over time, additional insights will be added to provide clear, actionable guidance to optimize Copilot for your organization.</p><p><b>When this will happen:</b></p><p>General Availability: Available now</p><p>Targeted Release: Available now</p><p><b>How this affects your organization:</b></p><p>Who is affected: </p><p>Admins with one of the following roles:</p><ul><li>Global Administrator</li><li>Global Reader</li><li>Office Apps Administrator</li><li>Security Administrator</li><li>AI Administrator</li></ul><p>What will happen:</p><ul><li>Admins can access refreshed Copilot readiness insights in the <i>Microsoft 365 admin center</i>.</li><li>Insights highlight configuration or rollout issues that may affect Copilot performance.</li><li>Additional insights will be added over time to improve visibility and optimization.</li><li>Access is limited to specific admin roles listed above.</li></ul><p><b>What you can do to prepare:</b></p><ul><li>Regularly review Copilot Health insights in the <i>Microsoft 365 admin center</i>.</li><li>Take recommended actions to resolve any flagged issues.</li><li>Ensure appropriate admin roles have access to the <a href=\"https://admin.cloud.microsoft/?#/copilot/health\" target=\"_blank\">Copilot Health</a> page.</li></ul><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "August Copilot readiness insights are now available in the Microsoft 365 admin center's Copilot Health page for specific admin roles. These insights help monitor and resolve configuration issues affecting Copilot, with ongoing updates planned. Admins should regularly review and address flagged issues to optimize Copilot performance."
+      }
+    ],
+    "EndDateTime": "2025-10-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1151679",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T22:12:23.91Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-11T22:11:26Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: August Copilot readiness insights now available",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>\nTo improve the accuracy of signature age alerts in <i>Microsoft Defender Antivirus</i>, we’re updating the minimum supported value for the <i>AVSignatureDue</i> policy. Previously, this setting could be configured to as low as one day, which led to misleading alerts due to timing misalignment between signature updates and checks. Starting in September 2025, the minimum value will be set to 2 days.\n</p>\n\n<p><b>When this will happen</b></p><p>\nGeneral Availability (Worldwide): Rollout will begin in late September 2025 and is expected to complete by mid-October 2025.\n</p>\n\n<p><b>How this affects your organization</b></p><p>\nThis change will only affect organizations that have configured the <i>AVSignatureDue</i> policy to a value less than 2 days. After this update, any value below 2 days will no longer be supported. This adjustment helps prevent false alerts indicating outdated signatures when updates have already been applied.\n</p>\n\n<p><b>What you can do to prepare</b></p><p>\nIf your organization has set the <i>AVSignatureDue</i> policy to less than 2 days, update the configuration to 2 days or higher to ensure continued policy compliance and accurate alerting. </p><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/security/defender-endpoint/antivirus-policy-settings\">Microsoft Defender Antivirus policy documentation</a>.\n</p><p><b>Compliance considerations</b></p><p><b></b></p><p></p>\nNo compliance considerations identified, review as appropriate for your organization.\n<div><b><br></b></div>",
+      "ContentType": "html"
+    },
+    "Category": "preventOrFixIssue",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting September 2025, Microsoft Defender Antivirus will require the AVSignatureDue policy minimum to be 2 days (up from 1 day) to prevent false alerts. Organizations with settings below 2 days should update their configuration before rollout completes in mid-October 2025."
+      }
+    ],
+    "EndDateTime": "2025-11-18T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1151677",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T22:05:05.673Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-11T22:04:55Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Updated Microsoft Defender Antivirus AVSignatureDue policy limit",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 22, 2025: After further review, this has been delayed to a later date. We apologize for any inconvenience.</p><p><b>Introduction</b></p><p>We're enhancing the quarantine experience in Microsoft Defender and Exchange Online to improve visibility and control over items that have been temporarily deleted. With this update, users will be able to view and restore messages that were previously removed from the quarantine view but still exist in the system.</p><p><b>When this will happen</b></p><ul><li>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.&nbsp;</li><li>General Availability (GCC, GCC High, DoD): We will communicate via Message center when we are ready to proceed.</li></ul><p><b>How this affects your organization</b></p><p>Users in both Microsoft Defender and Exchange Online quarantine portals will gain the ability to:</p><ul><li>View messages that were temporarily deleted from quarantine using the new Temporarily deleted filter under Release Status.</li><li>Restore these messages back to the quarantine view using the new Restore temporarily deleted option.</li></ul><p>Messages that have been permanently deleted will remain inaccessible. This feature is on by default and applies only to temporarily deleted items.</p><p><b>What you can do to prepare</b></p><ul><li>Inform users about the new filter and restore option to reduce confusion and potential help desk calls.</li><li>Update internal documentation or training materials to reflect the new functionality.</li><li>Monitor user feedback and usage to determine if additional guidance or support is needed.</li></ul><p>No configuration changes are required to enable this feature.</p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The update to Microsoft Defender and Exchange Online quarantine will allow users to view and restore temporarily deleted messages via a new filter and restore option. The release has been delayed, no configuration is needed, and permanently deleted messages remain inaccessible. Users should be informed and documentation updated."
+      }
+    ],
+    "EndDateTime": "2026-03-11T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1134736",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T21:30:57.893Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-13T23:09:13Z",
+    "Tags": [
+      "Updated message",
+      "Feature update"
+    ],
+    "Title": "Quarantine experience update in Microsoft Defender and Exchange Online: Restore temporarily deleted items",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 11, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re introducing <b>Immersive Search</b>, a new experience across Outlook for Web, Mac, iOS, Android, and the new Outlook for Windows. After performing a search, users will see an entry point to the Microsoft Copilot side pane, which presents a highly relevant, AI-generated summary based on their query. This summary includes content from emails, Teams messages, and documents—helping users quickly understand and act on their information.\n</p><p>This feature uses Microsoft 365 Copilot with an Outlook-specific experience and is available only to tenants with Copilot licenses.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498319\" target=\"_blank\">498319</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide):</b> We will begin rolling out in late September 2025 (previously early September) and expect to complete by late October 2025 (previously late September).</p><p><b>How this will affect your organization</b></p><p>Once rolled out, users will see a new entry point to the Copilot side pane after executing a search in Outlook. This pane surfaces AI-generated summaries, improving productivity and reducing time spent navigating search results.</p><p><i>Copilot side pane in Outlook search results:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/637e0f0a-ec4a-4ed7-bbf9-bac01707af2f/1c37dbf805f887009b8835de52b7be13a2ecd93e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p>\n</p><p>Key details:</p><ul><li>The Copilot side pane appears only after a user performs a search and selects the entry point on the search results page (SERP).\n</li><li>Summaries include all content supported by Microsoft 365 Copilot, such as indexed emails, Teams messages, attachments, and shared files from OneDrive or SharePoint.\n</li><li>This feature is <b>on by default </b>and <b>does not require admin configuration</b>.</li><li>There are no changes to existing DLP, eDiscovery, or retention policies.\n</li><li>Admins cannot control access to this feature via policy settings or Entra ID group membership.\n</li><li>There is currently no setting in the Microsoft 365 admin center or Outlook user settings to manage or disable this experience.\n</li><li>There is no way to monitor or audit usage of this feature through Microsoft Purview or Microsoft 365 audit logs.</li></ul><p><b>What you can do to prepare\n</b></p><p>No action is required at this time. However, we recommend informing users about this new experience to reduce confusion and help desk inquiries.\n</p><p>You may also want to review your organization's Copilot licensing and ensure users are aware of how to use the Copilot side pane effectively.</p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does this change store new customer data?</td><td>AI-generated summaries may be temporarily cached to improve performance, but they are not permanently stored.</td></tr><tr><td>Does this change alter how existing customer data is processed, stored, or accessed?&nbsp;</td><td>Emails, Teams messages, and documents are processed by large language models (LLMs) to generate summaries based on user search queries.</td></tr><tr><td>Does this change introduce or significantly modify AI or machine learning capabilities that interact with customer data?</td><td>This feature introduces generative AI capabilities that analyze and summarize user content across Outlook and connected Microsoft 365 services.</td></tr><tr><td>Does this change provide end users with a new way of interacting with generative AI?</td><td>Users can interact with Copilot summaries directly in the Outlook interface after performing a search.</td></tr></tbody></table><p>\n</p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "498319"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Outlook is introducing Immersive Search with a Copilot side pane that provides AI-generated summaries from emails, Teams messages, and documents after a search. Rolling out worldwide from late September to October 2025, this feature is on by default, requires no admin setup, and is available to Copilot-licensed tenants."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2025-12-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1130610",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T21:08:13.39Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-07T06:34:24Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Outlook: Enhanced search experience with Copilot across Web, Mac, and Mobile",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>Starting with the September 2025 security update, IT admins can configure an initial Start menu layout that users can later customize. If&nbsp;you’ve&nbsp;used the&nbsp;<a href=\"https://learn.microsoft.com/windows/client-management/mdm/policy-csp-start#configurestartpins\" rel=\"noopener noreferrer\" target=\"_blank\">Configure Start Pins policy</a>&nbsp;previously, it would revert user personalization to the IT-set configuration after a restart. The enhanced policy allows user changes to persist. This new capability is available to you through&nbsp;<a href=\"https://learn.microsoft.com/windows/configuration/start/layout?tabs=intune-10%2Cintune-11&amp;pivots=windows-11\" rel=\"noopener noreferrer\" target=\"_blank\">configuration service providers (CSP)</a>&nbsp;today, and the Group Policy (GPO) will follow in October.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><ul><li>September 2025 security update:&nbsp;The&nbsp;enhanced&nbsp;CSP policy&nbsp;is&nbsp;available&nbsp;to configure using&nbsp;Microsoft&nbsp;Intune or other&nbsp;mobile device management (MDM) tools.&nbsp;</li><li>October 2025:&nbsp;The&nbsp;GPO policy will be available for commercial use. The GPO will also support a locked down layout experience (bringing parity to current CSP policy).&nbsp;</li></ul><div><br></div><div><b>How this will affect your organization:</b>&nbsp;</div><div>The&nbsp;enhanced&nbsp;Configure&nbsp;Start&nbsp;Pins&nbsp;policy CSP&nbsp;now&nbsp;improves IT and user experience.&nbsp;It&nbsp;allows&nbsp;you to set the&nbsp;initial Start menu&nbsp;layout&nbsp;only&nbsp;once, without reapplying after device restarts.&nbsp;User personalization of&nbsp;their Start menu by&nbsp;pinning&nbsp;and unpinning&nbsp;items&nbsp;persists after device restarts.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>No preparation&nbsp;is&nbsp;needed.&nbsp;The newly enhanced&nbsp;Start policy&nbsp;CSP&nbsp;is optionally available for&nbsp;use.&nbsp;</div><div>&nbsp;</div><div><b>Additional&nbsp;information:</b>&nbsp;</div><ul><li><a href=\"https://learn.microsoft.com/windows/configuration/start/layout?tabs=intune-10%2Cintune-11&amp;pivots=windows-11\" rel=\"noopener noreferrer\" target=\"_blank\">Customize&nbsp;the Start&nbsp;layout&nbsp;for&nbsp;managed Windows&nbsp;devices</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/windows/client-management/mdm/policy-csp-start#configurestartpins\" rel=\"noopener noreferrer\" target=\"_blank\">Configure Start Pins CSP</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-09-11T21:01:22.393Z",
+    "HasAttachments": false,
+    "Id": "MC1151667",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T21:01:27.453Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-11T21:01:22.393Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Set a customizable initial Start menu layout with an enhanced policy",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>On November 11, 2025, Windows 11, version 23H2 (<a href=\"https://learn.microsoft.com/lifecycle/products/windows-11-home-and-pro\" rel=\"noopener noreferrer\" target=\"_blank\">Home</a> and&nbsp;<a href=\"https://learn.microsoft.com/lifecycle/products/windows-11-home-and-pro\" rel=\"noopener noreferrer\" target=\"_blank\">Pro</a> editions) will reach&nbsp;<a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information\" rel=\"noopener noreferrer\" target=\"_blank\">end of servicing</a>. The November 2025 monthly security update will be the last update available for these editions. After this date, devices running these editions will no longer receive monthly security and preview updates containing protections from the latest security threats.</div><div><br></div><div>As always, we recommend that you update&nbsp;your&nbsp;devices to the latest version of&nbsp;<a href=\"https://aka.ms/how-to-get-24H2\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11</a>. For detailed information, see the&nbsp;<a href=\"https://learn.microsoft.com/lifecycle/announcements/windows-11-23h2-end-of-updates-home-pro\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11, version 23H2 reaching end of updates (Home, Pro)</a> lifecycle page. For information about servicing timelines and lifecycle, see&nbsp;<a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 release information</a>,&nbsp;<a href=\"https://learn.microsoft.com/lifecycle/faq/windows\" rel=\"noopener noreferrer\" target=\"_blank\">Lifecycle FAQ - Windows</a>, and&nbsp;<a href=\"https://learn.microsoft.com/lifecycle/products/?terms=windows\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Lifecycle Policy search tool</a>.</div>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-09-11T21:01:22.253Z",
+    "HasAttachments": false,
+    "Id": "MC1151666",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T21:01:23.7Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-11T21:01:22.393Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "60-Day Reminder: Windows 11, version 23H2 (Home and Pro editions) will reach end of servicing on November 11, 2025",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 11, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon to Microsoft Teams: When users connect to their organization's Wi-Fi, Teams can automatically set their work location to reflect the building they are working in. This feature is opt-in and requires you to take action to configure it.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=488800\" target=\"_blank\">488800</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling early December 2025 and expect to complete by mid-December 2025.</p><p><b>How this will affect your organization:</b>\n</p><p>This feature allows you to map Wi-Fi networks and devices to buildings, which allows your users to have their work location automatically configured when they connect. This is a major improvement over the current experience which relies on end-users to manually set their work location. When this feature is configured and enabled, Teams can automatically update the work location of users who connect their laptop to your organization's Wi-Fi network or peripherals. The feature can leverage the mapping between your building names and your Wi-Fi networks to set the work location of your users to the right building. It can also leverage mappings to&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/rooms/bookable-desks\" target=\"_blank\">specific peripherals</a>, such as monitors. Teams uses the same policy to enable or disable automatic updates of work location for Wi-Fi and peripherals. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/teams/new-csteamsworklocationdetectionpolicy\" target=\"_blank\">New-CsTeamsWorkLocationDetectionPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn</a></p><p>Teams will not update the location of your users if they connect after their working hours (that they can configure in the Microsoft Outlook Calendar). Also, their work location will be cleared at the end of their working hours.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><p>Automatic update of work location is off by default, but it can greatly improve the experience of your users. We recommend turning it on and configuring it in your tenant.\n</p><p>Before rollout, we will update this post with new documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "488800"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will soon auto-set users' work location by connecting to organizational Wi-Fi or peripherals, improving over manual setting. This opt-in feature, rolling out December 2025, maps Wi-Fi to buildings and respects users' working hours. Admins must enable and configure it in their tenant."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-01-26T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1081568",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T18:57:20.893Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-23T23:15:29Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Automatically set work location by connecting to a Wi-Fi network",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 11, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon for Microsoft PowerPoint: Users will be able to create presentations with Microsoft 365 Copilot in PowerPoint with your organization's brand images in two ways:</p><ul><li>With an organizational asset library (OAL) in Microsoft SharePoint\n</li><li>With a Templafy library (a third-party solution)\n</li></ul><p><b>NOTE:</b> You can choose either option, both options, or neither option. The current image default option in PowerPoint is Microsoft 365 images. If you take no action, your users will continue to have access to these Microsoft 365 images.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=475055\" target=\"_blank\">475055</a> and Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=475064\" target=\"_blank\">475064</a>.\n</p><p>A Microsoft 365 Copilot license is required to use this feature.\n</p><p>This message applies to PowerPoint for Windows desktop, PowerPoint for Mac desktop, and PowerPoint for the web.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out early June 2025 (previously March) and expect to complete by early July 2025 (previously late June).</p><p><b>How this will affect your organization:</b>\n</p><p><i>Connecting your OAL to Microsoft 365 Copilot in PowerPoint:</i>\n</p><p>After this rollout: As an admin, after you connect your OAL, hosted on SharePoint, to Microsoft 365 and Microsoft 365 Copilot, your users will be able to create presentations with your organization's images. Users will have the option to use branded images from your OAL and/or Microsoft 365 images.</p><p>To use your OAL with Microsoft 365 Copilot, you will need to:\n</p><ol><li><a href=\"https://learn.microsoft.com/sharepoint/organization-assets-library\" target=\"_blank\">Create an organization assets library</a> for your company's brand assets\n</li><li>Run a Microsoft PowerShell command to <a href=\"https://learn.microsoft.com/sharepoint/connect-organizational-asset-libraries-to-copilot\" target=\"_blank\">connect your image OAL to Copilot</a>.</li><li>Make sure the images in your asset library have robust metadata (keywords, title, and alt-text) so they are searchable</li></ol><p><i>Connecting Templafy to Microsoft 365 Copilot in PowerPoint:</i>\n</p><p>After this rollout: As an admin, please send a request to pptentimg_admin@microsoft.com to access this feature. After you connect your asset library hosted by Templafy to Microsoft 365 and Microsoft 365 Copilot, your users will be able to create presentations with your organization's images.\n</p><p>Users will have the option to use branded images from your organization's library in Templafy and/or Microsoft 365 images.</p><p>To use your brand images with Microsoft 365 Copilot, you will need to:\n</p><ol><li>Have a Templafy account for your company's brand assets</li><li>Enable Microsoft Graph Connector to establish the Copilot connection in your company's Templafy account setting. Learn more: <a href=\"https://support.templafy.com/hc/articles/24656260075549-How-to-enable-Microsoft-Graph-Connector-for-Templafy-Image-Library\" target=\"_blank\">How to enable Microsoft Graph Connector for Templafy Image Library – Templafy Help center</a>\n</li><li>Make sure the images in your asset library have robust metadata (keywords, title, and alt-text) so they are searchable\n</li></ol><p>To use brand images in PowerPoint, users can select the Copilot icon in the top left of any slide and choose <i>Create a new presentation:</i>\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp;<img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c5eceb49-3a13-47ed-b2ea-bcb52c0f07a6\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>On the next screen, users enter a prompt to ask Copilot to build the slide outline. After Copilot responds, users can scroll down to the Image settings. Users can pick if they want Copilot to use branded images from their organization's library and/or Microsoft 365 images\".</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/bf871a1e-b8a1-4b49-934d-1c2b12035175/96b7dcd2e59d2d4cf95ea04d2914caeb4ac709ed.png\" style=\"width: 500px;\"><br></p><p>The new features will be available by default for admins to configure for their users. With this rollout, Copilot will first use images from your organization library before using Microsoft 365 images as backup. Users have the option to use only on-brand images by turning on the image settings. However, if you do not wish for Copilot to use any Microsoft 365 images when creating a presentation, send an email to <a href=\"mailto://pptentimg_admin@microsoft.com\" target=\"_blank\">pptentimg_admin@microsoft.com</a>. <b>NOTE:</b> Disabling all Microsoft 365 images will severely impact the Copilot output for creating presentations. We recommend considering this option only if you have more than 1,000 images with robust metadata in your image library.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p><i>Learn more</i>\n</p><ul><li><a href=\"https://support.microsoft.com/topic/keep-your-presentation-on-brand-with-copilot-046c23d5-012e-49e0-8579-fe49302959fc\" target=\"_blank\">Keep your presentation on-brand with Copilot - Microsoft Support</a>\n<a href=\"https://learn.microsoft.com/sharepoint/connect-organizational-asset-libraries-to-copilot\" target=\"_blank\"></a> (will be updated before rollout begins)\n</li><li><a href=\"https://learn.microsoft.com/sharepoint/connect-organizational-asset-libraries-to-copilot\" target=\"_blank\">Connect organizational asset libraries to Copilot for an on-brand experience - SharePoint in Microsoft 365 | Microsoft Learn</a>\n</li><li><a href=\"https://learn.microsoft.com/en-us/sharepoint/organization-assets-library\" target=\"_blank\">Create an organization assets library - SharePoint in Microsoft 365 | Microsoft Learn</a></li></ul><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "475055,475064"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot in PowerPoint will soon allow users to create presentations using organizational brand images via SharePoint's organizational asset library or Templafy. Admins can connect these libraries to Copilot, enabling on-brand image use alongside Microsoft 365 images. Rollout starts June 2025; a Copilot license is required."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web, Mac"
+      }
+    ],
+    "EndDateTime": "2025-10-27T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1024405",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T18:52:45.267Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-03-05T23:58:54Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft PowerPoint: Stay on-brand when creating a presentation with Microsoft 365 Copilot",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>If you are an IT admin with questions about managing and updating Windows, we want to help. Every third Thursday of the month, we host a live chat-based event on the Tech Community called Windows Office Hours. Members of the Windows, Microsoft&nbsp;Intune, Windows Autopilot, Windows Autopatch, and Windows 365 engineering teams will be standing by to answer your questions. We also have experts from FastTrack, the Customer Acceleration Team, and Microsoft public sector teams.&nbsp;</div><div><br></div><div>Want to attend the&nbsp;September 18&nbsp;session of Office Hours?&nbsp;<a href=\"https://techcommunity.microsoft.com/t5/s/gxcuf89792/attachments/gxcuf89792/WindowsEvents/6056/1/Windows-Office-Hours-September-18-2025.ics\" rel=\"noopener noreferrer\" target=\"_blank\">Add it to your calendar</a> and select Attend on the <a href=\"https://techcommunity.microsoft.com/event/windowsevents/windows-office-hours-september-18-2025/4426489\" rel=\"noopener noreferrer\" target=\"_blank\">event page</a> to let us know you’re coming.&nbsp;There is no video or live meeting component. Simply visit the event page, log in to the Tech Community, and leave your questions in the Comments section. You can also bookmark&nbsp;<a href=\"https://aka.ms/Windows/OfficeHours\" rel=\"noopener noreferrer\" target=\"_blank\">https://aka.ms/Windows/OfficeHours</a>&nbsp;for upcoming dates (and the ability to add this event to your calendar). We look forward to helping you.</div>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-09-11T16:59:14.293Z",
+    "HasAttachments": false,
+    "Id": "MC1151622",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T16:59:15.353Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-11T16:59:14.373Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Windows Office Hours: September 18, 2025",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 11, 2025: We have updated the timeline. Thank you for your patience.\n</p><p><b>What and Who</b></p><p>To enhance the security and integrity of Microsoft Teams meetings, we are introducing a new feature that validates Teams meeting join URLs. This update helps ensure that meeting links are not altered or rewritten by security products in ways that could render them unusable or flagged as malicious. This is applicable only when user Joins a meeting from Teams old calendar.</p><p><b>Rollout Schedule</b></p><p></p><ul><li><b>Worldwide:</b> September 30, 2025</li>\n<li><b>GCC, GCC High, DoD:</b> November 30, 2025</li>\n</ul>\n\n<p></p><p><b>Impact on Your Organization</b><b><br></b></p><ul><li><b>Who is affected:</b><ul><li>Organizations that use security solutions to inspect or rewrite URLs, as well as users who join Microsoft Teams meetings through the Teams platform, will be affected by this update.</li></ul></li></ul><p><b>What will happen:</b></p><ul><li><b>Users using New Calendar App:<br></b>\n  <ul>\n    <li>For new calendar app in Teams, Meeting joins will not be blocked instead users will be redirected to a outlook safelinks provider and again redirected to the destination rewritten Join url\n</li><li>This feature is enabled by default and does not require admin configuration.\n</li><li>For more information on New calendar in app in Teams follow this link: <a href=\"https://support.microsoft.com/en-us/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5\" target=\"_blank\">https://support.microsoft.com/en-us/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5</a>&nbsp;</li></ul></li></ul><p style=\"margin-left: 50px;\"><b><u>Old Teams Calendar App:</u></b></p><ul></ul><p></p><ul><li>Microsoft Teams will validate join URLs to ensure they have not been modified.</li><li>If a join URL is rewritten or altered by a security product, it may be marked as malicious.\n</li><li>Users will be prevented from joining meetings if URLs are not in their original format.\n</li><li>This feature is enabled by default and does not require admin configuration.\n</li><li>Microsoft's advanced email security platform, including Safe Links (URL inspection/rewriting), will not be impacted by this update.</li><li><b>Safe Links Behavior:</b><ul style=\"\"><li style=\"\">Does not rewrite the URLs behind the “Join Teams meeting” or “Join” buttons.</li><li style=\"\">Only rewrites URLs within the meeting invitation body.\n</li><li style=\"\">Any temporary rewriting (if applied) is removed by Exchange Online upon send/receive.\n</li></ul></li><li><b>Outlook Add-in Behavior\n</b><ul><li>If meeting links are rewritten via Outlook add-ins during meeting creation, there is no impact.\n</li></ul></li><li><b>Potential impact:\n</b><ul><li>This change may affect third-party security services that rewrite both the body URLs and the “Join” button URLs.\n</li></ul></li><li><b>Action required:\n</b><ul style=\"\"><li style=\"\">No action is needed for customers using Safe Links. There is no requirement to add Teams meeting URLs to the Safe Links “allowed list.”\n</li><li style=\"\">For the customer using 3P solutions, they must ensure Teams join links are excluded from rewriting.\n</li><li style=\"\">Compliance Considerations: No compliance considerations identified, review as appropriate for your organization.\n</li></ul></li><li><b><u>Workaround</u>:</b> Switch to New calendar to unblock users from joining the Meeting.</li></ul><p><b>Platforms affected\n</b></p><ul><li>Only Microsoft Teams affected, other platforms like outlook web and win32, outlook mac remain unaffected.</li></ul>\n<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will validate meeting join URLs starting September 30, 2025, to prevent altered or rewritten links from blocking access, affecting users of the old Teams calendar app. The new calendar app redirects safely without blocking. No admin action is needed for Safe Links users; third-party URL rewriting must exclude Teams links."
+      }
+    ],
+    "EndDateTime": "2026-01-12T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1120871",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-09-11T15:40:58.297Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-24T00:28:12Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Important Update: Teams Meeting Join URL Validation",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 11, 2025: This release is intended solely for commercial cloud environments. Separate release timelines will be communicated for special clouds and on-premises segments in dedicated posts.</p><p>We’re introducing the new Microsoft Teams calendar experience, designed to unify and enhance productivity across Microsoft 365. This calendar integrates familiar features with innovations like Microsoft Copilot and Microsoft Places, enabling seamless collaboration from anywhere. It works consistently across Teams, the new Outlook for Windows, Outlook on the web, and Places. As part of this update, the legacy calendar experience will be deprecated, and the toggle to switch between old and new calendars will be removed.</p>\n<p><b>When this will happen</b></p><p></p><p>\n</p><ul>\n<li><b>Public Preview:</b> Early September 2025 – Mid September 2025</li>\n<li><b>Targeted Release:</b> Early September 2025 – Mid-September 2025</li>\n<li><b>General Availability (Worldwide):</b> Mid-September 2025 – End September 2025</li>\n<li><b>General Availability (Gallatin, GCC, GCC High, DoD, USSec):</b> Mid-November 2025 – Late November 2025</li>\n<li><b>General Availability (USNat):</b> Late November 2025 – Early December 2025</li>\n</ul>\n\n<b>How this affects your organization</b><p></p><p>\n</p><p>Once this update is deployed, users accessing the Calendar app in Microsoft Teams will see the new calendar experience by default. The toggle to switch between the old and new calendar will be removed, and only the new Microsoft 365 calendar will be available. This change may impact users accustomed to the legacy calendar interface.</p>\n\n<b>What you can do to prepare</b><p></p><p>\n</p><p>No admin action is required. We recommend informing your users about the upcoming change and updating any internal documentation or training materials that reference the legacy calendar experience.</p>\n<p>For more information about the new calendar experience, visit the <a href=\"https://learn.microsoft.com/microsoftteams/teams-calendar-overview\">Microsoft Teams documentation</a>.</p><p><b>Compliance considerations</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>\n<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is removing the toggle for the legacy calendar, making the new Microsoft 365 calendar the default. This update, launching from September to December 2025 across environments, requires no admin action but users should be informed and documentation updated accordingly."
+      }
+    ],
+    "EndDateTime": "2026-02-02T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1129730",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-09-11T15:38:30.663Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-05T23:18:10Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Remove toggle for Calendar in Teams",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 11, 2025: We have updated the timeline. Thank you for your patience.\n</p><p><b>Introduction</b></p><p>You can now deploy, manage, and measure a frontline worker (FLW) pilot directly from Teams Admin Center. This new capability enables Teams administrators to define pilot users and owners, configure workloads, and monitor adoption—all in one place. It’s designed to help IT admins and business leaders streamline the rollout of Teams features tailored for frontline teams.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&amp;searchterms=498226\" target=\"_blank\">498226</a></p><p>\n</p><p><b>When this will happen\n</b></p><p>Public Preview: Rolling out early November 2025; expected completion by mid-November 2025.\n</p><p>General Availability: Rolling out mid-November 2025; expected completion by late November 2025.</p><p><b>How this affects your organization\n</b></p><p>This feature provides a simplified experience for piloting Teams capabilities for frontline workers. Admins can:\n</p><ul><li>Select and configure workloads such as Chat, Channels, Shifts, Walkie Talkie, Viva Engage, and Tasks.\n</li><li>Assign pilot users and owners.\n</li><li>Share access to the Teams mobile app via QR code.\n</li><li>Monitor adoption and usage insights directly in Teams Admin Center.</li></ul><p><b>What you can do to prepare\n</b></p><p>To prepare for this rollout:\n</p><ul><li>Identify frontline worker pilot participants and the workloads you want to enable.\n</li><li>Review your Teams Admin Center settings to ensure you have the necessary permissions.\n</li><li>Plan communications with pilot users to support adoption.\n</li><li>Learn more: <b>Link to be provided</b>\n</li></ul><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "498226"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Teams Admin Center will soon enable deployment, management, and monitoring of frontline worker pilots, allowing admins to configure workloads, assign users, share app access via QR code, and track adoption. Public preview starts early November 2025, with general availability by late November 2025."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-01-12T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1130395",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-11T14:39:30.943Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-06T23:43:38Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Deploy a frontline worker pilot in Teams Admin Center",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "Release of this feature has been postponed; we will announce a new date in the future.",
       "ContentType": "html"
     },
@@ -46,7 +630,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7300089Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-11T11:02:22.730009Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7300091Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7300093Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1732934Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1732936Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1732938Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1732939Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -143,7 +727,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -1947,7 +2531,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499892\":[{\"RoadmapId\":499892,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7300293Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499892,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7300294Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7300295Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7300297Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7300298Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"499892\":[{\"RoadmapId\":499892,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-12T03:10:15.172629Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499892,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1726293Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1726295Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1726296Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1726297Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -1998,7 +2582,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7297126Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7297132Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7297133Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7297134Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7297135Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1729714Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1729716Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1729718Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1729719Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-12T03:10:15.172972Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -5100,7 +5684,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500634\":[{\"RoadmapId\":500634,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7298516Z\",\"LatestRing\":null},{\"RoadmapId\":500634,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-11T11:02:22.7298518Z\",\"LatestRing\":null}]}"
+        "Value": "{\"500634\":[{\"RoadmapId\":500634,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1732276Z\",\"LatestRing\":null},{\"RoadmapId\":500634,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-12T03:10:15.1732278Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7546,53 +8130,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated August 28, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon to Microsoft Teams: When users connect to their organization's Wi-Fi, Teams can automatically set their work location to reflect the building they are working in. This feature is opt-in and requires you to take action to configure it.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=488800\" target=\"_blank\">488800</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling early October 2025 and expect to complete by mid-October 2025.</p><p><b>How this will affect your organization:</b>\n</p><p>This feature allows you to map Wi-Fi networks and devices to buildings, which allows your users to have their work location automatically configured when they connect. This is a major improvement over the current experience which relies on end-users to manually set their work location. When this feature is configured and enabled, Teams can automatically update the work location of users who connect their laptop to your organization's Wi-Fi network or peripherals. The feature can leverage the mapping between your building names and your Wi-Fi networks to set the work location of your users to the right building. It can also leverage mappings to&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/rooms/bookable-desks\" target=\"_blank\">specific peripherals</a>, such as monitors. Teams uses the same policy to enable or disable automatic updates of work location for Wi-Fi and peripherals. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/teams/new-csteamsworklocationdetectionpolicy\" target=\"_blank\">New-CsTeamsWorkLocationDetectionPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn</a></p><p>Teams will not update the location of your users if they connect after their working hours (that they can configure in the Microsoft Outlook Calendar). Also, their work location will be cleared at the end of their working hours.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><p>Automatic update of work location is off by default, but it can greatly improve the experience of your users. We recommend turning it on and configuring it in your tenant.\n</p><p>Before rollout, we will update this post with new documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "488800"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will soon auto-set users' work location by detecting their organization's Wi-Fi or peripherals, improving over manual setting. This opt-in feature, rolling out worldwide in October 2025, updates locations only during working hours and requires admin configuration to enable."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-11-24T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1081568",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-28T16:04:57.43Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-23T23:15:29Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Automatically set work location by connecting to a Wi-Fi network",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<b>Update:</b>Release of this feature has been postponed, we will announce a new date in the future.\n<br><br>\nWe are announcing the ability to enable time phasing of quote and contract lines in Dynamics 365 Project Operations. This feature will reach general availability on September 30, 2025.<br><br> \n\n<b>How does this affect me? </b><br> \n\nWith this feature, correct sales and cost prices in quotes and contracts are automatically updated based on the effective date. This automation reduces the manual work needed to track and update prices. It also lowers the risk of errors and discrepancies in pricing. <br><br> \nThe feature also enables you to keep a detailed audit trail of all changes made to quotes and contracts. This audit trail provides full transparency and traceability, for increased accuracy of pricing information. \n\nYou can view exact totals at any point in time, showing all current and historical pricing data.<br><br> \n\n<b>What action do I need to take? </b><br> \nThis message is for awareness, and no action is required. <br><br> \n\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/11703/enable-time-phasing-quote-contract-lines\" target=\"_blank\">Enable time phasing of quote and contract lines</a>.",
       "ContentType": "html"
     },
@@ -9181,53 +9718,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated August 27, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction\n</b></p><p>You can now deploy, manage, and measure a frontline worker (FLW) pilot directly from Teams Admin Center. This new capability enables Teams administrators to define pilot users and owners, configure workloads, and monitor adoption—all in one place. It’s designed to help IT admins and business leaders streamline the rollout of Teams features tailored for frontline teams.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&amp;searchterms=498226\" target=\"_blank\">498226</a></p><p>\n</p><p><b>When this will happen\n</b></p><p>Public Preview: Rolling out early October 2025; expected completion by mid-October 2025.\n</p><p>General Availability: Rolling out mid-October 2025; expected completion by late October 2025.</p><p><b>How this affects your organization\n</b></p><p>This feature provides a simplified experience for piloting Teams capabilities for frontline workers. Admins can:\n</p><ul><li>Select and configure workloads such as Chat, Channels, Shifts, Walkie Talkie, Viva Engage, and Tasks.\n</li><li>Assign pilot users and owners.\n</li><li>Share access to the Teams mobile app via QR code.\n</li><li>Monitor adoption and usage insights directly in Teams Admin Center.</li></ul><p><b>What you can do to prepare\n</b></p><p>To prepare for this rollout:\n</p><ul><li>Identify frontline worker pilot participants and the workloads you want to enable.\n</li><li>Review your Teams Admin Center settings to ensure you have the necessary permissions.\n</li><li>Plan communications with pilot users to support adoption.\n</li><li>Learn more: <b>Link to be provided</b>\n</li></ul><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "498226"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting October 2025, Teams Admin Center will enable admins to deploy and manage frontline worker pilots, configure workloads, assign users, share app access via QR code, and monitor adoption. This streamlines Teams feature rollouts for frontline teams with no identified compliance concerns."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-12-08T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1130395",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-27T14:00:37.5Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-06T23:43:38Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Deploy a frontline worker pilot in Teams Admin Center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated August 27, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon: Users can share Microsoft Teams apps or agents from the app or agent profile and from the app side panel in Teams.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop and Teams on the web.\n</p><p>A Microsoft 365 Copilot license is not required to share agents as described in this message. If a user has access to the agents, the users will be able to share them.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=483355\" target=\"_blank\">483355</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out mid-October 2025 and expect to complete by late October 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out early November 2025 and expect to complete by late November 2025</p><p> \n<b>How this will affect your organization:</b>\n</p><p>After this rollout:\n</p><ul><li>Users can select the <i>Share </i>option when hovering on the app or agent icon in 1:1 chat mode with the app or agent.\n</li><li>After a user selects the <i>+Apps</i> icon from the three-dot menu in the top right of any chat, the user can right-click to share the app or agent.</li></ul><p>Share option from hovering on app/agent icon:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/8c967284-fc8a-4e09-a963-5136568596ad\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>Sharing from right panel:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3b30533e-d6d9-41ff-b33b-164dc9962ee1\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>This change will be on by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.</p>",
       "ContentType": "html"
     },
@@ -10331,44 +10821,6 @@
       "User impact"
     ],
     "Title": "Microsoft Copilot in PowerPoint: Reference Loop components when creating presentations",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 22, 2025: After further review, this has been delayed to a later date. We apologize for any inconvenience.</p><p><b>Introduction</b></p><p>We're enhancing the quarantine experience in Microsoft Defender and Exchange Online to improve visibility and control over items that have been temporarily deleted. With this update, users will be able to view and restore messages that were previously removed from the quarantine view but still exist in the system.</p><p><b>When this will happen</b></p><ul><li>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.&nbsp;</li><li>General Availability (GCC, GCC High, DoD): We will communicate via Message center when we are ready to proceed.</li></ul><p><b>How this affects your organization</b></p><p>Users in both Microsoft Defender and Exchange Online quarantine portals will gain the ability to:</p><ul><li>View messages that were temporarily deleted from quarantine using the new Temporarily deleted filter under Release Status.</li><li>Restore these messages back to the quarantine view using the new Restore temporarily deleted option.</li></ul><p>Messages that have been permanently deleted will remain inaccessible. This feature is on by default and applies only to temporarily deleted items.</p><p><b>What you can do to prepare</b></p><ul><li>Inform users about the new filter and restore option to reduce confusion and potential help desk calls.</li><li>Update internal documentation or training materials to reflect the new functionality.</li><li>Monitor user feedback and usage to determine if additional guidance or support is needed.</li></ul><p>No configuration changes are required to enable this feature.</p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "The update to Microsoft Defender and Exchange Online quarantine will allow users to view and restore temporarily deleted messages via a new filter and restore option. The release has been delayed, no configuration is needed, and permanently deleted messages remain inaccessible. Users should be informed and documentation updated."
-      }
-    ],
-    "EndDateTime": "2025-10-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1134736",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-22T18:39:13.903Z",
-    "Services": [
-      "Exchange Online",
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-13T23:09:13Z",
-    "Tags": [
-      "Updated message",
-      "Feature update"
-    ],
-    "Title": "Quarantine experience update in Microsoft Defender and Exchange Online: Restore temporarily deleted items",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -12385,45 +12837,6 @@
       "New feature"
     ],
     "Title": "Power Platform – Public Preview of the Alerts feature in Power Platform Monitor",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 18, 2025: We have updated this message with additional information to clarify the Meeting joins experience. Thank you for your patience.</p><p><b>What and Who</b></p><p></p><p>To enhance the security and integrity of Microsoft Teams meetings, we are introducing a new feature that validates Teams meeting join URLs. This update helps ensure that meeting links are not altered or rewritten by security products in ways that could render them unusable or flagged as malicious.\n\n</p><p><b>Rollout Schedule</b></p><p></p><ul><li><b>Worldwide:</b> September 30, 2025</li>\n<li><b>GCC, GCC High, DoD:</b> November 30, 2025</li>\n</ul>\n\n<p></p><p><b>Impact on Your Organization</b><b><br></b></p><ul><li><b>Who is affected:</b> <ul><li>o\tOrganizations using security products that inspect or rewrite URLs, and users who join Microsoft Teams meetings via meeting links.</li></ul></li></ul><p></p><ul>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Microsoft Teams will validate join URLs to ensure they have not been modified.\n</li><li>If a join URL is rewritten or altered by a security product, it may be marked as malicious.\n</li><li>Users may be prevented from joining meetings if URLs are not in their original format.\n</li><li>This feature is enabled by default and does not require admin configuration.</li></ul></li></ul><p>Note: Meeting joins will only be blocked if the join links are re-written in the calendar event details (Join URL). If the links are only re-written in the meeting description (or meeting body), it won’t impact the ability to join.</p><p>Microsoft's advanced email security platform, including <b>Safe Links</b> (URL inspection/rewriting), will not be impacted by this update.\n</p><p>Safe Links behavior:\n</p><ul><li>Does not rewrite the URLs behind the “Join Teams meeting” or “Join” buttons.</li><li>Only rewrites URLs within the meeting invitation body.</li><li>Any temporary rewriting (if applied) is removed by Exchange Online upon send/receive.</li></ul><p>Outlook Add-in Behavior\n</p><ul><li>If meeting links are rewritten via Outlook add-ins during meeting creation, there is <b>no impact</b>.\n</li></ul><p>Potential impact:\n</p><ul><li>This change may affect <b>third-party security services</b> that rewrite both the body URLs and the “Join” button URLs.\n</li></ul><p><b>Action required:\n</b></p><ul><li>No action is needed for customers using Safe Links. There is no requirement to add Teams meeting URLs to the Safe Links “allowed list.”\n</li><li>For the customer using 3P solutions, they must ensure Teams join links are excluded from rewriting.\n</li></ul><p><b>Compliance Considerations</b>: No compliance considerations identified, review as appropriate for your organization.\n</p><p><br></p>\n<p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will validate meeting join URLs starting September 30, 2025 (November 30 for GCC/DoD) to prevent altered links from being blocked. Safe Links and Outlook add-ins are unaffected. Organizations using third-party URL rewriting must exclude Teams join links to avoid join issues. No admin action needed for Safe Links users."
-      }
-    ],
-    "EndDateTime": "2026-01-12T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1120871",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-08-18T15:29:54.04Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-24T00:28:12Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Important Update: Teams Meeting Join URL Validation",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -15207,37 +15620,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to debug desktop flows using step over and step out in Power Automate. This feature will reach general availability on September 10, 2025.<br><br><b>How does this affect me?</b><br>Users can enable this feature from the <b>Tools</b> menu while in the designer within Power Automate for desktop. Once enabled, new buttons for the following functionality will appear in the debugger toolbar.<ul><li>Step over: This allows users to skip sub-flows without entering them so they can focus on the main logic of the flow.</li><li>Step out: This allows users to quickly exit a sub-flow and return to the parent flow when reviewing nested logic or skipping known sections.</li></ul><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>If you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/ADO11708\">Debug desktop flows using step over and step out</a> learn article.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-09-11T20:28:10Z",
-    "HasAttachments": false,
-    "Id": "MC1133391",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-11T20:28:47.95Z",
-    "Services": [
-      "Microsoft Power Automate"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-11T20:28:10Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Automate - Debug desktop flows using step over and step out",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated August 11, 2025: We have updated the timeline. Thank you for your patience.</p><p>We're introducing a new delegation capability in Microsoft Viva Pulse to support executive assistants, chiefs of staff, and other designated roles who act on behalf of organizational leaders. Starting mid-August 2025 (previously mid-July), users will be able to assign delegates to manage the Pulse survey lifecycle on their behalf—helping streamline feedback collection and analysis.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=479753\" target=\"_blank\">479753</a></p><p>\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): Rollout begins mid-August 2025 (previously mid-July).\n</p><p><b>How this will affect your organization:</b>\n</p><p>Delegation will be enabled by default. This feature allows a user (the delegator) to authorize another user (the delegate) to create, send, and manage Pulse surveys. Delegators retain full visibility and ownership of all activity.\n</p><p>Admins can manage delegation settings at the tenant, group (via Microsoft Entra ID or Microsoft 365 groups), or individual user level using centralized feature access management.\n</p><p>Delegates will be able to:\n</p><ul><li>Create and send Pulses on behalf of the delegator. Recipients will see that the Pulse was sent on their behalf.\n</li><li>View all Pulses (sent or drafted) and Pulse reports.\n</li></ul><p>Delegates will not be able to:\n</p><ul><li>View or respond to confidential conversations.\n</li><li>Share Pulse reports.\n</li></ul><p><b>What you can do to prepare:</b>\n</p><p>No admin action is required before rollout. However, we recommend:\n</p><ul><li>Reviewing your current configuration to assess impact.\n</li><li>Notifying users and updating internal documentation.\n</li><li>Managing delegation policies in the Microsoft 365 admin center or via PowerShell using the <code>FeatureID</code> value <code>PulseDelegation</code>.\n</li></ul><p>Learn more:\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/viva/feature-access-management\" target=\"_blank\">Microsoft Viva - Feature access management | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/en-us/Viva/control-access-admin-center\" target=\"_blank\">Control who can access features in Microsoft 365 using the Microsoft 365 admin center</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/Viva/manage-access-policies\" target=\"_blank\">Control access to features in Microsoft 365 using PowerShell</a></li></ul><p>We’ll update this post with setup documentation before rollout completes.</p><p><b>Compliance considerations:</b></p><ul><li>Changes to data processing/storage/access: Yes - Delegates gain access to Pulse survey content and reports on behalf of the delegator.</li></ul>",
       "ContentType": "html"
     },
@@ -16064,52 +16446,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We’re introducing <b>Immersive Search</b>, a new experience across Outlook for Web, Mac, iOS, Android, and the new Outlook for Windows. After performing a search, users will see an entry point to the Microsoft Copilot side pane, which presents a highly relevant, AI-generated summary based on their query. This summary includes content from emails, Teams messages, and documents—helping users quickly understand and act on their information.\n</p><p>This feature uses Microsoft 365 Copilot with an Outlook-specific experience and is available only to tenants with Copilot licenses.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498319\" target=\"_blank\">498319</a>.</p><p><b>When this will happen</b></p><p><ul><li><b>General Availability (Worldwide):</b> We will begin rolling out in early September and expect to complete by late September 2025.</li></ul></p><p><b>How this will affect your organization</b></p><p>Once rolled out, users will see a new entry point to the Copilot side pane after executing a search in Outlook. This pane surfaces AI-generated summaries, improving productivity and reducing time spent navigating search results.</p><p><i>Copilot side pane in Outlook search results:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/637e0f0a-ec4a-4ed7-bbf9-bac01707af2f/1c37dbf805f887009b8835de52b7be13a2ecd93e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p>\n</p><p>Key details:</p><ul><li>The Copilot side pane appears only after a user performs a search and selects the entry point on the search results page (SERP).\n</li><li>Summaries include all content supported by Microsoft 365 Copilot, such as indexed emails, Teams messages, attachments, and shared files from OneDrive or SharePoint.\n</li><li>This feature is <b>on by default </b>and <b>does not require admin configuration</b>.</li><li>There are no changes to existing DLP, eDiscovery, or retention policies.\n</li><li>Admins cannot control access to this feature via policy settings or Entra ID group membership.\n</li><li>There is currently no setting in the Microsoft 365 admin center or Outlook user settings to manage or disable this experience.\n</li><li>There is no way to monitor or audit usage of this feature through Microsoft Purview or Microsoft 365 audit logs.</li></ul><p><b>What you can do to prepare\n</b></p><p>No action is required at this time. However, we recommend informing users about this new experience to reduce confusion and help desk inquiries.\n</p><p>You may also want to review your organization's Copilot licensing and ensure users are aware of how to use the Copilot side pane effectively.</p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does this change store new customer data?</td><td>AI-generated summaries may be temporarily cached to improve performance, but they are not permanently stored.</td></tr><tr><td>Does this change alter how existing customer data is processed, stored, or accessed?&nbsp;</td><td>Emails, Teams messages, and documents are processed by large language models (LLMs) to generate summaries based on user search queries.</td></tr><tr><td>Does this change introduce or significantly modify AI or machine learning capabilities that interact with customer data?</td><td>This feature introduces generative AI capabilities that analyze and summarize user content across Outlook and connected Microsoft 365 services.</td></tr><tr><td>Does this change provide end users with a new way of interacting with generative AI?</td><td>Users can interact with Copilot summaries directly in the Outlook interface after performing a search.</td></tr></tbody></table><p>\n</p><p>\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "498319"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Outlook introduces Immersive Search with a Copilot side pane across platforms, providing AI-generated summaries from emails, Teams, and documents after searches. Available to Copilot-licensed tenants, it rolls out worldwide by late September 2025, requires no admin setup, and enhances productivity without changing data policies."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2025-10-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1130610",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-07T06:35:39.153Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-07T06:34:24Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Outlook: Enhanced search experience with Copilot across Web, Mac, and Mobile",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction</b></p><p>Starting September 9, 2025, we will begin retiring the<b> ‘Mobile devices’ </b>page from the Settings module in <b>Outlook Web Access</b> and <b>new Outlook</b>. This change simplifies device management and aligns with modern tools that offer more robust controls for administrators and end users.</p><p><b>When this will happen</b></p><ul><li>Start: September 9, 2025\n</li><li>Complete: October 9, 2025</li></ul><p><b>How this will affect your organization</b></p><p>After this change, users will no longer be able to manage mobile device connections to their Microsoft 365 Exchange mailbox directly from Outlook Web Access or new Outlook. Instead, they should use one of the following supported alternatives:</p><ul><li><b>Microsoft Intune (Endpoint Manager): </b>For administrators to monitor, enforce policies, and remotely wipe devices.&nbsp;</li><li><b>My Account portal: </b>For users to view and manage their connected devices.</li><li><b>iOS and Android native tools:</b> For remote wipe capabilities in case of lost or stolen devices.</li></ul><p><b>What you need to do to prepare</b></p><p>No admin action is required. This change will roll out automatically. We recommend:\n</p><ul><li>Informing your users about the upcoming change.\n</li><li>Updating internal documentation.\n</li><li>Sharing the alternative device management options listed above.\n</li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://support.microsoft.com/office/mobile-devices-options-in-outlook-on-the-web-7d5efe71-511f-42fa-b068-e3714a25b3cb\" target=\"_blank\">Mobile devices options in Outlook on the web | Microsoft Support</a>&nbsp;(Article will be updated once this change takes effect.)</li><li><a href=\"https://learn.microsoft.com/intune/intune-service/fundamentals/manage-devices\" target=\"_blank\">Learn about managing and securing your devices in Microsoft Intune | Microsoft Learn</a></li><li><a href=\"https://support.microsoft.com/account-billing/manage-your-work-or-school-account-connected-devices-from-the-devices-page-6b5a735d-0a7f-4e94-8cfd-f5da6bc13d4e\" target=\"_blank\">Manage your work or school account connected devices from the Devices page | Microsoft Support</a></li><li><a href=\"https://support.apple.com/guide/icloud/erase-a-device-mmfc0ef36f/icloud\" target=\"_blank\">Erase a device in Find Devices on iCloud.com | iCloud User Guide | Apple Support</a></li><li><a href=\"https://support.google.com/accounts/answer/6160491\" target=\"_blank\">Find, secure, or erase a lost Android device | Google Support</a></li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -16538,44 +16874,6 @@
       "Admin impact"
     ],
     "Title": "Introduction of secure workflow to bypass retention/legal holds on OneDrive and SharePoint",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><p>We’re introducing the new Microsoft Teams calendar experience, designed to unify and enhance productivity across Microsoft 365. This calendar integrates familiar features with innovations like Microsoft Copilot and Microsoft Places, enabling seamless collaboration from anywhere. It works consistently across Teams, the new Outlook for Windows, Outlook on the web, and Places. As part of this update, the legacy calendar experience will be deprecated, and the toggle to switch between old and new calendars will be removed.</p>\n<p><b>When this will happen</b></p></p><p>\n<ul>\n<li><b>Public Preview:</b> Early September 2025 – Mid September 2025</li>\n<li><b>Targeted Release:</b> Early September 2025 – Mid-September 2025</li>\n<li><b>General Availability (Worldwide):</b> Mid-September 2025 – End September 2025</li>\n<li><b>General Availability (Gallatin, GCC, GCC High, DoD, USSec):</b> Mid-November 2025 – Late November 2025</li>\n<li><b>General Availability (USNat):</b> Late November 2025 – Early December 2025</li>\n</ul>\n\n<b>How this affects your organization</b></p><p>\n<p>Once this update is deployed, users accessing the Calendar app in Microsoft Teams will see the new calendar experience by default. The toggle to switch between the old and new calendar will be removed, and only the new Microsoft 365 calendar will be available. This change may impact users accustomed to the legacy calendar interface.</p>\n\n<b>What you can do to prepare</b></p><p>\n<p>No admin action is required. We recommend informing your users about the upcoming change and updating any internal documentation or training materials that reference the legacy calendar experience.</p>\n<p>For more information about the new calendar experience, visit the <a href=\"https://learn.microsoft.com/microsoftteams/teams-calendar-overview\">Microsoft Teams documentation</a>.</p><p><b>Compliance considerations</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will remove the toggle for the legacy calendar, making the new integrated Microsoft 365 calendar the default. This update rolls out from September to December 2025 across various environments. No admin action is needed, but users should be informed and documentation updated accordingly."
-      }
-    ],
-    "EndDateTime": "2026-02-02T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1129730",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-08-05T23:18:34.627Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-05T23:18:10Z",
-    "Tags": [
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Remove toggle for Calendar in Teams",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,

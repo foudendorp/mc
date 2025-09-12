@@ -1,0 +1,36 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>In mid-October 2025, the export of the <a href=\"https://learn.microsoft.com/intune/intune-service/apps/powershell-scripts#monitor-run-status\" target=\"_blank\">Device status report</a> for Platform scripts <i>(Devices &gt; Scripts and remediations &gt; Platform scripts &gt; select a script &gt; Device status)</i> from the Intune admin center will change to match the Intune Export API format. Field names in the exported report will align with the properties documented in <a href=\"https://learn.microsoft.com/intune/intune-service/fundamentals/reports-export-graph-available-reports\" target=\"_blank\">Intune reports and properties available using Graph API</a>.</p><p><b>How this will affect your organization:</b>\n</p><p>If you rely on the export of the Device status report for Platform scripts from the Intune admin center, you will see the following updated field names:</p><ul><li>Device name &gt; DeviceName\n</li><li>User name &gt; UserName\n</li><li>OS Version &gt; OSVersion\n</li><li>Status &gt; RunState\n</li><li>Last Updated &gt; ModifiedTime\n</li><li>Result &gt; PolicyResultDetail (macOS only)\n</li></ul><p><b>Note:</b> This change does not affect any automation or reporting that already uses the Intune Export API.</p><p><b>What you need to do to prepare:</b>\n</p><p>Update your documentation and reporting as needed. Otherwise, no action is required, only awareness.</p>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "In mid-October 2025, the Device Status report export for Platform scripts in Intune will update field names to match the Intune Export API format. Users should update documentation and reporting accordingly; no changes affect existing API-based automation or reporting."
+    }
+  ],
+  "EndDateTime": "2025-11-11T08:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1151687",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-09-11T22:21:24.067Z",
+  "Services": [
+    "Microsoft Intune"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-09-11T22:20:29Z",
+  "Tags": [
+    "Admin impact"
+  ],
+  "Title": "Update to the export of the Device Status report for Platform scripts",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
