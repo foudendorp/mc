@@ -4,6 +4,138 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<div>Windows Management Instrumentation Command-line (WMIC) tool will be removed when upgrading to Windows 11, version 25H2. All later releases for Windows 11 will not include WMIC added by default. Microsoft recommends using PowerShell and other modern tools for any tasks previously done with WMIC. Note: Windows Management Instrumentation (WMI) itself remains part of Windows.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><ul><li>A new installation of Windows 11, version 24H2 already has WMIC removed by default (it’s only installable as an <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/how-to-install-wmic-feature-on-demand-on-windows-11/4189530\" rel=\"noopener noreferrer\" target=\"_blank\">optional feature</a>).&nbsp;</li><li>WMIC will be removed from Windows 11, version 25H2 and later.&nbsp;</li></ul><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>You may continue using <a href=\"https://learn.microsoft.com/windows/win32/wmisdk/wmi-start-page\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Management Instrumentation (WMI)</a>. However, WMIC will be removed as an outdated component, streamlining Windows without losing any management capabilities in Windows. By preparing now, you can help ensure a smooth transition in Windows.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Microsoft recommends using PowerShell and other modern tools for any tasks previously done with WMIC. For example, to return a list of process names, replace the following WMIC query: wmic path win32_process get Name. Use the PowerShell command instead: Get-CimInstance Win32_Process | Select-Object Name. Additionally, you can consider programmatic alternatives such as WMI’s COM API, .NET libraries, or scripting languages. Once you decide on your way forward, please update your internal IT documentation and processes.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Get more context and mitigation guidance at <a href=\"https://support.microsoft.com/topic/windows-management-instrumentation-command-line-wmic-removal-from-windows-e9e83c7f-4992-477f-ba1d-96f694b8665d\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Management Instrumentation Command-line (WMIC) removal from Windows</a>.</li><li>Learn about <a href=\"https://learn.microsoft.com/windows/win32/wmisdk/wmic\" rel=\"noopener noreferrer\" target=\"_blank\">WMI command-line (WMIC) utility</a>.</li><li>Transition to <a href=\"https://learn.microsoft.com/powershell/scripting/learn/ps101/07-working-with-wmi?view=powershell-7.5\" rel=\"noopener noreferrer\" target=\"_blank\">WMI in PowerShell</a>.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-09-15T21:00:40.32Z",
+    "HasAttachments": false,
+    "Id": "MC1153657",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-15T21:00:41.387Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-15T21:00:40.38Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Windows Management Instrumentation Command-line (WMIC) removal from Windows",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>Connecting PCs to mobile data is now simpler. The Mobile Plans app will be retired in February 2026. Instead, please use your web browser and the Windows Settings app. The web-based experience is available from your mobile operator’s portal for purchasing and activating your cellular data plans. From Windows Settings, you can consent to securely sharing your device data with your mobile operator and thus allow automatic provisioning of your eSIM and instant download and use of cellular data.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><ul><li>The new web-based experience is rolling out over the coming months through Windows updates.&nbsp;</li><li>February 27, 2026: The Mobile Plans app will be retired.&nbsp;</li></ul><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>For most Windows users, this change should be convenient: connecting devices to a mobile network should be as easy as buying something online. You won’t need an extra app, such as the Mobile Plans app. If you represent a mobile operator, anticipate transitioning to the new model if you haven’t yet.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Windows users that already have an active mobile plan don’t need to take any action. For future purchasing and management decisions, please use your mobile operator’s web portal and <b>Windows Settings</b> &gt; <b>Network &amp; internet</b> &gt; <b>Cellular</b> &gt; <b>eSIM profiles</b>.&nbsp;</div><div>&nbsp;</div><div>Mobile operators can embed <em>lpa:</em> URIs into their webpage or emails to trigger eSIM profile downloads as part of web purchases.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Learn about what this means to users and mobile operators at <a href=\"https://techcommunity.microsoft.com/blog/windowsosplatform/mobile-plans-moves-to-the-web/4448815\" rel=\"noopener noreferrer\" target=\"_blank\">Mobile Plans moves to the web</a>.&nbsp;</li><li>Keep an eye on the official <a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information\" rel=\"noopener noreferrer\" target=\"_blank\">Windows release notes</a> and your carrier’s communications for announcements of support for the new eSIM activation flow.&nbsp;</li><li>Mobile operators can <a href=\"https://learn.microsoft.com/windows-hardware/drivers/mobilebroadband/activate-by-link\" rel=\"noopener noreferrer\" target=\"_blank\">Use a QR code or URI link to download an eSIM profile - Windows drivers.</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-09-15T16:59:18.923Z",
+    "HasAttachments": false,
+    "Id": "MC1153559",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-15T16:59:20.603Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-15T16:59:18.97Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Mobile Plans moves to the web",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to build multistage approvals in Microsoft Copilot Studio. This feature reached public preview in May 2025 and will reach general availability on October 15, 2025.<br><br><b>How does this affect me?</b><br>With multistage approvals, you can create approval workflows that match your organization's structure and business processes. The main features of advanced approvals include <b>Multi-stage approvals</b> and <b>Conditions/Conditional approvals</b>.<ul><li><b>Multi-stage approvals</b>: Users configure multiple stages to set up complex approval processes. Each stage has its own set of stakeholders who make approval decisions. Stages can be configured separately to meet the specific needs of stakeholders.</li><li><b>Conditions/Conditional approvals</b>: Users add conditions between stages to create adaptable and efficient approval processes. Approvals are automatically approved, rejected, moved to another stage, or skipped based on whether specific conditions are met.</li></ul><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>If you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/ADO11861\">Build multistage approvals</a> learn article.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-10-15T13:48:18Z",
+    "HasAttachments": false,
+    "Id": "MC1153440",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-15T13:48:52.54Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-15T13:48:18Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Microsoft Copilot Studio – Build multistage approvals",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 15, 2025: We have updated the content. Thank you for your patience.</p><p><b>Introduction</b></p><p>Upcoming privacy-related changes in Chromium-based browsers (Google Chrome and Microsoft Edge) will increase restrictions on local network access. When enforcement begins, users accessing OneDrive for Web (and some integrated Microsoft 365 experiences such as Microsoft Lists and SharePoint Document Libraries) will encounter a browser permission prompt for local network access unless the required policy is in place. If the permission is not allowed, performance optimizations and <a href=\"https://support.microsoft.com/office/work-with-onedrive-web-app-when-offline-05d1865d-8694-4c0a-8e46-28ccb8c58b37\" target=\"_blank\">offline capabilities</a> powered by OneDrive and Share Point will not be available. This communication provides required administrator actions to prevent loss of functionality.</p><p><b>When this will happen:</b></p><p>Chrome and Edge will roll out this privacy related change as part of Chromium 141 at the end of September.</p><p><b>How this will affect your organization:</b></p><p>If no action is taken:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/21ee30ec-4b41-4b77-b7ec-1357c0d6655b/f68733390ed59585964ce46d5e73e73e375a4d0d.png\" style=\"width: 25%;\"><br></p><p>\n</p><ol>\n<li><b>Who is affected:</b><ul><li>All users accessing OneDrive for Web, Microsoft Lists, and SharePoint Document Libraries via Chrome or Edge browsers.</li><li>Admins managing browser policies for Windows, macOS, and VDI environments.</li></ul></li>\n<li><b>What will happen:</b>\n\n<p></p><p>If no action is taken:\n</p><ul><li>Users will see a new browser prompt requesting permission for local network access when opening OneDrive for Web and Lists.</li><li>If users do not click <i>Allow</i>, the following results occur on that device:<ul><li>Performance acceleration will not be available (loss of faster data access behavior).</li><li>Offline functionality in OneDrive Web will not be available.</li></ul></li><li>The experience will be slower and less resilient, and helpdesk contacts will increase due to unexpected prompts and missing offline capability.</li></ul><p>When the recommended browser policy is deployed in advance, the prompt is suppressed for the specified trusted Microsoft 365 endpoints and existing performance, and offline behavior are preserved. The policy prevents loss of existing capability and avoids user confusion.</p><p><b>What you need to do to prepare:</b>\n</p><ol><li>Identify Required Domains<ol><li>Include your organization’s SharePoint Online and OneDrive endpoints, for example: https://YOURTENANT-my.sharepoint.com or https://YOURTENANT.sharepoint.com</li><li>Add additional sanctioned SharePoint Online host variations if applicable (e.g., specialized cloud environments). Avoid overly broad wildcards—conform to internal security governance.</li></ol></li><li>Configure Browser Policy<ol><li>Set the Chromium policy <code>LocalNetworkAccessAllowedForUrls</code>&nbsp;(<a href=\"https://chromeenterprise.google/policies/#LocalNetworkAccessAllowedForUrls\" target=\"_blank\">Chrome Enterprise</a>&nbsp;/ <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/localnetworkaccessallowedforurls\" target=\"_blank\">Edge policy</a>) to pre-authorize the listed domains.</li><li>Apply via: ADMX / JSON for Windows; plist or configuration profile for macOS (Chrome and Edge).</li><li>Roll out to all managed device groups (Windows, macOS, VDI as applicable).</li><li>Even if the following policies are currently enabled by policy, deploy the allow-list to prevent future prompts and avoid user confusion.<ol><li><code>DisableNucleusSync</code></li><li><code>DisableOfflineMode</code></li></ol></li></ol></li><li>Remediation for Users Who Already Clicked <i>Block</i><ol><li>Deploying the managed <code>LocalNetworkAccessAllowedForUrls</code>&nbsp;policy will override any prior per-user deny state and enforce the allow setting once the policy is applied to the device/profile; no end-user action is required after policy propagation.</li><li>If you need immediate remediation before policy reaches the device, have the user open the affected OneDrive site, use the site (lock) icon, reset or change the local/network device access permission to <i>Allow</i>, then refresh.</li></ol></li><li>Ensure your Sync Client is updated to v.25.164</li></ol></li></ol><p style=\"margin-left: 125px;\">1. <b>Per machine SKU</b>: The Sync client will automatically apply the required permissions and policies for existing users in Chrome and Edge—no user action is needed.</p><ol></ol><p></p><p style=\"margin-left: 125px;\">2. <b>Per user SKU</b>: The Sync client will prompt users via a Windows Toast notification to enable these permissions. Users should follow the notification instructions to complete setup.</p>\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>Alters how existing customer data is accessed</td><td>Local network access impacts how OneDrive and SharePoint optimize performance and offline access to cached data.</td></tr>\n<tr><td>Includes admin control</td><td><p>Admins can configure the <code>LocalNetworkAccessAllowedForUrls</code> policy and deploy it via group policy or configuration profiles.</p></td></tr>\n<tr><td>Can be controlled through Entra ID group membership</td><td>Policy deployment can be scoped to device groups managed via Entra ID.</td></tr>\n<tr><td>Allows user to enable/disable feature</td><td>Users can manually allow or block local network access via browser prompts if policy is not enforced.</td></tr>\n\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "preventOrFixIssue",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Chromium browsers will restrict local network access, causing OneDrive, SharePoint, and Microsoft Lists web apps to prompt users for permission. Without admin-configured browser policies allowing trusted Microsoft 365 domains, users will lose performance and offline capabilities. Admins must deploy the LocalNetworkAccessAllowedForUrls policy before Chromium 141 rollout in late September."
+      }
+    ],
+    "EndDateTime": "2025-12-01T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1150662",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-15T13:12:52.783Z",
+    "Services": [
+      "SharePoint Online",
+      "Microsoft OneDrive"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-09T23:08:28Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Action Required – Configure Browser Policy to Preserve OneDrive and SharePoint Web Performance and Offline Capability",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b>Introduction</b></p><p>Starting in October 2025, Microsoft will begin automatically installing the Microsoft 365 Copilot app on Windows devices that have Microsoft 365 desktop client apps. This app provides a centralized entry point for accessing Copilot experiences and AI-powered capabilities across Microsoft 365. This change simplifies access to Copilot and ensures users can easily discover and engage with productivity-enhancing features.</p><p><b>When this will happen</b></p><p>Rollout begins in early October 2025 and completes mid-November 2025</p><p><b>How this affects your organization</b></p><p><b>Who is affected:</b></p><ul><li>Organizations with Windows devices running Microsoft 365 desktop client apps</li><li>Customers outside the European Economic Area (EEA) (EEA customers are excluded)</li><li>Admins responsible for managing Microsoft 365 Apps deployments</li><li>Users on eligible devices who will see the Microsoft 365 Copilot app appear in their <i>Start menu</i></li></ul><p><b>What will happen:</b></p><ul><li>The Microsoft 365 Copilot app will be <b>automatically installed</b> on Windows devices that have Microsoft 365 desktop apps, unless administrators opt out.</li><li>The app will appear in the <i>Start menu</i> as a new entry point for accessing Copilot experiences across Microsoft 365.</li><li>On devices where the app is already installed, no visible change will occur.</li><li>The app installation is <b>enabled by default</b> and does not require user interaction.</li><li>This change does not apply to customers in the European Economic Area (EEA).</li></ul><p><b>What you can do to prepare</b></p><p><b>Admin Actions</b></p><ul><li>Review the <a href=\"https://go.microsoft.com/fwlink/?linkid=2327914\" target=\"_blank\">documentation</a>&nbsp;for more details and instructions on how to manage this.</li><li>You can opt out of the installation in the Microsoft 365 Apps Admin Center.&nbsp;</li><li>Consider notifying helpdesk and users to reduce confusion and support requests.</li><li>Update internal documentation if you reference installed apps or Copilot access points.</li></ul><p><b>User Impact</b></p><ul><li>Users may see a new app icon for Microsoft 365 Copilot in the <i>Start menu.</i></li><li>On many devices, the app may already be installed, resulting in no visible change</li></ul><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p>\n</p>",
       "ContentType": "html"
     },
@@ -1405,7 +1537,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7664237Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7664238Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7664239Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-15T11:02:35.766424Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5766541Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5766542Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5766543Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5766544Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -2441,44 +2573,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction</b></p><p>Upcoming privacy-related changes in Chromium-based browsers (Google Chrome and Microsoft Edge) will increase restrictions on local network access. When enforcement begins, users accessing OneDrive for Web (and some integrated Microsoft 365 experiences such as Microsoft Lists and SharePoint Document Libraries) will encounter a browser permission prompt for local network access unless the required policy is in place. If the permission is not allowed, performance optimizations and <a href=\"https://support.microsoft.com/office/work-with-onedrive-web-app-when-offline-05d1865d-8694-4c0a-8e46-28ccb8c58b37\" target=\"_blank\">offline capabilities</a> powered by OneDrive and Share Point will not be available. This communication provides required administrator actions to prevent loss of functionality.</p><p><b>When this will happen:</b></p><p>Chrome and Edge will roll out this privacy related change as part of Chromium 141 at the end of September.</p><p><b>How this will affect your organization:</b></p><p>\n</p><ul>\n<li><b>Who is affected:</b><ul><li>All users accessing OneDrive for Web, Microsoft Lists, and SharePoint Document Libraries via Chrome or Edge browsers.</li><li>Admins managing browser policies for Windows, macOS, and VDI environments.</li></ul></li>\n<li><b>What will happen:</b>\n\n<p></p><p>If no action is taken:\n</p><ul><li>Users will see a new browser prompt requesting permission for local network access when opening OneDrive for Web and Lists.</li><li>If users do not click <i>Allow</i>, the following results occur on that device:<ul><li>Performance acceleration will not be available (loss of faster data access behavior).</li><li>Offline functionality in OneDrive Web will not be available.</li></ul></li><li>The experience will be slower and less resilient, and helpdesk contacts will increase due to unexpected prompts and missing offline capability.</li></ul><p>When the recommended browser policy is deployed in advance, the prompt is suppressed for the specified trusted Microsoft 365 endpoints and existing performance, and offline behavior are preserved. The policy prevents loss of existing capability and avoids user confusion.</p><p><b>What you need to do to prepare:</b>\n</p><ol><li>Identify Required Domains<ol><li>Include your organization’s SharePoint Online and OneDrive endpoints, for example: https://YOURTENANT-my.sharepoint.com or https://YOURTENANT.sharepoint.com</li><li>Add additional sanctioned SharePoint Online host variations if applicable (e.g., specialized cloud environments). Avoid overly broad wildcards—conform to internal security governance.</li></ol></li><li>Configure Browser Policy<ol><li>Set the Chromium policy <code>LocalNetworkAccessAllowedForUrls</code>&nbsp;(<a href=\"https://chromeenterprise.google/policies/#LocalNetworkAccessAllowedForUrls\" target=\"_blank\">Chrome Enterprise</a>&nbsp;/ <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/localnetworkaccessallowedforurls\" target=\"_blank\">Edge policy</a>) to pre-authorize the listed domains.</li><li>Apply via: ADMX / JSON for Windows; plist or configuration profile for macOS (Chrome and Edge).</li><li>Roll out to all managed device groups (Windows, macOS, VDI as applicable).</li><li>Even if the following policies are currently enabled by policy, deploy the allow-list to prevent future prompts and avoid user confusion.<ol><li><code>DisableNucleusSync</code></li><li><code>DisableOfflineMode</code></li></ol></li></ol></li><li>Remediation for Users Who Already Clicked <i>Block</i><ol><li>Deploying the managed <code>LocalNetworkAccessAllowedForUrls</code>&nbsp;policy will override any prior per-user deny state and enforce the allow setting once the policy is applied to the device/profile; no end-user action is required after policy propagation.</li><li>If you need immediate remediation before policy reaches the device, have the user open the affected OneDrive site, use the site (lock) icon, reset or change the local/network device access permission to <i>Allow</i>, then refresh.</li></ol></li></ol></li></ul>\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>Alters how existing customer data is accessed</td><td>Local network access impacts how OneDrive and SharePoint optimize performance and offline access to cached data.</td></tr>\n<tr><td>Includes admin control</td><td><p>Admins can configure the <code>LocalNetworkAccessAllowedForUrls</code> policy and deploy it via group policy or configuration profiles.</p></td></tr>\n<tr><td>Can be controlled through Entra ID group membership</td><td>Policy deployment can be scoped to device groups managed via Entra ID.</td></tr>\n<tr><td>Allows user to enable/disable feature</td><td>Users can manually allow or block local network access via browser prompts if policy is not enforced.</td></tr>\n\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "preventOrFixIssue",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Chromium browsers will restrict local network access, prompting users for permission when accessing OneDrive, SharePoint, and Microsoft Lists. Without configuring the LocalNetworkAccessAllowedForUrls policy to pre-authorize trusted domains, users will face slower performance and loss of offline capabilities. Admins must deploy this policy before the change rolls out in Chromium 141 at September's end."
-      }
-    ],
-    "EndDateTime": "2025-12-01T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1150662",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-09T23:08:35.023Z",
-    "Services": [
-      "SharePoint Online",
-      "Microsoft OneDrive"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-09T23:08:28Z",
-    "Tags": [
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Action Required – Configure Browser Policy to Preserve OneDrive and SharePoint Web Performance and Offline Capability",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Update: The timing of this change has been delayed, review the <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/get-ready-for-windows-quality-updates-out-of-the-box/4434498\" target=\"_blank\">Windows blog announcement</a> for additional details.</p><p>In an upcoming Windows security update, quality updates will get installed by default during the out-of-box experience (OOBE) for devices that are on Windows 11, version 22H2 or later. </p><p> Expected in Intune’s August (2508) service release, we will introduce a new setting \"Install Windows updates\" in the Enrollment Status Page (ESP) to allow you to manage the installation of quality updates during OOBE. Stay tuned to <a href=\"https://aka.ms/IntuneWN\" target=\"_blank\">What’s new in Intune</a> for the release.</p><p><b>How this will affect your organization:</b>\n</p><p>If you are using Windows Autopilot and ESP, the Install Windows updates setting will be automatically set to “Yes” for new ESP profiles and “No” for existing profiles. If the ESP setting is set to “Yes”, updates will be delivered during OOBE. When configured to “No”, updates will be prevented during OOBE. Additionally, update rings settings (if assigned, as defined below) will be delivered during the ESP and the quality updates page will be shown while the update is applied after ESP completes.</p><p><b>Important:</b> Devices enrolling with Windows Autopilot device preparation or with ESP disabled, cannot prevent Windows updates during OOBE and will receive the latest published security updates.</p><p><b>What you need to do to prepare:</b>\n</p><p>Update your documentation and user guidance as needed. To manage quality updates installed during OOBE for devices using ESP: \n</p><ol><li>In the ESP profile, set Install Windows updates to “Yes” to allow updates or “No” to prevent updates. \n</li><li>(Recommended) Use or create an <a href=\"https://learn.microsoft.com/intune/intune-service/protect/windows-10-update-rings\" target=\"_blank\">update rings policy</a> to manage pause and deferral settings for quality updates. Quality updates installed during OOBE will follow this policy. \n</li><li>Assign the ESP profile and the update rings policy to “All devices” or device groups with devices registered for Windows Autopilot.\n</li></ol><p><b>Related information:</b></p><ul><li><a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/coming-soon-quality-updates-during-the-out-of-box-experience/4374291\" target=\"_blank\">Coming soon: Quality updates during the out-of-box experience </a></li><li><a href=\"https://learn.microsoft.com/intune/intune-service/enrollment/windows-enrollment-status\" target=\"_blank\">Set up the Enrollment Status Page&nbsp;</a></li></ul><p>\n</p>",
       "ContentType": "html"
     },
@@ -3215,7 +3309,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499892\":[{\"RoadmapId\":499892,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7664469Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499892,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-15T11:02:35.766447Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7664471Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7664471Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7664472Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"499892\":[{\"RoadmapId\":499892,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5766616Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499892,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5766618Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5766619Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-16T03:12:08.576662Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5766621Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3266,7 +3360,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7659645Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-15T11:02:35.765965Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7659651Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7659652Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7659652Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5763523Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5763527Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5763528Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5763529Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-16T03:12:08.576353Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -6230,7 +6324,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500634\":[{\"RoadmapId\":500634,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7661945Z\",\"LatestRing\":null},{\"RoadmapId\":500634,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-15T11:02:35.7661947Z\",\"LatestRing\":null}]}"
+        "Value": "{\"500634\":[{\"RoadmapId\":500634,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-16T03:12:08.57642Z\",\"LatestRing\":null},{\"RoadmapId\":500634,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-16T03:12:08.5764202Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13372,37 +13466,6 @@
       "New feature"
     ],
     "Title": "AI Builder – Process documents with Copilot prompts",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing an update to how Dataverse system jobs can be deleted. This update will allow you to comply with your record retention policy and can help to improve overall system performance in Dataverse. This update will be made generally available starting on August 14, 2025, and will be fully available in all regions by September 15, 2025.<br><br><b>How does this affect me?</b><br>This update will introduce a new deletion service which will automatically delete completed system jobs. It will also add three sets of default retention periods for deleting system jobs that have succeeded, failed, or been cancelled. These default retention periods can be adjusted to change the minimum retention period for completed system jobs.<br><br><b>What action do I need to take?</b><br>Please review your record retention policy and adjust the default retention periods to ensure they meet your retention policy.<br><br>If you would like more information on this update, please visit <a target=\"_blank\" href=\"https://aka.ms/11779Link1\">Clean up records from System Job (AsyncOperationBase) and Process Log (WorkflowLogBase) tables</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-09-15T23:50:09Z",
-    "HasAttachments": false,
-    "Id": "MC1136058",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-15T23:50:35.623Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-15T23:50:09Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Power Platform – Information about an update to how Dataverse system jobs can be deleted",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
