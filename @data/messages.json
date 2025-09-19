@@ -1,5 +1,580 @@
 [
   {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<b>Introduction</b>\n<p>To help organizations manage metered consumption costs for Microsoft 365 Copilot Chat, we're introducing support for <b>prepaid Capacity Packs</b> in the Microsoft 365 admin center (MAC). This feature enables global administrators to use prepaid message bundles before incurring pay-as-you-go (PAYG) charges.</p>\n<p>This update applies specifically to Copilot Chat environments provisioned via the Power Platform admin center (PPAC), including departmental or custom Copilot agents built using Microsoft Copilot Studio.</p><p>Each Capacity Pack includes <b>25,000 Copilot messages per month</b>, which can be allocated to Copilot Chat environments via PPAC. Once enabled, MAC will prioritize usage from these prepaid packs and automatically switch to PAYG when capacity is exhausted.</p>\n<p>Admins can monitor usage in PPAC, including:</p>\n<ul>\n<li>Total messages consumed</li>\n<li>Remaining prepaid capacity</li>\n<li>Message allocation per environment</li>\n</ul>\n<p>This update is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496139\" target=\"_blank\">496139</a>.</p>\n\n<b>When this will happen</b>\n<ul>\n<li><b>Targeted Release:</b> We will begin rolling out in late September 2025 and expect to complete by late September 2025.</li>\n<li><b>General Availability (Worldwide):</b> We will begin rolling out in late September 2025 and expect to complete by early October 2026.</li>\n</ul>\n\n<b>How this affects your organization</b>\n<p>This feature helps organizations manage Copilot Chat costs by allowing the use of prepaid message bundles before PAYG charges apply. It supports:</p>\n<ul>\n<li>Improved budget control through prepaid capacity</li>\n<li>Departmental usage isolation via environment-level allocation</li>\n<li>Simplified billing setup in MAC</li>\n<li>Automated provisioning for Copilot Chat environments</li>\n<li>Enhanced cost visibility and governance through detailed usage reporting in PPAC</li>\n</ul>\n<p>The feature also supports unlicensed users and includes automatic fallback to PAYG when prepaid capacity is exhausted, ensuring uninterrupted service.</p>\n<p><b>Existing pay-as-you-go billing methods will remain available and unchanged.</b> Capacity Packs offer an additional prepaid option and do not replace current billing models.</p>\n<p>The feature is <b>on by default</b> and requires no manual configuration to begin using.</p>\n\n<b>What you can do to prepare</b>\n<p>No admin action is required before rollout.</p>\n\n<b>Compliance considerations</b>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "496139"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 admin center will introduce prepaid Capacity Packs for Copilot Chat, offering 25,000 messages/month to manage costs before pay-as-you-go charges. Rollout starts late September 2025. Features include usage monitoring, departmental allocation, automatic PAYG fallback, and no required admin action before rollout."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-11-03T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1155434",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T23:53:45.487Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-18T23:53:29Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 admin center: Prepurchase capacity packs for Microsoft 365 Copilot Chat",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction:</b></p>\n<p>We’re bringing the power of Microsoft 365 Copilot directly into your daily file management experience in Windows. With this update, users can interact with Copilot in <i>File Explorer</i> and the <i>OneDrive activity center </i>to summarize documents, generate FAQs, compare files, and ask questions about their OneDrive files.</p>\n\n<p><b>When this will happen:</b></p>\n<p><b>General Availability<span style=\"background-color: rgb(255, 255, 255);\"> (Worldwide, GCC, GCCH, DoD): </span></b>We began the rollout in late August and expect to complete it by early to mid-September 2025.</p>\n\n<p><b>How this affects your organization:</b></p><p><i>Screenshot 1 - Copilot actions available for OneDrive files in activity center:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6c08e805-f05d-41d8-ab2a-bac6eeeaf890/78adaaf4638958283c76de3a667cde8b300c7aa6.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<ul>\n<li>Users can use the OneDrive activity center to perform Copilot actions by selecting a file and clicking the vertical ellipsis.</li>\n</ul>\n<p>Actions include summarizing documents, generating FAQs, and asking questions. Microsoft 365 Copilot may not be available in all markets or languages. A qualifying enterprise or business plan is required.</p>\n<p>This feature is <b>on by default </b>and does not require admin configuration.</p><p><i>Screenshot 2 - Copilot actions available for OneDrive files in Windows File Explorer:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/07b06c9e-4c31-4ecb-adf1-7e4cfb11d3d3/68848e1c54d69a6661953b3040fdb237a9fcad00.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>Users can use the context menu in Windows File Explorer to perform Copilot actions by selecting a file, right clicking to open the context menu, navigating to the OneDrive drop down menu, and selecting a Copilot action within the secondary, OneDrive context menu. Users can summarize files, creating FAQs, compare files, and ask questions.&nbsp;</li></ul>\n\n<p><b>What you can do to prepare:</b></p>\n<p>If your organization uses or plans to use Copilot, we recommend informing end users about these new capabilities. No admin action is required to enable the feature. For more information on Copilot licensing and availability, visit the Microsoft Copilot documentation.</p><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/get-started-with-copilot-in-onedrive-7fc81e10-e0cf-4da8-af2e-9876a2770e5d\" target=\"_blank\">Get started with Copilot in OneDrive | Microsoft Support</a></p>\n\n<p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. This change introduces Copilot actions in Windows File Explorer and the OneDrive Sync Activity Center. These actions allow users to interact with AI to summarize documents, generate FAQs, compare files, and ask questions about file content.&nbsp;</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users can now use generative AI to summarize content, create FAQs, compare files, and ask questions about files directly within File Explorer and the OneDrive Activity Center.</td></tr></tbody></table><ul>\n</ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot is integrated into Windows File Explorer and OneDrive Activity Center, allowing users to summarize documents, generate FAQs, compare files, and ask questions about OneDrive files. The feature rolls out globally by mid-September 2025, is on by default, and requires no admin setup."
+      }
+    ],
+    "EndDateTime": "2025-11-20T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1155433",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T23:53:09.823Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-18T23:53:01Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Copilot (Microsoft 365): Use Copilot with OneDrive files in File Explorer and Activity Center",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>To improve meeting flexibility and user experience, <i>Microsoft Teams</i> now allows users on <i>iPad</i> to select external audio and video devices directly from the pre-join screen and during meetings. This enhancement supports users who rely on external peripherals for improved meeting quality and simplifies device switching without needing to access native iPad settings.</p><p><b>When this will happen:</b>\n</p><ul><li>General Availability (Worldwide): Rollout began in mid-August 2025 and completed in early September 2025.\n</li></ul><p><b>How this will affect your organization:</b>\n</p><p>Who is affected: All users who join Microsoft Teams meetings using iPads.</p><p>What will happen:</p><ul><li>Users will see new options to select external microphones, speakers, and cameras in the pre-join and in-meeting experience.</li><li>This feature is <b>enabled by default</b>; no admin configuration is required.</li><li>Existing device settings and policies remain unchanged.</li></ul><p><i>Screenshot 1 - View of pre-join screen with Audio on:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/206de042-41b7-4e1e-89f8-354a01892775/eeb67dc71f82fb396a5aefe593f5337f70472a3c.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 2 - View of pre-join screen with camera settings:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/2af0cfd7-be94-421b-a759-05fb84452e2c/d60779df7cbb55dae3ffdefb037576062baf2880.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 3 - View of pre-join screen with video device connected:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/8b363f05-0742-4aee-9aae-7c967bef9e80/1d3307e316f3f005cea9346a53ff275f9e4c5412.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 4 - View of meeting screen with external video device connected:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/2fbae1bd-c40d-4b4a-a9d0-6f9ee17be9fb/deea6786a28e780b063147c0147af58fa1e19886.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 5 - View of meeting screen with Audio on:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/11aeb28f-61de-4b64-b694-fe2ebd2ed1f4/23d9181eea5e3a24726f5e7f9f28c2feee43ed54.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 6 - View of meeting screen with external speakers:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/28f7ab9e-ad88-42bc-b089-b18e241515fe/df88a10aaeef355e3eaeb3cd316e6e3050524efd.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b>What you can do to prepare:</b>\n</p><p>No action is required at this time.</p><p>You may wish to:</p><ul><li>Inform users who frequently use iPads for meetings about this new capability.</li><li>Update internal documentation if you provide device setup guidance for Teams meetings.</li></ul><p>Learn more: <a href=\"https://techcommunity.microsoft.com/blog/microsoftteamsblog/introducing-external-camera-support-for-ipads-in-microsoft-teams/4355767\" target=\"_blank\">Introducing External Camera Support for iPads in Microsoft Teams | Microsoft Community Hub</a></p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams on iPad now lets users select external audio and video devices from the pre-join screen and during meetings. This feature, enabled by default since September 2025, improves meeting flexibility without needing iPad settings changes. No admin action is required."
+      }
+    ],
+    "EndDateTime": "2025-10-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1155430",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T23:51:01.953Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-18T23:50:51Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Select camera and audio devices in pre-join and during meetings on iPad",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction:</b></p><p>We’re enhancing Microsoft Secure Score by introducing new improvement actions based on Microsoft Defender for Identity posture recommendations for PingOne. These updates provide a more accurate reflection of your organization’s identity security posture and help strengthen your overall security configuration.</p><p><b>When this will happen:</b></p><ul><li>Public Preview: Rollout begins in late October 2025 and completes by mid-November 2025.</li><li>General Availability (Worldwide, GCC, GCC High, and DoD): Rollout begins in late November 2025 and completes by mid-December 2025.</li></ul><p><b>How this affects your organization:</b></p><p>Who is affected: Tenants with a PingOne connector configured for Microsoft Defender for Identity.</p><p>What will happen:</p><p>New posture recommendations will appear in <i>Microsoft Secure Score</i> as improvement actions:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/96b77189-0b55-41fa-9754-7b6949595fdf/0a89be155db746aa06931f2c4c771ac7d06ec939.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>Limit the number of PingOne accounts with organization admin role</li><li>Assign multi-factor authentication for PingOne privileged user accounts: <p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/8c587983-6275-4514-bc02-f9ea6141f028/e0c86d3639106eda058b39e358889044819d594f.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Change password for PingOne privileged user accounts</li><li>Remove stale PingOne privileged accounts</li><li>High number of PingOne accounts with a privileged role assigned</li></ul><p>These recommendations are enabled by default and require no configuration changes.</p><p><b>What you can do to prepare:</b></p><ul><li>No admin action is required before or after rollout.</li><li>Review your current identity configuration to assess potential impact.</li><li>Notify relevant administrators and update internal documentation as needed.</li><li>Regularly review Microsoft Secure Score to monitor and act on new improvement suggestions.</li></ul><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Secure Score will add new improvement actions based on Microsoft Defender for Identity recommendations for PingOne, rolling out from October to December 2025. These default-enabled actions target PingOne privileged account security, requiring no admin changes but encouraging review and monitoring by organizations with PingOne connectors."
+      }
+    ],
+    "EndDateTime": "2026-01-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1155429",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T23:50:27.207Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-18T23:50:20Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Defender for Identity: New recommendations added to Microsoft Secure Score",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p><b><b>Introduction</b></b></p><p></p><p>\n</p><p>To strengthen encryption standards and uphold customer trust, Microsoft is deprecating support for legacy TLS cipher suites that do not offer forward secrecy. This change aligns with our ongoing commitment to security and data protection across Microsoft 365 services.</p>\n\n<b><b>When this will happen:</b></b><p></p><p>\n</p><p>Starting October 20, 2025, Microsoft 365 services will enforce stricter TLS cipher suite policies.</p>\n\n<b><b>How this affects your organization:</b></b><p></p><p>\n</p><p><b>Who is affected:</b></p>\n<ul>\n<li>Admins managing Microsoft 365 services across commercial, GCC, and GCC High tenants.</li>\n<li>Organizations using legacy operating systems or custom TLS configurations.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Microsoft 365 services will only support the following TLS cipher suites:</li>\n<ul>\n<li><b>TLS 1.3</b>\n<ul>\n<li>TLS_AES_256_GCM_SHA384</li>\n<li>TLS_AES_128_GCM_SHA256</li>\n</ul>\n</li>\n<li><b>TLS 1.2</b>\n<ul>\n<li>TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384</li>\n<li>TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</li>\n<li>TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384</li>\n<li>TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256</li>\n</ul>\n</li>\n<li>Connections using deprecated cipher suites will fail.</li>\n<li>Clients supporting at least one listed TLS 1.2 cipher suite will continue to connect.</li>\n</ul>\n</ul>\n\n<b><b>What you can do to prepare:</b></b><p></p><p>\n</p><ul>\n<li>Ensure all client systems are running supported operating systems that include the required cipher suites.</li>\n<li>Upgrade legacy systems (e.g., Windows 8, Windows Server 2012) to supported versions.</li>\n<li>Review and update Group Policy or security configurations to confirm required cipher suites are enabled.</li>\n<li>Communicate this change to helpdesk and infrastructure teams.</li>\n<li>Reference the following resources for configuration guidance:\n<ul>\n<li><a href=\"https://learn.microsoft.com/windows-server/security/tls/manage-tls\" target=\"_blank\">Manage Transport Layer Security (TLS)</a></li><li><a href=\"https://learn.microsoft.com/purview/technical-reference-details-about-encryption?view=o365-worldwide\" target=\"_blank\">Technical reference details about encryption</a></li></ul></li></ul>\n\n<b><b>Compliance considerations:</b></b><p></p><p>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 will deprecate legacy TLS cipher suites lacking forward secrecy on October 20, 2025, supporting only specified TLS 1.3 and 1.2 cipher suites. Organizations must update systems and configurations to maintain connectivity and security compliance."
+      }
+    ],
+    "EndDateTime": "2025-12-29T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1155427",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-09-18T23:48:54.297Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-18T23:48:25Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Legacy TLS cipher suites will be deprecated in M365 services on October 20, 2025",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction:</b></p><p>The Skills agent is now available in <i>Frontier</i>, a program that provides early access to experimental Microsoft 365 Copilot innovations. The Skills agent helps individuals and leaders discover people with specific skills, make informed decisions about skill development, and build dynamic, skill-based teams. It is available across Microsoft Teams, Surface devices, and Web experiences. </p><p>The Skills agent is powered by the People Skills service, which infers skills from user activity mapped to a customizable built-in skill taxonomy. People Skills enhances Microsoft 365 Copilot Chat, Microsoft 365, and Microsoft Viva experiences with contextualized information about the people in your organization.</p><p>Frontier agents and AI features are previews, built for evaluation and feedback purposes. These features are still in development, and their availability and capabilities may change at any time.</p><p>Users must have an active Microsoft 365 Copilot license to access Frontier features.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=489823\" target=\"_blank\">489823</a>.</p><p><b>When this will happen:</b></p><p>Frontier Availability (Worldwide): Rollout begins week of September 15, 2025, and is expected to complete by the week of September 22, 2025.</p><p><b>How this affects your organization:</b></p><p><i>Who is affected: </i></p><ul><li>Admins managing Microsoft 365 Copilot deployments</li><li>Users with Microsoft 365 Copilot and the “Microsoft 365 Copilot in Productivity Apps” service plan (excluding faculty and student SKUs) will see the Skills agent available to deploy in the <i>Copilot Control center</i> within <i>Microsoft 365 admin center</i>.</li></ul><p><i>What will happen:</i></p><ul><li>Skills agent (Frontier) will be available for installation and use within <i>Microsoft 365 Copilot and Teams</i></li><li>Admins can manage deployment and access via the Copilot Control center in <i>Microsoft 365 admin center</i></li><li>Available deployment controls include:<ul><li><b>Deploy the agent</b>: Install on behalf of users by accepting Microsoft Entra permissions</li><li><b>Restrict access</b>: Limit availability to specific users or groups</li><li><b>Remove/block</b>: Disable or remove the agent entirely from your tenant</li></ul></li><li>Additional People Skills capabilities now generally available:<ul><li>Skills landscape reports via <i>Viva Insights</i></li><li>Skills for Leaders in <i>Viva Insights</i></li></ul></li></ul><p><b>What you can do to prepare:</b></p><p>To prepare for rollout:</p><ul><li>Set up <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-overview\" target=\"_blank\">People Skills in your tenant</a>. – This is a required prerequisite for the Skills agent to function. Without it, the agent will not operate as expected.</li><li>If you are planning to use the leader experiences in <i>Skills agent</i>, there are additional prerequisite conditions to be aware of when setting up leader roles. Review and&nbsp;<a href=\"https://learn.microsoft.com/viva/insights/advanced/setup-maint/manager-settings#configure-manager-settings\" target=\"_blank\">configure manager settings</a>.</li><li>Identify users for early access and add them to a Microsoft Entra ID group.\n</li><li>Review and configure deployment controls.</li><li>Review <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-sharing-inferencing-controls\" target=\"_blank\">privacy and sharing settings</a>. Admins and individuals can manage their own visibility settings for People Skills.</li><li>Access <a href=\"https://adoption.microsoft.com/ai-agents/people-skills/\" target=\"_blank\">adoption resources</a>.</li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://techcommunity.microsoft.com/blog/microsoft365copilotblog/announcing-people-skills-general-availability-and-new-skills-agent/4406364\" target=\"_blank\">Announcing People Skills general availability and new Skills agent | Microsoft Community Hub</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/setup-maint/manager-settings#configure-manager-settings\" target=\"_blank\">Configure manager settings - Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#settings-for-agents\" target=\"_blank\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center - Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-sharing-inferencing-controls\" target=\"_blank\">Manage privacy and sharing controls in People Skills - Microsoft 365 Copilot | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-overview\" target=\"_blank\">Overview of People Skills - Microsoft 365 Copilot | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://adoption.microsoft.com/ai-agents/people-skills/\" target=\"_blank\">People Skills adoption site</a></li></ul><p><b>Compliance considerations:</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>The Skills agent uses AI to infer skills from user activity in Microsoft 365 and integrates with Microsoft 365 Copilot Chat, Microsoft 365, and some Viva applications.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Admins can manage access and deployment using Microsoft Entra ID group membership.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Users can install or remove the agent themselves if permitted by admin settings.</td></tr></tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "489823"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The Skills agent, now in Microsoft 365 Copilot's Frontier program, helps identify and develop skills, building skill-based teams across Teams, Surface, and Web. Powered by People Skills, it requires a Copilot license and admin deployment via the Copilot Control center. Rollout begins September 2025."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "TeamsAndSurfaceDevices, Web"
+      }
+    ],
+    "EndDateTime": "2025-10-23T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1155426",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T23:48:03.863Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-18T23:47:55Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Copilot (Microsoft 365): Skills agent now available in Frontier",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>As a reminder, Windows 10 will reach end of support on October 14, 2025. After this date, Windows 10 will no longer receive quality or feature updates. Security updates will only be available to commercial customers who have enrolled devices into the Extended Security Updates (ESU) program. For more details, review the additional information shared below.</p><p><b>How this will affect your organization:</b>\n</p><p>After Windows 10 reaches the end of support, Microsoft Intune will continue to maintain core management functionality for Windows 10. This ensures:</p><ul><li>Continuity of device management.\n</li><li>Support for updates and migration workflows to Windows 11.\n</li><li>Ability for ESU customers to deploy Windows security updates and maintain secure patch levels.\n</li></ul><p>Following Windows 10 end of support, the final release of Windows 10 (version 22H2) will be designated as an “allowed” version in Intune. While updates and new features are not available, devices running this version can still enroll in Intune and use eligible features, but functionality is not guaranteed and may vary.</p><p><b>What you need to do to prepare:</b>\n</p><p>Use the <b>All devices</b> report in the Intune admin center to identify devices still running Windows 10 and upgrade eligible devices to Windows 11.\n</p><p>If devices cannot be upgraded in time, consider enrolling eligible devices in the Windows 10 ESU program to continue receiving critical security updates.\n</p><p><b>Additional information:</b></p><ul><li><a href=\"https://blogs.windows.com/windowsexperience/2025/06/24/stay-secure-with-windows-11-copilot-pcs-and-windows-365-before-support-ends-for-windows-10/\" target=\"_blank\">Stay secure with Windows 11, Copilot+ PCs and Windows 365 before support ends for Windows 10</a></li><li><a href=\"https://learn.microsoft.com/lifecycle/announcements/windows-10-end-of-support\" target=\"_blank\">Windows 10 reaching end of support</a></li><li><a href=\"https://learn.microsoft.com/windows/whats-new/enable-extended-security-updates\" target=\"_blank\">Enable Extended Security Updates (ESU)</a></li><li><a href=\"https://learn.microsoft.com/windows/release-health/release-information\" target=\"_blank\">Windows 10 release information</a></li><li><a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information\" target=\"_blank\">Windows 11 release information</a></li><li><a href=\"https://learn.microsoft.com/lifecycle/faq/windows\" target=\"_blank\">Lifecycle FAQ - Windows</a></li></ul><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Windows 10 support ends October 14, 2025; no updates except for ESU-enrolled commercial customers. Intune will maintain core management and support migration to Windows 11. Use Intune reports to identify and upgrade devices or enroll in ESU for security updates. Final Windows 10 version 22H2 remains allowed in Intune."
+      }
+    ],
+    "EndDateTime": "2025-11-18T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1155424",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T23:46:31.31Z",
+    "Services": [
+      "Microsoft Intune"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-18T23:44:20Z",
+    "Tags": [
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Update to support statement for Windows 10 in Intune",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 18, 2025: We have updated the timing and content below with additional information. Thank you for your patience.</p>\n<p>In response to customer feedback, we are introducing enhanced flexibility, greater scalability, and streamlined compliance management for private channels in Microsoft Teams.\n</p><p>Note: It is important for compliance managers to review and take appropriate action before migration starts for these changes to private channels. \n</p><p><b>What's changing?</b></p><p>Private channels will transition use a channel mailbox instead of individual user mailboxes. \n</p><p>Organizations with compliance policies (retention, legal hold, data loss prevention, or eDiscovery) for private channels must review these policies and must apply policies to the Microsoft 365 group for the channel’s team before migration begins to ensure continuity of the policy for a private channel.  Existing policies will continue to apply to user mailboxes; post-migration, new data will be governed by policies on the group. Note that policies applied to the team’s group can apply to all channels in the team.\n</p><p>After the transition to updated private channels in your organization, private channels will be updated as follows.\n</p><ol><li>Private channels are no longer limited to 30 per team. Instead, private channels can be added up to the limit of 1000 total channels per team.\n</li><li>Private channels can now have up to 5000 members, instead of 250.\n</li><li>Meetings can now be scheduled in private channels.\n</li><li>Compliance policies for private channels are part of the team’s group policies instead of the individual user level.\n</li></ol><p>The migration of private channels to the updated capabilities will begin in early October 2025 and continue through December 2025. During this period, private channels will continue to operate normally. Admins and compliance managers should complete any required policy changes by September 20, 2025, before the migration begins. Migration can start or end at different times for each tenant during the rollout period. To track progress, a new PowerShell command will be available for tenants to check whether their migration has started or is completed. This post will be updated soon with details on the PowerShell command.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out early October 2025 (prevously late September) and expect to complete by mid-December 2025.\n</p><p><b>Action required by compliance managers and admins</b></p><ol><li>Purview eDiscovery and Legal Hold</li>\n<p></p><p>With this change, private channel data will move from user mailboxes to the group mailbox, aligning with how shared channels data is stored. Previously, legal holds were applied to user mailboxes since private channel data resided in each member’s mailbox. Post-migration, the latest version of private channel message data from each user’s mailbox is moved to the private channel’s group mailbox. Message edits and deleted messages will not be copied into the group mailbox.\n</p><p>Note: For users on hold, copies of message edits and deleted messages will remain in the user’s preserved library folder until the hold expires, while the latest version of private channel message data from each user’s mailbox is copied to the private channel’s group mailbox. \n</p><p>Before migration\n</p><p>If a legal hold exists for a private channel, admins must also apply the policy to the team’s group, in addition to the policy already applied to users’ mailboxes, in order for a hold to apply to new data generated and stored in the private channel’s mailbox. Note that policies applied to the team’s group can apply to all channels in the team.\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/752d2d97-48d7-4491-a3e7-ecc866373a44  \" width=\"400\" height=\"\"></p><p>Screenshot 1: Setting up a new hold in Microsoft Purview compliance portal.\n</p><p>After migration\n</p><p>For existing holds admins will need to ensure that the hold is applied to the user mailbox as well as the new group mailbox, in order for a hold to apply to existing and new message data. Any new legal holds will need to be applied to the group.\n</p><p>For complete eDiscovery, include both the private channel’s users’ mailboxes and the team’s group mailbox to retrieve pre-migration messages, message history, and post-migration new content.\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/0de1f667-c352-400b-8a94-57237676a30d  \" width=\"400\" height=\"\"></p><p>Screenshot 2: Configuring an eDiscovery search in Microsoft Purview compliance portal.\n</p><li>Purview Data Loss Prevention (DLP)</li> \n<p></p><p>With this change, private channel messages will be included as a part of the DLP policy scoped to the private channel’s team’s group, as opposed to the user mailbox. \n</p><p>Before migration\n</p><p>Admins must modify the “Teams chat and channel messages” policy for private channels to add the team’s group containing the private channel, in addition to the user mailbox, in order to include new private channel messages in a policy. Note that policies applied to the team’s group can apply to all channels in the team.\n</p><p>After migration\n</p><p>Ensure that “Teams chat and channel messages” policy for private channels is scoped to the team’s group containing the private channel. \n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/96d2a6b8-fdf0-402c-8475-d8631fe4ae2b \" width=\"400\" height=\"\"></p><p>Screenshot 3: Configuring a data loss prevention policy in Microsoft Purview compliance portal.\n</p><li>Purview Retention Policy</li>\n<p></p><p>After this change, creation of new private channel-specific policies will not be possible in the Purview portal. Instead, “Teams channel messages” policies applied to the team’s group will now include private channels. Existing private channel policies will remain in effect and preserve all held message data in user mailboxes. Editing of existing policies will not be supported but policies can be removed.\n</p><p>Before migration\n</p><p>Apply current private channel retention policies (previously on user mailboxes) to Teams channel messages to include the team’s group, in order to include new private channel messages in a policy. In Microsoft Purview compliance portal, go to solutions &gt; Data Lifecycle Management &gt; Retention policies. Note that policies applied to the team’s group can apply to all channels in the team. \n</p><p>After migration\n</p><p>If the parent team’s group retention policy differs from the private channel’s policy, create a new or equivalent policy to ensure consistent retention.</p><p> \n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c565bdcb-1dbc-4f94-b060-b5bbc96d368a \" width=\"400\" height=\"\"></p><p>Screenshot 4: Configuring “Teams channel messages” for a retention policy in Microsoft Purview compliance portal.</p>\n<li>Microsoft policies for Optical Character Recognition</li>\n<br><p>Optical character recognition (OCR) is managed via Data Loss Prevention (DLP) policy. Before migration, modify the corresponding DLP policy that needs be applied for OCR to private channels and change locations to all users and groups.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/333895ed-38b5-4688-8357-a7badd5978d0/5bfd9ef4fa9f2655891b6438f46ff9a9073ed02c.png \" width=\"400\" height=\"\"></p>\n</ol><p>Frequently asked questions\n</p><ol><li>How can admins identify a user’s private channel memberships?\n<ul><li>Use Teams Admin Center under team settings, or run PowerShell: Get-TeamChannelUser to list members.\n</li></ul></li><li>When is compliance manager action required?\n<ul><li>If a policy (legal hold, eDiscovery, retention, DLP) applied to a user’s mailbox, in order to include private channel messages, differs from the team policies for the team hosting the private channel. Policies must be applied to the team’s group in order to include new private channel messages in a policy. Note that policies applied to the team’s group can apply to all channels in the team.</li><li>During eDiscovery for users on hold or during migration, search both user mailbox and group mailbox for complete data on a private channel.</li></ul></li><li>What if no action is taken?\n<ul><li>User-level policies will not apply to a private channel’s new message data. Team-level policies will apply to private channels. \n</li></ul></li><li>Why isn’t Microsoft automatically applying policies from user mailboxes to a private channel’s team?\n<ul><li>Tenant admins and compliance managers must assess and apply policies as needed. Group policies apply to all channels in the Team. Some user mailbox policies are intended for all of a user’s messages, and some are intended for private channel messages. Each organization must review and decide on policies.\n</li></ul></li><li>Is there any impact to end users?\n<ul><li>During migration, users may see duplicate search results in Teams searches—both links will navigate to the same content in Microsoft Teams.\n</li></ul></li><li>When will migration happen for my tenant and how long will it take?<ul><li>Migration can start or end at different times for each tenant during the rollout period and can take some weeks depending of the tenant. To track progress, a new PowerShell command will be available for tenants to check whether their migration has started or is completed. The command will be:\n<p><code>Get-TenantPrivateChannelMigrationStatus -TenantId <tenantId></code></p>\n</li></ul></li></ol><p>Please refer to this blog post for more information: <a href=\"https://techcommunity.microsoft.com/blog/microsoftteamsblog/unlocking-the-full-potential-of-private-channels-in-microsoft-teams/4438767\" target=\"_blank\">New enhancements in Private Channels in Microsoft Teams unlock their full potential</a>&nbsp;</p><p>We appreciate your attention to this important update.\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams private channels will transition to using a channel mailbox, increasing limits to 1000 channels per team and 5000 members per channel, with meetings supported. Compliance policies will shift from user mailboxes to the team’s group mailbox. Migration starts October 2025; admins must update policies by September 20, 2025."
+      }
+    ],
+    "EndDateTime": "2026-02-09T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1134737",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-09-18T22:50:38.923Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-13T23:09:57Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Private channels increased limits and transition to group compliance",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 18, 2025: We have updated the content. Thank you for your patience.</p><p><b>Introduction</b></p><p>We are introducing a new capability in Microsoft Teams external collaboration that allows Teams administrators to specify which users or groups within the organization can interact with specific external domains. This enhancement provides more granular control over external collaboration, enabling scenarios such as piloting with select departments, restricting high-risk roles, or enabling broader federation where appropriate.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=501275\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">501275</a>.</p><p><b>When this will happen</b></p><p>Targeted Release: Begins early September 2025 and completes by mid-September 2025.</p><p>General Availability (Worldwide): Begins late October 2025 and completes by mid-December 2025.</p><p><b>How this affects your organization</b></p><p>Previously, external access settings could only be configured at the tenant level, with policy-level settings limited to either inheriting tenant settings or blocking all external domains. With this update, you can assign custom external access policies to users or groups with five configuration options:</p><ul><li><i>Use organization settings</i>: Inherits the tenant’s default external access configuration</li><li><i>Allow all external domains</i>: All external organizations are trusted</li><li><i>Allow only specific external domains</i>: Only domains in the allow list are trusted</li><li><i>Block only specific external domains</i>: Domains in the block list are restricted; all others are trusted</li><li><i>Block all</i>: All external domains are blocked for users assigned to this policy</li></ul><p>Users assigned a custom policy may interact with different external domains than those defined in the organization-wide settings.</p><p><b>What you can do to prepare</b></p><p>Administrators should begin identifying users and groups that require differentiated external access and plan pilot scenarios accordingly.</p><p>During the public preview, configuration must be done via PowerShell using the following cmdlets:</p><ul><li><code>Set-CsExternalAccessPolicy</code></li><li><code>Set-CsTenantFederationConfiguration</code></li></ul><p><i>Note: </i>Changes made through these cmdlets will not be reflected in the Teams admin center UI during the Targeted Release.</p><p>Once the feature reaches general availability, the Teams admin center UI will support these configurations, allowing policy management via both PowerShell and the UI.</p><p>Learn more:</p><p><a href=\"https://learn.microsoft.com/microsoftteams/trusted-organizations-external-meetings-chat?tabs=user-policies#configure-granular-domains-in-external-access-policies\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities - Microsoft Teams | Microsoft Learn&nbsp;&nbsp;</a></p><p><b>Compliance considerations</b></p><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n\n<tr>\n  <td>Admin control via Entra ID group membership</td>\n  <td>Policies can be assigned to Entra ID groups for targeted external access control.</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "501275"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams now lets admins assign custom external access policies by user or group, controlling which external domains they can interact with. This offers granular collaboration control beyond tenant-wide settings. Available via PowerShell in preview from September 2025, with full UI support by December 2025."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-01-20T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1150123",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-09-18T21:19:41.787Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-08T23:31:18Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Teams Admin Center: Control External Access by Domain for Specific Users and Groups",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 18, 2025: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>Agent in Viva Engage communities are now available in Public Preview. Community admins can add agents to communities to enhance knowledge sharing by drafting answers to questions without best or verified answers based on community content.<br><br>Shortly after public preview begins, we'll be enhancing agents in communities with SharePoint grounding to improve the accuracy and relevance of AI-generated answers. This update allows the agent to use content from SharePoint sites that community members can access, helping ensure responses are contextually grounded and backed by trusted sources. Agents in communities will only draft answers with content that all community members have access to. You can set up your agent with before SharePoint grounding is available and add it later.</p><p><b><b>When this will happen:</b></b></p><ul>\n<li><b>Agents in communities Public Preview:</b> Begins September 18th, expected to be complete by late September</li><li><b>SharePoint Grounding Public Preview (Worldwide):</b> Begins late September 2025, expected to complete by early October 2025</li>\n<li><b>General Availability (Worldwide):</b> Begins late January 2026, expected to complete by late February 2026</li>\n</ul>\n\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b> Viva Engage community admins with Microsoft 365 Copilot licenses; Global and Engage admins managing Viva Engage networks</li>\n<li><b>What will happen:</b></li>\n<ul>\n<li><b>During Public Preview:</b></li>\n<ul>\n<li>Admins can opt their network into the preview via the <i>Engage admin center: Engage</i>&nbsp;admin center &gt; Tenant Settings &gt; Enable Community Agent Public Preview.</li></ul></ul></ul><p></p><ul></ul>Once enabled, admins can add agents to any community they manage.<p><i>Figure i. Add agent to community​</i></p><p></p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c90ccffc-5ca8-456f-bcdd-4b47e6a330f2\" style=\"width: 400px;\" alt=\"user settings\"><p></p><p></p><p>The agent will proactively draft answers to unanswered questions using past conversations.</p><p>By default, the agent posts answers <i>automatically</i>.</p><p>Admins can configure whether the agent posts answers automatically or only after approval.</p><p><i>Figure ii. Configure the agent to require answer review before posting​</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ce207aa0-35f2-4c9d-8d75-5df42ee13b8b\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>If Require review is enabled, admins and designated experts will be notified when the agent drafts an answer. They can approve, edit, or dismiss the response.</p><p><i>Figure iii. Community admins and experts can review agent suggestions​</i></p><p>\n<img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e641e3d6-9fff-4a4e-ac28-07adc0509e00\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><b>Coming soon (General Availability):</b></p><ul></ul><p></p><p>The agent will only use content that all community members can access.</p><p>Admins must be owners of the SharePoint sites they wish to configure.</p><p>Admins can add additional SharePoint sites to expand the agent’s grounding knowledge.</p><p>The agent will be grounded by default on the community’s SharePoint site.</p><p>All Microsoft 365 Copilot licensed users will have access to the <i>Community Agent</i> by default.</p><p>The <i>Community Agent Public Preview</i> toggle will be retired.</p>\n\n<p></p><b><b>What you can do to prepare:</b></b><p></p>\n<ul>\n<li>If participating in preview:</li>\n<li>Opt your network into the preview via the <i>Engage admin center</i> \n</li><li>Communicate this change to helpdesk staff.&nbsp;</li>\n<li>Update internal documentation that references <i>Viva Engage Community Agent</i> behavior or setup.</li>\n<li>No action is required at GA; the feature will be <b style=\"\">on by default</b>.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/viva/engage/ai-copilot-and-agents-in-viva-engage/agents-community-network-deployment-config\" target=\"_blank\">Set up and manage the agents in communities feature in Viva Engage</a></p>\n\n<p><b><b>Compliance considerations:</b></b></p><table border=\"1\">\n<tbody><tr><th>Consideration</th><th>Explanation</th></tr>\n<tr><td>Uses customer data</td><td>The agent accesses SharePoint content to generate answers. Only content accessible to all community members is used.</td></tr>\n<tr><td>Introduces AI/ML agent capabilities</td><td>The agent uses generative AI to draft responses based on SharePoint content.</td></tr>\n<tr><td>Admin control available</td><td>(Optional) Community admins can configure which SharePoint sites are used for grounding. Admin must be site owner.</td></tr>\n<tr><td>User interaction with generative AI</td><td>End users receive AI-generated answers grounded in community conversations and SharePoint content</td></tr>\n<tr><td>Can be controlled through Entra ID group membership</td><td>Admin access and site ownership can be managed via Entra ID group membership.</td></tr>\n</tbody></table>https://cxcs.microsoft.net/file/ccp/en-us/e641e3d6-9fff-4a4e-ac28-07adc0509e00https://cxcs.microsoft.net/file/ccp/en-us/e641e3d6-9fff-4a4e-ac28-07adc0509e00<p></p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Viva Engage communities now have agents in Public Preview (from Sept 18, 2025) that draft AI-generated answers using community content. SharePoint grounding will enhance accuracy by late Sept. Admins can enable, configure auto-posting or review, and add SharePoint sites. General Availability is expected early 2026."
+      }
+    ],
+    "EndDateTime": "2026-04-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1155311",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T21:03:40.593Z",
+    "Services": [
+      "Microsoft Viva",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-18T17:07:29Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Viva Engage: Agents in Viva Engage communities Public Preview",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 18, 2025: We have updated the timeline. Thank you for your patience.\n</p><p><b>Introduction</b></p><p>We’re streamlining the Know Your Customer (KYC) requirements for acquiring Microsoft telephone numbers in all markets. Teams administrators will need to submit general business information and supporting documents via Teams Admin Center before provisioning new telephone numbers. This is a one-time process that will allow Microsoft to validate businesses and fulfill regulatory requirements, helping protect our phone services from misuse, such as spam calls and voice phishing (vishing).</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out in early August 2025 and expect to complete by mid-September 2025 (previously early September).</p><p><b>How this will affect your organization</b></p><p>This change updates the existing telephone number provisioning workflow. Teams administrators must now complete a KYC onboarding process in the Teams Admin Center before provisioning new telephone numbers.</p><ul><li>Admins will be required to submit business information and supporting documentation.\n</li><li>The vetting process typically takes a few hours but may take up to two business days.\n</li><li>No new telephone numbers can be acquired until the submitted information is validated.\n</li><li>Existing telephone numbers are not affected.</li></ul><p>These requirements apply globally and are consistent across all markets.</p><p><b>What you need to do to prepare</b></p><p>Ensure your Teams administrators are ready to provide the following information via the Teams Admin Center:\n</p><ul><li>Company name\n</li><li>Tax ID, DUNS number, or Business Registration Number\n</li><li>Business address\n</li><li>A copy of the Business Registration, Registry Extract, or Articles of Incorporation</li></ul><p>This process applies to all tenants, including those on free trials. No specific license tier is required to complete the KYC onboarding.</p><p>Learn more: <a href=\"https://learn.microsoft.com/MicrosoftTeams/teams-phone-know-your-customer\" target=\"_blank\">Teams Phone Know Your Customer overview - Microsoft Teams | Microsoft Learn</a>&nbsp;&nbsp;</p><p><b>Compliance considerations</b></p><ul><li>Does the change store new customer data, if so, where, and is the data cached or permanently stored? - Yes. The KYC onboarding process requires submission of business information and supporting documentation, which will be stored by Microsoft to fulfill regulatory requirements.</li><li>Does the change alter how existing customer data is processed, stored, or accessed? - Maybe. While existing telephone numbers are not affected, the process introduces new data collection and validation workflows that may interact with existing tenant metadata.</li><li>Does the change include an admin control and, can it be controlled through Entra ID group membership? - Yes. The KYC onboarding process is managed through the Teams Admin Center, which supports role-based access control via Entra ID group membership.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting early August 2025, Teams admins must complete a one-time KYC onboarding in the Teams Admin Center by submitting business info and documents before provisioning new phone numbers. The process, required globally, takes hours to two days; existing numbers remain unaffected."
+      }
+    ],
+    "EndDateTime": "2025-10-20T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1117815",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T20:04:02.697Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-18T23:39:28Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams | Know Your Customer (KYC) onboarding required for new phone number requests",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 18, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon to Microsoft Purview | Insider Risk Management (IRM), admins will be able to select any Communication Compliance (CC) policy alerts as indicators in IRM policies. After this rollout, IRM admins can select\nany CC policies that they would like to bring into IRM and detect if a user has alerts for these selected CC policies. When an IRM alert is generated, admins can review if there are any alerts for the user in CC under the policies that are enabled as indicators. This feature will help admins and analysts view this information in IRM without switching to CC.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=489838\" target=\"_blank\">489838</a>.\n</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out late July 2025 (previously late May) and expect to complete by early August 2025 (previously early June).\n</p><p>General Availability (Worldwide): We will begin rolling out mid-October 2025 (previously mid-August) and expect to complete by late October 2025 (previously early September).</p><p><b>How this will affect your organization:</b></p><p>After this rollout, admins will be able to enable this indicator in IRM’s global settings for policy indicators. When enabled, this indicator can be selected in\nany IRM policy.</p><p>Using the indicator\n</p><ol><li>In IRM, go to <i>Settings </i>&gt;<i> Insider Risk Management &gt; Policy indicat</i>ors<i> &gt;</i> <i>Built-in Indicators. </i>Open the <i>Communication Compliance indicators &gt; Detect messages matched by specific CC policies </i>drop-down menu. Check the box and choose the CC policies to bring into IRM. Save the changes. \n</li><li>To use in a policy: In the policy wizard for any IRM policy, configure the policies as applicable until you get to the <i>Indicators </i>page.\nOpen the <i>Communication Compliance indicators </i>drop-down menu and\ncheck the box for <i>Sending messages flagged by selected CC policies.</i> Configure\nthe rest of the policy as applicable.\n</li></ol><p>These changes will be available by default for admins to configure.\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to\nnotify your admins about this change and update any relevant documentation. \n</p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/insider-risk-management-settings-policy-indicators?tabs=purview-portal\">Configure policy indicators in insider risk management |\nMicrosoft Learn</a> (will be updated before rollout)</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "489838"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Insider Risk Management will soon allow admins to use Communication Compliance policy alerts as indicators in IRM policies. Rolling out from July to October 2025, this feature enables integrated alert review without switching platforms. No prior admin action is needed before rollout."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-12-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1074097",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T19:51:07.413Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-14T23:42:40Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Insider Risk Management: Custom Communication Compliance policy as IRM indicator",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 18, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>This feature will empower administrators to manage the availability of trusted Microsoft Teams apps based on rules, for enhanced security. Admins will be able to manage Microsoft 365 certified apps in the Teams admin center through a new control in <i>Org-wide settings</i>. You can further customize the availability of these apps based on permissions accessed and publisher names. The system automatically checks the Microsoft 365 certified apps that meet all the conditions you specify and makes those apps available.&nbsp;<b>&nbsp;</b></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=485712\" target=\"_blank\">485712</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out mid-November 2025 and expect to complete by early December 2025.</p><p><b>How this will affect your organization:</b></p><p>Before this rollout, you cannot manage at bulk the availability of Microsoft 365 certified apps. They are only controlled by third-party app tenant settings.\n</p><p>After this rollout, you can manage Microsoft 365 certified apps availability from org-wide settings in the Teams admin center at <i>Manage apps &gt; Actions &gt; Org-wide app settings &gt; Microsoft 365 certified apps</i>.&nbsp;</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e2c6ba81-7623-471a-8d06-0b6ad6e2ef00\" style=\"width: 400px;\" alt=\"admin settings\"></p><p>You can configure additional criteria from the <i>Customize availability </i>option:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c2d0f382-0897-432d-8a46-028de82b2e2d\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before or after the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation. This new control will be disabled by default.</p><p>Learn more: <i>Manage org-wide app settings</i> in <a href=\"https://learn.microsoft.com/microsoftteams/manage-apps#manage-org-wide-app-settings\" target=\"_blank\">Manage your apps in the Microsoft Teams admin center - Microsoft Teams | Microsoft Learn</a> (will be updated before rollout)</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "485712"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will enable admins to manage Microsoft 365 certified third-party apps by rules in org-wide settings, enhancing security. This feature rolls out globally from mid-July to mid-October 2025, allowing bulk app availability control based on permissions and publishers, with no prior admin action needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-02-02T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1085133",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-09-18T19:41:17.143Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-29T23:14:18Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Rule-based enablement of Microsoft 365 third-party apps in the Teams admin center",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p>An agent for every channel: Teams channels provide an organized space for teams to manage workstreams and communicate with stakeholders. Now, each channel can have a dedicated agent that draws on its conversations and meetings to act as a domain expert for the team. These agents adopt the channel’s name and help with common tasks – for example, flagging important deadlines that are buried in conversations, summarizing progress with succinct status reports, assigning tasks and due dates, and answering questions asked in natural language like “What’s the latest on our budget?” You can even invite these agents into meetings when you need expert insights in the discussion.</p><ul><li>Status reporting: The agent can draft a status report for your project on your behalf. It pulls updates from channel conversations, meeting summaries, Planner boards, and announcements, organizing them into sections within the report. You can edit the draft directly in Teams before publishing it to the channel</li><li>Providing answers: Instead of manually searching for information across posts and threads, simply ask the agent. It checks the channel’s conversations, meetings, and plans, and can also trigger a web search. Then it quickly compiles the insights, summarizes the information, and delivers a clear, actionable reply</li><li>Planner integration: When a user assigns a task to another user via your channel’s agent, it creates a plan in Planner. Users can then ask the agent questions about the plan and the agent will keep them updated on the status of action items</li></ul><p><i>Image 1 - Add an agent to a Teams channel:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b37eb87a-ae47-4abe-9154-fc43cc71afa5/0dfa6d004503fcc979d6357a0d048c342c77ad08.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Image 2 - Channel Agent participates in the conversation:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/74cb68c0-fa7e-45c1-be0b-8dee58e92eda/6ae144c0efe5c493db21344abb1225ad3d120d55.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>Limitations:</p><ul><li>Channel Agent may gather and share context that crosses information barriers.</li><li>Channel Agent is best supported by English (US).</li><li>Channel Agent is not supported in private channels.</li><li>Channel Agent is not functional in channels that contain external or guest users.</li><li>Channel Agent is not supported in tenants that use Customer Key.</li><li>Processing data from previews can happen outside of the EU Data Boundaries</li></ul>\n\n<p></p><p><b>When this will happen:</b></p><ul><li><b>Public Preview</b>: We will begin rolling out in <b>mid-September 2025</b> and expect to complete by <b>mid-October 2025</b>.</li></ul><p><b>How this affects your organization:</b></p><p>This new agent is available in public preview and customers are required to have the following licenses to access in public preview. Beyond preview access, additional licensing details will be communicated at general availability.</p><ul><li>An eligible Microsoft 365 base license.<ul><li>For the list of eligible base licenses, see <a href=\"https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-licensing\" target=\"_blank\">Understand licensing requirements for Microsoft 365 Copilot</a>.</li></ul></li><li>Have an eligible Microsoft Teams license.<ul><li>Teams licenses might be included in your Microsoft 365 subscription. If you have Microsoft 365 (no Teams) licenses, you need to purchase separate Teams licenses.</li></ul></li><li>Have a Microsoft 365 Copilot license.<ul><li>For information on how to acquire Microsoft 365 Copilot licenses, see <a href=\"https://support.microsoft.com/topic/where-can-i-get-microsoft-copilot-40a622db-6d25-4266-b008-4bbcb55cf52f\" target=\"_blank\">Where can I get Microsoft Copilot?</a>.</li></ul></li></ul><p>Channel Agent and Microsoft 365 are built on Microsoft’s comprehensive approach to security, compliance, and privacy. Learn more about Microsoft Purview: <a href=\"https://learn.microsoft.com/purview/ai-teams-channel-agent\" target=\"_blank\">Use Microsoft Purview to manage data security &amp; compliance for Channel Agent in Teams</a>.</p><p>For existing Teams channels, users will need to manually add an agent in to use its capabilities. To add an agent to a channel, open the side panel through the “Agents and Bots” button in the upper right-hand corner of the channel. Once the side panel is open, you will see a banner to add an agent to this channel.</p><p>An agent will be automatically added to newly created channels. This means that for any new channel that an eligible user creates, an agent will be automatically added to the channel. If you would like to change this behavior, IT admins can choose to update this in <i>Teams admin center</i>.</p><p>Within<i> Teams admin center</i>, in the <i>Teams apps section</i> you will see a new page called Agent settings, where you can manage the configuration for the auto-creation feature. By default, auto-creation is enabled. It can be disabled by turning the toggle off.&nbsp;</p><p><b>What you can do to prepare:</b></p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.</p><p>The “Channel Agent” app will be turned on by default unless all apps are blocked by your organization. However, as an admin, you control whether Channel Agent will be available to your entire organization or to a certain group of users. For more information, refer to our admin documentation <a href=\"https://learn.microsoft.com/microsoftteams/set-up-channel-agent-teams\" target=\"_blank\">here</a>.</p><p>To create Channel Agent, a user needs to be Copilot licensed, have the necessary admin permissions, and be an owner of the channel or have permissions to add/remove apps in the channel.</p><p><b>Documentation:</b></p><ul><li><a href=\"https://learn.microsoft.com/microsoftteams/set-up-channel-agent-teams\" target=\"_blank\">Set up Channel Agent in Microsoft Teams</a></li><li><a href=\"https://support.microsoft.com/office/get-started-with-channel-agent-for-teams-channels-b85945cf-deef-4f1e-9db1-66e1a23b6a65\" target=\"_blank\">Get started with Channel Agent in Microsoft Teams</a></li></ul><p><b>Compliance considerations:</b>\n</p><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody><tr><th>Question</th><th>Explanation</th></tr>\n<tr><td>Does this change store new customer data?</td><td>Channel agent may generate new content (e.g., status reports, summaries) based on user interactions and store it within Teams or associated Microsoft 365 services.</td></tr>\n<tr><td>Does this change introduce or significantly modify AI/ML capabilities that interact with customer data?</td><td>Channel agent introduces new generative AI capabilities that interact with customer data to assist with project management tasks.</td></tr>\n<tr><td>Does this change provide users a new way of interacting with generative AI?</td><td>Users can interact with Channel agent to generate summaries, draft emails, and get contextual answers using generative AI.</td></tr>\n<tr><td>Does this change modify Microsoft Purview capabilities?</td><td>See documentation: <a href=\"https://learn.microsoft.com/purview/ai-teams-channel-agent\" target=\"_blank\">Use Microsoft Purview to manage data security &amp; compliance for Channel Agent in Teams</a></td></tr>\n\n</tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams introduces Channel Agent, an AI-powered assistant for each channel that summarizes conversations, drafts status reports, assigns tasks via Planner, and answers questions. Available in public preview from mid-September 2025, it requires specific Microsoft 365 and Copilot licenses and has limitations on channel types and languages. Admins can manage auto-creation settings."
+      }
+    ],
+    "EndDateTime": "2025-11-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1155329",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T18:57:19.98Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-18T18:57:11Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Channel Agent",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
     "ActionRequiredByDateTime": "2025-10-20T00:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -13,7 +588,7 @@
     "HasAttachments": false,
     "Id": "MC1135479",
     "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-18T05:31:17.673Z",
+    "LastModifiedDateTime": "2025-09-18T17:56:25.757Z",
     "Services": [
       "Microsoft 365 suite"
     ],
@@ -23,6 +598,208 @@
       "GDPR"
     ],
     "Title": "[Action Required] Credential management requires additional MFA Prompt for enhanced security",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<b><b>Introduction</b></b>\n<p>We’re introducing Knowledge Agent, a built-in SharePoint capability that helps organizations prepare content for AI at scale. It unifies fragmented AI features into a single, context-aware interface that adapts to user roles and surfaces intelligent actions directly in the flow of work. This enhancement supports high-quality, trustworthy responses from Microsoft 365 Copilot and custom agents.</p>\n\n<b><b>When this will happen:</b></b>\n<ul>\n<li><b>Public Preview (Worldwide):</b> Begins mid-September 2025; completes by late February 2026.</li>\n</ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p>\n<ul>\n<li>Users with a Microsoft 365 Copilot license on tenants opted into Knowledge Agent preview.</li>\n<li>Admins managing SharePoint content and agents.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>A floating button will appear in the lower-right corner of SharePoint surfaces, launching a context-aware menu with intelligent actions.</li>\n<li>Role-based capabilities include:\n  <ul>\n    <li>Content managers can structure, tag, and enrich content using smart metadata and AI recommendations.</li>\n    <li>Site owners can identify stale pages, broken links, and content gaps.</li>\n    <li>Content creators can generate pages and documents using natural language prompts.</li>\n    <li>Collaborators and viewers can surface grounded insights via natural language chat.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b>Impact to SharePoint agents users:</b></p>\n<ul>\n<li>Ready-made SharePoint site agents are now exclusively available to customers licensed for Knowledge Agent. These agents are no longer accessible through the Microsoft 365 Pay-As-You-Go (PAYG) billing model under the SharePoint agents meter.</li>\n<li>PAYG customers can still create custom-built, no-code SharePoint agents using the same SharePoint agents meter, but they will not have access to the ready-made site agents unless they meet the Knowledge Agent licensing requirements.</li>\n<li>The SharePoint ribbon icon has changed from the Copilot logo to a hexagon to indicate Knowledge Agent-enabled sites.</li>\n<li>Agent creation remains available via:\n  <ul>\n    <li>Site homepage</li>\n    <li>Agent chat pane</li>\n    <li><i>AI actions</i>&nbsp;menu in the command bar of a document library</li>\n    <li>Content menu of selected file(s) in a document library</li>\n  </ul>\n</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Knowledge Agent Public Preview begins September 18, 2025.</li>\n<li>Learn more about opting into the preview:&nbsp;<a href=\"https://learn.microsoft.com/sharepoint/knowledge-agent-get-started\">Get started with Knowledge Agent (preview)</a>.</li><li>For tenants who have opted in, it is possible to opt out for specific sites.</li><a href=\"https://aka.ms/knowledgeagentoptin\">\n</a><li>No setup is required for individual features.</li>\n<li>Learn more via the <a href=\"http://aka.ms/KnowledgeAgentLaunch\">Knowledge Agent blog</a>.</li></ul><a href=\"https://aka.ms/knowledgeagentblog\"></a>\n\n<b><b>Compliance considerations:</b></b>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<tbody><tr><th>Consideration</th><th>Explanation</th></tr>\n<tr><td>Introduces or modifies AI/ML capabilities</td><td>Knowledge Agent introduces new AI-driven features that interact with customer content to provide intelligent actions and insights.</td></tr>\n<tr><td>Provides new user interaction with generative AI</td><td>Users can interact with SharePoint content using natural language prompts and chat.</td></tr>\n<tr><td>Modifies access to existing features</td><td>Changes availability of ready-made SharePoint agents based on licensing.</td></tr>\n<tr><td>Includes admin control</td><td>Admins can opt in/out of preview and manage site-level availability.</td></tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Knowledge Agent (preview) is a new AI-powered SharePoint feature launching mid-September 2025, unifying AI tools into a role-adaptive interface for content optimization and Copilot support. It changes agent licensing, adds intelligent actions, and allows admins to control site participation without individual feature setup."
+      }
+    ],
+    "EndDateTime": "2028-10-19T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1155312",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T17:08:07.403Z",
+    "Services": [
+      "SharePoint Online",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-18T17:08:00Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Introducing Knowledge Agent (preview): AI-powered content optimization for SharePoint and Copilot",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 18, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p>\n<p>To streamline app management and reduce clutter, Teams apps with version numbers below 1.12 will be removed from the Integrated apps view in the Microsoft 365 admin center. These apps will continue to be fully visible and manageable in the Teams admin center.</p>\n\n<p><b>When this will happen</b></p>\n<p><b>General Availability (Worldwide):</b> We will begin rolling out in late August 2025 and expect to complete by late September 2025 (previously mid-September).</p>\n\n<p><b>How this affects your organization</b></p>\n<p>Apps below version 1.12 will no longer appear in the Microsoft 365 admin center. However, there is no change to how these apps are managed—they remain fully supported in the Teams admin center, and the upgrade path and user experience are unchanged.</p>\n\n<p><b>What you can do to prepare</b></p>\n<ul>\n<li>No action is required.\n</li><li>If your organization relies on the Microsoft 365 admin center for app visibility, consider updating apps to supported versions to retain visibility there.\n</li><li>There is no required timeline for upgrading apps to version 1.12 or higher. Admins may choose to upgrade at their discretion.\n</li><li>There is no change to the user experience—apps below version 1.12 will simply not appear in MAC &gt; Settings &gt; Integrated apps.</li><liadmins should=\"\" continue=\"\" using=\"\" the=\"\" teams=\"\" admin=\"\" center=\"\" to=\"\" manage=\"\" apps=\"\" with=\"\" version=\"\" 1.12=\"\" and=\"\" below.<=\"\" li=\"\">\n</liadmins></ul>\n\n<p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide\" target=\"_blank\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center | Microsoft 365 | Microsoft Learn</a></p><p><b>Compliance considerations</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Teams apps version 1.12 and earlier will be removed from the Microsoft 365 admin center's Integrated apps view starting late August 2025, completing by late September. These apps remain fully manageable in the Teams admin center, with no impact on user experience or compliance. No action is required."
+      }
+    ],
+    "EndDateTime": "2025-10-11T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1134169",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T15:18:24.48Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-12T23:00:20Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Teams app versions 1.12 and earlier will no longer appear in Microsoft 365 admin center",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 18, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>You can now save a meeting as a draft on your calendar when you're not ready to send invites. This update gives users more flexibility when planning events, especially when details are still being finalized.</p>\n\n<b>When this will happen</b><p></p><p>\n</p><ul>\n<li><b>General Availability (Worldwide, GCC, GCC High, DoD):</b> Rollout will begin in July 2025 and is expected to complete by mid-October 2025 (previously early September).</li>\n</ul>\n\n<b>How this affects your organization</b><p></p><p>\n</p><p>Users will be able to save events as drafts when creating a meeting with at least one attendee. To do this, select the <b>Discard</b> button while composing the event, then choose <b>Save as a draft</b>. Draft events will appear on the calendar with a “<b>Draft</b>” prefix in the title.<br>This feature is available on mobile and will be <b>on by default</b>.</p>\n\n<p></p><p><b>What you can do to prepare</b></p><p>\n</p><ul>\n<li>No admin action is required. You may want to:</li>\n<li>Inform your users about this new capability.</li>\n<li>Update internal training materials or documentation as needed.</li>\n</ul><b>Compliance considerations</b><p></p><a href=\"https://support.microsoft.com/outlook\">\n</a><p></p><p></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting July 2025, Outlook will let users save meetings with attendees as drafts, marked with “[Draft]” on the calendar. This feature, available by default on mobile, allows more flexible event planning. No admin action is needed, but user communication and training updates are recommended."
+      }
+    ],
+    "EndDateTime": "2025-11-24T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1125489",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T14:24:36.38Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-30T23:47:37Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Outlook | Save an Event as a Draft",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 18, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re introducing a new AI audio briefing feature in Viva Connections for Teams mobile (iOS and Android). This feature provides users with a quick, AI-generated summary of top news items in their news feed, with playback controls such as play, pause, and speed adjustment. A Microsoft 365 Copilot license is required to access this feature.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498233\" target=\"_blank\">498233</a>.</p><p><b>When this will happen</b></p><p>General Availability: We will begin rolling out late September 2025 (previously mid-September) and complete by end-November 2025.&nbsp;</p><p><b>How this affects your organization</b></p><p>Users with the Microsoft 365 Copilot license will be able to access the AI generated briefings in their Viva Connections news feed.</p><p>This feature is <b>on by default</b> and requires no configuration.</p><p><b>What you can do to prepare</b></p><ul><li>No action is required. The rollout will be automatic. </li><li>You may wish to inform licensed users about the new feature and its capabilities.</li></ul><p><b>Compliance considerations</b></p><p></p><p></p><table border=\"1\">\n<tbody><tr>\n<th>Compliance Area</th>\n\n<th>Details</th>\n</tr>\n<tr>\n<td>Provides end users any new way of interacting with generative AI</td>\n\n<td>Users can now interact with generative AI through audio briefings in Viva Connections.</td>\n</tr>\n\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "498233"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva Connections mobile will introduce an AI audio briefing feature providing summaries of top news with playback controls, requiring a Microsoft 365 Copilot license. The rollout starts late September 2025, completes by November, is on by default, and requires no user configuration."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, iOS"
+      }
+    ],
+    "EndDateTime": "2025-12-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1150671",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T14:14:11.237Z",
+    "Services": [
+      "Microsoft Viva",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-09T23:15:35Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Viva : News AI audio briefing in Connections Mobile",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 17, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Based on your feedback, we are excited to announce that Microsoft 365 service health email notifications for<i> Issues in your organization that require action </i>will soon be available by default in your preferred language.</p><p><b>When this will happen:</b>\n</p><p>\n</p><p>\n</p><p>General Availability (Worldwide): We will begin rolling out mid-July 2025 (previously late June) and expect to complete by early October 2025 (previously late September).&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Before this rollout, service health email notifications for<i> Issues in your organization that require action</i> were only sent in English. With this update, admins will receive alerts in their preferred language, making it easier to understand and act on service health issues that affect your organization. This change improves accessibility and ensures critical service health information is actionable for all admins, regardless of their language preference.\n\n</p><p>After this rollout, if you’ve already subscribed to service health notification alerts for<i> Issues in your environment that require action,</i> you will start receiving these email notifications in the language set in your Microsoft 365 admin center preferences. We will support these 72 languages for email translation:</p><ol><li>af-za: Afrikaans (South Africa)\n</li><li>am-et: Amharic (Ethiopia)\n</li><li>ar-sa: Arabic (Saudi Arabia)\n</li><li>as-in: Assamese (India)\n</li><li>az-latn-az   Azerbaijani (Latin, Azerbaijan)\n</li><li>bg-bg: Bulgarian (Bulgaria)\n</li><li>bn-in: Bengali (India)\n</li><li>bs-latn-ba   Bosnian (Latin, Bosnia &amp; Herzegovina)\n</li><li>ca-es: Catalan (Spain)\n</li><li>ca-es-valencia Valencian (Spain)\n</li><li>cs-cz: Czech (Czechia)\n</li><li>da-dk: Danish (Denmark)\n</li><li>de-de: German (Germany)\n</li><li>el-gr: Greek (Greece)\n</li><li>es-es: Spanish (Spain)\n</li><li>et-ee: Estonian (Estonia)</li><li>eu-es: Basque (Spain)\n</li><li>fa-ir: Persian (Iran)\n</li><li>fi-fi: Finnish (Finland)\n</li><li>fil-ph: Filipino (Philippines)\n</li><li>fr-fr: French (France)\n</li><li>ga-ie: Irish (Ireland)\n</li><li>gl-es: Galician (Spain)\n</li><li>gu-in: Gujarati (India)\n</li><li>he-il: Hebrew (Israel)\n</li><li>hi-in: Hindi (India)\n</li><li>hr-hr: Croatian (Croatia)\n</li><li>hu-hu: Hungarian (Hungary)\n</li><li>id-id: Indonesian (Indonesia)\n</li><li>is-is: Icelandic (Iceland)\n</li><li>it-it: Italian (Italy)\n</li><li>ja-jp: Japanese (Japan)\n</li><li>ka-ge: Georgian (Georgia)\n</li><li>kk-kz: Kazakh (Kazakhstan)\n</li><li>km-kh: Khmer (Cambodia)\n</li><li>kn-in: Kannada (India)\n</li><li>ko-kr: Korean (Korea)\n</li><li>lo-la: Lao (Laos)\n</li><li>lt-lt: Lithuanian (Lithuania)\n</li><li>lv-lv: Latvian (Latvia)\n</li><li>mi-nz: Maori (New Zealand)\n</li><li>mk-mk: Macedonian (North Macedonia)\n</li><li>ml-in: Malayalam (India)\n</li><li>mr-in: Marathi (India)\n</li><li>mt-mt: Maltese (Malta)\n</li><li>nb-no: Norwegian Bokmål (Norway)\n</li><li>ne-np: Nepali (Nepal)\n</li><li>nl-nl: Dutch (Netherlands)\n</li><li>or-in: Odia (India)\n</li><li>pa-in: Punjabi (India)\n</li><li>pl-pl: Polish (Poland)\n</li><li>pt-br: Portuguese (Brazil)\n</li><li>pt-pt: Portuguese (Portugal)\n</li><li>ro-ro: Romanian (Romania)\n</li><li>ru-ru: Russian (Russia)\n</li><li>sk-sk: Slovak (Slovakia)\n</li><li>sl-si: Slovenian (Slovenia)\n</li><li>sq-al: Albanian (Albania)\n</li><li>sr-cyrl-rs: Serbian (Cyrillic, Serbia)\n</li><li>sr-latn-rs: Serbian (Latin, Serbia)\n</li><li>sv-se: Swedish (Sweden)\n</li><li>ta-in: Tamil (India)\n</li><li>te-in: Telugu (India)\n</li><li>th-th: Thai (Thailand)\n</li><li>tr-tr: Turkish (Türkiye)\n</li><li>tt-ru: Tatar (Russia)\n</li><li>uk-ua: Ukrainian (Ukraine)\n</li><li>ur-pk: Urdu (Pakistan)\n</li><li>vi-vn: Vietnamese (Vietnam)\n</li><li>zh-cn: Chinese (Simplified, China)\n</li><li>zh-tw: Chinese (Traditional, Taiwan\n</li></ol><p>To configure this feature:</p><ul><li>Go to Microsoft 365 admin center &gt; <i>Service Health Dashboard &gt; Customize tab &gt; Email </i>tab to subscribe to <i>Issues in your environment that require action</i> (and <i>Issues with priority accounts notifications</i>, available for certain licenses).</li><li>Keep the <i>Translate emails to</i> &lt;preferred language&gt; checkbox checked to start receiving these notifications in your preferred language. <b>Note: </b>This box will be checked by default.</li><li>You can opt out of translation at any time to go back to receiving emails in English.\n</li></ul><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/638f33be-fcad-445d-89d8-52c6c46a9150\" style=\"width: 400px;\" alt=\"admin controls&gt;\n&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Translation for Microsoft-side incident and advisory notifications is not yet available but is planned for a future release.\n&lt;/p&gt;&lt;p&gt;This change will be on by default. Translation for &lt;i&gt;Incident &lt;/i&gt;and &lt;i&gt;Advisory &lt;/i&gt;notifications (Microsoft-side issues) is not yet available but is planned for a future release.&lt;/p&gt;&lt;p&gt;<b>What you need to do to prepare:</b>&lt;/p&gt;&lt;p&gt;This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your admins and/or users about this change and update internal documentation.&lt;/p&gt;&lt;p&gt;Learn more: &lt;a href=\" https:=\"\" learn.microsoft.com=\"\" microsoft-365=\"\" enterprise=\"\" view-service-health?view=\"o365-worldwide&amp;source=docs&quot;\" target=\"_blank\">How to check Microsoft 365 service health - Microsoft 365 Enterprise | Microsoft Learn (will be updated before rollout)</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting mid-July to early October 2025, Microsoft 365 service health email notifications for issues requiring action will be sent in admins' preferred languages (72 supported). This improves accessibility and is enabled by default, with translation for Microsoft-side incidents planned for a future release."
+      }
+    ],
+    "EndDateTime": "2025-11-10T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1091448",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-18T13:17:42.393Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-10T23:17:57Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 admin center: Email notifications for service health issues available in multiple languages",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -1834,52 +2611,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We’re introducing a new AI audio briefing feature in Viva Connections for Teams mobile (iOS and Android). This feature provides users with a quick, AI-generated summary of top news items in their news feed, with playback controls such as play, pause, and speed adjustment. A Microsoft 365 Copilot license is required to access this feature.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498233\" target=\"_blank\">498233</a>.</p><p><b>When this will happen</b></p><p>General Availability: We will begin rolling out mid-September 2025 and complete by end-November 2025.</p><p><b>How this affects your organization</b></p><p>Users with the Microsoft 365 Copilot license will be able to access the AI generated briefings in their Viva Connections news feed.</p><p>This feature is <b>on by default</b> and requires no configuration.</p><p><b>What you can do to prepare</b></p><ul><li>No action is required. The rollout will be automatic. </li><li>You may wish to inform licensed users about the new feature and its capabilities.</li></ul><p><b>Compliance considerations</b></p><p></p><p></p><table border=\"1\">\n<tbody><tr>\n<th>Compliance Area</th>\n\n<th>Details</th>\n</tr>\n<tr>\n<td>Provides end users any new way of interacting with generative AI</td>\n\n<td>Users can now interact with generative AI through audio briefings in Viva Connections.</td>\n</tr>\n\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "498233"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Connections mobile will introduce an AI audio briefing feature providing summaries of top news with playback controls. Available mid-September to November 2025, it requires a Microsoft 365 Copilot license, is on by default, and needs no user configuration."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, iOS"
-      }
-    ],
-    "EndDateTime": "2025-12-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1150671",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-12T17:08:53.75Z",
-    "Services": [
-      "Microsoft Viva",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-09T23:15:35Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Viva : News AI audio briefing in Connections Mobile",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated September 12, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re introducing <b>cross-cloud synchronization</b> in Microsoft Entra to help organizations streamline user lifecycle management across Microsoft’s commercial, US Government, and China cloud environments. This feature automates creating, updating, and deleting users across supported cloud pairs and is currently in public preview. It is <b>off by default</b> and must be explicitly enabled by administrators.</p><p><b>When this will happen</b></p><p><b>General availability (Worldwide, GCC, GCCH, DoD):</b> The capability is currently in public preview and will be rolled out to general availability <b>between late September 2025 </b>(previously early September)<b> and mid-October 2025 </b>(previously mid-September).</p><p><b>How this will affect your organization</b></p><p>There is <b>no impact to your tenant unless you choose to enable this feature</b>. Cross-cloud synchronization is opt-in and can be configured based on your organization’s needs. It provides a more efficient way to manage users across multiple Microsoft cloud environments.\n</p><p>Supported cloud pairs:\n</p><ul><li>Commercial (Commercial, GCC) → US Government (GCCH, DoD)</li><li>US Government (GCCH, DoD) → Commercial (Commercial, GCC)</li><li>Commercial → China\n</li></ul><p>This feature is <b>not visible to users</b>. Administrators attempting to configure it in the Entra portal will receive a <b>licensing warning</b> if prerequisites are not met.</p><p><b>What you need to do to prepare</b></p><p>Organizations planning to use cross-cloud synchronization should be aware of the following:</p><ul><li>A <b>Microsoft Entra ID Governance / Microsoft Entra Suite license</b> is required for each user in the source tenant that is being synchronized across clouds. This license is an add-on to Entra ID P1 or P2.</li><li>The feature must be enabled by an administrator in the <b>Microsoft Entra admin center</b>.\n</li><li>Access to the feature can be managed through <b>Entra ID group membership</b>.\n</li><li><b>New blades</b> are introduced in the Entra portal to support configuration and management.\n</li><li>The feature is accessible via <b>PowerShell</b> and the <b>Microsoft Graph API</b>.\n</li><li><b>Provisioning logs </b>and <b>Audit logs</b> in Microsoft Entra provide visibility into provisioning activity.\n</li><li>The feature supports <b>synchronization between two Microsoft Entra tenants</b>.</li><li>Setup guidance and prerequisites are available at:&nbsp;<a href=\"https://learn.microsoft.com/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure?pivots=cross-cloud-synchronization\" target=\"_blank\">Configure cross-tenant synchronization - Microsoft Entra ID | Microsoft Learn</a></li><li>Ensure your environment meets the requirements for the cloud pairs you plan to synchronize.</li><li>Known limitations and troubleshooting guidance:&nbsp;<a href=\"https://learn.microsoft.com/entra/identity/app-provisioning/known-issues?pivots=cross-tenant-synchronization\" target=\"_blank\">Known issues for provisioning in Microsoft Entra ID | Microsoft Learn</a></li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -2809,7 +3540,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3744273Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3744275Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3744276Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3744277Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1219416Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1219417Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1219418Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1219419Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3173,7 +3904,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -4533,7 +5264,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499892\":[{\"RoadmapId\":499892,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3744502Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499892,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3744503Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3744503Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3744504Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3744505Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"499892\":[{\"RoadmapId\":499892,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1219636Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499892,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1219637Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1219638Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T03:14:50.121964Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1219642Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -4584,7 +5315,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3742215Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3742216Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3742217Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3742218Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3742219Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1216348Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1216349Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T03:14:50.121635Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1216351Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1216352Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -4748,51 +5479,6 @@
       "Admin impact"
     ],
     "Title": "New Fabric Tenant Setting: “Set alert” Button Visibility for Power BI Users",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We are introducing a new capability in Microsoft Teams external collaboration that allows Teams administrators to specify which users or groups within the organization can interact with specific external domains. This enhancement provides more granular control over external collaboration, enabling scenarios such as piloting with select departments, restricting high-risk roles, or enabling broader federation where appropriate.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=501275\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">501275</a>.</p><p><b>When this will happen</b></p><p>Targeted Release: Begins early September 2025 and completes by mid-September 2025.</p><p>General Availability (Worldwide): Begins late October 2025 and completes by mid-December 2025.</p><p><b>How this affects your organization</b></p><p>Previously, external access settings could only be configured at the tenant level, with policy-level settings limited to either inheriting tenant settings or blocking all external domains. With this update, you can assign custom external access policies to users or groups with five configuration options:</p><ul><li><i>Use organization settings</i>: Inherits the tenant’s default external access configuration</li><li><i>Allow all external domains</i>: All external organizations are trusted</li><li><i>Allow only specific external domains</i>: Only domains in the allow list are trusted</li><li><i>Block only specific external domains</i>: Domains in the block list are restricted; all others are trusted</li><li><i>Block all</i>: All external domains are blocked for users assigned to this policy</li></ul><p>Users assigned a custom policy may interact with different external domains than those defined in the organization-wide settings.</p><p><b>What you can do to prepare</b></p><p>Administrators should begin identifying users and groups that require differentiated external access and plan pilot scenarios accordingly.</p><p>During the public preview, configuration must be done via PowerShell using the following cmdlets:</p><ul><li><code>Set-CsExternalAccessPolicy</code></li><li><code>Set-CsTenantFederationConfiguration</code></li></ul><p><i>Note: </i>Changes made through these cmdlets will not be reflected in the Teams admin center UI during the Targeted Release.</p><p>Once the feature reaches general availability, the Teams admin center UI will support these configurations, allowing policy management via both PowerShell and the UI.</p><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/manage-external-access\" target=\"_blank\">Manage external meetings and chat with people and organizations using Microsoft identities</a>.</p><p><b>Compliance considerations</b></p><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n\n<tr>\n  <td>Admin control via Entra ID group membership</td>\n  <td>Policies can be assigned to Entra ID groups for targeted external access control.</td>\n</tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "501275"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will enable admins to assign custom external access policies by user or group, allowing specific control over which external domains they can interact with. This feature, available from September 2025, supports five policy options and will be manageable via PowerShell initially, then through the Teams admin center UI."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-01-20T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1150123",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-09-08T23:31:37.08Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-08T23:31:18Z",
-    "Tags": [
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Teams Admin Center: Control External Access by Domain for Specific Users and Groups",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -6436,45 +7122,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated September 4, 2025: We have updated the timeline. Thank you for your patience.\n</p><p><b>Introduction</b></p><p>We’re streamlining the Know Your Customer (KYC) requirements for acquiring Microsoft telephone numbers in all markets. Teams administrators will need to submit general business information and supporting documents via Teams Admin Center before provisioning new telephone numbers. This is a one-time process that will allow Microsoft to validate businesses and fulfill regulatory requirements, helping protect our phone services from misuse, such as spam calls and voice phishing (vishing).</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out in early August 2025 and expect to complete by early September 2025 (previously late August).</p><p><b>How this will affect your organization</b></p><p>This change updates the existing telephone number provisioning workflow. Teams administrators must now complete a KYC onboarding process in the Teams Admin Center before provisioning new telephone numbers.</p><ul><li>Admins will be required to submit business information and supporting documentation.\n</li><li>The vetting process typically takes a few hours but may take up to two business days.\n</li><li>No new telephone numbers can be acquired until the submitted information is validated.\n</li><li>Existing telephone numbers are not affected.</li></ul><p>These requirements apply globally and are consistent across all markets.</p><p><b>What you need to do to prepare</b></p><p>Ensure your Teams administrators are ready to provide the following information via the Teams Admin Center:\n</p><ul><li>Company name\n</li><li>Tax ID, DUNS number, or Business Registration Number\n</li><li>Business address\n</li><li>A copy of the Business Registration, Registry Extract, or Articles of Incorporation</li></ul><p>This process applies to all tenants, including those on free trials. No specific license tier is required to complete the KYC onboarding.</p><p>Learn more: <a href=\"https://learn.microsoft.com/MicrosoftTeams/teams-phone-know-your-customer\" target=\"_blank\">Teams Phone Know Your Customer overview - Microsoft Teams | Microsoft Learn</a>&nbsp;&nbsp;</p><p><b>Compliance considerations</b></p><ul><li>Does the change store new customer data, if so, where, and is the data cached or permanently stored? - Yes. The KYC onboarding process requires submission of business information and supporting documentation, which will be stored by Microsoft to fulfill regulatory requirements.</li><li>Does the change alter how existing customer data is processed, stored, or accessed? - Maybe. While existing telephone numbers are not affected, the process introduces new data collection and validation workflows that may interact with existing tenant metadata.</li><li>Does the change include an admin control and, can it be controlled through Entra ID group membership? - Yes. The KYC onboarding process is managed through the Teams Admin Center, which supports role-based access control via Entra ID group membership.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting early August 2025, Teams admins must complete a one-time KYC onboarding in Teams Admin Center with business info and documents before provisioning new phone numbers. The process, taking hours to two days, applies globally, does not affect existing numbers, and requires no specific license tier."
-      }
-    ],
-    "EndDateTime": "2025-10-20T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1117815",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-04T17:47:05.787Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-18T23:39:28Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams | Know Your Customer (KYC) onboarding required for new phone number requests",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated September 4, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon for Microsoft SharePoint: A new web part for FAQs, to help assist content owners keep their content fresh and relevant. Powered by Microsoft 365 Copilot, this new web part can help content owner easily curate FAQ by working with agents and connected grounding data.</p><p>Copilot license requirements:</p><ul><li>Reading: All readers can view FAQ web part content without a Copilot license.\n</li><li>Creating &amp; Editing: A Copilot license is necessary for creating and editing content using Copilot features.</li></ul><p>\n</p><p>This feature requires a SharePoint license and a Microsoft 365 Copilot license.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=482198\" target=\"_blank\">482198</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out early August 2025 and expect to complete by mid-October 2025 (previously late August).</p><p>\n</p><p>Targeted Release: We will begin rolling out late October 2025 and expect to complete by early November 2025.</p><p>General Availability (Worldwide, GCC): We will begin rolling out mid-November 2025 and expect to complete by late November 2025.</p><p><b>How this will affect your organization:</b></p><p>After this rollout, authors can add the web part for FAQs directly to pages or news posts during editing:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/49f6a030-e9ed-472e-bdb6-c33997562530\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>By selecting one or more grounding source files, AI will automatically generate FAQ content, reducing the time and effort needed for manual creation of FAQs. The web part currently supports FAQ types such as<i> Event, Product, and Policy,</i> with the option for authors to provide additional descriptions to guide more targeted content generation. \n</p><p>FAQs created using the web part can be indexed for search and shared via email, making it easier to distribute consistent, up-to-date information to your organization.</p><p>This change will be available by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically with no admin action required. You may want to notify your users about this change and update any relevant documentation as appropriate.</p><p>Before rollout, we will update this post with new documentation.</p>",
       "ContentType": "html"
     },
@@ -6679,44 +7326,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Places: Built in Admin roles support",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 4, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Based on your feedback, we are excited to announce that Microsoft 365 service health email notifications for<i> Issues in your organization that require action </i>will soon be available by default in your preferred language.</p><p><b>When this will happen:</b>\n</p><p>\n</p><p>\n</p><p>General Availability (Worldwide): We will begin rolling out mid-July 2025 (previously late June) and expect to complete by late September 2025 (previously&nbsp; late August).&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Before this rollout, service health email notifications for<i> Issues in your organization that require action</i> were only sent in English. With this update, admins will receive alerts in their preferred language, making it easier to understand and act on service health issues that affect your organization. This change improves accessibility and ensures critical service health information is actionable for all admins, regardless of their language preference.\n\n</p><p>After this rollout, if you’ve already subscribed to service health notification alerts for<i> Issues in your environment that require action,</i> you will start receiving these email notifications in the language set in your Microsoft 365 admin center preferences. We will support these 72 languages for email translation:</p><ol><li>af-za: Afrikaans (South Africa)\n</li><li>am-et: Amharic (Ethiopia)\n</li><li>ar-sa: Arabic (Saudi Arabia)\n</li><li>as-in: Assamese (India)\n</li><li>az-latn-az   Azerbaijani (Latin, Azerbaijan)\n</li><li>bg-bg: Bulgarian (Bulgaria)\n</li><li>bn-in: Bengali (India)\n</li><li>bs-latn-ba   Bosnian (Latin, Bosnia &amp; Herzegovina)\n</li><li>ca-es: Catalan (Spain)\n</li><li>ca-es-valencia Valencian (Spain)\n</li><li>cs-cz: Czech (Czechia)\n</li><li>da-dk: Danish (Denmark)\n</li><li>de-de: German (Germany)\n</li><li>el-gr: Greek (Greece)\n</li><li>es-es: Spanish (Spain)\n</li><li>et-ee: Estonian (Estonia)</li><li>eu-es: Basque (Spain)\n</li><li>fa-ir: Persian (Iran)\n</li><li>fi-fi: Finnish (Finland)\n</li><li>fil-ph: Filipino (Philippines)\n</li><li>fr-fr: French (France)\n</li><li>ga-ie: Irish (Ireland)\n</li><li>gl-es: Galician (Spain)\n</li><li>gu-in: Gujarati (India)\n</li><li>he-il: Hebrew (Israel)\n</li><li>hi-in: Hindi (India)\n</li><li>hr-hr: Croatian (Croatia)\n</li><li>hu-hu: Hungarian (Hungary)\n</li><li>id-id: Indonesian (Indonesia)\n</li><li>is-is: Icelandic (Iceland)\n</li><li>it-it: Italian (Italy)\n</li><li>ja-jp: Japanese (Japan)\n</li><li>ka-ge: Georgian (Georgia)\n</li><li>kk-kz: Kazakh (Kazakhstan)\n</li><li>km-kh: Khmer (Cambodia)\n</li><li>kn-in: Kannada (India)\n</li><li>ko-kr: Korean (Korea)\n</li><li>lo-la: Lao (Laos)\n</li><li>lt-lt: Lithuanian (Lithuania)\n</li><li>lv-lv: Latvian (Latvia)\n</li><li>mi-nz: Maori (New Zealand)\n</li><li>mk-mk: Macedonian (North Macedonia)\n</li><li>ml-in: Malayalam (India)\n</li><li>mr-in: Marathi (India)\n</li><li>mt-mt: Maltese (Malta)\n</li><li>nb-no: Norwegian Bokmål (Norway)\n</li><li>ne-np: Nepali (Nepal)\n</li><li>nl-nl: Dutch (Netherlands)\n</li><li>or-in: Odia (India)\n</li><li>pa-in: Punjabi (India)\n</li><li>pl-pl: Polish (Poland)\n</li><li>pt-br: Portuguese (Brazil)\n</li><li>pt-pt: Portuguese (Portugal)\n</li><li>ro-ro: Romanian (Romania)\n</li><li>ru-ru: Russian (Russia)\n</li><li>sk-sk: Slovak (Slovakia)\n</li><li>sl-si: Slovenian (Slovenia)\n</li><li>sq-al: Albanian (Albania)\n</li><li>sr-cyrl-rs: Serbian (Cyrillic, Serbia)\n</li><li>sr-latn-rs: Serbian (Latin, Serbia)\n</li><li>sv-se: Swedish (Sweden)\n</li><li>ta-in: Tamil (India)\n</li><li>te-in: Telugu (India)\n</li><li>th-th: Thai (Thailand)\n</li><li>tr-tr: Turkish (Türkiye)\n</li><li>tt-ru: Tatar (Russia)\n</li><li>uk-ua: Ukrainian (Ukraine)\n</li><li>ur-pk: Urdu (Pakistan)\n</li><li>vi-vn: Vietnamese (Vietnam)\n</li><li>zh-cn: Chinese (Simplified, China)\n</li><li>zh-tw: Chinese (Traditional, Taiwan\n</li></ol><p>To configure this feature:</p><ul><li>Go to Microsoft 365 admin center &gt; <i>Service Health Dashboard &gt; Customize tab &gt; Email </i>tab to subscribe to <i>Issues in your environment that require action</i> (and <i>Issues with priority accounts notifications</i>, available for certain licenses).</li><li>Keep the <i>Translate emails to</i> &lt;preferred language&gt; checkbox checked to start receiving these notifications in your preferred language. <b>Note: </b>This box will be checked by default.</li><li>You can opt out of translation at any time to go back to receiving emails in English.\n</li></ul><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/638f33be-fcad-445d-89d8-52c6c46a9150\" style=\"width: 400px;\" alt=\"admin controls&gt;\n&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Translation for Microsoft-side incident and advisory notifications is not yet available but is planned for a future release.\n&lt;/p&gt;&lt;p&gt;This change will be on by default. Translation for &lt;i&gt;Incident &lt;/i&gt;and &lt;i&gt;Advisory &lt;/i&gt;notifications (Microsoft-side issues) is not yet available but is planned for a future release.&lt;/p&gt;&lt;p&gt;<b>What you need to do to prepare:</b>&lt;/p&gt;&lt;p&gt;This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your admins and/or users about this change and update internal documentation.&lt;/p&gt;&lt;p&gt;Learn more: &lt;a href=\" https:=\"\" learn.microsoft.com=\"\" microsoft-365=\"\" enterprise=\"\" view-service-health?view=\"o365-worldwide&amp;source=docs&quot;\" target=\"_blank\">How to check Microsoft 365 service health - Microsoft 365 Enterprise | Microsoft Learn (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting mid-July to late September 2025, Microsoft 365 service health email notifications for actionable issues will be sent in admins' preferred languages (72 supported). This improves accessibility and is enabled by default, with translation for Microsoft-side incidents planned for a future update. No admin action needed before rollout."
-      }
-    ],
-    "EndDateTime": "2025-11-10T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1091448",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-04T13:41:22.643Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-10T23:17:57Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 admin center: Email notifications for service health issues available in multiple languages",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -7343,7 +7952,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500634\":[{\"RoadmapId\":500634,\"Platform\":\"Desktop\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3740669Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":500634,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-18T11:02:30.3740674Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"500634\":[{\"RoadmapId\":500634,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1216196Z\",\"LatestRing\":null},{\"RoadmapId\":500634,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-19T03:14:50.1216199Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10845,45 +11454,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated August 27, 2025: We have updated the timeline. Thank you for your patience.</p><p>You can now save a meeting as a draft on your calendar when you're not ready to send invites. This update gives users more flexibility when planning events, especially when details are still being finalized.</p>\n\n<b>When this will happen</b><p></p><p>\n</p><ul>\n<li><b>General Availability (Worldwide, GCC, GCC High, DoD):</b> Rollout will begin in July 2025 and is expected to complete by early September 2025 (previously late August).</li>\n</ul>\n\n<b>How this affects your organization</b><p></p><p>\n</p><p>Users will be able to save events as drafts when creating a meeting with at least one attendee. To do this, select the <b>Discard</b> button while composing the event, then choose <b>Save as a draft</b>. Draft events will appear on the calendar with a “<b>Draft</b>” prefix in the title.<br>This feature is available on mobile and will be <b>on by default</b>.</p>\n\n<p></p><p><b>What you can do to prepare</b></p><p>\n</p><ul>\n<li>No admin action is required. You may want to:</li>\n<li>Inform your users about this new capability.</li>\n<li>Update internal training materials or documentation as needed.</li>\n</ul><b>Compliance considerations</b><p></p><a href=\"https://support.microsoft.com/outlook\">\n</a><p></p><p></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting July 2025, Outlook will let users save meetings with attendees as drafts, labeled “[Draft]” on the calendar. This feature, enabled by default on mobile, allows more flexible event planning. No admin action is needed, but users should be informed and training updated accordingly."
-      }
-    ],
-    "EndDateTime": "2025-10-27T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1125489",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-27T16:50:32.807Z",
-    "Services": [
-      "Exchange Online",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-30T23:47:37Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Outlook | Save an Event as a Draft",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated August 27, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>We’re introducing a new sign-in experience that enhances flexibility and accessibility for a limited number of users on Microsoft Teams for the web. This change introduces new sign-in options—<i>Continue with Apple</i> and <i>Continue with Google</i>—on the sign-in page (teams.microsoft.com or teams.com) for users routed through login.microsoftonline.com/common.</p><p><b>NOTE:</b> These options are intended for consumer Microsoft accounts and <i>may</i> be visible to both consumer and enterprise users, depending on your authentication configuration.\n</p><p><b>When this will happen:</b>\n</p><p>We will begin rolling out this private preview (Worldwide) in mid-September 2025 (previously late August) to a small number of Teams for the web users and expect to complete by mid-October 2025. We expect to expand this feature to other Microsoft apps later in 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout:\n</p><ul><li>Users can sign in or sign up for a Microsoft account using Apple or Google credentials.\n</li><li>Some users will be prompted to confirm whether they are using a personal or work/school account.\n</li><li>Existing sign-in methods remain unchanged, including entering an email/username or using <i>Sign-in options</i> to access organizational accounts.\n</li><li>Organizations using custom URLs (such as login.microsoftonline.com/contoso.com) will <b>not</b> be affected.</li><li>In the case of Teams on the web, the custom URLs will be https://teams.microsoft.com?tenantId=&lt;YOUR_DOMAIN_NAME&gt; <b>or</b> https://teams.microsoft.com?tenantId=&lt;YOUR_TENANT_ID&gt;</li></ul><p><i>Screenshots of the new experience:\n</i></p><p>1. Users can select <i>Continue with Apple</i> or <i>Continue with Google</i> to sign in or sign up for a consumer Microsoft account using an Apple or Google credential. This image shows the Google option:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a77574ce-7170-4b70-82cd-37cc7022fdd7\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>2. A subset of users who click these options will see a screen that confirms whether they are using a personal or work/school account. In this image, the user has selected the work/school option:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f7cd81f8-2aef-4626-bebc-4ca33f25464b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>3. Users can still enter their email/username at the top of the sign-in screen, and sign into a specific organization with <i>Sign-in options</i>:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f130bb08-5ee4-416d-aef7-fd0e3e44dec7\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b></p><p>No action is required. This feature is only being added to login.microsoftonline.com/common. Users accessing login.microsoftonline.com with a custom URL will not see this feature.</p><p><i>You can show a custom URL for your organization by passing a domain hint to apply company branding at the initial sign-in screen. Custom URLs for Teams on the web will be https://teams.microsoft.com?tenantId=&lt;YOUR_DOMAIN_NAME&gt; or https://teams.microsoft.com?tenantId=&lt;YOUR_TENANT_ID&gt;.\n</i></p><p><i>Learn more</i>\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/entra/fundamentals/how-to-customize-branding\" target=\"_blank\">Add company branding to your organization's sign-in page - Microsoft Entra | Microsoft Learn</a>\n</li><li><a href=\"https://devblogs.microsoft.com/identity/custom-url-domains/\" target=\"_blank\">Adding branded URLs to authentication with Microsoft Entra External ID Custom URL Domains | Microsoft Entra Identity Platform</a></li></ul><p></p>",
       "ContentType": "html"
     },
@@ -14065,37 +14635,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the Public Preview of the Alerts feature in Power Platform Monitor, available in the Power Platform admin center. This feature will be available in all public clouds starting on August 18, 2025.<br><br><b>How does this affect me?</b><br>Alerts enable both tenant and environment administrators to define threshold-based rules on operational health metrics and receive proactive notifications when conditions are met. This capability complements the existing Monitor experience by helping you take timely action when apps or automations fall below expected performance standards.<br><br>Alerts support the following resource types:<ul><li>Canvas apps</li><li>Model-driven apps</li><li>Cloud flows</li><li>Desktop flows</li></ul>Notifications can be delivered via email, ensuring you stay informed without constantly checking dashboards.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required. No configuration or set up is needed to use the feature.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO11850\">Create alerts for your resources (preview)</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-09-18T21:26:17Z",
-    "HasAttachments": false,
-    "Id": "MC1137567",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-18T21:33:05.347Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-18T21:26:17Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Platform – Public Preview of the Alerts feature in Power Platform Monitor",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction</b></p>\n<p>To help organizations better understand how Microsoft 365 Copilot Chat is being used—especially by users without Copilot licenses—we’re introducing new usage intensity metrics in the Microsoft 365 admin center. These metrics provide visibility into prompt activity and engagement across Word, Excel, PowerPoint, and OneNote, enabling admins to track adoption and usage trends more effectively.</p>\n<p>This update is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=495549\" target=\"_blank\">495549</a>.</p>\n\n<p><b>When this will happen</b></p>\n<p><b>General Availability (Worldwide):</b> We will begin rolling out in mid-August 2025 and expect to complete by early September 2025.</p>\n\n<p><b>How this affects your organization</b></p>\n<ul>\n  </ul><p>In the Microsoft 365 admin center, under <b>Reports → Usage → Microsoft 365 Copilot Chat</b>, the following new metrics will be available:</p><ul><li><b>Prompt activity metrics</b><ul><li>Total and average prompt counts at both tenant and user levels\n</li><li>Daily prompt submission trends across Copilot Chat apps\n</li></ul></li><li><b>User engagement metrics</b><ul><li>Active days per user\n</li><li>Last activity date (UTC) per app (Word, Excel, PowerPoint, OneNote)\n</li></ul></li><li><b>App-level visibility</b><ul><li>Breakdown of Copilot Chat usage across Word, Excel, PowerPoint, and OneNote\n</li></ul></li></ul><p>All metrics focus on users <b>without Microsoft 365 Copilot licenses</b>, defined as users who have Microsoft 365 licenses but do not have Copilot service plans enabled. These users are identified through the absence of enabled Copilot service plans and are grouped accordingly in the report. User-level data is anonymized by default.\n</p><p>The report includes usage from Copilot Chat across multiple entry points including Teams, Outlook, Microsoft Edge, Copilot.cloud.microsoft, the Microsoft 365 Copilot app, <span style=\"background-color: rgb(255, 255, 255);\">Word, Excel, PowerPoint and OneNote. </span>Metrics are refreshed <b>daily</b>, though occasional delays may occur.\n</p><p>This feature is <b>on by default </b>and available to <b>all tenants</b> in Worldwide (Standard Multi-Tenant) cloud instances. There are <b>no admin controls</b> to configure this feature.\n</p><p><b>Note:</b> If the Copilot Chat feature in Word, Excel, PowerPoint, or OneNote has not yet been deployed to your organization, you may see zero active users for those apps in the usage report.\n</p><p>This update <b>will impact existing custom reports</b>, including those exported to Power BI<span style=\"background-color: rgb(255, 255, 255);\">.&nbsp;</span>Admins should review and update their reporting logic accordingly.</p>\n\n<p><b>What you can do to prepare</b></p>\n<ul><li>Review your current usage reports and update any custom dashboards or exports to include the new metrics.\n</li><li>If you use Copilot Chat usage reports as the basis for custom reporting (such as Power BI dashboards), consider updating your reports to include these new metrics. This will enhance your ability to track engagement and adoption across Microsoft 365 apps.</li><li>If needed, update report settings to display user names by navigating to <b>Settings → Org Settings → Services → Reports</b> and adjusting the anonymization setting.</li></ul>\n<p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-copilot-usage?view=o365-worldwide\" target=\"_blank\">Microsoft 365 reports in the admin center – Microsoft 365 Copilot Chat usage | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide\" target=\"_blank\">Microsoft 365 Reports in the admin center | Microsoft 365 | Microsoft Learn</a><p></p></li></ul><p><i>Screenshot - Summary view of Copilot Chat usage across apps:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/3593c89a-4c0d-4857-a2b6-4eaf3678eb49/26bc9597702e2fdfc9d820fc476a2dacf2aa1e85.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b>Compliance considerations</b></p><p><b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Introduces new metrics that analyze user interaction with generative AI via Copilot Chat across Word, Excel, PowerPoint, and OneNote.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Metrics reflect user engagement with Copilot Chat features across multiple Microsoft 365 apps.</td></tr><tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td><td>Enhances reporting capabilities in the Microsoft 365 admin center with new metrics and export options for tracking Copilot Chat usage.</td></tr></tbody></table><p><b></b></p>",
       "ContentType": "html"
     },
@@ -14999,44 +15538,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>In response to customer feedback, we are introducing enhanced flexibility, greater scalability, and streamlined compliance management for private channels in Microsoft Teams.\n</p><p>Note: It is important for compliance managers to review and take appropriate action before migration starts for these changes to private channels. \n</p><p><b>What's changing?</b></p><p>Private channels will transition use a channel mailbox instead of individual user mailboxes. \n</p><p>Organizations with compliance policies (retention, legal hold, data loss prevention, or eDiscovery) for private channels must review these policies and must apply policies to the Microsoft 365 group for the channel’s team before migration begins to ensure continuity of the policy for a private channel.  Existing policies will continue to apply to user mailboxes; post-migration, new data will be governed by policies on the group. Note that policies applied to the team’s group can apply to all channels in the team.\n</p><p>After the transition to updated private channels in your organization, private channels will be updated as follows.\n</p><ol><li>Private channels are no longer limited to 30 per team. Instead, private channels can be added up to the limit of 1000 total channels per team.\n</li><li>Private channels can now have up to 5000 members, instead of 250.\n</li><li>Meetings can now be scheduled in private channels.\n</li><li>Compliance policies for private channels are part of the team’s group policies instead of the individual user level.\n</li></ol><p>The migration of private channels to the updated capabilities will begin in late September 2025 and continue through December 2025. During this period, private channels will continue to operate normally. Admins and compliance managers should complete any required policy changes by September 20, 2025, before the migration begins. Migration can start or end at different times for each tenant during the rollout period. To track progress, a new PowerShell command will be available for tenants to check whether their migration has started or is completed. This post will be updated soon with details on the PowerShell command.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out late September 2025 and expect to complete by mid-December 2025.\n</p><p><b>Action required by compliance managers and admins</b></p><ol><li>Purview eDiscovery and Legal Hold</li>\n<p></p><p>With this change, private channel data will move from user mailboxes to the group mailbox, aligning with how shared channels data is stored. Previously, legal holds were applied to user mailboxes since private channel data resided in each member’s mailbox. Post-migration, the latest version of private channel message data from each user’s mailbox is moved to the private channel’s group mailbox. Message edits and deleted messages will not be copied into the group mailbox.\n</p><p>Note: For users on hold, copies of message edits and deleted messages will remain in the user’s preserved library folder until the hold expires, while the latest version of private channel message data from each user’s mailbox is copied to the private channel’s group mailbox. \n</p><p>Before migration\n</p><p>If a legal hold exists for a private channel, admins must also apply the policy to the team’s group, in addition to the policy already applied to users’ mailboxes, in order for a hold to apply to new data generated and stored in the private channel’s mailbox. Note that policies applied to the team’s group can apply to all channels in the team.\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/752d2d97-48d7-4491-a3e7-ecc866373a44  \" width=\"400\" height=\"\"></p><p>Screenshot 1: Setting up a new hold in Microsoft Purview compliance portal.\n</p><p>After migration\n</p><p>For existing holds admins will need to ensure that the hold is applied to the user mailbox as well as the new group mailbox, in order for a hold to apply to existing and new message data. Any new legal holds will need to be applied to the group.\n</p><p>For complete eDiscovery, include both the private channel’s users’ mailboxes and the team’s group mailbox to retrieve pre-migration messages, message history, and post-migration new content.\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/0de1f667-c352-400b-8a94-57237676a30d  \" width=\"400\" height=\"\"></p><p>Screenshot 2: Configuring an eDiscovery search in Microsoft Purview compliance portal.\n</p><li>Purview Data Loss Prevention (DLP)</li> \n<p></p><p>With this change, private channel messages will be included as a part of the DLP policy scoped to the private channel’s team’s group, as opposed to the user mailbox. \n</p><p>Before migration\n</p><p>Admins must modify the “Teams chat and channel messages” policy for private channels to add the team’s group containing the private channel, in addition to the user mailbox, in order to include new private channel messages in a policy. Note that policies applied to the team’s group can apply to all channels in the team.\n</p><p>After migration\n</p><p>Ensure that “Teams chat and channel messages” policy for private channels is scoped to the team’s group containing the private channel. \n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/96d2a6b8-fdf0-402c-8475-d8631fe4ae2b \" width=\"400\" height=\"\"></p><p>Screenshot 3: Configuring a data loss prevention policy in Microsoft Purview compliance portal.\n</p><li>Purview Retention Policy</li>\n<p></p><p>After this change, creation of new private channel-specific policies will not be possible in the Purview portal. Instead, “Teams channel messages” policies applied to the team’s group will now include private channels. Existing private channel policies will remain in effect and preserve all held message data in user mailboxes. Editing of existing policies will not be supported but policies can be removed.\n</p><p>Before migration\n</p><p>Apply current private channel retention policies (previously on user mailboxes) to Teams channel messages to include the team’s group, in order to include new private channel messages in a policy. In Microsoft Purview compliance portal, go to solutions &gt; Data Lifecycle Management &gt; Retention policies. Note that policies applied to the team’s group can apply to all channels in the team. \n</p><p>After migration\n</p><p>If the parent team’s group retention policy differs from the private channel’s policy, create a new or equivalent policy to ensure consistent retention.</p><p> \n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c565bdcb-1dbc-4f94-b060-b5bbc96d368a \" width=\"400\" height=\"\"></p><p>Screenshot 4: Configuring “Teams channel messages” for a retention policy in Microsoft Purview compliance portal.\n</p></ol><p>Frequently asked questions\n</p><ol><li>How can admins identify a user’s private channel memberships?\n<ul><li>Use Teams Admin Center under team settings, or run PowerShell: Get-TeamChannelUser to list members.\n</li></ul></li><li>When is compliance manager action required?\n<ul><li>If a policy (legal hold, eDiscovery, retention, DLP) applied to a user’s mailbox, in order to include private channel messages, differs from the team policies for the team hosting the private channel. Policies must be applied to the team’s group in order to include new private channel messages in a policy. Note that policies applied to the team’s group can apply to all channels in the team.</li><li>During eDiscovery for users on hold or during migration, search both user mailbox and group mailbox for complete data on a private channel.</li></ul></li><li>What if no action is taken?\n<ul><li>User-level policies will not apply to a private channel’s new message data. Team-level policies will apply to private channels. \n</li></ul></li><li>Why isn’t Microsoft automatically applying policies from user mailboxes to a private channel’s team?\n<ul><li>Tenant admins and compliance managers must assess and apply policies as needed. Group policies apply to all channels in the Team. Some user mailbox policies are intended for all of a user’s messages, and some are intended for private channel messages. Each organization must review and decide on policies.\n</li></ul></li><li>Is there any impact to end users?\n<ul><li>During migration, users may see duplicate search results in Teams searches—both links will navigate to the same content in Microsoft Teams.\n</li></ul></li></ol><p>Please refer to this blog post for more information: <a href=\"https://techcommunity.microsoft.com/blog/microsoftteamsblog/unlocking-the-full-potential-of-private-channels-in-microsoft-teams/4438767\" target=\"_blank\">New enhancements in Private Channels in Microsoft Teams unlock their full potential</a>&nbsp;</p><p>We appreciate your attention to this important update.\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams is enhancing private channels by increasing limits to 1000 channels per team and 5000 members per channel, enabling meetings, and shifting compliance policies from user mailboxes to team group mailboxes. Migration starts late September 2025; admins must update policies by September 20, 2025."
-      }
-    ],
-    "EndDateTime": "2026-02-09T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1134737",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-08-13T23:10:45.703Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-13T23:09:57Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Private channels increased limits and transition to group compliance",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated August 13, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Manage retention and deletion workflows for user-owned Loop workspaces such as Copilot Pages and the Loop personal workspace when users leave the organization.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=421612\" target=\"_blank\">421612</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out early November 2025 (previously early August) and expect to complete by late November 2025 (previously late August).</p><p><b>How this will affect your organization:</b></p><p>Once available, admins will be able to manage retention and deletion workflows for user-owned Loop workspaces such as Copilot Pages and the Loop personal workspace when users leave the organization. Updates will include the ability to provide temporary access to other employees or administrators to save important data before deletion policies take effect.</p><p>More details will become available closer to the release date.</p><p><b>What you need to do to prepare:</b></p><p>There is nothing you need to do to prepare. These changes will roll to your tenant automatically.</p>",
       "ContentType": "html"
     },
@@ -15672,44 +16173,6 @@
       "New feature"
     ],
     "Title": "[Copilot Extensibility] Admins can manage ownerless Copilot agents with new lifecycle controls",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p>\n<p>To streamline app management and reduce clutter, Teams apps with version numbers below 1.12 will be removed from the Integrated apps view in the Microsoft 365 admin center. These apps will continue to be fully visible and manageable in the Teams admin center.</p>\n\n<p><b>When this will happen</b></p>\n<p><b>General Availability (Worldwide):</b> We will begin rolling out in late August 2025 and expect to complete by mid-September 2025.</p>\n\n<p><b>How this affects your organization</b></p>\n<p>Apps below version 1.12 will no longer appear in the Microsoft 365 admin center. However, there is no change to how these apps are managed—they remain fully supported in the Teams admin center, and the upgrade path and user experience are unchanged.</p>\n\n<p><b>What you can do to prepare</b></p>\n<ul>\n<li>No action is required.\n</li><li>If your organization relies on the Microsoft 365 admin center for app visibility, consider updating apps to supported versions to retain visibility there.\n</li><li>There is no required timeline for upgrading apps to version 1.12 or higher. Admins may choose to upgrade at their discretion.\n</li><li>There is no change to the user experience—apps below version 1.12 will simply not appear in MAC &gt; Settings &gt; Integrated apps.</li><liadmins should=\"\" continue=\"\" using=\"\" the=\"\" teams=\"\" admin=\"\" center=\"\" to=\"\" manage=\"\" apps=\"\" with=\"\" version=\"\" 1.12=\"\" and=\"\" below.<=\"\" li=\"\">\n</liadmins></ul>\n\n<p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide\" target=\"_blank\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center | Microsoft 365 | Microsoft Learn</a></p><p><b>Compliance considerations</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Teams apps version 1.12 and earlier will be removed from the Microsoft 365 admin center's Integrated apps view starting late August 2025 but remain fully manageable in the Teams admin center. No action is required, and user experience remains unchanged."
-      }
-    ],
-    "EndDateTime": "2025-10-11T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1134169",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-12T23:00:29.657Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-12T23:00:20Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Teams app versions 1.12 and earlier will no longer appear in Microsoft 365 admin center",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -16550,53 +17013,6 @@
       "User impact"
     ],
     "Title": "Microsoft Teams: Specify who can manage the screen in town halls",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 8, 2025: We have updated the content. Thank you for your patience.</p><p>This feature will empower administrators to manage the availability of trusted Microsoft Teams apps based on rules, for enhanced security. Admins will be able to manage Microsoft 365 certified apps in the Teams admin center through a new control in <i>Org-wide settings</i>. You can further customize the availability of these apps based on permissions accessed and publisher names. The system automatically checks the Microsoft 365 certified apps that meet all the conditions you specify and makes those apps available.&nbsp;<b>&nbsp;</b></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=485712\" target=\"_blank\">485712</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out mid-September 2025 (earlier mid-July 2025) and expect to complete by mid-October (earlier August 2025)</p><p><b>How this will affect your organization:</b></p><p>Before this rollout, you cannot manage at bulk the availability of Microsoft 365 certified apps. They are only controlled by third-party app tenant settings.\n</p><p>After this rollout, you can manage Microsoft 365 certified apps availability from org-wide settings in the Teams admin center at <i>Manage apps &gt; Actions &gt; Org-wide app settings &gt; Microsoft 365 certified apps</i>.&nbsp;</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e2c6ba81-7623-471a-8d06-0b6ad6e2ef00\" style=\"width: 400px;\" alt=\"admin settings\"></p><p>You can configure additional criteria from the <i>Customize availability </i>option:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c2d0f382-0897-432d-8a46-028de82b2e2d\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before or after the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation. This new control will be disabled by default.</p><p>Learn more: <i>Manage org-wide app settings</i> in <a href=\"https://learn.microsoft.com/microsoftteams/manage-apps#manage-org-wide-app-settings\" target=\"_blank\">Manage your apps in the Microsoft Teams admin center - Microsoft Teams | Microsoft Learn</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "485712"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will enable admins to manage Microsoft 365 certified third-party apps by rules in org-wide settings, enhancing security. This feature rolls out globally from mid-July to mid-October 2025, allowing bulk app availability control based on permissions and publishers, with no prior admin action needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-11-24T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1085133",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-08-08T18:20:23.607Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-29T23:14:18Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Rule-based enablement of Microsoft 365 third-party apps in the Teams admin center",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -22766,53 +23182,6 @@
       "Admin impact"
     ],
     "Title": "Feature Update: Gradual Rollouts (GR) Removal in Windows Autopatch",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 27, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Coming soon to Microsoft Purview | Insider Risk Management (IRM), admins will be able to select any Communication Compliance (CC) policy alerts as indicators in IRM policies. After this rollout, IRM admins can select\nany CC policies that they would like to bring into IRM and detect if a user has alerts for these selected CC policies. When an IRM alert is generated, admins can review if there are any alerts for the user in CC under the policies that are enabled as indicators. This feature will help admins and analysts view this information in IRM without switching to CC.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=489838\" target=\"_blank\">489838</a>.\n</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out late July 2025 (previously late May) and expect to complete by early August 2025 (previously early June).\n</p><p>General Availability (Worldwide): We will begin rolling out mid-August 2025 (previously mid-June) and expect to complete by early September 2025 (previously early July).</p><p><b>How this will affect your organization:</b></p><p>After this rollout, admins will be able to enable this indicator in IRM’s global settings for policy indicators. When enabled, this indicator can be selected in\nany IRM policy.</p><p>Using the indicator\n</p><ol><li>In IRM, go to <i>Settings </i>&gt;<i> Insider Risk Management &gt; Policy indicat</i>ors<i> &gt;</i> <i>Built-in Indicators. </i>Open the <i>Communication Compliance indicators &gt; Detect messages matched by specific CC policies </i>drop-down menu. Check the box and choose the CC policies to bring into IRM. Save the changes. \n</li><li>To use in a policy: In the policy wizard for any IRM policy, configure the policies as applicable until you get to the <i>Indicators </i>page.\nOpen the <i>Communication Compliance indicators </i>drop-down menu and\ncheck the box for <i>Sending messages flagged by selected CC policies.</i> Configure\nthe rest of the policy as applicable.\n</li></ol><p>These changes will be available by default for admins to configure.\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to\nnotify your admins about this change and update any relevant documentation. \n</p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/insider-risk-management-settings-policy-indicators?tabs=purview-portal\">Configure policy indicators in insider risk management |\nMicrosoft Learn</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "489838"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Admins will soon be able to use Communication Compliance policy alerts as indicators in Insider Risk Management (IRM) policies in Microsoft Purview. This feature will be available in public preview from late July 2025 and generally available from mid-August 2025. No admin action is required before the rollout."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-10-27T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1074097",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-27T13:57:10.157Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-14T23:42:40Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Insider Risk Management: Custom Communication Compliance policy as IRM indicator",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -32160,68 +32529,6 @@
       "Admin impact"
     ],
     "Title": "KB5014754: Certificate-based authentication changes on Windows domain controllers",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>The Copilot experience on Windows is changing in response to your feedback. Moving forward, users with work or school accounts will access Microsoft Copilot through the Microsoft 365 app. In addition, Microsoft Copilot will offer enterprise data protection (EDP) at no additional cost for all users signed in with an Entra account. This means that security, privacy, and compliance controls and commitments available for Microsoft 365 Copilot will extend to Microsoft Copilot prompts and responses.&nbsp;&nbsp;</div><div><br></div><div><b>When will this happen?&nbsp;</b>&nbsp;</div><div>The update to Microsoft Copilot to offer enterprise data protection is rolling out now—and is replacing the current Copilot in Windows experience. The shift to the Microsoft 365 app as the entry point for Microsoft Copilot is coming soon. Changes will be rolled out to managed PCs starting with the optional non-security preview release on September 24, 2024, and following with the monthly security update release on October 8 for all supported versions of Windows 11. These changes will be applied to Windows 10 PCs the month after.&nbsp;</div><div><br></div><div><b>How this will affect your organization</b>&nbsp;</div><div>If your organization hasn’t enabled Copilot in Windows (in preview), your existing preferences will be respected. Neither the Microsoft Copilot app nor the Microsoft 365 app are pinned to the taskbar.&nbsp;</div><div><br></div><div>If you had previously activated Copilot in Windows (in preview) for your workforce, to provide the best Copilot experience for your employees moving forward, we won't automatically pin the Microsoft 365 app to the taskbar in Windows. Rather, we'll ensure that you have control over how you enable the Copilot experience within your organization. If you want your users to have uninterrupted access to Microsoft Copilot after the update, use the configuration options to pin the Microsoft 365 app to the taskbar as the Copilot in Windows (preview) icon will be removed from the taskbar as part of the update.&nbsp;</div><div><br></div><div>Users signing into new PCs with work or school accounts can access Microsoft Copilot using the Microsoft 365 app, which comes pre-installed with all Windows PCs. For additional details, see <a href=\"https://learn.microsoft.com/windows/client-management/manage-windows-copilot?#users-signing-in-to-new-pcs-with-microsoft-entra-accounts\" rel=\"noopener noreferrer\" target=\"_blank\">Users signing in to new PCs with Microsoft Entra accounts</a>.&nbsp;</div><div><br></div><div><b>What you need to do to prepare</b>&nbsp;</div><div>You can enable the Microsoft Copilot experience for your users now by using the<b> </b><a href=\"https://learn.microsoft.com/windows/client-management/mdm/policy-csp-windowsai#turnoffwindowscopilot\" rel=\"noopener noreferrer\" target=\"_blank\">TurnOffWindowsCopilot policy</a> and pinning the Microsoft 365 app using the existing policies for Taskbar pinning.&nbsp;</div><div><br></div><div><b>Additional resources</b>&nbsp;</div><div>For more information on this change, please read <a href=\"https://aka.ms/Windows/CopilotBlog\" rel=\"noopener noreferrer\" target=\"_blank\">Enhanced data protection with Windows and Microsoft Copilot</a>. For details on how to enable and manage Microsoft Copilot for your users, please see the following resources:&nbsp;</div><ul><li><a href=\"https://learn.microsoft.com/windows/client-management/manage-windows-copilot\" rel=\"noopener noreferrer\" target=\"_blank\">Manage Copilot in Windows</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/windows/client-management/manage-windows-copilot\" rel=\"noopener noreferrer\" target=\"_blank\">Updated Windows and Microsoft Copilot experience</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/copilot/edpfaq\" rel=\"noopener noreferrer\" target=\"_blank\">FAQ: Microsoft Copilot updates and enterprise data protection</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/enterprise-data-protection\" rel=\"noopener noreferrer\" target=\"_blank\">Enterprise data protection in Copilot for Microsoft 365 and Microsoft Copilot</a>&nbsp;</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-09-18T18:49:15.483Z",
-    "HasAttachments": false,
-    "Id": "MC890878",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2024-09-18T18:49:17.16Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-09-18T18:49:15.53Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Changes coming to the Copilot experience for Windows",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>If you use Microsoft Intune to deploy Windows updates in your organization, streamline your reporting with two new device alerts. You can now find and troubleshoot devices that aren’t reporting correct update progress because they aren’t sending diagnostic data. The new alerts are DeviceDiagnosticDataNotReceived and MinimumOSBuildNotMet. Learn what they mean, where to find them in Microsoft Intune, and how to remediate the underlying issues. Get all the details in <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/new-alerts-for-windows-updates-in-microsoft-intune/ba-p/4248278\" rel=\"noopener noreferrer\" target=\"_blank\">New alerts for Windows updates in Microsoft Intune</a>.</div><div>&nbsp;</div><div><b>When will this happen:</b></div><div>These alerts are already available in Microsoft Intune and Windows Update for Business reports. Note: The DeviceDiagnosticDataNotReceived alert has been available in Windows Update for Business reports since May of 2024.</div><div>&nbsp;</div><div><b>How this will affect your organization:</b></div><div>Whether you use Microsoft Intune or Windows Update for Business reports, your compliance reporting depends on diagnostic data. With two new alerts, you can now gain insight into the subset of devices that weren’t easily identifiable before. They’ll help you configure Windows diagnostic data in a way that reflects the true state of devices in your organization. This, in turn, will help you ensure that your Windows update deployments run smoothly.</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><div>Note that you’ll need at least the January 2023 non-security update or later cumulative update for clients to <a href=\"https://learn.microsoft.com/windows/deployment/update/wufb-reports-prerequisites#windows-operating-system-updates-for-client-devices\" rel=\"noopener noreferrer\" target=\"_blank\">enroll into Intune reports and Windows Update for Business reports</a>. Read the article and additional information for complete guidance.</div><div>&nbsp;</div><div><b>Additional information:</b></div><ul><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/new-alerts-for-windows-updates-in-microsoft-intune/ba-p/4248278\" rel=\"noopener noreferrer\" target=\"_blank\">New alerts for Windows updates in Microsoft Intune</a></li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/missing-devices-in-windows-update-for-business-reports/ba-p/4150561\" rel=\"noopener noreferrer\" target=\"_blank\">Missing devices in Windows Update for Business reports?</a></li><li><a href=\"https://learn.microsoft.com/troubleshoot/mem/intune/welcome-intune\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Intune troubleshooting</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization\" rel=\"noopener noreferrer\" target=\"_blank\">Configure Windows diagnostic data in your organization (Windows 10 and Windows 11)</a>&nbsp;&nbsp;</li><li><a href=\"https://learn.microsoft.com/mem/intune/protect/data-enable-windows-data\" rel=\"noopener noreferrer\" target=\"_blank\">Enable use of Windows diagnostic data by Intune</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-09-18T17:05:05.8Z",
-    "HasAttachments": false,
-    "Id": "MC892412",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2024-09-18T17:05:06.887Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-09-18T17:05:05.833Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "New alerts for Windows updates in Microsoft Intune",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
