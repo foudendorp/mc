@@ -4,6 +4,333 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "Starting on October 6, 2025, Copilot hub support in the classic Power Platform Admin Center will have reached the end of support. Admins will be redirected via a modal dialog to the redesigned Copilot hub in the new Power Platform admin center.<br><br>\n<b>How does this affect me? </b><br>\nThe updated experience centralizes Copilot and agent management, offering improved transparency on upcoming capabilities, unified governance controls, and deeper usage and cost insights to help you maximize AI value across your organization. To learn more about this, please refer to <a href=\"https://aka.ms/12429/experience-the-redesigned-copilot-hub\" target=\"_blank\">Experience the redesigned Copilot hub</a>.<br><br>\n<b>What action do I need to take? </b><br>\nThis message is for awareness, and no action is required.<br><br>\nIf you would like more information on this new experience and available resources, please visit <a href=\"https://aka.ms/12429/copilot-hub\" target=\"_blank\">Track, manage, and scale Copilot adoption in the Power Platform</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-10-23T00:19:18Z",
+    "HasAttachments": false,
+    "Id": "MC1157725",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-23T00:26:23.963Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-23T00:19:18Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Power Platform – Information regarding Copilot hub support ending in the classic Power Platform admin center",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>We're introducing support for <i>Microsoft Purview sensitivity labels</i> in <i>OneNote</i>. This update enables users to classify and protect OneNote sections using the same compliance standards available across Microsoft 365 apps. Labels can be applied directly within <i>OneNote</i>, helping ensure sensitive content is encrypted, access-controlled, and aligned with organizational policies. This change supports consistent data protection across platforms and endpoints.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=500020\" target=\"_blank\">500020</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide, GCC, GCCH, and DoD):</b> We will begin rolling out on late January 2026 and expect to complete by late January 2027.</p><p><b>How this affects your organization</b></p><p>This update enhances data protection and compliance capabilities by extending sensitivity labeling to <i>OneNote </i>sections. Admins will gain greater control over how sensitive information is handled within <i>OneNote</i>, aligning it with other Microsoft 365 apps. This is particularly beneficial for organizations in regulated industries, helping mitigate risk and enforce compliance policies across endpoints.</p><p><b>Who is affected:</b></p><p>All users of supported OneNote clients across platforms, including organizations in regulated industries and those with compliance requirements.</p><p><b>What will happen:</b></p><ul><li><i>Sensitivity labels</i> will be available in supported <i>OneNote</i> clients:<ul><li>OneNote Win32 (Desktop)</li><li>OneNote for Web</li><li>OneNote for iOS</li><li>OneNote for Android</li><li>OneNote for Mac</li></ul></li><li> OneNote for Windows 10 (UWP) will not support this feature.</li><li>Users will be able to apply sensitivity labels directly to OneNote sections.</li><li>Labeled sections will be encrypted and access-controlled based on organizational policies.</li><li>Admins can enforce labeling policies and monitor usage via Microsoft Purview.</li><li>Label policies can be scoped using Entra ID group membership.</li></ul><p><b>What you can do to prepare</b></p><p>To prepare for this rollout:</p><ul><li>Ensure endpoints are using supported OneNote clients: Win32, Web, iOS, Android, and Mac.</li><li>Transition away from OneNote for Windows 10 (UWP), which will not support sensitivity labels.</li><li>No additional setup is required beyond maintaining updated builds.</li><li>Admins may want to validate readiness and communicate expected changes to users.</li><li>Review and update internal documentation to reflect supported platforms.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/purview/sensitivity-labels\" target=\"_blank\">Learn about sensitivity labels | Microsoft Purview | Microsoft Learn</a></p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change alter how existing customer data is processed, stored, or accessed (e.g., documents, emails, chats, etc.)?</td><td>Yes. This change enables encryption and access control for OneNote sections, modifying how sensitive customer data is processed and accessed within OneNote.</td></tr><tr><td>Does the change modify Information Protection labels or sensitive information types?</td><td>Yes. It extends the applicability of Microsoft Purview sensitivity labels to OneNote sections, modifying how labels are used across Microsoft 365 apps.</td></tr><tr><td>Does the change modify Conditional Access policies, Data Loss Prevention (DLP), or other Purview capabilities?</td><td>Yes. Admins can enforce labeling policies in OneNote, which may interact with existing DLP and Conditional Access configurations.</td></tr><tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities (e.g., via Purview or admin reporting)?</td><td>Yes. Admins will be able to track and report on sensitivity label usage in OneNote through Microsoft Purview compliance solutions.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Yes. Label policies can be scoped and enforced using Entra ID group membership, allowing targeted deployment and control.</td></tr></tbody></table><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "500020"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is rolling out Microsoft Purview sensitivity labels for OneNote sections across Win32, Web, iOS, Android, and Mac clients (excluding Windows 10 UWP) from late January 2026 to 2027. This enables encryption, access control, and compliance enforcement aligned with organizational policies, enhancing data protection and admin control."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2027-02-28T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1157712",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-22T22:54:22.2Z",
+    "Services": [
+      "Microsoft 365 apps",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-22T22:54:11Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft OneNote | Sensitivity labels now available on desktop, web, iOS, Android, and Mac",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>When someone forwards a message in <i>Microsoft Teams</i>, the forwarded message will now include a clickable link that takes the recipient directly to the original chat or channel message—if they have permission to view it. This enhancement improves message traceability and helps users quickly understand the context of forwarded messages. This update is based on customer feedback requesting better navigation and context when messages are shared across Teams.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503099\" target=\"_blank\">503099</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: Rolling out beginning mid-October 2025; expected to complete by late October 2025.</p><p>General Availability (Worldwide): Rolling out in early November 2025; expected to complete by mid-November 2025.</p><p><b>How this affects your organization:</b></p><p>Who is affected: All users of Microsoft Teams on Windows and Mac desktop clients.</p><p>What will happen:</p><ul><li>Forwarded messages will include a link to the original message.</li><li>The link appears as part of the message timestamp:</li> <p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0d164698-f083-4053-9861-1d4dbaabc2dc/296306cfcaa47584dd16ce1e41a252d6045073e0.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Clicking the link opens the original chat or channel message, if the recipient has permission to view it:</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/75506c9c-3170-497b-be48-7b249d3f4b45/0871915cc2f4e3439b4ed079b0326ae17028704c.png\" style=\"width: 400px;\" alt=\"user settings\"></p></ul><p>This feature is <b>enabled by default</b>.</p><p><b>What you can do to prepare:</b></p><ul><li>No admin action is required before or after rollout.</li><li>Consider notifying your users about this change to help them understand the new behavior.</li><li>Update any internal documentation or training materials that reference message forwarding in <i>Teams</i>.</li></ul><p>Learn more: <a href=\"https://support.microsoft.com/office/forward-a-message-in-microsoft-teams-b3190ce7-00da-45aa-978d-a45a7b041d21\" target=\"_blank\">Forward a message in Microsoft Teams - Microsoft Support</a></p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "503099"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"503099\":[{\"RoadmapId\":503099,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-23T03:12:50.2999203Z\",\"LatestRing\":null},{\"RoadmapId\":503099,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-23T03:12:50.2999206Z\",\"LatestRing\":null},{\"RoadmapId\":503099,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-09-23T03:12:50.2999208Z\",\"LatestRing\":null}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Forwarded messages in Microsoft Teams will now include a clickable link to the original message for better context and traceability. This feature, enabled by default, rolls out from mid-October to mid-November 2025 for all Windows and Mac desktop users, requiring no admin action."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-12-16T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1157710",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-22T22:50:20.063Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-22T22:50:12Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: New link in forwarded messages improves context and traceability",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b>\n<p>To enhance creative flexibility in Copilot Chat, users will soon be able to upload multiple reference images in a single conversation. This update streamlines the image generation process and reduces repetitive steps, based on feedback from users seeking more dynamic visual creation capabilities.</p><p>Screenshot 1: <i>Multiple images can be uploaded from a user's device</i></p><p><img src=\" https://cxcs.microsoft.net/file/ccp/en-us/3e7a07a7-1ac2-4c8a-be2a-9a72ac2b28f4\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p>\n\n</p><p>Screenshot 2:<i> In Copilot Chat,&nbsp;Select the + (plus) sign and choose Upload images and files</i></p><p>&nbsp;<img src=\" https://cxcs.microsoft.net/file/ccp/en-us/ebff11a0-f5e9-496b-b24f-e847069577eb\" style=\"width: 455px;\"></p><p><b><b>When this will happen:</b></b>\n<p>General Availability (Worldwide): Rollout will begin in late September 2025 and is expected to complete by the end of September 2025.</p>\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b> All users of Copilot Chat in Microsoft 365 environments.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Users will be able to upload multiple reference images in a single Copilot Chat session.</li>\n    <li>This feature enhances image generation by allowing richer visual context.</li>\n    <li>The feature will be ON by default for all tenants.</li>\n    <li>No changes to existing admin policies or configurations are required.</li>\n  </ul>\n</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>No admin action is required at this time.</li>\n<li>If desired, you might:\n  <ul>\n    <li>Inform helpdesk and support teams of this new capability.</li>\n    <li>Update internal documentation if you provide guidance on Copilot Chat usage.</li>\n    <li>Review user feedback after rollout to assess adoption and value.</li>\n  </ul>\n</li>\n</ul>\n\n<b><b>Compliance considerations:</b></b>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Users of Copilot Chat in Microsoft 365 will soon be able to upload multiple reference images per session, enhancing image generation. This feature, enabled by default, will roll out globally in late September 2025 with no admin action required. Organizations may update support and documentation accordingly."
+      }
+    ],
+    "EndDateTime": "2025-10-27T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1157709",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-22T22:49:55.917Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)",
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-22T22:49:48Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "[Copilot Chat] Upload multiple reference images to create new images",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b><br>\nTo help corporate communicators and network admins manage content visibility, Viva Engage now allows conversations to be muted directly from the Viva Engage app in Teams for iOS and Android. Muting a conversation removes the thread from appearing in the home feed and email digests, helping reduce undesired clutter and streamline communication.</p>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503019\" target=\"_blank\">503019</a>.</p>\n\n<p><b><b>When this will happen:</b></b><br>\nGeneral Availability (Worldwide): Rollout will begin in early October 2025 and is expected to complete by mid-October 2025.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n</ul><p><b>Who is affected:</b> Viva Engage network admins and corporate communicators using the Viva Engage app in Teams on iOS and Android.</p><ul>\n</ul><p><b>What will happen:</b>\n  <ul>\n    \n    \n    \n    \n  </ul>\n</p><ul><li>A new option to mute conversations will be available in the Viva Engage mobile app within Teams.</li><li>Muted threads will no longer appear in the home feed or email digests.</li><li>This feature is enabled by default and does not require admin configuration.</li><li>There is no impact to end-user experience unless they are designated as network admins or corporate communicators.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Inform Viva Engage corporate communicators and network admins about this new capability.</li>\n<li>Update any internal documentation that references content moderation or feed management in Viva Engage.</li>\n<li>No additional configuration is required.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b><br>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "503019"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Viva Engage will allow network admins and corporate communicators to mute conversations directly in the Teams app on iOS and Android, removing muted threads from home feeds and email digests. This feature, enabled by default, will roll out worldwide from early to mid-October 2025."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, iOS"
+      }
+    ],
+    "EndDateTime": "2025-11-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1157708",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-22T22:49:26.74Z",
+    "Services": [
+      "Microsoft Teams",
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-22T22:49:20Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Viva Engage: Mute a conversation from Teams for iOS",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 22, 2025: We have updated the timeline. Thank you for your patience.     \n</p><p><b>Introduction</b></p><p>Surveys Agent is a new Copilot agent in Microsoft 365 that helps users build, run, and analyze surveys with ease. It streamlines the entire survey lifecycle—from creation to analysis—enabling faster, insight-driven decisions with less manual effort.\n</p><p><b>When this will happen\n</b></p><ul><li><span style=\"background-color: rgb(255, 255, 255);\"><b style=\"\">Public Preview (Frontier): </b>Beginning mid-August 2025</span></li><li><span style=\"background-color: rgb(255, 255, 255);\"><b>General Availability (Worldwide):</b>&nbsp;Rollout is expected to begin in late September 2025 (previously early September) and complete by early October 2025 (previously mid-September).</span></li></ul><p><b>How this affects your organization\n</b></p><p>Surveys Agent enables users to create and manage surveys directly through chat in Microsoft 365 Copilot. It simplifies survey creation, distribution, and analysis, reducing time spent on manual tasks. Surveys are powered by Microsoft Forms and adhere to existing admin policies for the Forms service.\n</p><p>This feature is <b>off by default</b>. Users can choose to install the agent from the Microsoft 365 Copilot Agent Store under the \"Built by Microsoft\" section.\n</p><p><b>What you can do to prepare\n</b></p><p><span style=\"background-color: rgb(255, 255, 255);\">To ensure users can access Surveys Agent in the Frontier preview program, admins can take the following steps:</span></p><ul><li><span style=\"background-color: rgb(255, 255, 255);\">Verify users or user groups have a Microsoft 365 Copilot license.</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Ensure the setting \"Allow the following users access to Copilot agents\" is configured.</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Ensure the tenant-level setting \"Let users access Microsoft apps\" is configured.</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">(Recommended/optional) Deploy Surveys Agent automatically to users or groups via the Deploy action in Integrated Apps. </span></li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center</a></p><p><span style=\"background-color: rgb(255, 255, 255);\">Surveys Agent creates surveys via Microsoft Forms. Admins should review Microsoft Forms policies to</span> ensure they align with organizational standards.</p><p>Once installed, users can:\n</p><ul><li>Create and send surveys via chat\n</li><li>Monitor responses and send reminders\n</li><li>Analyze results in chat or export to Excel</li></ul><p><b>Compliance considerations</b>\n</p><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody><tr><th>Compliance Area</th><th>Response</th><th>Explanation</th></tr>\n<tr><td>Does the change store new customer data?</td><td>Yes</td><td>Survey responses are stored in Microsoft Forms and follow existing data retention and admin policies.</td></tr>\n<tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Maybe</td><td>Surveys Agent uses Microsoft Forms to collect and process data, which may include new access patterns via Copilot chat.</td></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes</td><td>Introduces a new Copilot agent that uses generative AI to help users create and analyze surveys.</td></tr>\n<tr><td>Does the change provide users any new way of interacting with generative AI?</td><td>Yes</td><td>Users interact with generative AI via chat to build, send, and analyze surveys.</td></tr>\n<tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes</td><td>Admins can manage access to the agent using Entra ID group membership.</td></tr>\n<tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes</td><td>Users can choose to install or remove the agent from the Copilot Agent Store.</td></tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Surveys Agent in Microsoft 365 Copilot enables users to create, distribute, and analyze surveys via chat, powered by Microsoft Forms. Public preview starts mid-August 2025; general availability rolls out late September to early October 2025. The feature is off by default and requires admin configuration and licensing."
+      }
+    ],
+    "EndDateTime": "2025-10-18T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1134742",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-22T20:00:36.893Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-13T23:14:36Z",
+    "Tags": [
+      "Updated message",
+      "New feature"
+    ],
+    "Title": "Build and analyze surveys with Surveys Agent in Microsoft 365 Copilot",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>After a detailed internal evaluation and the feedback which we have heard from the ecosystem, we no longer have plans to retire the field customers from lists and libraries</p><p>We are evaluating the retirement of the&nbsp;<a href=\"https://learn.microsoft.com/sharepoint/dev/spfx/extensions/get-started/building-simple-field-customizer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">SharePoint Framework (SPFx) Field Customizers</a>&nbsp;feature from SharePoint Lists and Document Libraries. In many cases, we recommend alternatives like using Column Formatters and disabling SPFx Field customizers. This would help with better performance with modern experience that is continuously updated.</p><p><b>When this will happen:</b></p><p>We are currently assessing the timelines and will update this post as plans progress. You can be assured that it will be communicated well in advance, with ample time to manage transition effectively.</p><p><b>How this affects your organization:</b></p><p>There is no impact to your organization as of now. In future depending on updated timelines, SharePoint Lists or Document Libraries with SPFx Field Customizers may get affected:</p><ul><li>Field Customizers will no longer render custom code.\n</li><li>Column data will display using the default rendering based on column type.\n</li><li>Other SPFx extensions, such as <i>Command Set Customizers</i> and <i>Application Customizers</i>, will continue to function as expected.\n</li></ul><p>We recommend transitioning to <i><a href=\"https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting\" target=\"_blank\">Column Formatting</a></i>&nbsp;for visual customizations where possible. For scenarios requiring third-party code execution, continue using&nbsp;<i><a href=\"https://learn.microsoft.com/sharepoint/dev/spfx/extensions/get-started/building-simple-cmdset-with-dialog-api\" target=\"_blank\">Command Set Customizers</a></i> or <i><a href=\"https://learn.microsoft.com/sharepoint/dev/spfx/extensions/get-started/build-a-hello-world-extension\" target=\"_blank\">Application Customizers</a></i>.\n</p><p><b>What you can do to prepare:</b></p><p>Review your current use of Field Customizers and begin planning your transition.</p><p>Additional information:</p><p><a href=\"https://support.microsoft.com/office/0eccc64e-4512-47df-9da0-d855be22fb0a\" target=\"_blank\">Support update for SharePoint framework field customizers in lists and document libraries</a></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "SharePoint no longer plans to retire Field Customizers but is evaluating it. Currently, no impact exists, but future changes may stop custom code rendering in lists and libraries. Transition to Column Formatting is recommended, with Command Set and Application Customizers still supported. Planning for transition is advised."
+      }
+    ],
+    "EndDateTime": "2025-10-03T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1094051",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-22T17:22:27.5Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-13T21:53:08Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Support Update for SharePoint Framework Field Customizers in Lists and Document Libraries",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 22, 2025: We have updated the content Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>Agent in Viva Engage communities are now available in Public Preview. Community admins can add agents to communities to enhance knowledge sharing by drafting answers to questions without best or verified answers based on community content.<br><br>Shortly after public preview begins, we'll be enhancing agents in communities with SharePoint grounding to improve the accuracy and relevance of AI-generated answers. This update allows the agent to use content from SharePoint sites that community members can access, helping ensure responses are contextually grounded and backed by trusted sources. Agents in communities will only draft answers with content that all community members have access to. You can set up your agent with before SharePoint grounding is available and add it later.</p><p><b><b>When this will happen:</b></b></p><ul>\n<li><b>Agents in communities Public Preview:</b> Begins September 18th, expected to be complete by late September</li><li><b>SharePoint Grounding Public Preview (Worldwide):</b> Begins late September 2025, expected to complete by early October 2025</li>\n<li><b>General Availability (Worldwide):</b> Begins late January 2026, expected to complete by late February 2026</li>\n</ul>\n\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b> Viva Engage community admins with Microsoft 365 Copilot licenses; Global and Engage admins managing Viva Engage networks</li>\n<li><b>What will happen:</b></li>\n<ul>\n<li><b>During Public Preview:</b></li>\n<ul>\n<li>Admins can opt their network into the preview via the <i>Engage admin center: Engage</i>&nbsp;admin center &gt; Tenant Settings &gt; Enable Community Agent Public Preview.</li></ul></ul></ul><p></p><ul></ul>Once enabled, admins can add agents to any community they manage.<p><i>Figure i. Add agent to community​</i></p><p></p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c90ccffc-5ca8-456f-bcdd-4b47e6a330f2\" style=\"width: 400px;\" alt=\"user settings\"><p></p><p></p><p>The agent will proactively draft answers to unanswered questions using past conversations.</p><p>By default, the agent posts answers <i>automatically</i>.</p><p>Admins can configure whether the agent posts answers automatically or only after approval.</p><p><i>Figure ii. Configure the agent to require answer review before posting​</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ce207aa0-35f2-4c9d-8d75-5df42ee13b8b\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>If Require review is enabled, admins and designated experts will be notified when the agent drafts an answer. They can approve, edit, or dismiss the response.</p><p><i>Figure iii. Community admins and experts can review agent suggestions​</i></p><p>\n<img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e641e3d6-9fff-4a4e-ac28-07adc0509e00\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><b>Coming soon (General Availability):</b></p><ul></ul><p></p><p>The agent will only use content that all community members can access.</p><p>Admins must be owners of the SharePoint sites they wish to configure.</p><p>Admins can add additional SharePoint sites to expand the agent’s grounding knowledge.</p><p>The agent will be grounded by default on the community’s SharePoint site.</p><p>All Microsoft 365 Copilot licensed users will have access to the <i>Community Agent</i> by default.</p><p>The <i>Community Agent Public Preview</i> toggle will be retired.</p>\n\n<p></p><b><b>What you can do to prepare:</b></b><p></p>\n<ul>\n<li>If participating in preview:</li>\n<li>Opt your network into the preview via the <i>Engage admin center</i> \n</li><li>Communicate this change to helpdesk staff.&nbsp;</li>\n<li>Update internal documentation that references <i>Viva Engage Community Agent</i> behavior or setup.</li>\n<li>No action is required at GA; the feature will be <b style=\"\">on by default</b>.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/viva/engage/ai-technology-with-viva-engage/agents-community-network-deployment-config\" target=\"_blank\">Set up and manage agents in Viva Engage communities | Microsoft Learn</a></p>\n\n<p><b><b>Compliance considerations:</b></b></p><table border=\"1\">\n<tbody><tr><th>Consideration</th><th>Explanation</th></tr>\n<tr><td>Uses customer data</td><td>The agent accesses SharePoint content to generate answers. Only content accessible to all community members is used.</td></tr>\n<tr><td>Introduces AI/ML agent capabilities</td><td>The agent uses generative AI to draft responses based on SharePoint content.</td></tr>\n<tr><td>Admin control available</td><td>(Optional) Community admins can configure which SharePoint sites are used for grounding. Admin must be site owner.</td></tr>\n<tr><td>User interaction with generative AI</td><td>End users receive AI-generated answers grounded in community conversations and SharePoint content</td></tr>\n<tr><td>Can be controlled through Entra ID group membership</td><td>Admin access and site ownership can be managed via Entra ID group membership.</td></tr>\n</tbody></table><br><p></p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Viva Engage agents are in Public Preview starting September 18, 2025, allowing community admins to add AI agents that draft answers using community and SharePoint content. SharePoint grounding will enhance answer accuracy by late September. General Availability is planned for early 2026, with admin controls for posting and content access."
+      }
+    ],
+    "EndDateTime": "2026-04-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1155311",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-09-22T17:01:28.44Z",
+    "Services": [
+      "Microsoft Viva",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-18T17:07:29Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Viva Engage: Agents in Viva Engage communities Public Preview",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>We’re pleased to announce the rollout of the Microsoft Entra ID Free subscription, an initiative designed to enhance Microsoft’s service offerings and improve your experience with Microsoft.&nbsp;</p><p>What is Microsoft Entra ID Free?\n</p><p style=\"\"><a href=\"https://aka.ms/MicrosoftEntraIdFree\" target=\"_blank\">Microsoft Entra ID Free</a> is a no-cost subscription that represents the Entra Tenant you own and use to access Microsoft products and services. Over the coming weeks, this subscription will appear under <a href=\"https://aka.ms/M365Subscriptions\" target=\"_blank\" style=\"\">Billing &gt;&nbsp;Your Products</a> in the Microsoft 365 Admin Center, and <a href=\"https://aka.ms/AzurePortalSubs\" target=\"_blank\" style=\"\">Cost Management + Billing &gt; Products + services &gt; All billing subscriptions</a> in the Microsoft Azure portal. This subscription cannot be modified or deleted while you’re an active customer with Microsoft.</p><p>No action is required from you.</p><p>Why are we doing this?\n</p><p>As part of Microsoft’s <a href=\"https://aka.ms/MSFTSecureFutureInitiative\" target=\"_blank\">Secure Future Initiative</a>, we’re improving how ownership of Microsoft Entra tenants is tracked. By linking tenant ownership to a Microsoft billing account, customers can clearly see which tenants they own. The Microsoft Entra ID Free subscription will manage new tenants under the same billing account, helping customers keep an inventory and prove ownership if administrative access is lost.&nbsp;</p><p>If you have questions or need help, contact <a href=\"https://go.microsoft.com/fwlink/?linkid=2083458\" target=\"_blank\">support</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): The rollout is scheduled to begin early to mid-October and will be completed over phases.</p><p><b>How this will affect your organization:</b></p><p>A new no-cost subscription, Microsoft Entra ID Free, will appear underneath your account. There is no impact to your billing, or existing functionality.</p><p><b>What you need to do to prepare:</b>\n</p><p>There is no action required.</p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -323,45 +650,6 @@
       "New feature"
     ],
     "Title": "Copilot Studio - Analyze business impact of copilot studio agents in Viva Insights advanced insights - New date",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 19, 2025: We have updated the content Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>Agent in Viva Engage communities are now available in Public Preview. Community admins can add agents to communities to enhance knowledge sharing by drafting answers to questions without best or verified answers based on community content.<br><br>Shortly after public preview begins, we'll be enhancing agents in communities with SharePoint grounding to improve the accuracy and relevance of AI-generated answers. This update allows the agent to use content from SharePoint sites that community members can access, helping ensure responses are contextually grounded and backed by trusted sources. Agents in communities will only draft answers with content that all community members have access to. You can set up your agent with before SharePoint grounding is available and add it later.</p><p><b><b>When this will happen:</b></b></p><ul>\n<li><b>Agents in communities Public Preview:</b> Begins September 18th, expected to be complete by late September 2025</li><li><b>SharePoint Grounding Public Preview (Worldwide):</b> Begins late September 2025, expected to complete by early October 2025</li>\n<li><b>General Availability (Worldwide):</b> Begins late January 2026, expected to complete by late February 2026</li>\n</ul>\n\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b> Viva Engage community admins with Microsoft 365 Copilot licenses; Global and Engage admins managing Viva Engage networks</li>\n<li><b>What will happen:</b></li>\n<ul>\n<li><b>During Public Preview:</b></li>\n<ul>\n<li>Admins can opt their network into the preview via the <i>Engage admin center: Engage</i>&nbsp;admin center &gt; Tenant Settings &gt; Enable Community Agent Public Preview.</li></ul></ul></ul><p></p><ul></ul>Once enabled, admins can add agents to any community they manage.<p><i>Figure i. Add agent to community​</i></p><p></p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c90ccffc-5ca8-456f-bcdd-4b47e6a330f2\" style=\"width: 400px;\" alt=\"user settings\"><p></p><p></p><p>The agent will proactively draft answers to unanswered questions using past conversations.</p><p>By default, the agent posts answers <i>automatically</i>.</p><p>Admins can configure whether the agent posts answers automatically or only after approval.</p><p><i>Figure ii. Configure the agent to require answer review before posting​</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ce207aa0-35f2-4c9d-8d75-5df42ee13b8b\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>If Require review is enabled, admins and designated experts will be notified when the agent drafts an answer. They can approve, edit, or dismiss the response.</p><p><i>Figure iii. Community admins and experts can review agent suggestions​</i></p><p>\n<img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e641e3d6-9fff-4a4e-ac28-07adc0509e00\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><b>Coming soon (General Availability):</b></p><ul></ul><p></p><p>The agent will only use content that all community members can access.</p><p>Admins must be owners of the SharePoint sites they wish to configure.</p><p>Admins can add additional SharePoint sites to expand the agent’s grounding knowledge.</p><p>The agent will be grounded by default on the community’s SharePoint site.</p><p>All Microsoft 365 Copilot licensed users will have access to the <i>Community Agent</i> by default.</p><p>The <i>Community Agent Public Preview</i> toggle will be retired.</p>\n\n<p></p><b><b>What you can do to prepare:</b></b><p></p>\n<ul>\n<li>If participating in preview:</li>\n<li>Opt your network into the preview via the <i>Engage admin center</i> \n</li><li>Communicate this change to helpdesk staff.&nbsp;</li>\n<li>Update internal documentation that references <i>Viva Engage Community Agent</i> behavior or setup.</li>\n<li>No action is required at GA; the feature will be <b style=\"\">on by default</b>.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/viva/engage/ai-technology-with-viva-engage/agents-community-network-deployment-config\" target=\"_blank\">Set up and manage agents in Viva Engage communities | Microsoft Learn</a></p>\n\n<p><b><b>Compliance considerations:</b></b></p><table border=\"1\">\n<tbody><tr><th>Consideration</th><th>Explanation</th></tr>\n<tr><td>Uses customer data</td><td>The agent accesses SharePoint content to generate answers. Only content accessible to all community members is used.</td></tr>\n<tr><td>Introduces AI/ML agent capabilities</td><td>The agent uses generative AI to draft responses based on SharePoint content.</td></tr>\n<tr><td>Admin control available</td><td>(Optional) Community admins can configure which SharePoint sites are used for grounding. Admin must be site owner.</td></tr>\n<tr><td>User interaction with generative AI</td><td>End users receive AI-generated answers grounded in community conversations and SharePoint content</td></tr>\n<tr><td>Can be controlled through Entra ID group membership</td><td>Admin access and site ownership can be managed via Entra ID group membership.</td></tr>\n</tbody></table>https://cxcs.microsoft.net/file/ccp/en-us/e641e3d6-9fff-4a4e-ac28-07adc0509e00https://cxcs.microsoft.net/file/ccp/en-us/e641e3d6-9fff-4a4e-ac28-07adc0509e00<p></p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Viva Engage agents are in Public Preview starting September 18, 2025, allowing community admins to add AI agents that draft answers using community and SharePoint content. SharePoint grounding will enhance answer accuracy by late September. General Availability is planned for early 2026, with admin controls for posting and content access."
-      }
-    ],
-    "EndDateTime": "2026-04-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1155311",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-19T16:21:47.43Z",
-    "Services": [
-      "Microsoft Viva",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-18T17:07:29Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Viva Engage: Agents in Viva Engage communities Public Preview",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -12851,10 +13139,6 @@
         "Value": "490561"
       },
       {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"490561\":[{\"RoadmapId\":490561,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-22T11:02:36.5407407Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":490561,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-22T11:02:36.5407412Z\",\"LatestRing\":null},{\"RoadmapId\":490561,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-22T11:02:36.5407413Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":490561,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-22T11:02:36.5407414Z\",\"LatestRing\":null},{\"RoadmapId\":490561,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-22T11:02:36.5407415Z\",\"LatestRing\":\"StandardRelease\"}]}"
-      },
-      {
         "Name": "Summary",
         "Value": "Microsoft Teams Premium introduces a \"Prevent screen capture\" feature to block screenshots and recordings during meetings, enhancing confidentiality. Enabled by organizers via Meeting Options, it restricts capture differently across platforms, is off by default, and requires manual activation per meeting. Rollout begins mid-September 2025."
       },
@@ -15581,42 +15865,6 @@
       "Admin impact"
     ],
     "Title": "Security hardening for Microsoft RPC Netlogon protocol",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction\n</b></p><p>Surveys Agent is a new Copilot agent in Microsoft 365 that helps users build, run, and analyze surveys with ease. It streamlines the entire survey lifecycle—from creation to analysis—enabling faster, insight-driven decisions with less manual effort.\n</p><p><b>When this will happen\n</b></p><ul><li><span style=\"background-color: rgb(255, 255, 255);\"><b style=\"\">Public Preview (Frontier): </b>Beginning mid-August 2025</span></li><li><span style=\"background-color: rgb(255, 255, 255);\"><b>General Availability (Worldwide):</b>&nbsp;Rollout is expected to begin in early September 2025 and complete mid-September 2025</span></li></ul><p><b>How this affects your organization\n</b></p><p>Surveys Agent enables users to create and manage surveys directly through chat in Microsoft 365 Copilot. It simplifies survey creation, distribution, and analysis, reducing time spent on manual tasks. Surveys are powered by Microsoft Forms and adhere to existing admin policies for the Forms service.\n</p><p>This feature is <b>off by default</b>. Users can choose to install the agent from the Microsoft 365 Copilot Agent Store under the \"Built by Microsoft\" section.\n</p><p><b>What you can do to prepare\n</b></p><p><span style=\"background-color: rgb(255, 255, 255);\">To ensure users can access Surveys Agent in the Frontier preview program, admins can take the following steps:</span></p><ul><li><span style=\"background-color: rgb(255, 255, 255);\">Verify users or user groups have a Microsoft 365 Copilot license.</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Ensure the setting \"Allow the following users access to Copilot agents\" is configured.</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Ensure the tenant-level setting \"Let users access Microsoft apps\" is configured.</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">(Recommended/optional) Deploy Surveys Agent automatically to users or groups via the Deploy action in Integrated Apps. </span></li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center</a></p><p><span style=\"background-color: rgb(255, 255, 255);\">Surveys Agent creates surveys via Microsoft Forms. Admins should review Microsoft Forms policies to</span> ensure they align with organizational standards.</p><p>Once installed, users can:\n</p><ul><li>Create and send surveys via chat\n</li><li>Monitor responses and send reminders\n</li><li>Analyze results in chat or export to Excel</li></ul><p><b>Compliance considerations</b>\n</p><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody><tr><th>Compliance Area</th><th>Response</th><th>Explanation</th></tr>\n<tr><td>Does the change store new customer data?</td><td>Yes</td><td>Survey responses are stored in Microsoft Forms and follow existing data retention and admin policies.</td></tr>\n<tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Maybe</td><td>Surveys Agent uses Microsoft Forms to collect and process data, which may include new access patterns via Copilot chat.</td></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes</td><td>Introduces a new Copilot agent that uses generative AI to help users create and analyze surveys.</td></tr>\n<tr><td>Does the change provide users any new way of interacting with generative AI?</td><td>Yes</td><td>Users interact with generative AI via chat to build, send, and analyze surveys.</td></tr>\n<tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes</td><td>Admins can manage access to the agent using Entra ID group membership.</td></tr>\n<tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes</td><td>Users can choose to install or remove the agent from the Copilot Agent Store.</td></tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Surveys Agent in Microsoft 365 Copilot enables users to create, distribute, and analyze surveys via chat, powered by Microsoft Forms. Launching mid-August 2025 (preview) and September 2025 (general), it is off by default and requires admin configuration and licensing for access."
-      }
-    ],
-    "EndDateTime": "2025-10-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1134742",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-13T23:14:51.62Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-13T23:14:36Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Build and analyze surveys with Surveys Agent in Microsoft 365 Copilot",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -23352,45 +23600,6 @@
       "Admin impact"
     ],
     "Title": "Exchange Online to introduce External Recipient Rate Limit",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 24, 2025: We will not be proceeding with this change at this time. Thank you for your patience.</p><p>We are evaluating the retirement of the&nbsp;<a href=\"https://learn.microsoft.com/sharepoint/dev/spfx/extensions/get-started/building-simple-field-customizer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">SharePoint Framework (SPFx) Field Customizers</a>&nbsp;feature from SharePoint Lists and Document Libraries. In many cases, we recommend alternatives like using Column Formatters and disabling SPFx Field customizers. This would help with better performance with modern experience that is continuously updated.</p><p><b>When this will happen:</b></p><p>We are currently assessing the timelines and will update this post as plans progress. You can be assured that it will be communicated well in advance, with ample time to manage transition effectively.</p><p><b>How this affects your organization:</b></p><p>There is no impact to your organization as of now. In future depending on updated timelines, SharePoint Lists or Document Libraries with SPFx Field Customizers may get affected:</p><ul><li>Field Customizers will no longer render custom code.\n</li><li>Column data will display using the default rendering based on column type.\n</li><li>Other SPFx extensions, such as <i>Command Set Customizers</i> and <i>Application Customizers</i>, will continue to function as expected.\n</li></ul><p>We recommend transitioning to <i><a href=\"https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting\" target=\"_blank\">Column Formatting</a></i>&nbsp;for visual customizations where possible. For scenarios requiring third-party code execution, continue using&nbsp;<i><a href=\"https://learn.microsoft.com/sharepoint/dev/spfx/extensions/get-started/building-simple-cmdset-with-dialog-api\" target=\"_blank\">Command Set Customizers</a></i> or <i><a href=\"https://learn.microsoft.com/sharepoint/dev/spfx/extensions/get-started/build-a-hello-world-extension\" target=\"_blank\">Application Customizers</a></i>.\n</p><p><b>What you can do to prepare:</b></p><p>Review your current use of Field Customizers and begin planning your transition.</p><p>Additional information:</p><p><a href=\"https://support.microsoft.com/office/0eccc64e-4512-47df-9da0-d855be22fb0a\" target=\"_blank\">Support update for SharePoint framework field customizers in lists and document libraries</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Support update for SharePoint Framework Field Customizers in Lists and Document Libraries: The planned change has been postponed. Evaluation of retiring SPFx Field Customizers is ongoing. Organizations should consider transitioning to Column Formatting for better performance. No immediate impact, but future updates will be communicated in advance."
-      }
-    ],
-    "EndDateTime": "2026-07-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1094051",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-06-25T19:32:46.89Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-13T21:53:08Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Support Update for SharePoint Framework Field Customizers in Lists and Document Libraries",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
