@@ -90,7 +90,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"503109\":[{\"RoadmapId\":503109,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-29T03:17:48.0251485Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":503109,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-29T03:17:48.0251486Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"503109\":[{\"RoadmapId\":503109,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-29T11:02:40.8660225Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":503109,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-29T11:02:40.8660226Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -140,7 +140,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500702\":[{\"RoadmapId\":500702,\"Platform\":\"Android\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-29T03:17:48.0249687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500702,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-29T03:17:48.024969Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500702\":[{\"RoadmapId\":500702,\"Platform\":\"Android\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-29T11:02:40.8660623Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500702,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-09-29T11:02:40.8660624Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -6722,7 +6722,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17096,52 +17096,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated August 12, 2025: We have updated the timeline. Thank you for your patience.</p><p>We’re introducing enhanced Microsoft Graph API capabilities that now support full Create, Read, Update, and Delete (CRUD) operations for Microsoft Places directory objects. This update enables developers and partners to programmatically manage Places data—including buildings, floors, sections, rooms, and desks—using a consistent and extensible API surface.</p><p>This change is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=488101\" target=\"_blank\">488101</a></p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): Available now.</p><p><b>How this will affect your organization:</b></p><p>There is no immediate impact by default. However, these APIs provide a more efficient and scalable way to onboard and maintain location data in Microsoft Places. Organizations using third-party systems to manage location hierarchies can now integrate directly with Microsoft Places, ensuring data accuracy and consistency across systems.\n</p><p><b>What you can do to prepare:</b></p><ul><li>If you're planning to onboard to Microsoft Places or expand its use across regions, consider using these APIs to streamline your data import and management processes.\n</li><li>If you're currently using a third-party system of record, contact your provider to understand their plans for integrating with these APIs.</li><li>Review: <a href=\"https://learn.microsoft.com/en-us/graph/api/resources/places-api-overview?view=graph-rest-beta\" target=\"_blank\">Working with the Places API in Microsoft Graph</a></li></ul><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed? Yes – it introduces new API endpoints for managing location data.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "488101"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Graph API now supports full CRUD operations for Microsoft Places directory objects, enabling programmatic management of buildings, floors, rooms, and desks. Available worldwide, this update helps organizations integrate and maintain location data efficiently, especially when using third-party systems. No immediate impact by default."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Developer"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1133514",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-12T21:24:59.31Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-11T23:36:44Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Places: Graph API support for directory objects",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated August 12, 2025: We have updated the timeline. Thank you for your patience.</p><p>Prior to this rollout, if a user plugged into a different desk than their existing desk reservation, they would be automatically reserved at the desk, provided there was capacity. This could lead to them having multiple desk reservations. With this roll out, when using bookable desks, users will be notified that they have multiple reservations and be asked to release the previous ones. In addition, we will also be releasing a first run experience to provide the user with more information on why they are receiving notifications to provide further clarity and information.&nbsp;</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide, GCC) for first run experience: We will begin rolling out mid-August 2025 (previously early August) and expect to complete early September 2025 (previously late August).</p><p>General Availability (Worldwide, GCC) for the notification when user has multiple reservations: We will begin rolling out late August 2025 and expect to complete mid-September 2025.&nbsp;</p><p>\n</p><p><b>How this will affect your organization:</b></p><p>As a reminder, Bookable desks refer to unassigned seats in the office that are equipped with devices such as monitors or other peripherals. Admins can associate these devices to an individual desk or desk pool account through the Teams Rooms Pro Management portal. <a href=\"https://learn.microsoft.com/en-us/microsoftteams/rooms/bookable-desks\" target=\"_blank\">aka.ms/desksetup</a></p><p>When a user books a desk in advance and plugs into a peripheral that is associated to a different desk, they will receive the following notification.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f572c80c-d43c-4587-aee2-f85ef668b814\" width=\"400\" height=\"\"></p>If they would like to, they can click ‘Cancel previous reservation’, and the previous reservation will be canceled on their behalf. This feature is available for Teams premium users and will be supported for both desks and desk pools.<p></p><p>In addition, we will also be adding a new in-depth notification for the first time a user receives any notification about a bookable desk. This will give users more insight into why they are receiving such notifications with links to learn more. This will only appear once and is available for all users and both desks and desk pools.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/45a9a281-ef87-499d-b312-1a3aac5ef3f4\" width=\"400\" height=\"\"></p><p>&nbsp;<b>What you need to do to prepare:</b>\n</p><p>There is no admin action required before roll out and will be available to all automatically once it is released. We recommend communicating this new feature to your users and admin team and share instructions if needed.&nbsp;</p><p><b>Compliance considerations:</b></p><ul><li>Does the change provide a new way of communicating between users, tenants, or subscriptions? No</li></ul><p><br></p>",
       "ContentType": "html"
     },
@@ -17277,52 +17231,6 @@
       "Admin impact"
     ],
     "Title": "The August 2025 Windows security update is now available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 12, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon for Microsoft 365 Copilot: When writing Copilot prompts in the chat box, users will be able to use CIQ to search for and select Microsoft SharePoint sites.</p><p><a href=\"https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\" target=\"_blank\" style=\"\">Context IQ (CIQ)</a> is a set of AI capabilities from Microsoft that allows users to search for, select, and insert relevant enterprise or personal data directly into their prompts or conversations. This capability helps users to “ground” or anchor their prompts in specific, contextually relevant data, making responses more accurate, specific, and useful.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=413110\" target=\"_blank\">413110</a>.\n</p><p>A Microsoft 365 Copilot license is required to use this feature. \n</p><p>\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide):&nbsp; We will begin rolling out late July 2025 (previously late June) and expect to complete by mid-August 2025 (previously early August).</p><p><b>How this will affect your organization:</b>\n</p><p>No impact to tenant admins. This change is available by default. Users will begin seeing their recent SharePoint sites in CIQ (only the sites they have access to) when writing Copilot prompts.\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/34804fe5-fc1c-4db8-8af9-39569903552d\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before or after the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\" target=\"_blank\">Using Context IQ to refer to specific files, people, and more in Microsoft 365 Copilot - Microsoft Support</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "413110"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot will soon allow users to select SharePoint sites via Context IQ when writing prompts. The feature requires a Copilot license and will roll out globally from late July to mid-August 2025, with no admin action needed. Users see only accessible sites in their prompts."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC973505",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-12T15:25:11.24Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-01-07T00:18:47Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Select Microsoft SharePoint sites when writing prompts",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -17620,52 +17528,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Data Loss Prevention: Restrict Microsoft 365 Copilot from processing emails with sensitivity labels",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 11, 2025: We have updated the timeline. Thank you for your patience.</p><p>We're introducing a new delegation capability in Microsoft Viva Pulse to support executive assistants, chiefs of staff, and other designated roles who act on behalf of organizational leaders. Starting mid-August 2025 (previously mid-July), users will be able to assign delegates to manage the Pulse survey lifecycle on their behalf—helping streamline feedback collection and analysis.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=479753\" target=\"_blank\">479753</a></p><p>\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): Rollout begins mid-August 2025 (previously mid-July).\n</p><p><b>How this will affect your organization:</b>\n</p><p>Delegation will be enabled by default. This feature allows a user (the delegator) to authorize another user (the delegate) to create, send, and manage Pulse surveys. Delegators retain full visibility and ownership of all activity.\n</p><p>Admins can manage delegation settings at the tenant, group (via Microsoft Entra ID or Microsoft 365 groups), or individual user level using centralized feature access management.\n</p><p>Delegates will be able to:\n</p><ul><li>Create and send Pulses on behalf of the delegator. Recipients will see that the Pulse was sent on their behalf.\n</li><li>View all Pulses (sent or drafted) and Pulse reports.\n</li></ul><p>Delegates will not be able to:\n</p><ul><li>View or respond to confidential conversations.\n</li><li>Share Pulse reports.\n</li></ul><p><b>What you can do to prepare:</b>\n</p><p>No admin action is required before rollout. However, we recommend:\n</p><ul><li>Reviewing your current configuration to assess impact.\n</li><li>Notifying users and updating internal documentation.\n</li><li>Managing delegation policies in the Microsoft 365 admin center or via PowerShell using the <code>FeatureID</code> value <code>PulseDelegation</code>.\n</li></ul><p>Learn more:\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/viva/feature-access-management\" target=\"_blank\">Microsoft Viva - Feature access management | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/en-us/Viva/control-access-admin-center\" target=\"_blank\">Control who can access features in Microsoft 365 using the Microsoft 365 admin center</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/Viva/manage-access-policies\" target=\"_blank\">Control access to features in Microsoft 365 using PowerShell</a></li></ul><p>We’ll update this post with setup documentation before rollout completes.</p><p><b>Compliance considerations:</b></p><ul><li>Changes to data processing/storage/access: Yes - Delegates gain access to Pulse survey content and reports on behalf of the delegator.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "479753"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Pulse will introduce delegation starting mid-August 2025, allowing users to assign delegates to manage Pulse surveys on their behalf. Delegates can create, send, and view surveys and reports but cannot access confidential conversations or share reports. Admins can control delegation settings centrally."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1104314",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-11T16:46:52.52Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-26T23:18:07Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "New feature in Microsoft Viva Pulse to enable delegation",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18929,44 +18791,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated August 5, 2025: We have updated the timeline. Thank you for your patience.</p><p>SharePoint and OneDrive users can now secure their PDF files by adding protection that restricts unauthorized access through OneDrive Web. This feature allows you to set an open password, which is required to access the PDF, or an owner password, which sets permissions for actions such as printing or editing the document. This ensures your files remain secure and only accessible to authorized individuals</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=482193\" target=\"_blank\" style=\"\">482193</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out early July 2025 (previously mid-May) and expect to complete by mid-July 2025 (previously late May).</p><p>General Availability (Worldwide, GCC, GCC High, DoD): We will begin rolling out mid-July 2025 (previously late May) and expect to complete by mid-August 2025 (previously early June).</p><p><b>How this will affect your organization:</b>\n</p><ul><li>Before this rollout: Users cannot setup passwords to protect their PDF files.&nbsp;</li><li>After this rollout: Users can set a User Password to protect the PDF from being opened by non-authorized users or set Owner Password to grant certain operations like printing, copying, or modifying the content.</li></ul><p>To set up an open password:</p><p>1. Open a PDF you have saved in OneDrive or SharePoint document library,</p><p>2. Click the lock icon located at the top left of the screen</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6b02dda9-08f9-4dfd-b4d7-6714bae474f7/b7c821d2a36aa769806c669fc38c3eef8abee1c5.png\" style=\"width: 392.005px;\"><br></p><p>3.Under Security, enter matching passwords.&nbsp;</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/335a6d2e-6d64-4686-801d-1ff4189452bb/17c0cb869cf5f99778ff4a165096dd6ada653981.png\" style=\"width: 936.003px;\"><br></p><p>4. Click Save as to password protect this document,</p><p>5. Choose the location where you want to save the file and click <b>Save here.</b>&nbsp;</p><p>6. A notification will appear at the bottom of the screen, indicating that a new file has been successfully saved.&nbsp; </p><p><span style=\"background-color: rgb(255, 255, 0);\"><b>&nbsp;</b></span><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9eeca33d-e992-43ab-84eb-2c541bbab37a/e25a2f4ef6e89634c31ba1488fa710f95cfe22d6.png\" style=\"width: 942.995px;\"></p><p>To set up an owner password:</p><p>1. Open a PDF you have saved in OneDrive or SharePoint document library,&nbsp;</p><p>2. Click the lock icon located at the top left of the screen, </p><p>3. Under Protection, check the Grant permissions box. </p><p>4. Under Grant permission, check the box for the permissions you want to allow on this document.&nbsp; <b>What you need to do to prepare:</b></p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/0913be27-0157-4f31-b9d0-8647e6efda1b\" style=\"width: 937.005px;\"><br></p><p>5. Type matching owner passwords and then click Save as to set permissions for this document,</p><p>6. Choose the location where you want to save the file and click Save here,&nbsp;</p><p>7. A notification will appear at the bottom of the screen, indicating that a new file has been successfully saved.&nbsp; </p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.&nbsp;</p><p><b>FAQ \n</b></p><p><i><b><font color=\"#3984c6\">Will password protection overwrite my current PDF? \n</font></b></i></p><p>No, we currently only allow the \"Save as\" option, so the original PDF will remain intact. \n</p><p><i><b style=\"\"><font color=\"#3984c6\">Can I see the same permission set on the same PDF document using other apps? \n</font></b></i></p><p>Yes, users are able to view the same permission settings, and the same restrictions are applied when they view the PDF within OneDrive and SharePoint.</p><p><b>What you need to do to prepare:</b>  \n</p><p>Note: Some users may see this feature before other users within your organization.</p><p>\n</p><p>\n</p><p> \n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p><p>\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting July 2025, OneDrive and SharePoint will let users password-protect PDFs with open passwords (to restrict access) and owner passwords (to set permissions like printing or editing). The feature saves a new protected copy without overwriting the original, requiring no admin action for rollout."
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1017119",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-05T14:33:32.997Z",
-    "Services": [
-      "Microsoft OneDrive"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-02-26T00:29:57Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "SharePoint: OneDrive and SharePoint – Protect PDF with password",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Starting early August, the bottom tab navigation in the Microsoft 365 Copilot mobile app will be removed and Copilot Chat will become the default experience for those who have access and have Copilot Chat pinned. Users will be able to navigate to other app experiences such as Search and Create using the universal hamburger menu. This makes it easier to stay productive and get things done using Copilot Chat while also simplifying the experience by removing multiple ways to navigate the app.  For users who do not have access to Copilot Chat or do not have it pinned, their last used experience would be the default.</p><p><b>When this will happen</b></p><p>These changes will begin rolling out in the Microsoft 365 Copilot app for iOS devices starting early August. Updates to the Android app will follow soon.</p><p><b>How this affects your organization</b></p><p>With these updates, users will notice the following changes in the Microsoft 365 Copilot mobile app:</p><ul><li>The bottom tab navigation will be removed for all users. To access other app features such as Search, Chat, Create, and Notebooks, users can simply open the hamburger menu at the top left corner of the mobile app and select the desired tab. This update helps keep the mobile app home screen uncluttered and ensures that all key app experiences are easily discoverable through the hamburger menu.</li><li>Chat will become the default experience in the mobile app for users that have access to Copilot Chat and have it pinned. Other users will land on their last used experience or Search if new to the app.</li><li>For users with access to Copilot Chat and have it pinned, Chat history (‘Conversations’) in the hamburger menu will be expanded by default to make it more discoverable so users can find previous conversations faster. Users can collapse chat history manually if desired.</li></ul><p>Admins can <a href=\"https://learn.microsoft.com/copilot/microsoft-365/pin-copilot-chat-navbar\" target=\"_blank\">manage pinning settings</a> for Copilot Chat to optimize user experience.</p><p><b>What you can do to prepare</b></p><p>Prepare support teams for potential increase in helpdesk queries due to UI changes. No other action required.</p><p><b>Compliance Considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -19723,138 +19547,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>What and Why</b></p><p>\nTo help organizations better manage and monitor their Microsoft 365 Copilot Chat pay-as-you-go spending, we’re introducing budget controls in the Microsoft 365 Admin Center. This new capability allows global and billing admins to set budget thresholds, receive alerts, and view historical spending data—supporting financial oversight and proactive cost management.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=497417\" target=\"_blank\">497417</a></p>\n\n<p><b>Rollout Schedule</b></p><p>\nGeneral Availability (Worldwide): Rollout begins mid-July 2025 and is expected to complete by early August 2025.</p>\n\n<p><b>Impact on Your Organization</b></p>\n<ul>\n<li><b>Who is affected:</b> <ul><li>Global and billing administrators managing Microsoft 365 Copilot Chat pay-as-you-go billing policies.</li></ul></li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A new budget setting will be available in the Microsoft 365 Admin Center for Copilot Chat billing policies.<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/801b49f9-8196-41e1-9ef2-9d4ca8ab2aae \" width=\"400\" height=\"\"></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/8349dcd4-e651-421d-a818-0af57c2ce7d9 \" width=\"400\" height=\"\"></p></li>\n    <li>Admins can:\n      <ul>\n        <li>Set a dollar-based budget limit per billing policy.</li>\n        <li>Configure email alerts at customizable thresholds (e.g., 50%, 80%, 90%, 100% of budget).</li>\n        <li>View up to 6 months of historical pay-as-you-go spending data.</li>\n      </ul>\n    </li>\n    <li>Alerts will initially be sent from Azure and transition to Microsoft 365 Admin Center in a future update.</li>\n    <li>Budgets can only be created and edited in the Microsoft 365 Admin Center.</li>\n    <li>Billing will <b>not</b> automatically stop when the budget is reached; admins must manually disconnect the payment method or service if needed.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b>Action Required / Recommendations</b></p>\n<ul>\n  <li>No action is required to prepare.</li>\n  <li>Once available, you may:\n    <ul>\n      <li>Set budget limits for Copilot Chat billing policies in the Microsoft 365 Admin Center.</li>\n      <li>Configure alert thresholds to notify mail-enabled security groups.</li>\n      <li>Monitor historical spending data to inform future budgeting decisions.</li></ul></li>\n</ul>\n\n<p><b>Compliance Considerations</b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "497417"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Admin Center will add budget controls for Copilot Chat pay-as-you-go billing, allowing global and billing admins to set budget limits, receive customizable alerts, and view six months of spending data. Rollout starts mid-July 2025, with no automatic service shutdown at budget limits."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1122160",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-30T20:17:17.503Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-25T22:36:04Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot Chat: Set budget limits for \"Pay-as-you-go billing\" in Microsoft 365 admin center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 30, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Windows Autopatch will now provide role-based access controls to access key update management features, previously limited to Intune Service administrators. With this change, administrators can assign specific roles and permissions, so that only authorized personnel can perform update management actions and read reports. With this change you will be able to grant appropriate access rights to individuals, resulting in far fewer privileges for update management, therefore minimizing the need for Intune Service administrator privileges.  \n</p><p><b>When will this happen:</b>  \n</p><p>General Availability will take place starting May 27, 2025, Pacific Standard Time, and the change will be completed on August 4, 2025.</p><p> <b>How will this affect your organization:</b>  \n</p><p>This release includes the following \n</p><p><b>Built-in roles \n</b></p><ol><li><b>Windows Autopatch Administrator:</b> This includes full permissions necessary for Autopatch Groups, Autopatch reports and Messages.  \n</li><li><b>Windows Autopatch Reader:</b> This includes read permissions necessary for Autopatch Groups, Autopatch reports and Messages but does not permit any changes. \n</li></ol><p>IT admins have been using the Intune role <b>Policy and Profile Manager</b> or an Intune custom role with equivalent permissions that include Device configuration permissions for managing Intune policies. To fully access advanced update management features such as Autopatch Groups, a user must be assigned to both Policy and Profile Manager and Windows Autopatch administrator.  \n</p><p>The roles will be available at  <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a> -&gt; Tenant Administration -&gt; Roles -&gt; All roles \n</p><p>Custom roles – you can create a custom Autopatch role and include just the permissions required for update related activities. You can access this from <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a> -&gt; Tenant Administration -&gt; Roles -&gt; All roles -&gt; Create -&gt; Windows Autopatch role.   \n</p><p>You will be able to assign <b>Intune scope tags</b> to Autopatch Groups and filter Autopatch reports based on scope tags.  \n</p><p><b>Windows Autopatch reports</b> – You will be able to access the Windows Autopatch reports with the above built-in roles, or grant permissions to custom roles.  Learn more about which current roles can access reports at <a href=\"https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/windows-autopatch-windows-quality-and-feature-update-reports-overview#who-can-access-the-reports\" target=\"_blank\"><u>Who can access Windows Autopatch reports</u></a> \n</p><p>In addition to Global administrator and Intune Service administrator, the following Microsoft Entra roles will have access to various Autopatch features. \n</p><ol><li>Service Support Administrator \n</li><li>Security Admin \n</li><li>Security Reader \n</li><li>Billing Administrator \n</li><li>Helpdesk Administrator \n</li></ol><p>We will also remove the <b>\"Modern Workplace Roles - Service Administrator\"</b> and <b>\"Modern Workplace Roles - Service Reader”</b> Microsoft Entra groups, that Autopatch no longer uses, and if they are present in your tenant. Autopatch will not migrate the group membership to any of the above roles, at release.  \n</p><p><b>What you need to do to prepare:</b>  \n</p><p>Review your environment for users in <b>\"Modern Workplace Roles - Service Administrator”</b> or <b>\"Modern Workplace Roles - Service Reader\"</b>. Configure their permission to view Autopatch reports using the roles included in <b>\"Who can access Windows Autopatch reports\"</b>, to prevent loss of access.  \n</p><p>If you have any questions or concerns, or need assistance, file a service request by visiting the <a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\"><u>Microsoft Intune admin center</u></a>.  \n</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Windows Autopatch introduces role-based access controls starting May 27, 2025, allowing assignment of specific update management roles—Administrator and Reader—reducing reliance on Intune Service administrator privileges. Custom roles and Intune scope tags are supported. Some legacy Entra groups will be removed; review user permissions accordingly."
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1061099",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-30T20:07:08.303Z",
-    "Services": [
-      "Windows Autopatch"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-24T00:50:29Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "New Feature: Role-based access controls for Windows Autopatch",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 30, 2025: We have updated the timeline. Thank you for your patience.</p><p>We are excited to announce a new feature in the Copilot menu in Word: Fix grammar and spellings. This feature provides a one-click solution to apply all grammar and spelling corrections simultaneously, with the option to review and undo any changes you prefer not to keep.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=483954\" target=\"_blank\">483954</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out by mid-May 2025 (previously late April) and expect to complete by mid-August 2025 (previously mid-June).</p><p><b>How this will affect your organization:</b></p><p>Customers will have access to a new feature in their Copilot menu: Fix grammar and spellings. This feature provides a one-click solution to apply all grammar and spelling corrections simultaneously, with the option to review and undo any changes they prefer not to keep.</p><p> </p><p>Users can select text in a Word document to review all the spelling and grammar errors and Copilot will help them fix those errors inline and allow users the ability to review each of the changes made.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/037c1788-47c7-4ef3-ab59-3e5b3cfec51a\" width=\"400\" height=\"\"></p><p></p><p>This feature is available to users with a Copilot license</p><p><b>What you need to do to prepare:</b>\n</p><p>You may consider updating your training and documentation as appropriate. These features are available to users with a Copilot license.</p><p>Review the following resource to understand how to manage Microsoft 365 Copilot access within your organization:</p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-page\" target=\"_blank\">Manage Microsoft 365 Copilot scenarios in the Microsoft 365 admin center</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "483954"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Word's Copilot now offers a one-click \"Fix grammar and spellings\" feature to correct all errors simultaneously, with review and undo options. Rolling out worldwide from mid-May to mid-August 2025, it requires a Copilot license. Organizations should update training and manage access accordingly."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1060868",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-30T13:57:45.207Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-23T16:48:17Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Word: Fix spelling and grammar all at once with Copilot",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated July 30, 2025: We have updated the timeline. Thank you for your patience.</p><p>We’re introducing a new contextual entry point under the <i>References </i>tab in Word that helps users discover third-party citation tools alongside the default Word citation functionality. This update is designed to support users who are familiar with citation principles but need help navigating specific formatting styles like APA, MLA, and Chicago.</p><p>By surfacing both first-party and third-party options, users can quickly onboard to built-in tools or explore additional solutions that best fit their needs.\n</p><p><b>When this will happen:</b></p><p>Targeted Release: Rollout is expected to complete by early July 2025.\n</p><p>General Availability (Worldwide, GCC, GCC-High, DoD): Rollout will begin early July 2025 and is expected to complete by late August 2025 (previously late July).\n</p><p><b>How this will affect your organization:</b></p><p>This update enhances the discoverability of third-party citation tools directly within the Word app. Users will see a new contextual entry point under the References tab, making it easier to access and compare citation solutions.\n</p><ul><li>The default Word citation tool will remain visible and accessible.\n</li><li>Third-party tools will appear in parallel, offering users more flexibility and choice.\n</li></ul><p>This feature is on by default and requires no admin configuration to enable.\n</p><p><b>What you can do to prepare:</b></p><p>If your organization uses custom citation tools or has specific compliance requirements, consider reviewing the available third-party options to ensure alignment with your policies.</p>\n<p></p>\n<p><br></p>",
       "ContentType": "html"
     },
@@ -20066,44 +19758,6 @@
       "User impact"
     ],
     "Title": "Introducing the New Workflows Experience in Microsoft Teams",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 29, 2025: We have updated the timeline. Thank you for your patience.</p><p>We’re expanding access to Copilot Notebooks—your AI-powered workspace—by bringing it to the Microsoft 365 mobile apps on iOS and Android, including iPad. This update enables users to stay productive on the go by accessing and interacting with their existing Copilot Notebooks directly from their mobile devices.\n</p><p>Copilot Notebooks help users organize and focus their work by bringing together Copilot chats, files, pages, meeting notes, links, and more in one place. As users collaborate with Copilot, they receive contextual responses based on the content in their notebook, which updates in real time as the project evolves.\n</p><p>This rollout includes the following capabilities in the Microsoft 365 mobile apps:\n</p><ul><li>Open existing Copilot Notebooks created on the web version of Microsoft 365.\n</li><li>Create new Copilot chats within existing notebooks.\n</li><li>Open Copilot Pages and references stored in existing notebooks.\n</li></ul><p>Note: The ability to create a new Copilot Notebook directly from the mobile apps will be available in an upcoming release.\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): Rollout will begin in mid-June 2025 and is expected to complete by mid-August 2025 (previously mid-July).\n</p><p>Rollout to government clouds will occur at a later date.\n</p><p><b>How this will affect your organization:</b></p><p>This update enhances mobile productivity for users with Microsoft 365 Copilot licenses by enabling access to Copilot Notebooks on iOS and Android. Users can continue their work seamlessly across devices, leveraging AI-powered insights and references wherever they are.\n</p><p>This feature is included with the Microsoft 365 Copilot license and is enabled by default.\n</p><p><b>What you can do to prepare:</b></p><p>No admin action is required. You may wish to inform your users about the new mobile capabilities and encourage them to explore Copilot Notebooks on their mobile devices.\n</p><p>Learn more about Copilot Notebooks: <b>Insert Microsoft Learn or support link if available</b></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Copilot Notebooks will soon be available on Microsoft 365 mobile apps for iOS and Android, allowing users to access and interact with existing notebooks, create new Copilot chats, and open pages. Rollout starts mid-June 2025, enhancing mobile productivity for Copilot license holders."
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1099689",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-29T15:06:32.62Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-20T22:16:01Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Copilot Notebooks coming soon in Microsoft 365 mobile apps (iOS and Android)",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -20386,52 +20040,6 @@
       "Admin impact"
     ],
     "Title": "Scoped Knowledge in Declarative Agents",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We have introduced a new configuration option in Microsoft Purview called collection policies for targeted signal discovery and collection. Collection policies will allow administrators to fine tune the signals and data collected for Purview solutions at the tenant level. This includes specifying which Sensitive Information Types (SITs) are classified and what activities are collected on Windows endpoint devices.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=493750\" target=\"_blank\">493750</a>.</p><p><b>When this will happen:</b></p><p>Gov Clouds: Gov Clouds rollout will begin in end of July and continue into mid August.&nbsp;</p><p></p><p><b>How this will affect your organization:</b></p><p></p><div><p>Key benefits of collection policies</p><ul><li>Granular control: Align with regulatory, regional, and organizational requirements that specify what types of data can be collected.</li><li>Noise reduction: Focus on the most relevant data security risks by tailoring data discovery and signals to what’s important for your organization</li></ul><p>Purview solutions impacted</p><ul><li>Unlike traditional Purview Data Loss Prevention (DLP) or Microsoft Purview Information Protection policies, collection policies are designed to streamline discovery of relevant information, rather than apply enforcement or take action on that information. There is no action taken from these policies to block content, as policies are meant to scope what content is collected and surfaces to administrators.</li><li>Using collection policies to scope signal collection will impact what is surfaced in several Purview solutions, including Insider Risk Management (IRM), Data Security Posture Management (DSPM), eDiscovery, Data Lifecycle Management (DLM), Activity Explorer, and more. Learn more:<span>&nbsp;</span><a href=\"https://learn.microsoft.com/purview/collection-policies-solution-overview\">Collection Policies Solution Overview (preview) | Microsoft Learn</a></li></ul><p>There is no immediate impact of this feature release. If you choose to leverage collection policies, admins can now choose which signals to discover in devices.</p><p>After you enable collection policies, you may see various updates to the Purview DLP audit experience. These updates may affect your organizations current configuration in the following ways:</p><ul><li>Activities to audit on your tenant will be scoped to the selected SITs and user activities</li><li>A new Location picker experience will be used to scope users and groups</li><li>To use collection policies for endpoints, the DLP<span>&nbsp;</span>Always audit<span>&nbsp;</span>setting will still need to be enabled. However, once created, collection policies for endpoint devices adjust from an open policy to an allowlisting policy that supports inclusion and/or exclusion of specific users, groups, and specified activities to reduce load and address customer requirements.</li></ul><p>This feature is available by default for admins to configure.</p></div><p><b>What you need to do to prepare:</b></p><p></p><div><p>There is no immediate impact of this feature release until you create an initial collection policy and<span>&nbsp;</span>Always audit<span>&nbsp;</span>is enabled in DLP (Windows endpoint devices only). To prepare for this upcoming enhancement to the Purview portal, we recommend you:</p><ul><li>Review Microsoft Learn docs on collection policies and required prerequisites:<span>&nbsp;</span><a href=\"https://learn.microsoft.com/purview/collection-policies-solution-overview\">Collection Policies Solution Oerview (preview) | Microsoft Learn</a></li><li>Help inform other Purview admins whose signal collection would be scoped, including the solutions in this message.</li></ul><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.</p></div>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "493750"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview introduces collection policies for granular control over data signals collected on Windows endpoints, enhancing targeted discovery without enforcement actions. This affects multiple Purview solutions and requires enabling DLP Always audit. Rollout begins late July for Gov Clouds, with no immediate impact until configured."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1122146",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-25T22:25:00.597Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-25T22:23:22Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview compliance portal: Endpoint Data Loss Prevention: Collection Policies: Scope classifiers and activity",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -20920,54 +20528,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</p><p>Major update: Microsoft Viva Pulse is rolling out a new delegation feature in July 2025 that enables users in your tenant to assign other users as delegates to take actions on their behalf. This feature is designed to support executive assistants, chiefs of staff, and other designated roles who act on behalf of organizational leaders in collecting and analyzing feedback.</p><p>\n</p><p>Delegation in Viva Pulse allows a user (the delegator) to authorize another user (the delegate) to manage the Pulse survey lifecycle on their behalf. Delegates can create, send, and manage Pulses, while the delegator retains ownership and visibility into all activity.&nbsp;</p><p>To use this feature, users must have a license for Viva Pulse via Microsoft Viva Suite, Microsoft Viva Workplace Analytics and Employee Feedback, or Microsoft 365 Copilot. This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=479753\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">479753</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will roll out the delegation feature in mid-August 2025 (previously mid-July).&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Delegation is turned on by default in tenants. Admins can manage delegation at the tenant level, group level using Microsoft Entra ID groups or Microsoft 365 groups, or at the user level for maximum flexibility through centralized feature access management.&nbsp;&nbsp;</p><p>You can create and update policies in the<a href=\"https://learn.microsoft.com/Viva/control-access-admin-center\" target=\"_blank\"> Microsoft 365 admin center</a> or in PowerShell. Use the FeatureID value PulseDelegation to configure delegation in the tenant. See Control access to features in Viva to learn more.</p><p>Delegates will be able to: </p><ol><li>Create and send Pulses on behalf of the delegator. Survey recipients for Pulses sent by the delegate will see the email and Teams notifications indicate that the Pulse was sent on behalf of the delegator. </li><li>View all Pulses sent or drafted. </li><li>View all Pulse reports.&nbsp;</li></ol><p>Delegates cannot view or respond to confidential conversations and cannot share Pulse reports.</p><p> <b>What you need to do to prepare:</b></p><p>This rollout will happen automatically in mid-July 2025 with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.&nbsp;&nbsp;</p><p>Learn more</p><ul><li><a href=\"https://learn.microsoft.com/viva/pulse/setup-admin-access/tenant-admin-dashboard\" target=\"_blank\">View usage metrics with the tenant admin dashboard | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/feature-access-management\" target=\"_blank\">Microsoft Viva - Feature access management | Microsoft Learn</a></li></ul><p>Before we complete rolling out the delegation feature, we will update this post with new documentation that explains how to set up delegation in Viva Pulse.&nbsp;</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "479753"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Pulse will introduce a new delegation feature in mid-August 2025, allowing users to assign delegates to manage Pulse surveys on their behalf. This feature supports roles like executive assistants and chiefs of staff. Delegation is enabled by default and can be managed at various levels. No admin action is required before the rollout."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1053652",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-22T19:40:45.41Z",
-    "Services": [
-      "Microsoft Viva",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-11T21:42:37Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva Pulse: New Delegation feature",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.</p><p>We're introducing a new way to seamlessly access your most recently used SharePoint agents directly within the Microsoft 365 Copilot app—no need to navigate back to the SharePoint site. This enhancement helps users stay focused and productive by reducing context switching.</p><p>\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=482601\" target=\"_blank\">482601</a></p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out in mid-September 2025 (previously mid-July).</p><p><b>How this will affect your organization:</b></p><p>With this update, users can quickly return to their most recently used SharePoint agents from within the Microsoft 365 Copilot app. SharePoint agents are implemented as <code>.agent</code> files stored on SharePoint sites. Admins can disable an agent at any time by deleting the corresponding file.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/17e2b503-7a17-42cc-8596-7c547685a9e5\" width=\"400\" height=\"\"></p><p>This feature is designed to streamline workflows and improve discoverability of agents users rely on most. It will be on by default.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><ul><li>Consider updating internal training materials and documentation to reflect this new access point.\n</li><li>Review your organization’s SharePoint agent management practices to ensure appropriate governance and lifecycle management.</li></ul><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed?\tMaybe - It introduces a new access point to existing .agent files.</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?\tYes - SharePoint agents are AI-powered and interact with user data.\n</li><li>Does the change provide end users any new way of interacting with generative AI?\tYes - Users can more easily re-engage with generative AI agents.</li></ul>",
       "ContentType": "html"
     },
@@ -21398,45 +20958,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated July 17, 2025: We have updated the content below with additional information regarding mobile apps. Thank you for your patience.</p><p>Frontier offers the ability to get hands-on with the latest model innovation and provide feedback before experiences are made generally available. Microsoft 365 Admins can configure Frontier features for their end users within their own tenant. This post outlines how to configure access to Frontier features across platforms and what to expect.</p><p>Frontier feature admin control for mobile apps:</p><p>Frontier features will now be visible to all users using Android Beta or iOS TestFlight applications. Prior, admins could control which users on these applications would be able to see Frontier features. </p><p><b>When this will happen:</b></p><p>General Availability: We will roll out the capability in May 2025.</p><p><b>How this will affect your organization:</b></p><p>Frontier lets M365 Admins opt-in users for early access to experimental AI features. This lets selected users experience the latest AI features being released with the own data inside their own tenant.</p><p><b>What you need to do to prepare:</b></p><p>To prepare for the rollout, IT Admins should identity end users who would benefit from early access to Frontier features. Those users should be added to a Microsoft Entra ID group, so that the group can then be configured for access.&nbsp;</p><p><i>Licensing Requirements:</i></p><p>Users must have an active Copilot license to access Frontier features.</p><p><i>Configuration for Desktop (Win32 &amp; Mac) and Mobile:</i></p><ul><li>Add users to the Insiders Beta Channel as you normally would.\n</li><li>To opt users out, remove them from Insiders Beta or move them to Insiders Current Channel (CC).\n</li><li>We recommend enabling the Channel Picker for end users, allowing them to self-manage their participation.</li><li>For Mobile, Frontier features will be available to all users on Android Beta and iOS TestFlight apps.</li></ul><p><i>Configuration for Web-based Products:\n</i></p><ul><li>A new control is available in the Microsoft 365 Admin Center. The control can be accessed through the Settings page under the Copilot tab.</li><li>Admins can manage access by adding or removing AAD groups.</li></ul><p><i>Agent Features:</i></p><ul><li>&nbsp;Agent-related features are not managed via the new admin control. These are handled separately through the Agent Store.</li></ul><p><i>Important Notes:</i></p><ul><li>Frontier features are experimental and subject to change. There is no guarantee they will be released to general availability.</li><li>Participation in Frontier is optional.</li></ul><p><i>Next Steps:</i></p><ul><li>Review your current Insider configurations.</li><li>Identify users or groups who may benefit from early access.</li><li>Use the new admin controls to manage access as needed.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Updated July 17, 2025: Frontier features in Microsoft 365 allow admins to configure early access to experimental AI features for end users. Mobile apps now show Frontier features to all users on Android Beta and iOS TestFlight. Admins should prepare by identifying users, configuring access via Microsoft Entra ID groups, and ensuring users have active Copilot licenses."
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1084633",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-17T23:58:51.27Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-28T22:43:33Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Configure End Users for Frontier features in Microsoft 365",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>What and Why</b></p><p>\nTo help teams and individuals plan and execute work more efficiently, we’re expanding the capabilities and availability of the Project Manager agent (PMA) to all shared premium plans (both new and existing premium plans). These updates are based on customer feedback and aim to make PMA more accessible, easier to use, and more configurable. Enhancements include broader availability across Premium Plans, support in Planner for Web, a new chat entry point, and improved admin controls.</p><p>PMA is an AI-powered agent in Planner that can take a goal and create a plan by generating structured tasks and support task execution grounded in your plan context and web.</p><p>To access Project Manager agent in Planner, a Microsoft 365 Copilot license is required. Users who also possess Planner Plan 1, Planner and Project Plan 3, or Planner and Project Plan 5 license will gain access to premium features. Individuals without a Microsoft 365 Copilot license can participate in plan collaboration but will not be able to interact with the Project Manager agent, including assigning tasks to the agent.&nbsp;</p>\n\n<p><b>Rollout Schedule</b></p>\n<ul>\n<li><b>PMA in existing Premium Plans:</b> Begins early August 2025; expected completion by early September 2025.</li>\n<li><b>New PMA chat entry point and name:</b> Begins early August 2025.</li>\n<li><b>PMA in Planner for Web:</b>&nbsp;Begins early August 2025.</li>\n<li><b>Advanced PMA admin settings:</b>&nbsp;Begins mid-July 2025.</li>\n</ul>\n\n<p><b>Impact on Your Organization</b></p>\n<ul>\n<li><b>Who is affected:</b><br>\n<ul><li>Organizations using Microsoft Planner with Premium Plans.</li>\n<li>Admins managing Microsoft 365 Copilot and Planner licenses.</li>\n<li>Users with Microsoft 365 Copilot + Planner Plan 1, Project Plan 3, or Project Plan 5.</li></ul></li>\n\n<li><b>What will happen:</b>\n<ul>\n<li>PMA will be enabled in all existing shared Premium Plans—no need to create new plans.</li>\n<li>The Copilot chat pane will move to the bottom-right corner of the canvas and be renamed “Project Manager agent.”</li>\n<li>PMA will be available in Planner for Web.</li>\n<li>Tenant Admins, now have the capability to enable PMA only for a set of users based on the security groups, providing the ability to test PMA in a smaller user base before rolling out to a larger user base</li><li>PMA home page, which was the primary interface for PMA interaction will be removed, instead PMA will be available and accessible in existing views of Planner Premium, such as the Grid view, Goals view and Broad view.</li><li>Previously all the Output from PMA were stored in Loop Workspaces, in future Loop output from PMA will be stored in a dedicated SharePoint folder in the SharePoint site associated with the modern group.</li></ul></li></ul><ul></ul><p></p><ul><li><b>Key capabilities include:</b><ul style=\"\"><li style=\"\">Assign tasks to PMA for execution with results captured in embedded Loop pages.</li><li style=\"\">Use the Goals tab to generate structured tasks from natural language goals.</li><li style=\"\">Ground PMA with context from SharePoint, Word, Loop, or web links.</li><li style=\"\">Access PMA Chat (previously “Copilot in Planner”) via the rocket icon to plan, manage, and track projects.</li></ul></li>\n</ul>\n\n<p><b>Action Required/Recommendations</b></p>\n<ul>\n<li>Notify users and planners about the new capabilities.</li>\n<li>Identify key planning scenarios where PMA can add value.</li>\n<li>Update internal documentation and planning playbooks to reflect AI-assisted planning.</li>\n<li>Review and configure Planner Copilot settings to enable or disable PMA as needed.</li>\n</ul>\n\n<p><b>Compliance Considerations</b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -21464,45 +20985,6 @@
       "Admin impact"
     ],
     "Title": "Announcing Public Preview of Project Manager agent in Shared Premium Plans",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 17, 2025: We are updating this message as a reminder of the upcoming end of support for TLS 1.1 on July 31, 2025. Please review and take action as appropriate to mitigate potential service interruptions.</p><p>We are writing to inform you about an important update regarding the Transport Layer Security (TLS) protocols used by the Fabric Platform. To provide secure connections and align with other Microsoft products, Fabric Platform will soon require TLS 1.2 or later versions for all outbound connections from Fabric to customer data sources.</p><p>Support for TLS 1.1 and earlier versions will end on <b>July 31, 2025</b>. After this date, TLS 1.2 or later will be required for all connections from Fabric to customer data sources.\n</p><p><b>What you need to do to prepare:</b></p><ol><li>Review Your Connections: Ensure that all your resources interacting with Azure services are using TLS 1.2 or later, especially if you are using Fabric to connect to outside data sources.\n</li><li>Update Your Systems: If any of your systems are still using TLS 1.1 or earlier, please update them to TLS 1.2 or later as soon as possible to avoid any disruptions.\n</li><li>Verify Compliance: Check that your TLS policies and configurations are compliant with the new requirements.\n</li></ol><p>For more details, please refer to the blog post on TLS deprecation for Fabric <a href=\"https://blog.fabric.microsoft.com/en-US/blog/tls-deprecation-for-fabric/\" target=\"_blank\">here</a>.\n</p><p>If you have questions, get answers from community experts in <a href=\"https://aka.ms/azureqa\" target=\"_blank\">Microsoft Q&amp;A</a>. If you have a support plan and you need technical help, please create a <a href=\"https://learn.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request\" target=\"_blank\">support request</a>.</p><p><br></p><p>\n</p><p>\n</p><p>\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Support for TLS 1.1 on the Fabric Platform ends on July 31, 2025. Ensure all connections use TLS 1.2 or later to avoid service interruptions. Review and update your systems and verify compliance. For more details, refer to the provided blog post and support links."
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1085131",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-07-17T20:32:40.657Z",
-    "Services": [
-      "Power BI"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-29T23:12:42Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Important Notice: TLS Deprecation for Fabric Platform",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -22756,44 +22238,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated July 3, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>We’re introducing the ability to pop out live captions (including live translated captions) and Real-Time Text (RTT) in Microsoft Teams meetings and calls. This new functionality gives users more flexibility and control over how they view text-based communication during meetings, supporting both accessibility and multitasking needs.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=484113\" target=\"_blank\">484113</a>.</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early April 2025 (previously early May) and expect to complete by mid-April 2025 (previously late June).\n</p><p>\nGeneral Availability (Worldwide, GCC): We will begin rolling out mid-June 2025 (previously late June) and expect to complete by late June 2025 (previously mid-July).</p><p style=\"box-sizing: border-box; margin: 0px 0px 10px; font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">General Availability (GCCH): We will begin rolling out late June 2025 (previously mid-July) and expect to complete by early July 2025 (previously late July).</p><p style=\"box-sizing: border-box; margin: 0px 0px 10px; font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">General Availability (DoD): We will begin rolling out early July 2025 (previously early August) and expect to complete by mid-July 2025 (previously mid-August).</p><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><b>How this will affect your organization:</b><br></p><p>After the rollout, users will see a pop-out icon on the live captions and RTT interface during meetings and calls. This feature will be on by default. When popped out, captions and RTT will open in separate windows that users can drag, resize, and position anywhere on their screen. This allows users to customize their meeting layout and view captions or RTT in a way that works best for their workflow or accessibility needs.</p><p><i>Live caption pop-out</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b1dbd4c8-a303-45ea-ac58-9faa66e4a573\" style=\"width: 450px;\"><i><br></i></p><p><i>RTT pop-out</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/98392449-384d-4732-9d5c-a7bf6f9d0467\" style=\"width: 450px;\"><br></p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required. Please notify your users about this change and update any relevant training materials or documentation to reflect the new pop-out experience for captions and RTT.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will introduce the ability to pop out live captions and Real-Time Text (RTT) during meetings, enhancing flexibility and accessibility. The rollout will start in April 2025 for targeted release and complete by mid-July 2025 for all users. No admin action is required, but users should be informed."
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1059675",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-03T15:57:29.223Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-21T23:43:46Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Pop out live captions and Real-Time Text (RTT) in Teams meetings",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>To improve discoverability and ensure questions reach the right experts, we’re updating how questions are posted from the Answers tab in Viva Engage.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): Rollout will be completed in mid-July 2025.</p><p><b>How this affects your organization:</b></p><p>Currently, questions submitted via the Answers tab are posted as network-level questions, which are not tied to any specific community. This makes them harder to find and less likely to receive timely responses.\n</p><p>With this update:\n</p><ul><li>Users will be required to select a community when posting a question from the Answers tab.\n</li><li>This ensures questions are directed to the most relevant audience, improving visibility and response quality.\n</li><li>Existing questions will remain visible in the Answers tab, but all new questions must be posted to a selected community.\n</li></ul><p>This change is on by default and applies to all users in Viva Engage.\n</p><p><b>What you can do to prepare:</b></p><p>No admin action is required. However, you may want to:\n</p><ul><li>Inform your users about the new posting requirement.\n</li><li>Encourage users to join relevant communities to ensure they can post and respond effectively.\n</li></ul><p><br></p>",
       "ContentType": "html"
     },
@@ -23319,52 +22763,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>We're introducing General Availability (GA) for Microsoft Purview Data Loss Prevention (DLP) for Microsoft 365 Copilot. This update enhances your organization's data protection capabilities by enabling DLP policies to detect sensitivity labels in enterprise grounding data and restrict access to sensitive content within Microsoft 365 Copilot. With GA, alerting and policy simulation capabilities will also be available.\n</p><p>This message is associated with Microsoft 365 Roadmap ID:&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=423483\" target=\"_blank\">423483</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): Rollout will begin in late June 2025 and is expected to complete by late July 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><ul><li>If your organization already has DLP for Microsoft 365 Copilot policies in place, admins will be able to edit those policies to enable alerts and policy simulation.\n</li><li>If no existing policies are configured, admins with the appropriate licensing can create new policies in the Microsoft Purview portal under the Data Loss Prevention solution.\n</li><li>Admins can also use Data Security Posture Management for AI (DSPM for AI) to view recommendations for creating Microsoft 365 Copilot policies.\n</li></ul>\n<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/40a5af2c-2add-4f8f-90df-e1ed4b610bc4\" width=\"400\" height=\"\"></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b6e3b3e1-83fb-4007-b925-ee1a27ac503a\" width=\"400\" height=\"\">\n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/14030091-d91d-444c-9930-705cd72ef621/6bbd5008d3641208dd521394d4a14fba0bf62029.png\" width=\"400\" height=\"\"></p>\n<p>This feature is off by default and requires admin configuration.\n</p><p><b>What you can do to prepare:</b>\n</p><ul><li>Admins should create new DLP policies using the Copilot location to take advantage of this feature.\n</li><li>To enable alerting or test policies in simulation mode, these settings must be configured individually within each DLP policy.\n</li><li>For more information:<ul><li>Refer to <a href=\"https://learn.microsoft.com/purview/dlp-learn-about-dlp?view=o365-worldwide\" target=\"_blank\">Data Loss Prevention</a> documentation to learn more.\n</li><li>Refer to <a href=\"https://learn.microsoft.com/purview/dlp-microsoft365-copilot-location-learn-about\" target=\"_blank\">Learn about the Microsoft 365 Copilot location (preview)</a> for details about DLP for Microsoft 365 Copilot.</li></ul></li></ul><p><b>Compliance considerations:</b>\n</p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed?\tYes - DLP policies will now inspect enterprise grounding data for sensitivity labels and restrict access within Microsoft 365 Copilot, which changes how data is processed and accessed.</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with data?\tYes - The feature integrates with Microsoft 365 Copilot, which uses AI to generate content. DLP enforcement now applies to Copilot interactions, modifying how AI agents handle sensitive data.</li><li>Does the change modify, interrupt, or disable any Purview capabilities?\tYes - It modifies DLP enforcement by extending it to Copilot scenarios and introduces new capabilities like alerting and simulation within existing DLP policies.\n</li><li>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?\tYes - Admins gain new visibility and control through alerting and simulation features and can use DSPM for AI to receive policy recommendations.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "423483"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Data Loss Prevention (DLP) for Microsoft 365 Copilot is now generally available, allowing organizations to use DLP policies to detect sensitivity labels and restrict access to sensitive content. The rollout begins in late June 2025 and completes by late July 2025. Admins can edit or create new policies and use alerting and simulation features."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1105017",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-27T23:23:36.677Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-27T23:23:18Z",
-    "Tags": [
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Data Loss Prevention: Restrict Microsoft 365 Copilot using content with sensitivity labels",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>We’re introducing a new capability in the Microsoft Purview portal’s eDiscovery (Premium) experience that allows you to generate and download hit-by-term query reports directly from a review set. This enhancement helps you quickly assess keyword performance and query effectiveness using KQL.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=171751\" target=\"_blank\">171751</a> and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=384871\" target=\"_blank\">384871</a>.</p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide, GCC, GCCH, DoD): Rollout will begin in early July 2025 and is expected to complete by the end of July 2025.</p><p><b>How this affects your organization:</b></p><p>This update does not change your current eDiscovery workflows. However, when using the new eDiscovery experience in Microsoft Purview, you’ll now see a Query report option within each review set. This feature enables you to:\n</p><ul><li>Paste in a KQL-based compound query to generate a hit-by-term report.\n</li><li>View keyword performance metrics such as hit count, hit percentage, and data volume.\n</li><li>Download the report as a .csv file.\n</li><li>Quickly review items with hits in a single view.\n</li></ul><p>Note: This feature is only available in the new eDiscovery (Premium) experience and is not supported in the classic experience.\n</p><p><b>What you can do to prepare:</b></p><ul><li>Review your current eDiscovery workflows and determine if this reporting capability can enhance your review process.\n</li><li>Update internal documentation or training materials as needed.</li></ul><p><b>Compliance considerations:</b></p><ul><li>Alters admin monitoring/reporting for compliance: Yes - The new report provides enhanced visibility into keyword/query performance, supporting compliance monitoring.</li></ul>",
       "ContentType": "html"
     },
@@ -23398,43 +22796,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview compliance portal: eDiscovery - Review set query report",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Update: As part of our continued investment in simplifying and strengthening the content creation experience, we're consolidating content creation capabilities in Microsoft 365 Copilot. Starting mid-July 2025, the Visual Creator agent will no longer be preinstalled in Copilot Chat (MC1098165), and by late July, it will be removed from the Agent Store.\n</p><p>With the introduction of the Create module in Microsoft 365 Copilot and ongoing improvements to image generation in Copilot Chat, the Visual Creator agent will be retired. Starting mid-July 2025, it will no longer be preinstalled, and by late July, it will be removed from the Agent Store. Users can continue generating images directly in Copilot Chat and for broader content creation scenarios, users with a Microsoft 365 Copilot license will continue to be able to use the Create experience in the Microsoft 365 Copilot app to create videos, posters, banners, and other content.</p><p>\n</p><p><b>When this will happen:</b></p><ul><li>Mid-July 2025: The Visual Creator agent will no longer be preinstalled in Copilot Chat\n</li><li>Late July 2025: Full removal of the Visual Creator agent from the Agent Store will be completed\n</li></ul><p><b>How this will affect your organization:</b></p><ul><li>The Visual Creator agent will no longer be preinstalled or appear in the agent list in Copilot Chat across endpoints.<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/55c31a2a-7761-4ab8-8a51-df466698da6d\" width=\"200\" height=\"\"></p>\n</li><li>After full removal, users will not be able to find or install the Visual Creator agent from the Agent Store.\n</li><li>Past interactions and files created using the Visual Creator agent will remain accessible in Chat &gt; Conversations.\n</li><li>Users will still be able to generate images within the Copilot Chat experience or use the Create experience in the Microsoft 365 Copilot app for broader content generation such as videos, posters, and banners.\n</li></ul><p><b>What you need to do to prepare:</b></p><p>No admin action is required for this change. However, it is recommended that you notify your users about the upcoming change and update internal documentation that references the Visual Creator agent.\n</p><p>For more information on the Create experience, visit: <a href=\"https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-create-6e0c616d-69fb-42f2-a4cb-c59e006ec4f5\" target=\"_blank\">Get started with Microsoft 365 Copilot Create</a>&nbsp;</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot will retire the Visual Creator agent in Copilot Chat by late July 2025. Users can continue generating images in Copilot Chat and use the Create module in Microsoft 365 Copilot for broader content creation. No admin action is required, but users should be informed about this change."
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1105000",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-06-27T23:09:05.337Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-27T23:08:52Z",
-    "Tags": [
-      "User impact",
-      "Retirement"
-    ],
-    "Title": "Microsoft 365 Copilot: Retirement of Visual Creator Agent in Copilot Chat",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -23918,51 +23279,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>We’re introducing a new activity pane in SharePoint Online to enhance visibility into Content AI model processing (formerly Microsoft Syntex). This update provides real-time insights into document translation and autofill operations, helping users monitor progress, troubleshoot issues, and understand outcomes more effectively.</p><p>This change is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=489453\" target=\"_blank\">489453</a></p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): Rollout will begin in early July 2025 and is expected to complete by late July 2025.\n</p><p><b>How this affects your organization:</b></p><p>This update introduces a modern, pane-based interface that replaces the legacy “Processing status” column. Key capabilities include:\n</p><ul><li>Real-time status tracking: View “In progress,” “Completed,” or “Failed” statuses for individual files, bulk selections (up to 30), or entire libraries.\n</li><li>Detailed processing outcomes: Completed items display extracted column counts (Autofill), translated languages, and glossary usage (Translation).\n</li><li>Error transparency: Failed items include specific error messages to support faster troubleshooting.\n</li><li>Filtering and history: Users can filter by status or time range and access up to 60 days of processing history.\n</li><li>Improved user experience: The new pane offers a more consistent and actionable interface for monitoring Content AI activities.\n</li></ul><p>This change is designed to reduce support requests, improve self-service troubleshooting, and enhance monitoring for large or multi-file jobs.\n</p><p><b>What you can do to prepare:</b></p><p>No action is required to enable this feature. However, we recommend:\n</p><ul><li>Informing users and site owners that the legacy “Processing status” column will be hidden by default.\n</li><li>Communicating that the new activity pane will provide clearer, real-time visibility into AI processing results.\n</li><li>Reviewing and updating any library views or reporting tools that currently rely on the “Processing status” column.</li></ul><p><b>Compliance considerations:</b></p><ul><li>Changes to data processing/storage/access: Yes - Processing metadata is now surfaced in a new UI, but underlying data handling remains unchanged.\n</li><li>AI/ML capabilities interacting with customer data: Yes - The update enhances visibility into existing AI/ML processes (Translation, Autofill).</li><li>Admin compliance monitoring/reporting: Maybe - Admins may need to update reporting tools if they rely on the legacy column.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "489453"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Improved processing visibility for Content AI models in SharePoint Online introduces a new activity pane for real-time insights into document translation and autofill operations. This update, rolling out in July 2025, replaces the legacy “Processing status” column and enhances monitoring, troubleshooting, and user experience. No action is required to enable this feature."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1102786",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-25T00:14:05.68Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-25T00:13:57Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Improved processing visibility for Content AI models in SharePoint Online: Autofill and Document Translation",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>We will enhance Microsoft Purview | Insider Risk Management: by allowing generative AI app activities to be used as triggers in Risky AI usage policies. This enables organizations to define specific conditions that bring users into policy scope based on their interactions with generative AI tools. These activities will continue to contribute to risk scoring.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=484083\" target=\"_blank\">484083</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out early July 2025 and expect to complete by late July 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out late September 2025 and expect to complete by late September 2025.\n</p><p><b>How this will affect your organization:</b></p><p>With this update, admins can configure policies to use generative AI app activities as triggers, expanding the flexibility and precision of Insider Risk Management. This change may affect which users are brought into policy scope based on their AI usage patterns.\n</p><p>This capability will be available by default but requires admin configuration to take effect. You can configure the feature at Insider risk management &gt;<i> Policies &gt; New insider risk policy &gt; Triggering event &gt; Risky or sensitive content in Microsoft Copilot experiences, Enterprise AI apps and web versions of other AI apps:</i>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e9ba38ba-220b-4d0d-b0c8-334402cba075\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current Insider Risk Management policies. Consider editing existing Risky AI usage policies or creating new ones to include generative AI app activities as triggers. You may want to notify your admins and/or users about this change and update internal documentation.\n</p><p>Microsoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage, and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance, and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.</p><p>Learn more: The section called <i>Risky AI usage (preview)</i> in <a href=\"https://learn.microsoft.com/purview/insider-risk-management-policy-templates#risky-ai-usage-preview\" target=\"_blank\">Learn about insider risk management policy templates | Microsoft Learn</a> (will be updated before rollout)</p>",
       "ContentType": "html"
     },
@@ -24086,44 +23402,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated June 24, 2025: The rollout of this feature has been delayed. In the meantime, the Microsoft 365 Copilot app will continue directing users to the My account portal for installations. A status update on the new modal dialog is expected in November.</p><p>The <a href=\"http://portal.office.com/account/\" target=\"_blank\">My account</a>&nbsp;portal will be replaced by a new modal dialog within the Microsoft 365 Copilot app (formerly Office.com) on <a href=\"https://m365.cloud.microsoft/\" target=\"_blank\">web </a>and desktop. The new modal will support end user self-installs that are currently available on the My account portal (Office, Project, Visio, and Skype for Business).</p><p><b>When this will happen:</b></p><p>\n</p><p>\n</p><p>\n</p><p>Targeted Release: We will communicate via Message center when we are ready to proceed.</p><p>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.</p><p><b>How this will affect your organization:</b></p><p>End users will be able to download their apps by accessing the modal dialog in <b>Apps &gt; Install apps &gt; Install Microsoft 365 apps</b> in the Microsoft 365 Copilot web and desktop app.&nbsp;</p><p><b>What you need to do to prepare:</b>\n</p><p><i style=\"\">If you allow users to self-install apps:</i></p><ul><li>Please remove direct links to the My account portal (https://portal.office.com/account) in your self-install communications. Instead, please refer your users to the official Microsoft documentation for installing Office (<a href=\"https://support.microsoft.com/office/download-install-or-reinstall-microsoft-365-or-office-2024-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Download, install or reinstall Microsoft 365 or Office 2024 on PC or Mac</a>).  This article will be updated to describe the new self-installs experience when it is released.</li></ul><p><i>If you do not allow users to install apps:</i></p><ul><li>You can continue to use the <a href=\"https://learn.microsoft.com/microsoft-365-apps/deploy/manage-software-download-settings-office-365\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Microsoft 365 admin center installation options</a> setting or the <a href=\"https://learn.microsoft.com/graph/api/m365appsinstallationoptions-update?view=graph-rest-1.0&amp;tabs=http\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">m365AppsInstallationOptions API</a> to block self-installs. If you already configured these settings, users will still be blocked from installing apps in the new experience.</li></ul><p>Blocking Microsoft Admin Portals using Conditional Access Policies will no longer block self-installs. If you have used this setting to block self-installations, you will need to use one of the settings listed above instead.</p><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "The rollout of the new modal dialog for installing Microsoft 365 apps from the Microsoft 365 Copilot app has been delayed. Users will continue using the My account portal for installations until November. Organizations should update their self-install communications and use admin center settings or APIs to manage app installations."
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1062453",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-24T15:27:09.58Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-25T22:57:17Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact"
-    ],
-    "Title": "Changes to how users install Microsoft 365 apps from the Microsoft 365 Copilot app",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated June 24, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Coming soon for Microsoft Teams: When users select <i>Unread Chats</i>, by default they will land on the last message they read in the chat. This rollout will allow users to quickly continue reading new messages and eliminates manual scrolling to find their last read message. Users will also be able to quickly jump to the newest message with a jump button. A new user-level setting will allow users to decide if they want to land on the last read message or continue landing on the newest message as they do before this rollout.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out early June 2025 and expect to complete by mid-June 2025.</p><p>General Availability (Worldwide, GCC): We will begin rolling out late June 2025 (previously mid-June) and expect to complete by late June 2025.</p><p>General Availability (GCC High): We will begin rolling out early July 2025 and expect to complete by late July 2025.</p><p>\n</p><p>\n</p><p>General Availability (DoD): We will begin rolling out mid-July 2025 and expect to complete by late July 2025.\n</p><p><b>How this will affect your organization:</b></p><p>After this rollout, users will land by default on their last read message when they open <i>Unread Chats</i>. Users will get a button to jump to newest message:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c8274e33-366e-4027-a02b-5bf2e643fc81\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>The new user-level setting for users to choose if they want to land on the last read message or the newest message at <i>Settings &gt; Chats and channels &gt; Chat &gt; When I open a chat, take me to:\n</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/498ba488-7c57-47ca-ad52-dd6da610abbe\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>If the user chooses the non-default setting, users will land on the newest message after selecting <i>Unread Chats. </i>Users will see a button to jump to the last read message:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/7ded8122-3c94-4652-a256-7c2a1c850133\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p>",
       "ContentType": "html"
     },
@@ -24219,102 +23497,6 @@
       "Admin impact"
     ],
     "Title": "The Microsoft 365 Feed widget is no longer available with the Microsoft 365 Feed app",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 23, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Coming soon to Microsoft 365 Copilot Business Chat (BizChat): Users will be able to use CIQ to ground their Copilot prompts with third-party data from their Microsoft Graph Connectors.</p><p><a href=\"https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\" target=\"_blank\">Context IQ (CIQ)</a> is a set of AI capabilities from Microsoft that allows users to search for, select, and insert relevant enterprise or personal data directly into their prompts or conversations. This capability helps users to “ground” or anchor their prompts in specific, contextually relevant data, making responses more accurate, specific, and useful.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=413111\" target=\"_blank\">413111</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out early July 2025 (previously late June) and expect to complete by early August 2025 (previously early July).</p><p><b>How this will affect your organization:</b>\n</p><p>No impact for the tenant admin. End users will see a new Other tab in CIQ to add their third-party data from any MS Graph Connectors that are enabled.\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/9cac0038-f078-4811-8a05-bbc86ea94869\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>This change will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before or after the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\" target=\"_blank\">Using Context IQ to refer to specific files, people, and more in Microsoft 365 Copilot - Microsoft Support</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "413111"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot BizChat will soon allow users to use CIQ to ground prompts with third-party data from Microsoft Graph Connectors. The rollout will start in early July 2025 and complete by early August 2025. No admin action is required, but users should be notified about this change."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC978930",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-23T20:14:29.837Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-01-14T00:20:01Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Select Microsoft Graph Connectors when writing prompts in BizChat",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 23, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Updated February 24, 2025: The Worldwide release has been temporarily rolled back. We will update this Message center post with new timelines once available. The Targeted release remains enabled.</p><p>Coming soon: Users will be able to pop out the side panes for Notes, Chat, and Microsoft Copilot panes in Microsoft Teams meetings\n</p><p><b>Note: </b>The Copilot pane is only available in Worldwide environments with a Microsoft 365 Copilot license.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=421607\" target=\"_blank\">421607</a>.\n</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out mid-January 2025 and expect to complete by early February 2025.\n</p><p>General Availability (Worldwide, GCC, GCC High, DoD): Meeting pane pop-out for Notes, Chat, and Copilot panes will start rolling out in late June 2025 and complete by early July 2025.</p><p><b>How this will affect your organization:</b>\n</p><p>After the rollout, users will see a pop-out icon at the top of their Notes, Chat, and Copilot side panes in Teams meetings. This change will be on by default.\n</p><p>When users select the icon, the pane will pop out into a separate window that the user can resize and drag to their desired position, based on their screen setup and their productivity goals for the meeting. Users can view multiple meeting features at the same time, so they don’t miss the chat while they are monitoring meeting notes.\n</p><p>Chat window in the default position in a meeting:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/bb8af250-b4af-48fd-a871-8431763e20d6\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>Chat windows popped out into a separate window:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/25d7823f-6368-44f9-9691-041a1ae81ba2\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Please notify your users about this change and update any relevant training documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "421607"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"421607\":[{\"RoadmapId\":421607,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1775241Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":421607,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1775243Z\",\"LatestRing\":\"StandardRelease\"}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will soon allow users to pop out Notes, Chat, and Copilot panes in meetings. The targeted release is from mid-January to early February 2025, with general availability from late June to early July 2025. The Copilot pane requires a Microsoft 365 Copilot license. No admin action is needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC952888",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-23T18:56:34.147Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-12-10T00:26:41Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Pop out Chat, Copilot, and Notes panes in meetings",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -25070,52 +24252,6 @@
       "Admin impact"
     ],
     "Title": "Windows Office Hours: June 19, 2025",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 12, 2025: We have updated the timeline below. Thank you for your patience.</p><p>Copilot is expanding its capabilities to mobile, helping users prepare for meetings while on the move. With this update, Copilot can quickly summarize key meeting-related content—such as emails, documents, action items, and previous meeting recaps—so users arrive informed and ready.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=494845\" target=\"_blank\">494845</a>\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide, GCC): We will begin rolling out on early July 2025 and expect to complete by late July 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>Mobile users will benefit from faster, more contextual meeting preparation. By surfacing relevant insights and tasks directly on their mobile device, users can stay productive and informed even when away from their desks.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/d6d41549-aeff-4889-bebf-ccbeee8e9613\" width=\"400\" height=\"\" style=\"width: 20%;\"><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/8bb27237-d13b-402b-b5e8-adb9ecbbe6c6/5bb9f64f77046cf6115aa953bd340d7d7fb1c3df.png\" style=\"width: 70%;\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically with no admin action required. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "494845"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Copilot is expanding to mobile, allowing users to prepare for meetings on the go by summarizing key content. The rollout will occur from early to late July 2025, requiring no admin action but user notification and documentation updates."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, iOS"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1090692",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-12T13:57:22.887Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-09T23:15:02Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Prepare for your on-the-go meeting with Copilot",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -27104,45 +26240,6 @@
       "User impact"
     ],
     "Title": "Microsoft Teams: Join as attendees in Microsoft events from Teams Rooms on Windows",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We’re introducing Real-Time Text (RTT) support in Microsoft Teams meetings and calls, available on both desktop and mobile platforms. RTT is an accessible communication method that transmits text character by character as it is typed, enabling more immediate and responsive text-based conversations. This enhancement supports inclusivity by providing an alternative communication channel for users who are deaf or hard of hearing, neurodiverse, or have speech-related disabilities.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=484119\" target=\"_blank\">484119</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out early May and expect to complete by mid-May.</p><p>General Availability (Worldwide, GCC): We will begin rolling out early May and expect to complete by mid-May.</p><p>General Availability (GCCH): We will begin rolling out early June and expect to complete by mid-June.\n</p><p>General Availability (DoD): We will begin rolling out early July and expect to complete by mid-July.</p><p><b>How this will affect your organization:</b>\n</p><p>Once this feature is enabled by your organization, users will be able to turn on Real-Time Text (RTT) during Teams meetings and calls. To access it, go to the meeting toolbar, select <i>More </i>&gt; <i>Speech and language</i> &gt; <i>Enable RTT</i>.</p><p>When RTT is turned on, it will be enabled for everyone in the meeting. As you type, your message will instantly appear on the screen - letter by letter - so others can read it in real time. This creates a faster and more natural way to communicate through text, especially compared to standard chat.</p><p>RTT is designed to improve accessibility and also supports users who prefer typing instead of speaking. It can be used together with other features like captions or chat to create a more inclusive and flexible meeting experience.</p><p>Note: Once RTT is turned on in a meeting, it stays on for the rest of the meeting and cannot be turned off unless everyone leaves and rejoins.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically, and no admin action is required. The RTT policy is enabled by default at the tenant level.</p><p>We recommend informing your users about this new feature, especially those who may benefit from enhanced accessibility options. You may also want to update any internal documentation or training materials to include guidance on how to use RTT in Teams meetings and calls.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams is introducing Real-Time Text (RTT) for meetings and calls on desktop and mobile, enhancing accessibility for users who are deaf, hard of hearing, neurodiverse, or have speech-related disabilities. The rollout starts in May for most users, with specific dates for different regions. No admin action is required."
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1059674",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-05-15T18:06:03.27Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-21T23:43:12Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Real-Time Text (RTT) in Teams meetings and calls",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -29585,52 +28682,6 @@
       "Admin impact"
     ],
     "Title": "The March 2025 Windows non-security preview update is now available for some supported versions of Windows",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 24, 2025: We have updated the rollout timeline below. Thank you for your patience.</p><p>Coming soon in Microsoft Purview | eDiscovery: When you access any case via the eDiscovery (preview) new user experience, you will have the ability to generate and download a hit-by-term query report on a KQL (<a href=\"https://learn.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference\" target=\"_blank\">Keyword Query Language</a>) query in your review sets. The report will include the count and volume of the items hit on a particular keyword or a list of compound queries.</p><p>This public preview is only available in the new Microsoft Purview portal’s eDiscovery new user experience (preview). This feature is not available in the classic eDiscovery Premium user experience.  \n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=171751\" target=\"_blank\" style=\"\">171751</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out early December 2024 and expect to complete by early January 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out late July 2025 (previously late February) and expect to complete by early August 2025 (previously March 2025).</p><p><b>How this will affect your organization:</b>\n</p><p>This preview is available by default and won't affect your organization’s current eDiscovery workflow.\n</p><p>To access this new report in eDiscovery (preview), go to <i>Cases (preview) &gt; Review sets</i> and open a review set. On the<i>&nbsp;Actions menu, </i>select <i>Query report (preview). </i>Paste in your compound query to generate a hit-by-term report.</p><ul><li>Run hit-by-term reports on your keywords and compound queries (KQL) (locations with hits, hit count, hit %, volume) for items in a review set.&nbsp;</li><li>Download your hit-by-term reports into a .csv file.</li><li>Quickly review the items with hits in a single view.</li></ul><p>Create <i style=\"\">Query reports:</i></p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/c5ea8ce7-93cc-4774-b0da-5f2172ed5cc5\" style=\"width: 400px;\">\n</p><p><br></p><p>View <i style=\"\">Query reports:</i></p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/391c44fe-dbf5-4492-b2ba-bc870b2f6ba7\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b></p><p>Evaluate how this feature will impact your organization’s eDiscovery process and, if needed, modify your internal documents accordingly.</p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/edisc-review-set-query-report\" target=\"_blank\">Use the Query Report to create keyword reports for KeyQL queries (preview) | Microsoft Learn</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "171751"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview | eDiscovery will soon allow users to generate and download hit-by-term query reports on KQL queries in review sets. This feature, available in the new eDiscovery (preview) experience, will be in public preview from December 2024 to January 2025 and generally available from July to August 2025."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-09-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC952887",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-03-25T14:21:46.033Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-12-10T00:26:04Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | eDiscovery: Keyword report in Review set",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
