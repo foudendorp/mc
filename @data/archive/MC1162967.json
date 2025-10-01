@@ -1,0 +1,46 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p><b>Introduction</b></p><p>To support broader collaboration scenarios, Microsoft 365 Copilot Chat will now allow users with access to shared mailboxes to ground their conversations in the content of those mailboxes. This update reflects customer feedback requesting more inclusive access to Copilot capabilities across mailbox types. </p><p>To use this feature, users must have a Microsoft 365 Copilot license and read access to the shared mailbox.</p><p>This update is available across multiple platforms, including Android, Desktop, Developer, iOS, Linux, Mac, Teams, Surface Devices, and Web.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=488797\" target=\"_blank\">488797</a>.</p><p><b>When this will happen:</b></p><ul><li>General Availability (Worldwide): Rollout will begin in late September 2025 and is expected to complete by late September 2025.</li></ul><p><b>How this affects your organization:</b></p><p>Who is affected: Users with access to shared mailboxes in Microsoft 365. </p><p>What will happen:</p><ul><li>Users will be able to ground Copilot Chat conversations in shared mailbox content:</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/46622d75-9cac-4175-adce-21aa8690277a/1deb6af6cb3683e08254730e9f40f3218deaf828.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>The feature will be <b>ON by default for eligible tenants</b>.</li><li>Existing mailbox permissions will determine access; no changes to permission models are required.</li><li>There is no impact to end-user workflow unless Copilot Chat is actively used.</li></ul><b>What you can do to prepare:</b><ul><li>Communicate this change to shared mailbox owners and users.</li><li>Ensure users understand that anyone with access to a shared mailbox will be able to use Copilot Chat to analyze its email content.</li><li>Update internal documentation if you detail Copilot Chat capabilities.</li><li>No configuration changes are required unless you wish to restrict Copilot Chat access via existing mailbox permissions.</li></ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6\" target=\"_blank\">Use Copilot in shared mailboxes and delegate mailboxes | Microsoft Support</a></p><b>Compliance considerations:</b><table class=\"table table-bordered\"><tbody><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. Copilot Chat will now interact with shared mailbox content, enabling generative AI to reason over email data.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users can initiate Copilot Chat grounded in shared mailbox content.</td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. Shared mailbox email content will be accessible to Copilot Chat for reasoning and summarization.</td></tr><tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes. Access is governed by existing mailbox permissions, which can be managed via Entra ID group membership.</td></tr></tbody></table><p></p>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [
+    {
+      "Name": "RoadmapIds",
+      "Value": "488797"
+    },
+    {
+      "Name": "Summary",
+      "Value": "Microsoft 365 Copilot Chat will allow users with read access to shared mailboxes to use Copilot for email starting late September 2025. The feature is on by default, requires no permission changes, and is available across multiple platforms. Access is controlled by existing mailbox permissions."
+    },
+    {
+      "Name": "Platforms",
+      "Value": "Android, Desktop, Developer, iOS, Linux, Mac, TeamsAndSurfaceDevices, Web"
+    }
+  ],
+  "EndDateTime": "2025-11-01T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1162967",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-09-30T23:22:41.133Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-09-30T23:22:33Z",
+  "Tags": [
+    "New feature",
+    "User impact",
+    "Admin impact"
+  ],
+  "Title": "Microsoft Copilot (Microsoft 365): Users with shared mailbox access can use Copilot for email",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
