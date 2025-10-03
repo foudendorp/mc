@@ -1,44 +1,5 @@
 [
   {
-    "ActionRequiredByDateTime": "2025-11-01T07:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated October 2, 2025: This feature update has already rolled out to the Production environment — the original message was intended for a different audience. We apologize for any inconvenience.</p><p><b><b>Introduction</b></b></p><p>We will soon introduce a new limit on dynamic distribution groups (DDGs) in <i>Microsoft Exchange Online</i>. Each organization will be limited to a maximum of 3,000 DDGs. After this limit is reached, admins will need to remove existing DDGs before creating new ones.&nbsp;</p><p><b><b>When this will happen:</b></b></p><p>&nbsp;This feature update has already rolled out to the Production environment.</p><p><b><b>How this will affect your organization:</b>\n</b></p><p>If your organization has fewer than 3,000 DDGs, this change will not impact you. However, after your organization reaches this limit, you will not be able to create new DDGs until some existing DDGs are removed.\n</p><p>This change will be<b> on by default</b> and cannot be turned off by admins.</p><p><b><b>What you need to do to prepare:</b>\n</b></p><ul><li>The enforcement of the DDG limit will happen automatically by the specified date with no admin action required before the rollout. </li><li>You may want to notify your admins about this change and update any relevant documentation.\n</li><li>We recommend reviewing the usage of Dynamic Distribution Groups (DDGs) in your organization and removing any DDGs that are no longer needed. </li><li>You can use the Dynamic distribution groups report in the<i> Exchange admin center (EAC) </i>to see the number of DDGs in your organization and insights into their usage. </li><li>To access this report, go to the <b>EAC &gt; Reports &gt; Mail flow &gt; Dynamic distribution group report</b>. </li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-dynamic-distribution-groups-report\" target=\"_blank\">Dynamic Distribution Groups report in the new EAC in Exchange Online | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#dynamic-distribution-group-limits\" target=\"_blank\">Exchange Online limits - Service Descriptions | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Exchange Online now limits each organization to a maximum of 3,000 dynamic distribution groups (DDGs). This change is active by default and cannot be disabled. Admins must remove existing DDGs before creating new ones once the limit is reached. No action is needed before rollout."
-      }
-    ],
-    "EndDateTime": "2025-10-03T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1163757",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-02T22:31:53.283Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T22:34:18Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Exchange Online: New limit for dynamic distribution groups (DDGs)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": null,
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -4563,7 +4524,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"503109\":[{\"RoadmapId\":503109,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-10-03T03:12:05.2773422Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":503109,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-10-03T03:12:05.2773424Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"503109\":[{\"RoadmapId\":503109,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-10-03T10:02:13.8522081Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":503109,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-10-03T10:02:13.8522085Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -4613,7 +4574,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500702\":[{\"RoadmapId\":500702,\"Platform\":\"Android\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-10-03T03:12:05.2773003Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500702,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-10-03T03:12:05.2773004Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500702\":[{\"RoadmapId\":500702,\"Platform\":\"Android\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-10-03T10:02:13.8522565Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500702,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-10-03T10:02:13.8522566Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -6972,45 +6933,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>After a detailed internal evaluation and the feedback which we have heard from the ecosystem, we no longer have plans to retire the field customers from lists and libraries</p><p>We are evaluating the retirement of the&nbsp;<a href=\"https://learn.microsoft.com/sharepoint/dev/spfx/extensions/get-started/building-simple-field-customizer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">SharePoint Framework (SPFx) Field Customizers</a>&nbsp;feature from SharePoint Lists and Document Libraries. In many cases, we recommend alternatives like using Column Formatters and disabling SPFx Field customizers. This would help with better performance with modern experience that is continuously updated.</p><p><b>When this will happen:</b></p><p>We are currently assessing the timelines and will update this post as plans progress. You can be assured that it will be communicated well in advance, with ample time to manage transition effectively.</p><p><b>How this affects your organization:</b></p><p>There is no impact to your organization as of now. In future depending on updated timelines, SharePoint Lists or Document Libraries with SPFx Field Customizers may get affected:</p><ul><li>Field Customizers will no longer render custom code.\n</li><li>Column data will display using the default rendering based on column type.\n</li><li>Other SPFx extensions, such as <i>Command Set Customizers</i> and <i>Application Customizers</i>, will continue to function as expected.\n</li></ul><p>We recommend transitioning to <i><a href=\"https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting\" target=\"_blank\">Column Formatting</a></i>&nbsp;for visual customizations where possible. For scenarios requiring third-party code execution, continue using&nbsp;<i><a href=\"https://learn.microsoft.com/sharepoint/dev/spfx/extensions/get-started/building-simple-cmdset-with-dialog-api\" target=\"_blank\">Command Set Customizers</a></i> or <i><a href=\"https://learn.microsoft.com/sharepoint/dev/spfx/extensions/get-started/build-a-hello-world-extension\" target=\"_blank\">Application Customizers</a></i>.\n</p><p><b>What you can do to prepare:</b></p><p>Review your current use of Field Customizers and begin planning your transition.</p><p>Additional information:</p><p><a href=\"https://support.microsoft.com/office/0eccc64e-4512-47df-9da0-d855be22fb0a\" target=\"_blank\">Support update for SharePoint framework field customizers in lists and document libraries</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "SharePoint no longer plans to retire Field Customizers but is evaluating it. Currently, no impact exists, but future changes may stop custom code rendering in lists and libraries. Transition to Column Formatting is recommended, with Command Set and Application Customizers still supported. Planning for transition is advised."
-      }
-    ],
-    "EndDateTime": "2025-10-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1094051",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-22T17:22:27.5Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-13T21:53:08Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Support Update for SharePoint Framework Field Customizers in Lists and Document Libraries",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated September 22, 2025: We have updated the content Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>Agent in Viva Engage communities are now available in Public Preview. Community admins can add agents to communities to enhance knowledge sharing by drafting answers to questions without best or verified answers based on community content.<br><br>Shortly after public preview begins, we'll be enhancing agents in communities with SharePoint grounding to improve the accuracy and relevance of AI-generated answers. This update allows the agent to use content from SharePoint sites that community members can access, helping ensure responses are contextually grounded and backed by trusted sources. Agents in communities will only draft answers with content that all community members have access to. You can set up your agent with before SharePoint grounding is available and add it later.</p><p><b><b>When this will happen:</b></b></p><ul>\n<li><b>Agents in communities Public Preview:</b> Begins September 18th, expected to be complete by late September</li><li><b>SharePoint Grounding Public Preview (Worldwide):</b> Begins late September 2025, expected to complete by early October 2025</li>\n<li><b>General Availability (Worldwide):</b> Begins late January 2026, expected to complete by late February 2026</li>\n</ul>\n\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b> Viva Engage community admins with Microsoft 365 Copilot licenses; Global and Engage admins managing Viva Engage networks</li>\n<li><b>What will happen:</b></li>\n<ul>\n<li><b>During Public Preview:</b></li>\n<ul>\n<li>Admins can opt their network into the preview via the <i>Engage admin center: Engage</i>&nbsp;admin center &gt; Tenant Settings &gt; Enable Community Agent Public Preview.</li></ul></ul></ul><p></p><ul></ul>Once enabled, admins can add agents to any community they manage.<p><i>Figure i. Add agent to community​</i></p><p></p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c90ccffc-5ca8-456f-bcdd-4b47e6a330f2\" style=\"width: 400px;\" alt=\"user settings\"><p></p><p></p><p>The agent will proactively draft answers to unanswered questions using past conversations.</p><p>By default, the agent posts answers <i>automatically</i>.</p><p>Admins can configure whether the agent posts answers automatically or only after approval.</p><p><i>Figure ii. Configure the agent to require answer review before posting​</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ce207aa0-35f2-4c9d-8d75-5df42ee13b8b\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>If Require review is enabled, admins and designated experts will be notified when the agent drafts an answer. They can approve, edit, or dismiss the response.</p><p><i>Figure iii. Community admins and experts can review agent suggestions​</i></p><p>\n<img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e641e3d6-9fff-4a4e-ac28-07adc0509e00\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><b>Coming soon (General Availability):</b></p><ul></ul><p></p><p>The agent will only use content that all community members can access.</p><p>Admins must be owners of the SharePoint sites they wish to configure.</p><p>Admins can add additional SharePoint sites to expand the agent’s grounding knowledge.</p><p>The agent will be grounded by default on the community’s SharePoint site.</p><p>All Microsoft 365 Copilot licensed users will have access to the <i>Community Agent</i> by default.</p><p>The <i>Community Agent Public Preview</i> toggle will be retired.</p>\n\n<p></p><b><b>What you can do to prepare:</b></b><p></p>\n<ul>\n<li>If participating in preview:</li>\n<li>Opt your network into the preview via the <i>Engage admin center</i> \n</li><li>Communicate this change to helpdesk staff.&nbsp;</li>\n<li>Update internal documentation that references <i>Viva Engage Community Agent</i> behavior or setup.</li>\n<li>No action is required at GA; the feature will be <b style=\"\">on by default</b>.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/viva/engage/ai-technology-with-viva-engage/agents-community-network-deployment-config\" target=\"_blank\">Set up and manage agents in Viva Engage communities | Microsoft Learn</a></p>\n\n<p><b><b>Compliance considerations:</b></b></p><table border=\"1\">\n<tbody><tr><th>Consideration</th><th>Explanation</th></tr>\n<tr><td>Uses customer data</td><td>The agent accesses SharePoint content to generate answers. Only content accessible to all community members is used.</td></tr>\n<tr><td>Introduces AI/ML agent capabilities</td><td>The agent uses generative AI to draft responses based on SharePoint content.</td></tr>\n<tr><td>Admin control available</td><td>(Optional) Community admins can configure which SharePoint sites are used for grounding. Admin must be site owner.</td></tr>\n<tr><td>User interaction with generative AI</td><td>End users receive AI-generated answers grounded in community conversations and SharePoint content</td></tr>\n<tr><td>Can be controlled through Entra ID group membership</td><td>Admin access and site ownership can be managed via Entra ID group membership.</td></tr>\n</tbody></table><br><p></p><p></p>",
       "ContentType": "html"
     },
@@ -8346,54 +8268,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Viva Engage: Modernized Private Content Mode",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 17, 2025: After further review, this has been delayed to a later date. We apologize for any inconvenience.</p><p>Introducing a new feature that will bring interactive agents into Microsoft Teams meetings and 1-on-1 calls. Users will be able to engage with agents as a group or privately, with zero-state prompts and history support for seamless interactions. Before this rollout, only agents built on Microsoft Copilot can support sessions, which means they can remember the context of previous interactions in the same session, for more relevant responses. Custom agents do not yet have session support. </p><p>After this rollout, all agents from Microsoft 365 Copilot Chat and Microsoft Copilot Studio will be available for users in their meetings and calls. This feature will allow developers to invite colleagues to give feedback and securely test agents, without affecting sensitive data or production channels.\n</p><p>A Microsoft 365 Copilot license or a Microsoft 365 license is required to use this feature. As part of the Microsoft 365 SKUs, if users have access to declarative agents in Microsoft Copilot Chat, agents are available in their meetings and calls. No license is required for custom engine agents.\n</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=490564\" target=\"_blank\">490564</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will communicate via Message center when we are ready to proceed.&nbsp;</p><p>General Availability (Worldwide, GCCH): We will communicate via Message center when we are ready to proceed.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout, users will be able to discover and acquire new agents (and view installed ones) from the existing apps pane in meetings by using @mentions or the + button in the compose box in chat.\n</p><p>Benefits:</p><ul><li>Easy access and interaction with agents during meetings and calls\n</li><li>Seamless interactions with zero-state prompts and history support\n</li><li>Private and group-scoped agents for personal assistance and for improved group collaboration</li></ul><p>This feature will be available by default. No action is required to enable this feature for meetings and 1-on-1 calls.\n</p><p>Users will be able to privately interact with an agent in their meetings and calls. In this screenshot, a user begins a private chat with the Contoso agent to ask questions related to the context of the meeting:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e6296ff6-01b1-4a13-90aa-78515bf166da\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>Users can choose to escalate a private agent interaction to the group. In this screenshot, a user has added a private agent. The user can then share the agent to the group, adding it to the meeting chat for everyone to view and interact with the agent:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/70f9fa35-2b20-4337-ae0c-5fd894442535\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update your relevant documentation.</p><p>To prepare for rollout, admins can pre-pin meeting agents for their tenants, enabling users to easily discover and use the most relevant agents for their work.</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365-copilot/extensibility/agents-overview\" target=\"_blank\">Agents for Microsoft 365 Copilot | Microsoft Learn</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "490564"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will introduce interactive agents in meetings and calls, allowing private and group interactions with session-supported agents built on Microsoft Copilot. The rollout is delayed, requires Microsoft 365 licenses, and will be automatic with no admin action needed. Admins can pre-pin agents for easier access."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2025-10-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1087634",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-17T17:50:46.34Z",
-    "Services": [
-      "Microsoft Teams",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-03T22:52:51Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Interactive agents for meetings and calls",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -11849,7 +11723,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833214Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833216Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833217Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833212Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833218Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833212Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833214Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833216Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833217Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833218Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14242,7 +14116,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"498895\":[{\"RoadmapId\":498895,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595831Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595832Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595833Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":498895,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595835Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595836Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"498895\":[{\"RoadmapId\":498895,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595833Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":498895,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595835Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595831Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595832Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595836Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -22624,45 +22498,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated July 23, 2025: We have updated the timeline. Thank you for your patience.</p><p>To strengthen security and align with customer feedback, Microsoft Fabric is updating how Workspace Identity permissions are handled. This change removes default Contributor access from Workspace Identities, reducing the risk of unintended access or misuse. This change will be on by default.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out late July 2025 (previously mid-July) and expect to complete by early August&nbsp;2025.</p><p><b>How this will affect your organization:</b></p><p>After this rollout, new Workspace Identities will no longer be granted default Contributor permissions.\n</p><p>We will also remove the default Contributor access from existing Workspace Identities.\n</p><p><b>Important:</b> Modifying the application associated with a Workspace Identity is not supported and may cause the identity to stop functioning.\n</p><p>You can still manually assign Workspace Identity service principals to any workspace role (such as Contributor, Member) using role-based access control (RBAC). However, be aware that anyone with access to the identity can assume it.</p><p>To access this change:\n</p><ol><li>Navigate to the Fabric Workspace where you want to add RBAC role.\n</li><li>Select <i>Manage Access</i>.\n</li><li>Select <i>Add people or groups</i>.\n</li><li>Enter the name of the Workspace identity (same as Workspace Name).\n</li><li>Assign roles as appropriate.\n</li></ol><p><b>NOTE:</b> After this rollout, admins can still add Workspace identity service principles to any workspace RBAC role if needed. Consider the implications if you plan on doing so, as any individual given access to the identity—example through workspace roles such as member or contributor—is allowed to assume the identity. Learn more: <a href=\"https://learn.microsoft.com/fabric/security/workspace-identity\" target=\"_blank\">Workspace identity - Microsoft Fabric | Microsoft Learn</a>\n</p><p><b>What you need to do to prepare:</b></p><p> This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current Workspace Identity configurations and evaluate whether any existing workflows rely on default Contributor access. You may want to notify your admins and/or users about this change and update internal documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Fabric will remove default Contributor access from Workspace Identities starting late July 2025 to enhance security. Existing and new Workspace Identities will no longer have this access by default. Admins can manually assign roles via RBAC. No action is required before rollout, but review current configurations."
-      }
-    ],
-    "EndDateTime": "2025-10-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1102778",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-07-23T21:34:25.46Z",
-    "Services": [
-      "Power BI"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-25T00:11:35Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Fabric: Removing default contributor access for Workspace Identity",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated July 23, 2025: We have updated the timeline. Thank you for your patience.</p><p>We're updating how Microsoft Edge handles external links for enterprise users. Before this rollout, Edge opens external links using the last used profile. After this rollout, for users signed in with Microsoft Entra ID, Edge will default to the Primary work profile to open links. The Primary profile is typically the most secure and appropriate profile for work-related content. This change will be on by default.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494835\" target=\"_blank\">494835</a>.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out late August 2025 (previously late June) and expect to complete by mid-September 2025 (previously mid-July).\n</p><p><b>How this will affect your organization:</b>\n</p><p>This change affects the user experience for how external links are opened in Microsoft Edge:\n</p><ul><li>Windows users: The Primary work profile is the one signed in with the Entra ID account used to join the device. If this profile exists, Edge will use it by default for external links.\n</li><li>macOS and Linux users: If only one work profile signed in with an Entra ID account is detected, it will be used as the Primary work profile. If multiple Entra ID profiles are present, the setting will not apply.</li></ul><p>Admins can manage this behavior using the <code>EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled</code> policy:\n</p><ul><li>Enabled or Not Configured: Edge will use the Primary work profile by default.\n</li><li>Disabled: Edge reverts to using the last used profile.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/edgeopenexternallinkswithprimaryworkprofileenabled\" target=\"_blank\">Microsoft Edge Browser Policy Documentation EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled | Microsoft Learn</a> </p><p><i>Before this rollout:</i></p><p>Users see <i>Last used (default)</i>&nbsp;selected by default in Edge <i>Settings </i>at <a href=\"edge://settings/profiles/multiProfileSettings\" target=\"_blank\">edge://settings/profiles/multiProfileSettings</a>\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/fc61eb35-247b-4662-9493-c602d1ae899b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><i>After this rollout:</i></p><p>Users will see <i>(default) Work</i>&nbsp;selected by default in Edge <i>Settings </i>at <a href=\"edge://settings/profiles/multiProfileSettings\" target=\"_blank\">edge://settings/profiles/multiProfileSettings</a></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5fc9a3ac-f986-4dc0-9d28-a0602fc6472f\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.</p><p></p>",
       "ContentType": "html"
     },
@@ -24765,43 +24600,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Note:</b> If your organization uses Microsoft OneNote for Windows desktop, please read.</p><p>Effective July 28, 2025, we will retire the ability to export a OneNote for Windows desktop section or page as a Word 97-2003 document (.doc). No action on your part is required on your part for this retirement.\n</p><p>After this retirement, users will no longer see the Word 97-2003 Document (*.doc) option under the <i>File &gt; Export &gt; Page/Section</i> menu in OneNote for Windows. This change may impact workflows that rely on exporting content in the legacy .doc format.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a7cf8d83-819c-4675-b625-7a89f480b2af\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>No admin action is required. However, users should begin using modern export formats such as Word Document (*.docx), which remain available.</p><p>Please inform users who rely on the .doc export option to transition to supported format and update documentation or training materials that reference the retired export option.</p><p>Thank you for your continued partnership. If you need additional support, contact your Microsoft support team or use Help &gt; Support in OneNote for Windows.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Effective July 28, 2025, Microsoft OneNote for Windows will retire the ability to export sections or pages as Word 97-2003 documents (.doc). Users should transition to modern export formats like .docx. No admin action is required, but users should update workflows and documentation accordingly."
-      }
-    ],
-    "EndDateTime": "2025-10-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1104312",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-06-26T23:17:07.213Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-26T23:16:53Z",
-    "Tags": [
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft OneNote for Windows: Export to Word 97-2003 format will retire",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>We’ve made several usability improvements to enhance live captions and live transcripts in Microsoft Teams — making meetings more intuitive, less distracting, and more privacy-conscious.\n</p><p>First, live captions will be scrollable, allowing users to review the meeting conversation without interrupting the live view. To help protect sensitive content and support compliance with data handling policies, copying text from live captions is now disabled by default. This ensures captions remain a real-time experience, reducing the risk of content being copied and shared out of context.\n</p><p>Second, the <i>Live transcript</i> panel will no longer open automatically for the user who starts recording, which also triggers transcription in the background. Before this rollout, this panel only auto-opens for the person who initiates recording or transcription — not for other participants — but this can be distracting and isn’t always relevant to the user's intent. After this rollout, the <i>Live transcript</i> panel will remain closed unless manually opened or the user explicitly starts transcription. This gives users more control over their meeting layout and helps avoid unnecessary screen changes during important discussions.\n</p><p>Third, when transcription is enabled, users who attempt to open the<i> Live transcript</i> panel will now see a banner suggesting they switch to live captions instead. This helps guide users to the most appropriate feature for following the conversation in real time, improving comprehension and reducing confusion.</p><p>\n</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web. </p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=495454\" target=\"_blank\">495454</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out early July 2025 and expect to complete by mid-July 2025.</p><p>General Availability (Worldwide, GCC): We will begin rolling out mid-July 2025 and expect to complete by late July 2025.</p><p>General Availability (GCC High): We will begin rolling out late July 2025 and expect to complete by early August 2025.</p><p>General Availability (DoD): We will begin rolling out early August 2025 and expect to complete by mid-August 2025.</p><p><b>How this will affect your organization:</b></p><p>These updates improve usability, privacy, and accessibility in Teams meetings. Users gain more flexibility with captions and fewer disruptions from auto-opening panels. Disabling caption copying supports compliance by minimizing accidental data sharing. The in-product banner helps guide users to the best experience for real-time engagement.</p><p>The message \"You can't copy the selected text\" will appear if a user tries to copy live captions after this rollout:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a4eb0fdc-bfe4-40be-9b21-04d20340df0f\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>No admin action is required. This feature has no admin controls. These changes will roll out automatically and will be available by default. To support awareness and adoption:\n</p><ul><li>Inform users about scrollable captions and changes to the <i>Live transcript</i> panel.\n</li><li>Update training materials, if applicable.\n</li><li>If your organization previously relied on copying captions, note that live transcripts remain the official source of meeting content.</li></ul><p><i>Learn more</i></p><ul><li><a href=\"https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260\" target=\"_blank\">Use live captions in Microsoft Teams meetings - Microsoft Support</a> (will be updated before rollout)</li><li><a href=\"https://learn.microsoft.com/microsoftteams/manage-chat-sensitive-meetings\" target=\"_blank\">Manage chat for sensitive Teams meetings - Microsoft Teams | Microsoft Learn</a> (will be updated to remove live caption information)</li></ul><p>\n</p><p><b>Compliance considerations:</b>\n</p><p>These changes do not alter how customer data is stored or processed. However, disabling caption copying by default helps protect sensitive content during meetings and supports compliance with internal policies. Live transcripts are unaffected and remain accessible via standard Microsoft 365 compliance tools (such as Microsoft Purview eDiscovery, Microsoft Purview Data Loss Prevention, and DLP retention).</p>",
       "ContentType": "html"
     },
@@ -26428,52 +26226,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>This message is associated with MC1060846 <i>(Highlight) New Service Plan: People Skills - Advanced</i> (published April 23, 2025).&nbsp;</p><p>People Skills is an intelligent data layer that infers skills from user activity mapped to a customizable built-in skill taxonomy, enhancing Copilot Chat, Microsoft 365, and Microsoft Viva experiences with contextualized information about the people in your organization. Read more: <a href=\"https://techcommunity.microsoft.com/blog/microsoft365copilotblog/announcing-people-skills-general-availability-and-new-skills-agent/4406364\" target=\"_blank\">Announcing People Skills general availability and new Skills agent | Microsoft Community Hub</a></p><p>Customers with Microsoft 365 Copilot and the “Microsoft 365 Copilot in Productivity Apps service plan,” excluding faculty and student SKUs, will see People Skills available to set up in Microsoft 365 admin center by mid-June 2025.</p><p>This message applies to Microsoft 365 Copilot for Windows desktop and for the web as well as the other Windows desktop and web platforms where People Skills appears in profile cards, People Companion, and other Microsoft 365 apps.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=485726\" target=\"_blank\">485726</a>.</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): Available now.</p><p><b>How this will affect your organization:</b></p><p>After this rollout, the People Skills experience will include&nbsp;these capabilities:</p><ul><li>An AI-generated, personalized skill profile for Microsoft 365 Copilot users to help make it easy to share skills in the organization and keep skill data fresh\n</li><li>A built-in skills library, ready to use out-of-the-box or customize as needed \n</li><li>Skills-driven experiences in Microsoft 365 Copilot, Microsoft 365 profile card and profile editor, Org Explorer, and People Companion.\n</li><li>Skills-based learning experience in Viva Learning\n</li></ul><p>Starting mid-June 2025, People Skills will also include these capabilities:</p><ul><li>Skills landscape reports for leaders and analysts, accessible from the advanced insights app in Viva Insights.\n</li><li>Skills agent for employees and leaders: The Skills agent enables employees to easily find the right colleague for a given need, understand colleagues’ skillsets, and make informed decisions about skill development. Leaders can use the Skills agent to access skills analytics for their organization to support staffing and upskilling initiatives. The agent will be available in the Microsoft 365 Copilot chat Agent Store.</li></ul><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. People Skills data will only be shown in applicable Microsoft 365 surfaces and Microsoft 365 Copilot after you have set it up in the Microsoft 365 admin center. You may want to notify your users about this change and update your relevant documentation.</p><p>We recommend the \"quick setup” of People Skills, which includes the out-of-the-box skills library of over 16,000 skills. Organizations also have the option to curate their own library by importing custom skills. View setup documentation: <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-overview\" target=\"_blank\">Overview of People Skills | Microsoft Learn</a></p><ol><li>From the Copilot page in the <a href=\"https://admin.microsoft.com/adminportal/home\" target=\"_blank\">Microsoft 365 admin center</a>, select <i>People Skills in Microsoft 365 Copilot.</i></li><li>You’ll be redirected to the page in the Microsoft 365 admin center to complete setup.</li><li>Select <i>Begin quick setup.</i></li></ol><p><i>Notes</i></p><ul><li>You may add or remove skills later after setting up People Skills.</li><li>If your organization has a dependency on the skills field in User Profile Application (UPA)\\SharePoint profile, those skills will no longer appear on the Microsoft 365 profile card or profile editor after you deploy People Skills. The skills will remain accessible and will be available in other experiences. Learn more: <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-overview\" target=\"_blank\">Overview of People Skills | Microsoft Learn</a></li><li>A few days after your organization launches People Skills, users will see a personalized list of skills on their profile cards. Both skills that users confirm and those provided by AI will be visible by default on their profile card. Skills added by AI will be identified as skills a user might have.*\n</li></ul><p><i>Privacy and visibility controls:</i> Both admins and users have control over their skills inference setting and skill profile visibility. You can use our visibility and sharing controls to selectively pilot People Skills to small groups in your organization and set default AI inferencing settings to comply with Works Council or business requirements. Learn more: <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-sharing-inferencing-controls\" target=\"_blank\">Manage privacy and sharing controls in People Skills | Microsoft Learn</a></p><p><i>Adoption guides:</i>&nbsp;Adoption resources for People Skills are available on the <a href=\"https://adoption.microsoft.com/ai-agents/people-skills/\" target=\"_blank\">People Skills adoption site</a>.</p><p><i>*Known issues:&nbsp;</i>Skills added by AI will be shown in a user's own Skills profile but will not be visible to others in Copilot searches or other Microsoft 365 experiences. We expect this issue to be resolved and for AI-inferred skills to appear along with confirmed skills by mid-June 2025.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "485726"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot: People Skills is now generally available, enhancing user experience with AI-generated skill profiles, a customizable skills library, and skills-driven features across Microsoft 365 apps. The rollout requires no admin action and will be completed by mid-June 2025. Organizations can notify users and update documentation accordingly."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Web"
-      }
-    ],
-    "EndDateTime": "2025-10-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1088724",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-06-05T23:39:04.407Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-05T23:37:54Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: People Skills is generally available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated June 5, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Coming soon for Microsoft Defender for Cloud Apps:</p><ul><li>A change to alerts generated by events originating from Defender for Cloud Apps that are generated in the Microsoft Defender XDR detection engine</li></ul><p>This rollout aims to provide more accurate and precise information on the origin of these alerts, enabling customers to identify, manage, and respond to alerts more effectively. \n</p><p><b>When this will happen:</b>\n</p><p>General Availability (GCC, GCC High, DoD, Production, DoD): We will begin rolling out early March 2025 and expect to complete by late June 2025 (previously late May).\n</p><p><b>How this will affect your organization:</b>\n</p><p>We will change the field indicating the alert source in the alert data itself.<b> Note: </b>The rollout will only affect new alerts generated after the rollout and will not alter existing alerts.\n</p><p>This rollout will be reflected in all experiences where alerts are represented, including <i>Incidents &amp; alerts</i> queues in the XDR portal, <i>Advanced hunting</i>, and the correlating APIs and SIEM systems.\n</p><p>In the Defender XDR portal, the change will be reflected in the Service sources field, replacing the current Microsoft Defender XDR values with the new value Defender for Cloud Apps. The detection sources will remain unchanged and will continue to indicate the detections are generated in the XDR detection engine.</p><p>The alert ID prepended characters of some of the alerts will also be changed to comply with the Defender XDR mapping.\n</p><p>Learn more about the different alert sources in Defender XDR in the <i>Alert sources</i> section of <a href=\"https://learn.microsoft.com/defender-xdr/investigate-alerts?tabs=settings#alert-sources\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Investigate alerts in Microsoft Defender XDR - Microsoft Defender XDR | Microsoft Learn</a></p><p>In the Microsoft Graph API, Microsoft Defender for Endpoint streaming API, and the Microsoft Azure Events Hub, the change will be reflected in the alert resource type under the property <code>serviceSource</code>, and the previous values of <code>microsoft365Defender</code>&nbsp;will change to <code>microsoftDefenderForCloudApps</code>.\n</p><p>Learn more about the Graph API alert resource: <a href=\"https://learn.microsoft.com/graph/api/resources/security-alert?view=graph-rest-1.0\" target=\"_blank\">alert resource type - Microsoft Graph v1.0 | Microsoft Learn</a>\n</p><p>Learn more about Streaming API: <a href=\"https://learn.microsoft.com/defender-xdr/streaming-api\" target=\"_blank\">Stream Microsoft Defender XDR events - Microsoft Defender XDR | Microsoft Learn</a>\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout.\n</p><p>Administrators should review and update any custom alert rules, playbooks, or automations involving the alerts mentioned above (Service sources = Microsoft Defender XDR and Detection sources = Defender XDR, to ensure they reflect the new value. You may also want to notify your users about this change and update any relevant documentation.\n</p><p>As a reminder, detection sources will remain unchanged, so if you only filter on detection sources, everything should continue to function as normal.</p>",
       "ContentType": "html"
     },
@@ -27112,45 +26864,6 @@
       "Admin impact"
     ],
     "Title": "Take action: Disable Secure Time Seeding (STS) in Windows Server 2016 and later",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated April 29, 2025: We have updated the title, timeline, and content. Thank you for your patience.</p><p>Available now: The new <code>SpeakerAttributionBYOD</code> setting is now available in <code>csTeamsAIPolicy</code> for Microsoft Teams Premium users. This gives IT admins more control over speaker attribution when users join meetings from personal (BYOD) devices. Admins can now configure this setting using PowerShell. If no action is taken, it will be enabled by default starting in early June 2025.</p><p><i style=\"\">NOTE: If you are a Microsoft Teams customer (not a Microsoft Teams Premium customer), we are sending this message to you because this new setting will take effect automatically for any user assigned a Microsoft Teams Premium or Microsoft 365 Copilot license—even if your organization previously didn’t have these licenses. Therefore, we recommend all organizations review this message, regardless of your organization’s current license status.</i></p><p>This setting allows organizations to manage how speaker attribution is used in meetings where users join via personal devices, helping enhance the in-meeting and post-meeting experience with features like speaker labels (Speaker 1, Speaker 2, etc.) and Microsoft 365 Copilot in shared spaces. To access Copilot features, a Microsoft 365 Copilot license is required.\n</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=488301\" target=\"_blank\">488301</a>.\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide, GCC): We will begin rolling out mid-July 2025 and expect to complete by late July 2025.&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Previously, speaker attribution was managed using the <code>RoomAttributeUserOverride</code>parameter in <code>CsTeamsMeetingPolicy</code>. Going forward, <code>SpeakerAttributionBYOD</code> in <code>csTeamsAIPolicy</code> will determine whether attribution is used when users join from BYOD scenarios.</p><p><b>What you need to do to prepare:</b></p><p>The new setting is available now, and admins can begin configuring it using PowerShell based on their organization's preferences.\n</p><p>If no action is taken, the setting will be enabled by default during the rollout in June 2025.\n</p><p>If you prefer to modify the setting before the rollout begins, you can do so at any time starting now.</p><p><i>Learn more</i></p><ul><li><a href=\"https://learn.microsoft.com/powershell/module/teams/set-csteamsaipolicy?view=teams-ps\" target=\"_blank\">Set-CsTeamsAIPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/powershell/module/teams/get-csteamsaipolicy?view=teams-ps\" target=\"_blank\">Get-CsTeamsAIPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/microsoftteams/rooms/voice-and-face-recognition\" target=\"_blank\">Overview of voice and face enrollment - Microsoft Teams | Microsoft Learn</a></li></ul><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "The new `SpeakerAttributionBYOD` setting in `csTeamsAIPolicy` for Microsoft Teams Premium users is now available, enabling IT admins to control speaker attribution for users joining from personal devices. It will be enabled by default starting June 2025. Admins can configure this setting using PowerShell."
-      }
-    ],
-    "EndDateTime": "2025-10-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1052162",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-05-29T20:46:51.48Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-10T01:44:41Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Now available - new policy setting for Speaker Attribution in BYOD scenarios - Enabled ON by default",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -29926,45 +29639,6 @@
       "Admin impact"
     ],
     "Title": "The March 2025 Windows non-security preview update is now available for Windows 11, version 24H2",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>As communicated in MC948979 <i>Microsoft Viva Pulse experience will be included with Microsoft 365 Copilot subscription </i>(December 2024), Microsoft Viva Pulse authors can use new templates specific to\nMicrosoft 365 Copilot Readiness, Adoption, and Impact to measure employee\nsentiment around their organization's Copilot adoption. These templates will be\navailable as part of your Microsoft 365 Copilot subscription as well. Based on the customer feedback, this rollout introduces the ability for admins to configure who in their tenant will have access to this feature.</p><p>A Microsoft 365 Copilot license is required to use this feature.\n</p><p>This\nmessage applies to Pulse for Windows desktop, Pulse for Mac desktop, Pulse for the web, and Pulse for iOS/Android.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We began rolling out late March 2025 and expect to complete by mid-April 2025.\n</p><p><b>How this will affect your organization:</b></p><p>Admins can create a policy in Microsoft 365 admin center &gt; <i>Viva &gt; Feature Access management &gt; </i>Select the<i> Viva Pulse</i> tab:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5fb92488-38f1-444d-a66b-dfd6656e7156\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>Tenant\n     admins can review the new templates and questions through the Viva Pulse\n     admin <i>Content management</i> feature and modify or restrict\n     access to the templates and questions as needed.\n</p><p>This change will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p><i>Learn more</i>\n</p><p></p><ul>\n<li><a href=\"https://learn.microsoft.com/viva/pulse/get-started/licensing-requirements\">Licensing\n     requirements | Microsoft Learn</a></li>\n<li><a href=\"https://learn.microsoft.com/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience\">Set\n     up the in-app Viva Pulse experience | Microsoft Learn</a></li>\n<li><a href=\"https://learn.microsoft.com/viva/pulse/setup-admin-access/manage-available-surveys-and-questions\">Manage\n     available surveys and questions | Microsoft Learn</a></li>\n<li><a href=\"https://support.microsoft.com/topic/create-a-pulse-to-get-feedback-from-your-team-817d3eba-3ce7-4079-80cc-ae8ae96fa61e\">Create\n     a Pulse to get feedback from your team - Microsoft Support/a&gt;</a></li></ul><p></p><a href=\"https://support.microsoft.com/topic/create-a-pulse-to-get-feedback-from-your-team-817d3eba-3ce7-4079-80cc-ae8ae96fa61e\">\n</a><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Admins can configure access to new Microsoft Viva Pulse templates for Microsoft 365 Copilot licensed users. This feature, available from late March to mid-April 2025, allows admins to manage template access and review content. No action is required before the rollout, but reviewing configurations and notifying users is recommended."
-      }
-    ],
-    "EndDateTime": "2025-10-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1041957",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-03-26T23:34:35.047Z",
-    "Services": [
-      "Microsoft Viva",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-03-26T23:32:57Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva Pulse: Admins can configure access to Pulse templates for Microsoft 365 Copilot licensed users",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
