@@ -4,6 +4,68 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "We are introducing the Draft with Copilot feature for Copilot Studio. This feature will help write or rewrite your prompts using Copilot to produce better outcomes. This feature will be available on November 3, 2025.<br><br> \n<b>How does this affect me?</b><br> \nWhen authoring a prompt, the prompt builder will allow you to trigger Copilot to assist in turning your intent into a more effective prompt that follows best practices and produces better outcomes. Additionally, Copilot can also generate sample test data to assist in running your validations quicker.<br><br> \n<b>What action do I need to take?</b><br> \nThis message is for awareness and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-04T19:04:57Z",
+    "HasAttachments": false,
+    "Id": "MC1165633",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-04T19:06:03.353Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-04T19:04:57Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Microsoft Copilot Studio – Draft with Copilot",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing new timeout rules logic for <b>Representative Non-Response Time</b> and open state conversations in Dynamics 365 Customer Service. This feature will reach general availability on November 3, 2025.<br><br>\n<b>How does this affect me?</b><br>\nWe are updating the logic for the <b>Representative Non-Response Time</b> event to encompass a more holistic approach. The following describes the new logic for the <b>Representative Non-Response Time</b> trigger event:<br><br>\nOn initial contact between the service representative and the customer, if the customer has sent a message and started the chat, the system will calculate the time that the customer has been waiting after the representative is actively on the conversation:<ol type=\"a\">\n    <li>Once Representative Notification accepted, auto-assign Notification timeout, or Force Assign via Supervisor occurs, then:<ol type=\"i\"><li><b>Representative Non-Response Time</b> = <i>Current Time - Representative assignment time</i></li></ol></li><br>\n    <li>Once there is rapport (back and forth messages), the Representative Mid-conversation Logic will be used:<ol type=\"i\"><li><b>Representative Non-Response Time</b> = <i>Current Time - Last customer message</i></li>\n        <li>The <i>Last customer message</i> is determined by the duration the service representative has not responded to the customer's most recent message.</li></ol></li>\n</ol>\n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-04T15:09:23Z",
+    "HasAttachments": false,
+    "Id": "MC1165529",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-04T15:12:01.69Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-04T15:09:23Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Service - New timeout rules logic for Representative Non-Response time and open state conversation",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction:</b></b></p><p>Microsoft is enhancing Copilot (Microsoft 365) with <b>Context IQ (CIQ)</b>, a set of AI capabilities that allows users to search for, select, and insert relevant enterprise or personal data directly into their prompts or conversations. When writing Copilot prompts in the chat box, users will be able to use Context IQ to search for and select Teams channels. This helps ground prompts in contextually relevant data, improving the accuracy and usefulness of Copilot responses.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=429645\" target=\"_blank\">429645</a>.</p><p><b><b>When this will happen:</b></b></p><p>General Availability (Worldwide): Rollout begins mid-October 2025 and is expected to complete by late October 2025.</p><p><b><b>How this affects your organization:</b></b></p><p>Who is affected: All users of Microsoft Copilot (Microsoft 365) with access to Teams channels.</p><p>What will happen:</p><ul><li>Users will begin seeing their recent Teams channels in <i>Context IQ</i> (only the channels they have access to) when writing Copilot prompts:&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ba90de78-8070-4f67-913f-81221afeab6d/ac31d2cc5b8c770bc0b30aac0cd298cbd4a510ed.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>This feature is <b>enabled by default</b>.</li><li>Only channels the user has access to will be surfaced.</li><li>No impact to tenant admins or existing configurations.</li></ul><p><b><b>What you can do to prepare:</b></b></p><p>No admin action is required before or after rollout. However, you may want to:</p><ul><li>Notify users about this change.</li><li>Update internal documentation if you reference Copilot or Context IQ capabilities</li></ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\" target=\"_blank\">Using Context IQ to refer to specific files, people, and more in Microsoft 365 Copilot and Copilot Chat | Microsoft Support</a></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -10571,7 +10633,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -10792,7 +10854,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -13991,7 +14053,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007267Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007272Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007278Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007283Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007278Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007267Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007272Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007283Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14041,7 +14103,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007267Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007272Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007278Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007283Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007278Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007267Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007272Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-03-17T13:06:25.4007283Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -22924,7 +22986,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6597961Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6597962Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6597963Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"328282\":[{\"RoadmapId\":328282,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6597962Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6597961Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":328282,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6597963Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -31643,37 +31705,6 @@
       "Admin impact"
     ],
     "Title": "The October 2024 Windows security update is now available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>Windows updates dated April 9, 2024, or later add new behaviors that start the process of addressing a security risk in the <a href=\"https://learn.microsoft.com/openspecs/windows_protocols/ms-apds/82b7b7c6-413d-4d66-b6b7-4a9224549782\" rel=\"noopener noreferrer\" target=\"_blank\">Kerberos PAC Validation Protocol</a>. These improvements are deployed in three phases (see below). The timeline of the second phase, <b>Enforced by Default</b>, has changed. This phase will occur in January 2025. For full guidance, see <a href=\"https://support.microsoft.com/help/5037754\" rel=\"noopener noreferrer\" target=\"_blank\">KB5037754</a>.</div><div><br></div><div><br></div><div><b>When will this happen:</b>&nbsp;</div><ul><li>April 9, 2024: The initial deployment phase started with the release of the April 2024 security update. This update added new secure behavior that prevents the elevation of privilege risks.</li><li>January 2025: The <b>Enforced by Default</b> phase starts. In this phase, Windows domain controllers (DC) and clients will move to <b>Enforced </b>mode. This mode will enforce the new secure behavior by default. Note that during this phase, you can override the&nbsp;<b>Enforced by Default</b>&nbsp;settings and revert to&nbsp;<b>Compatibility</b>&nbsp;mode.</li><li>April 2025: <b>Enforcement</b> phase begins. In this phase, there is no option to revert from the new secure behavior.</li></ul><div><br></div><div><b>How this will affect your organization:</b>&nbsp;</div><div>To mitigate the risks described in&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26248\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-26248</a>&nbsp;and&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29056\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-29056</a>, you must update your entire Windows environment. This must include DCs and clients. Environments that are not up to date will not recognize this new request structure after the <b>Enforcement </b>phase begins. Because of this, security checks will fail.</div><div><br></div><div><b>What you need to do to prepare:</b>&nbsp;</div><ol><li><b>UPDATE:</b>&nbsp;Install the April 9, 2024, or later update on all Windows DCs and Windows clients.</li><li><b>MONITOR:</b>&nbsp;Keep track of audit events that are visible in&nbsp;<b>Compatibility</b>&nbsp;mode. These events will identify devices that are not up to date.</li><li><b>ENABLE:</b>&nbsp;Turn on <b>Enforcement</b>&nbsp;mode&nbsp;fully in your environment. When you do, it mitigates the risks described in&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26248\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-26248</a>&nbsp;and&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29056\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2024-29056</a>.</li></ol><div><br></div><div><b>Additional information:</b>&nbsp;</div><ul><li><a href=\"https://support.microsoft.com/help/5037754\" rel=\"noopener noreferrer\" target=\"_blank\">KB5037754: How to manage PAC Validation changes related to CVE-2024-26248 and CVE-2024-29056</a></li><li><a href=\"https://support.microsoft.com/help/5020805\" rel=\"noopener noreferrer\" target=\"_blank\">KB5020805: How to manage Kerberos protocol changes related to CVE-2022-37967</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-10-04T20:56:27.813Z",
-    "HasAttachments": false,
-    "Id": "MC904929",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2024-10-04T20:56:31.353Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-10-04T20:56:27.847Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Change to the Enforced by Default phase timeline for Kerberos signature validation risks",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
