@@ -1,0 +1,38 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p><b><b>Introduction:</b></b></p><p>We’re <b>refining how user activity is recorded during simulations</b> in <i>Microsoft Defender for Office 365’s Attack Simulation and Training -&nbsp;</i>a feature that enables admins to run realistic phishing simulations and assign targeted training to improve user awareness. This update improves consistency and clarity in simulation reporting, helping admins better understand user engagement with minimal impact to existing workflows.</p><p><b><b>When this will happen:</b></b></p><p><b>General Availability (Worldwide):</b>&nbsp; Rollout begins mid-November 2025 and completes by late November 2025.</p><p><b>General Availability (GCC, GCC High, DoD):&nbsp; </b>Rollout begins late November 2025 and completes by mid-December 2025.</p><p><b><b>How this affects your organization:</b></b></p><p>Who is affected: Admins managing Attack Simulation and Training in <i>Microsoft Defender for Office 365</i> across all environments (Worldwide, GCC, GCC High, DoD).</p><p>What will happen:</p><ul><li>User interaction signals (such as <i><b>compromise</b></i>,<i> <b>report</b></i>, <i><b>read</b></i>, <i><b>delete</b></i>, <i><b>reply</b></i>, <i><b>forward</b></i>, <i><b>out-of-office</b></i>, <i><b>attachment opened</b></i>) will be captured consistently until the simulation concludes.</li><li>Training-related events (such as <i><b>training completed</b></i> or <i><b>in progress</b></i>) will continue to be reflected in simulation reporting even after the simulation ends, up to the training due date.</li><li>Simulation data recording starts a few minutes after the simulation is launched and after users begin interacting with the simulation messages. There's no fixed start time. Events are still captured after the simulation ends.</li><li>No changes to simulation scheduling or training delivery. Existing admin policies and workflows remain unchanged.</li><li>No prerequisites are required for this update; it will apply automatically to all tenants using Attack Simulation and Training.</li><li>Any metrics or existing reports that were captured and stored before this change will continue to persist based on our standard retention period. This change will only impact tracking of user activity going forward (post-change).</li><li>There is no change to our <a href=\"https://learn.microsoft.com/defender-office-365/attack-simulation-training-faq?view=o365-worldwide#q-how-long-is-simulation-information-retained-can-i-delete-simulation-data\" target=\"_blank\">standard retention</a>&nbsp;policies.&nbsp;&nbsp;</li></ul><p>Example:</p><p>If a simulation ends on November 25, 2025, at 11:00 AM PST, user interaction signals after this time will not be included in the simulation report. However, if a user completes training on November 26, that completion will still be reflected in the report.</p><p><i>Screenshot - Simulation reporting interface:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6f8a250c-0d5c-4803-a638-e1a45484b4aa/eddea91edb1c78451b09f5cd4069935abb234b81.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare:</b></b></p><p>No action is required.</p><p>Admins may wish to inform simulation owners of this refinement to ensure alignment with internal reporting expectations.</p><p>Learn more:</p><ul><li><b>to be updated closer to rollout</b>&nbsp;<a href=\"https://learn.microsoft.com/defender-office-365/attack-simulation-training-faq?view=o365-worldwide#q-how-long-is-simulation-information-retained-can-i-delete-simulation-data\" target=\"_blank\">Attack simulation training deployment considerations and FAQ - Microsoft Defender for Office 365 | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/defender-office-365/attack-simulation-training-insights?view=o365-worldwide\" target=\"_blank\">Insights and reports for Attack simulation training - Microsoft Defender for Office 365 | Microsoft Defender | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/defender-office-365/attack-simulation-training-faq?view=o365-worldwide#reporting-issues\" target=\"_blank\">Reporting issues - Attack simulation training deployment considerations and FAQ - Microsoft Defender for Office 365 | Microsoft Defender | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "Microsoft Defender for Office 365 is refining user activity tracking in Attack Simulation and Training to improve reporting consistency. The update, rolling out November-December 2025 worldwide, captures user interactions until simulation end and training events until due date, with no changes to scheduling or admin workflows. No action required."
+    }
+  ],
+  "EndDateTime": "2026-01-13T08:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1166864",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-10-06T23:13:51.797Z",
+  "Services": [
+    "Microsoft Defender XDR"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-10-06T23:12:26Z",
+  "Tags": [
+    "Feature update",
+    "User impact",
+    "Admin impact"
+  ],
+  "Title": "Microsoft Defender for Office 365: Refinement to user activity tracking in Attack Simulation and Training",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

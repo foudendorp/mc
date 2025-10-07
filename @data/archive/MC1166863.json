@@ -1,0 +1,37 @@
+{
+  "ActionRequiredByDateTime": "2025-10-29T07:00:00Z",
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<b><b>Introduction</b></b>\n<p>To help Security Operations Center (SOC) teams reduce alert noise and optimize incident queues, Microsoft is introducing new built-in alert tuning rules in Microsoft Defender XDR. This configuration change is designed to streamline alert handling by automatically suppressing low-priority alerts and surfacing only those that require SOC action. These changes reflect ongoing feedback from customers seeking greater efficiency in incident triage.</p>\n\n<b><b>When this will happen:</b></b>\n<ul>\n<li><b>October 19, 2025</b>: New alert tuning experience becomes visible in the UX. Functionality is not yet active.</li>\n<li><b>October 19–29, 2025</b>: Opt-out window. Admins can choose to disable auto-suppression.</li>\n<li><b>October 30, 2025</b>: Functionality goes live. Auto-suppression is enabled by default.</li>\n</ul>\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b>&nbsp;Preview participants using Microsoft Defender XDR, particularly those with Defender for Office (MDO) alerts.</li>\n<li><b style=\"\">What will happen:</b>\n<ul>\n<li>New built-in alert tuning rules will appear in the UX starting October 19.</li>\n<li>Auto-suppression will be enabled by default starting October 30.</li>\n<li>Selected alerts with available AIR playbooks will be created in the <i>Resolved</i> state and assigned to <i>Suppression rule</i>.</li>\n<li>AIR will investigate these alerts immediately:\n<ul>\n<li>If remediation is successful, alerts remain <i>Resolved</i>.</li>\n<li>If pending actions remain or manual review is needed, alerts will reopen automatically as <i>New</i> and <i>Unassigned</i>.</li>\n</ul>\n</li>\n<li>Only alerts requiring SOC action will appear as <i>Open</i>.</li>\n<li>Admins can disable auto-suppression at any time in <i>Alert Tuning</i>.</li>\n</ul>\n</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>No action is required if you want to benefit from reduced alert noise and improved SOC efficiency.</li>\n<li><b>If your Security Operations Center prefers to manually review every alert regardless of AIR outcome, complete the following before October 30:\n</b><ul>\n<li>Review the new alert tuning settings in the <i>UX</i>.</li>\n<li>Decide whether to opt out of auto-suppression.</li>\n<li>Communicate this change to SOC and helpdesk teams.</li>\n<li>Update internal documentation if needed.</li>\n<li>To opt out, go to <i>Alert Tuning</i> in the portal and disable auto-suppression.</li>\n</ul>\n</li>\n</ul>\n\n<b><b>Compliance considerations</b></b>\n<table border=\"1\">\n<tbody><tr><th>Question</th><th>Explanation</th></tr>\n<tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Alerts are now auto-suppressed and AIR playbooks may resolve them without manual SOC review, changing how alert data is surfaced and acted upon.</td></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>AIR playbooks will automatically investigate and remediate alerts, modifying alert state based on AIR investigations.</td></tr>\n<tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td><td>Admins can disable auto-suppression via <i>Alert Tuning</i>.&nbsp;</td></tr>\n<tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Admins can opt out during the opt-out window or disable auto-suppression at any time.</td></tr>\n</tbody></table>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "Microsoft Defender XDR will introduce built-in alert tuning rules by October 30, 2025, to auto-suppress low-priority alerts, reducing noise and optimizing SOC incident queues. Admins can opt out or disable this feature anytime. Alerts may be auto-resolved or reopened based on AIR playbook investigations."
+    }
+  ],
+  "EndDateTime": "2025-11-30T08:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1166863",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-10-06T23:11:06.84Z",
+  "Services": [
+    "Microsoft Defender XDR"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-10-06T23:10:52Z",
+  "Tags": [
+    "New feature",
+    "Admin impact"
+  ],
+  "Title": "[Configuration Change] New Built-in Alert Tuning Rules to optimize incident and alert queues",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
