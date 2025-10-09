@@ -4,6 +4,484 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "As of August 2025, Power Automate flows and Agent flows (Copilot Studio) with <a target=\"_blank\" href=\"https://aka.ms/ADO12527_1\">HTTP triggers</a> or <a target=\"_blank\" href=\"https://aka.ms/ADO12527_2\">Teams Webhook triggers</a> that have logic.azure.com in the URL moved to a new URL as a part of a critical infrastructure upgrade to improve execution speed and provide new features.<br><br><b>How does this affect me?</b><br>Users can see the new URL in the HTTP URL field of the flow's trigger when loading the flow in the designer. Beginning <b>November 30, 2025</b>, the <i>logic.azure.com</i> URL will no longer work- meaning the flows will not trigger when invoked from external systems.<br><br><b>What action do I need to take?</b><br>To ensure that existing flows using HTTP or Teams Webhook triggers continue to work, complete the actions mentioned in <a target=\"_blank\" href=\"https://aka.ms/ADO12527_3\">this documentation</a> by <b>November 30, 2025</b>. Prior to this date, both the old and new URLs will be supported. If no action is taken before this date to update flow triggers to the new URL, users will experience failures triggering these flows as the old URL will no longer work.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-12-08T23:24:00Z",
+    "HasAttachments": false,
+    "Id": "MC1168342",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T23:47:35.383Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "high",
+    "StartDateTime": "2025-10-08T23:24:12Z",
+    "Tags": [
+      "User impact"
+    ],
+    "Title": "Power Automate – HTTP and Teams webhook trigger flows are moving to new URLs",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>We’re excited to announce that Microsoft Teams now supports apps in Shared Channels. This update enables richer collaboration scenarios across teams and organizations by allowing users to add and use apps—including bots, tabs, and message extensions—directly within Shared Channels. This change aligns with customer feedback requesting more consistent and flexible app experiences across collaboration spaces. Support for apps in Private Channels will follow the same model, ensuring a unified experience for users and developers.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=505791\" target=\"_blank\">505791</a>&nbsp;and applies to Teams for Windows desktop, Teams for Mac desktop, Teams for the web, and Teams for iOS/Android.</p>\n\n<p><b>When this will happen:</b></p>\n<ul>\n<li><b style=\"\">Targeted Release:</b> Rollout begins in mid-October 2025 and is expected to complete in late October 2025</li><li><b style=\"\">General availability (Worldwide):</b> Rollout begins in early&nbsp;November 2025&nbsp;and is expected to&nbsp;complete in late November 2025.</li>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>All Microsoft Teams users who participate in Shared Channels</li>\n<li>Admins managing Teams app policies</li>\n<li>Developers maintaining Teams apps</li>\n</ul>\n\n<p><b>What’s changing:</b></p>\n<ul>\n<li>Apps can now be added to Shared Channels. Previously, only a limited set of tabs were supported.</li><li>This feature is available by default.</li>\n<li>All apps marked to work in Shared Channels will be available.</li>\n<li>Channel owners or members can add apps to a Shared Channel, with new governance and consent controls.</li>\n<li>A new channel setting allows owners to control who can add apps.</li>\n<li>Apps must be explicitly added to each channel; installing at the team level will no longer apply to Shared or Private Channels.<p></p><p>Screenshot 1: <i>Apps must be added per channel. Users are prompted for consent when interacting with an app that hasn’t been added. Apps are available through all standard discovery entry points.</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/89b720fd-4c35-4a6a-9412-ec9800558835\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>Screenshot 2: <i>Manage apps in your channels from the new Apps tab in Manage channel settings.</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/1b8ab87c-b7a4-4ebd-9b23-35959d8995a0\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p></li><li>External users (via Teams Connect) can use supported apps depending on app and admin settings.</li>\n<li>Only apps updated by developers to support Shared Channel functionality and allowed by admins will be available.</li>\n<li>Support for apps in Private Channels will follow the same model and require similar updates.</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n</ul><p><b>Admins:</b></p><ul><li>Review your Teams app policies and ensure required apps are updated for Shared Channel support.</li><li>Communicate this change to helpdesk staff.</li><li>Update internal documentation if you detail this feature.</li><li>Confirm that apps used in Shared Channels are permitted by your organization’s app governance policies.</li></ul><div><b>Developers:</b></div><ul><li>Update your app manifest to include <code>supportsChannelFeatures</code>: <code>tier1</code>&nbsp;as part of the latest manifest version.</li><li>Use channel-specific APIs for membership, storage, and permissions. Do not assume team membership equals channel membership.</li><li>Review and update Resource-Specific Consent (RSC) permissions if required.</li><li>Test your app in Shared Channels and with different user roles (internal, guest, external) to validate functionality.</li><li>For apps with advanced scenarios (e.g., file access, cross-channel data, custom permissions), review the full developer guidance for targeted updates.</li></ul><p>Before rollout, we will update this&nbsp;post&nbsp;with new documentation.</p><div><b>Compliance considerations:</b></div>\n<table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>New communication method between users/tenants</td><td>Apps in Shared Channels allow external users to interact via apps, expanding cross-tenant collaboration.</td></tr>\n<tr><td>Admin control available</td><td>Admins can manage app availability via policies and channel-level settings. Apps installed to team are not added by default in shared and private channels. Channel member/owner needs to explicitly add the app to channel.</td></tr>\n<tr><td>User control</td><td>Channel owners can control who can add apps to Shared Channels.</td></tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "505791"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams now supports apps in Shared Channels, enabling bots, tabs, and message extensions for richer collaboration. Apps must be added per channel with new governance controls. Rollout starts October 2025. Admins and developers should update policies and app manifests for compatibility. Private Channel support will follow."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-12-17T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1168294",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T22:04:07.617Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T22:04:00Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Apps now supported in Shared Channels",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<b><b>Introduction</b></b>\n<p>To improve consistency across Microsoft 365 services and reduce reliance on <i>Scope Search</i>, Microsoft Teams will now respect hidden user attributes—such as <code>ShowInAddressList</code> and <code>HiddenFromAddressListsEnabled</code>—without requiring <i>Scope Search</i>. This change aligns Teams behavior with Outlook and Exchange, simplifying user visibility management and resolving issues caused by <i>Scope Search</i>, such as difficulty locating <i>Call Queues</i> and <i>Auto Attendants</i>.</p>\n\n<b><b>When this will happen:</b></b>\n<p>Rollout begins early October 2025 and is expected to complete by late October 2025.</p>\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Teams user visibility, especially those who previously used <i>Scope Search</i> to hide users.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Teams will respect hidden user attributes (e.g., <code>ShowInAddressList</code>, <code>HiddenFromAddressListsEnabled</code>, <code>msExchangeHiddenFromAddressList</code>) without requiring <i>Scope Search</i>.</li>\n    <li>Guest users with <code>ShowInAddressList</code> set to <code>False </code>will no longer appear in <i>People Search</i>.</li>\n    <li><i>Scope Search</i> is no longer needed to hide users.</li>\n    <li>If <i>Scope Search</i> is used for <i>Information Barriers</i> (IB), it should remain enabled.</li>\n    <li>This change aligns Teams behavior with Outlook and Exchange.</li>\n  </ul>\n</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Review your current use of <i>Scope Search</i>. If used solely to hide users, disable it.</li>\n<li>Ensure hidden user attributes are correctly configured:\n  <ul>\n    <li>Online: <code>HiddenFromAddressListsEnabled</code></li>\n    <li>On-premises: <code>msExchangeHiddenFromAddressList</code></li>\n    <li>Guest users: Set <code>ShowInAddressList</code> to <code>True </code>if they should appear in search results.</li>\n  </ul>\n</li>\n<li>Communicate this change to helpdesk and support teams.</li>\n<li>Update internal documentation to reflect the new behavior.</li>\n<li>For more details, refer to <a href=\"https://learn.microsoft.com/microsoftteams/teams-overview\">Microsoft Teams admin documentation</a>.</li></ul><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>Alters how existing customer data is processed</td><td>Teams will now use hidden user attributes to determine visibility, changing how user data is surfaced in search.</td></tr>\n<tr><td>Includes an admin control</td><td>Admins can manage visibility using hidden attributes (as mentioned above).</td></tr><tr><td>Allows user visibility to be controlled indirectly</td><td>Guest users and others can be hidden or shown based on attribute configuration.</td></tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting October 2025, Teams will respect hidden user attributes like ShowInAddressList without needing Scope Search, aligning with Outlook and Exchange. Admins should review and update attribute settings, disable Scope Search if only used for hiding users, and inform support teams accordingly."
+      }
+    ],
+    "EndDateTime": "2025-11-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1168293",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T22:03:44.447Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T22:03:38Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Teams Search now respects hidden user attributes without requiring \"Scope Search\"",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>To improve access to Microsoft 365 Copilot and its productivity-enhancing companion apps, we’re introducing an update to the existing setting in the Microsoft 365 admin center. Admins can now pin the companion apps —<i> People, File, and Calendar</i>—  to the Windows taskbar, along with the Microsoft 365 Copilot app. This update helps users quickly access Copilot’s capabilities —&nbsp;<i>Chat, Search, Agents, Notebooks, and Create</i> — alongside key productivity tools.<b></b></p><p><b><b>When this will happen:</b></b></p>General Availability (Worldwide): Rollout begins in early October 2025 and is expected to complete by late October 2025.<p></p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b><ul><li>Admins managing Windows 10 and Windows 11 devices.</li><li>Users on Windows 10 and Windows 11 devices with Microsoft 365 Copilot and companion apps installed.</li></ul></li>\n\n<li><b>What will happen:</b>\n<ul>\n<li>The <i>Copilot + Companion</i> toggle is <b>off by default</b>.</li>\n<li>When enabled:\n  <ul>\n    <li>Microsoft 365 Copilot will be pinned to the taskbar on both Windows 10 and Windows 11 devices.</li>\n    <li>People, File, and Calendar apps will be pinned only on Windows 11 Intune-managed devices where the apps are installed.</li>\n    <li>When the setting is enabled, the companion apps (People, File, Calendar) are pre-selected in the admin UI for pinning. Admins can manually deselect any of these apps before applying the setting.</li>\n    <li>Pinned apps will appear to the right of existing taskbar apps.</li>\n    <li>Users who manually pinned these apps will see no change.</li>\n    <li>Users can unpin apps from the taskbar at any time.</li>\n    <li>This setting does not install the apps; it only pins them if already installed.</li>\n  </ul>\n</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Manage the setting in the Microsoft 365 admin center:\n<i>Copilot &gt; Settings &gt; User access &gt; Pin Microsoft 365 Copilot app to the Windows taskbar</i></li>\n<li>Ensure Microsoft 365 Copilot is installed on Windows 10/11 devices.</li>\n<li>Ensure People, File, and Calendar apps are installed on Windows 11 devices.</li>\n<li>You can enable the pinning policy even if apps are not yet installed; they will be pinned once installed.</li>\n<li>Notify users about this change and update internal documentation.</li>\n<li>Learn more: <a href=\"https://go.microsoft.com/fwlink/?linkid=2326492\">Pin Microsoft 365 Copilot and Companion apps to the Windows taskbar</a></li><li>This MC post is related to messages posts MC1160180 and MC 1115982 respectively&nbsp;</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\nNo compliance considerations identified, review as appropriate for your organization.<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "498221"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Admins can now pin Microsoft 365 Copilot and companion apps (People, File, Calendar) to the Windows taskbar via a new setting in the Microsoft 365 admin center. Rollout starts October 2025, with the toggle off by default. Pinning applies only if apps are installed and can be managed by admins."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-11-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1168292",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T22:03:20.8Z",
+    "Services": [
+      "Microsoft Intune",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T22:03:14Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "New setting to pin Microsoft 365 Copilot and Companion apps to the Windows taskbar.",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>We’re expanding Microsoft 365 Copilot extensibility in<i> Office apps</i>. <b>Custom Engine Agents (CEAs)</b> are now available in <i>Word, Excel, PowerPoint,</i> and <i>OneNote</i>. CEAs are partner-built agents that run on a developer’s service engine and connect into Copilot in <i>Office apps</i>. This release completes support for all Copilot agent types in Word, Excel, PowerPoint, and OneNote, joining Declarative Agents (DAs) already available.</p>\n\n<b><b>When this will happen:</b></b>\n<p><b>General Availability (Worldwide)</b> is currently available, with<b> full rollout expected by October 13, 2025</b>.</p>\n\n<b><b>How this affects your organization:</b></b>\n<p><b>Who is affected:</b> All users with Microsoft 365 Copilot licenses in <i>WXP</i> (<i>Word, Excel, PowerPoint)</i>&nbsp;and <i>OneNote</i>.</p><p><b>What will happen:</b></p>\n<ul>\n<li>Users will see installed CEAs in the <i>Copilot pane</i> of Word, Excel, PowerPoint, and OneNote.</li>\n<li>CEAs can be installed and opened directly within these apps if allowed in the agent store for your tenant.</li>\n<li>CEAs appear alongside other agents in the <i>Copilot experience</i>.</li>\n<li>Users can insert generated content (text, tables, images) directly into documents or presentations using the Insert action in response cards.</li>\n<li>CEAs honor existing app management policies for discovery and installation.</li>\n<li>Declarative Agents and Custom Engine Agents are now both supported in WXP + OneNote.</li><li>CEAs are built using the Microsoft 365 AI Toolkit or Copilot Studio Full version. While the user experience is the same, CEAs differ in how they are orchestrated and built, offering more customization.</li><li>CEAs are additive. They do not replace existing agents or change the experience for Declarative Agents. Users may simply notice more agents available inside Office apps that were previously only accessible in the Microsoft 365 Copilot app.</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>No admin action is required.</li>\n<li>Inform helpdesk and champions about CEAs arriving in WXP + OneNote.</li>\n<li>Review app and agent policies to ensure approved agents are discoverable.</li>\n<li>CEAs will appear automatically for users with Microsoft 365 Copilot licenses.</li>\n<li>Developers cannot opt out of CEAs appearing in WXP hubs.</li>\n<li>For EU tenants, CEAs will appear when underlying Copilot experiences are available.</li></ul><p><i>Screenshot - View of new UX with a Custom Engine Agent (CEA) in PowerPoint:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/40e10913-df05-46cc-8fce-56417255cb91/6e89115daecf06a702735089f40bbc191625ffa0.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365-copilot/extensibility/agents-overview\" target=\"_blank\">Agents for Microsoft 365 Copilot | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-custom-engine-agent?source=recommendations\" target=\"_blank\">Custom engine agents for Microsoft 365 overview | Microsoft Learn</a></li>\n</ul>\n\n<b><b>Compliance considerations:</b></b>\n<table border=\"1\">\n<tbody><tr><th>Question</th><th>Answer</th><th>Explanation</th></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes</td><td>CEAs are agent-based extensions that interact with Copilot and may generate content based on user input.</td></tr>\n<tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes</td><td>Users can interact with CEAs to generate and insert content (text, tables, images) into documents and presentations.</td></tr>\n<tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes</td><td>CEAs respect existing app management policies for discovery and installation, which can be scoped via Entra ID group membership.</td></tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Custom Engine Agents (CEAs) are now available in Word, Excel, PowerPoint, and OneNote, expanding Microsoft 365 Copilot extensibility. CEAs run on partner services, appear in the Copilot pane, and allow users to generate and insert content. Full rollout is expected by October 13, 2025, with no admin action required."
+      }
+    ],
+    "EndDateTime": "2025-11-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1168289",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T22:02:10.63Z",
+    "Services": [
+      "Microsoft 365 apps",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T22:01:51Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 apps: Custom Engine Agents now available in Word, Excel, PowerPoint, and OneNote",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability for admins to enforce the use of end-user credentials by managing how authentication is handled. This feature will be generally available starting October 30, 2025.<br><br>\n<b>How does this affect me?</b><br>\nThis feature provides admins with enhanced control over authentication by allowing them to restrict the use of maker-provided credentials across all tools within an agent. With this control in place, only end-user credentials can be used for authentication, ensuring a more secure and user-specific connection experience.<br><br>\nBy default, this feature is turned off, giving organizations the flexibility to enable it selectively through the Power Platform admin center for specific environments or managed environment groups.<br><br>\n<b>What action do I need to take?</b><br>\nThis message is for awareness and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-08T20:57:08Z",
+    "HasAttachments": false,
+    "Id": "MC1168268",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T20:59:04.023Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T20:57:08Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Microsoft Copilot Studio - Block the use of maker-provided credentials for authentication",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to leverage Copilot Studio agents to engage in real-time personalized voice conversations, offering alternative, solutions-based ongoing dialogue with your customers in Dynamics 365 Customer Insights – Journeys. This feature will reach general availability on October 27, 2025.<br><br><b>How does this affect me?</b><br>With the Copilot-powered voice conversations feature, you can:<br><ul><li>Enable seamless integration with Contact Center Proactive Engagement.</li><li>Manage the audience configuration and compliance profiles for your voice channel.</li><li>Choose a Conversational Voice message in a journey by selecting a Contact Center Proactive Engagement.</li><li>Design your journey to include conversational voice messages and react to message outcomes.</li><li>View detailed engagement metrics, such as the number of attempts, outcomes, and specific results for each call interaction in the out-of-the-box journey reporting.</li><li>Access all voice and engagement interaction data in storage and build custom reports using Microsoft Fabric integration.</li></ul><b>What action do I need to take?</b><br> This message is for awareness and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-08T20:53:14Z",
+    "HasAttachments": false,
+    "Id": "MC1168267",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T20:55:02.817Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T20:53:14Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Insights - Journeys - Transform your outreach with Copilot-powered voice conversations",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to take advantage of expanded Virtual Network support in Power Platform. This feature will reach general availability on October 31, 2025.<br><br>\n\n<b>How does this affect me? </b><br>\nPower Platform now supports service endpoints and data export for Virtual Networks. With this enhancement, you can set up secure, private, outbound connectivity from Power Platform to resources in your Virtual Network. This feature improves security for connections to external data sources from Power Apps, Power Automate, and Dynamics 365 apps. <br><br>\n\nThis feature offers the following benefits: <ul>\n\n<li><b>Enhanced configuration experience: </b>Enterprises can view the number of available and used IP addresses in a subnet. They can also troubleshoot configuration issues when the Virtual Network isn't configured on a Power Platform environment.</li>\n<li><b>Extended connectors support for Virtual Networks: </b>Support is now available for more connectors, including Azure AI Search and data export to Application Insights. </li></ul>\n \n<b>What action do I need to take? </b><br>\nThis message is for awareness and no action is required. <br><br>\n\n If you would like more information on this feature, please visit <a target =\"_blank\" href=\"https://aka.ms/11699/take-advantage-expanded-virtual-network-support\">Take advantage of expanded Virtual Network support</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-08T19:41:41Z",
+    "HasAttachments": false,
+    "Id": "MC1168237",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T19:42:39.453Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T19:41:41Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Platform - Take advantage of expanded Virtual Network support",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to use messaging APIs to manage customer chat conversations in Dynamics 365 Contact Center. This feature will reach general availability on October 31, 2025.<br><br>\n<b>How does this affect me? </b><br>\nThis feature enables the use of messaging APIs to control and manage customer conversations. <br><br>\nThese APIs provide the following functionality: <ul>\n<li>Start or end a conversation. </li>\n<li>Start a conversation with an authentication token. </li>\n<li>Present options for persistent conversations and context variables. </li>\n<li>Send messages, including attachments and updates to context variables. </li>\n<li>Receive agent or system messages through webhook subscriptions. </li>\n<li>Check agent availability in a queue and retrieve both queue position and estimated wait time. </li></ul>\n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-08T18:05:43Z",
+    "HasAttachments": false,
+    "Id": "MC1168232",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T19:01:29.213Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T18:05:43Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center – Use messaging APIs to manage customer chat conversations",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to create an event portal on your own website using the event API in Dynamics 365 Customer Insights - Journeys. This feature will reach general availability on October 31, 2025.<br><br><b>How does this affect me?</b><br>The new event portal enables you to quickly create a comprehensive hub where customers can access event details, session specifics, and speaker schedules. Customers can register using the event registration form. You can integrate the portal into your existing CMS with a JavaScript code snippet, or you can build your customized portal and registration experience using the Event API.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br> If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO11553\">Create an event portal on your own website using the event API</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-08T17:01:09Z",
+    "HasAttachments": false,
+    "Id": "MC1168195",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T17:20:43.357Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T17:01:09Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Insights - Journeys - Create an event portal on your own website using the event API",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to mask sensitive data fields with column-level security in Power Platform. This feature will reach general availability on October 31, 2025.<br><br><b>How does this affect me?</b><br>With this feature, you can mask sensitive fields and eliminate the bulk export of these fields to protect customers' personal data.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/11514\">Mask sensitive data fields with column-level security</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-08T16:52:02Z",
+    "HasAttachments": false,
+    "Id": "MC1168103",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T16:54:02.987Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T16:52:02Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Platform - Mask sensitive data fields with column-level security",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability for customer service representatives to use Copilot-powered intent suggestions to consult with another representative in Dynamics 365 Contact Center. This feature will reach general availability on October 31, 2025.<br><br><b>How does this affect me?</b><br>Users can select from both queues and user groups when they start the consultation process and with intent to consult with a user enabled, Copilot will effectively help the service representative choose the right user to consult with.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>If you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/11227Link1\">Use intent to consult with a user</a> article.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-08T16:48:59Z",
+    "HasAttachments": false,
+    "Id": "MC1168097",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T16:49:40.027Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T16:48:59Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center – Use intent to consult with a user",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to create event portals with event and registration details using Power Pages in Dynamics 365 Customer Insights - Journeys. This feature will reach general availability on October 31, 2025.<br><br><b>How does this affect me?</b><br>With this feature, you can create a comprehensive event portal where prospective attendees can access a list of events, an event details page, and a registration page using Customer Insights, using a Power Pages template to expedite the creation process. You can later edit, customize, and host this portal using Power Pages Studio.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>For more information about this feature, please review the <a target=\"_blank\" href=\"https://aka.ms/ADO11215_1\">Create event portals with event and registration details using Power Pages </a> learn article.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-08T16:44:57Z",
+    "HasAttachments": false,
+    "Id": "MC1168096",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T16:45:58.517Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T16:44:57Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Insights - Journeys - Create event portals with event registration details using Power Pages",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to reassign an agent's owner with PowerShell in Microsoft Copilot Studio. This feature will reach general availability on October 30, 2025.  \n<br><br>\n \n<b>How does this affect me?</b><br>\nThis feature lets you manage agents when the original owner leaves or changes roles. Admins with the Tenant admin, Power Platform administrator, or Dynamics 365 Service Administrator roles can use PowerShell commands to assign new owners to agents. The new owner needs a Copilot Studio license and must be a member of the environment where the agent is.<br><br>\nWhen an admin changes the owner of an agent, the new owner:<ol>\n<li>Gets access to all the agent's components with standard owner permissions, including delete permissions.</li>\n<li>Gets the Environment Maker security role for the environment where the agent exists.</li>\n</ol>\nThe previous owner loses access to the agent. The change doesn't affect other co-owners.<br><br>\n<b>What action do I need to take?</b><br>\nThis message is for awareness and no action is required.<br><br>\nIf you would like more information on this feature, please visit the <a href=\" https://aka.ms/ADO10205-1\"target=\"_blank\">Reassign an agent's owner with PowerShell</a> article.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-08T15:24:45Z",
+    "HasAttachments": false,
+    "Id": "MC1168088",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-08T15:50:49.407Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-08T15:24:45Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Microsoft Copilot Studio - Reassign an agent's owner with PowerShell",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b>Introduction</b></p><p>We will retire the IP-based user location detection feature in the Microsoft 365 Suite Admin Portal bookmark creation flow, effective November 10, 2025. This change aligns with our ongoing investment in more secure and reliable location-based targeting using Azure Active Directory (Azure AD). Azure AD location-based targeting offers enhanced flexibility and better alignment with modern identity and access management practices.</p>\n\n<p><b>When this will happen:</b></p>\n<p>This change will take place on November 10, 2025.&nbsp;</p>\n\n<p><b>How this affects your organization:</b></p>\n<ul>\n  <li><b>Who is affected:</b> Admins using the Microsoft 365 Suite Admin Portal to create bookmarks with IP-based location targeting.</li>\n  <li><b>What will happen:</b>\n    <ul>\n      <li>Admins will no longer be able to target bookmarks based on IP-derived user location.</li>\n      <li>Azure AD location-based targeting will remain available and is the recommended alternative.</li>\n      <li>This change will be applied automatically; no configuration changes are required.</li>\n    </ul>\n  </li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n  <li>No admin action is required for this change.</li>\n  <li>Notify relevant users and helpdesk staff about the retirement of IP-based targeting.</li>\n  <li>Update any internal documentation that references IP-based bookmark targeting.</li>\n  <li>Review and familiarize yourself with <a href=\"https://learn.microsoft.com/entra/identity/conditional-access/location-condition\">Azure AD location-based targeting</a> as the supported method going forward.</li></ul><p><!--<p--><b>Compliance considerations:</b></p><p></p>\n<p></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -187,43 +665,6 @@
       "Feature update"
     ],
     "Title": "Updates available for Microsoft 365 Apps for Current Channel",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated October 7, 2025: We have determined that this message was not published to the appropriate audience. You can safely disregard this message. Thank you for your feedback.</p><p><b>Introduction</b></p><p>This is a reminder based on our previous communication (<a href=\"https://admin.microsoft.com/Adminportal/Home?ref=MessageCenter/:/messages/MC1117814\" target=\"_blank\">MC1117814</a>) regarding the Viva Engage email sender domain update. Please ensure your email configurations are updated, as we plan to roll out the new email domains for your tenant starting Monday, October 6, 2025.</p><p><b>When this will happen:</b></p><ul><li>Rollout begins: Monday, October 6, 2025</li><li>Expected completion: Tuesday, October 7, 2025</li><li>Applies to U.S. and EU tenants currently receiving messages from @yammer.com and @eu.yammer.com.</li></ul><p><br></p><p><b>How this will affect your organization:</b>\n</p><p>All emails from Viva Engage will now come from a new domain instead of yammer.com or eu.yammer.com The exact sender domain depends on the data residency for your Viva Engage network:</p><ul><li>US geo: from @yammer.com to @engage.mail.microsoft\n</li><li>EU geo: from EU​.yammer.com to @eu.engage.mail.microsoft</li></ul><p>In addition to the domain change, Viva Engage email addresses will now include a tenant-specific prefix to help differentiate your organization’s environment such as test and production tenants. For example, fabrikam.onmicrosoft.com will result in a “fabrikam” prefix. Continuing with this example, sender addresses may include:</p><ul><li>noreply_fabrikam@engage.mail.microsoft – for digest emails, leader identification, community expert identification, delegate notifications and others.\n</li><li>notifications_fabrikam@engage.mail.microsoft – for community posts, storyline updates, and other user activity notifications.\n</li><li>announcements_fabrikam@engage.mail.microsoft – for leadership announcements and other broad communications.\n</li></ul><p>For networks in the EU geo, you should change the sender domain in the examples above to noreply_fabrikam@eu.engage.mail.microsoft, etc.</p><p>These changes affect all Viva Engage emails, including notifications, announcements, and digests.</p><p></p><p><b>What you need to do to prepare:</b>\n</p><p>Admins should review these configurations before and during rollout:</p><ul><li>Email Transport / Mail Flow Rules: Update any rules referencing @yammer.com (or EU.yammer.com) to also include @engage.mail.microsoft (and EU.engage.mail.microsoft) so encryption, forwarding, or redirection rules keep working.</li><li>Security Filters: Add the new domains to spam filters or allowlists if they were previously trusted.&nbsp;</li><li>Outlook Inbox Rules: Notify users to update personal rules that filter by domain (e.g., moving Yammer emails to a folder). Otherwise, Engage emails may land directly in their inbox.</li><li>Safe Senders / Allow Lists: Add the new domains to org-level and user safe sender lists to prevent misclassification as junk.</li></ul><p>Please communicate these changes in advance so users know how their rules or filters may be affected. If you don’t use custom rules, no changes are needed; the switch will occur automatically.</p>\n<p></p><p>Learn more: <a href=\"https://techcommunity.microsoft.com/blog/viva_engage_blog/viva-engage-email-sender-domain-update/4442161\" target=\"_blank\">Viva Engage Email Sender Domain Update</a></p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Updated October 7, 2025: We have determined that this message was not published to the appropriate audience. You can safely disregard this message. Thank you for your feedback."
-      }
-    ],
-    "EndDateTime": "2025-10-08T13:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1162950",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-07T20:48:06.223Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-30T23:08:23Z",
-    "Tags": [
-      "Updated message",
-      "Feature update"
-    ],
-    "Title": "Reminder: Update Email Configurations for Viva Engage Email Domain Migration",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -522,7 +963,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"503300\":[{\"RoadmapId\":503300,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-08T11:02:33.6315441Z\",\"LatestRing\":null},{\"RoadmapId\":503300,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-08T11:02:33.6315444Z\",\"LatestRing\":null},{\"RoadmapId\":503300,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-08T11:02:33.6315445Z\",\"LatestRing\":null},{\"RoadmapId\":503300,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-08T11:02:33.6315446Z\",\"LatestRing\":null},{\"RoadmapId\":503300,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-08T11:02:33.6315447Z\",\"LatestRing\":null}]}"
+        "Value": "{\"503300\":[{\"RoadmapId\":503300,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-09T03:14:51.1515014Z\",\"LatestRing\":null},{\"RoadmapId\":503300,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-09T03:14:51.1515017Z\",\"LatestRing\":null},{\"RoadmapId\":503300,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-09T03:14:51.1515018Z\",\"LatestRing\":null},{\"RoadmapId\":503300,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-09T03:14:51.1515019Z\",\"LatestRing\":null},{\"RoadmapId\":503300,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-09T03:14:51.151502Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -30741,68 +31182,6 @@
       "Admin impact"
     ],
     "Title": "Windows Office Hours: October 17th, 2024",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>Starting today, October 8, 2024, Windows 11, version 21H2 (<a href=\"https://learn.microsoft.com/lifecycle/products/windows-11-enterprise-and-education\" rel=\"noopener noreferrer\" target=\"_blank\">Enterprise</a>, <a href=\"https://learn.microsoft.com/lifecycle/products/windows-11-enterprise-and-education\" rel=\"noopener noreferrer\" target=\"_blank\">Education</a>, and <a href=\"https://learn.microsoft.com/lifecycle/products/windows-11-iot-enterprise\" rel=\"noopener noreferrer\" target=\"_blank\">IoT Enterprise</a> editions) and Windows 11, version 22H2 (<a href=\"https://learn.microsoft.com/lifecycle/products/windows-11-home-and-pro\" rel=\"noopener noreferrer\" target=\"_blank\">Home and Pro</a> editions) have reached end of servicing. The October 2024 security update is the last update available for these editions. After today, devices running these editions will no longer receive monthly security and preview updates containing protections from the latest security threats.</div><div><br></div><div>To help keep you protected and productive, Windows Update will automatically initiate a feature update for Windows 11 Home and Pro devices that are not managed by IT departments when these are nearing end of servicing. Moving to the <a href=\"https://aka.ms/how-to-get-24H2\" rel=\"noopener noreferrer\" target=\"_blank\">latest version of Windows 11</a> keeps your device supported and receiving monthly updates that are critical to security and ecosystem health.</div><div><br></div><div>For detailed information, see the <a href=\"https://learn.microsoft.com/lifecycle/products/windows-11-enterprise-and-education\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 Enterprise and Education</a>, <a href=\"https://learn.microsoft.com/lifecycle/products/windows-11-iot-enterprise\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 IoT Enterprise</a>, and <a href=\"https://learn.microsoft.com/lifecycle/products/windows-11-home-and-pro\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 Home and Pro</a> lifecycle pages. For information about servicing timelines and lifecycle, see <a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 release information</a>, <a href=\"https://learn.microsoft.com/lifecycle/faq/windows\" rel=\"noopener noreferrer\" target=\"_blank\">Lifecycle FAQ - Windows</a>, and <a href=\"https://learn.microsoft.com/lifecycle/products/?terms=windows\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Lifecycle Policy search tool</a>.</div>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-10-08T21:19:22.313Z",
-    "HasAttachments": false,
-    "Id": "MC906950",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2024-10-08T21:19:23.85Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-10-08T21:19:22.343Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Some editions of Windows 11, versions 21H2 and 22H2 have reached end of servicing",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>The October 2024 security update is now available for all supported versions of Windows. We recommend that you install these updates promptly. For more information about the contents of this update, see the release notes, which are easily accessible from the&nbsp;<a href=\"https://support.microsoft.com/help/5044284\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11</a>&nbsp;and&nbsp;<a href=\"https://support.microsoft.com/help/5044273\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 10</a>&nbsp;update history pages. To learn more about the different types of monthly quality updates, see <a href=\"https://aka.ms/Windows/MonthlyUpdates\" rel=\"noopener noreferrer\" target=\"_blank\">Windows monthly updates explained</a>. To be informed about the latest updates and releases, follow us on X <a href=\"https://x.com/windowsupdate\" rel=\"noopener noreferrer\" target=\"_blank\">@WindowsUpdate</a>.</div><div>&nbsp;&nbsp;</div><div><b>Highlights for the Windows 11, version 24H2 update:&nbsp;</b></div><ul><li>This security update includes improvements that were a part of update&nbsp;<a href=\"https://support.microsoft.com/help/5043178\" rel=\"noopener noreferrer\" target=\"_blank\">KB5043178</a> (released September 26, 2024).</li><li>This update addresses an issue that may cause Remote Desktop Gateway Service to stop responding. This occurs when a service uses remote procedure calls (RPC) over HTTP.</li></ul><div><br></div><div>Short on time? Watch our <a href=\"https://aka.ms/Windows11/ReleaseNotes/Video/2410\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 release notes video</a> for this month's tips.</div><div><br></div><div>For instructions on how to install this update for your operating system, see the KB for your OS listed below:&nbsp;</div><ul><li>Windows 11, versions 24H2: <a href=\"https://support.microsoft.com/help/5044284\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044284</a></li><li>Windows 11, versions 23H2 and 22H2: <a href=\"https://support.microsoft.com/help/5044285\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044285</a></li><li>Windows 11, version 21H2: <a href=\"https://support.microsoft.com/help/5044280\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044280</a></li><li>Windows 10, versions 22H2 and 21H2: <a href=\"https://support.microsoft.com/help/5044273\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044273</a></li><li>Windows 10 Enterprise LTSC 2019 and Windows Server 2019: <a href=\"https://support.microsoft.com/help/5044277\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044277</a></li><li>Windows 10 LTSB 2016 and Windows Server 2016: <a href=\"https://support.microsoft.com/help/5044293\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044293</a></li><li>Windows 10 LTSB 2015: <a href=\"https://support.microsoft.com/help/5044286\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044286</a></li><li>Windows Server 2022: <a href=\"https://support.microsoft.com/help/5044281\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044281</a></li><li>Windows Server 2012 R2: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5044343\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044343</a></li><li>Windows Server 2012: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5044342\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044342</a></li><li>Windows Server 2008 R2 Service Pack 1: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5044356\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044356</a>&nbsp;/ Security Only: <a href=\"https://support.microsoft.com/help/5044321\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044321</a></li><li>Windows Server 2008 SP2: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5044320\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044320</a> / Security Only: <a href=\"https://support.microsoft.com/help/5044306\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044306</a></li></ul><div><br></div><div><b>REMINDER</b>&nbsp;The October 2024 security update is the last security release for&nbsp;Enterprise and Education editions of&nbsp;<a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11, version 21H2</a> and Home and Pro editions of&nbsp;<a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11, version 22H2</a>. After this date, devices running these editions will no longer receive monthly security and preview updates containing protections from the latest security threats. Supported editions of Windows 11 will continue to have support through their specific lifecycle dates, which can be found at the&nbsp;<a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 release information page</a>.</div>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-10-08T17:06:10.087Z",
-    "HasAttachments": false,
-    "Id": "MC906951",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2024-10-08T17:06:13.367Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-10-08T17:06:10.087Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "The October 2024 Windows security update is now available",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,

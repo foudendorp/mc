@@ -1,0 +1,31 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "As of August 2025, Power Automate flows and Agent flows (Copilot Studio) with <a target=\"_blank\" href=\"https://aka.ms/ADO12527_1\">HTTP triggers</a> or <a target=\"_blank\" href=\"https://aka.ms/ADO12527_2\">Teams Webhook triggers</a> that have logic.azure.com in the URL moved to a new URL as a part of a critical infrastructure upgrade to improve execution speed and provide new features.<br><br><b>How does this affect me?</b><br>Users can see the new URL in the HTTP URL field of the flow's trigger when loading the flow in the designer. Beginning <b>November 30, 2025</b>, the <i>logic.azure.com</i> URL will no longer work- meaning the flows will not trigger when invoked from external systems.<br><br><b>What action do I need to take?</b><br>To ensure that existing flows using HTTP or Teams Webhook triggers continue to work, complete the actions mentioned in <a target=\"_blank\" href=\"https://aka.ms/ADO12527_3\">this documentation</a> by <b>November 30, 2025</b>. Prior to this date, both the old and new URLs will be supported. If no action is taken before this date to update flow triggers to the new URL, users will experience failures triggering these flows as the old URL will no longer work.",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [],
+  "EndDateTime": "2025-12-08T23:24:00Z",
+  "HasAttachments": false,
+  "Id": "MC1168342",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-10-08T23:47:35.383Z",
+  "Services": [
+    "Power Platform"
+  ],
+  "Severity": "high",
+  "StartDateTime": "2025-10-08T23:24:12Z",
+  "Tags": [
+    "User impact"
+  ],
+  "Title": "Power Automate – HTTP and Teams webhook trigger flows are moving to new URLs",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
