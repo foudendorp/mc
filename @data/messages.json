@@ -13074,44 +13074,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p></p><p><b>Introduction</b></p><p></p><p>\n</p><p>As previously announced in MC1087098 (June 2025), Microsoft is retiring the Semi-Annual Enterprise Channel Preview for Microsoft 365 Apps. This change supports our ongoing efforts to simplify update management and ensure customers benefit from the latest features and security improvements more quickly.</p>\n\n<b>When this will happen:</b><p></p><p>\n</p><p>The Semi-Annual Enterprise Channel Preview reached <a href=\"https://learn.microsoft.com/microsoft-365-apps/updates/overview-update-channels#preview-upcoming-new-features-of-semi-annual-enterprise-channel\" target=\"_blank\">end of service</a> on <b>September 9, 2025</b>. The <b>August 2025 security update</b> is the final update available for this channel.</p>\n\n<b>How this affects your organization:</b><p></p><p>\n</p><ul>\n<li><b>Who is affected:</b> Admins managing Windows desktop apps that with devices currently configured to use the Semi-Annual Enterprise Channel Preview.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Devices using this update channel will no longer receive updates for Microsoft 365 Apps after September 9, 2025.</li>\n    <li>Microsoft recommends transitioning interactive devices to <b><a href=\"https://learn.microsoft.com/microsoft-365-apps/updates/overview-update-channels#monthly-enterprise-channel-overview\" target=\"_blank\">Monthly Enterprise Channel</a></b> or <b><a href=\"https://learn.microsoft.com/microsoft-365-apps/updates/overview-update-channels#current-channel-overview\" target=\"_blank\">Current Channel</a></b>.</li>\n    <li>Non-interactive devices can use <b>Monthly Enterprise Channel</b> as a release candidate to preview changes coming to Semi-Annual Enterprise Channel.</li>\n    <li>No changes will be made automatically; admin action is required to move devices to a supported updated channel.</li>\n  </ul>\n</li>\n</ul>\n\n<b>What you can do to prepare:</b><p></p><p>\n</p><ul><p>\n</p><li>Review your update channel configurations and transition devices to a supported channel.\n  <ul><li><a href=\"https://learn.microsoft.com/en-us/deployoffice/fieldnotes/change-update-channel-to-prepare-devices-for-copilot\">Change update channel to prepare devices for Copilot</a></li></ul></li><li>For non-interactive devices that require Semi-Annual Enterprise Channel, consider using <b>Monthly Enterprise Channel </b>as a release candidate.<ul><li><a href=\"https://learn.microsoft.com/microsoft-365-apps/updates/manage-release-candidate-for-semi-annual-channel\" target=\"_blank\">Using Monthly Enterprise Channel as the release candidate</a></li></ul></li><li>Communicate this change to your helpdesk and update internal documentation as needed.</li><li>Ensure all devices are updated to the latest version of Microsoft 365 Apps.<ul><li><a href=\"https://learn.microsoft.com/microsoft-365-apps/updates/overview-update-channels\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Overview of update channels for Microsoft 365 Apps</a><br></li><li><a href=\"https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Update history for Microsoft 365 Apps (listed by date)</a></li></ul></li></ul><p><b>Compliance considerations:</b></p><ul></ul><p></p><p>No compliance considerations identified, review as appropriate for your organization.</p><ul><p></p><p></p></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "The Semi-Annual Enterprise Channel Preview for Microsoft 365 Apps ends support on September 9, 2025, with the August 2025 update as the last. Admins must transition devices to Monthly Enterprise or Current Channel, as updates will cease and no automatic changes will occur."
-      }
-    ],
-    "EndDateTime": "2025-10-13T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1150680",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-09T23:21:18.243Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-09T23:21:13Z",
-    "Tags": [
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Reminder: End of Support for Semi-Annual Enterprise Channel Preview on September 9, 2025",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction</b></p><p>To maintain uninterrupted access to Microsoft Whiteboard, organizations using explicit domain whitelisting <b>must update</b> their firewall configurations. This change supports backend service operations as part of Microsoft’s One Consolidated Domain Initiative (OCDI).</p><p><b>When this will happen</b></p><p>This change is effective immediately. We recommend updating your firewall rules as soon as possible to avoid service disruptions.</p><p><b>How this affects your organization</b></p><p>Microsoft Whiteboard has transitioned to the <code>cloud.microsoft </code>domain under OCDI. While many tenants have already whitelisted <code>*.cloud.microsoft</code>, some organizations using explicit domain whitelisting have only added <code>whiteboard.cloud.microsoft</code>.</p><p>To ensure full functionality, including backend service operations, the following domain must also be whitelisted:</p><ul><li><code>whiteboard.svc.cloud.microsoft</code></li></ul><p>Failure to include this domain may result in issues with Whiteboard loading or sharing features. This has been confirmed in multiple support cases where backend calls were blocked by firewall rules.</p><p><b>What you can do to prepare</b></p><p>If your organization uses explicit domain whitelisting, please ensure the following domains are allowed:</p><ul><li><code>whiteboard.cloud.microsoft</code></li><li><code>whiteboard.svc.cloud.microsoft</code></li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide\" target=\"_blank\">Microsoft 365 URLs and IP address ranges | Microsoft 365 for enterprise | Microsoft Learn</a><br></li><li><a href=\"https://mc.merill.net/message/MC1084637\" target=\"_blank\">MC1084637 - Product transitions to the cloud.microsoft domain</a><br></li></ul><p>No action is required for tenants who have already whitelisted <code>*.cloud.microsoft</code>.</p><p><b>Compliance Considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -14099,43 +14061,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Communication Compliance: Policy alerts improvements",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 8, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We're expanding the capabilities of document processing rules in SharePoint libraries to help site owners and members better manage content. New actions—<i>copy file to</i>, <i>move file to</i>, and <i>set content</i> <i>type to</i>—will be available to all users with edit permissions, enabling more flexible automation based on file metadata.</p><p><b>When this will happen</b></p><p>Rollout will begin in late August 2025 and is expected to complete by mid-September 2025 (previously early September).</p><p><b>How this affects your organization</b></p><p>SharePoint users will see three new actions in the rules editor interface. These actions allow users to:</p><ul><li>Automatically copy or move files based on metadata triggers.</li><li>Set a published content type for files that meet specific criteria.</li></ul><p>Rules can be created by site owners or members with edit permissions. Destination libraries must be accessible to the rule creator and can reside in the same site or a different one. Each library can support up to 15 rules, but destination libraries cannot be targeted by multiple copy/move rules.</p><p><b>What you can do to prepare</b></p><p>We recommend informing your SharePoint users about these new capabilities and reviewing existing rules to avoid conflicts.&nbsp;</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/documentprocessing/content-processing-overview?view=o365-worldwide\" target=\"_blank\">Overview of content processing rules</a></p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft SharePoint libraries will gain new document processing rule actions—copy file to, move file to, and set content type—rolling out from late August to mid-September 2025. These enable automated file management based on metadata for users with edit permissions. Users should prepare by informing teams and reviewing existing rules."
-      }
-    ],
-    "EndDateTime": "2025-10-13T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1137601",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-08T17:37:58.85Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-18T23:02:52Z",
-    "Tags": [
-      "Updated message",
-      "Feature update"
-    ],
-    "Title": "Additional document processing rule actions for Microsoft SharePoint libraries",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -19606,45 +19531,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated August 19, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>This feature allows admins to pin Copilot agents for users or groups or everyone within their tenant. This improves end-users' ability to discover new and popular agents, ensuring these agents are instantly accessible and contextually relevant to users' tasks. This enhances users' awareness of and engagement with available Copilot agents.&nbsp;</p><ul><li>Microsoft can pin up to 2 agents. Admin’s can view the Microsoft pre-pinned agents in MAC.</li><li>Admins can pin up to 3 agents.&nbsp;</li><li>Both Microsoft and Admin slots remain separate.&nbsp;</li><li>Irrespective of whether the user had acquired the agent before or not, the agent will be pinned.&nbsp;</li><li>Only 3 agents can be pinned per user, so order matters. Admins can drag and drop agents up and down to prioritize which agents appear first.&nbsp;</li><li>Users cannot unpin or unacquire Microsoft or Admin-pinned agents.&nbsp;</li></ul><p> <b>When this will happen:</b></p><p>Private Preview: We will begin rolling out in early August 2025 and complete by mid-August 2025.</p><p>General Availability (Worldwide): We will begin rolling out in late August 2025 (previously mid-August) and complete by early September 2025 (previously late August).</p><p> </p><p><b>How this will affect your organization:</b></p><p>Admins will have the capability to pin Copilot agents for users or groups, improving the discoverability and usage of these agents. This will help users find and engage with agents that are relevant to their tasks, thereby boosting productivity and engagement.&nbsp;</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/88082c7e-c03e-4a7e-9ae0-4b4185803547/ef942604f5b99875ed423d111a724364972ce320.png\" style=\"width: 25%;\"><br><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c0937af7-dbe5-487d-832b-69499ce8024e/6eafb184b0974c3173f0fd3805e0769fc69ab842.png\" style=\"width: 25%;\"></p><br><p><b>What you need to do to prepare:</b></p><p>Admins should familiarize themselves with the new pinning capabilities once they are launched and plan which agents to pin for different user/ groups. They should also monitor any feedback they get from users regarding pinned agents to optimize their deployment and ensure they meet the needs of their users&nbsp;</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Admins can pin up to 3 Copilot agents per user or group in Microsoft 365, improving agent discoverability and engagement. Microsoft can pin 2 separate agents. Users cannot unpin these agents. Rollout starts August 2025. Admins should plan and monitor pinned agents to optimize usage."
-      }
-    ],
-    "EndDateTime": "2025-10-13T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1066941",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-19T14:44:33.223Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-02T23:02:26Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Copilot (Microsoft 365): Admins can use MAC to pin Agents for their entire tenant or specific users or groups.",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated August 19, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon: We are excited to announce a new feature in Microsoft Teams that allows users to insert emojis in the compose box by typing a word surrounded by colons. For example, :smile: will turn into the smiling face emoji. Users can soon add any emoji, including custom ones, for faster and easier personal expression.</p><p>This feature applies to Teams for Windows desktop and Windows for Mac desktop.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=369345\" target=\"_blank\">369345</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early June 2025 and expect to complete by mid-June 2025.</p><p>General Availability (Worldwide): We will begin rolling out early September 2025 and expect to complete by mid-September 2025.\n</p><p>\n</p><p>General Availability (GCC): We will begin rolling out mid-September 2025 and expect to complete by late September 2025.</p><p>General Availability (GCC High): We will begin rolling out late September 2025 and expect to complete by early October 2025.</p><p>General Availability (DoD): We will begin rolling out early October 2025 and expect to complete by mid-October 2025.</p><p><b>How this will affect your organization:</b>\n</p><p>This feature will be available by default.\n</p><p><a href=\"https://cxcs.microsoft.net/file/ccp/en-us/c7fcab0a-41a6-4848-96cb-049addb05d98\" target=\"_blank\">Watch the video: Use colons to insert emojis</a> (0:04 minutes)\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before or after the rollout. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/office/send-an-emoji-gif-or-sticker-in-microsoft-teams-174248c9-e64d-4de1-9f41-3199cc0751ad\" target=\"_blank\">Send an emoji, GIF, or sticker in Microsoft Teams - Microsoft Support</a> (will be updated before rollout)</p>",
       "ContentType": "html"
     },
@@ -19683,53 +19569,6 @@
       "User impact"
     ],
     "Title": "Microsoft Teams: New keyboard shortcut for adding emojis",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction\n</b></p><p>To enhance collaborative access to SharePoint-based knowledge, we’re introducing SharePoint agents in Microsoft Teams Channels. These agents allow users to interact with SharePoint-based knowledge through simple @mentions, allowing quick access to summaries, answers, and file discovery—without leaving the Teams environment. This builds on existing functionality in group chats and meetings, now with the added benefit of persistent visibility and accessibility in channels. This feature will be available on all web and desktop clients (Windows and macOS). A limited set of functionality will also be available on mobile clients.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=481822\" target=\"_blank\">481822</a>\n</p><p><b>When this will happen\n</b></p><p>General Availability (Worldwide): We will begin rolling out on late August 2025 and expect to complete by mid-September 2025.\n</p><p><b>How this affects your organization\n</b></p><p>Once available, users will be able to use SharePoint agents in Teams Channels to retrieve and summarize SharePoint content. This feature is on by default and does not require any configuration changes. It enhances productivity by enabling seamless access to organizational knowledge within the primary collaboration space of Teams Channels.\n</p><p><b>What you can do to prepare\n</b></p><ul><li>This feature will begin rolling out to the worldwide standard release in late August.</li><li>No new admin settings are introduced with this update.</li><li>Existing governance and compliance controls for SharePoint agents will continue to apply.</li><li>Review your organization’s SharePoint agent usage policies and ensure users are aware of the new channel capabilities.</li></ul><p>Learn more: <a href=\"https://support.microsoft.com/office/share-an-agent-from-sharepoint-in-teams-6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3\" target=\"_blank\">Share an agent from SharePoint in Teams</a>&nbsp;(will be updated before rollout)</p><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "481822"
-      },
-      {
-        "Name": "Summary",
-        "Value": "SharePoint agents in Microsoft Teams Channels enable users to access and summarize SharePoint content via @mentions without leaving Teams. Rolling out globally from late August to mid-September 2025, this feature is on by default, requires no admin changes, and supports existing governance and compliance controls."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-10-13T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1137613",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-18T23:15:57.31Z",
-    "Services": [
-      "SharePoint Online",
-      "Microsoft Teams",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-18T23:15:33Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Interact with SharePoint content in Teams channels using agents",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -22154,42 +21993,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction\n</b></p><p>To maintain app performance, security, and access to the latest features, Microsoft To Do will soon require updated operating systems. The iOS version of To Do will support only iOS 17 and later, and the Mac version will support only macOS 13 and later. Users on earlier versions will no longer receive app updates.\n</p><p><b>When this will happen\n</b></p><p>This change will begin rolling out in late August 2025 and end mid-September 2025.\n</p><p><b>How this affects your organization\n</b></p><p>Users running iOS 16 or earlier and macOS 12 or earlier will no longer receive updates to the Microsoft To Do app. This may impact app performance, security, and access to new features for those users.\n</p><p>This change does not affect users already on supported OS versions. No functionality will be removed from existing installations, but users on unsupported versions will not receive future updates.\n</p><p><b>What you can do to prepare\n</b></p><p>To ensure users continue receiving updates and support:\n</p><ul><li>Encourage users to update their devices to iOS 17 or later and macOS 13 or later.\n</li><li>Review your organization's device management policies to ensure compatibility with these OS versions.\n</li><li>Communicate this change to affected users in advance to minimize disruption.\n</li><li>For more information about supported platforms, visit the <a href=\"https://support.microsoft.com/todo\" target=\"_blank\">https://support.microsoft.com/todo</a>.\n</li></ul><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft To Do will stop supporting iOS 16 and macOS 12 starting late August to mid-September 2025. Updates will require iOS 17 or macOS 13 and later. Users on older versions won't receive updates, potentially affecting app performance and security. Organizations should encourage OS upgrades and update device policies."
-      }
-    ],
-    "EndDateTime": "2025-10-13T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1129721",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-08-05T23:00:59.873Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-05T23:00:45Z",
-    "Tags": [
-      "Retirement"
-    ],
-    "Title": "Microsoft To Do ending support for iOS 16 and macOS 12",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated August 5, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re expanding the file types supported in Copilot Chat to align with the Microsoft Search experience. This enhancement allows users to ground their questions in a broader range of content types, improving the relevance and accuracy of Copilot responses.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=492268\" target=\"_blank\">492268</a>.</p><p><b>When this will happen</b></p><p>General Availability (Worldwide): We will begin rolling out in early August 2025 (previously late August) and expect to complete by early August 2025 (previously mid-September).</p><p><b>How this will affect your organization</b></p><p>Users will be able to ask Copilot questions about additional file types, including CAD, ZIP, and MP4. This update enhances Copilot’s ability to retrieve and reason over content from a wider variety of files, improving productivity and search flexibility. </p><p>There are no changes to the user experience with this update — the feature enhancement is entirely on the back end and will not alter the Copilot interface or behavior for users.</p><p>This feature will be on by default.</p><p><b>What you need to do to prepare</b></p><p>No action is required at this time. However, to take advantage of this feature, users must be licensed for Microsoft 365 Copilot Chat. Eligible licenses include:\n</p><ul><li>Microsoft 365 A1/A3/A5 (including MA3/MA5 for students and faculty)\n</li><li>Microsoft 365 Business Basic, Standard, and Premium\n</li><li>Microsoft 365 E3/E5\n</li><li>Microsoft 365 F1/F3\n</li><li>Microsoft Teams (all SKUs including Enterprise, Essentials, and Rooms)\n</li><li>Office 365 A1/A1 Plus/A3/A5\n</li><li>Office 365 E1/E1 Plus/E3/E5\n</li><li>Office 365 F3\n</li></ul><p>Note: Versions labeled \"(no Teams)\" and \"EEA (no Teams)\" are also supported.</p><p>Learn more:&nbsp;</p><ul><li><a href=\"https://support.microsoft.com/topic/file-formats-supported-by-microsoft-365-copilot-1afb9a70-2232-4753-85c2-602c422af3a8\" target=\"_blank\">File formats supported by Microsoft 365 Copilot</a></li><li><a href=\"https://learn.microsoft.com/copilot/manage\" target=\"_blank\">Manage Microsoft 365 Copilot Chat | Microsoft Learn</a></li></ul><p><b>Compliance considerations</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed? - Yes. Additional file types are now accessed for grounding Copilot responses.</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data? - Yes. Copilot’s grounding capabilities are extended to more file types.</li><li>Does the change provide users any new way of interacting with generative AI? - Yes. Users can now query Copilot using content from more file types.</li></ul>",
       "ContentType": "html"
     },
@@ -22302,52 +22105,6 @@
       "Admin impact"
     ],
     "Title": "Teams Discover feed Service migration",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 2, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Coming soon for Microsoft 365 Copilot: When writing Copilot prompts in the chat box, users will be able to use CIQ to select Microsoft SharePoint and Microsoft OneDrive folders using the existing <i>Attach cloud files</i> icon.</p><p><a href=\"https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\" target=\"_blank\">Context IQ (CIQ)</a> is a set of AI capabilities from Microsoft that allows users to search for, select, and insert relevant enterprise or personal data directly into their prompts or conversations. This capability helps users to “ground” or anchor their prompts in specific, contextually relevant data, making responses more accurate, specific, and useful.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=413109\" target=\"_blank\">413109</a>.\n</p><p>A Microsoft 365 Copilot license is required to use this feature. \n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out late July 2025 (previously late June) and expect to complete by late August 2025 (previously late July).</p><p><b>How this will affect your organization:</b>\n</p><p>No impact to tenant admins. This change is available by default. Users will be able to attach a OneDrive folder or a SharePoint folder to their prompt, similar to how they can select files to attach before the rollout. Users can only select folders that they own or that are shared to the user.\n</p><p>To add OneDrive or SharePoint folders to add to their Copilot prompt, users can select the <i>Attach cloud files</i> icon in the Copilot chat box:</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/7f2274c2-8455-469c-b1cd-12db01dbfd46\" style=\"width: 400px;\" alt=\"user controls\"></p><p>From the new window, users can select the desired folders to add to their Copilot prompt:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/45e17155-3a42-4e77-8c25-455325d33981\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before or after the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\" target=\"_blank\">Using Context IQ to refer to specific files, people, and more in Microsoft 365 Copilot - Microsoft Support</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "413109"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot will soon allow users to select SharePoint and OneDrive folders when writing prompts using the \"Attach cloud files\" icon. This feature will roll out from late July to late August 2025. No admin action is required, but users should be informed. A Copilot license is needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-10-13T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC973504",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-04T19:34:47.523Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-01-07T00:18:12Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Select Microsoft SharePoint and Microsoft OneDrive folders when writing prompts",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
