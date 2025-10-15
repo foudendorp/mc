@@ -398,7 +398,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"503557\":[{\"RoadmapId\":503557,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T03:17:30.9057335Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T03:17:30.9057338Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T03:17:30.9057339Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T03:17:30.9057341Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T03:17:30.9057342Z\",\"LatestRing\":null}]}"
+        "Value": "{\"503557\":[{\"RoadmapId\":503557,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T11:02:29.8460102Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T11:02:29.8460103Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T11:02:29.8460104Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T11:02:29.8460107Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T11:02:29.8460107Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13359,7 +13359,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16961,44 +16961,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": "2025-09-14T07:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 2, 2025: We have updated the content. Thank you for your patience.</p><p><b>Introduction</b></p><p>We are reaching out to inform you of an <b>important security and authentication update</b> that may impact your integration with the Microsoft Teams PowerShell Module. As part of our ongoing commitment to strengthening security across Microsoft 365 services, we are updating the authentication requirements for <b>application-based authentication with Administrative Units</b>&nbsp;in the Teams PowerShell Module.</p><p>These changes are designed to ensure that Entra applications with Administrative Units used for backend access to Teams PowerShell are properly scoped and secured. If your organization uses Entra applications to automate or manage Teams via PowerShell, action is required to avoid service disruption.&nbsp;</p><p><b>When will this happen</b></p><p>This change will take effect on Monday, September 15, 2025.</p><p><b>How this affects your organization</b></p><p>If your organization uses Entra applications to authenticate against the Microsoft Teams PowerShell Module, you must update the <b><i>Application&nbsp;</i></b> permissions to avoid disruption. </p><p>Specifically:</p><ul><li><b>RoleManagement.Read.Directory</b>: Required for all Entra applications to verify association with an Administrative Unit.</li><li><b>GroupMember.Read.All</b>: Required if your application with Administrative Units uses the following cmdlets:<ul><li><code>*-CsGroupPolicyAssignment</code></li><li><code>*-CsGroupPolicyPackageAssignment</code></li></ul></li></ul><p>No changes are required for delegated permissions.</p><p><b>What you can do to prepare</b></p><p>To ensure uninterrupted access:</p><p>1. Review your Entra applications:</p><p></p><ul><li>Go to <i>Microsoft Entra ID</i> &gt; <i>Roles and administrators</i>.</li><li>Check the <i>Teams Administrator</i>&nbsp;roles for any Entra applications or service principals, under the scope of Administrative Units, used with Teams PowerShell.</li></ul><p>2. Update API permissions:</p><ul><li>Navigate to <i>Microsoft Entra ID</i> &gt; <i>App registrations</i>.</li><li>•\tLocate the relevant application under the scope of Administrative Units and add the following permissions:<br><ul><li><code>GroupMember.Read.All</code></li><li><code>RoleManagement.Read.Directory</code></li></ul></li></ul><p></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b34dd591-e907-4af1-b6c4-45d5bff1e6f4\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>3. Test your integrations to confirm continued functionality.</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/teams-powershell-application-authentication\" target=\"_blank\">Application-based authentication in Teams PowerShell Module</a>.</p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting September 15, 2025, Microsoft Teams PowerShell Module requires updated application permissions for Entra applications using Administrative Units: RoleManagement.Read.Directory for all and GroupMember.Read.All for specific cmdlets. Organizations must review and update these permissions to avoid service disruption."
-      }
-    ],
-    "EndDateTime": "2025-10-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1134747",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-09-02T13:37:14.843Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-13T23:31:21Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "Admin impact"
-    ],
-    "Title": "Security Update: New Authentication Requirements for integration with Microsoft Teams PowerShell Module",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": null,
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -19387,43 +19349,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction</b></p><p>Starting September 15, 2025, the <i>Tonal Rewrite</i> preview feature in Outlook Web Access (OWA) will be retired.&nbsp;</p><p><b>Why This Change?</b></p><p>The <i>Tonal Rewrite</i> experimental feature was introduced to help users improve sentences tone in emails by proactively offering AI-generated alternatives. While it has been a valuable tool for many, we are evolving our writing assistance capabilities to better align with how users write and revise content today using modern Copilot capabilities.</p><p><b>When this will happen</b></p><p>This feature will no longer be supported after September 15, 2025.</p><p>\n</p><p><b>How this affects your organization</b></p><p>Tonal Rewrite was introduced as an experimental feature to help users improve the tone of their email content using AI-generated suggestions. With its retirement, users will no longer see tonal suggestions in OWA.</p><p>Instead, users can leverage Copilot in Outlook, which offers:</p><ul><li><b>Context-aware rewriting: </b>Highlight text and generate refined alternatives.</li><li><b>Prompt-based editing: </b>Ask Copilot to rewrite, summarize, or adjust tone using natural language.</li><li><b>Iterative refinement: </b>Use <i>Fine tune your rewrite</i>&nbsp;to guide Copilot through multiple revision rounds.</li></ul><p>These enhancements provide greater flexibility and control, improving writing efficiency and confidence.</p><p><b>What you can do\n</b></p><p>No admin action is required.</p><p>We recommend encouraging users to explore the Auto-Rewrite capability via Copilot in Outlook:</p><ul><li>Highlight the text to revise.</li><li>Click the Copilot icon.</li><li>Select <i>Auto-Rewrite</i> or <i>Change Tone</i>.</li><li>Review and apply the suggestion.</li></ul><p>We appreciate your feedback and look forward to supporting your writing journey with even more powerful tools.</p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "The Tonal Rewrite feature in Outlook Web Access will retire on September 15, 2025. Users will transition to using Copilot in Outlook for advanced, context-aware rewriting and tone adjustments, requiring no admin action. This change enhances writing flexibility and efficiency with AI-powered tools."
-      }
-    ],
-    "EndDateTime": "2025-10-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1139486",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-22T00:05:12.773Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-22T00:05:06Z",
-    "Tags": [
-      "User impact",
-      "Retirement"
-    ],
-    "Title": "Feature Retirement: Tonal Rewrite in Outlook Web Access (OWA)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>As part of our ongoing investment in a unified and modern OneNote experience, OneNote for Windows 10 will reach end of support on October 14, 2025. After this date, the app will enter read-only mode. Users will still be able to view their notes, but editing, creating, or syncing content will no longer be supported.</p><p>\nWe recommend transitioning to OneNote on Windows (OneNote for Microsoft 365) to ensure continued productivity, security, and access to the latest features.</p>\n\n<p><b>When this will happen</b></p><p>\nSupport for OneNote for Windows 10 ends on <b>October 14, 2025</b>. After this date, the app will become read-only.</p>\n\n<p><b>How this affects your organization</b></p><ul>\n<li>Users will no longer be able to edit, create, or sync notes in OneNote for Windows 10.</li>\n<li>Existing notes will remain accessible in read-only mode.</li>\n<li>Transitioning to OneNote on Windows (Microsoft 365) provides a modern, secure, and feature-rich experience that enhances collaboration and productivity.</li>\n<li>Migrating reduces IT support overhead and aligns your organization with Microsoft 365 innovations.</li>\n</ul><p></p>\n\n<p><b>What you can do to prepare</b></p><p>\nTo ensure a smooth transition:\n</p><ul>\n<li>Begin migrating users to OneNote on Windows (Microsoft 365).</li>\n<li>Use the available migration guide and script to support deployment.</li>\n<li>For help, contact Microsoft Support or use in-app support via <b>Help &gt; Support</b> in OneNote on Windows.</li>\n</ul>\n<b>Resources:</b><br>\n<ul><li>Enterprise: <a href=\"https://learn.microsoft.com/en-us/microsoft-365-apps/deploy/onenote-for-windows-10-migration-guide\">OneNote for Windows 10 Migration Guidance for Enterprise</a>.</li><li>Education:&nbsp;<a href=\"https://learn.microsoft.com/en-us/microsoft-365-apps/deploy/edu-it-admins-migration-guide?source=recommendations\">OneNote Migration Guide for Microsoft 365 Education Admins</a></li><li>Learn More:&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/onenote-for-windows-10-support-is-ending/4445230\" target=\"_blank\">OneNote for Windows 10 Support is ending</a></li></ul><p></p>\n\n<p><b>Compliance considerations</b><br>\n</p><table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Impact</th></tr>\n<tr><td>Does the change modify, interrupt, or disable any of the following capabilities (Purview)?</td><td>Retention policies and deletion workflows may be impacted if users rely on OneNote for Windows 10. Admins should validate retention settings in OneNote for Microsoft 365.</td></tr>\n<tr><td>Does the change describe the features/components that have been retired or altered?</td><td>OneNote for Windows 10 is being retired and will become read-only.</td></tr>\n<tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Users can choose to install and use OneNote on Windows (Microsoft 365).</td></tr>\n</tbody></table><p></p>",
       "ContentType": "html"
     },
@@ -20599,45 +20524,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated August 14, 2025: The retirement began on August 11, 2025, and will be complete by September 15, 2025. The retirement in August will NOT impact your current models that use these services, we will still refresh and support items until September 15&nbsp; when it will be deprecated. As of August 11, the ability to add new models that leverage these services has been removed.</p><p><b>Introduction\n</b></p><p>We’re retiring Cognitive Services and Azure Machine Learning (Azure ML) features in Power BI. This change supports our investment in Microsoft Fabric, where Auto ML and other AI capabilities will continue to evolve and improve.\n</p><p><b>When this will happen\n</b></p><p>The retirement will begin on August 11, 2025, and complete by September 15, 2025. The retirement starting in August will NOT impact your current models that use these services, we will still refresh and support items until Sept 15th when it will be deprecated. In August, we will remove the ability to add new models that leverage these services.</p><p><b>How this affects your organization\n</b></p><p>If your organization is using Cognitive Services or Azure ML in Power BI, please note:</p><p>Starting August 11:\n</p><ul><li>Users will no longer be able to create new models using Cognitive Services or Azure ML.\n</li><li>The UI entry point for these features will be removed.</li><li>Existing models will continue to refresh</li></ul><p>Until September 15:\n</p><ul><li>Existing models that use AI services will continue to refresh.\n</li><li>After September 15, refresh support for these models will be discontinued.\n</li></ul><p>These changes will happen automatically. No admin action is required. Please notify your users, update internal documentation, and share information about AI services in Fabric.\n</p><p><b>What you can do to prepare\n</b></p><ul><li>Review existing Dataflows for dependencies on Cognitive Services or Azure ML.\n</li><li>Transition to Auto ML in Fabric for supported AI scenarios.\n</li><li>Learn more: <a href=\"https://learn.microsoft.com/en-us/fabric/data-science/ai-services/ai-services-overview\" target=\"_blank\">AI services in Fabric (preview)</a></li><li>Learn more: <a href=\"http://Learn more: https://powerbi.microsoft.com/en-us/blog/cognitive-services-and-azure-ml-for-dataflows-will-be-fully-retired-by-september-15th-2025/\" target=\"_blank\">Microsoft Power BI Updates Blog: Cognitive services and Azure ML will be fully retired by September 15th, 2025</a></li></ul><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Power BI is retiring Cognitive Services and Azure Machine Learning features between August 11 and September 15, 2025. New model creation is disabled from August 11; existing models refresh until September 15, after which support ends. Users should transition to Fabric AI services and update documentation accordingly."
-      }
-    ],
-    "EndDateTime": "2025-10-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1124567",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-14T21:44:01.307Z",
-    "Services": [
-      "Power BI"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-30T00:08:51Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Power BI Cognitive Services and Azure Machine Learning features retiring; transition to Fabric AI services",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated August 14, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re introducing a new filtering capability in Microsoft Copilot that allows users to refine their view of past conversations. This enhancement helps users quickly locate relevant chats aligned with their workflows, making it easier to revisit prior prompts, responses, and context.</p><p><i>i. example of new filtering experience in Microsoft Copilot</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/581a0a7b-5b20-4d2d-ac96-3d92dded3619/ecba97de9db8b44a2b50aa6a51f0299d1eb75801.png\" style=\"width: 400px;&quot;\" =\"\"=\"\" alt=\"Screenshot of a Copilot chat window highlighting the Filter feature.\"><i><br></i></p><p><br></p><p>For more information, refer to Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497910\" target=\"_blank\">497910</a>.&nbsp;</p><p>\n</p><p><b>When this will happen</b></p><ul><li><b>General Availability (Worldwide): </b>We will begin rollout in&nbsp;late August&nbsp;2025 and expect to complete by early September 2025.</li><li><b>General Availability (DoD):</b> We will begin rollout in late September&nbsp;2025 and expect to complete by late October 2025.</li><li><b>General Availability (GCC and GCC High):</b> We will begin rollout in early November 2025 (previously late September) and expect to complete by early December 2025 (previously early October).</li></ul><p><b>How this affects your organization</b></p><p>Previously, users could only browse their full Copilot chat history without filtering options. With this update, selecting <i>All conversations</i> in the navigation pane will display the full history, and users can apply filters to narrow results based on their current needs.\n</p><p>This feature is on by default and requires no admin configuration.\n</p><p><b>What you can do to prepare</b></p><p>No admin action is required. We recommend informing your users about this new capability so they can take full advantage of the improved navigation experience in Copilot. If your organization provides training or onboarding for Copilot, consider including this update in your materials.\n</p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -21375,42 +21261,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We're enhancing threaded channel experiences by extending the thread summarization feature to post/reply channels. This update replaces the <i>Highlights from this conversation</i>&nbsp;option in the <i>More options menu</i>&nbsp;with <i>Summarize Thread</i>, providing a consistent and improved way to generate conversation summaries across all channel types.\n</p><p><b>When this will happen</b></p><p>General Availability: Rollout will begin in mid-August 2025 and is expected to complete by mid-September 2025.\n</p><p><b>How this affects your organization</b></p><p>Previously, users could select <i>Highlights from this conversation</i>&nbsp;to summarize posts and replies. This option is now replaced with <i>Summarize Thread</i>, which shows up for conversations with more than 1000 characters. This new option offers a more intuitive and consistent experience across threaded and post/reply channels. The feature is enabled by default on both desktop and mobile and does not require admin configuration.</p><p><i style=\"\">Figure i. Find the Summarize Thread option in the More Options menu if there are a minimum of 1000 characters in a conversation</i></p><p></p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e9ff56cd-854b-4cda-ae17-515c658fa06a\" style=\"width: 269px;\" alt=\"user settings\"><i style=\"background-color: rgb(255, 255, 0);\"></i><p></p><p></p><p></p><p><i>Figure ii: Your summary shows up on both desktop and mobile</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/53c073e6-6592-4c9b-964c-d51d16530fdf\" style=\"width: 100%;\" alt=\"user settings\"></p><p></p><p>\n</p><p><b>What you can do to prepare</b></p><ul><li>Inform users about the updated summarization option.\n</li><li>Update internal training materials or documentation to reflect the new label and functionality.\n</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will replace \"Highlights from this conversation\" with \"Summarize Thread\" in post/reply channels starting mid-August 2025. This new feature, enabled by default, summarizes conversations over 1000 characters for a consistent experience across channels, requiring no admin setup. Inform users and update training accordingly."
-      }
-    ],
-    "EndDateTime": "2025-10-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1134178",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-12T23:04:59.893Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-12T23:04:54Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Microsoft Teams: “Summarize thread” replaces “Highlights from this conversation” in post/reply channels",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction</b></p><p>To help reduce accidental message sends, Outlook mobile is updating the placement of the Send button in the compose view. The button will move from the bottom toolbar to the header area, placing it in a less crowded location. This change supports a more intentional and error-free messaging experience for mobile users by minimizing the likelihood of accidental taps.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499900\" target=\"_blank\">499900</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide, GCC, GCC High, and DoD):&nbsp;</b>We will begin rolling out in early September 2025 and expect to complete by early March 2026.</p><p><b>How this will affect your organization</b></p><p>Once this change is deployed, users on <b>Outlook mobile clients (Android and iOS)</b> will see the Send button relocated to the top of the compose view. This update is designed to reduce accidental taps and improve usability. The feature will be <b>enabled by default</b>.</p><p>The following screenshots illustrate the updated Send button placement in the compose view on Outlook mobile.</p><p><i>Image 1 - New Send button placement in Outlook for iOS – full compose view:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c33e40e1-d34f-486a-896a-1d5c7ee1ff7b/09c2ffc6070adc243487147ca8cc483802da9856.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Image 2 - New Send button placement in Outlook for iOS – small compose view:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/58e48622-30d3-44ab-8a7e-b5a4892c0892/45010350909549feed85806c99cd2f43b101a58c.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Image 3 - New Send button placement in Outlook for Android – full compose view:&nbsp;</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6511f543-36b4-495a-be61-6ce85eea12e6/e146f0b843e6e9ca7f73bc3b4bbbaf8af87d43a9.png\" alt=\"user settings\" style=\"width: 400px;\"></p><p>\n</p><p>This change does <b>not affect Outlook on the web or desktop clients</b>.</p><ul><li><b>Add-ins and customizations: </b>This change does not affect existing add-ins or customizations in the compose view.\n</li><li><b>Accessibility tools and keyboard shortcuts:</b> There will be no impact.\n</li><li><b>Consistency: </b>The new placement is consistent across screen sizes and supported browsers.</li></ul><p><b>What you can do to prepare</b></p><p>No admin action is required.\n</p><p>We recommend notifying your users about this change and updating any relevant training materials or documentation to reflect the new button placement.</p><p>If applicable, test any custom add-ins or UI extensions in the compose view to ensure compatibility, although no known impact is expected.</p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -21445,51 +21295,6 @@
       "Admin impact"
     ],
     "Title": "Outlook for iOS and Android: Send button relocated to reduce accidental sends",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We're introducing a new lifecycle management feature that helps admins identify and take action on ownerless agents—those created by users who have left the organization. This update improves visibility and control over agent inventory, helping maintain security and governance across your tenant.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=481519\" target=\"_blank\">481519</a>.</p><p><b>When this will happen</b></p><p>General Availability (Worldwide): Rollout begins in late August 2025 and is expected to complete by mid-September 2025.</p><p><b>How this affects your organization</b></p><p>Admins will be able to:</p><ul><li>Use the Missing an Owner dashboard card to filter and view agents without valid owners.</li><li>Select individual agents to review details and choose to delete or block them.</li><li>Ability for admin to assign an owner for a ownerless agent is coming soon in October.<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/dfa2d5ed-27ab-4755-bf2a-ed0fb32c2089\" style=\"width: 400px;\" alt=\"Screenshot of Ownerless agents count view.\"></p></li></ul><p><i>Note: </i>Only agents created using <i>Agent Builder</i> or <i>Agents Toolkit</i> can be deleted or blocked from within the MAC portal.</p><p>This feature enhances security and ensures proper lifecycle management of Copilot agents when creators exit the organization.</p><p></p><p></p><p><b>What you can do to prepare</b></p><p>Inform your admin team about this upcoming capability so they’re ready to manage ownerless agents once the feature becomes available. No configuration is required prior to rollout.</p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "481519"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Admins will gain lifecycle controls to identify, review, delete, or block ownerless Copilot agents created by departed users, improving security and governance. The feature rolls out globally from late August to mid-September 2025, with owner assignment for agents coming in October. No prior configuration is needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Web"
-      }
-    ],
-    "EndDateTime": "2025-10-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1134170",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-12T23:02:00.41Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-12T23:00:50Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "[Copilot Extensibility] Admins can manage ownerless Copilot agents with new lifecycle controls",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -25921,7 +25726,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"483506\":[{\"RoadmapId\":483506,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378722Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null}]}"
+        "Value": "{\"483506\":[{\"RoadmapId\":483506,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378722Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
