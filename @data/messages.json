@@ -4,6 +4,500 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p></p><p></p><p><b><b>Introduction</b></b></p><p>We’re launching a new Viva Insights experience focused solely on Microsoft Copilot and AI agent analytics in the Copilot Analytics Viva Insights web app. By default, <i>Behavioral insights</i>&nbsp;will be disabled for all new customers, and existing customers who haven't previously accessed them. <i>Behavioral insights</i> do not measure Copilot or AI agent usage but provide a deeper understanding of how an organization gets work done such as focus, learning, network, collaboration, and meetings etc. The AI or Viva Insights (VI)&nbsp;admin can enable <i>Behavioral insights</i>&nbsp;via Viva Feature Access Management (VFAM)  User Experience or PowerShell. More details about what's included in <i>Behavioral insights</i> are provided in the table below.</p>\n\n<p><b><b>When this will happen:</b></b></p><ul><li><b>Mid-October 2025: </b>VFAM policy and PowerShell cmdlet available to all customers.</li><li><b>Mid-November 2025: </b>Experience changes begin rolling out to all customers.</li></ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:&nbsp;</b>All Copilot Analytics - Viva insights customers</p><p></p><p><b>What will happen:</b></p><ul><li><b>For existing Viva Insights web app users prior to October 15th, 2025:</b> <i>Behavioral insights</i> will be disabled if one of the following criteria is met. For others, there will be no change.<ul><li>No Analyst assigned since May 2025 and no reports or queries were ever created or published by analyst on Advanced Insights.</li></ul></li><li><b>For new customers post October 15th, 2025: </b><i>Behavioral insights</i> will be disabled by default.</li><li>There may be slight delay between the availability of the VFAM control and the disable policy being set.&nbsp;</li><li>For all customers, this change will begin to have an impact on the experience in mid-November 2025. Until then, the AI or VI admin can enable or disable <i>Behavioral insights</i> as needed. When experience changes roll out in mid-November 2025, updates to the policy will be honored.&nbsp;</li><li><i>Note: </i>This change does not impact data sent to Insights from Viva Skills, Learning, Glint, Organizational data in Microsoft 365. To leverage Insights from these data sets, an Analyst must be assigned in Viva Insights. </li><li>The AI Admin or VI Admin can enable or disable behavioral insights at any time at the tenant level using the <i>Behavioral insights</i>&nbsp;policy in <a href=\"https://learn.microsoft.com/viva/feature-access-management\" target=\"_blank\">VFAM</a>&nbsp;UX or using PowerShell: </li><li>The following table details what’s visible and to whom, when behavioral data is enabled and disabled.&nbsp; &nbsp;</li></ul><table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Role</th>\n    <th>Behavioral Insights OFF</th>\n    <th>Behavioral Insights ON</th>\n  </tr>\n  <tr>\n    <td>CXO, GM or delegate</td>\n    <td>\n      <ul>\n        <li>Access only Copilot and AI agent reports (e.g., Microsoft Copilot Dashboard, Custom studio agent report)</li>\n        <li>Access reports shared with them</li>\n        <li>No behavioral insights (e.g., Ways of Working, Meeting Effectiveness)</li>\n      </ul>\n    </td>\n    <td>\n      <ul>\n        <li>Access only Copilot and AI agent reports (e.g., Microsoft Copilot Dashboard, Custom studio agent report)</li>\n        <li>Access reports shared with them</li>\n        <li>No behavioral insights (e.g., Ways of Working, Meeting Effectiveness)</li>\n      </ul>\n    </td>\n  </tr>\n  <tr>\n    <td>Analyst</td>\n    <td>\n      <ul>\n        <li>Access only Copilot and AI agent reports (e.g., Microsoft Copilot Dashboard, Custom studio agent report)</li>\n        <li>No behavioral insights (e.g., Ways of Working, Meeting Effectiveness)</li>\n        <li>Visual customization of PowerBI reports</li>\n        <li>Publish reports to others in the organization</li>\n      </ul>\n    </td>\n    <td>\n      <ul>\n        <li>Full Advanced analysis access to all Copilot and behavioral metrics and reports</li>\n        <li>Create custom queries, set up PowerBI reports, do visual customization</li>\n        <li>Publish reports to others in the organization</li>\n      </ul>\n    </td>\n  </tr>\n  <tr>\n    <td>Admin</td>\n    <td>\n      <ul>\n        <li>Can manage the <i>Behavioral insights</i>&nbsp;policy in VFAM</li>\n        <li>Sees in-product banners about the state of <i>Behavioral insights</i></li>\n      </ul>\n    </td>\n    <td>\n      <ul>\n        <li>Can manage the <i>Behavioral insights</i> policy in VFAM</li>\n        <li>Sees in-product banners about the state of <i>Behavioral insights</i></li>\n      </ul>\n    </td>\n  </tr>\n</tbody></table><p><b><b>What you can do to prepare:</b></b></p><ul><li>Review your privacy and compliance requirements to determine if behavioral insights should be enabled for your organization.</li><li>Use the available VFAM control to enable behavioral insights if that is needed for your organization.&nbsp;</li><li>Inform your admins, analysts, and leaders about the new control and its impact on available reports and metrics.&nbsp;</li><li>Update internal documentation and training materials to reflect the new Copilot-only experience if B<i>ehavioral insights</i> is turned off.&nbsp; </li></ul><p><b><b>Compliance considerations</b></b></p><table border=\"1\">\n<tbody><tr><th>Question</th><th>Explanation</th></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>introduces a Copilot-only experience in Viva Insights, separating behavioral data from AI agent analytics.</td></tr>\n<tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Admins can manage the <i>Behavioral insights</i> policy via VFAM UX or PowerShell.</td></tr>\n<tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Admins can enable or disable <i>Behavioral insights</i> at the tenant level.</td></tr>\n</tbody></table><p></p><p></p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting mid-November 2025, Viva Insights will disable Behavioral insights by default for new and some existing customers, focusing on Copilot and AI agent analytics. Admins can enable or disable Behavioral insights via VFAM or PowerShell. Behavioral insights provide deeper organizational work patterns but are separate from AI usage data."
+      }
+    ],
+    "EndDateTime": "2025-12-17T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173209",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-16T00:12:42.547Z",
+    "Services": [
+      "Microsoft Viva",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-16T00:11:47Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Viva Insights web app: Behavioral insights control",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction:</b></b></p><p>To support deeper analysis of Copilot adoption, Microsoft is introducing a <b>new export capability in the <i>Copilot Dashboard</i></b>. This feature allows dashboard users with company-level access to download de-identified Copilot usage metrics, aggregated by user and week, from the past six months. Organizations can use this data to track adoption trends, optimize licensing, and support AI transformation strategies.</p><p>This feature requires at least 50 Microsoft 365 Copilot licenses and applies to the Viva Insights web app.</p><p><b><b>When this will happen:</b></b></p><ul><li><b>Public Preview:</b> Begins in late November 2025, completes by late December 2025.</li><li><b>General Availability (Worldwide):</b> Begins in early February 2026, completes by late February 2026.</li></ul><p><b><b>How this affects your organization:</b></b></p><p>Who is affected:</p><p>Copilot Dashboard users with <b>full company-level data access</b>, including senior leaders (as <a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard#using-entra-id-data\" target=\"_blank\">identified in Entra ID</a>), admin-assigned company-level users, delegates with company-level access, as well as global analysts and admins.&nbsp;</p><p>Note: Group managers with data access limited to their own teams will <b>not </b>have access to this feature.</p><p>What will happen:</p><ul><li>Users will be able to export de-identified, row-level Copilot usage metrics from the dashboard.</li><li>The dataset includes weekly, user-level metrics from the past six months.</li><li>The export supports Copilot usage analysis across apps (such as Word, Excel, Teams), and includes two attributes: Organization, and Job function.</li><li>Organizations can use the data to track usage patterns, generate insights to inform adoption strategies, optimize licensing, and measure ROI.</li><li>The feature is <b>enabled by default</b> for eligible users.</li><li>Admins can manage access via Viva Feature Access Management (VFAM) settings, under <i>Module: Viva Insights; Feature: Copilot Metrics Export</i>.</li><li>No impact to user workflow unless accessed by eligible users.</li></ul><p><i>Screenshot 1 - View of the new Microsoft Copilot dashboard:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d3b1ff4d-e865-4735-99fe-89a85a92adae/c6b2526f8b2d42d219252086e589436f216baccb.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 2 - Example of output:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ed28db4c-5c0c-42f4-a9fc-ce5d61fd13a4/eadf652eb77fa2338ecc3cc2f0623643ba7ca107.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare:</b></b></p><ul><li>Review the assignment of the Copilot dashboard users with full company-wide data access and adjust VFAM policies as needed.</li><li>Communicate the upcoming feature to eligible users so they know what to expect.</li><li>No admin setup is required to start using the export.</li><li>Admins can disable the feature at the tenant or group level at any time using VFAM settings.</li></ul><p>Learn more:&nbsp;</p><p><a href=\"https://learn.microsoft.com/viva/feature-access-management#viva-features-management\" target=\"_blank\">Microsoft Viva Feature access management | Microsoft Learn</a></p><p><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard\" target=\"_blank\">Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Microsoft Learn</a>\n</p><p></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is introducing a public preview of data export in the Copilot Dashboard, allowing users with company-level access to download de-identified weekly Copilot usage metrics from the past six months. Available late November 2025, it supports adoption analysis and licensing optimization for organizations with 50+ Copilot licenses."
+      }
+    ],
+    "EndDateTime": "2026-03-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173208",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-16T00:11:24.213Z",
+    "Services": [
+      "Microsoft Viva",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-16T00:11:07Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Copilot Analytics: Data export public preview for Copilot metrics in the Copilot dashboard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p><b><b>Introduction</b></b></p>\nMicrosoft is expanding availability of the <b>Copilot Notebooks</b> feature to younger users. Previously limited to users aged 18 and older, this update allows <b>13–17 year-olds with Microsoft 365 Copilot plans and Entra ID accounts</b> to use Copilot Notebooks across supported platforms.&nbsp;<p></p><p></p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=510105\" target=\"_blank\">510105</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\nRollout will begin <b>mid-November 2025</b> and is expected to complete by <b>late November 2025</b>.<p></p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:&nbsp;</b>Organizations with <b>13–17 year-old users</b> (e.g., students) who have <b>Microsoft 365 Copilot plans</b> and <b>Entra ID accounts</b>.</li>\n\n<li><b>What will happen:</b>\n<ul>\n<li>Copilot Notebooks will become available to eligible 13–17 year-old users.</li>\n<li>The feature will be accessible in the <b>Microsoft 365 Copilot app</b> and <b>OneNote app</b> across Web, Windows, Mac, iOS, iPadOS, and Android.</li>\n<li>By default, the feature will be <b style=\"\">ON</b> for all eligible users.</li>\n<li>Existing admin policies will continue to apply.</li>\n<li>Admins can restrict access using <b>Cloud Policy</b>.</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review and configure your organization’s <b>Cloud Policy settings</b> to manage access for younger users: <a href=\"https://learn.microsoft.com/microsoft-365/loop/cpcn-admin-configuration\">Configure Copilot Notebooks access</a>.</li><li>Communicate this change to helpdesk and education support staff.</li><li>Update internal documentation if you include guidance on Copilot Notebooks.</li>\n</ul><p><b><b>Compliance considerations:</b></b></p>\nNo compliance considerations identified, review as appropriate for your organization.<p></p>\n<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "510105"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Copilot Notebooks will be available to 13–17 year-olds with Microsoft 365 Copilot plans and Entra ID accounts starting mid-November 2025. The feature will be on by default across supported platforms, with admin policies and Cloud Policy controls applicable for managing access."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-12-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173204",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-16T00:08:48.437Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-16T00:08:21Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Copilot Notebooks will be available to 13-17 year-olds",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re introducing a new <b>pay-as-you-go feature usage report</b> in Microsoft Purview Insider Risk Management. This report provides detailed insights into billed processing unit usage across data source categories and activity indicators. It’s designed to help Insider Risk Management (IRM) admins improve budget planning, identify cost-saving opportunities, and fine-tune policy configurations.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=511816\" target=\"_blank\">511816</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview (Worldwide):</b> Begins mid-November 2025 and completes by mid-November 2025.</li>\n<li><b>General Availability (Worldwide):</b> Begins mid-February 2026 and completes by mid-February 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Purview Insider Risk Management in tenants using pay-as-you-go billing.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A new report will be available in the <i>Reports </i>section of <i>Insider Risk Management</i>.</li>\n    <li>The report provides a granular breakdown of billed processing unit usage by data source and activity indicator.</li>\n    <li>Admins can use this report to identify high-cost areas and optimize policy configurations.</li>\n    <li>The report is available by default; no configuration is required to enable it.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required to enable the report.</li>\n<li>To access the report go to the <i>Reports </i>section in Insider Risk Management.</li><li>Learn more: <a href=\"https://learn.microsoft.com/purview/insider-risk-management-reports\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Use reports in Insider Risk Management</a></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\">\n<tbody><tr><th>Question</th><th>Explanation</th></tr>\n<tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td><td>The new report enhances visibility into usage patterns, supporting compliance reporting and cost management.</td></tr>\n<tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Access to Insider Risk Management reports can be scoped using role-based access control and Entra ID group membership.</td></tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "511816"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Insider Risk Management introduces a pay-as-you-go feature usage report by mid-February 2026, offering detailed billing insights by data source and activity. This default report helps admins optimize costs and policies without requiring setup, enhancing compliance visibility and access control via Entra ID."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-03-19T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173203",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-16T00:07:45.24Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-16T00:07:33Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview compliance portal: Insider Risk Management – Introduction of pay-as-you-go feature usage report",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>Reminder: Support for the mobile Universal Windows Platform (UWP) apps (Microsoft Word, Microsoft Excel and Microsoft PowerPoint) ended on October 14, 2025. No further updates, security fixes, or technical support will be available for these applications.\n</p><p>We communicated this retirement in MC921113 <i>Support for the Word Mobile, Excel Mobile, and PowerPoint Mobile UWP applications will end on October 14, 2025</i> (published October 2024).</p><p><b><b>When this will happen:</b>\n</b></p><p>This retirement occurred on October 14, 2025.\n</p><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><p>Organizations with users running Word Mobile, Excel Mobile, or PowerPoint Mobile on Windows-based devices.</p><p><b>What will happen:</b></p><p>If Microsoft Windows-based devices within your organization are running Word Mobile, Excel Mobile, or PowerPoint Mobile, we recommend that the applications be removed. While they may continue to function, using unsupported software could lead to potential security risks and other issues.\n</p><p>If you’re using Microsoft Intune, you can run a report to identify devices running these applications. In the Microsoft Intune admin center, go to <i>All services &gt; Apps | Monitor &gt; Discovered apps</i> and search for <code>\"office.word\"</code>, <code>“office.excel”</code>, or <code>“office.powerpoint”</code>. The application version will start with <code>\"16001.14326.xxxxx.x\"</code>.\n</p><p><b><b>What you can do to prepare:</b>\n</b></p><p>To mitigate these risks and ensure your organization remains secure and compliant, we recommend removing these three UWP applications and switching to alternatives:\n</p><ul><li><a href=\"https://www.microsoft.com/microsoft-365/mobile?ocid=oo_support_mix_marvel_ups_support_smcofficemobile_inline\" target=\"_blank\">Microsoft 365 Copilot app</a> for Windows, iOS, or Android devices.</li><li>Word, Excel, and PowerPoint on the web.</li><li>Windows desktop versions of Word, Excel, and PowerPoint in a Microsoft 365 plan. <a href=\"https://www.microsoft.com/microsoft-365/enterprise/microsoft365-plans-and-pricing\" target=\"_blank\">Compare Microsoft 365 Enterprise Plans</a>.</li></ul><p>Learn more about the end of support for the OneNote UWP application (OneNote for Windows 10): <a href=\"https://support.microsoft.com/office/moving-to-onenote-on-windows-4ba7b498-aafc-44b1-8326-a582a6c71196\" target=\"_blank\">Moving to OneNote on Windows - Microsoft Support</a>.</p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "preventOrFixIssue",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Support for Word Mobile, Excel Mobile, and PowerPoint Mobile UWP apps ended on October 14, 2025. Organizations should remove these apps to avoid security risks and switch to Microsoft 365 Copilot, web versions, or desktop apps. Use Microsoft Intune to identify devices running these apps."
+      }
+    ],
+    "EndDateTime": "2025-12-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173198",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-15T23:49:02.467Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-15T23:48:49Z",
+    "Tags": [
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Reminder: Support for the Word Mobile, Excel Mobile, and PowerPoint Mobile UWP applications ended on October 14, 2025",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b>\n</p><p>To streamline the process of drafting emails from Copilot prompts, we’re introducing an <b><i>Edit in Outlook</i> </b>button. When a user’s prompt indicates a strong intent to draft an email (such as “Draft an email to my team thanking them for their hard work on Project K”), the button will appear. Clicking it will open Outlook with a pre-populated draft email, including subject and body fields.</p><p>This feature is available to all users licensed with Microsoft 365 Copilot, with no need for additional licenses or add-ons.</p><p>It works across a broad range of platforms, including Windows Desktop, Mobile, Mac, Web, Teams and Surface Devices, and Linux.</p><p>\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494510\" target=\"_blank\">494510</a>.</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><p><b>General Availability (Worldwide):</b> Rollout begins in late October 2025 and is expected to complete by mid-November 2025.\n</p><p><b>MSIT Deployment:</b> Began in late September 2025.</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>\nAll users of Microsoft 365 Copilot Chat integrated with Outlook.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>Users will see an <i><b>Edit in Outlook</b></i> button when Copilot detects email drafting intent:</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a5323ac9-889b-40ba-9d05-3c63ee2a57cc/dd75c210ab1e1fb18993ed3ea02aeb63c7eebd7d.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Clicking the button opens Outlook with a draft email pre-filled with subject and body.</li>\n<li>No changes to existing admin policies or configurations.</li>\n<li>Feature is <b>enabled by default</b>.</li><li>No additional licensing or add-on is required.</li><li>Supported platforms include:<ul><li>Desktop</li><li>Developer</li><li>Linux</li><li>Mac</li><li>Teams and Surface Devices</li><li>Web</li></ul></li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>&nbsp;</p><p>No action is required at this time. You may choose to:\n</p><ul>\n<li>Communicate this change to helpdesk staff.</li>\n<li>Update internal documentation if you detail this feature.</li></ul><p>Learn more:&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/Microsoft365CopilotBlog/what%E2%80%99s-new-in-microsoft-365-copilot--september-2025/4457317?previewMessage=true\" target=\"_blank\">What’s new in Microsoft 365 Copilot | September 2025 | Microsoft Community Hub</a></p><ul>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "494510"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot introduces an \"Edit in Outlook\" button for drafting emails from Copilot Chat prompts. Available to all licensed users across multiple platforms, it opens Outlook with a pre-filled draft. Rollout starts late October 2025, requires no extra licenses or admin changes, and is enabled by default."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Developer, Linux, Mac, TeamsAndSurfaceDevices, Web"
+      }
+    ],
+    "EndDateTime": "2025-12-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173196",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-15T23:44:00.347Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-15T23:43:03Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Edit in Outlook from Copilot Chat",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b>\n</p><p>We are introducing two new <b>Microsoft Graph APIs</b> that enable admins to programmatically access and manage agents and apps within their organization. These APIs provide greater flexibility for reporting and integration scenarios without relying on manual UI workflows.</p><p>\nThis message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com//microsoft-365/roadmap?filters=&amp;searchterms=502875\" target=\"_blank\">502875</a>.</p>\n\n<p><b><b>When this will happen:</b></b><b>\n</b></p><p><b>General Availability (Worldwide): </b>Rollout will begin in mid-November 2025 and is expected to complete by late November 2025.</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>\nAdmins managing Copilot agents and apps within Microsoft 365 environments.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>New Graph API endpoints will be available:<ul><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages</b> – Retrieves a complete inventory of all agents and apps (Microsoft, External, Shared, and Custom).</li><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages/{id} </b>– Fetches detailed metadata for a specific agent or app, including properties and manifest details.</li></ul></li></ul><ul>\n<li>These APIs allow for automated reporting and integration workflows.</li>\n<li>No changes to existing UI workflows or admin policies.</li><li>These Graph API endpoints are available to users with an existing Microsoft 365 license; no additional license or add-on is required.</li>\n</ul><ul>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Review the <a href=\"https://learn.microsoft.com/graph/api/overview\">Microsoft Graph API documentation</a> to familiarize yourself with usage and capabilities at this time.</li>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "502875"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 is launching two new Graph APIs in November 2025 for admins to manage Copilot agents and apps programmatically. These APIs enable automated reporting and integration without UI changes or extra licenses. Admins should review the Microsoft Graph API documentation to prepare."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-01-02T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173195",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-15T23:42:37.997Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)",
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-15T23:41:56Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Graph APIs for agent and app management",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "Due to reports of unintended token consumption in the Copilot Service workspace app, we have modified the default state of intent-based to be disabled.<br><br><b>How does this affect me? </b><br>All existing Intent-based suggestions customers will need to manually enable the feature.<br><br><b>What action do I need to take? </b><br>To reenable intent-based suggestion functionality: <ol><li>Go to the Copilot Service workspace > Workspaces > Experience profiles</li> <ol type=\"A\"><li>Select an editable experience profile (no lock symbol)</li> <li>Scroll down to configuration</li> <li><b>There are two situations that may be encountered due to delayed uptake of solutions:</b></li><ol type=\"I\"> <li>Intent-based suggestions shows false.</li> <ol><li>Simply enable and save, the feature will become available on CSW refresh.</li></ol> <li>Intent-based suggestions shows true but is not showing up in the AICopilot pane of the CSW page.</li> <ol><li>Toggle the feature to off, then toggle it back on to \"On\".</li> <li>Feature will now display again in the AICopilotPane.</li></ol></ol></ol></ol> For experience profiles, please note that the above steps must applied to all agents in which you intend to enable intent-based suggestions for.",
+      "ContentType": "html"
+    },
+    "Category": "preventOrFixIssue",
+    "Details": [],
+    "EndDateTime": "2025-11-15T23:05:06Z",
+    "HasAttachments": false,
+    "Id": "MC1173185",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-15T23:06:20.683Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-15T23:05:06Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Dynamics 365 Customer Service - Intent-based suggestions has been disabled",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing enhanced supervisor actions in Dynamics 365 Contact Center. This feature will reach general availability on November 14, 2025.<br><br> \n\n<b>How does this affect me?</b><br> \nThis feature enables contact center supervisors to manage operations by assigning and transferring cases or chats. Key functionality of this feature includes:<ul><li><b>Assign Open Case/Chat</b>: Supervisors can assign open cases or chats to available agents.</li> \n<li><b>Transfer Active Case/Chat</b>: Supervisors can transfer active cases or chats to another agent.</li> \n<li><b>Reassign Case/Chat to Another Queue</b>: Supervisors can reassign cases or chats to different queues.</li> \n<li><b>Release Case to Queue</b>: Supervisors can release cases back to the queue, making them available for reassignment.</li></ul> \n\n<b>What action do I need to take?</b><br> \nThis message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-15T20:16:04Z",
+    "HasAttachments": false,
+    "Id": "MC1173157",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-15T20:17:31.087Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-15T20:16:04Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center - Enhanced supervisor actions (Transfer, assign)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing <a target=\"_blank\" href=\"https://aka.ms/ADO12763\">new tooling to help troubleshoot VNET (Virtual Network) configuration</a> via a new PowerShell module to troubleshoot issues for virtual networks in Microsoft Power Platform. This feature will reach general availability on October 31, 2025.<br><br>PowerShell module: <a target=\"_blank\" href=\"https://aka.ms/ADO12763_1\">Microsoft.PowerPlatform.EnterprisePolicies</a><br><br><b>How does this affect me?</b><br>The module includes several functions to diagnose and troubleshoot issues that are related to virtual network configurations. Some of the key functions are as follows:<ul><li><a target=\"_blank\" href=\"https://aka.ms/ADO12763_2\">Get-EnvironmentRegion</a>: Retrieves the region of the specified Power Platform environment</li><li><a target=\"_blank\" href=\"https://aka.ms/ADO12763_3\">Get-EnvironmentUsage</a>: Provides information about the usage of the specified Power Platform environment</li><li><a target=\"_blank\" href=\"https://aka.ms/ADO12763_4\">Test-DnsResolution</a>: Tests the DNS resolution for the specified domain name</li><li><a target=\"_blank\" href=\"https://aka.ms/ADO12763_5\">Test-NetworkConnectivity</a>: Tests the network connectivity between the Power Platform environment and the specified virtual network</li></ul><b>What do I need to do to prepare?</b><br>Admins should review the updated documentation if they have Power Platform VNET configured or planning to enable it. No UI controls are available at this time.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-15T20:05:54Z",
+    "HasAttachments": false,
+    "Id": "MC1173154",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-15T20:07:34.847Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-15T20:05:54Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Platform – New tooling is available to help troubleshoot VNET (Virtual Network) configuration",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 15, 2025: We have updated the rollout timelines below. Thank you for your patience.</p><p>In November 2025, we will expand the passkey (FIDO2) authentication methods policy in Microsoft Entra ID to support passkey profiles in public preview. This update will enable granular, group-based control over passkey configurations and introduce new API schema changes.</p><p><b>When this will happen:</b></p><p>Public Preview (Worldwide): We will begin rolling out early November 2025 and expect to complete by early December 2025.\n</p><p>Public Preview (GCC, GCC High, DoD): We will begin rolling out mid-November 2025 and expect to complete by mid-December 2025.</p><p><b>How this will affect your organization:</b></p><p>After this rollout, you'll be able to apply different passkey configurations per user group. For example, you will be able to:</p><ul><li>Allow the use of specific FIDO2 security key models for user group A </li><li>Allow the use of passkeys in Microsoft Authenticator for user group B</li></ul><p><b>Important: </b>If your organization modifies the passkey policy via the Microsoft Azure or Entra portal during preview, the new schema will take effect. If you continue using Graph API or third-party tools to modify the policy, the schema will not change until General Availability.</p><p>These new settings will be available at Microsoft 365 admin center &gt; Home &gt; <i>Security &gt; Authentication methods &gt; Passkey (FIDO2) settings:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/867be825-f30b-4852-a9f4-5591ba4aa359\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>As part of this update in November 2025, we will start accepting any <a href=\"https://www.w3.org/TR/webauthn-2/#sctn-defined-attestation-formats\" target=\"_blank\">WebAuthn-compliant</a> security key or passkey provider when <i>Enforce attestation</i> is disabled. This will allow a wider range of security keys and passkey providers to be accepted for registration and authentication in Microsoft Entra ID. To compare this upcoming update with the current behavior, refer to&nbsp;<a href=\"https://learn.microsoft.com/entra/identity/authentication/concept-fido2-hardware-vendor#attestation-requirements\" target=\"_blank\">Microsoft Entra ID attestation for FIDO2 security key vendors</a></p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to review your current passkey configuration, notify your admins about this change, and update internal documentation.</p><p>Learn more about passkeys in Microsoft Entra ID: <a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-enable-passkey-fido2\" target=\"_blank\">Enable passkeys for your organization - Microsoft Entra ID | Microsoft Learn</a>&nbsp;(will be updated before rollout)</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "In November 2025, Microsoft Entra ID will support passkey profiles in public preview, enabling group-based passkey configurations and new API schema changes. Rollout occurs worldwide early November to December and mid-November to mid-December for GCC environments. No admin action is needed before rollout."
+      }
+    ],
+    "EndDateTime": "2025-12-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1097225",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-10-15T18:11:40.413Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-17T22:19:12Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Entra ID: Upcoming changes to support passkey profiles in the authentication methods policy (preview)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>Use the newly published guide and tools to start updating your organization’s expiring Secure Boot certificates. As the 2011 certificate authorities (CAs) start expiring in June 2026, 2023 CAs are required. Updated CAs allow Secure Boot to continue preventing malware early in the startup sequence. New resources are available for you to start monitoring, deploying, and troubleshooting Secure Boot CAs. These include the deployment playbook, new registry keys, Windows Event Log, and Windows Configuration System (WinCS) APIs.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><ul><li>The deployment guide, new registry keys, and WinCS are available today.&nbsp;</li><li>The 2023 Secure Boot CAs are rolling out gradually as part of Windows monthly updates starting with the October 2025 security update.&nbsp;</li><li>Additional tools will be available soon.&nbsp;</li><li>The 2011 CAs start expiring beginning in June 2026.&nbsp;</li></ul><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Devices manufactured before 2012 and those that don’t already have new certificates need to be updated with the 2023 CAs. We recommend taking measures well before the 2011 CAs start expiring.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>If your organization sends diagnostic data and lets Microsoft manage your updates, your devices will automatically get updated CAs with the monthly Windows updates. You can also opt in to let Microsoft determine high-confidence devices that will get these CAs first.&nbsp;&nbsp;</div><div>&nbsp;</div><div>If you prefer to deploy these CAs yourself, follow the deployment playbook to monitor, deploy, and troubleshoot Secure Boot updates. You can use new registry keys, Windows Event Log, and WinCS to do so.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Find the deployment playbook in the updated <a href=\"https://support.microsoft.com/topic/secure-boot-certificate-updates-guidance-for-it-professionals-and-organizations-e2b43f9f-b424-42df-bc6a-8476db65ab2f\" rel=\"noopener noreferrer\" target=\"_blank\">Secure Boot certificate updates: Guidance for IT professionals and organizations.</a>&nbsp;&nbsp;</li><li>Learn how to use new <a href=\"https://support.microsoft.com/topic/registry-key-updates-for-secure-boot-windows-devices-with-it-managed-updates-a7be69c9-4634-42e1-9ca1-df06f43f360d\" rel=\"noopener noreferrer\" target=\"_blank\">registry keys</a> to monitor, deploy, and troubleshoot Secure Boot CAs.&nbsp;</li><li>Learn how to use new <a href=\"https://support.microsoft.com/topic/windows-configuration-system-wincs-apis-for-secure-boot-d3e64aa0-6095-4f8a-b8e4-fbfda254a8fe\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Configuration System (WinCS) APIs</a> to deploy Secure Boot CAs.&nbsp;</li><li>Learn how to use <a href=\"https://support.microsoft.com/topic/secure-boot-certificate-updates-guidance-for-it-professionals-and-organizations-e2b43f9f-b424-42df-bc6a-8476db65ab2f#bkmk_monitoring_event_logs\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Event Log</a> to monitor Secure Boot CA updates.&nbsp;&nbsp;</li><li>Bookmark <a href=\"https://support.microsoft.com/topic/windows-secure-boot-certificate-expiration-and-ca-updates-7ff40d33-95dc-4c3c-8725-a9b95457578e\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Secure Boot certificate expiration and CA updates</a> as the landing page to the most up-to-date information.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "preventOrFixIssue",
+    "Details": [],
+    "EndDateTime": "2026-10-15T17:10:42.257Z",
+    "HasAttachments": false,
+    "Id": "MC1173103",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-15T17:10:43.67Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-15T17:10:42.383Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Secure Boot certificate deployment guide and tools",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to filter out unwanted rows from your source data directly in Dynamics 365 Customer Insights - Data. This feature reached general availability on October 3, 2025.<br><br>\n<b>How does this affect me? </b><br>\nYou can improve the quality of your unified customer profiles and insights by filtering out unwanted rows from your source data directly. You don't need to filter out unwanted data in downstream processes, and you can apply row filters directly to any source table you ingest, reducing the data scope to just what you need. <br><br>\nKey benefits include:<ul>\n<li><b>Improved processing time: </b>Filtering out unnecessary data like old or obsolete rows can reduce the time required to process the data. Filtering out a significant percentage of unwanted rows can substantially improve performance. </li>\n<li><b>Simplified data configuration: </b>Removing unwanted data at the source eliminates the need to create rules in multiple locations to avoid incorporating the unwanted data. Unification, segments, measures, activities, and predictive insights will use the filtered source data. </li>\n<li><b>Improved data quality: </b>Removing old or obsolete data at the source prevents it from being accidentally included in your results, such as when a new team member creates a segment that includes obsolete data. </li>\n </ul>\n<b>What action do I need to take? </b><br>\nThis message is for awareness, and no action is required.<br><br>\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/12084/filter-rows-columns-source-data-improved-processing\" target=\"_blank\">Filter rows from source data for better processing</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-15T13:50:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173012",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-15T13:50:50.32Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-15T13:50:00Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Insights – Data – Filter rows from source data for better processing",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>As of October 14, 2025, Microsoft is officially ending support for Windows 10. This means that Windows 10 devices will no longer receive security or feature updates, nor technical support from Microsoft. While these devices will continue to operate, the lack of regular security updates increases their vulnerability to cyber threats.&nbsp;</p><p><b>Microsoft Defender will continue to provide detection and protection capabilities to the extent possible on Windows 10 and other legacy systems. </b>Keep in mind that security solutions on legacy systems are inherently less secure and may not be able to receive all new features, so please review the important actions you can take.</p><p><b>Actions you can take:</b></p><ul><li><b>Upgrade to Windows 11: </b>This is the best way to ensure your endpoints remain protected and compliant. Devices running Windows 10 will be more vulnerable, even with ongoing security intelligence updates (SIUs).</li><li><b>Extended security update (ESU) program:</b> If upgrading isn’t immediately possible, Microsoft offers ESU for Windows 10. ESU provides critical and important security updates but does not include new features or technical support.</li></ul><p>For further guidance, connect with your Microsoft account team or check out these resources:</p><p></p><ul></ul><p></p><ul><li><a href=\"https://www.microsoft.com/windows/end-of-support?icid=SSM_Search_Windows10Endofsupport_Surface_CTA2&amp;r=1\" target=\"_blank\">End of support for Windows 10, Windows 8.1, and Windows 7 | Microsoft Windows</a></li><li><a href=\"https://blogs.windows.com/windowsexperience/2024/10/31/how-to-prepare-for-windows-10-end-of-support-by-moving-to-windows-11-today/\" target=\"_blank\">How to prepare for Windows 10 end of support by moving to Windows 11 today | Windows Experience Blog</a></li></ul><p><b><b>Compliance considerations:</b></b></p><p>Review compliance considerations as appropriate for your organization.</p><p></p><ul>\n    </ul>\n  <p></p><ul>\n</ul>",
       "ContentType": "html"
     },
@@ -398,7 +892,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"503557\":[{\"RoadmapId\":503557,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T11:02:29.8460102Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T11:02:29.8460103Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T11:02:29.8460104Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T11:02:29.8460107Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-15T11:02:29.8460107Z\",\"LatestRing\":null}]}"
+        "Value": "{\"503557\":[{\"RoadmapId\":503557,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T03:17:20.2394179Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T03:17:20.2394183Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T03:17:20.2394185Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T03:17:20.2394187Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T03:17:20.239419Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5118,42 +5612,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Copilot dashboard (in Viva Insights): New benchmarks to compare Copilot usage across organizations",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting October 1st, 2025 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2509-october-01\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "ExternalLink",
-        "Value": "https://docs.microsoft.com/officeupdates/"
-      }
-    ],
-    "EndDateTime": "2025-10-15T17:45:15.56Z",
-    "HasAttachments": false,
-    "Id": "MC1163640",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-01T17:45:16.3Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T17:45:15.56Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Updates available for Microsoft 365 Apps for Current Channel",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -12054,37 +12512,6 @@
       "Admin impact"
     ],
     "Title": "Mobile Plans moves to the web",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to build multistage approvals in Microsoft Copilot Studio. This feature reached public preview in May 2025 and will reach general availability on October 15, 2025.<br><br><b>How does this affect me?</b><br>With multistage approvals, you can create approval workflows that match your organization's structure and business processes. The main features of advanced approvals include <b>Multi-stage approvals</b> and <b>Conditions/Conditional approvals</b>.<ul><li><b>Multi-stage approvals</b>: Users configure multiple stages to set up complex approval processes. Each stage has its own set of stakeholders who make approval decisions. Stages can be configured separately to meet the specific needs of stakeholders.</li><li><b>Conditions/Conditional approvals</b>: Users add conditions between stages to create adaptable and efficient approval processes. Approvals are automatically approved, rejected, moved to another stage, or skipped based on whether specific conditions are met.</li></ul><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>If you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/ADO11861\">Build multistage approvals</a> learn article.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-10-15T13:48:18Z",
-    "HasAttachments": false,
-    "Id": "MC1153440",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-15T13:48:52.54Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-15T13:48:18Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Microsoft Copilot Studio – Build multistage approvals",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -25726,7 +26153,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"483506\":[{\"RoadmapId\":483506,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378722Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null}]}"
+        "Value": "{\"483506\":[{\"RoadmapId\":483506,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378722Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null},{\"RoadmapId\":483506,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378724Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -25873,45 +26300,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: In-app survey feedback policies will be managed by default with Microsoft 365 Cloud Policy",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>In November 2025, we will expand the passkey (FIDO2) authentication methods policy in Microsoft Entra ID to support passkey profiles in public preview. This update will enable granular, group-based control over passkey configurations and introduce new API schema changes.</p><p><b>When this will happen:</b></p><p>Public Preview (Worldwide, GCC, GCC High, DoD): We will begin rolling out mid-October 2025 and expect to complete by mid-November 2025.</p><p>We will update this message when the plan for General Availability is finalized.</p><p><b>How this will affect your organization:</b></p><p>After this rollout, you'll be able to apply different passkey configurations per user group. For example, you will be able to:</p><ul><li>Allow the use of specific FIDO2 security key models for user group A </li><li>Allow the use of passkeys in Microsoft Authenticator for user group B</li></ul><p><b>Important: </b>If your organization modifies the passkey policy via the Microsoft Azure or Entra portal during preview, the new schema will take effect. If you continue using Graph API or third-party tools to modify the policy, the schema will not change until General Availability.</p><p>These new settings will be available at Microsoft 365 admin center &gt; Home &gt; <i>Security &gt; Authentication methods &gt; Passkey (FIDO2) settings:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/867be825-f30b-4852-a9f4-5591ba4aa359\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>As part of this update in November 2025, we will start accepting any <a href=\"https://www.w3.org/TR/webauthn-2/#sctn-defined-attestation-formats\" target=\"_blank\">WebAuthn-compliant</a> security key or passkey provider when <i>Enforce attestation</i> is disabled. This will allow a wider range of security keys and passkey providers to be accepted for registration and authentication in Microsoft Entra ID. To compare this upcoming update with the current behavior, refer to&nbsp;<a href=\"https://learn.microsoft.com/entra/identity/authentication/concept-fido2-hardware-vendor#attestation-requirements\" target=\"_blank\">Microsoft Entra ID attestation for FIDO2 security key vendors</a></p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to review your current passkey configuration, notify your admins about this change, and update internal documentation.</p><p>Learn more about passkeys in Microsoft Entra ID: <a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-enable-passkey-fido2\" target=\"_blank\">Enable passkeys for your organization - Microsoft Entra ID | Microsoft Learn</a>&nbsp;(will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "In November 2025, Microsoft Entra ID will expand the passkey (FIDO2) authentication methods policy to support passkey profiles in public preview, allowing group-based control over configurations. The rollout will start mid-October 2025 and complete by mid-November 2025. No admin action is required before the rollout."
-      }
-    ],
-    "EndDateTime": "2025-12-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1097225",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-06-17T22:19:42.187Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-17T22:19:12Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Microsoft Entra ID: Upcoming changes to support passkey profiles in the authentication methods policy (preview)",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
