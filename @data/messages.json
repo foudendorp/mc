@@ -4,6 +4,236 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting October 21st, 2025 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2509-october-21\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "ExternalLink",
+        "Value": "https://docs.microsoft.com/officeupdates/"
+      }
+    ],
+    "EndDateTime": "2025-11-04T23:31:10.987Z",
+    "HasAttachments": false,
+    "Id": "MC1177185",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-21T23:31:11.77Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-21T23:31:10.987Z",
+    "Tags": [
+      "Feature update"
+    ],
+    "Title": "Updates available for Microsoft 365 Apps for Current Channel",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>To improve self-service capabilities and reduce support dependency, Microsoft has made the <b>Remove-DkimSigningConfig cmdlet available</b> to tenant administrators. This cmdlet enables admins to remove obsolete DomainKeys Identified Mail (DKIM) signing configurations directly from Exchange Online PowerShell, helping clean up configurations when domains are removed from a tenant.</p>\n\n<p><b><b>When this will happen</b></b>\n</p><p>This feature is already enabled worldwide, including in special clouds.\nRollout dates:\n</p><ul>\n<li><b>Worldwide</b>: June 6–10, 2025</li>\n<li><b>GCCHigh</b>: August 6–12, 2025</li></ul><p></p>\n\n<p><b><b>How this affects your organization</b></b>\n</p><p><i>Who is affected:</i>\nTenant administrators managing DKIM configurations in <i>Exchange Online</i> with either the Transport Hygiene management role or the Security Administrator role in Entra ID.\n</p><p><i>What will happen:</i>\n</p><ul>\n<li>Admins can now run <b>Remove-DkimSigningConfig</b> directly using Exchange Online PowerShell (requires ExO v3.7 module).</li>\n<li>No escalation to Microsoft support is needed for DKIM cleanup.</li>\n<li>Obsolete DKIM configurations for removed domains can be self-managed.</li>\n<li>The cmdlet is available by default for eligible roles.</li><li>This cmdlet does not replace any existing tools or processes; it introduces a new capability for tenant admins to manage DKIM cleanup independently.</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare</b></b>\n</p><ul>\n<li>Ensure you have the required role (Transport Hygiene or Security Administrator).</li>\n<li>Upgrade to Exchange Online PowerShell module v3.7.</li>\n<li>Use <b>Connect-ExchangeOnline</b> and run <b>Remove-DkimSigningConfig</b> as needed.</li>\n<li>Update internal documentation for DKIM management procedures.</li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/powershell/exchange/exchange-online-powershell?view=exchange-ps\" target=\"_blank\">Exchange Online PowerShell | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/remove-dkimsigningconfig?view=exchange-ps\" target=\"_blank\">Remove-DkimSigningConfig | antispam-antimalware | ExchangePowerShell | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.\n</p><p></p>\n\n<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Tenant admins can now use the Remove-DkimSigningConfig cmdlet in Exchange Online PowerShell (v3.7) to remove obsolete DKIM configurations without Microsoft support. This feature is available worldwide by June 2025 and requires appropriate roles and module updates for self-managed DKIM cleanup."
+      }
+    ],
+    "EndDateTime": "2025-11-20T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1177179",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-21T23:18:04.92Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 suite",
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-21T23:17:58Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Exchange Online: Remove-DkimSigningConfig cmdlet now available to tenant admins",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p>\nTo improve clarity and consistency in the <i>Microsoft 365 Admin Center</i>, we’re updating the navigation structure. Starting in December, the <i>Marketplace</i> node will become a Level 1 (L1) item in the left-hand navigation, positioned above <i>Billing</i>. This change replaces the current <i>Purchase Services</i> node and aligns with Microsoft’s broader effort to standardize admin experiences across services.<p></p>\n\n<p><b>When this will happen:</b></p>General Availability (Worldwide, GCC, GCCH, and DoD): Rollout will begin in early December 2025.<p></p>\n\n<p><b>How this affects your organization:</b></p>\n<ul>\n<li><b>Who is affected:&nbsp;</b>Global and billing admins in SMEC and Enterprise environments who currently access the <i>Purchase Services</i> node in the <i>Microsoft 365 Admin Center</i>.\n(Note: SMB customers already see <i>Marketplace</i> in this location.)</li><li><b>What will happen:</b>\n<ul>\n<li>The <i>Purchase Services</i> node will be retired.</li>\n<li>A new <i>Marketplace</i> node will appear as a Level 1 (L1) item above <i>Billing</i> in the left-hand navigation.</li>\n<li>This is a visual and navigational update only.</li>\n<li>No changes to functionality, permissions, or user workflows.</li>\n<li>The update will be applied by default; no admin action is required.</li>\n</ul>\n</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>Inform helpdesk or support teams of the updated navigation label and location.</li>\n<li>Update internal documentation if it references <i>Purchase Services</i> or its previous location.</li>\n<li>Review the <i>Marketplace</i> experience to ensure familiarity with the updated placement.</li><li>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/admin/admin-overview/admin-center-overview?view=o365-worldwide\" target=\"_blank\">Microsoft 365 admin center - Overview - Microsoft 365 admin | Microsoft Learn</a>&nbsp;(documentation will be updated closer to rollout)</li>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\nNo compliance considerations identified, review as appropriate for your organization.<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting December 2025, the Microsoft 365 Admin Center will replace the Purchase Services node with a new Marketplace node as a Level 1 item above Billing. This visual update affects global and billing admins, requires no action, and involves no changes to functionality or permissions."
+      }
+    ],
+    "EndDateTime": "2026-01-19T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1177178",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-21T23:17:38.813Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-21T23:17:14Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Admin Center Marketplace and Purchase Services node name change",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the introduction of the <b>Retry with AI vision</b> feature in error handling for UI and browser automation within Power Automate for desktop. This feature will be available starting <b>November 18, 2025</b>.<br><br> This AI-powered capability is designed to improve the reliability of desktop automations by intelligently identifying and proposing the correct UI element when an automation action fails to find the expected one.<br><br>\nLeveraging advanced language models, the system analyzes screenshots and desktop context to suggest alternative elements, allowing automations to recover from certain errors automatically. This reduces manual intervention and helps keep flows running smoothly. <br><br>\nThe feature is available as an optional fallback in the error handling settings of individual actions and is intended to be used in scenarios where robust flow continuity is critical.<br><br>\n<b>How does this affect me?</b><br>\nMakers can opt-in to use this feature in the specific UI and browser automation actions where they want to retry with AI vision (in the event of an error occurring in their desktop flows during runtime). This setting is disabled by default in those actions and is accessed through the error handling screen of UI and browser automation actions in desktop flows.<br><br>\n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.<br><br>\nPlease contact Microsoft Support if you need further assistance.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-21T19:49:52Z",
+    "HasAttachments": false,
+    "Id": "MC1177141",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-21T20:11:14.663Z",
+    "Services": [
+      "Microsoft Power Automate"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-21T19:49:52Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Automate - Information about 'Retry with AI vision' functionality in Power Automate for desktop",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b>\n</p><p>To streamline the process of drafting emails from Copilot prompts, we’re introducing an <b><i>Edit in Outlook</i> </b>button. When a user’s prompt indicates a strong intent to draft an email (such as “Draft an email to my team thanking them for their hard work on Project K”), the button will appear. Clicking it will open Outlook with a pre-populated draft email, including subject and body fields.</p><p>This feature is available to all users licensed with Microsoft 365 Copilot, with no need for additional licenses or add-ons.</p><p>It works across a broad range of platforms, including Windows Desktop, Mobile, Mac, Web, Teams and Surface Devices, and Linux.</p><p>\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494510\" target=\"_blank\">494510</a>.</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><p><b>General Availability (Worldwide):</b> Rollout begins in late October 2025 and is expected to complete by mid-November 2025.\n</p><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b>&nbsp;This feature is available to all users licensed with Microsoft 365 Copilot, with no need for additional licenses or add-ons.</p><p><b>What will happen:</b>\n</p><ul>\n<li>Users will see an <i><b>Edit in Outlook</b></i> button when Copilot detects email drafting intent:</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a5323ac9-889b-40ba-9d05-3c63ee2a57cc/dd75c210ab1e1fb18993ed3ea02aeb63c7eebd7d.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Clicking the button opens Outlook with a draft email pre-filled with subject and body.</li>\n<li>No changes to existing admin policies or configurations.</li>\n<li>Feature is <b>enabled by default</b>.</li><li>No additional licensing or add-on is required.</li><li>Supported platforms include:<ul><li>Desktop</li><li>Developer</li><li>Linux</li><li>Mac</li><li>Teams and Surface Devices</li><li>Web</li></ul></li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>&nbsp;</p><p>No action is required at this time. You may choose to:\n</p><ul>\n<li>Communicate this change to helpdesk staff.</li>\n<li>Update internal documentation if you detail this feature.</li></ul><p>Learn more:&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/Microsoft365CopilotBlog/what%E2%80%99s-new-in-microsoft-365-copilot--september-2025/4457317?previewMessage=true\" target=\"_blank\">What’s new in Microsoft 365 Copilot | September 2025 | Microsoft Community Hub</a></p><ul>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "494510"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot introduces an \"Edit in Outlook\" button for drafting emails from Copilot Chat prompts. Available to all licensed users across multiple platforms, it opens Outlook with a pre-filled draft. Rollout starts late October 2025, requires no extra licenses or admin changes, and is enabled by default."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Developer, Linux, Mac, TeamsAndSurfaceDevices, Web"
+      }
+    ],
+    "EndDateTime": "2025-12-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173196",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-21T20:05:30.457Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-15T23:43:03Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Edit in Outlook from Copilot Chat",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 21, 2025: Now that this is available, we have updated the content below to provide additional details as you leverage the feature. Thank you for your patience.&nbsp;</p><p><b>Introduction:</b>\n</p><p>Agent Mode in Microsoft 365 Copilot for Excel, available now on the web and coming soon to desktop apps, is a new way for users to work with Copilot in Excel. It uses natural language to build and edit workbooks and allows users&nbsp;to&nbsp;keep their content editable and stay up to date with the latest changes. Users&nbsp;stay&nbsp;in control over all modifications at any time.&nbsp;To learn more, read <a href=\"https://aka.ms/Agent_Mode\">https://aka.ms/Agent_Mode</a>.&nbsp;</p><p><b>How to access Agent Mode in Copilot in Excel:</b>&nbsp;\n</p><ul><li>Available&nbsp;to Microsoft Frontier program customers&nbsp;starting October 21, 2025.&nbsp;\n</li><li>For Enterprise Microsoft 365 Copilot license customers, admins need to enable Frontier access for their organization in the Microsoft 365 Admin Center.&nbsp;\n</li><li>For Microsoft 365 Personal, Family or Premium licenses, customers&nbsp;can&nbsp;turn on Frontier Features with a new toggle under the Copilot ribbon button.&nbsp;\n</li><li>Once&nbsp;Frontier features are turned on, customers will see a new Agent Mode option under the Tools menu in Copilot chat.&nbsp;\n</li><li>This version will soon include more features and support for&nbsp;additional&nbsp;languages.&nbsp;\n</li></ul><p><b>What you can do to prepare:</b>\n</p><ul><li>Ensure Frontier Features are enabled in your tenant.&nbsp;\n</li><li>Alternatively, ensure Office add-ins are enabled in your tenant and enable use of the Excel Labs add-in. To learn more, see <a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center?view=o365-worldwide\" target=\"_blank\">Review and manage add-ins in the admin center</a>.&nbsp;\n</li></ul><p><b>Compliance considerations:</b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot's Agent Mode in Excel Labs (Frontier preview) enables natural language workbook editing, available from October 21, 2025, for Frontier program customers. Admins must enable Frontier access; users can toggle features in Copilot. More features and languages are coming, with no identified compliance issues."
+      }
+    ],
+    "EndDateTime": "2025-10-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1162083",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-21T17:50:54.33Z",
+    "Services": [
+      "Microsoft 365 for the web",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-29T16:20:41Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Agent Mode available in Excel Labs add-in (Frontier preview)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing the ability to manage the Org-Wide Sharing Control for agents built in Copilot Studio lite in Microsoft Copilot Studio. This feature will reach general availability on October 23, 2025.<br><br>\n<b>How does this affect me? </b><br>\nThis feature introduces a new Microsoft 365 Admin Center control that allows tenant admins to restrict which makers can share declarative agent links with their entire organization from Copilot Studio Lite. <br><br>\nAdmins can set org-wide sharing permissions to: <ul>\n<li>All users (default) </li>\n<li>No users</li>\n<li>Define an allow-list of specific users and/or groups</li></ul>\nIf the required permissions are not met, the Copilot Studio lite sharing control disables the <i>Anyone in your organization</i> sharing option, with tooltips explaining the restriction to the maker. Attempts to update the agent or share it more widely are blocked until the agent’s sharing setting meets the admin-defined sharing policy. <br><br>\n<b>What action do I need to take? </b><br>\nThis message is for awareness, and no action is required.",
       "ContentType": "html"
     },
@@ -2335,52 +2565,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b>\n</p><p>To streamline the process of drafting emails from Copilot prompts, we’re introducing an <b><i>Edit in Outlook</i> </b>button. When a user’s prompt indicates a strong intent to draft an email (such as “Draft an email to my team thanking them for their hard work on Project K”), the button will appear. Clicking it will open Outlook with a pre-populated draft email, including subject and body fields.</p><p>This feature is available to all users licensed with Microsoft 365 Copilot, with no need for additional licenses or add-ons.</p><p>It works across a broad range of platforms, including Windows Desktop, Mobile, Mac, Web, Teams and Surface Devices, and Linux.</p><p>\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=494510\" target=\"_blank\">494510</a>.</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><p><b>General Availability (Worldwide):</b> Rollout begins in late October 2025 and is expected to complete by mid-November 2025.\n</p><p><b>MSIT Deployment:</b> Began in late September 2025.</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>\nAll users of Microsoft 365 Copilot Chat integrated with Outlook.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>Users will see an <i><b>Edit in Outlook</b></i> button when Copilot detects email drafting intent:</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a5323ac9-889b-40ba-9d05-3c63ee2a57cc/dd75c210ab1e1fb18993ed3ea02aeb63c7eebd7d.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Clicking the button opens Outlook with a draft email pre-filled with subject and body.</li>\n<li>No changes to existing admin policies or configurations.</li>\n<li>Feature is <b>enabled by default</b>.</li><li>No additional licensing or add-on is required.</li><li>Supported platforms include:<ul><li>Desktop</li><li>Developer</li><li>Linux</li><li>Mac</li><li>Teams and Surface Devices</li><li>Web</li></ul></li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>&nbsp;</p><p>No action is required at this time. You may choose to:\n</p><ul>\n<li>Communicate this change to helpdesk staff.</li>\n<li>Update internal documentation if you detail this feature.</li></ul><p>Learn more:&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/Microsoft365CopilotBlog/what%E2%80%99s-new-in-microsoft-365-copilot--september-2025/4457317?previewMessage=true\" target=\"_blank\">What’s new in Microsoft 365 Copilot | September 2025 | Microsoft Community Hub</a></p><ul>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "494510"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot introduces an \"Edit in Outlook\" button for drafting emails from Copilot Chat prompts. Available to all licensed users across multiple platforms, it opens Outlook with a pre-filled draft. Rollout starts late October 2025, requires no extra licenses or admin changes, and is enabled by default."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Developer, Linux, Mac, TeamsAndSurfaceDevices, Web"
-      }
-    ],
-    "EndDateTime": "2025-12-15T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1173196",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-15T23:44:00.347Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-15T23:43:03Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Edit in Outlook from Copilot Chat",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b>\n</p><p>We are introducing two new <b>Microsoft Graph APIs</b> that enable admins to programmatically access and manage agents and apps within their organization. These APIs provide greater flexibility for reporting and integration scenarios without relying on manual UI workflows.</p><p>\nThis message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com//microsoft-365/roadmap?filters=&amp;searchterms=502875\" target=\"_blank\">502875</a>.</p>\n\n<p><b><b>When this will happen:</b></b><b>\n</b></p><p><b>General Availability (Worldwide): </b>Rollout will begin in mid-November 2025 and is expected to complete by late November 2025.</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>\nAdmins managing Copilot agents and apps within Microsoft 365 environments.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>New Graph API endpoints will be available:<ul><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages</b> – Retrieves a complete inventory of all agents and apps (Microsoft, External, Shared, and Custom).</li><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages/{id} </b>– Fetches detailed metadata for a specific agent or app, including properties and manifest details.</li></ul></li></ul><ul>\n<li>These APIs allow for automated reporting and integration workflows.</li>\n<li>No changes to existing UI workflows or admin policies.</li><li>These Graph API endpoints are available to users with an existing Microsoft 365 license; no additional license or add-on is required.</li>\n</ul><ul>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Review the <a href=\"https://learn.microsoft.com/graph/api/overview\">Microsoft Graph API documentation</a> to familiarize yourself with usage and capabilities at this time.</li>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -4520,42 +4704,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 admin center: Prepurchase capacity packs for Microsoft 365 Copilot Chat",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting October 7th, 2025 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2509-october-07\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "ExternalLink",
-        "Value": "https://docs.microsoft.com/officeupdates/"
-      }
-    ],
-    "EndDateTime": "2025-10-21T21:01:02.41Z",
-    "HasAttachments": false,
-    "Id": "MC1167587",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-07T21:01:03.183Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-07T21:01:02.41Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Updates available for Microsoft 365 Apps for Current Channel",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -9841,45 +9989,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b>Introduction:</b></p><p>Agent Mode in <i>Microsoft 365 Copilot for Excel</i>, currently available only on the web and soon to be released for desktop apps, introduces a new way for users to interact with Copilot using natural language to build and edit workbooks. This feature allows users to work alongside Copilot, keeping their content editable and synchronized with the latest changes. The early access preview is available through the Frontier program in the <i>Excel Labs add-in</i>. Users maintain complete control over all modifications at any time. Read more about it in our announcement <a href=\"https://www.microsoft.com/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/\" target=\"_blank\">Vibe working: Introducing Agent Mode and Office Agent in Microsoft 365 Copilot</a>.</p><p><b>When this will happen:</b></p><ul><li>We will begin rolling out Agent Mode in <i>Excel Labs</i> (Frontier preview) on September 29, 2025, via the Office Store. Rollout is expected to complete the same day.</li></ul><p><b>How this affects your organization:</b></p><p>Who is affected: </p><ul><li>Users with access to the Excel Labs add-in via the Office Store.</li><li>Admins managing Office add-ins and Microsoft 365 Copilot capabilities.</li></ul><p>What will happen:</p><ul><li>Users will see a new Agent Mode experience in <i>Excel Labs:</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6893aa9a-cf67-4c5a-8a65-0ee00f87040e/5cbfbcdd962870cac1728ea76bf7c5e8e02f09c6.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Agent Mode enables natural language interaction with Copilot to build and edit workbooks.</li><li>Content remains editable and synced with workbook changes.</li><li>The feature is available only through the Frontier preview program.</li><li>Admins must enable the Excel Labs add-in for users to access this capability.</li></ul><p><b>What you can do to prepare:</b></p><ul><li>Ensure Office add-ins are enabled in your tenant.</li><li>Enable use of the Excel Labs add-in. Learn more about how to review and manage add-ins in the Microsoft 365 admin center: <a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center?view=o365-worldwide#manage-add-in-downloads-by-turning-onoff-the-office-store-across-all-apps-except-outlook\" target=\"_blank\">Manage add-ins in the admin center - Microsoft 365 admin | Microsoft Learn&nbsp;</a></li></ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a\" target=\"_blank\">Get started with Copilot in Excel | Copilot in Excel | Microsoft Support</a></p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Agent Mode in Microsoft 365 Copilot for Excel, available via the Excel Labs add-in Frontier preview starting September 29, 2025, enables natural language interaction to build and edit workbooks while keeping content editable and synced. Admins must enable the add-in for user access."
-      }
-    ],
-    "EndDateTime": "2025-10-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1162083",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-29T16:21:53.133Z",
-    "Services": [
-      "Microsoft 365 for the web",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-29T16:20:41Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Agent Mode available in Excel Labs add-in (Frontier preview)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated September 29, 2025: We have updated the content. Thank you for your patience.</p><p><b>Introduction\n</b></p><p>We’re introducing Agent Mode in Microsoft 365 Copilot in Word that enhance how users interact with Copilot to create and refine content. These updates are designed to streamline document creation and editing through a more conversational and iterative experience.&nbsp;</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499428\" target=\"_blank\">499428</a></p><p><b>When this will happen\n</b></p><p>General Availability (Worldwide): Rollout will begin in October 2025 (previously September) and is expected to complete in November 2025 (previously October).\n</p><p><b>How this affects your organization\n</b></p><p>Users with a Microsoft 365 Copilot license will be able to use Agent Mode to make native changes directly on the Word canvas, like drafting new documents or sections, reorganizing content into formats like FAQs, updating existing content, or rewriting sections. Users will maintain control on the content as they will be able to review and approve any changes. &nbsp;</p><p><b>What you can do to prepare</b></p><p>No admin action is required for this rollout. We recommend informing users about Agent Mode in Word and encouraging them to explore the new capability. Additional resources and documentation will be available closer to rollout.&nbsp;</p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p>Additional resources:</p><ul><li><a href=\"https://www.microsoft.com/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/\" target=\"_blank\">Vibe working: Introducing Agent Mode and Office Agent in Microsoft 365 Copilot | Microsoft 365 Blog</a></li><li><a href=\"https://support.microsoft.com/office/agent-mode-in-word-647d5d14-eaec-4e8a-a574-7cefffa7f8f0\" target=\"_blank\">Agent mode in Word - Microsoft Support</a></li></ul><p>\n</p>",
       "ContentType": "html"
     },
@@ -12154,7 +12263,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"503099\":[{\"RoadmapId\":503099,\"Platform\":\"Mac\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-10-16T13:15:42.0112084Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":503099,\"Platform\":\"Desktop\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-10-16T13:15:42.0112088Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":503099,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-10-16T13:15:42.0112091Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"503099\":[{\"RoadmapId\":503099,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-10-21T11:49:52.0564871Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":503099,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-10-21T11:49:52.0564875Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":503099,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-10-21T11:49:52.0564878Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15328,7 +15437,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"491468\":[{\"RoadmapId\":491468,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238559Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":491468,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960019Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.596002Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960021Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5960022Z\",\"LatestRing\":null},{\"RoadmapId\":491468,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-16T16:06:02.0238573Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16241,7 +16350,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1775112Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1775114Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1775116Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1775118Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1775114Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1775116Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1775112Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-01-31T10:15:41.1775118Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -18189,7 +18298,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"498895\":[{\"RoadmapId\":498895,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595833Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":498895,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595835Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595831Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595832Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595836Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"498895\":[{\"RoadmapId\":498895,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595835Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595831Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595832Z\",\"LatestRing\":null},{\"RoadmapId\":498895,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595833Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":498895,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-08-25T20:01:48.6595836Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
