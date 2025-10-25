@@ -1,0 +1,46 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p><b><b>Introduction</b></b>\n</p><p>Microsoft is introducing two new ways for users to engage with Microsoft 365 Copilot:</p><ul><li><b>Sharing Copilot Notebooks on the web</b>, enabling teams to collaborate in a single notebook with shared enterprise content</li><li>A <b>new Microsoft 365 Copilot mobile app</b>, allowing users to access Copilot experiences on the go</li></ul><p>Sharing Copilot Notebooks enables teams to collaborate in a single notebook, combining Pages, Loops, OneNote Notebooks, SharePoint Sites, and other Microsoft 365 content with Copilot intelligence. This feature provides shared insights while maintaining data security and permissions, helping admins enable cross-functional collaboration with confidence.</p><p>These updates are designed to improve cross-functional collaboration and extend Microsoft 365 Copilot’s value across platforms.</p>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=506851\" target=\"_blank\">506851</a>.</p>\n\n<p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide):&nbsp; </b></p><ul><li><b>Web: </b>Will begin rolling out in <b>late October 2025</b> and expect to complete in December 2025 based on telemetry.</li><li><b>Mobile: </b>Will begin rolling out in <b>early November 2025</b> and expect to complete in December 2025 based on telemetry.</li></ul>\n\n<p><b><b>How this affects your organization</b></b></p>\n<ul>\n<li><b>Who is affected:</b>&nbsp;Users with a Microsoft 365 Copilot license (Copilot $30 SKU). Users without a Microsoft 365 Copilot license can be invited to a shared notebook, but they will not be able to access or interact with the content. Instead, they will see a prompt to acquire a Copilot license.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Users will be able to share a notebook they created with other Copilot-licensed users:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f0cb35e5-21bf-47ad-b267-127bf81d4c28/b958d6f4984d651b5b1956f8109b6b4712dbfcbc.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    </li><li>Users can create and collaborate on shared notebook pages.</li>\n    <li>Copilot responses will be grounded in shared enterprise content.</li>\n    <li>Chats within shared notebooks remain private to each user.</li>\n    <li>Access to linked files is granted only when the sharer has permission to share further.</li>\n    <li>Copilot ensures data sensitivity is protected when content is brought from chat into the notebook.</li><li>This feature improves cross-functional workflows and enables Copilot to deliver answers based on shared context.</li><li>Sharing is enabled by default when Copilot Notebooks is turned on via Office Cloud Policy Service (OCPS).</li>\n    <li>There is currently no admin control to disable sharing independently; the only way to prevent sharing is to disable Copilot Notebooks entirely via OCPS.</li><li>A new <b>Copilot mobile app</b> will be available in November 2025, allowing users to access Copilot experiences from their mobile devices.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n<li>Review your OCPS settings to manage Copilot Notebook availability.</li><li>Notify users who will receive the feature (everyone with a Copilot license by default).</li>\n<li>Update user training materials to reflect the new collaboration capabilities and mobile access.</li><li>Prepare your help desk to support questions about shared notebooks and the mobile app.</li><li>Confirm licensing eligibility for users in EDU, GCC, and other sovereign cloud environments.</li><li>Documentation links are being updated and will be provided when available.</li></ul><p><b><b>Compliance considerations</b></b>\n</p><p>No <a href=\"https://learn.microsoft.com/microsoft-365/loop/cpcn-compliance-summary?view=o365-worldwide\" target=\"_blank\">compliance considerations</a> identified, all compliance capabilities will be the same as the <a href=\"https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-notebooks-0775e693-11c6-4d80-8aba-fcc81a737a06\" target=\"_blank\">Microsoft 365 Copilot Notebooks experience</a>.</p>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "RoadmapIds",
+      "Value": "506851"
+    },
+    {
+      "Name": "Summary",
+      "Value": "Microsoft 365 Copilot introduces shared Copilot Notebooks for team collaboration and a new mobile app for on-the-go access. Rolling out from October to December 2025, these features enhance cross-functional workflows, require Copilot licenses, and maintain data security and compliance. Admins manage availability via Office Cloud Policy Service."
+    },
+    {
+      "Name": "Platforms",
+      "Value": "Mobile, Web"
+    }
+  ],
+  "EndDateTime": "2026-01-10T08:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1179160",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-10-24T22:11:54.407Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-10-24T22:11:40Z",
+  "Tags": [
+    "Feature update",
+    "User impact",
+    "Admin impact"
+  ],
+  "Title": "Microsoft 365 Copilot (web and mobile): Sharing Copilot Notebooks and mobile app rollout",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}

@@ -4,6 +4,607 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Custom engine agents (CEA) are specialized agentic solutions that can be built using any large language model (LLM), toolchain, or orchestration framework, and are tailored to specific domain or tenant workflows. These agents can be created using either Microsoft Copilot Studio or the Agents Toolkit. File upload support is already available in <i>Microsoft 365 Copilot Business Chat</i>.</p><p>We’re now extending this capability to Custom engine agents, enabling users to upload files stored locally or in <i>OneDrive</i> directly to agents. Once uploaded, agents can access the file for a short duration and respond to user queries based on its contents. This update aligns with customer feedback requesting more flexible input options for agent interactions.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout will begin in early November 2025 and is expected to complete by late November 2025.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b>&nbsp;All users of Custom engine agents, whether built using Copilot Studio or the Agents Toolkit. This<b> includes users on free, metered, and paid Copilot plans</b>.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Users will be able to upload files directly to Custom engine agents.</li>\n    <li>Supported file types will match those supported by Copilot.</li>\n    <li>Image file support will be added in a future update.</li>\n    <li>The feature will be ON by default once available.</li>\n    <li>No changes to existing admin policies are required.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>Communicate this change to helpdesk staff.</li>\n  <li>Update internal documentation if you reference CEA capabilities.</li>\n  <li>Review the documentation for details on agent configuration and supported capabilities.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-custom-engine-agent\" target=\"_blank\">Custom engine agents for Microsoft 365 overview | Microsoft Learn</a></p><p><b><b>Compliance considerations:</b></b></p><ul><p></p>\n<table border=\"1\">\n<tbody><tr><th>Question</th><th>Answer</th><th>Explanation</th></tr>\n<tr><td>Does this change store new customer data, and if so, where is it stored and is the data cached or permanently stored?</td><td>Yes</td><td>Uploaded files are temporarily accessible to the agent for a few minutes&nbsp;</td></tr>\n<tr><td>Does this change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes</td><td>Custom engine agents will be able to access uploaded files and respond to user queries based on the file contents.</td></tr>\n<tr><td>Does this change provide end users any new way of interacting with generative AI, and if so, how?</td><td>Yes</td><td>Users can now upload files to agents, expanding interaction beyond text input.</td></tr>\n</tbody></table></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Custom engine agents will support file uploads from local storage or OneDrive starting November 2025, allowing agents to access files briefly and respond to queries. This feature, enabled by default, applies to all users and matches Copilot's supported file types, with image support coming later."
+      }
+    ],
+    "EndDateTime": "2026-01-01T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1179162",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T22:13:16.623Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T22:13:07Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Custom engine agents: Introducing file upload support",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Starting in January 2026, Microsoft will retire the <i style=\"\">Reuse Slides</i> feature from PowerPoint for Windows and Mac desktops. This change is part of ongoing efforts to simplify the PowerPoint experience and remove features that duplicate existing capabilities.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>General Availability (Worldwide): We will begin retiring this feature starting in December 2025 and expect to complete in January 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> All users of PowerPoint on Windows and Mac desktops.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>The <i>Reuse Slides</i> option will be removed from the PowerPoint ribbon.</li>\n    <li>The feature will no longer be supported or accessible.</li>\n    <li>No admin controls are available to retain or re-enable the feature.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Communicate this change to helpdesk staff.</li>\n<li>Update internal documentation or training materials that reference the <i>Reuse Slides</i> feature.</li>\n<li>If your organization relies on slide reuse workflows, consider alternative methods such as manually copying slides between presentations.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting January 2026, PowerPoint will retire the \"Reuse Slides\" feature on Windows and Mac desktops, removing it from the ribbon with no option to re-enable. Users should update documentation and consider alternative slide reuse methods. No compliance issues are noted."
+      }
+    ],
+    "EndDateTime": "2026-02-05T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1179161",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T22:12:47.857Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T22:12:41Z",
+    "Tags": [
+      "User impact",
+      "Retirement"
+    ],
+    "Title": "Microsoft PowerPoint: \"Reuse Slides\" feature will retire starting 2026",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b>\n</p><p>Microsoft is introducing two new ways for users to engage with Microsoft 365 Copilot:</p><ul><li><b>Sharing Copilot Notebooks on the web</b>, enabling teams to collaborate in a single notebook with shared enterprise content</li><li>A <b>new Microsoft 365 Copilot mobile app</b>, allowing users to access Copilot experiences on the go</li></ul><p>Sharing Copilot Notebooks enables teams to collaborate in a single notebook, combining Pages, Loops, OneNote Notebooks, SharePoint Sites, and other Microsoft 365 content with Copilot intelligence. This feature provides shared insights while maintaining data security and permissions, helping admins enable cross-functional collaboration with confidence.</p><p>These updates are designed to improve cross-functional collaboration and extend Microsoft 365 Copilot’s value across platforms.</p>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=506851\" target=\"_blank\">506851</a>.</p>\n\n<p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide):&nbsp; </b></p><ul><li><b>Web: </b>Will begin rolling out in <b>late October 2025</b> and expect to complete in December 2025 based on telemetry.</li><li><b>Mobile: </b>Will begin rolling out in <b>early November 2025</b> and expect to complete in December 2025 based on telemetry.</li></ul>\n\n<p><b><b>How this affects your organization</b></b></p>\n<ul>\n<li><b>Who is affected:</b>&nbsp;Users with a Microsoft 365 Copilot license (Copilot $30 SKU). Users without a Microsoft 365 Copilot license can be invited to a shared notebook, but they will not be able to access or interact with the content. Instead, they will see a prompt to acquire a Copilot license.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Users will be able to share a notebook they created with other Copilot-licensed users:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f0cb35e5-21bf-47ad-b267-127bf81d4c28/b958d6f4984d651b5b1956f8109b6b4712dbfcbc.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    </li><li>Users can create and collaborate on shared notebook pages.</li>\n    <li>Copilot responses will be grounded in shared enterprise content.</li>\n    <li>Chats within shared notebooks remain private to each user.</li>\n    <li>Access to linked files is granted only when the sharer has permission to share further.</li>\n    <li>Copilot ensures data sensitivity is protected when content is brought from chat into the notebook.</li><li>This feature improves cross-functional workflows and enables Copilot to deliver answers based on shared context.</li><li>Sharing is enabled by default when Copilot Notebooks is turned on via Office Cloud Policy Service (OCPS).</li>\n    <li>There is currently no admin control to disable sharing independently; the only way to prevent sharing is to disable Copilot Notebooks entirely via OCPS.</li><li>A new <b>Copilot mobile app</b> will be available in November 2025, allowing users to access Copilot experiences from their mobile devices.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n<li>Review your OCPS settings to manage Copilot Notebook availability.</li><li>Notify users who will receive the feature (everyone with a Copilot license by default).</li>\n<li>Update user training materials to reflect the new collaboration capabilities and mobile access.</li><li>Prepare your help desk to support questions about shared notebooks and the mobile app.</li><li>Confirm licensing eligibility for users in EDU, GCC, and other sovereign cloud environments.</li><li>Documentation links are being updated and will be provided when available.</li></ul><p><b><b>Compliance considerations</b></b>\n</p><p>No <a href=\"https://learn.microsoft.com/microsoft-365/loop/cpcn-compliance-summary?view=o365-worldwide\" target=\"_blank\">compliance considerations</a> identified, all compliance capabilities will be the same as the <a href=\"https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-notebooks-0775e693-11c6-4d80-8aba-fcc81a737a06\" target=\"_blank\">Microsoft 365 Copilot Notebooks experience</a>.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "506851"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot introduces shared Copilot Notebooks for team collaboration and a new mobile app for on-the-go access. Rolling out from October to December 2025, these features enhance cross-functional workflows, require Copilot licenses, and maintain data security and compliance. Admins manage availability via Office Cloud Policy Service."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Mobile, Web"
+      }
+    ],
+    "EndDateTime": "2026-01-10T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1179160",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-10-24T22:11:54.407Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T22:11:40Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot (web and mobile): Sharing Copilot Notebooks and mobile app rollout",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re excited to announce the general availability (GA) of the <b>Unified Sensor</b> <b>for Microsoft Defender for Identity</b>. This milestone simplifies the activation of identity protections on qualifying domain controllers by extending the existing Microsoft Defender for Endpoint agent. With just a few clicks, you can enable identity alerts, posture recommendations, and automatic attack disruption—no additional agent installation required.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide, GCC, GCCH, and DoD):</b> Available now.</p><p><b><b>How this affects your organization</b></b></p><p>Who is affected: Admins managing domain controllers with Microsoft Defender for Endpoint deployed.</p><p>What will happen:</p><ul><li>The Unified Sensor can be activated on qualifying domain controllers.</li><li>Identity-specific alerts and posture recommendations will begin flowing shortly after activation.</li><li>No downtime is required for domain controllers.</li><li>Existing licenses, capabilities, and alerts remain unaffected.</li><li>Activation does not require additional installations.</li><li>The Unified Sensor v3.x:<ul><li>Cannot be activated on servers with Defender for Identity sensor v2.x already deployed.</li><li>Does not currently support VPN integration or ExpressRoute.</li><li>Does not yet offer full functionality for health alerts, posture recommendations, security alerts, or advanced hunting data.</li></ul></li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Review <a href=\"https://learn.microsoft.com/defender-for-identity/deploy/prerequisites-sensor-version-3\" target=\"_blank\">deployment prerequisites</a> to ensure your environment is ready.</li><li>Go to the <b><i>Activation page</i></b> in the <i>Microsoft Defender portal</i>.</li><li>Review all your eligible domain controllers (those onboarded with Microsoft Defender for Endpoint, version 2019 or above).</li><li>Activate the new sensor on your domain controllers.</li><li>Ensure your domain controllers meet the following minimum requirements:<ul><li>Windows Server 2019 or later.</li><li>June 2025 Cumulative Update or later.</li><li>Defender for Endpoint must be deployed.</li><li>Domain controller must not already have Defender for Identity sensor v2.x installed.</li><li>Server must have at least 2 cores and 6 GB RAM.</li><li>Power Option should be set to High Performance.</li><li>Time synchronization across servers must be within five minutes.</li></ul></li><li>If using virtualization:<ul><li>For Hyper-V: Disable Dynamic Memory.</li><li>For VMware: Reserve all guest memory.</li></ul></li><li>Licensing requirements include one of the following:<ul><li>Microsoft 365 E5/A5/G5/F5 Security</li><li>EMS E5/A5</li><li>Standalone Defender for Identity license</li></ul></li><li>To support advanced identity detections, consider applying the <b><a href=\"https://learn.microsoft.com/defender-for-identity/deploy/prerequisites-sensor-version-3#configure-unified-sensor-to-support-advanced-identity-detections-preview\" target=\"_blank\">Unified Sensor RPC Audit tag</a></b> via Asset Rule Management in the <i>Microsoft Defender portal</i>.</li><li>Configure Windows auditing to support enhanced detections. You may use the <b>Set-MDIConfiguration </b>PowerShell command to automate audit policy setup.</li><li>Run the <b>Test-MdiReadiness.ps1</b> script to validate your environment before deployment.</li><li>Communicate this update to your security operations team.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/defender-for-identity/deploy/prerequisites-sensor-version-3\" target=\"_blank\">Microsoft Defender for Identity sensor v3.x prerequisites (Preview)</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Defender for Identity's Unified Sensor is now generally available, enabling identity protections on qualifying domain controllers via the existing Defender for Endpoint agent without extra installation. Activation requires Windows Server 2019+, specific updates, and licensing. It simplifies identity alerts and attack disruption with no downtime."
+      }
+    ],
+    "EndDateTime": "2025-11-20T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1179159",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T22:11:17.093Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T22:11:09Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Defender for Identity: Activate the Unified Sensor now generally available",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft is introducing a refreshed user experience for SharePoint document libraries to improve usability and navigation. These updates are based on customer feedback and aim to streamline common actions, enhance visibility of filters and views, and improve folder navigation—all without disrupting existing customizations.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/2838b8da-5ba1-4382-bdae-9e58a719ccb3\" style=\"width: 400px;\" alt=\"user settings\"></p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&amp;searchterms=500870\" target=\"_blank\">500870</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Targeted Release:</b> Begins early November 2025 and completes by late November 2025.</li>\n<li><b>General Availability (Worldwide, GCC, GCC High, and DoD):</b> Begins early January 2026 and completes by late January 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> <ul><li>All users of SharePoint document libraries across Microsoft 365 tenants.</li><li><i>Note</i>: Some users may have access to this feature before other users within your organization.</li></ul></li><li><b>What will happen:</b></li><ul>\n  <li><b>Simplified command bar:</b> The command bar has been reorganized for clarity and efficiency. The \"New\" and \"Upload\" actions are now combined into a single \"Create or Upload\" hero button, docked at the upper right.</li>\n  \n  <li><b>Improved breadcrumb navigation:</b> The breadcrumb has been redesigned to make navigating between folders faster and more intuitive. Users can now:\n    <ul>\n      <li>See their current folder context clearly.</li>\n      <li>Jump back to any parent folder with a single click.</li>\n      <li>Use the dropdown next to the folder name in the breadcrumb to create folders or upload files directly into the current folder.</li>\n      <li>When at the root of a library, use the \"Other Libraries\" sub-menu to navigate between libraries in the same site.</li>\n    </ul>\n  </li>\n\n  <li><b>More visible custom views, view creation, and view saving:</b> Custom views and view creation are now displayed more prominently inside pills directly under the breadcrumb. When sorts, filters, or groups are applied but not saved to the view, a visual indicator shows that others won’t see these changes until they’re saved.</li>\n\n  <li><b>Filter pills: </b>Filter pills provide a faster way to refine your view. Instead of opening the full filter pane, users can:\n    <ul>\n      <li>Apply file type filters directly from the pill bar at the top of the document library.</li>\n      <li>See all active filters as pills in this bar.</li>\n      <li>Use the clear button to remove all filters and return to the saved view.</li>\n    </ul>\n  </li>\n\n  <li><b>View options button: </b>Common view customization options are now surfaced under a new \"Options\" button, including:\n    <ul>\n      <li>Layout options</li>\n      <li>Sort and group options</li>\n      <li>Field visibility and formatting</li>\n    </ul>\n  </li>\n\n  <li><b>Command bar custom formatter behavior:</b> Any command configured with the following attributes will now appear in a distinguished area on the far right (or far left for right-to-left locales) of the command bar:\n    <ul>\n      <li><code>\"primary\": true</code></li>\n      <li><code>\"position\": 0</code></li>\n    </ul>\n    Full details are documented here: <a href=\"https://learn.microsoft.com/sharepoint/dev/declarative-customization/view-commandbar-formatting\">View command bar formatting documentation</a>\n  </li>\n\n  <li><b>No impact to other customizations: </b>Other than the command bar custom formatter behavior described above, this change will not affect existing customizations made through SPFX, column formatting, or view formatting.</li>\n</ul></ul>\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required to prepare for this change.</li>\n<li>If you use custom command bar formatters, review the updated placement behavior: <a href=\"https://learn.microsoft.com/sharepoint/dev/declarative-customization/view-commandbar-formatting\" target=\"_blank\">View command bar formatting documentation</a>.</li><li>Before rollout, we will update this post with new documentation.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is updating SharePoint document libraries with a simplified command bar, improved breadcrumb navigation, more visible custom views, filter pills, and a new options button. Changes begin November 2025, preserving existing customizations except for updated command bar formatter behavior. No action required to prepare."
+      }
+    ],
+    "EndDateTime": "2026-03-02T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1179157",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T22:10:34.007Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T22:10:28Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Updated SharePoint document library user experience",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p>\n<p>To help organizations better assess and improve their identity security posture, Microsoft Secure Score is being enhanced with new improvement actions based on Microsoft Defender for Identity recommendations. These updates provide more accurate insights and actionable guidance to strengthen your security configuration.</p>\n\n<p><b>When this will happen:</b></p>\n<ul>\n<li><b>Public Preview:</b> Rollout begins early November 2025, completes by mid-December 2025</li>\n<li><b>General Availability (Worldwide, GCC, GCC High, and DoD):</b>&nbsp;Rollout begins early November 2025, completes by mid-December 2025</li>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Secure Score and organizations with Microsoft Defender for Identity sensors deployed.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>A new improvement action will appear in Microsoft Secure Score:&nbsp;<i>Change password for accounts with potentially leaked credentials</i></li>\n<li>This recommendation is visible only if your tenant has a Defender for Identity sensor deployed.</li>\n<li>The update is <b>enabled by default</b> and requires no configuration changes.</li>\n<li>No impact to end-user workflow unless acted upon by the admin.</li>\n</ul>\n</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>No admin action is required before or after rollout.</li>\n<li>Review your current identity configuration to assess potential impact.</li>\n<li>Notify relevant administrators and update internal documentation as needed.</li>\n<li>Regularly review Microsoft Secure Score to monitor and act on new improvement suggestions.</li>\n<li>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score\" target=\"_blank\">Microsoft Secure Score</a>&nbsp;</li>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Secure Score will add a new improvement action from Microsoft Defender for Identity to prompt password changes for accounts with potentially leaked credentials. Rolling out November to December 2025, it requires no admin action and appears only if Defender for Identity sensors are deployed."
+      }
+    ],
+    "EndDateTime": "2026-01-16T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1179155",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T22:09:48.947Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T22:09:40Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Defender for Identity: New recommendation added to Microsoft Secure Score",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b>\n</p><p>Starting February 2026, we will introduce<b> jailbreak and root detection for Entra credentials</b> in the <i>Microsoft Authenticator app</i> on both <i>iOS and Android platforms</i>. This change enhances security by preventing Entra credentials from functioning on jailbroken/rooted devices. All existing Entra credentials on jailbroken or rooted devices will be wiped to protect your organization. This capability is secure by default and does not require any admin configuration or control.</p>\n\n<p><b><b>When this will happen</b></b>&nbsp;</p><p>General Availability (Worldwide) rollout begins in <b>February 2026</b> and is expected to complete in April 2026.</p>\n\n<p><b><b>How this affects your organization</b></b>\n</p><p><i>Who is affected: </i>All users of Microsoft Authenticator on<i> iOS and Android</i> whose Entra credentials are registered on jailbroken or rooted device.</p><p><i>What will happen:\n</i></p><ul>\n<li>The feature is secure by default.</li>\n<li>Users on jailbroken or rooted devices will experience the following phased rollout:\n  <ul>\n    <li><b>Phase 1 – Warning Mode:</b> Users receive a warning that their device is jailbroken or rooted and will be blocked in the future (s<i>creenshots 1-4):&nbsp;</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0d5bba85-f0fa-4778-8cfe-07a20df67d0a/b89470e94de6dc9e7c3bcfdee20a3ea880bf99f4.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e96664e1-316d-4f3f-a0d3-a991adcff91b/613a783257cbf0d59adf2174021a95410909730d.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/2853c8ca-a174-4ce4-9abb-ab6d525827c9/2b53ed22753bca7517ef5d0c0ad238e02ff2c041.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/2f888e3c-0e56-4e74-ae32-7688ffac7194/dc0dabc19fcac41f554b3fa0afad357ac520914b.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p>\n    <li><b>Phase 2 – Blocking Mode:</b> Users are blocked from registering Entra credentials or signing in via Authenticat<i>or (screenshots 5-6):</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/03c7c543-673d-459f-8560-f3209033340e/dbb1775ac2d54b87bd72c82f9e71118c1e5d6a64.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/bae85191-7f10-4ae2-8662-388b12c11d83/4578ef9cec6f9e0bc7a63d04c8bbccd127d90b33.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <li><b>Phase 3 – Wipe Mode:</b> Existing Entra credentials are wiped from jailbroken or rooted dev<i>ices (screenshots 7-10):</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6c4ab2c5-3e63-451d-b943-1d534ad2bae4/93789ce64a8b0b6c9ce48108982e2eb6e351750f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5f0bd4bc-ecd4-4f47-93a2-4beeeaa0b0f8/78a6473762add6a1aa8143b8f8f9f328fa177d4f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/20777765-a2f0-41d3-a655-eaa7f0f0af8b/3851d16a0f020994abe26be742700f248d06ad59.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b8e50708-7d51-48f6-93c3-b6e369b64ebc/37ea29601b4f45c38545cb1973d43f6a17a2a7aa.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  </ul>\n</li>\n<li>Users on compliant (non-Jailbroken or non-rooted) devices will not be affected.</li></ul><ul>\n</ul><p></p>\n\n<p><b><b>What you can do to prepare</b></b>\n</p><ul>\n<li>Notify users about this upcoming change.</li>\n<li>Communicate to helpdesk staff that Authenticator will become unusable for Entra accounts on jailbroken or rooted devices.</li>\n<li>Update internal documentation if you reference Authenticator usage.</li>\n<li>No admin action is required to enable or configure this feature.</li>\n</ul><p></p>\n\n<p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/account-billing/about-microsoft-authenticator-9783c865-0308-42fb-a519-8cf666fe0acc\" target=\"_blank\">About Microsoft Authenticator | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting February 2026, Microsoft Authenticator will block Entra credentials on jailbroken/rooted iOS and Android devices through a phased rollout: warning, blocking, then wiping credentials. This security feature requires no admin setup. Users on compliant devices remain unaffected. Organizations should notify users and update documentation accordingly."
+      }
+    ],
+    "EndDateTime": "2026-05-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1179154",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T22:09:11.963Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T22:08:24Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Authenticator app: Upcoming changes to jailbreak and root detection",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 24, 2025: We have updated the content. Thank you for your patience.</p><p>Coming soon to Microsoft Teams: When users connect to their organization's Wi-Fi, Teams can automatically set their work location to reflect the building they are working in. This makes it easier for users to coordinate work with their coworkers and connect in person.</p><p> This feature is opt-in and requires you to take action to configure it. After you turn it on, end-users remain in control and can choose whether to share their work location with their coworkers.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=488800\" target=\"_blank\">488800</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling in December 2025.</p><p><b>How this will affect your organization:</b>\n</p><p>This feature allows you to map Wi-Fi networks and devices to buildings, which allows your users to have their work location automatically updated when they connect. This is a major improvement over the current experience which relies on end-users to manually set their work location. When this feature is configured and enabled, Teams can automatically update the work location of users who connect their laptop to your organization's Wi-Fi network or peripherals. The feature can leverage the mapping between your building names and your Wi-Fi networks to set the work location of your users to the right building. It can also leverage mappings to&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/rooms/bookable-desks\" target=\"_blank\">specific peripherals</a>, such as monitors. Teams uses the same policy to enable or disable automatic updates of work location for Wi-Fi and peripherals. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/teams/new-csteamsworklocationdetectionpolicy\" target=\"_blank\">New-CsTeamsWorkLocationDetectionPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn</a></p><p>Teams will not update the location of your users if they connect after their working hours (that they can configure in the Microsoft Outlook Calendar). Also, their work location will be cleared at the end of their working hours.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><p>Automatic update of work location is off by default, but it can greatly improve the experience of your users. We recommend turning it on and configuring it in your tenant.\n</p><p>Before rollout, we will update this post with new documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "488800"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will soon auto-set users' work location by detecting their connection to organizational Wi-Fi or peripherals, improving coordination. This opt-in feature, rolling out worldwide from December 2025, requires admin configuration and respects users' working hours and privacy controls."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-01-26T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1081568",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T21:29:38.08Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-23T23:15:29Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Automatically set work location by connecting to a Wi-Fi network",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 24, 2025: We have updated the content below. Thank you for your patience</p><p><b><b>Introduction:</b></b></p><p>We’re introducing<b> refreshed Microsoft 365 app icons</b> for Word, Excel, PowerPoint, and the rest of Microsoft 365 productivity tools. The newly designed Microsoft 365 icons reflect a strategic shift in Microsoft 365—unified, intuitive, and designed for flow across every canvas. As Copilot connects Microsoft 365 apps into a single, intelligent experience, the icons embody that transformation with cleaner shapes, vibrant colors, and a connected design system nodding to Copilot’s influence. The icons are rolling out in the coming weeks across web, desktop, and mobile for both individuals and organizations.</p><p>Mobile app icons will no longer include letterplates. We understand this update may feel unexpected, but it reflects our move toward a symbol-led design that is inclusive, globally consistent, and visually cohesive. App names will continue to appear below each icon for clear navigation. There is no change to letterplates on web or desktop icons, but users will notice the removal of letterplates from launch screens.</p><p>There are no changes to app functionality or user settings.</p><p><b><b>When this will happen:</b></b></p><p><b>General Availability (Worldwide): </b>Rollout begins in early October 2025 and will roll out in phases across web, desktop, and mobile platforms. Completion is expected by late October 2025.</p><p><b><b>How this affects your organization:</b></b></p><p>Who is affected: All users of Microsoft 365 apps across web, desktop, and mobile platforms.</p><p>What will happen:</p><ul><li>Users will begin to see updated Microsoft 365 app icons:</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1606915f-3a5f-4790-91da-d44a3b9b3551/fc3f3bc247b64f352adb026b781b78de7a78155f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>This is a visual-only change; there is no impact to app functionality, user settings, or workflows.</li><li>During the rollout, users may see old and new icons side-by-side across apps and devices.</li><li>No changes to URLs, branding names, or service behavior.</li></ul><p><b><b>What you can do to prepare:</b></b></p><p>No admin action is required.</p><p>However, we recommend the following:</p><ul><li>Review and update internal help content, training materials, and screenshots that reference existing app icons.</li><li>Communicate this change to helpdesk staff to reduce potential confusion.</li></ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 is updating app icons for Word, Excel, PowerPoint, and others with a unified, symbol-led design reflecting Copilot integration. Rollout starts October 2025 across web, desktop, and mobile. This is a visual-only change with no impact on functionality or settings. No admin action required."
+      }
+    ],
+    "EndDateTime": "2025-11-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1163778",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T20:25:54.95Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-01T23:04:36Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365: Visual refresh of app icons",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 24, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b><br>\nStarting in early November, the Microsoft 365 Copilot app for Windows will introduce a new <i>Update available</i>&nbsp;button. This button will not block the app UI; users will be able to continue interacting with the app when the button appears. This update encourages users to use the latest version of the app—ensuring access to new features, performance improvements, and security updates—without disrupting their workflow.</p>\n\n<p><b><b>When this will happen:</b></b><br>\nGeneral Availability: Rollout begins in early November 2025&nbsp;(previously early October) and completes by end of November 2025&nbsp;(previously end of October).</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> All users of the Microsoft 365 Copilot app on Windows.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A new <i>Update available</i>&nbsp;button will appear in the bottom-left corner of the app’s navigation pane when a newer version is available.</li></ul></li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/2879645c-df59-4b68-ad3b-9e692a0696e9\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>The button is non-blocking; users can continue using the app without interruption.</li><li>Clicking the button opens a prompt with two options:<ul><li><i>Update now:</i> The app will close, install the update in the background, and relaunch with the latest version.</li><li><i>Update later: </i>The app remains open in its current version, and the update button stays visible for future use.</li></ul></li></ul><p><img src=\" https://cxcs.microsoft.net/file/ccp/en-us/4250a336-cb66-4cab-867d-bbbfde041698\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>Once updated, the button disappears until a new version becomes available.</li><li>No changes to app functionality or user settings are introduced with this update mechanism.</li></ul><p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n</ul><li>Communicate this change to your users to avoid confusion.</li><li>No admin action is required.</li><li>For internal documentation, you may wish to note the new update behavior.</li><ul>\n\n</ul><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting November 2025, the Microsoft 365 Copilot app for Windows will show a non-blocking \"Update available\" button for users to update the app without interrupting workflow. Users can choose to update immediately or later. No admin action is needed, and no changes to app functionality occur."
+      }
+    ],
+    "EndDateTime": "2025-11-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1154790",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T17:25:40.433Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-17T23:04:48Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft 365 Copilot App for Windows: \"Update available\" button",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>You’re now more in control of provisioned Microsoft Store apps than ever. Starting this month, you can remove select in-box apps using straightforward policy on Windows 11 Enterprise or Windows 11 Education, version 25H2. The new policy, called&nbsp;<b>Remove default Microsoft Store packages from the system</b>, is disabled by default. Learn more about how it works, why it matters, the apps it applies to, and how you can configure it with Microsoft Intune or using Group Policy.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>This policy is already available.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>If&nbsp;you’ve&nbsp;ever needed to remove pre-installed Microsoft Store apps,&nbsp;you might have&nbsp;encountered&nbsp;scripts that break when apps change, making your job more time-consuming.&nbsp;The new policy&nbsp;lets you select and remove apps according to your&nbsp;organization’s requirements&nbsp;with&nbsp;reduce&nbsp;operational overhead.&nbsp;By using policy, you can create a cleaner, work-ready experience for users&nbsp;at your organization.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Read additional information for&nbsp;complete details.&nbsp;</div><ol><li>In&nbsp;<a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Intune admin center</a>, go to&nbsp;<b>Devices</b>&nbsp;&gt;&nbsp;<b>Manage devices</b>&nbsp;&gt;&nbsp;<b>Configuration</b>&nbsp;&gt;&nbsp;<b>Create</b>&nbsp;&gt;&nbsp;<b>New policy</b>&nbsp;to&nbsp;<a href=\"https://learn.microsoft.com/mem/intune/configuration/settings-catalog\" rel=\"noopener noreferrer\" target=\"_blank\">create a settings catalog policy</a>.&nbsp;</li><li>Use the following settings:&nbsp;</li><li class=\"ql-indent-1\"><b>Category:&nbsp;</b>Administrative Templates\\Windows Components\\App Package Deployment&nbsp;</li><li class=\"ql-indent-1\"><b>Setting name:&nbsp;</b>Remove default Microsoft Store packages from the system&nbsp;</li><li class=\"ql-indent-1\"><b>Value:&nbsp;</b>Enabled&nbsp;</li><li>Set the toggle to&nbsp;<b>True</b>&nbsp;for each app to remove it.&nbsp;</li><li>Assign the policy to the desired group, or groups, of devices.&nbsp;<em>Note</em>: Intune&nbsp;won’t&nbsp;apply this policy to unsupported devices and will instead show a status of “Not applicable” for those devices.&nbsp;</li></ol><div>&nbsp;</div><div><b>Additional&nbsp;information:</b>&nbsp;</div><ul><li>Read the announcement in&nbsp;<a href=\"https://aka.ms/PolicyRemovalofApps\" rel=\"noopener noreferrer\" target=\"_blank\">Policy-based removal of pre-installed Microsoft Store apps</a>.&nbsp;</li><li>Visit official documentation at&nbsp;<a href=\"https://learn.microsoft.com/windows/configuration/policy-based-inbox-app-removal/policy-based-inbox-app-removal?tabs=intune\" rel=\"noopener noreferrer\" target=\"_blank\">Policy-based in-box app removal</a>.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-10-24T17:06:38.697Z",
+    "HasAttachments": false,
+    "Id": "MC1179067",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T17:06:39.803Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T17:06:38.773Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Policy-based removal of pre-installed Microsoft Store apps",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 24, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon for Microsoft Purview: We are announcing the public preview of the integration of Adaptive protection with Data Lifecycle Management (DLM) to help you find the right balance to protect against data sabotage while enabling productivity. This new integration leverages DLM features to provide an additional control for Adaptive protection that automatically preserves items deleted by a user with an elevated risk level, so items can be restored if needed.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=392839\" target=\"_blank\">392839</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public preview: We will begin rolling out in late June 2024 (previously early May) and expect to complete by late July 2024 (previously mid-July).\n</p><p>General Availability:&nbsp; We will begin rolling out late June 2026 (previously early February 2026) and expect to complete by late June 2026 (previously early February 2026).</p><p><b>How this will affect your organization:</b>\n</p><p>After the rollout, and after you enable Adaptive protection for your tenant, the retention label and auto-apply policy for data lifecycle management will be automatically created for you. This policy will automatically include elevated risk users identified by Microsoft Purview | Insider Risk Management solution. If these users delete content from Microsoft SharePoint, Microsoft OneDrive, or Microsoft Exchange, a retention label is automatically applied to that content to retain it for 120 days. Retention labels are automatically applied to unlabeled content deleted by these users. When these users are no longer at the elevated risk level, they are automatically removed from the DLM policy, and the system will no longer keep a copy of content they delete. Any content copies previously retained when the user had an elevated risk level will be kept for the 120 days as specified by the retention label.\n</p><p>Unlike other retention labeling scenarios, users do not see the retention label, and you do not need to create or manage the retention label or policy. At this time, you can't change the retention period or assign different policies based on the different risk levels, or for different locations. The single retention label and auto-labeling policy for your tenant is not visible in the Microsoft Purview compliance portal.</p><p><b>What you need to do to prepare:</b>\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/retention#dynamically-mitigate-the-risk-of-accidental-or-malicious-deletes\" target=\"_blank\">Learn about retention policies &amp; labels to retain or delete | Microsoft Learn</a>\n</p><p>If you're using Adaptive protection and want to automatically retain content deleted by elevated risk users, follow these steps to turn on this new integration.\n</p><ol><li>Sign in to the <a href=\"https://compliance.microsoft.com/\" target=\"_blank\">Microsoft Purview compliance portal</a>.\n</li><li>Navigate to <i>Data lifecycle management &gt; Microsoft 365 &gt; Adaptive protection settings</i> in the top right corner.\n</li><li>Turn the setting ON and select <i>Save</i>.\n</li></ol><p>\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/fe6a20ed-77ce-44ce-b862-bc7f4b78b93e\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/521b359c-13a9-41ef-ad96-215789a32eb3\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p>If you’re not using Adaptive protection already, turn on Adaptive protection and the new feature will be enabled along with Adaptive protection.\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "392839"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview will publicly preview integration of Adaptive protection with Data Lifecycle Management in June 2024, automatically retaining deleted content from elevated risk users for 120 days. After rollout, enabling Adaptive protection activates this feature with no manual retention label management needed. General availability is set for June 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-07-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC791110",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T16:54:19.86Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-05-08T00:10:41Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Data Lifecycle Management: New integration with Adaptive protection",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 23, 2025: We have updated the timeline and content below. Thank you for your patience.&nbsp;</p><p>&nbsp;   \n<b>What it is</b></p><p>Microsoft is rolling out a new feature to streamline how app and agent availability is managed across Teams, Outlook, and Microsoft 365 Copilot. Until now, IT admins configured availability settings separately in both the Microsoft 365 Admin Center (MAC) and the Teams Admin Center (TAC), which led to mismatches. With this update, you’ll be able to unify availability policies for apps and agents across both portals, making app management more consistent and efficient<b>.</b></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=393931\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">393931</a>&nbsp;and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503105\" target=\"_blank\">503105</a>.</p><p><b>When this will happen:\n</b></p><p>We will begin rolling out this feature late September 2025 and expect to complete by end of June 2026 (previously mid-November 2025).</p><p>1. <b>Phase 1 – Default Tenant Unification</b></p><p>We will begin rolling out this feature at the end of September 2025. This initial phase targets tenants that have never modified their organization-wide defaults, app availability, or block/unblock in either the Microsoft 365 admin center or the Teams admin center.  At the end of this phase, agent and app manageability will be unified across both Microsoft 365 admin center and Teams admin center ensuring agent and Microsoft 365 <b>apps availability</b> policies are in alignment for all future administrative changes. This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=393931\" target=\"_blank\">393931.</a></p><p>2.\t<b>Phase 2 – Modified Tenants Unification</b></p><p>We will begin rolling out this feature early November 2025. This phase targets tenants that have previously modified their organization-wide defaults, app availability, or block/unblock settings in either admin center. These tenants will be transitioned to a unified management experience across both Microsoft 365 and Teams admin centers.</p><ul><li><b>For tenants with agent or app availability differences across both admin centers</b>, a <b>wizard</b> in the Teams admin center will help identify affected agents and apps and guide through resolving discrepancies.</li><li><b>For tenants with no agent or app availability differences across both admin centers, </b>guidance&nbsp;will be provided to transition to&nbsp;unified availability policy. </li></ul><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503105\" target=\"_blank\">503105</a>.</p><p>3.\t<b>Phase 3 – Automatic Unification\n</b></p><p>Tenants that haven’t transitioned as part of Phase 1 &amp; Phase 2, will be automatically moved to unified app agent management. We will update this post with a timeline and more details later.</p><p><b>How this will affect your organization</b></p><p>Before this rollout, managing Teams apps that work in Outlook and the Microsoft 365 app was fragmented between the Integrated apps page in the Microsoft 365 admin center for Outlook and the Microsoft 365 app, and the Teams admin center for Teams. This sometimes resulted in different settings for the same app in the two admin centers. With Unified agent app management, you will be able to manage apps on the Integrated apps page in the Microsoft 365 admin center or in the Teams admin center, and any changes made in either admin center will synchronize.</p><div>What you can expect:\n</div><ul><li>You’ll gain a consolidated view of agent and Microsoft 365 app availability across both Microsoft 365 and Teams admin centers.\n</li><li>Changes made in either admin center to the agent and app availability will automatically apply across all supported hosts.\n</li><li>Organization-wide defaults for both admin centers will be in sync and govern app availability across Teams, Outlook, and the Microsoft 365 copilot app.</li></ul><p><b>&nbsp;What you need to do to prepare</b></p><p>To ensure a smooth transition, review your tenant-level and individual agent/app settings (app allow/block &amp; user availability) in both the Microsoft 365 Admin Center and the Teams Admin Center. If different departments within your organization manage these settings, we suggest coordinating efforts to complete the review collaboratively.\n</p><p>This update will be rolled out automatically by the stated date, and no immediate action is required. However, it's a good time to update any internal documentation related to agent and app management policies.&nbsp;</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/uam-tac-mac\" target=\"_blank\">Unified agent and app availability management across Microsoft 365 and Teams Admin Centers - Microsoft Teams | Microsoft Learn&nbsp;</a></p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "393931"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is unifying app and agent availability management across Teams, Outlook, and Microsoft 365 admin centers to ensure consistent policies. The rollout starts late September 2025 in three phases, synchronizing settings and providing a consolidated management experience. No immediate action is required, but reviewing current settings is recommended."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-07-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC796790",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-10-24T16:41:43.74Z",
+    "Services": [
+      "Microsoft Teams",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-05-29T22:15:48Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "(Update)Microsoft 365 and Microsoft Teams: Unified management of Teams apps in Teams, Outlook, and the Microsoft 365 app",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 23, 2025: We have updated the content and timelines below. Thank you for your patience.&nbsp;</p><p>Coming soon for Microsoft Teams: App centric management for admin app installation introduces new admin settings to control who in the tenant has specific Teams apps preinstalled. Similar to app centric management for app availability, as communicated in MC688930 <i>(Updated) Teams admin center: App centric management and changes to app permission policies</i> (November 2023), admins will be able to install apps for users, groups, or everyone in the organization.</p><p>After rollout, app-centric management will let admins install apps individually. Existing Installed apps in app setup policies will remain intact; however, no new additions will be permitted, and only deletions will be allowed. Instead, you can install Teams apps for selected users, groups, or all users directly from the respective app. Other settings in app setup policies, including Pinned apps, will remain unchanged.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=394274\" target=\"_blank\">394274</a>&nbsp;and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=500637\" target=\"_blank\">500637</a>.</p><p><b>When this will happen:</b>\n</p><p>App centric management will roll out in following General Availability phases.\n</p><ul><li>Phase 1 | We will begin rolling this feature mid-October and complete rollout by end of November (previously end of October). Phase 1 applies to tenants who meet both conditions: 1) tenants with no Installed apps&nbsp;in the Global app setup policy and&nbsp;2) tenants with no custom app setup policies created in the Teams admin center.\n</li><li>Phase 2 | We will begin rolling this feature end of October and complete rollout by mid-December (previously end of October) for all remaining tenants.</li></ul><p><b>How this will affect your organization:</b>\n</p><p>Before the rollout: If you install an app to a user, the user cannot actually use an admin preinstalled app if you did not take the additional step to allow the user to use it. After the rollout, if you install an app through app centric management, the user will immediately be able to use the app.\n</p><p>After the rollout, you can install any number of Teams apps for selected sets of users, groups, or all users in the organization from the respective apps.</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/install-teams-apps\">Preinstall Teams apps for your org users - Microsoft Teams | Microsoft Learn</a> </p><p><b>What you need to do to prepare:</b>\n</p><p>No action needed for Phase 1 tenants. We will update this message with more information before the rollouts for Phases 2 tenants.\n</p><p>You may want to update any relevant documentation as appropriate.\n</p><p>Before rollout, we will update this post with revised documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "394274"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"394274\":[{\"RoadmapId\":394274,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2024-07-19T06:46:37.8028746Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":394274,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2024-07-19T06:46:37.8028749Z\",\"LatestRing\":\"StandardRelease\"}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is introducing app-centric management for admin app installation, allowing admins to install apps for users, groups, or everyone directly from the app. Existing app setup policies remain but no new additions allowed. Rollout occurs in two phases from mid-October to mid-December 2025."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-01-22T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC795355",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-10-24T16:25:40.81Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-05-23T22:35:04Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams admin center: App centric management for app installation and changes to app setup policies",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to configure quality evaluation framework with Quality Evaluation Agent in Dynamics 365 Customer Service. This feature will reach general availability on October 31, 2025.<br><br>\n<b>How does this affect me?</b><br>\nThe evaluation framework allows AI supervisors to define business quality standards for both customer service representatives and AI agents through detailed evaluation criteria. This feature enables autonomous and AI-assisted assessments of customer interactions across channels (cases, conversations, emails, surveys). Evaluation is comprised of three key components:<ul><li><b>Evaluation criteria</b>: Structured forms with questions, scoring logic, and instructions that define what quality means for a business. Supervisors can use out of the box criteria as guidelines or create customized criteria.</li>\n<li><b>Evaluation plans</b>: Rules that determine when and how evaluations are triggered, based on specific conditions like SLA breaches or sentiment drops. Supervisors can use on-demand evaluation to select cases and request them to be evaluated.</li>\n<li><b>Evaluations</b>: The actual scoring and analysis of interactions evaluated, producing summaries, insights, and coaching recommendations for supervisors.</li></ul>\n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.<br><br>\nIf you would like more information on this feature, please visit the <a href=\"https://aka.ms/ADO12492\"target=\"_blank\">Configure quality evaluation with quality evaluation agent</a> article.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-24T14:21:41Z",
+    "HasAttachments": false,
+    "Id": "MC1178985",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-24T14:28:40.733Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T14:21:41Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Service – Configure quality evaluation with quality evaluation agent",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<div>Microsoft has identified a remote code execution (RCE) vulnerability in the Windows Server Update Services (WSUS) reporting web service. Windows servers that do not have the WSUS server role enabled are not vulnerable to this vulnerability. For more information about the security fix, see&nbsp;<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59287\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2025-59287</a>.</div><div><br></div><div>An out-of-band (OOB) update was released today, October 23, 2025, to address this issue. This is a cumulative update, so you do not need to apply any previous updates before installing this update, as it supersedes all previous updates for affected versions. If you haven’t installed the October 2025 Windows security update yet, we recommend you apply this OOB update instead. After you install the update you will need to reboot your system.</div><div>&nbsp;</div><div>If you have not yet deployed the October 2025 Windows security update and your IT environment includes devices running on the versions of Windows listed below, we recommend you apply this OOB update instead:</div><ul><li>Windows Server 2025 (<a href=\"https://support.microsoft.com/help/5070881\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070881</a>)</li><li>Windows Server, version 23H2 (<a href=\"https://support.microsoft.com/help/5070879\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070879</a>)</li><li>Windows Server 2022 (<a href=\"https://support.microsoft.com/help/5070884\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070884</a>)</li><li>Windows Server 2019 (<a href=\"https://support.microsoft.com/help/5070883\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070883</a>)</li><li>Windows Server 2016 (<a href=\"https://support.microsoft.com/help/5070882\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070882</a>)</li><li>Windows Server 2012 R2&nbsp;(<a href=\"https://support.microsoft.com/help/5070886\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070886</a>)</li><li>Windows Server 2012 (<a href=\"https://support.microsoft.com/help/5070887\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070887</a>)</li></ul>",
       "ContentType": "html"
     },
@@ -316,53 +917,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Data Lifecycle Management: Retention based on “last accessed” for OneDrive and SharePoint files",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 11, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon to Microsoft Teams: When users connect to their organization's Wi-Fi, Teams can automatically set their work location to reflect the building they are working in. This feature is opt-in and requires you to take action to configure it.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=488800\" target=\"_blank\">488800</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling early December 2025 and expect to complete by mid-December 2025.</p><p><b>How this will affect your organization:</b>\n</p><p>This feature allows you to map Wi-Fi networks and devices to buildings, which allows your users to have their work location automatically configured when they connect. This is a major improvement over the current experience which relies on end-users to manually set their work location. When this feature is configured and enabled, Teams can automatically update the work location of users who connect their laptop to your organization's Wi-Fi network or peripherals. The feature can leverage the mapping between your building names and your Wi-Fi networks to set the work location of your users to the right building. It can also leverage mappings to&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/rooms/bookable-desks\" target=\"_blank\">specific peripherals</a>, such as monitors. Teams uses the same policy to enable or disable automatic updates of work location for Wi-Fi and peripherals. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/teams/new-csteamsworklocationdetectionpolicy\" target=\"_blank\">New-CsTeamsWorkLocationDetectionPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn</a></p><p>Teams will not update the location of your users if they connect after their working hours (that they can configure in the Microsoft Outlook Calendar). Also, their work location will be cleared at the end of their working hours.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><p>Automatic update of work location is off by default, but it can greatly improve the experience of your users. We recommend turning it on and configuring it in your tenant.\n</p><p>Before rollout, we will update this post with new documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "488800"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will soon auto-set users' work location by connecting to organizational Wi-Fi or peripherals, improving over manual setting. This opt-in feature, rolling out December 2025, maps Wi-Fi to buildings and respects users' working hours. Admins must enable and configure it in their tenant."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-01-26T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1081568",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-23T19:13:31.007Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-23T23:15:29Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Automatically set work location by connecting to a Wi-Fi network",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -7608,44 +8162,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction:</b></b></p><p>We’re introducing<b> refreshed Microsoft 365 app icons</b> for Word, Excel, PowerPoint, and the rest of Microsoft 365 productivity tools. The newly designed Microsoft 365 icons reflect a strategic shift in Microsoft 365—unified, intuitive, and designed for flow across every canvas. As Copilot connects Microsoft 365 apps into a single, intelligent experience, the icons embody that transformation with cleaner shapes, vibrant colors, and a connected design system nodding to Copilot’s influence. The icons are rolling out in the coming weeks across web, desktop, and mobile for both individuals and organizations.</p><p>There are no changes to app functionality or user settings.</p><p><b><b>When this will happen:</b></b></p><p><b>General Availability (Worldwide): </b>Rollout begins in early October 2025 and will roll out in phases across web, desktop, and mobile platforms. Completion is expected by late October 2025.</p><p><b><b>How this affects your organization:</b></b></p><p>Who is affected: All users of Microsoft 365 apps across web, desktop, and mobile platforms.</p><p>What will happen:</p><ul><li>Users will begin to see updated Microsoft 365 app icons:</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1606915f-3a5f-4790-91da-d44a3b9b3551/fc3f3bc247b64f352adb026b781b78de7a78155f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>This is a visual-only change; there is no impact to app functionality, user settings, or workflows.</li><li>During the rollout, users may see old and new icons side-by-side across apps and devices.</li><li>No changes to URLs, branding names, or service behavior.</li></ul><p><b><b>What you can do to prepare:</b></b></p><p>No admin action is required.</p><p>However, we recommend the following:</p><ul><li>Review and update internal help content, training materials, and screenshots that reference existing app icons.</li><li>Communicate this change to helpdesk staff to reduce potential confusion.</li></ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 is rolling out refreshed app icons for Word, Excel, PowerPoint, and others starting October 2025. The visual update reflects a unified design inspired by Copilot, with no changes to functionality or settings. No admin action is needed, but updating help materials is recommended."
-      }
-    ],
-    "EndDateTime": "2025-11-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1163778",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-01T23:04:49.32Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T23:04:36Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365: Visual refresh of app icons",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to proactively mitigate competitive risks with tailored competitor insights and talking points from the Sales Qualification Agent in Dynamics 365 Sales. This feature will reach general availability on October 31, 2025.<br><br><b>How does this affect me?</b><br>This feature delivers insights directly into your workflow, including an overview, SWOT (strengths, weaknesses, opportunities, and threats) analysis, and tailored talking points for each direct competitor, along with timely insights whenever a competitor is mentioned in sales emails.  The key insights provided by this feature are listed below:<ul><li><b>Competitor History:</b> Gain access to insights from relevant past opportunities where you have competed against a specific competitor.</li><li><b>Competitor Landscape:</b> Identify the top direct competitors for a given sales scenario based on similar products offered or similar account profiles targeted and get an overview and SWOT analysis for each competitor.</li><li><b>Tailored Talking Points:</b> Receive actionable recommendations to adjust your approach for addressing specific competitors.</li><li><b>Competitor Mentions:</b> Stay informed whenever a competitor is mentioned in sales emails, ensuring you are always aware of emerging competitor risks.</li></ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
       "ContentType": "html"
     },
@@ -8541,53 +9057,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated October 1, 2025: We have updated the content documentation link. Thank you for your patience.&nbsp;</p><p>&nbsp;   \n<b>What it is</b></p><p>Microsoft is rolling out a new feature to streamline how app and agent availability is managed across Teams, Outlook, and Microsoft 365 Copilot. Until now, IT admins configured availability settings separately in both the Microsoft 365 Admin Center (MAC) and the Teams Admin Center (TAC), which led to mismatches. With this update, you’ll be able to unify availability policies for apps and agents across both portals, making app management more consistent and efficient<b>.</b></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=393931\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">393931</a>&nbsp;and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503105\" target=\"_blank\">503105</a>.</p><p><b>When this will happen:\n</b></p><p>We will begin rolling out this feature late September 2025 and expect to complete by mid-November 2025.</p><p>1. <b>Phase 1 – Default Tenant Unification</b></p><p>We will begin rolling out this feature at the end of September 2025. This initial phase targets tenants that have never modified their organization-wide defaults, app availability, or block/unblock in either the Microsoft 365 admin center or the Teams admin center.  At the end of this phase, agent and app manageability will be unified across both Microsoft 365 admin center and Teams admin center ensuring agent and Microsoft 365 <b>apps availability</b> policies are in alignment for all future administrative changes. This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=393931\" target=\"_blank\">393931.</a></p><p>2.\t<b>Phase 2 – Modified Tenants Unification</b></p><p>We will begin rolling out this feature at the end of October 2025. This phase targets tenants that have previously modified their organization-wide defaults, app availability, or block/unblock settings in either admin center. These tenants will be transitioned to a unified management experience across both Microsoft 365 and Teams admin centers.</p><ul><li><b>For tenants with agent or app availability differences across both admin centers</b>, a <b>wizard</b> in the Teams admin center will help identify affected agents and apps and guide through resolving discrepancies.</li><li><b>For tenants with no agent or app availability differences across both admin centers, guidance </b>will be provided to help maintain unified availability policy for all future changes. </li></ul><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503105\" target=\"_blank\">503105</a>.</p><p>3.\t<b>Phase 3 – Automatic Unification\n</b></p><p>Tenants that haven’t transitioned as part of Phase 1 &amp; Phase 2, will be automatically moved to unified app agent management. We will update this post with a timeline and more details later.</p><p><b>How this will affect your organization</b></p><p>Before this rollout, managing Teams apps that work in Outlook and the Microsoft 365 app was fragmented between the Integrated apps page in the Microsoft 365 admin center for Outlook and the Microsoft 365 app, and the Teams admin center for Teams. This sometimes resulted in different settings for the same app in the two admin centers. With Unified agent app management, you will be able to manage apps on the Integrated apps page in the Microsoft 365 admin center or in the Teams admin center, and any changes made in either admin center will synchronize.</p><div>What you can expect:\n</div><ul><li>You’ll gain a consolidated view of agent and Microsoft 365 app availability across both Microsoft 365 and Teams admin centers.\n</li><li>Changes made in either admin center to the agent and app availability will automatically apply across all supported hosts.\n</li><li>Organization-wide defaults for both admin centers will be in sync and govern app availability across Teams, Outlook, and the Microsoft 365 copilot app.</li></ul><p><b>&nbsp;What you need to do to prepare</b></p><p>To ensure a smooth transition, review your tenant-level and individual agent/app settings (app allow/block &amp; user availability) in both the Microsoft 365 Admin Center and the Teams Admin Center. If different departments within your organization manage these settings, we suggest coordinating efforts to complete the review collaboratively.\n</p><p>This update will be rolled out automatically by the stated date, and no immediate action is required. However, it's a good time to update any internal documentation related to agent and app management policies.&nbsp;</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/uam-tac-mac\" target=\"_blank\">Unified agent and app availability management across Microsoft 365 and Teams Admin Centers - Microsoft Teams | Microsoft Learn&nbsp;</a></p><p>\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "393931"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft is unifying app and agent availability management across Teams, Outlook, and Microsoft 365 admin centers to ensure consistent policies. The rollout starts late September 2025 in three phases, synchronizing settings and providing tools to resolve discrepancies. No immediate action is required, but reviewing current settings is recommended."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2026-12-28T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC796790",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-10-01T16:02:10.143Z",
-    "Services": [
-      "Microsoft Teams",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-05-29T22:15:48Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Update: Microsoft 365 and Microsoft Teams: Unified management of Teams apps in Teams, Outlook, and the Microsoft 365 app",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to streamline data entry with smart paste in Dynamics 365 Sales. This feature will reach general availability on October 31, 2025.<br><br> \n\n<b>How does this affect me?</b><br> \n\nThis feature enables you to use smart paste, which uses AI to analyze data from your clipboard and identify key details that are automatically filled into the appropriate fields. Smart paste updates forms for you, such as emails or a business card, reducing the time required for data entry. The key capabilities include:<ul> \n\n<li>Automatically get inline field suggestions by copying relevant text or images to your clipboard.</li> \n\n<li>Paste using the smart paste icon or the keyboard shortcut (Ctrl+V or Cmd+V) when no field is selected and allow AI to analyze the form and clipboard content to suggest field values.</li>  \n\n<li>Choose to accept or ignore suggestions and continue editing the form as needed.</li>  \n\n<li>Paste directly into specific fields as usual by selecting the field first.</li></ul> \n\n<b>What action do I need to take?</b><br> \nThis message is for awareness and no action is required.<br><br> \n\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/ADO12541\"target=\"_blank\">Streamline data entry with smart paste</a>.",
       "ContentType": "html"
     },
@@ -9382,7 +9851,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"503100\":[{\"RoadmapId\":503100,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-10-24T11:02:41.6258808Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":503100,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-10-24T11:02:41.6258815Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"503100\":[{\"RoadmapId\":503100,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-10-25T03:16:39.9867757Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":503100,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-10-25T03:16:39.9867759Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12145,37 +12614,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to extract key details, such as names, phone numbers, addresses, and company info from uploaded content, and intelligently map them to the right fields in the sales form in Dynamics 365 Sales. This feature will reach general availability on October 17, 2025.<br><br><b>How does this affect me?</b><br>As part of Copilot’s form fill assistance initiatives, the form fill assist toolbar supports the uploading of files, emails, and images, helping eliminate manual data entry. It extracts key details, such as names, phone numbers, addresses, and company info, from uploaded content and maps them to the right fields in the sales form.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO12538\">Accelerate data entry using form fill assist toolbar</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-10-24T18:30:14Z",
-    "HasAttachments": false,
-    "Id": "MC1158841",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-24T18:32:00.453Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-24T18:30:14Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Sales – Accelerate data entry using form fill assist toolbar",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated September 24, 2025: We have updated the timeline. Thank you for your patience.\n</p><p><b>Introduction</b></p><p>We’re streamlining the Know Your Customer (KYC) requirements for acquiring Microsoft telephone numbers in all markets. Teams administrators will need to submit general business information and supporting documents via Teams Admin Center before provisioning new telephone numbers. This is a one-time process that will allow Microsoft to validate businesses and fulfill regulatory requirements, helping protect our phone services from misuse, such as spam calls and voice phishing (vishing).</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out in early August 2025 and expect to complete by late September 2025 (previously mid-September).</p><p><b>How this will affect your organization</b></p><p>This change updates the existing telephone number provisioning workflow. Teams administrators must now complete a KYC onboarding process in the Teams Admin Center before provisioning new telephone numbers.</p><ul><li>Admins will be required to submit business information and supporting documentation.\n</li><li>The vetting process typically takes a few hours but may take up to two business days.\n</li><li>No new telephone numbers can be acquired until the submitted information is validated.\n</li><li>Existing telephone numbers are not affected.</li></ul><p>These requirements apply globally and are consistent across all Calling Plans markets.</p><p><b>What you need to do to prepare</b></p><p>Ensure your Teams administrators are ready to provide the following information via the Teams Admin Center:\n</p><ul><li>Company name\n</li><li>Tax ID, DUNS number, or Business Registration Number\n</li><li>Business address\n</li><li>A copy of the Business Registration, Registry Extract, or Articles of Incorporation</li></ul><p>This process applies to all tenants, including those on free trials. No specific license tier is required to complete the KYC onboarding.</p><p>Learn more: <a href=\"https://learn.microsoft.com/MicrosoftTeams/teams-phone-know-your-customer\" target=\"_blank\">Teams Phone Know Your Customer overview - Microsoft Teams | Microsoft Learn</a>&nbsp;&nbsp;</p><p><b>Compliance considerations</b></p><ul><li>Does the change store new customer data, if so, where, and is the data cached or permanently stored? - Yes. The KYC onboarding process requires submission of business information and supporting documentation, which will be stored by Microsoft to fulfill regulatory requirements.</li><li>Does the change alter how existing customer data is processed, stored, or accessed? - Maybe. While existing telephone numbers are not affected, the process introduces new data collection and validation workflows that may interact with existing tenant metadata.</li><li>Does the change include an admin control and, can it be controlled through Entra ID group membership? - Yes. The KYC onboarding process is managed through the Teams Admin Center, which supports role-based access control via Entra ID group membership.</li></ul>",
       "ContentType": "html"
     },
@@ -12335,44 +12773,6 @@
       "User impact"
     ],
     "Title": "New Tools feature coming to the Microsoft Copilot Chat prompt box",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction: </b></p><p>We’re expanding model choice in <i>Microsoft 365 Copilot Researcher</i> and <i>Microsoft Copilot Studio</i> to include Anthropic models. You can read more about this announcement in our blog: <a href=\"https://www.microsoft.com/microsoft-365/blog/?p=279051\" target=\"_blank\">Expanding model choice in Microsoft 365 Copilot</a>.</p><p>This update gives organizations more flexibility to tailor AI experiences to their needs. Researcher can now be powered by either OpenAI's deep reasoning models or Anthropic’s Claude Opus 4.1. Claude in <i>Researcher</i> is rolling out today via the Frontier Program to Microsoft 365 Copilot licensed customers who opt in. In <i>Copilot Studio</i>, Claude Opus 4.1 and Sonnet 4 models are now available as optional model options in addition to existing options from OpenAI. Makers with Microsoft Copilot Studio licenses who opt in can now experiment with creating custom agents using Claude. Claude models in <i>Microsoft Copilot Studio </i>are currently in preview and not intended for production use.</p><p><b>When this will happen: \n</b><b>\n</b></p><ul><li>Rollout begins September 24, 2025. Admin opt-in required.</li><li>Claude Opus 4.1 in Researcher is available today via the Frontier Program.</li><li>Claude Opus 4.1 and Claude Sonnet 4 in Copilot Studio are in preview.</li></ul><p><b>How this affects your organization:</b></p><p>Who is affected:</p><ul><li>&nbsp;Admins managing Microsoft 365 Copilot, Researcher, and Microsoft Copilot Studio.</li><li>Microsoft 365 Copilot licensed customers participating in the Frontier Program.</li></ul><p><b>What will happen:</b></p><ul><li>Researcher can now use:<ul><li>OpenAI deep reasoning models</li><li>Anthropic Claude Opus 4.1 (opt-in required)</li></ul></li><li>Microsoft Copilot Studio now supports:<ul><li>Claude Opus 4.1 and Claude Sonnet 4 models (opt-in required; external preview)</li><li>Existing OpenAI models remain available</li></ul></li><li>Anthropic models are disabled by default until admins opt-in</li><li>Admins must opt-in via:&nbsp;<ul><li>Microsoft admin center (MAC)</li><li>Once turned on in MAC, additional management controls for Microsoft Copilot Studio can be used in Power Platform admin center (PPAC)</li></ul></li></ul><p><b>Learn more about admin opt-in controls:</b></p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-models\" target=\"_blank\">Connect to Anthropic's AI models | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/power-platform/admin/allow-llm-generative-responses\" target=\"_blank\">Allow external large language models (LLMs) for generative responses | Microsoft Learn</a></li></ul><p><b>Additional documentation:</b></p><ul><li><a href=\"https://learn.microsoft.com/microsoft-copilot-studio/authoring-select-external-response-model\" target=\"_blank\">Choose an external model as the primary AI model | Microsoft Learn</a></li></ul><p><b>Important:</b> Claude models are hosted by Anthropic outside Microsoft-managed environments. Data used with Claude is processed outside Microsoft’s compliance and audit boundaries. This means Microsoft’s Product Terms, Data Protection Addendum, data residency commitments, data processing commitments (EUDB) do not apply to use of Anthropic models. Instead, your use is governed by Anthropic’s Commercial Terms of Service and Data Processing Addendum.&nbsp;</p><p></p><p><b></b></p>\n<b>\n</b><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot Researcher and Copilot Studio now offer Anthropic models (Claude Opus 4.1 and Sonnet 4) alongside OpenAI models. Admin opt-in is required, with rollout starting September 24, 2025. Anthropic models are in preview, hosted externally, and governed by Anthropic's terms, not Microsoft's."
-      }
-    ],
-    "EndDateTime": "2025-10-24T15:48:35Z",
-    "HasAttachments": false,
-    "Id": "MC1158765",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-24T15:48:47.003Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-24T15:48:35Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot Researcher and Microsoft Copilot Studio: Expanding model choice",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -13666,43 +14066,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 admin center: Email notifications for service health issues available in multiple languages",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b><br>\nStarting in early October, the Microsoft 365 Copilot app for Windows will introduce a new <i>Update available</i>&nbsp;button. This button will not block the app UI; users will be able to continue interacting with the app when the button appears. This update encourages users to use the latest version of the app—ensuring access to new features, performance improvements, and security updates—without disrupting their workflow.</p>\n\n<p><b><b>When this will happen:</b></b><br>\nGeneral Availability: Rollout begins in early October 2025 and completes by end of October 2025.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> All users of the Microsoft 365 Copilot app on Windows.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A new <i>Update available</i>&nbsp;button will appear in the bottom-left corner of the app’s navigation pane when a newer version is available.</li></ul></li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/2879645c-df59-4b68-ad3b-9e692a0696e9\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>The button is non-blocking; users can continue using the app without interruption.</li><li>Clicking the button opens a prompt with two options:<ul><li><i>Update now:</i> The app will close, install the update in the background, and relaunch with the latest version.</li><li><i>Update later: </i>The app remains open in its current version, and the update button stays visible for future use.</li></ul></li></ul><p><img src=\" https://cxcs.microsoft.net/file/ccp/en-us/4250a336-cb66-4cab-867d-bbbfde041698\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>Once updated, the button disappears until a new version becomes available.</li><li>No changes to app functionality or user settings are introduced with this update mechanism.</li></ul><p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n</ul><li>Communicate this change to your users to avoid confusion.</li><li>No admin action is required.</li><li>For internal documentation, you may wish to note the new update behavior.</li><ul>\n\n</ul><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting October 2025, the Microsoft 365 Copilot app for Windows will show a non-blocking \"Update available\" button, allowing users to update immediately or later without interrupting use. No admin action is needed, and the update ensures access to new features and improvements."
-      }
-    ],
-    "EndDateTime": "2025-11-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1154790",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-17T23:05:59.01Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-17T23:04:48Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft 365 Copilot App for Windows: \"Update available\" button",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -17157,37 +17520,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to prevent duplicate emails to shared email addresses in Dynamics 365 Commerce. This feature will reach general availability on September 24, 2025.<br><br><b>How does this affect me?</b><br>This feature enables email deduplication, ensuring that even if your data has multiple contacts with the same email address, your message will only be sent once to your customers.<br><br>Admins can enable or disable email deduplication for real-time segment-based journeys, and review duplicated email addresses in journey analytics.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-10-25T01:51:00Z",
-    "HasAttachments": false,
-    "Id": "MC1148604",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-06T01:51:47.373Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-06T01:51:09Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Customer Insights – Journeys - Prevent duplicate emails to shared email addresses",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to create offline profiles in the maker studio for Canvas apps in Power Apps. This feature will reach general availability on September 30, 2025.<br><br><b>How does this affect me?</b><br>This feature allows makers to create offline profiles for canvas mobile apps without needing to switch between Power Apps Studio and the Power Platform admin center. All app types get the latest updates that sync controls and improve the user experience.<br><br>Makers can create offline profiles in the app development flow through the app's settings menu. Both model-driven and canvas apps get new features to control synchronization and improve the user experience.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>If you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/12185\">Create offline profiles in the maker studio for Canvas apps</a> article.",
       "ContentType": "html"
     },
@@ -19092,56 +19424,6 @@
       "Retirement"
     ],
     "Title": "Retirement of \"Add to existing remediation\" option in Microsoft Defender for Office 365",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 2, 2025: We have updated the content. Thank you for your patience.&nbsp;</p><p>Coming soon for Microsoft Teams: App centric management for admin app installation introduces new admin settings to control who in the tenant has specific Teams apps preinstalled. Similar to app centric management for app availability, as communicated in MC688930 <i>(Updated) Teams admin center: App centric management and changes to app permission policies</i> (November 2023), admins will be able to install apps for users, groups, or everyone in the organization.</p><p>After rollout, app centric management will replace<i> Installed apps</i> in the Teams admin center and give admins the ability to install apps individually. The <i>Installed apps</i> in your app setup policies will be migrated to app centric management based on your current user and group assignments for each policy. The rest of your settings in app setup policies will remain unchanged and will continue to work based on app setup policies, including <i>Pinned apps</i>. After this rollout, you can install Teams apps for selected sets of users, groups, or all users in the organization, and <i style=\"\">Installed apps</i> in app setup policies will no longer be available.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=394274\" target=\"_blank\">394274</a>&nbsp;and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=500637\" target=\"_blank\">500637</a>.</p><p><b>When this will happen:</b>\n</p><p>App centric management will roll out in four General Availability phases.\n</p><ul><li>Phase 1 | We will begin rolling this feature for all tenants mid-October and complete rollout by end of October. phase applies to tenants who meet both conditions: 1) tenants with no <i>Installed apps</i> in the Global app setup policy and 2) tenants with no custom app setup policies created in the Teams admin center. After rollout, these tenants will have app centric management enabled for their app installs. Admins may see the <i>Manage apps</i> page in read-only mode for a short time.\n</li><li>Phase 2 | We will begin rolling this feature for all tenants mid-October and complete rollout by end of October. This phase applies to all remaining tenants. This phase will migrate apps installed for users and groups through Installed apps in app setup policies to app centric management.</li></ul><p><b>How this will affect your organization:</b>\n</p><p>Before the rollout: If you install an app to a user, the user cannot actually use an admin preinstalled app if you did not take the additional step to allow the user to use it. After the rollout, if you install an app through app centric management, the user will immediately be able to use the app.\n</p><p>\n</p><p>Before the roll out, a user will only have apps installed from a single app setup policy, following the <a href=\"https://learn.microsoft.com/microsoftteams/assign-policies-users-and-groups#precedence-rules\" target=\"_blank\">policy resolution precedence rules</a>. After the rollout, if you have multiple custom app setup policies assigned to users or groups, apps from every policy will be installed to&nbsp;the user or group assigned to&nbsp;that policy, regardless of the policy resolution precedence rules.\n</p><p>&nbsp;<b>What you need to do to prepare:</b>\n</p><p>No action needed for Phase 1 tenants. We will update this message with more information before the rollouts for Phases 2 tenants.\n</p><p>You may want to update any relevant documentation as appropriate.\n</p><p>Before rollout, we will update this post with revised documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "394274"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"394274\":[{\"RoadmapId\":394274,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2024-07-19T06:46:37.8028746Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":394274,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2024-07-19T06:46:37.8028749Z\",\"LatestRing\":\"StandardRelease\"}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams is introducing app centric management for admin app installation, replacing \"Installed apps\" in app setup policies. This allows admins to install apps for users, groups, or all users with immediate access. Rollout begins mid-October 2025 in phases, migrating existing app installations automatically. No action needed for Phase 1 tenants."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2026-12-21T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC795355",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-09-02T20:07:17.027Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-05-23T22:35:04Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams admin center: App centric management for app installation and changes to app setup policies",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -24932,49 +25214,6 @@
       "Admin impact"
     ],
     "Title": "New recovery options in Windows 11, version 24H2 boost resilience",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated July 22, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon for Microsoft Purview: We are announcing the public preview of the integration of Adaptive protection with Data Lifecycle Management (DLM) to help you find the right balance to protect against data sabotage while enabling productivity. This new integration leverages DLM features to provide an additional control for Adaptive protection that automatically preserves items deleted by a user with an elevated risk level, so items can be restored if needed.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=392839\" target=\"_blank\">392839</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public preview: We will begin rolling out in late June 2024 (previously early May) and expect to complete by late July 2024 (previously mid-July).\n</p><p>General Availability:&nbsp; We will begin rolling out early February 2026 and expect to complete by late February 2026.</p><p><b>How this will affect your organization:</b>\n</p><p>After the rollout, and after you enable Adaptive protection for your tenant, the retention label and auto-apply policy for data lifecycle management will be automatically created for you. This policy will automatically include elevated risk users identified by Microsoft Purview | Insider Risk Management solution. If these users delete content from Microsoft SharePoint, Microsoft OneDrive, or Microsoft Exchange, a retention label is automatically applied to that content to retain it for 120 days. Retention labels are automatically applied to unlabeled content deleted by these users. When these users are no longer at the elevated risk level, they are automatically removed from the DLM policy, and the system will no longer keep a copy of content they delete. Any content copies previously retained when the user had an elevated risk level will be kept for the 120 days as specified by the retention label.\n</p><p>Unlike other retention labeling scenarios, users do not see the retention label, and you do not need to create or manage the retention label or policy. At this time, you can't change the retention period or assign different policies based on the different risk levels, or for different locations. The single retention label and auto-labeling policy for your tenant is not visible in the Microsoft Purview compliance portal.</p><p><b>What you need to do to prepare:</b>\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/retention#dynamically-mitigate-the-risk-of-accidental-or-malicious-deletes\" target=\"_blank\">Learn about retention policies &amp; labels to retain or delete | Microsoft Learn</a>\n</p><p>If you're using Adaptive protection and want to automatically retain content deleted by elevated risk users, follow these steps to turn on this new integration.\n</p><ol><li>Sign in to the <a href=\"https://compliance.microsoft.com/\" target=\"_blank\">Microsoft Purview compliance portal</a>.\n</li><li>Navigate to <i>Data lifecycle management &gt; Microsoft 365 &gt; Adaptive protection settings</i> in the top right corner.\n</li><li>Turn the setting ON and select <i>Save</i>.\n</li></ol><p>\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/fe6a20ed-77ce-44ce-b862-bc7f4b78b93e\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/521b359c-13a9-41ef-ad96-215789a32eb3\" style=\"width: 400px;\" alt=\"admin settings\">\n</p><p>If you’re not using Adaptive protection already, turn on Adaptive protection and the new feature will be enabled along with Adaptive protection.\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "392839"
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-11-24T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC791110",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-07-22T16:28:45.327Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-05-08T00:10:41Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Data Lifecycle Management: New integration with Adaptive protection",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -32506,37 +32745,6 @@
       "Admin impact"
     ],
     "Title": "The October 2024 Windows non-security preview update is now available for some supported versions of Windows",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>The October 2024 non-security preview update is now available for Windows 11, version 24H2. Information about the contents of this update is available from the release notes, which are accessible from the <a href=\"https://support.microsoft.com/help/5044384\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11</a> update history page. To learn more about the different types of monthly quality updates, see <a href=\"https://aka.ms/Windows/MonthlyUpdates\" rel=\"noopener noreferrer\" target=\"_blank\">Windows monthly updates explained</a>.</div><div><br></div><div><b>Highlights for the Windows 11, version 24H2 update:&nbsp;</b></div><ul><li>You can now stop the suggestions to turn off notifications from certain apps.</li><li>The Wi-Fi password dialog now has the Windows 11 visual design.</li><li>This update addresses an issue with Web sign-in that prevents signing in to your account because the screen stops responding.</li><li>You can now configure the&nbsp;<a href=\"https://blogs.windows.com/windowsexperience/2024/01/04/introducing-a-new-copilot-key-to-kick-off-the-year-of-ai-powered-windows-pcs/\" rel=\"noopener noreferrer\" target=\"_blank\">Copilot key</a>&nbsp;on the keyboard.</li></ul><div><br></div><div>For instructions on how to install this update for your operating system, see the KB for your OS listed below:&nbsp;</div><ul><li>Windows 11, version 24H2: <a href=\"https://support.microsoft.com/help/5044384\" rel=\"noopener noreferrer\" target=\"_blank\">KB5044384</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-10-24T17:00:59Z",
-    "HasAttachments": false,
-    "Id": "MC917582",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2024-10-24T17:00:59.757Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-10-24T17:00:59.093Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "The October 2024 Windows non-security preview update is now available for Windows 11, version 24H2",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
