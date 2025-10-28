@@ -1,0 +1,37 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re introducing the <b>App Builder agent</b> in Microsoft 365 Copilot, available starting <b>October 28</b> through the <b>Frontier program</b>. This agent empowers information workers to build interactive, no-code apps directly within Copilot Chat using natural language and existing Microsoft 365 content. Designed for fast, intuitive app creation, App Builder helps users turn everyday ideas into functional apps for productivity, presentation, prototyping, and more.</p>\n<p>The Frontier program provides early, hands-on access to experimental Microsoft 365 Copilot innovations in customer environments. Agents and AI features designated as \"Frontier\" are previews intended for evaluation and feedback. As these features are still in development, their availability and capabilities may change at any time.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>App Builder agent will begin rolling out in Preview to Frontier-enabled tenants starting on <b>October 28, 2025</b>, through the following week. The agent will be available in US only.&nbsp;</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> Microsoft 365 <b>customers with Copilot licenses</b> who are enrolled in the Frontier program.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Admins can manage agent access via Microsoft 365 Admin Center.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3996c656-8cad-488e-bb80-96c838360dba\" style=\"width: 400px;\" alt=\"user settings\"></p> <li>Admins can audit apps in Power Platform Admin Center.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c40a510d-d788-40f6-8ca1-e9fa6b5f3eef\" style=\"width: 400px;\" alt=\"user settings\"></p><li>App Builder Agent will appear in the Agent Store under “Built by Microsoft” as “App Builder (Frontier).”</li>\n    <li>Users can build apps using natural language prompts in Microsoft 365 Copilot Chat.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/863f86c3-ff69-475a-b427-dd7573314f78\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <li>Apps are backed by created SharePoint Sites with data stored in Lists. One site per app.</li>\n    <li>No external data connections or custom APIs are supported.</li>\n    <li>Apps can be shared like documents and launched within Microsoft 365 Copilot.</li>\n   \n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Identify users who would benefit from early access to App Builder and add them to a Microsoft Entra ID group.</li>\n<li>Enable Frontier features via <b>Microsoft Admin Center &gt; Copilot Settings &gt; Copilot Frontier</b>.</li><li>Manage who can install the agent via <b>Microsoft Admin Center &gt; Copilot Agents &gt; App Builder (Frontier) &gt; Users.</b></li>\n<li>Communicate availability and usage guidance to helpdesk and end users.</li>\n<li>Review the Frontier program overview: <a href=\"https://adoption.microsoft.com/copilot/frontier-program/\" target=\"_blank\">Frontier program – Microsoft Adoption</a></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>Stores new customer data</td><td>Created applications are stored in a designated Power Platform environment within the customer’s tenant. Inventory can be managed in Power Platform Admin Center.&nbsp;</td></tr>\n<tr><td>Introduces new AI/ML capabilities</td><td>Users can build apps using generative AI with GPT-5 via the App Builder agent in Copilot Chat.</td></tr>\n<tr><td>Provides new way of interacting with generative AI</td><td>Natural language prompts are used to create apps directly within Copilot Chat.</td></tr>\n<tr><td>Includes admin control</td><td>Admins can manage access to the agent via Microsoft Entra ID group membership in the Microsoft 365 Admin Center. Admins can manage the inventory of apps in the Power Platform Admin Center via <b>Power Platform Admin Center</b> &gt; <b>Manage </b>&gt; <b>Inventory</b>. The Item type of \"App Builder app\" can be filtered. This UI will fully roll out by Mid-November.&nbsp;</td></tr>\n</tbody></table>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "Starting October 28, 2025, the App Builder agent in Microsoft 365 Copilot will preview via the Frontier program in the US. It enables no-code app creation using natural language, managed by admins through Microsoft 365 Admin Center and Power Platform Admin Center, with apps stored in SharePoint Sites."
+    }
+  ],
+  "EndDateTime": "2025-11-28T08:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1180956",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-10-28T04:42:36.98Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-10-28T04:42:25Z",
+  "Tags": [
+    "New feature",
+    "User impact"
+  ],
+  "Title": "App Builder agent available via Frontier starting October 28",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
