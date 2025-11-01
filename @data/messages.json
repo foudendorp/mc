@@ -4,25 +4,667 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing an update to Dataverse billing rates and management in Microsoft Dataverse. This feature will reach general availability on November 28, 2025.<br><br><b>How does this affect me?</b><br>The new billing model for Dataverse separates storage and compute costs, ensuring customers are only charged for the resources they consume.<br><br>This model aims to provide a more flexible and transparent pricing structure that aligns with customer usage patterns and market expectations, particularly for agentic workflows.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "Content": "<p><b>Microsoft Purview Data Loss Prevention (DLP)</b> is being extended to the network layer through integration with iboss Zero-Trust SASE Platform or Netskope One SASE Platform. This update will be generally available starting mid-November 2025. It enables organizations to intercept and inspect traffic inline and enforce actions based on Purview DLP policy conditions. This helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, add-ins, and more—including generative AI platforms, cloud storage, and content-sharing services—while managing alerts and incidents through Purview and Microsoft Defender. If configured, these signals also inform user risk indicators in <i>Insider Risk Management</i>.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=522095\" target=\"_blank\">522095</a>.</p>\n\n<b>When this will happen:</b>\n<p>General Availability (Worldwide): Rollout will begin in mid-November 2025 and is expected to complete by mid-December 2025.</p>\n\n<b>How this affects your organization:</b>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Purview DLP policies and organizations using iboss Zero-Trust SASE or Netskope One SASE platforms.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A new scenario-focused experience will be available for creating DLP policies.</li>\n    <li>Admins can select the <b><i>Inline Web Traffic</i></b>&nbsp;scenario to configure granular rules for detecting and protecting sensitive data.</li>\n    <li>Protection will extend to over 35,000 unmanaged cloud applications.</li>\n    <li>Alerts and incidents will be managed in <i>Microsoft Purview</i> and <i>Microsoft Defender</i>.</li>\n    <li>The feature will be <b>available by default </b>but <b>requires integration setup</b> to function.</li>\n  </ul>\n</li>\n</ul>\n\n<b>What you can do to prepare:</b>\n<ul>\n<li>Ensure your global administrator enables and configures integration with iboss Zero-Trust SASE or Netskope One SASE platforms.</li>\n<li><b>Activate Purview pay-as-you-go</b> to enable this capability. Learn about the <a href=\"https://learn.microsoft.com/purview/purview-billing-models#pay-as-you-go-billing-model\" target=\"_blank\">Pay-as-you-go billing model</a>.</li>\n<li>Review your current configuration to assess impact.</li>\n<li>Notify helpdesk staff and update internal documentation as needed.</li><li>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/purview/purview-billing-models\" target=\"_blank\">Learn about Microsoft Purview billing models | Microsoft Purview | Microsoft Learn</a></li>\n</ul>\n\n<b>Compliance considerations:</b>\n<table border=\"1\">\n<tbody><tr><th>Question</th><th>Answer</th></tr>\n<tr><td>Does the change add integration to third-party software products?</td><td>Yes. This change integrates with iboss Zero-Trust SASE Platform and Netskope One SASE Platform.</td></tr>\n<tr><td>Does the change modify Data Loss Prevention (DLP) policies or enforcement?</td><td>Yes. It introduces a new scenario-based DLP enforcement for inline web traffic.</td></tr>\n<tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. It enables inline inspection and protection of sensitive data shared via network traffic.</td></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML capabilities that interact with customer data?</td><td>Yes. It includes detection of sensitive data shared with generative AI platforms.</td></tr>\n<tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td><td>Yes. Alerts and incidents will be managed through Microsoft Purview and Microsoft Defender.</td></tr>\n<tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td><td>Yes. The feature must be enabled and configured by a global administrator.</td></tr>\n\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "522095"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview DLP will integrate with iboss and Netskope SASE platforms by mid-November 2025 to enable inline network traffic inspection and protection of sensitive data across 35,000+ cloud apps. Admins must configure integration and manage alerts via Purview and Microsoft Defender."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-01-16T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1182008",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T23:26:26.543Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T23:26:14Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: Inline protection for sensitive data shared over the network with non-Microsoft SASE integrations",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We're introducing a new capability in <i>Microsoft Teams</i> that allows users to <b>start a chat with anyone</b> who has an <b>email address</b>—even if they’re not currently using Teams. The recipient will receive an email invitation to join the chat session as a guest, enabling seamless communication and collaboration. This update simplifies external engagement and supports flexible work scenarios.</p><p>This feature will be available across Android, Desktop, iOS, Linux, and Mac platforms.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=513271\" target=\"_blank\">513271</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Targeted Release:</b> Rollout will begin in early November 2025 and is expected to complete by mid-November 2025.</li>\n<li><b>General Availability (Worldwide):</b> Rollout will begin in January 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>All Microsoft Teams users in your organization.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users will be able to initiate chats with any external contact using their email address.</li>\n<li>External users will receive an email invitation and can join the chat as guests.</li>\n<li>The chat experience will be governed by your organization’s Entra B2B Guest policy.</li>\n<li>Chats will remain within your organization’s boundary.</li>\n<li>This feature will be <b>enabled by default</b>.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Update internal documentation to reflect this new capability.</li>\n<li>Inform helpdesk and support teams about the change.</li><li>To disable the feature, set the <b>UseB2BInvitesToAddExternalUsers </b>attribute of TeamsMessagingPolicy to<b> false</b>. <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamsmessagingpolicy?view=teams-ps#-useb2binvitestoaddexternalusers\" target=\"_blank\">Set-CsTeamsMessagingPolicy documentation here</a>.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "513271"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will allow users to chat with anyone via email, even non-Teams users, who join as guests. This feature, enabled by default, rolls out starting November 2025 and supports external communication within organizational policies. Admins can disable it via TeamsMessagingPolicy settings."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Linux, Mac"
+      }
+    ],
+    "EndDateTime": "2026-02-28T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1182004",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-10-31T23:21:10.313Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T23:20:44Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Chat with anyone with an email address",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>To simplify meeting coordination, we’re introducing intelligent and native polls directly into the <b>Outlook calendar compose form</b>. This enhancement helps users propose multiple time slots and gather attendee preferences—especially useful when scheduling with external participants or individuals with limited availability.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/20e23941-618e-4027-8c5a-0abee762e47f\" style=\"width: 400px;\" alt=\"user settings\">&gt;</p><p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout begins in late October 2025 and is expected to complete by early December 2025.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> All users of the New Outlook for Win 32 and Outlook on the web who use the calendar compose experience.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Users will see a new option to create scheduling polls directly within the calendar compose form.</li>\n    <li>The feature will be ON by default for all tenants.</li>\n    <li>No changes to existing admin policies are required.</li>\n    <li>Polls will help organizer propose multiple meeting time slots and gather attendee preferences.</li>\n    <li>External attendees can respond to polls on website without needing a Microsoft 365 account.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p><p>\n</p><ul>\n<li>No action is required. The feature will be enabled by default. However, you may consider:</li>\n  <ul>\n    <li>Informing helpdesk staff about the new poll experience.</li>\n    <li>Updating internal documentation if you provide guidance on scheduling workflows.</li>\n    <li>Reviewing user training materials to include poll creation steps.</li>\n  </ul>\n</ul>\n<p><b><b>Compliance considerations:</b></b></p><p>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Native polls will be integrated into the New Outlook calendar compose form by late 2025, allowing users to propose multiple meeting times and gather attendee preferences, including external participants without Microsoft 365 accounts. The feature is on by default with no admin changes needed."
+      }
+    ],
+    "EndDateTime": "2026-01-05T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1182003",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T23:19:41.09Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T23:18:41Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "New: Native polls integrated into New Outlook calendar compose form",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction:</b></b></p>\n<p>We are expanding Microsoft Purview Data Loss Prevention (DLP) to support Microsoft 365 Copilot, helping organizations safeguard prompts that contain sensitive data. This real-time control helps mitigate data leakage and oversharing risks by preventing Microsoft 365 Copilot—including pre-built agents—from returning a response or using sensitive data for grounding in Microsoft 365 or the web.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=515945\" target=\"_blank\">515945</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p><ul>\n<li><b>Public Preview: </b>We will begin rolling out in mid-November 2025 and expect to complete by late December 2025.</li><li><b>General Availability (Worldwide):</b>&nbsp;We will begin rolling out in late March 2026 and expect to complete by late April 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n</ul><p><b>Who is affected:</b></p><ul><li>Microsoft tenants with access to Microsoft 365 Copilot (free and paid), including E1, E3, and E5 license holders.</li><li>Admins managing Microsoft Purview DLP policies for Microsoft 365 Copilot.</li></ul><b>Note: </b>Licensing rollout will complete by December 2025. By then, all tenants will have access to this feature regardless of license tier.<ul>\n</ul><p><b>What will happen:</b></p><ul>\n    \n    \n    </ul>\n<p></p><ul><li>Admins can configure DLP policies in the <i>Microsoft Purview portal</i> to restrict Copilot from processing prompts containing selected sensitive information types (SITs), including default and custom SITs.</li><li>Prompts containing sensitive data will not receive Copilot responses and will not be used for external web search or internal Microsoft Graph grounding.</li><li>Admins can also view DLP policy recommendations for Microsoft 365 Copilot in <i>Data Security Posture Management</i>: <p><i>Screenshot 1</i></p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/7407a3c0-8509-44bf-b522-b95aa61dd5aa/c91acc0e41a1d10c71cd8885b576b19bf26b5bec.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i><p></p><p></p><p></p><p><i>Screenshot 2</i></p><p></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/68796355-87cc-4f71-862f-844242450a01/063395f4463033f5d0fe511188b4410cf87510b5.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><i><b>Important:&nbsp;</b>At this time, DLP for Copilot policies do not support enforcement based on sensitive information types (SITs). Hence, no users will be impacted under SIT-based conditions. Admins need to create a new policy to enforce DLP for Copilot prompt based on SIT.</i></p><p></p>\n  <p></p></li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>This feature will be available automatically by the specified date with no admin action required.</li><li>Admins can opt-in to use the feature by setting up a new policy. Review your current configuration to assess the impact on your organization.</li><li>To edit or view a DLP for Microsoft 365 Copilot policy, an admin account needs to be a member of a&nbsp;<a href=\"https://learn.microsoft.com/purview/dlp-create-deploy-policy#permissions\" target=\"_blank\">required role group</a>. Data Security AI admins are also able to edit a DLP for Microsoft 365 Copilot policy.</li><li>You may want to notify your users or admins about this change and update your relevant documentation.</li>\n</ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/purview/dlp-learn-about-dlp?view=o365-worldwide\" target=\"_blank\">Learn about data loss prevention | Microsoft Purview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/dlp-microsoft365-copilot-location-learn-about\" target=\"_blank\"> Learn about the Microsoft 365 Copilot location | Microsoft Purview | Microsoft Learn</a></li></ul><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "515945"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview DLP will support Microsoft 365 Copilot to prevent sensitive data leakage by blocking Copilot responses to prompts containing sensitive information. Rolling out from November 2025 (preview) to April 2026 (general availability), admins can configure policies in the Purview portal to safeguard data."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1181998",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-10-31T23:08:48.9Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T23:08:24Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Data Loss Prevention for Microsoft 365 Copilot to safeguard prompts",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2026-03-30T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<b><b>Introduction</b></b>\n<p>Update 10/28/2025: <b>New information related to Office 365 Connectors Retirement in Teams – Webhook URL Migration (MC808160)</b>. We’ve extended the migration deadline to give organizations more time to transition. We’re also making progress on feature parity for Workflows webhooks.</p>\n\n<b><b>When this will happen:</b></b>\n<p>The migration deadline is extended to <b>March 31, 2026</b>. Feature parity improvements will be available by <b>December 2025</b>.</p>\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b> Organizations using Office 365 Connectors in Microsoft Teams.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Migration deadline extended to March 31, 2026.</li>\n    <li>By December 2025, Workflows webhooks will support:\n      <ul>\n        <li>Posting <code>messageCard</code> formatted payloads (no need to reformat to Adaptive Cards).</li>\n        <li>Posting messages and Adaptive Cards to shared or private channels.</li>\n      </ul>\n    </li>\n  </ul>\n</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Plan to transition from Office 365 Connectors to Workflows webhooks by March 31, 2026.</li>\n<li>Prepare to use new webhook capabilities starting December 2025.</li>\n</ul>\n\n<b><b>Compliance considerations:</b></b>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The Office 365 Connectors retirement migration deadline in Teams is extended to March 31, 2026. By December 2025, Workflows webhooks will support messageCard payloads and posting to shared/private channels. Organizations should plan their transition accordingly. No compliance issues identified."
+      }
+    ],
+    "EndDateTime": "2026-04-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1181996",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T23:04:14.333Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T23:03:55Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Migration update for Office 365 connectors retirement in Teams – webhook URL support",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "Starting <b>December 1, 2025</b>, we are increasing default storage for Dataverse (per tenant entitlements) across all Dynamics 365 apps (excluding Business Central) and Power Platform. Dataverse and storage for Dynamics 365 enterprise resource planning (ERP) applications (Finance, Supply Chain, Commerce, Project Operations, Human Resources) will now be combined into a shared pool per tenant.<br><br><b>How does this affect me?</b><br>The updated storage entitlements will automatically appear in the Power Platform admin center.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
       "ContentType": "html"
     },
     "Category": "stayInformed",
     "Details": [],
-    "EndDateTime": "2025-12-28T21:04:00Z",
+    "EndDateTime": "2025-11-30T15:52:15Z",
+    "HasAttachments": false,
+    "Id": "MC1181915",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T19:39:34.683Z",
+    "Services": [
+      "Dynamics 365 Apps",
+      "Microsoft Dataverse"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T15:52:15Z",
+    "Tags": [],
+    "Title": "Microsoft Dataverse, Dynamics 365 Apps – Storage capacity and entitlements update",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated May 28, 2024: To ensure customer confidence in our product line, we are extending the support for Teams Live Events beyond the previously announced deadline of September 30th, 2024. We have concluded  through  customer feedback that this change to our initial deprecation plan, by maintaining support   for Live Events, will empower customers to produce large events as established and provide more time to upgrade to town hall, our new digital streaming event solution for large events, on their own schedule. Town hall will continue to serve as the platform where we will deliver new product value to our customers.</p><p>Teams Live Events will continue to be supported. We want to ensure that customers can upgrade to town hall on their own schedule as we work to bring new features and capabilities to town hall.  Town  hall is already available for commercial customers in public clouds, and we are adding new features regularly.</p><p>If you are using Teams Live Events for your large-scale digital events, you can continue to do so past the previously announced deprecation date of September 30th, 2024. However, we encourage you to try town hall, which offers a more modern and interactive experience for your live events.&nbsp;</p><p>You don't need to do anything at this time to continue using Teams Live Events. If you have directed your organization to not schedule Live Events after September due to the deprecation announcement, you may now schedule Live Events past September 2024.  For more information please refer to our blog post regarding this announcement:&nbsp;<a href=\"https://techcommunity.microsoft.com/t5/microsoft-teams-blog/updates-for-town-hall-in-microsoft-teams-and-teams-live-events/ba-p/4148352\" target=\"_blank\">Updates for Town Hall in Microsoft Teams and Teams Live Events</a>.</p><p>&nbsp;---Original message below for reference---</p><p>With the introduction of Town halls in Microsoft Teams, Teams Live Events will be retired for commercial customers on September 30, 2024. This provides commercial customers with a 12-month window to prepare for the retirement and transition off Teams Live Events.&nbsp;</p><p><b>When this will happen:</b></p><p>September 30, 2024</p><p><b>How this will affect your organization:</b></p><p>After September 30, 2024, Teams Live Events will no longer be supported, and access will be discontinued. Customers will not be able to schedule, start, or join any events on Teams Live Events after this date. Existing recordings will be available to access until December 31, 2024. If customers want to retain any recordings from prior events, they will need to download the recordings and upload them to a different location before December 31, 2024. Between now and September 2024, customers can continue to use Teams Live Events with no change in their existing experience. However, our recommendation is that customers (both existing and new) transition to and start to use town halls as it becomes generally available on October 5, 2023.</p><p><b>What you need to do to prepare:</b></p><p>To prepare your organization for the transition we advise:\n</p><ul><li>Start to use town hall as it becomes generally available on October 5.</li><li>Learn more about town hall when documentation becomes available on adoption.microsoft.com and learn.microsoft.com on October 5.</li><li>Start planning to download recordings your organization wishes to retain before December 31, 2024.</li></ul><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The support for Microsoft Teams Live Events has been extended beyond the initial retirement date of September 30th, 2024. Customers can continue using it and upgrade to town hall, the new event solution, at their convenience. Town hall is available and will receive new features, while Teams Live Events will still be supported. For more details, refer to the linked blog post."
+      }
+    ],
+    "EndDateTime": "2025-11-05T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC678003",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-10-31T18:41:59.847Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2023-09-28T17:35:40Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Microsoft Teams Live Event Retirement",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 30, 2025: Due to emerging changes, we are postponing this feature launch. We will communicate updated launch timelines as soon as they are available. We apologize for any inconvenience.</p><p>Microsoft Purview is launching a new <a href=\"https://purview.microsoft.com/settings/setttings/personalization\" target=\"_blank\">Personalization page</a> that will help users personalize their individual experience on Purview.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=483884\" target=\"_blank\">483884</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview (Worldwide): We will communicate via Message center when we are ready to proceed.</p><p>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.</p><p><b>How this will affect your organization:</b>\n</p><p>The following features will be included in this initial rollout:\n</p><p></p><ul><li>Ability to pin or unpin solutions to the left navigation bar\n</li><li>A new <i>Personalization&nbsp;</i>page where users can:\n</li><ul><li>Toggle visibility of the solution bar\n</li><li>Choose to show solution walk-through on next sign in\n</li><li>Export personalization data stored for the signed-in user\n</li><li>Delete preferences one by one or all at once\n</li></ul></ul><p>The new <i>Personalization </i>page will be at Microsoft Purview &gt; <i>Settings </i>(in top right corner) &gt; <i>Personalization:\n</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ceec29bf-56ee-4e9f-aca5-a69972dce999\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p><span style=\"background-color: rgb(255, 255, 255);\">On the new </span><i>Personalization</i> page, users will be able to hide or remove solution tiles and choose to show solution walk-throughs:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/fa26474c-d1f2-40a4-a1f6-82dd7cb9a87a\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>These changes will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "483884"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview's new Personalization page rollout is postponed. It will allow users to pin/unpin solutions, toggle solution bar visibility, show walk-throughs, export, and delete personalization data. The update requires no admin action, and users will be notified when the launch resumes."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-04-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1030008",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T17:47:15.927Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-03-12T23:15:14Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: New Personalization settings",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to update the default Message Queues assignment strategy to \"least active\" in Dynamics 365 Contact Center. This feature will reach general availability on November 30, 2025.<br><br>\n<b>How does this affect me?</b><br>\nThis feature sets the \"least active\" assignment method as the default option for messaging queues. This method assigns work items to the customer support representative who is least active and has been inactive for the longest time.<br><br>\nFor representatives working on both voice and messaging queues, the \"least active\" time calculation includes both voice and messaging conversations.<br><br>\n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-30T17:07:59Z",
+    "HasAttachments": false,
+    "Id": "MC1181931",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T17:09:34.243Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T17:07:59Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center - Update default Messaging Queues assignment strategy - Least Active",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to update system jobs retention policy from environment settings in Microsoft Dataverse. This feature will reach general availability on November 3, 2025.<br><br> \n\n<b>How does this affect me? </b> <br> \n\nWith this feature, you can update system jobs retention policy from the Power Platform admin center environment settings page. This will help to improve system performance and save on storage by cleaning up system jobs and plug-in trace logs to better comply with your company's retention policy. <br><br> \n <b>What action do I need to take? </b> <br> \nThis message is for awareness, and no action is required.<br><br> \n\nFor more information on this feature, please visit <a href=\"https://aka.ms/ADO12441prod\" target=\"_blank\">Update system jobs retention policy</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-30T16:49:30Z",
+    "HasAttachments": false,
+    "Id": "MC1181926",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T16:54:21.837Z",
+    "Services": [
+      "Microsoft Dataverse"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T16:49:30Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Microsoft Dataverse – Update system jobs retention policy from environment settings",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 31, 2025: We have updated the content. Thank you for your patience.</p><p><b>Introduction</b></p>\n<p>To help organizations better assess and improve their identity security posture, Microsoft Secure Score is being enhanced with new improvement actions based on Microsoft Defender for Identity recommendations. These updates provide more accurate insights and actionable guidance to strengthen your security configuration.</p>\n\n<p><b>When this will happen:</b></p>\n<ul>\n<li><b>Public Preview:</b> Rollout begins early November 2025, completes by mid-December 2025</li>\n<li><b>General Availability (Worldwide, GCC, GCC High, and DoD):</b>&nbsp;Rollout begins early November 2025, completes by mid-December 2025</li>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Secure Score and organizations with Microsoft Defender for Identity sensors deployed.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>New posture recommendation will appear in Microsoft Secure Score as improvement actions:&nbsp;<i>Change password for on-prem accounts with potentially leaked credentials</i></li>\n<li>This recommendation is visible only if your tenant has a Defender for Identity sensor deployed.</li>\n<li>The update is <b>enabled by default</b> and requires no configuration changes.</li>\n<li>No impact to end-user workflow unless acted upon by the admin.</li><li>Please be aware of a related Microsoft Entra ID recommendation that is recently released, titled: “Change password for accounts with leaked credentials”. The Microsoft Entra ID recommendation is focused on cloud-based user accounts, whereas the Microsoft Defender for Identity recommendation targets on-prem user accounts.</li>\n</ul>\n</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>No admin action is required before or after rollout.</li>\n<li>Review your current identity configuration to assess potential impact.</li>\n<li>Notify relevant administrators and update internal documentation as needed.</li>\n<li>Regularly review Microsoft Secure Score to monitor and act on new improvement suggestions.</li>\n<li>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score\" target=\"_blank\">Microsoft Secure Score</a>&nbsp;</li>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Secure Score will add a new default recommendation from Microsoft Defender for Identity to improve on-premises account security by prompting password changes for potentially leaked credentials. The update rolls out November to December 2025, requires no admin action, and complements a related Microsoft Entra ID cloud account recommendation."
+      }
+    ],
+    "EndDateTime": "2026-01-16T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1179155",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T16:54:17.143Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T22:09:40Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Defender for Identity: New recommendation added to Microsoft Secure Score",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 30, 2025: We have updated the timeline and the content. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re updating the default behavior of <b>Microsoft Teams Copilot in meetings</b>. Copilot without transcription will become the default mode for newly scheduled Teams meetings where Copilot is allowed. Additionally, conversation history will now persist during meetings, improving multitasking and continuity of insights.\n</p><p>This update is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=478611\" target=\"_blank\">478611</a>.\n</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out in mid-January 2026 (previously early November 2025) and expect to complete by early February 2026 (previously mid-November 2025).</p><p>\n<b><b>What's changing?</b></b>\n</p><p><b>Who is affected:</b></p>\n<ul>\n  <li>Affected tenants: If your TeamsMeetingPolicy was created or modified before the Copilot without transcription policy option was introduced (June 2024), your tenant will be affected by this change.</li>\n  <li>Not Affected: If your TeamsMeetingPolicy was created or modified after June 2024 when the Copilot without transcription option was introduced, your tenant will not be affected.</li>\n</ul>\n\n<p style=\"font-weight: bold;\">What will happen:</p>\n<ul style=\"\">\n  <li style=\"\">The default Copilot policy will change from <code>EnabledWithTranscript</code> to <code>Enabled</code> for both new and existing Teams meetings where Copilot is allowed.</li>\n  <li style=\"\">Copilot and Facilitator will no longer automatically start transcription for meetings in affected tenants.</li>\n  <li style=\"\">Users must manually enable transcription to use post-meeting Copilot or Facilitator queries.</li>\n  <li style=\"\">Conversation history will persist during meetings for Copilot without transcription.</li>\n  <li style=\"\">Tenants with TeamsMeetingPolicy created or modified after <b>June 2024</b> are <b>not affected</b>.</li>\n</ul>\n\n<b style=\"font-weight: bold;\"><b>What you can do to prepare:</b></b>\n<p style=\"\"><b>If adopting the new defaults:</b></p>\n<ul style=\"\">\n  <li style=\"\">Review TeamsMeetingPolicy for transcription dependencies.</li>\n  <li style=\"\">Update internal documentation and training.</li>\n  <li style=\"\">Communicate to users how to enable transcription when needed.</li>\n</ul>\n\n<p style=\"font-weight: bold;\">Optional admin steps to retain current behavior:</p>\n<ul style=\"\">\n  <li style=\"\">Update Global and Custom TeamsMeetingPolicy settings via TAC or PowerShell.</li>\n  <li style=\"\">TAC UI Portal: Navigate to Teams Admin Center and set the Copilot policy default value as required. For example, if the current default value is desired, update it to a different value, then set it back. Please ensure both TeamsMeetingPolicy and all Custom Policies are updated.</li>\n  <li style=\"\">PowerShell example to set Copilot policy to <code>EnabledWithTranscript</code> for all relevant meeting policies:\n\n<pre style=\"\">get-csteamsmeetingpolicy | ? {\n &nbsp;$_.Identity -ne \"Tag:AllOn\" -and\n &nbsp;$_.Identity -ne \"Tag:AllOff\" -and\n &nbsp;$_.Identity -ne \"Tag:Default\" -and\n &nbsp;$_.Identity -ne \"Tag:Kiosk\" -and\n &nbsp;$_.Identity -ne \"Tag:RestrictedAnonymousAccess\" -and\n &nbsp;$_.Identity -ne \"Tag:RestrictedAnonymousNoRecording\"\n} | % {\n &nbsp;$_.Identity;\n &nbsp;set-csteamsmeetingpolicy -identity $_.Identity -Copilot EnabledWithTranscript\n}<b>\n    </b></pre>\n  </li>\n</ul>\n<p style=\"font-weight: bold;\">Learn more:&nbsp;</p><ul style=\"\"><li style=\"\"><a href=\"https://learn.microsoft.com/microsoftteams/copilot-teams-transcription\" target=\"_blank\" style=\"\">Manage Microsoft 365 Copilot in Teams meetings and events | Microsoft Teams | Microsoft Learn</a></li><li style=\"\"><a href=\"https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9\" target=\"_blank\" style=\"\">Use Copilot without recording a Teams meeting | Copilot in Teams | Copilot | Microsoft Support</a></li></ul><p style=\"font-weight: bold;\"><b>Compliance considerations</b></p><table class=\"table table-bordered\" style=\"font-weight: bold;\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change alter how existing customer data is processed, stored, or accessed?</span></td><td><span style=\"font-weight: normal;\">Conversation history is now retained during the meeting instead of being cleared when switching panels.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</span></td><td><span style=\"font-weight: normal;\">Copilot behavior is updated to persist conversation history, enhancing AI-driven meeting insights.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change provide end users any new way of interacting with generative AI?</span></td><td><span style=\"font-weight: normal;\">Users can now maintain a continuous Copilot interaction during meetings without transcription.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change include an admin control and, can it be controlled through Entra ID group membership?</span></td><td><span style=\"font-weight: normal;\">IT admins can enforce or override defaults via Teams meeting policy.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change allow a user to enable and disable the feature themselves?</span></td><td><span style=\"font-weight: normal;\">Users can manually enable transcription during meetings to retain Copilot insights post-meeting.</span></td></tr></tbody></table><p style=\"font-weight: bold;\"></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "478611"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams Copilot will default to running without transcription for new meetings starting mid-January 2026, with conversation history persisting during meetings. Transcription must be manually enabled for post-meeting queries. Tenants with policies updated after June 2024 are unaffected; admins can adjust policies to retain current behavior."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-03-10T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1139493",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T16:47:57.06Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-22T00:09:47Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams Copilot without transcription becomes default for meetings - conversation history now persists",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to use the new connector management rule in Microsoft Power Platform governance and administration. This feature will reach general availability on November 30, 2025.<br><br>  \n\n<b>How does this affect me?</b><br> \n\nWith the new connector management rule, admins can choose to block any connector. New connectors are blocked by default, which gives more control back to the admins. The scope of environments impacted will be easier to manage using environment groups, compared to the many-to-many model of data policies available today.<br><br> \n\nAdmins can visit an environment group and see the new <b>Advanced data policies: connector management rule</b> available to configure. This rule allows admins to create an allow-list of exactly the connectors they want to use, and all other connectors will be blocked from use in apps, flows, and agents.<br><br> \n\n<b>What action do I need to take?</b><br> \n\nThis message is for awareness and no action is required.<br><br> \n\nIf you would like more information on this feature, please visit the <a href=\"https://aka.ms/ADO11234\"target=\"_blank\">Use the new connector management rule</a> article.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-30T16:24:39Z",
+    "HasAttachments": false,
+    "Id": "MC1181925",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T16:33:25.29Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T16:24:39Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Microsoft Power Platform governance and administration - Use the new connector management rule",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to use voice proactive outbound analytics in Dynamics 365 Contact Center. This feature will reach general availability on November 14, 2025.<br><br>\n<b>How does this affect me?</b><br>\nThis feature introduces the proactive outbound analytics dashboard, allowing you to manage and monitor outbound calling initiatives. Initiatives can be configured via trigger or segment-based journey configurations, or via the web callback scheduling API. The dashboard provides real-time data visualization of key performance indicators (KPIs) such as call volume, call duration, and agent productivity. The key capabilities of this feature include:<ul>\n    <li>Historical and real-time data visualization</li>\n    <li>Ability to pause and resume proactive engagements</li>\n    <li>Customizable reporting</li>\n    <li>Intuitive user interface</li>\n    <li>Integration with third-party systems</li>\n    <li>Scalability to accommodate the needs of growing proactive engagements</li>\n</ul><b>What action do I need to take?</b><br>\nThis message is for awareness and no action is required.<br><br>\nIf you would like more information about this feature, please visit the <a href=\"https://aka.ms/ADO12804\"target=\"_blank\">View analytics for proactive engagement</a> article.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-30T16:24:26Z",
+    "HasAttachments": false,
+    "Id": "MC1181924",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T16:25:23.503Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T16:24:26Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center – Use voice proactive outbound analytics",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated October 30, 2025: We have corrected the timeline to reflect the actual rollout dates. Thank you.&nbsp;</p><p><b>Introduction</b>\n<p>To enhance privacy and improve meeting reliability, we’re updating how live captions and real-time text (RTT) behave in <i>Microsoft Teams meetings</i>. These updates ensure that captions are more secure when transcription is off and improve the stability of caption display across devices and scenarios.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499616\" target=\"_blank\">499616</a>.</p>\n\n<b>When this will happen</b>\n<ul>\n<li>Targeted Release: Began September 1, 2025, completes by September 17, 2025 (previously September 15).</li>\n<li>General Availability:\n  <ul>\n    <li>Worldwide, GCC, GCC High: October 1-17, 2025 (previously September 15–29).</li>\n    <li>DoD: October 21-28, 2025 (previously September 25–October 3).</li>\n  </ul>\n</li>\n</ul>\n\n<b>How this affects your organization</b>\n<ul><p>\n</p><li>When transcription is off, captions will now display only the last five minutes of dialogue, enhancing privacy by limiting visible history.</li><li>When transcription is on, captions will show the full meeting conversation from the time transcription starts until the transcription ends.</li></ul><ul>\n<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e6372fbb-3a63-442c-ad7b-c560874fdb3c/175fa72583a9949742d1c94f04aeb9f74884d96a.png\" style=\"width: 400px;\" alt=\"user settings\"><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4c5e6222-3902-4c6c-8667-ace98bba71cd/20b37235ee05ce550cf1bf20bcfc2f95ce425299.png\" style=\"width: 400px;\" alt=\"user settings\">\n</p><li>A previous issue where repositioning captions could cause text loss has been resolved. Captions will now remain intact when moved.</li><li>These improvements also apply to real-time text (RTT), ensuring a consistent and reliable experience across both features.</li><li>This update applies to Microsoft Teams on desktop and Mac platforms.</li><p></p></ul>These changes will roll out automatically and do not require admin configuration.\n\n<b>What you can do to prepare</b>\n<ul>\n<li>Inform users about the new five-minute limit for captions when transcription is off.</li>\n<li>Update internal training materials and documentation for users who rely on live captions or RTT.</li>\n<li>No admin action is required to enable this feature.</li></ul><ul>\n</ul>\n\n<p></p><p>Learn more:</p><ul><li><a href=\"https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260\" target=\"_blank\">Use live captions in Microsoft Teams meetings | Microsoft Support</a><b></b></li><li><a href=\"https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b\" target=\"_blank\">View live transcription in Microsoft Teams meetings | Microsoft Support</a><b></b></li></ul><p><b>Compliance considerations</b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>\n<p></p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams updates live captions and real-time text to enhance privacy by showing only the last five minutes of dialogue when transcription is off and improving caption stability. The rollout occurred from September to October 2025 on desktop and Mac, requiring no admin action but user communication."
+      }
+    ],
+    "EndDateTime": "2025-11-28T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1146824",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T16:23:58.357Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-02T23:24:35Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams | Enhanced privacy and improved stability for live captions and transcripts",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<b>Update</b>: Release of this change has been updated; please see Message center post MC1181915 for more information.<br><br><b>Previous message</b>:<br>We are announcing an update to Dataverse billing rates and management in Microsoft Dataverse. <s>This feature will reach general availability on November 28, 2025.</s><br><br><b>How does this affect me?</b><br>The new billing model for Dataverse separates storage and compute costs, ensuring customers are only charged for the resources they consume.<br><br>This model aims to provide a more flexible and transparent pricing structure that aligns with customer usage patterns and market expectations, particularly for agentic workflows.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-13T21:04:00Z",
     "HasAttachments": false,
     "Id": "MC1181733",
     "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-31T01:34:26.207Z",
+    "LastModifiedDateTime": "2025-10-31T16:22:36.567Z",
     "Services": [
       "Microsoft Dataverse"
     ],
     "Severity": "normal",
     "StartDateTime": "2025-10-30T21:04:32Z",
     "Tags": [
-      "New feature"
+      "Updated message"
     ],
     "Title": "Microsoft Dataverse - Dataverse Billing Rates and Management",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to enable SIP X header support for context transfer in Dynamics 365 Contact Center. This feature will reach general availability on November 30, 2025.<br><br> \n\n<b>How does this affect me?</b><br> \n\nThis feature enhances contextual data exchange between voice agents and external systems in Dynamics 365 Contact Center environments using Direct Routing telephony.<br><br> \n\nThe feature offers two key capabilities:<ul> \n\n    <li><b>Receiving SIP X-Headers:</b> Voice agents can access incoming SIP X header values by defining variables that match the header names.</li> \n\n    <li><b>Sending SIP X-Headers:</b> During external phone number transfers, voice agents can select up to five variables to pass as SIP X headers.</li> \n\n</ul> \n\n<b>What action do I need to take?</b><br> \n\nThis message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-30T15:47:13Z",
+    "HasAttachments": false,
+    "Id": "MC1181912",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T15:50:21.577Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T15:47:13Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center - Enable SIP X header support for context transfer",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing Copilot-powered intent-based transfer capabilities for customer service workflows. This feature will reach general availability on October 31, 2025.<br><br><b>How does this affect me?</b><br>Customer service representatives can now use Copilot-powered intent suggestions to transfer conversations to the appropriate workgroup or queue. Leveraging the intent's knowledge base, Copilot effectively routes conversations to the correct line of business. If the suggested intent or user group is incorrect, representatives can override the selection and manually transfer the conversation to a workgroup or queue of their choice.<br><br><b> What action do I need to take?</b><br> This message is for awareness and no action is required.<br><br> If you would like more information on this feature, please visit the  <a target=\"_blank\" href=\"https://aka.ms/ADO11218-1\">Transfer conversation to workgroup, queue using intent</a> article.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-11-30T15:39:32Z",
+    "HasAttachments": false,
+    "Id": "MC1181910",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-10-31T15:43:37.387Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T15:39:32Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center – Transfer conversation to workgroup, queue using intent",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -617,44 +1259,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Malicious URL Protection for Teams Chat and Channels",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated October 30, 2025: We have updated the content. Thank you for your patience.</p><p><b>Introduction</b></p>\n<p>To help organizations better assess and improve their identity security posture, Microsoft Secure Score is being enhanced with new improvement actions based on Microsoft Defender for Identity recommendations. These updates provide more accurate insights and actionable guidance to strengthen your security configuration.</p>\n\n<p><b>When this will happen:</b></p>\n<ul>\n<li><b>Public Preview:</b> Rollout begins early November 2025, completes by mid-December 2025</li>\n<li><b>General Availability (Worldwide, GCC, GCC High, and DoD):</b>&nbsp;Rollout begins early November 2025, completes by mid-December 2025</li>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Secure Score and organizations with Microsoft Defender for Identity sensors deployed.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>New posture recommendation will appear in Microsoft Secure Score as improvement actions:&nbsp;<i>Change password for on-prem accounts with potentially leaked credentials</i></li>\n<li>This recommendation is visible only if your tenant has a Defender for Identity sensor deployed.</li>\n<li>The update is <b>enabled by default</b> and requires no configuration changes.</li>\n<li>No impact to end-user workflow unless acted upon by the admin.</li>\n</ul>\n</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>No admin action is required before or after rollout.</li>\n<li>Review your current identity configuration to assess potential impact.</li>\n<li>Notify relevant administrators and update internal documentation as needed.</li>\n<li>Regularly review Microsoft Secure Score to monitor and act on new improvement suggestions.</li>\n<li>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score\" target=\"_blank\">Microsoft Secure Score</a>&nbsp;</li>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Secure Score will add a new improvement action from Microsoft Defender for Identity to recommend changing passwords for on-prem accounts with potentially leaked credentials. The update rolls out November to December 2025, is enabled by default, requires no admin action, and affects only tenants with Defender for Identity sensors."
-      }
-    ],
-    "EndDateTime": "2026-01-16T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1179155",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-30T17:42:23.137Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-24T22:09:40Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Defender for Identity: New recommendation added to Microsoft Secure Score",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -11822,37 +12426,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to use Copilot's intent knowledge base to effectively consult with the required workgroups and queues in Dynamics 365 Contact Center. This feature will reach general availability on October 31, 2025.<br><br> \n\n<b>How does this affect me? </b><br> \nThis new intent-based consultation feature enhances customer service operations by intelligently guiding requests to the most suitable workgroup or queue. Leveraging Copilot’s knowledge base, the system recommends the right expert or team, making the consultation process faster and more precise. <br><br> \n\nTo enable this feature when available, administrators should activate the Customer Intent Agent and set up intent-based routing within the Copilot Service admin center. Once configured, agents benefit from Copilot’s intelligent suggestions, ensuring conversations are directed to the best-suited workgroup or queue every time. This approach streamlines support, improves operational efficiency, and helps customers connect with the specialists most equipped to address their needs. <br><br> \n\n<b>What action do I need to take?  </b><br> \nThis message is for awareness, and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-01T02:32:24Z",
-    "HasAttachments": false,
-    "Id": "MC1163097",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-01T02:35:00.88Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T02:32:24Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Contact Center - Consult with workgroup, queue using intent",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to use Copilot's intent knowledge base to route conversations to the appropriate service representative in Dynamics 365 Contact Center. This feature will reach general availability on October 31, 2025.<br><br> \n\n<b>How does this affect me? </b><br> \n\nThe intent-based transfer routes conversations to the most appropriate user based on the conversation content. This helps to reduce the number of misrouted conversations and decreases average handling time. Administrators can enable Customer Intent Agent and configure intent-based routing in the Copilot Service admin center. <br><br> \n\nCustomer service representatives can utilize intent suggestions to transfer conversations to the most appropriate representative. Service representatives can select from both queues and user groups when initiating the transfer process. By leveraging the intent knowledge base, Copilot can efficiently route conversations to the appropriate user. <br><br> \n\n<b>What action do I need to take? </b><br>  \nThis message is for awareness, and no action is required.",
       "ContentType": "html"
     },
@@ -19373,53 +19946,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated September 5, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re updating the default behavior of <b>Microsoft Teams Copilot in meetings</b>. Copilot without transcription will become the default mode for newly scheduled Teams meetings where Copilot is allowed. Additionally, conversation history will now persist during meetings, improving multitasking and continuity of insights.\n</p><p>This update is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=478611\" target=\"_blank\">478611</a>.\n</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out in early November 2025 and expect to complete by mid-November 2025.</p><p><b>How this affects your organization</b></p><ul><li><b>Copilot without transcription becomes default:\n</b><ul style=\"\"><li style=\"\">Applies to new tenants and new users.\n</li><li style=\"\">Existing users without a set policy will inherit the host configuration and receive this new default.\n</li><li style=\"\">Custom policies will remain unchanged.</li><li style=\"\">In Teams meeting policy, the default property value for “Copilot” will change from <b>EnabledWithTranscript to Enabled</b>. This affects how Copilot behaves in newly scheduled meetings unless overridden by custom policy.</li><li style=\"\">Starting Copilot during a meeting will no longer automatically start transcription.\n</li><li style=\"\">Transcription must be manually enabled in Meeting Options or during the meeting if users want post-meeting insights or access to Copilot conversation history.\n</li></ul></li><li><b>Conversation history now persists during meetings:\n</b><ul style=\"\"><li style=\"\">Users can switch between meeting features (chat, participant list) without losing Copilot insights.\n</li><li style=\"\">This change applies to all users using Copilot without transcription.</li></ul></li></ul><p><b>What you can do to prepare</b></p><ul><li>Review your organization’s Teams meeting policies for dependencies on transcription defaults.\n</li><li>Update internal documentation and training to reflect the new default behavior and conversation history persistence.\n</li><li>Communicate to users how to manually enable transcription when needed, especially if they want to retain Copilot insights after the meeting.\n</li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/microsoftteams/copilot-teams-transcription\" target=\"_blank\">Manage Microsoft 365 Copilot in Teams meetings and events | Microsoft Teams | Microsoft Learn</a></li><li><a href=\"https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9\" target=\"_blank\">Use Copilot without recording a Teams meeting | Copilot in Teams | Copilot | Microsoft Support</a></li></ul><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Conversation history is now retained during the meeting instead of being cleared when switching panels.</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Copilot behavior is updated to persist conversation history, enhancing AI-driven meeting insights.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Users can now maintain a continuous Copilot interaction during meetings without transcription.</td></tr><tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>IT admins can enforce or override defaults via Teams meeting policy.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Users can manually enable transcription during meetings to retain Copilot insights post-meeting.</td></tr></tbody></table><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "478611"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams Copilot will default to operating without transcription for new meetings starting November 2025, with conversation history persisting during meetings. Transcription must be manually enabled for post-meeting insights. Custom policies remain unchanged, and admins can control settings via Teams meeting policies."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2025-12-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1139493",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-05T17:18:58.897Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-22T00:09:47Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams Copilot without transcription becomes default for meetings - conversation history now persists",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated September 5, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon: A new integration between Insider Risk Management (IRM) and Data Security Investigation (DSI) in Microsoft Purview. This enhancement allows data security admins to launch a pre-scoped DSI directly from an IRM case, enabling deeper investigation into risky user behavior and better post-incident impact assessment.</p><p>DSI is a new AI-powered solution that enables data security teams to identify incident-related data, conduct deep content analysis, and mitigate risk within one unified solution. DSI enables data security admins to efficiently identify incident-relevant content by searching their Microsoft 365 data estate to locate emails, Teams messages, Copilot prompts and responses, and documents. Once the investigation is scoped, DSI’s generative AI capabilities allow admins to gain deeper insights into the impacted data, revealing critical security risks and sensitive information. Investigative capabilities include the ability to categorize evidence, perform vector searches, and examine impacted data for security and sensitive data risks. To mitigate identified risks, DSI facilitates secure collaboration between partner teams. Post-investigation learnings can be used to refine existing policies to strengthen an organization's security practices.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=486827\" target=\"_blank\">486827</a>.</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out mid-July 2025 and expect to complete by late July 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out late November 2025 (previously late August) and expect to complete by late December 2025 (previously late September).\n</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout:</p><ul><li>Members of the Insider Risk Management Investigators role group can initiate a DSI directly from an IRM case.\n</li><li>However, they must also be assigned the Data Security Investigation Investigator role to view the investigation results.\n</li><li>This streamlines the investigation process by allowing admins to:<ul><li>Go to Purview compliance portal &gt; IRM</li><li>Go to <i>Cases</i>, and open any case listed</li><li>Select <i>Case actions</i>\n</li><li>Choose <i>Investigate data security with AI </i>from the dropdown menu\n</li><li>Name the investigation and select relevant content\n</li><li>Launch the investigation with a single click</li></ul></li></ul><p>This change will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. DSI will need to be set up for successful investigation in DSI once an investigation is created from an IRM case. Prerequisite steps to configure DSI: <a href=\"https://learn.microsoft.com/purview/data-security-investigations-get-started\" target=\"_blank\">Get started with Data Security Investigations (preview) | Microsoft Learn</a>. You may want to notify your admins about this change and update any relevant documentation.\n</p><p>Microsoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.\n</p><p>You can access the Insider Risk Management solution in the <a href=\"https://purview.microsoft.com\" target=\"_blank\">Microsoft Purview compliance portal</a>.</p><p>Learn more</p><ul><li><a href=\"https://learn.microsoft.com/purview/data-security-investigations\" target=\"_blank\">Learn about Data Security Investigations (preview) | Microsoft Learn</a> </li><li><a href=\"https://techcommunity.microsoft.com/blog/microsoft-security-blog/accelerate-data-security-investigations-with-ai-powered-deep-content-analysis/4396099\" target=\"_blank\">Accelerate data security investigations with AI-powered deep content analysis | Microsoft Community Hub</a></li><li><a href=\"https://learn.microsoft.com/purview/insider-risk-management-cases\" target=\"_blank\">Take action on insider risk management cases | Microsoft Learn</a> (will be updated before rollout)</li><li><a href=\"https://learn.microsoft.com/purview/data-security-investigations-investigation\" target=\"_blank\">Create an investigation in Data Security Investigations (preview) | Microsoft Learn</a> (will be updated before rollout)</li></ul><p></p>",
       "ContentType": "html"
     },
@@ -20371,44 +20897,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams | Customize live captions on mobile for improved accessibility",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<b>Introduction</b>\n<p>To enhance privacy and improve meeting reliability, we’re updating how live captions and real-time text (RTT) behave in <i>Microsoft Teams meetings</i>. These updates ensure that captions are more secure when transcription is off and improve the stability of caption display across devices and scenarios.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499616\" target=\"_blank\">499616</a>.</p>\n\n<b>When this will happen</b>\n<ul>\n<li>Targeted Release: Began September 1, 2025, completes by September 15, 2025.</li>\n<li>General Availability:\n  <ul>\n    <li>Worldwide, GCC, GCC High: September 15–29, 2025</li>\n    <li>DoD: September 25–October 3, 2025</li>\n  </ul>\n</li>\n</ul>\n\n<b>How this affects your organization</b>\n<ul><p>\n</p><li>When transcription is off, captions will now display only the last five minutes of dialogue, enhancing privacy by limiting visible history.</li><li>When transcription is on, captions will show the full meeting conversation from the time transcription starts until the transcription ends.</li></ul><ul>\n<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e6372fbb-3a63-442c-ad7b-c560874fdb3c/175fa72583a9949742d1c94f04aeb9f74884d96a.png\" style=\"width: 400px;\" alt=\"user settings\"><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4c5e6222-3902-4c6c-8667-ace98bba71cd/20b37235ee05ce550cf1bf20bcfc2f95ce425299.png\" style=\"width: 400px;\" alt=\"user settings\">\n</p><li>A previous issue where repositioning captions could cause text loss has been resolved. Captions will now remain intact when moved.</li><li>These improvements also apply to real-time text (RTT), ensuring a consistent and reliable experience across both features.</li><li>This update applies to Microsoft Teams on desktop and Mac platforms.</li><p></p></ul>These changes will roll out automatically and do not require admin configuration.\n\n<b>What you can do to prepare</b>\n<ul>\n<li>Inform users about the new five-minute limit for captions when transcription is off.</li>\n<li>Update internal training materials and documentation for users who rely on live captions or RTT.</li>\n<li>No admin action is required to enable this feature.</li></ul><ul>\n</ul>\n\n<p></p><p>Learn more:</p><ul><li><a href=\"https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260\" target=\"_blank\">Use live captions in Microsoft Teams meetings | Microsoft Support</a><b></b></li><li><a href=\"https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b\" target=\"_blank\">View live transcription in Microsoft Teams meetings | Microsoft Support</a><b></b></li></ul><p><b>Compliance considerations</b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>\n<p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will enhance privacy by showing only the last five minutes of captions when transcription is off, while full captions display when transcription is on. Stability improvements fix caption repositioning issues. Changes apply to desktop and Mac, roll out automatically from September 2025, with no admin action needed."
-      }
-    ],
-    "EndDateTime": "2025-11-03T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1146824",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-02T23:24:43.943Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-02T23:24:35Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams | Enhanced privacy and improved stability for live captions and transcripts",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -28647,53 +29135,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated April 24, 2025: Due to emerging changes, we are postponing this feature launch to later this year. We will communicate updated launch timelines as soon as they are available. We apologize for any inconvenience.</p><p>Microsoft Purview is launching a new <a href=\"https://purview.microsoft.com/settings/setttings/personalization\" target=\"_blank\">Personalization page</a> that will help users personalize their individual experience on Purview.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=483884\" target=\"_blank\">483884</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview (Worldwide): We will communicate via Message center when we are ready to proceed.</p><p>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.</p><p><b>How this will affect your organization:</b>\n</p><p>The following features will be included in this initial rollout:\n</p><p></p><ul><li>Ability to pin or unpin solutions to the left navigation bar\n</li><li>A new <i>Personalization&nbsp;</i>page where users can:\n</li><ul><li>Toggle visibility of the solution bar\n</li><li>Choose to show solution walk-through on next sign in\n</li><li>Export personalization data stored for the signed-in user\n</li><li>Delete preferences one by one or all at once\n</li></ul></ul><p>The new <i>Personalization </i>page will be at Microsoft Purview &gt; <i>Settings </i>(in top right corner) &gt; <i>Personalization:\n</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ceec29bf-56ee-4e9f-aca5-a69972dce999\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p><span style=\"background-color: rgb(255, 255, 255);\">On the new </span><i>Personalization</i> page, users will be able to hide or remove solution tiles and choose to show solution walk-throughs:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/fa26474c-d1f2-40a4-a1f6-82dd7cb9a87a\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>These changes will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "483884"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Due to emerging changes, we are postponing this feature launch to later this year. We will communicate updated launch timelines as soon as they are available. We apologize for any inconvenience.\nMicrosoft Purview's new Personalization settings launch has been postponed to later this year. The update includes features like pinning/unpinning solutions, toggling solution bar visibility, showing solution walk-throughs, exporting personalization data, and deleting preferences. The rollout will occur automatically, and no admin action is required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-12-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1030008",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-04-24T19:55:31.37Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-03-12T23:15:14Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview: New Personalization settings",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Coming soon for This feature gives the ability for the DLP admin to rename the existing policy/rule without having to create the entire the rule or policy again \n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=370535\" target=\"_blank\">370535</a>.</p><p><b>When this will happen:</b> \n</p><p>Public Preview: We will begin rolling out mid-July 2025 and expect to complete by late July 2025. \n</p><p>General Availability (Worldwide): We will begin rolling out late August 2025 and expect to complete by mid-September 2025. \n</p><p>General Availability (GCC, GCC High, DOD): We will begin rolling out mid-October 2025 and expect to complete by late October 2025. \n</p><p><b>How this will affect your organization:</b> \n</p><p>This feature is currently supported for major workloads: Microsoft Exchange Online, Microsoft Teams, Microsoft SharePoint, Microsoft OneDrive, and Microsoft Endpoint. \n</p><p>With this rollout, we will also introduce a new field called <code>DisplayName </code>that you can edit in DLP and in Microsoft PowerShell. For all practical purposes the display name can be used as the name for all the operations. \n</p><p>Renaming an existing policy:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/81d7fbb0-7918-4ee9-985a-709b615cf0af\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>Editing a rule to rename it:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/9902221d-09fc-4cc1-a81e-fc9c7a43ec16\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>All DLP experiences (such as Incident Reports, User Notifications, Email Alerts, DLP Alerts, MTP Alerts, and Activity Explorer) will start showing the policy/rule names at the point of record generation. For example: If a policy is named P1 at T0 and updated to P2 at T1, all records generated between T0 and T1 will have the name as P1 and all the records from T1 will have the name as P2.  </p><p>This feature will be available by default for admins to configure.</p><p><b>What you need to do to prepare:</b> \n</p><p>This is a non-invasive feature. The tenant admin will not see any changes unless the admin uses the feature.</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/dlp-create-deploy-policy?tabs=purview\" target=\"_blank\">Create and deploy a data loss prevention policy | Microsoft Learn</a></p>",
       "ContentType": "html"
     },
@@ -31391,68 +31832,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<div>If you’re an IT professional or decision maker, start using the newest Windows 11 capabilities with helpful tips and actionable steps summarized in one place. Read <a href=\"https://aka.ms/WindowsNewsYouCanUse/October2024\" rel=\"noopener noreferrer\" target=\"_blank\">this month’s recap</a> of improvements in Windows client and server security, device and update management, AI, productivity, and collaboration.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>All improvements summarized in this monthly recap are already available.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Whatever tools you use, you can start seeing improvements across various workflows in your organization with:&nbsp;</div><ul><li>Windows 11, version 24H2 feature update&nbsp;</li><li>Cybersecurity resources&nbsp;</li><li>Windows Protected Print mode&nbsp;</li><li>Copilot+ PC updates&nbsp;</li><li>Windows admin center for Windows Server&nbsp;</li><li>Other improvements released in October&nbsp;</li></ul><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Read the new monthly recap and additional information to start benefiting from the latest improvements.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><div>Read the monthly recap at <a href=\"https://aka.ms/WindowsNewsYouCanUse/October2024\" rel=\"noopener noreferrer\" target=\"_blank\">Windows news you can use: October 2024</a>. It includes highlights from the following channels:&nbsp;</div><ul><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows-ITPro-blog\" rel=\"noopener noreferrer\" target=\"_blank\">Windows IT Pro Blog</a>&nbsp;</li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-server/ct-p/Windows-Server\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Server Community</a>&nbsp;</li><li><a href=\"https://www.microsoft.com/security/\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Security</a>&nbsp;</li><li><a href=\"https://techcommunity.microsoft.com/t5/microsoft-intune-blog/bg-p/MicrosoftEndpointManagerBlog\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Intune Blog</a>&nbsp;</li><li><a href=\"https://blogs.windows.com/windows-insider/\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Insider Blog</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-copilot\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Copilot documentation</a>&nbsp;</li><li><a href=\"https://support.microsoft.com/topic/windows-11-version-24h2-update-history-0929c747-1815-4543-8461-0160d16f15e5\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11, version 24H2 update history</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-10-31T20:57:35.947Z",
-    "HasAttachments": false,
-    "Id": "MC922556",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2024-10-31T20:57:38.623Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-10-31T20:57:36.65Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Get started with October 2024 improvements in Windows 11",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>As the end of support for Windows 10 approaches, Microsoft wants to ensure your organization is well-prepared for the transition to Windows 11. This end of support on October 14, 2025* marks an important step in our mission to provide the most modern and secure computing experience possible. It also reflects our commitment to continually improving Windows security as part of <a href=\"https://www.microsoft.com/trust-center/security/secure-future-initiative\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Secure Future Initiative</a>.</div><div><br></div><div>Today we published a new blog post to help you prepare for Windows 10 end of support and outlined options for moving to Windows 11. For details, see<b> </b><a href=\"https://blogs.windows.com/windowsexperience/?p=179154\" rel=\"noopener noreferrer\" target=\"_blank\">How to prepare for Windows 10 end of support by moving to Windows 11.</a>&nbsp;</div><div><br></div><div><b>When this will happen:</b>&nbsp;</div><div>Starting October 14, 2025, Windows 10 will no longer receive security updates. Information on the purchase of Extended Security Updates (ESU) for organizations of all sizes was previously <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/when-to-use-windows-10-extended-security-updates/ba-p/4102628\" rel=\"noopener noreferrer\" target=\"_blank\">announced in April of this year</a>.&nbsp;</div><div><br></div><div><b>How this will affect your organization:</b>&nbsp;</div><div>As security threats evolve and adapt, so must our operating systems and hardware. Because of this, we designed Windows 11 to be the most secure version of Windows ever — by default and design — to help you stay ahead of those risks. Advanced security features include hardware-based protection through TPM 2.0, enhanced authentication methods, and virtualization-based security fully enabled by default.&nbsp;</div><div><br></div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>With 99.7% compatibility with Windows 10 apps**, the move to Windows 11 can be done with the same tools and processes you use today. Organizations can take advantage of a range of tools designed to support this transition, ensuring minimal disruption to your operations.&nbsp;</div><div><br></div><div><b>Additional information:</b>&nbsp;</div><div>For organizations that need a bit more time before moving to new Windows 11 devices or Copilot+ PCs, as previously announced, an <a href=\"https://learn.microsoft.com/windows/whats-new/extended-security-updates\" rel=\"noopener noreferrer\" target=\"_blank\">annual Extended Security Updates</a> (ESU) program will be available. Enrolled devices will continue to receive <a href=\"https://www.microsoft.com/msrc/security-update-severity-rating-system?rtc=1\" rel=\"noopener noreferrer\" target=\"_blank\">critical and important security updates</a> for Windows 10. However, new features, bug fixes, and technical support will no longer be available from Microsoft.&nbsp;&nbsp;&nbsp;</div><div><br></div><div><b><em>Notes:</em></b><em>&nbsp;</em>&nbsp;</div><div><em>*Long-Term Servicing Branch (LTSB) and Long-Term Servicing Channel (LTSC) releases are subject to different lifecycle support policies. Check out the </em><a href=\"https://learn.microsoft.com/lifecycle/products/?terms=Windows%2010\" rel=\"noopener noreferrer\" target=\"_blank\"><em>Microsoft lifecycle website</em></a><em> for more information. </em>&nbsp;</div><div>**<em>Microsoft App Assure program data from October 2018 to February 2022.</em>&nbsp;</div>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-10-31T16:02:31.34Z",
-    "HasAttachments": false,
-    "Id": "MC922358",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2024-10-31T16:02:32.403Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-10-31T16:02:31.437Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "How to prepare for Windows 10 end of support by moving to Windows 11",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Support for the Word Mobile, Excel Mobile, and PowerPoint Mobile Universal Windows Platform (UWP) applications will end on October 14, 2025. After that date, no further updates, security fixes, or technical support will be available for these applications.</p><p><b>When this will happen:</b> \n</p><p>This retirement will occur on October 14, 2025.&nbsp;</p><p><b>How this will affect your organization:</b></p><p>If Microsoft Windows-based devices within your organization are running Word Mobile, Excel Mobile, or PowerPoint Mobile, we recommend that the applications be removed before the October 14, 2025, end of support date. While they may continue to function, using unsupported software could lead to potential security risks and other issues.</p><p>If you’re using Microsoft Intune, you can run a report to identify devices running these applications. In the Microsoft Intune admin center, go to <i>All services</i> &gt;<i> Apps | Monitor</i> &gt; <i>Discovered apps</i> and search for \"office.word\", “office.excel”, or “office.powerpoint”. The application version will start with \"16001.14326.xxxxx.x\".</p><p><b>What you need to do to prepare:</b></p><p>To mitigate these risks and ensure your organization remains secure and compliant, we recommend removing these applications and switching to alternatives:\n</p><ul><li><a href=\"https://www.microsoft.com/microsoft-365/mobile?ocid=oo_support_mix_marvel_ups_support_smcofficemobile_inline\" target=\"_blank\">Microsoft 365 mobile app</a> for iOS or Android phones and tablet devices.\n</li><li>Word, Excel, and PowerPoint on the web. <a href=\"https://www.microsoft365.com/\" target=\"_blank\">Learn more</a>.\n</li><li>Desktop versions of Word, Excel, and PowerPoint in a Microsoft 365 plan. <a href=\"https://www.microsoft.com/microsoft-365/enterprise/microsoft365-plans-and-pricing\" target=\"_blank\">Compare Microsoft 365 Enterprise Plans</a>.</li></ul><p>For information about the end of support for the OneNote UWP application (OneNote for Windows 10) see: <a href=\"https://support.microsoft.com/office/moving-to-onenote-on-windows-4ba7b498-aafc-44b1-8326-a582a6c71196\" target=\"_blank\">Moving to OneNote on Windows</a>.<br></p><p>\n</p><p>Planning ahead will help you avoid potential disruptions and keep your organization’s software environment secure and up to date.</p>",
       "ContentType": "html"
     },
@@ -31588,45 +31967,6 @@
       "Retirement"
     ],
     "Title": "Specifying client ID and secret when creating an Azure ACS principal via AppRegNew.aspx will be removed",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated May 28, 2024: To ensure customer confidence in our product line, we are extending the support for Teams Live Events beyond the previously announced deadline of September 30th, 2024. We have concluded  through  customer feedback that this change to our initial deprecation plan, by maintaining support   for Live Events, will empower customers to produce large events as established and provide more time to upgrade to town hall, our new digital streaming event solution for large events, on their own schedule. Town hall will continue to serve as the platform where we will deliver new product value to our customers.</p><p>Teams Live Events will continue to be supported. We want to ensure that customers can upgrade to town hall on their own schedule as we work to bring new features and capabilities to town hall.  Town  hall is already available for commercial customers in public clouds, and we are adding new features regularly.</p><p>If you are using Teams Live Events for your large-scale digital events, you can continue to do so past the previously announced deprecation date of September 30th, 2024. However, we encourage you to try town hall, which offers a more modern and interactive experience for your live events.&nbsp;</p><p>You don't need to do anything at this time to continue using Teams Live Events. If you have directed your organization to not schedule Live Events after September due to the deprecation announcement, you may now schedule Live Events past September 2024.  For more information please refer to our blog post regarding this announcement:&nbsp;<a href=\"https://techcommunity.microsoft.com/t5/microsoft-teams-blog/updates-for-town-hall-in-microsoft-teams-and-teams-live-events/ba-p/4148352\" target=\"_blank\">Updates for Town Hall in Microsoft Teams and Teams Live Events</a>.</p><p>&nbsp;---Original message below for reference---</p><p>With the introduction of Town halls in Microsoft Teams, Teams Live Events will be retired for commercial customers on September 30, 2024. This provides commercial customers with a 12-month window to prepare for the retirement and transition off Teams Live Events.&nbsp;</p><p><b>When this will happen:</b></p><p>September 30, 2024</p><p><b>How this will affect your organization:</b></p><p>After September 30, 2024, Teams Live Events will no longer be supported, and access will be discontinued. Customers will not be able to schedule, start, or join any events on Teams Live Events after this date. Existing recordings will be available to access until December 31, 2024. If customers want to retain any recordings from prior events, they will need to download the recordings and upload them to a different location before December 31, 2024. Between now and September 2024, customers can continue to use Teams Live Events with no change in their existing experience. However, our recommendation is that customers (both existing and new) transition to and start to use town halls as it becomes generally available on October 5, 2023.</p><p><b>What you need to do to prepare:</b></p><p>To prepare your organization for the transition we advise:\n</p><ul><li>Start to use town hall as it becomes generally available on October 5.</li><li>Learn more about town hall when documentation becomes available on adoption.microsoft.com and learn.microsoft.com on October 5.</li><li>Start planning to download recordings your organization wishes to retain before December 31, 2024.</li></ul><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "The support for Microsoft Teams Live Events has been extended beyond the initial retirement date of September 30th, 2024. Customers can continue using it and upgrade to town hall, the new event solution, at their convenience. Town hall is available and will receive new features, while Teams Live Events will still be supported. For more details, refer to the linked blog post."
-      }
-    ],
-    "EndDateTime": "2026-11-24T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC678003",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2024-05-28T15:46:13.783Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2023-09-28T17:35:40Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Microsoft Teams Live Event Retirement",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
