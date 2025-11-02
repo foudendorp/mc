@@ -4,6 +4,130 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "We are announcing the ability to govern Copilot agent development in your environments and enforce governance policies for Copilot agents. This feature will reach public preview on November 16, 2025.<br><br> \n\n<b>How does this affect me? </b><br> \n\nThis feature allows administrators to configure authentication for all agent interactions in the environment. Admins can select one of the following options: \n\n<ul> \n\n<li><b>Authenticate with Microsoft or Authenticate Manually</b> – This allows you to force authentication through Microsoft Entra ID or set up manual authentication. </li> \n\n<li><b>No authentication</b> allows anonymous access. </li> \n\n</ul> \n\nThe <b>Authentication for agents</b> feature is a modernized framework of the existing Data Policy virtual connector, <b>Chat without Microsoft Entra ID</b>, helping you scale through environment-level configurations and rules. <br><br> \n\nPlease note: If you block anonymous access in either one of the places, then at runtime the most restrictive behavior is enforced, and it will be blocked. If you're using both the virtual connector and the <b>Authentication for agents</b> setting in the <b>Security</b> area of the Power Platform admin center, <b><i>then access must be allowed in both places for it to be allowed at runtime</i></b>. <br><br> \n\nWe recommend that you move towards using the <b>Authentication for agents</b> setting in the Power Platform admin center to leverage the capability of groups and rules.<br><br> \n\n<b>What do I need to do to prepare? </b><br> \nThis message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-12-01T15:16:23Z",
+    "HasAttachments": false,
+    "Id": "MC1182098",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-01T15:19:04.727Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-01T15:16:23Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Platform admin center - Manage agent security with enhanced admin controls",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to capture user-entered phrases and flexibly handle date information, allowing for more control and precision when building solutions in Microsoft Copilot Studio. This feature will reach general availability on December 1, 2025.<br><br>\n<b>How does this affect me?</b><br>\nFor makers, a new field will be added for variables tied to entities, which will expose the exact text on what was extracted as the literal entity within the utterance. In addition, for agents, there will be the following datetime enhancements:<ul>\n<li><b>Support for Partial Dates</b>: Makers can now specify if a DateTime can be partial.<ul><li>If the Date can be partial, the makers can also specify the exact parts of the Date that are required and the ones that are optional with various combinations of Day, Month and Year.</li></ul></li>\n<li><b>Specify past or future Dates</b>: Makers can now specify if the Dates should be defaulted to be in the future or past or let the system disambiguate it as it does currently.</li></ul>\n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.<br><br>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-12-01T15:12:38Z",
+    "HasAttachments": false,
+    "Id": "MC1182096",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-01T15:16:08.643Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-01T15:12:38Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Microsoft Copilot Studio - Enhancement of Copilot Studio predefined entities",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to export copies of sent emails for record keeping in Dynamics 365 Customer Insights – Journeys. This feature will reach general availability on December 1, 2025.<br><br> \n\n<b>How does this affect me?</b><br> \n\nWith the new email export API, you can now automatically export exact copies of every email sent to your customers, ensuring you have a reliable and verifiable record. This feature introduces the following capabilities:<ul> \n\n<li>Call the export API to programmatically export exact copies of sent emails, including personalization and conditional content.</li> \n\n<li>Schedule regular exports to ensure up-to-date records.</li> \n\n<li>Select which emails for contacts or leads you want to export for greater control and relevance.</li> \n\n<li>Integrate with your existing archiving systems and retain copies for the preferred time.</li></ul> \n\n<b>What action do I need to take?</b><br> \nThis message is for awareness and no action is required.<br><br> \n \nif you would like more information on this feature, please visit <a href=\"https://aka.ms/ADO11380\" target=\"_blank\">Export copies of sent emails for record keeping</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-12-01T13:54:24Z",
+    "HasAttachments": false,
+    "Id": "MC1182087",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-01T14:02:22.143Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-01T13:54:24Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Insights – Journeys – Export copies of sent emails for record keeping",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to track key moments and insights in the Outlook side pane in Microsoft 365 Copilot for Sales. This feature will reach general availability on December 1, 2025.<br><br> \n\n \n\n<b>How does this affect me?</b><br> \n\nWith this feature, the <b>Customer communication card</b> in the Outlook side pane will present data gathered from multiple sources into a unified view. This card shows AI-generated summaries and insights for key moments, such as emails and meetings, without the need for them to be saved beforehand.<br><br> \n\n \n\nThe <b>Customer communication card</b> requires a Microsoft Copilot for Sales license and is available for both Dynamics 365 and Salesforce CRM users.<br><br> \n \n\n<b>What action do I need to take?</b><br> \nThis message is for awareness and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-12-01T13:34:28Z",
+    "HasAttachments": false,
+    "Id": "MC1182085",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-01T13:35:29.403Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-01T13:34:28Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Microsoft 365 Copilot for Sales – Track key moments and insights in Outlook side pane",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b>Microsoft Purview Data Loss Prevention (DLP)</b> is being extended to the network layer through integration with iboss Zero-Trust SASE Platform or Netskope One SASE Platform. This update will be generally available starting mid-November 2025. It enables organizations to intercept and inspect traffic inline and enforce actions based on Purview DLP policy conditions. This helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, add-ins, and more—including generative AI platforms, cloud storage, and content-sharing services—while managing alerts and incidents through Purview and Microsoft Defender. If configured, these signals also inform user risk indicators in <i>Insider Risk Management</i>.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=522095\" target=\"_blank\">522095</a>.</p>\n\n<b>When this will happen:</b>\n<p>General Availability (Worldwide): Rollout will begin in mid-November 2025 and is expected to complete by mid-December 2025.</p>\n\n<b>How this affects your organization:</b>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Purview DLP policies and organizations using iboss Zero-Trust SASE or Netskope One SASE platforms.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A new scenario-focused experience will be available for creating DLP policies.</li>\n    <li>Admins can select the <b><i>Inline Web Traffic</i></b>&nbsp;scenario to configure granular rules for detecting and protecting sensitive data.</li>\n    <li>Protection will extend to over 35,000 unmanaged cloud applications.</li>\n    <li>Alerts and incidents will be managed in <i>Microsoft Purview</i> and <i>Microsoft Defender</i>.</li>\n    <li>The feature will be <b>available by default </b>but <b>requires integration setup</b> to function.</li>\n  </ul>\n</li>\n</ul>\n\n<b>What you can do to prepare:</b>\n<ul>\n<li>Ensure your global administrator enables and configures integration with iboss Zero-Trust SASE or Netskope One SASE platforms.</li>\n<li><b>Activate Purview pay-as-you-go</b> to enable this capability. Learn about the <a href=\"https://learn.microsoft.com/purview/purview-billing-models#pay-as-you-go-billing-model\" target=\"_blank\">Pay-as-you-go billing model</a>.</li>\n<li>Review your current configuration to assess impact.</li>\n<li>Notify helpdesk staff and update internal documentation as needed.</li><li>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/purview/purview-billing-models\" target=\"_blank\">Learn about Microsoft Purview billing models | Microsoft Purview | Microsoft Learn</a></li>\n</ul>\n\n<b>Compliance considerations:</b>\n<table border=\"1\">\n<tbody><tr><th>Question</th><th>Answer</th></tr>\n<tr><td>Does the change add integration to third-party software products?</td><td>Yes. This change integrates with iboss Zero-Trust SASE Platform and Netskope One SASE Platform.</td></tr>\n<tr><td>Does the change modify Data Loss Prevention (DLP) policies or enforcement?</td><td>Yes. It introduces a new scenario-based DLP enforcement for inline web traffic.</td></tr>\n<tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. It enables inline inspection and protection of sensitive data shared via network traffic.</td></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML capabilities that interact with customer data?</td><td>Yes. It includes detection of sensitive data shared with generative AI platforms.</td></tr>\n<tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td><td>Yes. Alerts and incidents will be managed through Microsoft Purview and Microsoft Defender.</td></tr>\n<tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td><td>Yes. The feature must be enabled and configured by a global administrator.</td></tr>\n\n</tbody></table>",
       "ContentType": "html"
     },
@@ -1179,10 +1303,6 @@
         "Value": "499892"
       },
       {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"499892\":[{\"RoadmapId\":499892,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2839064Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499892,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2839066Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2839067Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2839068Z\",\"LatestRing\":null},{\"RoadmapId\":499892,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2839069Z\",\"LatestRing\":\"StandardRelease\"}]}"
-      },
-      {
         "Name": "Summary",
         "Value": "Microsoft Teams will block messages containing unsafe, weaponizable file types in chats and channels starting November 3, 2025. This protection, enabled by default at General Availability, notifies senders and recipients when messages are blocked. Admins can configure settings via the Teams Admin Center or PowerShell."
       },
@@ -1231,7 +1351,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833212Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833214Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833216Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833217Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833218Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833214Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833216Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833217Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833212Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833218Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -7663,7 +7783,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"503557\":[{\"RoadmapId\":503557,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T13:15:42.0114123Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T13:15:42.011412Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T13:15:42.0114121Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T13:15:42.0114122Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T13:15:42.0114124Z\",\"LatestRing\":null}]}"
+        "Value": "{\"503557\":[{\"RoadmapId\":503557,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T13:15:42.011412Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T13:15:42.0114121Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T13:15:42.0114122Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T13:15:42.0114123Z\",\"LatestRing\":null},{\"RoadmapId\":503557,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-10-16T13:15:42.0114124Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11587,37 +11707,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to enable deep noise suppression in Dynamics 365 Contact Center. This feature will reach general availability on October 31, 2025.<br><br> \n\n<b>How does this affect me?</b><br> \nThe AI-powered deep noise suppression feature automatically detects and suppresses unwanted audio elements in voice calls, while preserving clear voice transmission. Admins can enable this feature for the entire organization.<br><br> \n\n<b>What action do I need to take?</b><br> \nThis message is for awareness and no action is required.<br><br> \n\nIf you would like more information on this feature, please visit the <a href=\"https://aka.ms/ADO12089\"target=\"_blank\">Enable deep noise suppression </a> article.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-01T21:09:51Z",
-    "HasAttachments": false,
-    "Id": "MC1163721",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-01T21:10:40.647Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T21:09:51Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Contact Center – Enable deep noise suppression",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div>Start using the newest Windows 11 capabilities with helpful tips and actionable steps summarized in one place.&nbsp;Discover news about Windows 11, version 25H2 general availability, advantages of Microsoft Purview and Microsoft Defender to help reduce data breaches and build resiliency, plus enhancements to Windows 365, update and driver management, productivity features, AI, and much more.&nbsp;Learn how&nbsp;to get started with these and other improvements across Microsoft Intune, Windows Server, and Windows security.</div><div><br></div><div><b>When will this happen:</b></div><div>Improvements summarized in this <a href=\"https://aka.ms/WindowsNewsYouCanUse/September2025\" rel=\"noopener noreferrer\" target=\"_blank\">monthly recap</a> are already available. Note that some of them are rolling out gradually.</div><div><br></div><div><b>How this will affect your organization:</b></div><div>You can&nbsp;start&nbsp;seeing improvements across various workflows in your organization with:&nbsp;</div><ul><li>Wi-Fi 7 support for enterprise access points</li><li>Microsoft Purview to help reduce data breaches and stay current with regulations, certifications, and reporting</li><li>Integrated tools and AI-powered insights in Microsoft Defender</li><li>Windows ML to deploy production experiences</li><li>Windows 365 Frontline—now available for Government Community Cloud (GCC) and GCC High (GCCH)</li><li>Health check for proactive troubleshooting across Windows 365 and Azure Virtual Desktop environments</li><li>Additional improvements released in September</li></ul><div><br></div><div><b>What you need to do to prepare:</b></div><div>Read the new&nbsp;<a href=\"https://aka.ms/WindowsNewsYouCanUse/September2025\" rel=\"noopener noreferrer\" target=\"_blank\">monthly recap</a>&nbsp;and additional information to start benefiting from the latest improvements.</div><div><br></div><div><b>Additional information:</b></div><div>Read the monthly recap at <a href=\"https://aka.ms/WindowsNewsYouCanUse/September2025\" rel=\"noopener noreferrer\" target=\"_blank\">Windows news you can use: September 2025</a>, which includes highlights from the following channels:&nbsp;</div><ul><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows-ITPro-blog\" rel=\"noopener noreferrer\" target=\"_blank\">Windows IT Pro Blog</a></li><li><a href=\"https://techcommunity.microsoft.com/t5/microsoft-intune-blog/bg-p/MicrosoftEndpointManagerBlog\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Intune Blog</a></li><li><a href=\"https://www.microsoft.com/security/blog/?msockid=0a62a344849c68fe1290b07a85ff6967\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Security Blog</a>&nbsp;</li><li><a href=\"https://support.microsoft.com/topic/windows-11-version-24h2-update-history-0929c747-1815-4543-8461-0160d16f15e5\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 update history</a></li><li><a href=\"https://support.microsoft.com/topic/windows-server-2025-update-history-10f58da7-e57b-4a9d-9c16-9f1dcd72d7d7\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Server update history</a>&nbsp;</li></ul>",
       "ContentType": "html"
     },
@@ -11637,37 +11726,6 @@
       "Admin impact"
     ],
     "Title": "Get started with September 2025 improvements in Windows 11 ",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to record actual label values in Dataverse audit logs in Power Platform governance and administration. This feature will reach general availability on October 31, 2025. <br><br>  \n\n<b>How does this affect me?</b><br> \n\nThis feature enables you to record the actual picklist label values in Dataverse when creating and updating audit logs. When an admin or maker changes the label value, audit logs capture the original label value, so you keep the actual audit event’s before and after values.<br><br> \n\nThis feature allows your security operations center (SOC) team to meet auditing compliance requirements.<br><br> \n\n<b>What action do I need to take?</b><br> \n\nThis message is for awareness and no action is required.<br><br> \n\nIf you would like more information on this feature, please visit the <a href=\" https://aka.ms/ADO12338\"target=\"_blank\"> Record actual label values in Dataverse audit logs</a> article.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-01T20:00:42Z",
-    "HasAttachments": false,
-    "Id": "MC1163694",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-01T20:01:25.98Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T20:00:42Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Platform - Record actual label values in Dataverse audit logs",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -11767,66 +11825,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to improve site security with security scan in Power Pages. This feature will reach general availability on October 31, 2025.<br><br>  \n\n<b>How does this affect me?</b><br> \n\nThis feature enables you to schedule a security scan to protect your site from threats. The scan uses static and dynamic security scanning to find weaknesses and possible threats to your site's stability. When you run the scan, it evaluates the security level of the site, generates a report with the results of the checks, and provides suggestions for what to do next.<br><br> \n\n<b>What action do I need to take?</b><br> \nThis message is for awareness and no action is required.<br><br> \nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/ADO12534\"target=\"_blank\">Improve site security with security scan</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-01T17:19:41Z",
-    "HasAttachments": false,
-    "Id": "MC1163631",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-01T17:20:24.003Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T17:19:41Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Pages - Improve site security with security scan",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to recommend license-capacity allocation in Power Platform Advisor for Power Pages. This feature will reach general availability on October 31, 2025.<br><br>\n<b>How does this affect me?</b><br>\nThis feature analyzes license consumption across your Power Pages environments to prevent capacity overages. The feature flags environments that reach or exceed capacity, identifies underutilized environments, and suggests corrective actions.<br><br>\nThis feature can be found in the Power Platform admin center under Power Advisor.<br><br>\n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-01T17:12:42Z",
-    "HasAttachments": false,
-    "Id": "MC1163630",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-01T17:13:14.207Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T17:12:42Z",
-    "Tags": [],
-    "Title": "Power Pages - Recommend license-capacity allocation in Power Platform Advisor",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div><a href=\"https://aka.ms/Windows11/25H2/UpdateHistory\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11, version 25H2</a> is now being offered to eligible devices via feature updates. For customers enrolled in hotpatch quality update policies, <b>when</b> the upgrade is taken can affect whether devices continue to receive hotpatch updates during the current hotpatch cycle. Devices that upgrade during a designated <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#release-cycles\" rel=\"noopener noreferrer\" target=\"_blank\">baseline release period</a> (such as October) will remain eligible for hotpatching. Devices that upgrade during a non-baseline month (such as November) will temporarily stop receiving hotpatch updates and, until the next baseline release (e.g., January 2026), will instead receive standard security updates that require a restart.</div><div><br></div><div><b>When will this happen:</b>&nbsp;</div><div>The Windows 11, version 25H2 upgrade will be offered starting <b>September 30, 2025</b>, with <b>October 2025</b> designated as the baseline month for hotpatch eligibility. Organizations should plan their upgrade timing accordingly to maintain hotpatch continuity.</div><div><br></div><div><b>How will this affect your organization:</b>&nbsp;</div><div>If you are using hotpatch-enabled quality updates in your tenant and a device upgrades to Windows 11, version 25H2 outside of a <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#release-cycles\" rel=\"noopener noreferrer\" target=\"_blank\">baseline month</a>, it will temporarily receive standard (non-hotpatch) updates until the next baseline month.</div><div><br></div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>To ensure devices continue to receive hotpatch updates, please review the following:</div><ul><li>Review your feature update release schedule to ensure devices are positioned to update during baseline months. Look for the release date for your devices in your feature update policy as well as your feature update deferral settings in your Update Rings policies in Windows Autopatch</li><li>Review the hotpatch servicing cadence and upgrade timing implications. Refer to the <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatch-for-client-frequently-asked-questions/4413582\" rel=\"noopener noreferrer\" target=\"_blank\">Hotpatch FAQ</a> for technical guidance.</li></ul>",
       "ContentType": "html"
     },
@@ -11858,35 +11856,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to streamline data entry with smart paste in Dynamics 365 Sales. This feature will reach general availability on October 31, 2025.<br><br> \n\n<b>How does this affect me?</b><br> \n\nThis feature enables you to use smart paste, which uses AI to analyze data from your clipboard and identify key details that are automatically filled into the appropriate fields. Smart paste updates forms for you, such as emails or a business card, reducing the time required for data entry. The key capabilities include:<ul> \n\n<li>Automatically get inline field suggestions by copying relevant text or images to your clipboard.</li> \n\n<li>Paste using the smart paste icon or the keyboard shortcut (Ctrl+V or Cmd+V) when no field is selected and allow AI to analyze the form and clipboard content to suggest field values.</li>  \n\n<li>Choose to accept or ignore suggestions and continue editing the form as needed.</li>  \n\n<li>Paste directly into specific fields as usual by selecting the field first.</li></ul> \n\n<b>What action do I need to take?</b><br> \nThis message is for awareness and no action is required.<br><br> \n\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/ADO12541\"target=\"_blank\">Streamline data entry with smart paste</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-01T15:13:24Z",
-    "HasAttachments": false,
-    "Id": "MC1163518",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-01T15:14:36.307Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T15:13:24Z",
-    "Tags": [],
-    "Title": "Dynamics 365 Sales – Streamline data entry with smart paste",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<b>Update:</b> Release of this feature has been postponed, we will announce a new date in the future.<br><br>We are announcing the ability to assign custom names to actions in desktop flows in Power Automate for desktop.<br><br>  \n\n<b>How does this affect me?</b><br> \n\nThis feature enables you to assign custom names to actions directly in the flow designer. When you add an action to the designer panel, you can rename the action to something meaningful and descriptive.<br><br> \n\n<b>What action do I need to take?</b><br> \n\nThis message is for awareness, and no action is required.<br><br> \n\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/ADO11556\" target=\"_blank\">Assign custom names to actions in desktop flows</a>.",
       "ContentType": "html"
     },
@@ -11906,68 +11875,6 @@
       "New feature"
     ],
     "Title": "Power Automate for desktop - Assign custom names to actions in desktop flows",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to create an event portal on your own website using WebApp in Dynamics 365 Customer Insights - Journeys. This feature will reach general availability on October 31, 2025.<br><br>\n<b>How does this affect me?</b><br>\nThis feature update allows you to create a comprehensive event portal on your website where prospective attendees can access a list of events, an event details page, and a registration page. The Event Portal Web introduces the following capabilities:\n<ul>\n<li>Display live events for a configured web application in a responsive grid layout</li>\n<li>Search events by name or description</li>\n<li>View detailed information about each event</li>\n<li>Embed the Customer Insights-Journeys registration form</li>\n</ul>\n<b>What action do I need to take?</b><br>\nThis message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-01T14:54:27Z",
-    "HasAttachments": false,
-    "Id": "MC1163513",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-01T14:58:52.767Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T14:54:27Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Customer Insights - Journeys - Create an event portal on your own website using WebApp",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to visualize and work with hierarchical data from multiple tables in Dynamics 365 Sales. This feature will reach general availability on October 31, 2025.<br><br><b>How does this affect me?</b><br>With the Hierarchical Relationship Visualizer, sellers can view and work with data in a convenient parent-child visualization. The hierarchy view provides full editability of the records you choose to display, so your team can easily view, edit, and update customer information in context without leaving the visualization.<br><br><b>Configurable properties:</b><ul><li>Admins define hierarchy views for their teams. The feature currently supports single-table hierarchies, with support for multiple-table complex hierarchies coming later in the year.</li><li>Customize what data appears on each tile, along with the size, color, and picture or icon. You can show up to seven fields on each tile.</li><li>Define hierarchies by using relationships in your data. You can use single-table (self-referencing) relationships, cross-table relationships, or the Dataverse Connections table for flexible relationships between any two records.</li></ul><b>Intuitive UI controls:</b><ul><li>Zoom in and out and expand and collapse branches so you can efficiently work with customers of all sizes.</li><li>Switch between vertical and horizontal display modes to optimize the view based on the shape of the hierarchy.</li><li>Select a tile to open the details form in a side pane, so you can make updates, add meeting notes, and make other edits without leaving the hierarchy view.</li></ul>Once the feature has been deployed to your environment's station, you will see the \"Visual hierarchy\" appear on the App settings menu. Once published, users viewing a record from a table with a defined hierarchy will see the \"View hierarchy\" button on the command bar that takes them to the hierarchy view for that record.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.<br><br>If you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/ADO12540\">Visualize and work with hierarchical data from multiple tables</a> article.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-01T14:23:05Z",
-    "HasAttachments": false,
-    "Id": "MC1163506",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-01T14:26:05.583Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T14:23:05Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Sales – Visualize and work with hierarchical data from multiple tables",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -19947,37 +19854,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing a refresh to the header and navigation of model-driven apps in Power Apps. This feature will reach general availability on October 1, 2025.<br><br><b>How does this affect me?</b><br>This refresh improves the usability of model-driven apps with the following features:<ul><li>Modern app header &mdash; This new header simplifies the layout with improved spacing and modernized icons.</li><li>Streamlined sitemap &mdash; This new sitemap has an improved structure, which removes clutter and improves readability.</li><li>Condensed page headers &mdash; These new headers for the form and grid pages now take up less vertical space, allowing for more data to be displayed.</li></ul>This update will be automatically applied to all apps generated by the Plan designer. To apply this update to an existing app, please use the following steps:<ol><li>From the app designer, select <b>Settings</b> from the command bar.</li><li>Select <b>Features</b>, then locate and enable the <b>Header and navigation refresh setting</b>.</li></ol><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/12118\">Header and navigation refresh</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-01T23:46:00Z",
-    "HasAttachments": false,
-    "Id": "MC1147991",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-04T23:47:35.207Z",
-    "Services": [
-      "Power Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-04T23:46:41Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Apps - Header and navigation refresh",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2025-12-01T08:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -20650,7 +20526,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"480716\":[{\"RoadmapId\":480716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378077Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":480716,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958668Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595867Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378085Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"480716\":[{\"RoadmapId\":480716,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595867Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378077Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":480716,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958668Z\",\"LatestRing\":null},{\"RoadmapId\":480716,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-27T08:44:53.8378085Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
