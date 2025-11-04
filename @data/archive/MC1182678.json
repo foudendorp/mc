@@ -1,0 +1,37 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>We’re retiring the “When a device isn't eligible to run Windows 11, install the latest Windows 10 feature update” option in the Feature Updates policy within Intune. As we reach the end of support for Windows 10, this setting no longer provides value add. This change is part of our ongoing efforts to simplify update management and reduce configuration complexity across tenant environments. This functionality will also be retired from programmatic controls for Windows feature updates via Microsoft Graph API, following the same deprecation timeline.  \n</p><p><b>When will this happen:</b> \n</p><p>The deprecation will be rolled out starting February 17th, 2026.  \n</p><p><b>How will this affect your organization:</b> \n</p><p>This change applies to both standalone and multi-phase feature update policies. For devices in existing Feature Update policies where this option is selected, those that are not eligible for a Windows 11 upgrade will continue to receive Windows 10, 22H2 updates until the deprecation date of February 17, 2026. The same timeline applies to programmatic controls via Microsoft Graph API. \n</p><p><b>What you need to do to prepare:</b> \n</p><p>If you plan to upgrade devices to Windows 10 22H2 to enable Extended Security Updates (ESU), you can continue to use the Feature Update workflow in Intune and programmatic controls via Graph API until the deprecation date. This serves as a 3-month advanced notice, and the option will remain available during this period to help transition smoothly to Windows10 22H2. \n</p><p>You should prepare for these changes and inform your team. If you have any questions or concerns, or need assistance, file a service request by visiting the <u><a href=\"https://go.microsoft.com/fwlink/?linkid=2109431\" target=\"_blank\">Microsoft Intune admin center</a></u>. Additional Information and details will also be included on docs.microsoft.com post feature release.&nbsp;</p>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "The option to install the latest Windows 10 feature update on devices ineligible for Windows 11 will be deprecated starting February 17, 2026. Existing policies will continue until then. Users should prepare for this change and can seek assistance via the Microsoft Intune admin center."
+    }
+  ],
+  "EndDateTime": "2026-04-27T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1182678",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-11-04T00:31:57.413Z",
+  "Services": [
+    "Windows Autopatch"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-11-04T00:31:38Z",
+  "Tags": [
+    "Admin impact",
+    "Retirement"
+  ],
+  "Title": "Feature updates Policy Change: Deprecating Option for Windows 10 Feature Updates on Devices Ineligible for Windows 11",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
