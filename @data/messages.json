@@ -4,7 +4,7 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<div>Windows 10 devices accessing <a href=\"https://learn.microsoft.com/windows-365/overview\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 365</a> Enterprise Cloud PCs and Windows 365 Frontline (Dedicated) Cloud PCs are automatically entitled to ESU under certain conditions. IT administrators must use Microsoft Intune or another MDM provider to deploy a custom policy that helps verify whether a device is enrolled in the Windows 10 ESU subscription program.</div><div><br></div><div><b>Action is required</b> in order for these devices to install the upcoming November 2025 Windows security update, which will be available on November 11, 2025. Learn more about this change at&nbsp;<a href=\"https://learn.microsoft.com/windows/whats-new/enable-extended-security-updates-virtual\" rel=\"noopener noreferrer\" target=\"_blank\">Enable Windows 10 Extended Security Updates (ESU) for clients accessing cloud and virtual machines</a>.</div><div><br></div><div><b>When will this happen:</b></div><div>The upcoming November 2025 Windows security update will be available on November 11, 2025. It's necessary to take action prior to this date, in order for devices to be eligible for this update.</div><div>&nbsp;</div><div>Entitlement to ESU is available for qualifying devices any time. We advise taking action prior to November 11 in order to receive this month's update.</div><div><br></div><div><b>How this will affect your organization:</b></div><div>Windows 10 devices accessing <a href=\"https://learn.microsoft.com/windows-365/overview#what-is-a-cloud-pc\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 365 Enterprise Cloud PCs</a> and <a href=\"https://learn.microsoft.com/windows-365/enterprise/introduction-windows-365-frontline\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 365 Frontline Cloud PCs</a> in dedicated mode are automatically entitled to ESU for the duration of the ESU offer if the user has an active Windows 365 Enterprise license assigned or Windows 365 Frontline Cloud PC in dedicated mode provisioned, provided the following conditions are met:</div><div><br></div><ul><li><b>IT administrators must deploy a custom policy</b> that enables the <b>EnableESUSubscriptionCheck</b> flag. This policy helps verify whether a device is enrolled in the Windows 10 ESU subscription program. Microsoft Intune or another MDM provider can be used to deploy this custom policy. See the documentation&nbsp;<a href=\"https://learn.microsoft.com/windows/whats-new/enable-extended-security-updates-virtual#to-configure-enableesusubscriptioncheck-flag-with-intune\" rel=\"noopener noreferrer\" target=\"_blank\">To configure EnableESUSubscriptionCheck flag with Intune</a> and the resources in the Additional Information section, below.</li><li>The local Windows 10 device is either&nbsp;<a href=\"https://learn.microsoft.com/entra/identity/devices/concept-directory-join\" rel=\"noopener noreferrer\" target=\"_blank\"><b>Microsoft Entra joined</b></a> or <a href=\"https://learn.microsoft.com/entra/identity/devices/concept-hybrid-join\" rel=\"noopener noreferrer\" target=\"_blank\"><b>Microsoft Entra hybrid joined</b></a>.</li><li>Users must sign in to their physical Windows 10 device using the same Microsoft Entra ID account they use for Windows 365 Cloud PCs <b>at least once every 22 days</b> to maintain eligibility for ESU updates on that device.</li></ul><div><br></div><div>Please also note the following:</div><div><br></div><ul><li>Physical devices that are only Microsoft Entra registered or on-premises Active Directory joined <b>are not eligible for this Windows 365 ESU entitlement.&nbsp;</b></li><li>Personal or BYOD devices that aren't managed by the organization and are only Microsoft Entra registered <b>will not qualify for this entitlement</b>. These devices should be enrolled via the&nbsp;<a href=\"https://www.microsoft.com/windows/extended-security-updates\" rel=\"noopener noreferrer\" target=\"_blank\">Consumer ESU program</a>. An eligible user can activate up to 10 devices.</li></ul><div><br></div><div><b>What you need to do to prepare:</b></div><div>Ensure that the Windows 10 devices across your organization meet the above requirements in order to continue to be protected under the ESU offering. We advise taking action prior to November 11 in order to remain protected. See the Additional information section for details and resources.</div><div><br></div><div><b>Additional information:</b></div><ul><li><a href=\"https://learn.microsoft.com/windows/whats-new/enable-extended-security-updates-virtual\" rel=\"noopener noreferrer\" target=\"_blank\">Enable Windows 10 Extended Security Updates (ESU) for clients accessing cloud and virtual machines</a> - Learn more about this change</li><li><a href=\"https://learn.microsoft.com/windows/whats-new/enable-extended-security-updates-virtual#to-configure-enableesusubscriptioncheck-flag-with-intune\" rel=\"noopener noreferrer\" target=\"_blank\">To configure EnableESUSubscriptionCheck flag with Intune</a> - Learn about the custom policy that enables the EnableESUSubscriptionCheck flag</li><li><a href=\"https://learn.microsoft.com/entra/fundamentals/what-is-entra\" rel=\"noopener noreferrer\" target=\"_blank\">What is Microsoft Entra?</a> - Microsoft Entra joined devices</li><li><a href=\"https://learn.microsoft.com/windows-365/overview\" rel=\"noopener noreferrer\" target=\"_blank\">What is Windows 365?</a></li><li><a href=\"https://www.microsoft.com/windows/extended-security-updates\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 10 Consumer Extended Security Updates (ESU)</a></li></ul>",
+      "Content": "<div>Windows 10 devices accessing <a href=\"https://learn.microsoft.com/windows-365/overview\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 365</a> Enterprise Cloud PCs and Windows 365 Frontline (Dedicated) Cloud PCs are automatically entitled to <a href=\"https://learn.microsoft.com/windows/whats-new/extended-security-updates\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 10 Extended Security Updates (ESU)</a> under certain conditions. IT administrators must use Microsoft Intune or another MDM provider to deploy a custom policy that helps verify whether a device is enrolled in the Windows 10 ESU subscription program.</div><div><br></div><div><b>Action is required</b> in order for these devices to install the upcoming November 2025 Windows security update, which will be available on November 11, 2025. Learn more about this change at&nbsp;<a href=\"https://learn.microsoft.com/windows/whats-new/enable-extended-security-updates-virtual\" rel=\"noopener noreferrer\" target=\"_blank\">Enable Windows 10 Extended Security Updates (ESU) for clients accessing cloud and virtual machines</a>.</div><div><br></div><div><b>When will this happen:</b></div><div>The upcoming November 2025 Windows security update will be available on November 11, 2025. It's necessary to take action prior to this date, in order for devices to be eligible for this update.</div><div>&nbsp;</div><div>Entitlement to ESU is available for qualifying devices any time, however, we advise taking action prior to November 11 in order to receive this month's update and remain protected.</div><div><br></div><div><b>How this will affect your organization:</b></div><div>Windows 10 devices accessing <a href=\"https://learn.microsoft.com/windows-365/overview#what-is-a-cloud-pc\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 365 Enterprise Cloud PCs</a> and <a href=\"https://learn.microsoft.com/windows-365/enterprise/introduction-windows-365-frontline\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 365 Frontline Cloud PCs</a> in dedicated mode are automatically entitled to ESU for the duration of the ESU offer if the user has an active Windows 365 Enterprise license assigned or Windows 365 Frontline Cloud PC in dedicated mode provisioned, provided the following conditions are met:</div><div><br></div><ul><li><b>IT administrators must deploy a custom policy</b> that enables the <b>EnableESUSubscriptionCheck</b> flag. This policy helps verify whether a device is enrolled in the Windows 10 ESU subscription program. Microsoft Intune or another MDM provider can be used to deploy this custom policy. See the documentation&nbsp;<a href=\"https://learn.microsoft.com/windows/whats-new/enable-extended-security-updates-virtual#to-configure-enableesusubscriptioncheck-flag-with-intune\" rel=\"noopener noreferrer\" target=\"_blank\">To configure EnableESUSubscriptionCheck flag with Intune</a> and the resources in the Additional Information section, below.</li><li>The local Windows 10 device is either&nbsp;<a href=\"https://learn.microsoft.com/entra/identity/devices/concept-directory-join\" rel=\"noopener noreferrer\" target=\"_blank\"><b>Microsoft Entra joined</b></a> or <a href=\"https://learn.microsoft.com/entra/identity/devices/concept-hybrid-join\" rel=\"noopener noreferrer\" target=\"_blank\"><b>Microsoft Entra hybrid joined</b></a>.</li><li>Users must sign in to their physical Windows 10 device using the same Microsoft Entra ID account they use for Windows 365 Cloud PCs <b>at least once every 22 days</b> to maintain eligibility for ESU updates on that device.</li></ul><div><br></div><div>Please also note the following:</div><div><br></div><ul><li>Physical devices that are only Microsoft Entra registered or on-premises Active Directory joined <b>are not eligible for this Windows 365 ESU entitlement.&nbsp;</b></li><li>Personal or BYOD devices that aren't managed by the organization and are only Microsoft Entra registered <b>will not qualify for this entitlement</b>. These devices should be enrolled via the&nbsp;<a href=\"https://www.microsoft.com/windows/extended-security-updates\" rel=\"noopener noreferrer\" target=\"_blank\">Consumer ESU program</a>. An eligible user can activate up to 10 devices.</li></ul><div><br></div><div><b>What you need to do to prepare:</b></div><div>Ensure that the Windows 10 devices across your organization meet the above requirements in order to continue to be protected under the ESU offering. We advise taking action prior to November 11 in order to remain protected. See the Additional information section for details and resources.</div><div><br></div><div><b>Additional information:</b></div><ul><li><a href=\"https://learn.microsoft.com/windows/whats-new/enable-extended-security-updates-virtual\" rel=\"noopener noreferrer\" target=\"_blank\">Enable Windows 10 Extended Security Updates (ESU) for clients accessing cloud and virtual machines</a> - Learn more about this change</li><li><a href=\"https://learn.microsoft.com/windows/whats-new/enable-extended-security-updates-virtual#to-configure-enableesusubscriptioncheck-flag-with-intune\" rel=\"noopener noreferrer\" target=\"_blank\">To configure EnableESUSubscriptionCheck flag with Intune</a> - Learn about the custom policy that enables the EnableESUSubscriptionCheck flag</li><li><a href=\"https://learn.microsoft.com/entra/fundamentals/what-is-entra\" rel=\"noopener noreferrer\" target=\"_blank\">What is Microsoft Entra?</a> - Microsoft Entra joined devices</li><li><a href=\"https://learn.microsoft.com/windows-365/overview\" rel=\"noopener noreferrer\" target=\"_blank\">What is Windows 365?</a></li><li><a href=\"https://www.microsoft.com/windows/extended-security-updates\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 10 Consumer Extended Security Updates (ESU)</a></li></ul>",
       "ContentType": "html"
     },
     "Category": "planForChange",
@@ -13,16 +13,348 @@
     "HasAttachments": false,
     "Id": "MC1183612",
     "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-11-07T00:57:14.633Z",
+    "LastModifiedDateTime": "2025-11-08T00:44:14.887Z",
     "Services": [
       "Windows"
     ],
     "Severity": "normal",
-    "StartDateTime": "2025-11-07T00:57:13.733Z",
+    "StartDateTime": "2025-11-08T00:44:13.573Z",
     "Tags": [
       "Admin impact"
     ],
     "Title": "Action Required to Enable Extended Security Update for local devices accessing Windows 365",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 6, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Beginning in October, we're introducing a new Tools feature in the Copilot Chat prompt box. Tools acts as a lightweight entry point into high-value, task-specific Copilot features and capabilities directly from the prompt box. By selecting Tools, users get a menu where they can easily discover and trigger the right Copilot feature or capability for their current task, while also providing consistent interactions across tools. Based on the user's license, Tools provides easy access to features and capabilities like Researcher, Analyst, Pages, and image generation.</p><p>This message is associated with Microsoft 365 Roadmap <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497298\" target=\"_blank\">497298</a>.</p><p><b>When this will happen</b><br></p><p>General Availability (Worldwide): We will begin rollout in October 2025 (previously late September 2025) and expect to complete by end of November 2025 (previously mid-October 2025).</p><p><b>How this affects your organization</b></p><p>Once this update is rolled out, users will see a new Tools button in the Copilot Chat prompt box. Selecting this button opens a menu of AI-powered features tailored to the user’s license. This enhancement improves discoverability and usability of Copilot capabilities, helping users complete tasks more efficiently.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5d805de7-b16b-48ae-92e7-afc0df17e66c  \" width=\"400\" height=\"\"></p><p>This feature is on by default and does not require admin configuration.</p><p><b>What you can do to prepare</b><br></p><p>No admin action is required. However, you may want to:</p><ul><li>Inform users about the new Tools experience in Copilot Chat.</li><li>Update internal documentation or training materials if needed.</li></ul><ul></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting October 2025, Microsoft Copilot Chat will add a Tools feature in the prompt box, offering easy access to task-specific AI capabilities based on user licenses. Rollout completes by November 2025, requires no admin action, and enhances feature discoverability and usability."
+      }
+    ],
+    "EndDateTime": "2025-11-24T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1122153",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-07T23:41:31.343Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-25T22:32:28Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "New Tools feature coming to the Microsoft Copilot Chat prompt box",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 7, 2025: We have updated the timeline. Access to emails by typing '/' in the prompt box will only be available when using Copilot Chat in Outlook. This applies to both the full app and side pane experience. Thank you for your patience.</p><p>We're enhancing Microsoft 365 Copilot Chat with new capabilities that make it easier for users to include work content—such as files and emails—in their prompts. By typing ‘<b>/</b>’ in the prompt box, users can quickly search and reference relevant files or emails, streamlining prompt creation and improving Copilot responses. Additionally, some suggested prompts beneath the input box will now include relevant files or emails to help users get started quickly.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e6d7449f-abbc-4ee6-b2b3-0b9f4c2a127a/2f8c1d1ae924ab9dd9b1edf74689e47553383208.png\" style=\"width: 25%;\"><br></p><p>Note: For users without a Microsoft 365 Copilot license, Copilot Chat is still grounded only in the web. Users can also choose to include additional content in the prompt for Copilot to reason over, such as with the methods described above. Chat is not automatically grounded in the organization’s graph or the user’s personal graph - this is only available for users with a Microsoft 365 Copilot license when using Chat in Work scope.</p>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=500377\" target=\"_blank\">500377</a>.</p><p><b>When this will happen:</b></p>\n<ul>\n<li><b>Files:</b> Currently available (Roadmap ID 497112)</li>\n<li><b>Emails:</b>&nbsp;Rollout begins early October 2025 (previously mid-September) and completes by late November 2025 (previously late October).  Roadmap ID 500377.</li>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<p>This update improves usability and prompt relevance in Copilot Chat by allowing users to reference files and emails in their prompts (without uploading them manually) or as part of suggested prompts under the input box. Users will only see content they have access to, based on interaction signals (such as accessed, modified, or shared) and properties (such as creation or last update date).</p>\n<p>No changes to default settings or user permissions are required.</p>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n</ul><p>No admin action is required. You may want to inform your users about the new reference capabilities.</p><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/en-us/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\" target=\"_blank\">Using Context IQ to refer to specific files, people, and more in Microsoft 365 Copilot and Copilot Chat</a></p><p><b>Compliance considerations</b></p><p></p><table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<tbody><tr><th>Consideration</th><th>Explanation</th></tr>\n<tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes, users can now access specific data types (files, emails) they have permission to view directly from Copilot Chat by typing '/' in the prompt box.</td></tr>\n<tr><td><a href=\"https://support.microsoft.com/en-us/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\"></a>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes, users can now more easily include specific data types (files, emails) in their prompts, improving grounding and relevance of Copilot responses.</td></tr>\n</tbody></table>\n\n\n\n\n\n\n\n\n\n\n\n<p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "500377"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot Chat now lets users include files and emails in prompts by typing '/' in Outlook, enhancing prompt relevance and usability. Email access rollout is from October to November 2025. No admin action is needed; users see only content they have permission to access."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2025-12-22T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1139489",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-07T23:36:37.337Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-22T00:06:34Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot Chat: New ways to include files and emails in prompts",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 7, 2025: We have updated the timeline. Access to emails by typing '/' in the prompt box will only be available when using Copilot Chat in Outlook. This applies to both the full app and side pane experience. Thank you for your patience.</p><p>We're enhancing Copilot Chat for users with a Microsoft 365 Copilot license with new capabilities that make it easier for them to include work content—such as files and emails—in their prompts when using Chat in Web scope. By typing ‘/’ in the prompt box, users can quickly search and reference relevant files or emails, streamlining prompt creation and improving Copilot responses. Additionally, some suggested prompts beneath the input box will now include relevant files or emails to help users get started quickly.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e6d7449f-abbc-4ee6-b2b3-0b9f4c2a127a/2f8c1d1ae924ab9dd9b1edf74689e47553383208.png\" style=\"width: 25%;\"><br></p><p>Note: Web scope in Copilot Chat is still grounded only in the web. Users can also choose to include additional content in the prompt for Copilot to reason over, such as with the methods described above. Users must switch to Work scope to have Chat automatically grounded in content from their organization’s graph or their personal graph.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?id=500377\" target=\"_blank\">500377</a>.</p><p><b>When this will happen:</b></p><ul><li><b>Files:</b> Currently available (Roadmap ID 497112)\n</li><li><b>Emails: </b>Rollout begins early October 2025 (previously mid-September) and completes by late November 2025 (previously late October).&nbsp; Roadmap ID 500377.</li></ul><p><b>How this will affect your organization:</b>\n</p><p>This update improves usability and prompt relevance in Copilot Chat by allowing users to reference files and emails in their prompts (without uploading them manually) or as part of suggested prompts under the input box. Users will only see content they have access to, based on interaction signals (such as accessed, modified, or shared) and properties (such as creation or last update date).</p><p>No changes to default settings or user permissions are required.</p><p><b>What you can do to prepare:</b></p><p>No admin action is required. You may want to inform your users of these changes.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/en-us/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\" target=\"_blank\">Using Context IQ to refer to specific files, people, and more in Microsoft 365 Copilot and Copilot Chat</a></p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Consideration</b></td><td><b>Explanation</b></td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Users can now access specific data types (files, emails) they have permission to view directly from Copilot Chat by typing '/' in the prompt box.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Users can now more easily include specific data types (files, emails) in their prompts, improving grounding and relevance of Copilot responses.</td></tr></tbody></table><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "500377"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot Chat now lets users include files and emails in prompts by typing '/' in the web chat prompt box, enhancing response relevance. Email access is limited to Outlook Copilot Chat. Rollout starts October 2025, with no admin action needed. Users see only accessible content."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2025-12-22T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1139488",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-07T23:33:55.257Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-22T00:06:06Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft 365 Copilot: New ways to include files and emails as part of prompts in chat web scope",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 7, 2025: We have added clarification for customers impacted by this feature. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>We're introducing a new capability in <i>Microsoft Teams</i> that allows users to <b>start a chat with anyone</b> who has an <b>email address</b>—even if they’re not currently using Teams. The recipient will receive an email invitation to join the chat session as a guest, enabling seamless communication and collaboration. This update simplifies external engagement and supports flexible work scenarios.</p><p>This capability will be available to small and medium business customers with a Teams Essentials, Business Basic, Business Standard, or Business Premium license.</p><p>This feature will be available across Android, Desktop, iOS, Linux, and Mac platforms.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=513271\" target=\"_blank\">513271</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Targeted Release:</b> Rollout will begin in early November 2025 and is expected to complete by mid-November 2025.</li>\n<li><b>General Availability (Worldwide):</b> Rollout will begin in January 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>All Microsoft Teams users in your organization.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users will be able to initiate chats with any external contact using their email address.</li>\n<li>External users will receive an email invitation and can join the chat as guests.</li>\n<li>The chat experience will be governed by your organization’s Entra B2B Guest policy.</li>\n<li>Chats will remain within your organization’s boundary.</li>\n<li>This feature will be <b>enabled by default</b>.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Update internal documentation to reflect this new capability.</li>\n<li>Inform helpdesk and support teams about the change.</li><li>To disable the feature, set the <b>UseB2BInvitesToAddExternalUsers </b>attribute of TeamsMessagingPolicy to<b> false</b>. <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamsmessagingpolicy?view=teams-ps#-useb2binvitestoaddexternalusers\" target=\"_blank\">Set-CsTeamsMessagingPolicy documentation here</a>.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "513271"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will allow users to chat with anyone via email, even non-Teams users, who join as guests. Available to small and medium businesses, this feature rolls out from November 2025 and is enabled by default. Organizations can disable it via TeamsMessagingPolicy settings."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Linux, Mac"
+      }
+    ],
+    "EndDateTime": "2026-02-28T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1182004",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-11-07T23:26:54.187Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T23:20:44Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Chat with anyone with an email address",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated September 19, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon for Microsoft Teams: A new setting that allows users to view incoming calls in a small window in Teams to prevent disruptions. Users will be able to take a call in the small window and continue to see what they were working on before the call.</p><p>This message applies to Teams on Windows desktop, Teams on Mac desktop, Teams for the web, and Teams for iOS/Android.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=482747\" target=\"_blank\">482747</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out early May 2025 and expect to complete by mid-May 2025.</p><p>General Availability (Worldwide): We will begin rolling out mid-May 2025 and expect to complete by late May 2025.\n</p><p>General Availability (GCC): We will begin rolling out early June 2025 and expect to complete by mid-June 2025.</p><p></p><p>General Availability: (GCC High, DoD): We will begin rolling out early June 2025 and expect to complete by early October 2025.</p><p><b>How this will affect your organization:</b></p><p>Before this rollout: Teams users are disrupted by the larger Teams screen when viewing an incoming call.</p><p>After this rollout: Teams users can turn on this setting to view calls in a small window. Note that both large and small windows are resizable:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b4e236c2-758f-46e9-a1bb-7a6c2a8284ea\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>This feature will be on by default.</p><p><b>What you need to do to prepare:</b> </p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "482747"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will introduce a default setting allowing users to view incoming calls in a small, resizable window to reduce disruption. Rollout begins May 2025 for most users, with GCC and DoD completing by October 2025. No admin action is needed, but user notification is recommended."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-12-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1045221",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-07T23:09:38.17Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-03-31T22:38:16Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: New user setting to view incoming calls in a small window",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are introducing Windows 365 for Agents, a new feature that enables the use of cloud PCs for computer-use scenarios in Microsoft Copilot Studio. Windows 365 for Agents enables Copilot Studio agents to leverage secure, enterprise-ready cloud PCs that are Entra-joined and Intune-managed by your organization without any infrastructure setup required. This feature will be available for all Power Platform environments in the First Release and United States regions on November 18, 2025.<br><br> \n\n<b>How does this affect me?</b><br> \n\nUsage of Windows 365 for Agents is billed on a pay-as-you-go (PAYGO) basis. If your environment already has Copilot Studio PAYGO enabled, Windows 365 for Agents billable usage will automatically be available. <a href=\"https://aka.ms/ADO13113a\" target=\"_blank\">Learn more about Copilot Studio licensing</a>.<br><br> \n\nIf you do not want to enable billable usage of Windows 365 for Agents, you must uncheck the corresponding option in your PAYGO setup within the Power Platform admin center.<br><br> \n\nTo access this setting:<ol> \n\n<li>Go to the <b>Power Platform admin center</b> (new admin center)</li> \n\n<li>Navigate to <b>Licensing</b> &gt; <b> Billing plans</b> </li> \n\n<li>Select the <b>billing plan</b>(s) that have Copilot Studio enabled</li> \n\n<li>Uncheck the <b>Windows 365 for Agents</b> option</li></ol> \n\n<b>What action do I need to take?</b><br> \n\nThis message is for awareness, and no action is required.<br><br> \n\nFor more information about Windows 365 for Agents, please review <a href=\"https://aka.ms/ADO13113b\" target=\"_blank\">Learn more about computer use</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-12-07T21:54:46Z",
+    "HasAttachments": false,
+    "Id": "MC1183828",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-07T21:55:14.1Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-07T21:54:46Z",
+    "Tags": [],
+    "Title": "Microsoft Copilot Studio – Information about Windows 365 for Agents",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 6, 2025: We have paused rollout of this item. We will communicate via Message center when we are ready to proceed. We apologize for any inconvenience this may have caused and thank you for your patience.</p><p>Coming soon for Microsoft Viva Engage: Users will have a new way to engage with the Viva Engage app in Microsoft Teams through new notifications in the Teams Activity feed. This message applies to Teams for the web, Teams for Windows desktop, Teams for Mac desktop, and Teams for iOS/Android.</p><p>After this rollout, users with the Engage app installed can be notified in Teams for replies and reactions to their community posts. This new feature helps large organizations stay connected and informed of news, updates, and safety while in Microsoft Teams.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=474126\" target=\"_blank\">474126</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): Rollout is currently paused. We will communicate via Message center when we are ready to proceed.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>This feature will be available by default and the notifications will be on by default.\n</p><p>After this rollout, users can change notification settings in Teams for desktop or the web: Go to <i>Activity</i> on the left side of Teams, select the gear icon, and change settings in the Viva Engage section. In Teams for iOS/Android, users can turn notifications on or off for all apps from the notifications settings page.&nbsp;</p><p>\nUser documentation:&nbsp;<a href=\"https://support.microsoft.com/office/manage-notifications-in-microsoft-teams-1cc31834-5fe5-412b-8edb-43fecc78413d\" target=\"_blank\">Manage notifications in Microsoft Teams - Microsoft Support</a></p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified date with no admin action required before or after the rollout.\n</p><p>Share this news with users at your organization and consider <a href=\"https://learn.microsoft.com/microsoftteams/teams-app-setup-policies#pin-apps\" target=\"_blank\">pinning Engage next to Chats and Team</a>s. Ensure your corporate communications team is aware of this additional channel of reaching users across the organization.\n</p><p>You may want to update any relevant documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "474126"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The rollout of new reply and reaction notifications for Microsoft Viva Engage in Teams is paused. When available, users will receive default notifications for community post interactions in Teams, with options to customize settings. No admin action is needed before or after rollout."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "TeamsAndSurfaceDevices"
+      }
+    ],
+    "EndDateTime": "2026-02-02T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC978923",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-07T19:48:38.3Z",
+    "Services": [
+      "Microsoft Teams",
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-01-14T00:16:52Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Viva Engage: New reply and reaction notifications in Microsoft Teams",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "As of August 2025, Power Automate flows and Agent flows (Copilot Studio) with <a target=\"_blank\" href=\"https://aka.ms/ADO12527_1\">HTTP triggers</a> or <a target=\"_blank\" href=\"https://aka.ms/ADO12527_2\">Teams Webhook triggers</a> that have logic.azure.com in the URL moved to a new URL as a part of a critical infrastructure upgrade to improve execution speed and provide new features.<br><br><b>How does this affect me?</b><br>Users can see the new URL in the HTTP URL field of the flow's trigger when loading the flow in the designer. Beginning <b>November 30, 2025</b>, the <i>logic.azure.com</i> URL will no longer work- meaning the flows will not trigger when invoked from external systems.<br><br><b>What action do I need to take?</b><br>To ensure that existing flows using HTTP or Teams Webhook triggers continue to work, complete the actions mentioned in <a target=\"_blank\" href=\"https://aka.ms/ADO12527_3\">this documentation</a> by <b>November 30, 2025</b>. Prior to this date, both the old and new URLs will be supported. If no action is taken before this date to update flow triggers to the new URL, users will experience failures triggering these flows as the old URL will no longer work.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-12-07T13:16:32Z",
+    "HasAttachments": false,
+    "Id": "MC1183710",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-07T13:18:08.21Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-07T13:16:32Z",
+    "Tags": [
+      "User impact"
+    ],
+    "Title": "Power Automate – HTTP and Teams webhook trigger flows are moving to new URLs",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -1628,7 +1960,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-07T11:02:30.5016006Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-07T11:02:30.5016008Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-07T11:02:30.5016009Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-07T11:02:30.501601Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-07T11:02:30.5016011Z\",\"LatestRing\":null}]}"
+        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-08T03:17:01.4478526Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-08T03:17:01.4478528Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-08T03:17:01.447853Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-08T03:17:01.4478531Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-08T03:17:01.4478532Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1805,7 +2137,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"520386\":[{\"RoadmapId\":520386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-07T11:02:30.5017125Z\",\"LatestRing\":null},{\"RoadmapId\":520386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-07T11:02:30.5017126Z\",\"LatestRing\":null}]}"
+        "Value": "{\"520386\":[{\"RoadmapId\":520386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-08T03:17:01.4476588Z\",\"LatestRing\":null},{\"RoadmapId\":520386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-08T03:17:01.447659Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1938,7 +2270,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500378\":[{\"RoadmapId\":500378,\"Platform\":\"Android\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-11-07T11:02:30.5019303Z\",\"LatestRing\":null},{\"RoadmapId\":500378,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-11-07T11:02:30.5019304Z\",\"LatestRing\":null}]}"
+        "Value": "{\"500378\":[{\"RoadmapId\":500378,\"Platform\":\"Android\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-11-08T03:17:01.4475637Z\",\"LatestRing\":null},{\"RoadmapId\":500378,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-11-08T03:17:01.447564Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3180,52 +3512,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We're introducing a new capability in <i>Microsoft Teams</i> that allows users to <b>start a chat with anyone</b> who has an <b>email address</b>—even if they’re not currently using Teams. The recipient will receive an email invitation to join the chat session as a guest, enabling seamless communication and collaboration. This update simplifies external engagement and supports flexible work scenarios.</p><p>This feature will be available across Android, Desktop, iOS, Linux, and Mac platforms.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=513271\" target=\"_blank\">513271</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Targeted Release:</b> Rollout will begin in early November 2025 and is expected to complete by mid-November 2025.</li>\n<li><b>General Availability (Worldwide):</b> Rollout will begin in January 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>All Microsoft Teams users in your organization.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users will be able to initiate chats with any external contact using their email address.</li>\n<li>External users will receive an email invitation and can join the chat as guests.</li>\n<li>The chat experience will be governed by your organization’s Entra B2B Guest policy.</li>\n<li>Chats will remain within your organization’s boundary.</li>\n<li>This feature will be <b>enabled by default</b>.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Update internal documentation to reflect this new capability.</li>\n<li>Inform helpdesk and support teams about the change.</li><li>To disable the feature, set the <b>UseB2BInvitesToAddExternalUsers </b>attribute of TeamsMessagingPolicy to<b> false</b>. <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamsmessagingpolicy?view=teams-ps#-useb2binvitestoaddexternalusers\" target=\"_blank\">Set-CsTeamsMessagingPolicy documentation here</a>.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "513271"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will allow users to chat with anyone via email, even non-Teams users, who join as guests. This feature, enabled by default, rolls out starting November 2025 and supports external communication within organizational policies. Admins can disable it via TeamsMessagingPolicy settings."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Linux, Mac"
-      }
-    ],
-    "EndDateTime": "2026-02-28T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1182004",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-10-31T23:21:10.313Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-31T23:20:44Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Chat with anyone with an email address",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>To simplify meeting coordination, we’re introducing intelligent and native polls directly into the <b>Outlook calendar compose form</b>. This enhancement helps users propose multiple time slots and gather attendee preferences—especially useful when scheduling with external participants or individuals with limited availability.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/20e23941-618e-4027-8c5a-0abee762e47f\" style=\"width: 400px;\" alt=\"user settings\">&gt;</p><p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout begins in late October 2025 and is expected to complete by early December 2025.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> All users of the New Outlook for Win 32 and Outlook on the web who use the calendar compose experience.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Users will see a new option to create scheduling polls directly within the calendar compose form.</li>\n    <li>The feature will be ON by default for all tenants.</li>\n    <li>No changes to existing admin policies are required.</li>\n    <li>Polls will help organizer propose multiple meeting time slots and gather attendee preferences.</li>\n    <li>External attendees can respond to polls on website without needing a Microsoft 365 account.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p><p>\n</p><ul>\n<li>No action is required. The feature will be enabled by default. However, you may consider:</li>\n  <ul>\n    <li>Informing helpdesk staff about the new poll experience.</li>\n    <li>Updating internal documentation if you provide guidance on scheduling workflows.</li>\n    <li>Reviewing user training materials to include poll creation steps.</li>\n  </ul>\n</ul>\n<p><b><b>Compliance considerations:</b></b></p><p>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -4222,7 +4508,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833214Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833216Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833217Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833212Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833218Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833212Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833214Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833216Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833217Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833218Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -11632,37 +11918,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "On November 1, 2025, we are releasing an update that introduces a change for Solution entity permissions. This change enforces WRITE permissions on the Solution entity, allowing users to add or remove solution components within a solution.<br><br>\n\n<b>What action do I need to take? </b><br>\nPlease grant WRITE permissions on your Solution entity if your users are required to add or remove solution components. <br><br>\n\n<b>Why is this action needed? </b><br>\nCurrently, users with READ permissions for the Solution entity can perform CRUD operations in Dataverse with solution components. <br><br> \n\nIf no action is taken prior to November 1, 2025, solution components may not be added nor removed from the Solution entity.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-07T15:34:10Z",
-    "HasAttachments": false,
-    "Id": "MC1167434",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-07T15:37:08.053Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-07T15:34:10Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Platform – Upcoming permission enforcement for Dataverse Solutions",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated October 7, 2025: We have updated the timeline. Thank you for your patience.&nbsp; &nbsp; &nbsp;</p><p>Microsoft Purview Insider Risk Management (IRM) will be adding a new role--Data Security Investigation Contributor--to the Insider Risk Management Investigators role group. This will allow members of the Insider Risk Management Investigators role group to launch   a Data Security Investigation (DSI) from an IRM case.</p><p>DSI is a new AI-powered solution that enables data security teams to identify incident-related data, conduct deep content analysis, and mitigate risk within one unified solution. DSI enables data security admins to efficiently identify incident-relevant content by searching their Microsoft 365 data estate to locate emails, Teams messages, Copilot prompts and responses, and documents. Once the investigation is scoped, DSI’s generative AI capabilities allow admins to gain deeper insights into the impacted data, revealing critical security risks and sensitive information. Investigative capabilities include the ability to categorize evidence, perform vector searches, and examine impacted data for security and sensitive data risks. DSI visualizes correlations between investigation data, users, and their activities. To mitigate identified risks, DSI facilitates secure collaboration between partner teams. Post-investigation learnings can be used to refine existing policies to strengthen an organization's security practices.  \n</p><p>The integration between IRM and DSI allows an IRM investigator to identify when a risky user needs deeper investigation to launch a pre-scoped investigation directly from the user activity pane, allowing them to view content analysis related to that user and better assess post-incident data impact.  \n</p><p>This message is associated with roadmap ID  <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=485707\" target=\"_blank\">485707</a>.&nbsp;</p><p>\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview (Worldwide): We will begin rolling out early April 2025 and expect to complete by late April 2025.</p><p>General Availability (Worldwide): We will begin rolling out in mid-October 2025 (previously mid-July) and expect to complete by mid-December 2025 (previously mid-August).</p><p> \n</p><p><b>How this will affect your organization:</b> \n</p><p>With this update, members of the Insider Risk Management Investigators role group will be able to create Data Security Investigations from an Insider Risk Management case. Members of the Insider Risk Management Investigators role group will not be able to view the Data Security Investigation unless they are assigned the Data Security Investigation Investigator role.</p><p>\n</p><p><b>What you need to do to prepare:</b> \n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your admins about this change and update any relevant documentation.\n</p><p>Microsoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.\n</p><p>You can access the Insider Risk Management solution in the Microsoft Purview compliance portal.  \n</p><p><b><br></b></p><p><b>\n</b></p><p><b>\n</b></p><p><b>\n</b></p><p><b>\n</b></p><p><b>\n</b></p><p><b>\n</b></p><p><b>\n</b></p><p><b>\n</b></p><p><b>\n</b></p>",
       "ContentType": "html"
     },
@@ -16286,92 +16541,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated September 24, 2025: We have updated the timeline. Thank you for your patience.</p><p>Updated September 5, 2025: Access to emails by typing '/' in the prompt box will only be available when using Copilot Chat in Outlook. This applies to both the full app and side pane experience.</p><p>We're enhancing Microsoft 365 Copilot Chat with new capabilities that make it easier for users to include work content—such as files and emails—in their prompts. By typing ‘<b>/</b>’ in the prompt box, users can quickly search and reference relevant files or emails, streamlining prompt creation and improving Copilot responses. Additionally, some suggested prompts beneath the input box will now include relevant files or emails to help users get started quickly.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e6d7449f-abbc-4ee6-b2b3-0b9f4c2a127a/2f8c1d1ae924ab9dd9b1edf74689e47553383208.png\" style=\"width: 25%;\"><br></p><p>Note: For users without a Microsoft 365 Copilot license, Copilot Chat is still grounded only in the web. Users can also choose to include additional content in the prompt for Copilot to reason over, such as with the methods described above. Chat is not automatically grounded in the organization’s graph or the user’s personal graph - this is only available for users with a Microsoft 365 Copilot license when using Chat in Work scope.</p>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=500377\" target=\"_blank\">500377</a>.</p><p><b>When this will happen:</b></p>\n<ul>\n<li><b>Files:</b> Currently available (Roadmap ID 497112)</li>\n<li><b>Emails:</b>&nbsp;Rollout begins early October 2025 (previously mid-September) and completes by late October 2025 (previously late September).  Roadmap ID 500377.</li>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<p>This update improves usability and prompt relevance in Copilot Chat by allowing users to reference files and emails in their prompts (without uploading them manually) or as part of suggested prompts under the input box. Users will only see content they have access to, based on interaction signals (such as accessed, modified, or shared) and properties (such as creation or last update date).</p>\n<p>No changes to default settings or user permissions are required.</p>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n</ul><p>No admin action is required. You may want to inform your users about the new reference capabilities.</p><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/en-us/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\" target=\"_blank\">Using Context IQ to refer to specific files, people, and more in Microsoft 365 Copilot and Copilot Chat</a></p><p><b>Compliance considerations</b></p><p></p><table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<tbody><tr><th>Consideration</th><th>Explanation</th></tr>\n<tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes, users can now access specific data types (files, emails) they have permission to view directly from Copilot Chat by typing '/' in the prompt box.</td></tr>\n<tr><td><a href=\"https://support.microsoft.com/en-us/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0\"></a>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes, users can now more easily include specific data types (files, emails) in their prompts, improving grounding and relevance of Copilot responses.</td></tr>\n</tbody></table>\n\n\n\n\n\n\n\n\n\n\n\n<p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "500377"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot Chat now lets users include files and emails in prompts by typing '/' in the prompt box, enhancing relevance and usability. Email access in Outlook starts rolling out in October 2025. No admin action is needed; users see only content they have permission to access."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Web"
-      }
-    ],
-    "EndDateTime": "2025-11-17T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1139489",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-24T16:46:20Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-22T00:06:34Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot Chat: New ways to include files and emails in prompts",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 24, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Beginning mid-August 2025, we're introducing a new Tools feature in the Copilot Chat prompt box. Tools acts as a lightweight entry point into high-value, task-specific Copilot features and capabilities directly from the prompt box. By selecting Tools, users get a menu where they can easily discover and trigger the right Copilot feature or capability for their current task, while also providing consistent interactions across tools. Based on the user's license, Tools provides easy access to features and capabilities like Researcher, Analyst, Pages, and image generation.</p><p>This message is associated with Microsoft 365 Roadmap <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497298\" target=\"_blank\">497298</a>.</p><p><b>When this will happen</b><br></p><p>General Availability (Worldwide): We will begin rollout late September 2025 (previously mid-September) and expect to complete by mid-October 2025 (previously late September).</p><p><b>How this affects your organization</b></p><p>Once this update is rolled out, users will see a new Tools button in the Copilot Chat prompt box. Selecting this button opens a menu of AI-powered features tailored to the user’s license. This enhancement improves discoverability and usability of Copilot capabilities, helping users complete tasks more efficiently.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5d805de7-b16b-48ae-92e7-afc0df17e66c  \" width=\"400\" height=\"\"></p><p>This feature is on by default and does not require admin configuration.</p><p><b>What you can do to prepare</b><br></p><p>No admin action is required. However, you may want to:</p><ul><li>Inform users about the new Tools experience in Copilot Chat.</li><li>Update internal documentation or training materials if needed.</li></ul><ul></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting late September 2025, Microsoft Copilot Chat will feature a new Tools button offering easy access to task-specific AI capabilities based on user licenses. This improves feature discoverability and usability, requires no admin setup, and will complete rollout by mid-October 2025."
-      }
-    ],
-    "EndDateTime": "2025-11-24T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1122153",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-24T16:01:00.137Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-25T22:32:28Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "New Tools feature coming to the Microsoft Copilot Chat prompt box",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing support for the newest version of Adaptive Cards in Copilot Studio. This functionality will reach general availability on October 31, 2025.<br><br><b>How does this affect me?</b><br>With support for the latest version of Adaptive Cards, makers in Copilot Studio will have access to new features such as carousels, charts, and advanced layouts. These enhancements enable the creation of rich, in-context experiences within agents. The new capabilities will be supported in both Teams and Microsoft 365 channels.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.",
       "ContentType": "html"
     },
@@ -17000,52 +17169,6 @@
       "User impact"
     ],
     "Title": "Microsoft Viva Amplify and SharePoint News: Videos will play in Microsoft Outlook instead of web browser",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 19, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon for Microsoft Teams: A new setting that allows users to view incoming calls in a small window in Teams to prevent disruptions. Users will be able to take a call in the small window and continue to see what they were working on before the call.</p><p>This message applies to Teams on Windows desktop, Teams on Mac desktop, Teams for the web, and Teams for iOS/Android.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=482747\" target=\"_blank\">482747</a>.</p><p><b>When this will happen:</b></p><p>Targeted Release: We will begin rolling out early May 2025 and expect to complete by mid-May 2025.</p><p>General Availability (Worldwide): We will begin rolling out mid-May 2025 and expect to complete by late May 2025.\n</p><p>General Availability (GCC): We will begin rolling out early June 2025 and expect to complete by mid-June 2025.</p><p></p><p>General Availability: (GCC High, DoD): We will begin rolling out early June 2025 and expect to complete by early October 2025.</p><p><b>How this will affect your organization:</b></p><p>Before this rollout: Teams users are disrupted by the larger Teams screen when viewing an incoming call.</p><p>After this rollout: Teams users can turn on this setting to view calls in a small window. Note that both large and small windows are resizable:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b4e236c2-758f-46e9-a1bb-7a6c2a8284ea\" style=\"width: 400px;\" alt=\"user settings\">\n</p><p>This feature will be on by default.</p><p><b>What you need to do to prepare:</b> </p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "482747"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will introduce a default setting allowing users to view incoming calls in a small, resizable window to reduce disruption. Rollout begins May 2025 for most users, with GCC and DoD completing by October 2025. No admin action is needed, but user notification is recommended."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2025-11-10T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1045221",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-19T20:11:50.987Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-03-31T22:38:16Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: New user setting to view incoming calls in a small window",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -19192,7 +19315,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958227Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.595823Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958234Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-06-05T06:19:54.5958241Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
