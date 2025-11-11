@@ -1,0 +1,38 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>Updated November 10, 2025: We have updated the content. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>We’re introducing a set of enhancements to <b>Channel Agent</b>, a Copilot-powered assistant in Microsoft Teams channels that helps users manage tasks, generate reports, and collaborate more effectively using natural language. These updates improve how users interact with generative AI for project management and localization. Channel Agent now supports file-based grounding from Channel SharePoint and smarter task handling — making it more intuitive and responsive across diverse work scenarios.</p><p>This&nbsp;message applies to Teams for Windows desktop, Teams for Mac desktop, Teams for the web, and Teams for iOS/Android.</p><p><b><b>When this will happen:</b></b></p>\n<p><b>Targeted Release:</b> Rollout begins&nbsp;<b>mid-November 2025</b>; expected to complete by late December 2025.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li><b>Users with Microsoft 365 Copilot licenses </b>and&nbsp;permissions to create Channel Agents in Microsoft Teams.</li>\n<li>Admins managing Teams channels and app configurations.</li>\n</ul>\n<p><b>What will happen:</b></p>\n\n<ul>\n<li><b>Files as Grounding:&nbsp;</b>Channel Agent will now be able to use files from the Channel SharePoint to respond to user queries.</li><p><img src=\" https://cxcs.microsoft.net/file/ccp/en-us/a651c2da-7810-4e65-9f76-b1077913e981\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li><b>Status Report Skill Updates:&nbsp;</b>Users can at-mention the agent with queries like “create a status report.” Reports will post directly in the channel. Users can cancel recurring reports in “Status Report settings.”</li><p><img src=\" https://cxcs.microsoft.net/file/ccp/en-us/cd9a1cb8-571f-40fc-998b-88df73fc9e07\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li><b>Workback Plan:&nbsp;</b>Share your objective and deadline with Channel Agent to generate a sequenced task list. You can review and adjust before tasks are added to Planner.</li><p><img src=\" https://cxcs.microsoft.net/file/ccp/en-us/1367a1a7-6b09-42a5-93c3-1c0ad42cd9a3\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li><b>GitHub MCP Skill:&nbsp;</b>Channel Agent now supports GitHub MCP integration.</li>\n<li><b>Agent Settings:&nbsp;</b>Admins can disable agent auto-creation via Teams Admin Center (App Details page).</li>\n<li><b>Localization:&nbsp;</b>Channel Agent supports 25+ languages and responds in the language used to prompt it.</li>\n<li><b>Smarter Task Updates:&nbsp;</b>Bulk task updates, task title editing, and context-aware references are now supported.</li>\n<li><b>Limitations:&nbsp;</b><ul><li>Channel Agent uses the files in the Channel SharePoint as grounding information. When doing this, they check the access of the user prompting the agent and provide the user the option to share the response with others in chats / channels that may not have access. \n</li><li>Channel Agent uses sensitivity labeled information to answer user questions, including the files in the Channel SharePoint, Channel messages and meetings, and standard meetings. Channel Agent will visually indicate the sensitivity label above its response message; however, the output does not inherit the controls of the sensitivity label itself and does not prevent the information from being shared further without any sensitivity label indicator.&nbsp;</li></ul></li>\n</ul>\n\n\n<p><b><b>What you can do to prepare:</b></b></p><p>This rollout will happen automatically by the specified date with <b>no admin action required before the rollout</b>.</p>\n<p>However, we recommend the following:</p>\n<ul>\n<li>Review your current Channel Agent configuration to determine the impact for your organization.</li>\n<li>Notify users about changes to status report behavior.</li>\n<li>Update any relevant internal documentation to reflect new features and agent settings.</li>\n<li>To create Channel Agent, a user must:\n  <ul>\n    <li>Be <b>Copilot licensed</b></li>\n    <li>Have the necessary <b>admin permissions</b></li>\n    <li>Be an <b>owner of the channel</b> or have permissions to <b>add/remove apps</b> in the channel</li>\n  </ul>\n</li>\n<li>To disable agent auto-creation, use the toggle in Teams Admin Center (path: <b>App Details</b> &gt; <b>Channel Agent</b>).</li>\n<li>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/set-up-channel-agent-teams\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Set up Channel Agent in Microsoft Teams</a></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n\n<table border=\"1\">\n<tbody><tr><th>Compliance Question</th><th>Explanation</th></tr>\n<tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>We are adding additional grounding on Files in Teams Channel SharePoint.</td></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>We are adding grounding on Teams Channel SharePoint files.</td></tr>\n<tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Users can now interact with Channel Agent to generate status reports, workback plans, and schedule meetings using natural language prompts.</td></tr>\n</tbody></table>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "Microsoft Teams' Channel Agent, a Copilot-powered assistant, is updated to support file-based grounding from Channel SharePoint, enhanced task and report management, GitHub MCP integration, and multilingual support. Rollout starts mid-November 2025, requiring no admin action but allowing admin control over agent auto-creation."
+    }
+  ],
+  "EndDateTime": "2026-02-02T08:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1184429",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-11-10T22:03:41.89Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-11-10T18:07:51Z",
+  "Tags": [
+    "Updated message",
+    "New feature",
+    "User impact"
+  ],
+  "Title": "Microsoft Teams: Channel Agent Feature Updates",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
