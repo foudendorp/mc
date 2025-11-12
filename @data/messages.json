@@ -4,21 +4,502 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p></p><p>Microsoft 365 Copilot is introducing <b>support for connected agents</b>, allowing one agent to query another for additional context or data. For example, the Researcher agent may request sales or inventory data from other enterprise software agents. This enhancement helps agents deliver more comprehensive and informed responses.</p>\n\n<b><b>When this will happen:</b></b>\n<ul>\n<li><b>Public Preview:</b>&nbsp;We will begin rolling out in mid-November 2025 and expect to complete by late February 2026.</li><li><b>General Availability (Worldwide)</b>: We will begin rolling out in mid-November 2025 and expect to complete by late May 2026.</li>\n</ul>\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b>&nbsp;Admins managing Microsoft 365 Copilot agents in the <i>Microsoft 365 admin center</i>. This applies to all licenses that include Microsoft 365 Copilot Chat, including both the free and paid versions.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Agents will be able to query other agents for additional information</li>\n    <li>The Agents page in the <i>Copilot hub</i> will show which connected agents are configured</li>\n    <li>Admins can modify connected agents if allowed by the developer</li>\n    <li>Users must acquire both the primary and connected agents to use this functionality</li>\n    <li>Users will be able to enable or disable acquired agents per conversation</li>\n    <li>The first agent to support this feature is Researcher, starting Q4 2025</li>\n    <li>Up to 10 connected agents can be configured per agent:</li></ul></li></ul><p></p><p><i>Screenshot 1 - Early draft UI (experience subject to change closer to rollout):&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ff67c9c5-1913-4b76-b68c-72d6d51367b0/f67aa5d507609a9ed34c21998fd7217625e94f0a.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 2 - A second view of early draft UI (experience subject to change closer to rollout):&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d86a13b8-4020-4c63-a754-d32a29a4f754/25d9779526abf467d128f26a7c5fdbc5d4e7ec49.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p><i></i></p><p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Review the Agent inventory in the <i>Copilot hub</i> to view and manage connected agents</li>\n<li>Ensure users are allowed to acquire agents if you want them to use connected functionality</li>\n<li>Communicate this change to helpdesk staff</li>\n<li>Update internal documentation if you detail agent capabilities</li>\n<li>No changes to existing admin controls are required</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide\" target=\"_blank\">Manage Microsoft 365 Copilot Agents - Microsoft 365 admin | Microsoft Learn</a></p><ul>\n</ul>\n\n<b><b>Compliance considerations:</b></b>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<th>Question</th>\n<th>Answer</th>\n</tr>\n<tr>\n<td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td>\n<td>Yes. This change enables Microsoft 365 Copilot agents to query other agents for additional data, expanding the scope of AI-driven interactions with customer data.</td>\n</tr>\n<tr>\n<td>Does the change allow a user to enable and disable the feature themselves?</td>\n<td>Yes. Users will be able to enable or disable acquired agents per conversation, giving them control over agent behavior.</td>\n</tr>\n<tr>\n<td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td>\n<td>Yes. Admins can configure which agents are available and which connected agents are permitted. These controls respect existing agent acquisition permissions, which can be scoped using Entra ID group membership.</td>\n</tr>\n</tbody></table><p></p>",
+      "Content": "<p>Copilot is making it easier to manage scheduling conflicts by automatically rescheduling 1:1 meetings and personal events. Within the meeting event form, users can indicate which events are more flexible and allow Copilot to reschedule them if conflicts arise. Users can also set preferences for when rescheduled events should occur. Copilot will detect double-bookings and automatically move these flexible events to a better time—saving users time and reducing manual coordination.</p><p>A Microsoft Copilot license is required to utilize this functionality.</p><p>\n</p><p><b>When this will happen:</b></p><p>Targeted Release: Rollout begins mid-November 2025 and expected to complete by late November 2025.</p><p><b>How this affects your organization:</b></p><p>Copilot users will gain the ability to automatically resolve scheduling conflicts for 1:1 meetings and personal events. This feature is especially useful for users with recurring 1:1 series that do not need to occur at a specific time each week, helping automatically reschedule those meetings if a conflict arises. The feature is available for Copilot-licensed users and can be enabled through the meeting form.\n</p><p></p><p><i>Main form with new toggle control for automatic rescheduling:</i></p><p></p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5a4b6b80-b2cc-4d6b-90d1-471d9018bd24 \" width=\"400\" height=\"\"><br><p><br></p><p><i>Users can specify their rescheduling preferences (if not set, Copilot will pick intelligent defaults):</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/664b3dcd-b70d-4d7b-ba06-bf1e68b85527 \" width=\"400\" height=\"\"></p><p>This post will be updated with a link to the support article once published.</p><p><b>What you can do to prepare:</b></p><p>No admin action is required. However, you may want to:\n</p><ul><li>Inform users about this new capability and how to set their rescheduling preferences in the meeting form.\n</li><li>Review any internal guidance on calendar management or Copilot usage to ensure alignment.</li></ul><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed?\tYes – Calendar data is used to identify and reschedule events.</li><li>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?\tYes – Copilot uses AI to analyze and reschedule events.\n</li><li>Does the change provide end users any new way of interacting with generative AI?\tYes – Users interact with Copilot to manage scheduling.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Copilot can now automatically reschedule flexible 1:1 meetings and personal events based on user preferences to resolve scheduling conflicts. This feature, requiring a Copilot license, will roll out from mid to late November 2025 and helps save time by reducing manual rescheduling."
+      }
+    ],
+    "EndDateTime": "2026-02-09T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1184999",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-11-12T00:12:16.443Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-12T00:12:03Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Copilot can now automatically reschedule 1:1 meetings and personal events based on your preferences",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p></p><p><b><b>Introduction</b></b></p><p></p><p>\n</p><p>To improve discoverability and simplify configuration, we’re updating the Microsoft 365 admin center to consolidate people-related settings. As part of this update, controls for Name Pronunciation and Pronouns will be relocated to the <i>People settings</i> section under <i>Org Settings</i>. This change helps administrators manage user profile settings more efficiently.</p>\n\n<b><b>When this will happen</b></b><p></p><p>\n</p><p>General availability (Worldwide): This change will begin rolling out in late November 2025 and will complete by mid-December 2025.</p>\n\n<b><b>How this affects your organization</b></b><p></p><p>\n</p><p><b>Who is affected:</b><br>Admins managing user profile settings in the Microsoft 365 admin center.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Name Pronunciation and Pronoun settings will no longer be editable in their previous location.</li>\n<li>These controls will now be accessible under <i>People settings</i> in <i>Org Settings</i>.</li>\n<li>No new controls are introduced, and existing feature behavior remains unchanged.</li>\n<li>The update is applied automatically; no opt-in or toggle is required.</li>\n</ul>\n\n<b><b>What you can do to prepare</b></b><p></p><p>\n</p><p>No action is required to enable this change. However, we recommend:</p>\n<ul>\n<li>Informing help desk and support teams of the new settings location.</li>\n<li>Updating internal documentation or admin training materials.</li>\n</ul>\n\nHelpful resources:<p></p><ul><li>Learn about the People settings: <a href=\"https://learn.microsoft.com/en-us/microsoft-365/admin/manage/people-settings-in-microsoft-365-admin-center?view=o365-worldwide\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">Manage people data and related experinces from the microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn</a></li><li>Learn about Name pronunciation controls: <a href=\"https://learn.microsoft.com/en-gb/graph/namepronunciation-configure-namepronunciation-availability\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">Manage name pronunciation settings for an organization by using the Microsoft Graph API - Microsoft Graph | Microsoft Learn</a></li><li>Learn about Pronouns controls: <a href=\"https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/turn-pronouns-on-or-off?view=o365-worldwide\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif;\">Turn pronouns on or off for your organization in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Name Pronunciation and Pronoun controls in Microsoft 365 admin center will move to People settings under Org Settings by mid-December 2025. No new features or opt-in needed. Admins should update documentation and inform support teams about the new location."
+      }
+    ],
+    "EndDateTime": "2026-01-19T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1184998",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-12T00:11:37.34Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-12T00:11:31Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Migration of Name Pronunciation and Pronoun Controls to the People Settings Section in Org Settings",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<b><b>Introduction:</b></b>\n<p>This update introduces <b>new remediation actions</b> in <i>Microsoft Defender for O365&nbsp;</i>that <b>can be triggered directly</b> from the <b>Advanced Hunting interface</b>. These actions—previously only available in<i> Threat Explorer</i>—include “Submit to Microsoft” and “Initiate automated investigation.” This enhancement enables security teams to respond to threats more efficiently and programmatically using custom queries, aligning with customer feedback to streamline incident response workflows.</p>\n\n<b><b>When this will happen:</b></b>\n<p>General Availability (Worldwide): We began rolling out this feature on November 10, 2025.</p>\n\n<b><b>How this affects your organization:</b></b>\n<p><i>Who is affected:</i></p>\n<ul>\n<li>Admins and Security Analysts using Microsoft Defender XDR and Advanced Hunting.</li>\n</ul>\n<p><i>What will happen:</i></p>\n<ul>\n<li>New actions will be available directly from Advanced Hunting results:\n  <ul>\n    <li>Submit to Microsoft</li>\n    <li>Add entries to Tenant allow/block list</li>\n    <li>Initiate automated investigation</li>\n  </ul>\n</li>\n<li>These actions are <b>enabled automatically</b> and <b>available by default</b>; they cannot be removed from the user interface.</li>\n<li>Existing admin policies are respected; no policy changes are required.</li>\n<li>Threat Explorer will continue to be available; both interfaces will coexist.</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Review and update existing hunting queries and playbooks to incorporate new actions.</li>\n<li>Communicate the change to SOC teams and relevant stakeholders.</li>\n<li>Provide training or documentation as needed.</li>\n<li>If you want to scope access to these actions, use role-based access control (RBAC) in <i>Microsoft Defender XDR</i>.<ul><li><b>Click path:</b> <b><i>Microsoft 365 Defender portal &gt; Settings &gt; Permissions &gt; Roles</i></b></li></ul></li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/defender-xdr/advanced-hunting-take-action\" target=\"_blank\">Take action on advanced hunting query results in Microsoft Defender XDR - Microsoft Defender XDR | Microsoft Learn</a></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
     "Category": "stayInformed",
     "Details": [
       {
         "Name": "Summary",
-        "Value": "Microsoft 365 Copilot will support connected agents, allowing one agent (e.g., Researcher) to query others for data, enhancing responses. Rolling out from mid-November 2025 to May 2026, admins can manage connected agents in the Copilot hub, with user control per conversation and compliance controls in place."
+        "Value": "Microsoft Defender for O365 now allows triggering new remediation actions—Submit to Microsoft, add to allow/block list, and initiate automated investigation—directly from the Advanced Hunting interface. This feature, rolled out since November 10, 2025, is enabled by default and supports improved threat response without policy changes."
       }
     ],
-    "EndDateTime": "2026-06-30T07:00:00Z",
+    "EndDateTime": "2025-12-10T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1184997",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-12T00:11:12.14Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-12T00:11:07Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Defender for O365: New email actions available in Advanced Hunting",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2026-03-30T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>As part of ongoing service modernization, Microsoft has migrated the hosting of SharePoint Online static assets to the Microsoft Azure Front Door (AFD) content delivery network (CDN), using the new domain <b>public-cdn.sharepointonline.com</b>. This migration was previously announced in MC1066155 and completed in July 2025.<p></p>\n\n<p>This message is a follow-up notice to retire the legacy CDN domain <b>publiccdn.sharepointonline.com</b>. After this rollout completes, content referenced via the legacy domain will no longer be accessible, and users will receive 404 errors when trying to access resources hosted on the legacy domain.</p><p></p>\n\n<p><b><b>When this will happen:</b></b></p>\n<b>General Availability (Worldwide):</b> Rollout begins March 31, 2026, and completes by late April 2026.<br><p></p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<b>Who is affected:</b>\n<p></p><ul>\n<li>Organizations using SharePoint Online with applications, scripts, or configurations that hardcode the legacy CDN domain.</li>\n<li>Developers using SharePoint Framework (SPFx) with hardcoded <code>cdnBasePath</code> values.</li>\n<li>Admins who have configured domain-based allow lists in their network settings.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>The legacy domain <b>publiccdn.sharepointonline.com</b> will be retired.</li>\n<li>Any content referenced via the legacy domain will return <b>404 errors</b>.</li>\n<li>The same resources remain available through the new CDN domain <b>public-cdn.sharepointonline.com</b>.</li>\n<li>The legacy domain previously served as an automatic hosting endpoint for SharePoint resources.</li>\n<li>The 404 error does <b>not indicate data loss</b>—only the access path is affected.</li>\n<li>Hardcoded references to the legacy domain will fail once the domain is retired.</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p></p><ul>\n<li>Review your applications, scripts, and configurations for any hardcoded references to <b>publiccdn.sharepointonline.com</b>.</li>\n<li>Update affected components to use supported and dynamic endpoints to ensure continued functionality.</li>\n<li>For SPFx applications:\n  <ul>\n    <li>If using an external CDN, it’s fine to update the <code>cdnBasePath</code>.</li>\n    <li>If relying on automatic hosting through the Microsoft 365 Public CDN, <b>do not hardcode </b><code style=\"\">cdnBasePath</code>—leave it unchanged, shown in the code snippet box below. For more details, refer to <a href=\"https://learn.microsoft.com/sharepoint/dev/spfx/extensions/get-started/hosting-extension-from-office365-cdn#update-your-solution-project-for-the-cdn-urls\" target=\"_blank\">Update your solution project for the CDN URLs</a>.</li></ul></li><p></p>\n\n<pre><code>{\n  \"cdnBasePath\": \"&lt;!-- PATH TO CDN --&gt;\"\n}</code></pre><li>Ensure <b>public-cdn.sharepointonline.com</b> is included in your domain-based allow lists.</li>\n<li>Validate your updates before <b>March 31, 2026</b> to prevent potential service disruptions.</li>\n<li>Monitor network traffic and optionally block requests to the legacy domain to confirm that content hosted through the CDN continues to function properly.</li>\n<li>Learn more: <a href=\"https://learn.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview\" target=\"_blank\">Overview of the SharePoint Framework</a></li></ul>\n\n<p></p>\n\n<p><b><b>Compliance considerations</b></b></p>No compliance considerations identified, review as appropriate for your organization.<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The legacy SharePoint Online CDN domain publiccdn.sharepointonline.com will be retired by late April 2026. Update all hardcoded references to the new domain public-cdn.sharepointonline.com to avoid 404 errors. Validate changes before March 31, 2026, to ensure uninterrupted access to SharePoint resources."
+      }
+    ],
+    "EndDateTime": "2026-05-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1184996",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-12T00:10:42.653Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-12T00:10:11Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Legacy SharePoint Online Content Delivery Network (CDN) domain to be retired—review configurations",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>To support frontline workers using personal devices, Microsoft is introducing a dynamic <b>onboarding wizard for Microsoft Teams</b>. This experience is designed to simplify setup on Android and iOS devices, especially in environments with security policies like <b>multi-factor authentication (MFA)</b> and mobile application management. The wizard adapts automatically to your organization’s policies, helping drive secure and efficient <b>Bring Your Own Device (BYOD)</b> adoption.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=523213\" target=\"_blank\">523213</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview:&nbsp;</b>Rollout begins in late November and is and expected to complete by mid-January\n</li><li><b>General Availability:&nbsp;</b>Rollout begins in late January and is and expected to complete by end of January 2026</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b>&nbsp;Frontline workers setting up Microsoft Teams on personal Android or iOS devices</li>\n<li><b>What will happen:</b>\n<ul>\n<li>A new onboarding wizard will be available via web, optimized for desktop kiosks or shared PCs</li>\n<li>The wizard dynamically adjusts based on your organization’s security policies</li>\n<li>Supports MFA setup, with emphasis on Microsoft Authenticator push notifications</li>\n<li>This tool is optional and designed to improve BYOD Microsoft Teams adoption</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review the admin documentation to understand the onboarding wizard’s capabilities and limitations</li>\n<li>Consider integrating the wizard into your new user onboarding workflows</li>\n<li>Communicate availability to helpdesk and frontline managers</li>\n<li>Update internal documentation if you support BYOD Microsoft Teams deployment</li></ul><p>Before rollout, we will update this post with new documentation.</p><ul>\n</ul><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "523213"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is introducing a dynamic onboarding wizard for frontline workers using personal Android or iOS devices to set up Microsoft Teams securely with MFA and mobile app management. Public preview starts late November, general availability by January 2026. The tool is optional and adapts to organizational policies."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-03-02T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1184994",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-12T00:09:44.22Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-12T00:09:33Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams frontline BYOD onboarding wizard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft has paused new customer onboarding for calendar sync between Google Workspace and Microsoft Teams. We will update this message <a href=\"https://learn.microsoft.com/microsoftteams/setup-calendar-syncing-with-google-workspace\" target=\"_blank\">and our help documentation</a> when we have more information.</p><p><b><b>When this will happen:</b></b></p>\n<p>Effective immediately.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n  <li><b>Who is affected:</b> Organizations that have not yet completed calendar sync setup between Google Workspace and Microsoft Teams.</li>\n  <li><b>What will happen:</b>\n    <ul>\n      <li>Existing calendar sync setups will continue to function and be supported.</li>\n      <li>Organizations that have not interacted with the sync setup in the last 30 days will be unable to initiate new sync configurations.</li>\n      <li>New onboarding for calendar sync is paused until further notice.</li>\n    </ul>\n  </li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul><li>No action is required at this time. </li><li>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/setup-calendar-syncing-with-google-workspace\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Set up calendar syncing between Google Workspace and Microsoft Teams for your business</a></li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft has paused new customer onboarding for calendar sync between Google Workspace and Microsoft Teams effective immediately. Existing setups continue to work, but new sync configurations cannot be initiated by organizations inactive in setup for 30 days. No action is currently required."
+      }
+    ],
+    "EndDateTime": "2025-12-19T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1184993",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-12T00:09:01.4Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-12T00:08:56Z",
+    "Tags": [
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New customer onboarding for Google and Microsoft Teams calendar sync paused",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re improving the panel which shows your <b>Activity in other accounts and orgs </b>in Microsoft Teams to streamline how users triage and respond to cross‑tenant activity. This update reduces the need to switch tenants, helping users stay in context and collaborate more efficiently across organizations.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b style=\"\">Targeted Release:</b> Begins rolling out November 16, 2025; expected to complete by November 20, 2025.</li>\n<li><b>General Availability (Worldwide):</b> Begins rolling out late January 2026; expected to complete by late February 2026.</li>\n<li><b>General Availability (GCC, GCC High):</b> Begins rolling out early February 2026; expected to complete by late February 2026.</li>\n<li><b>General Availability (DoD):</b> Begins rolling out mid-February 2026; expected to complete by mid-March 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> All Microsoft Teams users with multi‑tenant, multi‑account configurations.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Users gain an improved centralized panel for viewing cross‑organization and cross-account activity notifications, eliminating the need to manually switch organizations or accounts to check notification and activity details. This improves responsiveness and reduces context switching.</li>\n    <li>The entry point for the panel that shows <b>Activity in other accounts and orgs</b> will move from the top-right corner to the bottom-left sidebar in Teams. The entry point icon will appear only when you have more than one account or tenant available to you.&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/4e11fa3e-e014-4b00-ad95-0c7da962b590\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <li>The entry point icon will display a count of total missed cross‑org and cross‑account activity notifications. </li><li>Selecting the icon will open a panel which will show missed activity notifications across all orgs and accounts, grouped by each tenant. If there is no missed activity in a tenant, it will not appear in the panel.</li>\n    <li>Selecting an activity inside the panel opens it in a child window, preserving the context in the main window.</li>\n    <li>Users can pin up to 3 tenants to the sidebar to stay updated. Pinned tenants remain in the sidebar even if there is no missed activity.</li><li>Selecting a pinned tenant shows a panel with missed activity notifications from that tenant only. Notifications from pinned tenants do not appear in the main panel for activity in other accounts and orgs.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/af34c894-090b-4cf4-ac54-1da29e51990e\" style=\"width: 150px;\" alt=\"user settings\"></p>\n    <li>The feature is enabled by default for tenants where multi‑tenant or multi-accounts are supported and available.</li>\n    <li>No admin configuration is required, the updated panel respects existing tenant and account policies.</li></ul></li></ul><p>Before rollout, we will update this post with new documentation.</p><p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Communicate this change to users, including the new location of the <b>Activity in other accounts and orgs panel</b> and the ability to pin tenants to the sidebar.</li>\n<li>Monitor adoption and gather feedback for future iterations.</li>\n<li>No admin action is required for rollout.</li>\n</ul>\n<p><b>Known issue:</b> Cross-cloud notifications do not appear in the <b>Activity in other accounts and orgs panel</b> at this time. This capability is actively being worked on and is expected to be available by the end of November 2025.</p>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is enhancing the \"Activity in other accounts and orgs\" panel to centralize cross-tenant notifications, reduce context switching, and allow pinning up to three tenants. The panel moves to the bottom-left sidebar, activates by default, requires no admin setup, and rolls out from November 2025 to March 2026."
+      }
+    ],
+    "EndDateTime": "2026-04-20T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1184992",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-11-12T00:08:31.63Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-12T00:08:16Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Improvements to \"Activity in other accounts and orgs panel\"",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 11, 2025: We are updating this post to serve as a reminder of this change.&nbsp;</p><p>We are dedicated to providing our customers with the tools they need to achieve what matters, in their work and life. In order to focus on new benefits, we occasionally remove features and products.</p><p>In October 2026, Microsoft Publisher will reach its end of life. After that time, it will no longer be included in Microsoft 365 and existing on-premises suites will no longer be supported. Until then, support for Publisher will continue and users can expect the same experience as today.\n</p><p>As we look ahead to the retirement of Microsoft Publisher, we are exploring modern ways to achieve other common Publisher scenarios across applications like Microsoft Word, PowerPoint, and Designer.  We will update as we have more to share.&nbsp;&nbsp;</p><p><b>When this will happen:</b></p><p>October 13, 2026</p><p><b>How this will affect your organization:</b></p><p>You can continue to use Publisher with its current functionality until October 2026. \n</p><p>Support for the perpetual version of Publisher will end in October 2026, when Office LTSC 2021 reaches end of support. Microsoft 365 customers will not be able to access Publisher from that date forward. \n</p><p><b>What you need to do to prepare:</b><br></p><p>No action is required at this time. This notice is to allow you sufficient time to plan. We will share additional updates as the date approaches.\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Publisher will no longer be supported after October 2026. Users can continue to use it with its current functionality until then. Support for the perpetual version of Publisher will end in October 2026. No action is required at this time, but Microsoft is exploring modern ways to achieve common Publisher scenarios across other applications."
+      }
+    ],
+    "EndDateTime": "2026-11-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC716267",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-11-11T21:18:27.153Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-02-15T17:12:22Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Microsoft Publisher will no longer be supported after October 2026",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 11, 2025: Based on customer feedback we have decided not to proceed with this change. Thank you for your feedback.</p><p>Beginning mid-August 2025, the New Outlook for Mac will become the default experience for users in the Current Channel (version 16.100 and later). As part of this change, the admin preference key EnableNewOutlook—which previously allowed control over the default toggle state—will be retired. Users will no longer be able to switch back to Legacy Outlook starting with version 16.102 in mid-October 2025.</p><p>This update reflects our commitment to delivering a modern, performant, and reliable Outlook experience.\n</p><p><b>When this will happen:</b></p><ul><li>Legacy Outlook toggle admin perference i.e. EnableNewOutlook retired: Mid-August 2025 (version 16.100 and later)</li><li>Users can no longer switch to legacy Outlook: Mid-October (version 16.102 and later)</li></ul><p><b>How this affects your organization:</b></p><ul><li>The New Outlook for Mac will be the default experience for all users in the Current Channel.</li><li>The EnableNewOutlook admin configuration key will no longer be honored in configuration profiles.\n</li></ul><p>The New Outlook is built on Microsoft’s modern sync technology and offers:\n</p><ul><li>Improved performance and reliability\n</li><li>Enhanced support for modern collaboration features\n</li><li>A consistent cross-platform experience\n</li></ul><p>It also supports key enterprise capabilities including:\n</p><ul><li>On-premises support\n</li><li>Online Archive\n</li><li>Shared Mailboxes and Calendars\n</li><li>Delegation\n</li></ul><p>Some features not yet available in New Outlook include:\n</p><ul><li>AppleScript\n</li><li>Import/Export\n</li><li>Public Folders\n</li></ul><p>For the latest feature availability, please refer to the <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=Outlook%2CMac\" target=\"_blank\">Microsoft 365 Roadmap</a>.\n</p><p><b>What you can do to prepare:</b></p><ul><li>Notify users that New Outlook will become the default.</li><li>Update training materials and internal documentation to reflect the new experience.\n</li><li>For questions or support, users can go to Help &gt; Contact Support in Outlook for Mac.\n</li><li>For tenant-level questions or to tailor communications, please use your Message Center submission workflow or contact your Microsoft account team.\n</li></ul><p>More information: <a href=\"https://support.microsoft.com/en-us/office/end-of-support-for-legacy-outlook-for-mac-7b9cf644-7035-4345-a151-8c1c7a65ac25\" target=\"_blank\">End of support for legacy Outlook for Mac</a></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Updated November 11, 2025: Based on customer feedback we have decided not to proceed with this change. Thank you for your feedback."
+      }
+    ],
+    "EndDateTime": "2025-11-13T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1098932",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-11T20:53:07.677Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-19T22:59:04Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Microsoft Outlook for Mac desktop: Retiring the admin preference to switch to legacy Outlook",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 11, 2025: We have updated the content and the images below. Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>Starting February 2026, we will introduce<b> jailbreak and root detection for Entra credentials</b> in the <i>Microsoft Authenticator app</i> on both <i>iOS and Android platforms</i>. This change enhances security by preventing Entra credentials from functioning on jailbroken/rooted devices. All existing Entra credentials on jailbroken or rooted devices will be wiped to protect your organization. This capability is secure by default and does not require any admin configuration or control.</p>\n\n<p><b><b>When this will happen</b></b>&nbsp;</p><p>General Availability (Worldwide) rollout begins in <b>February 2026</b> and is expected to complete in April 2026.</p>\n\n<p><b><b>How this affects your organization</b></b>\n</p><p><i>Who is affected: </i>All users of Microsoft Authenticator on<i> iOS and Android</i> whose Entra credentials are registered on jailbroken or rooted device. This is going to be a continuous check.</p><p><i>What will happen:\n</i></p><ul>\n<li>The feature is secure by default and enabled to all customers. There is no opt-out capability..</li>\n<li>Users on jailbroken or rooted devices will experience the following phased rollout. An estimated gap between 3 phases is ~ 1 month.<ul>\n    <li><b>Phase 1 – Warning Mode:</b> Users receive a warning that their device is jailbroken or rooted and will be blocked in the future (<i>screenshots 1-4):&nbsp;</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/beb8f151-0fec-4850-ba0f-635d0701e29b/93b5053c2bbedfdc6446212f216d768d28143b6c.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d66f573f-63a2-406d-80bc-5e6efca344c2/64e2a62f447ae5bc37f9cd3b102b5738eedca612.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/56d6c73c-0f2d-4358-bd84-8535d666d72a/a7787e5b4e617f42f5fc518c7275e784778ce814.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f853851c-5d82-42d4-919f-f58e71ed6392/68125f0701653c908b1dcb0fb298129e341653be.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p>\n    <li><b>Phase 2 – Blocking Mode:</b> Users are blocked from registering Entra credentials or signing in via Authenticat<i>or (screenshots 5-8):</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1a9e9851-03bf-417f-a856-61d7a737b1e5/d693be8dfa550579dc6cc2671d89626ca047b298.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1f63dbab-8c29-4ba5-a9cb-e0e818410144/3027e5d18ee8e34de4bebcec47dc1cfe95f464fe.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/868444c5-e822-4222-8070-58b404e93ec8/3eca2b6c8cba03b0f6b4f5b044bb957c77042387.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a18d8d9b-865f-4538-ae4d-1109c5fae208/0630acfe5cc3ffe59b682534a8655889ee9730a7.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <li><b>Phase 3 – Wipe Mode:</b> Existing Entra credentials are wiped from jailbroken or rooted dev<i>ices (screenshots 9-11):</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9e527487-28a9-4845-b606-627ff7b02ffd/adcf9c5a4b9a13cab64eb896df72d5ba757f37b7.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/3bff0720-5bb2-4143-9863-516e5d043308/32869666bfd397a6062b056ec37562bd8681ca49.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/71630251-2343-41df-af14-d37f93d0cfad/fe9d8fe9edac55284409a8680ef2e9b2d8285a0b.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  </ul>\n</li>\n<li>Users on non-Jailbroken or non-rooted devices will not be affected.</li></ul><ul>\n</ul><p></p>\n\n<p><b><b>What you can do to prepare</b></b>\n</p><ul>\n<li>Notify users about this upcoming change. Users will see error messages or banners in the Authenticator app during warning or blocking phases. These screens are dismissible but indicate the device status.</li>\n<li>Communicate to helpdesk staff that Authenticator will become unusable for Entra accounts on jailbroken or rooted devices.</li>\n<li>Update internal documentation if you reference Authenticator usage.</li>\n<li>No admin action is required to enable or configure this feature.</li>\n</ul><p></p>\n\n<p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/account-billing/about-microsoft-authenticator-9783c865-0308-42fb-a519-8cf666fe0acc\" target=\"_blank\">About Microsoft Authenticator | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting February 2026, Microsoft Authenticator will detect jailbroken/rooted devices on iOS and Android, blocking and eventually wiping Entra credentials on such devices in a phased rollout through April 2026. This security feature is automatic, affects only compromised devices, and requires no admin configuration."
+      }
+    ],
+    "EndDateTime": "2026-05-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1179154",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-11T20:33:49.75Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T22:08:24Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Authenticator app: Upcoming changes to jailbreak and root detection",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 11, 2025: This capability has been cancelled for now. We recognize its importance and plan to reintroduce it as part of upcoming Copilot enhancements in PowerPoint at a later time. No admin action needed.</p><p><b>Introduction</b></p><p>We’re introducing the ability to reference a PDF file when creating a slide using Copilot in PowerPoint. This enhancement enables users to extract and reuse content from cloud-stored PDFs, streamlining slide creation and improving productivity.</p><p>This feature is associated with Microsoft 365 Roadmap IDs <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=497536\" target=\"_blank\">497536</a>,&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497540\" target=\"_blank\">497540</a>, and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=497541\" target=\"_blank\">497541</a>.&nbsp;</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide):</b>&nbsp;This capability has been cancelled for now.&nbsp;</p><p><b>How this will affect your organization</b></p><p>With this update, users can reference PDF files stored in OneDrive or SharePoint when using the<b> “New Slide with Copilot” </b>button in PowerPoint or the <b>“Add a slide” </b>option from the Copilot pane. Copilot will access the entire PDF file (text-based only) to generate slide content.\n</p><p>Key details:\n</p><ul><li><b>Supported files:</b> Text-based PDFs stored in OneDrive or SharePoint. Password-protected or scanned/image-based PDFs are not supported.\n</li><li><b>File size: </b>Recommended maximum size is 24MB for optimal performance.\n</li><li><b>Platform support: </b>Available across PowerPoint for Windows, Mac, and Web.\n</li><li><b>Prompting guidance: </b>Users can click the paperclip icon or use the backslash (\\) to reference a file. For large files, including the topic of interest in the prompt improves results.\n</li><li><b>Licensing:</b> Requires the Microsoft 365 Copilot add-on ($30/user/month). Not available with Copilot included in Microsoft 365 SKUs alone.\n</li><li><b>Availability: </b>This feature is available to tenants with Copilot enabled. There are no admin controls to enable or disable it.\n</li><li><b>User control: </b>Users can choose to keep or delete Copilot-generated slides.\n</li><li><b>Telemetry: </b>Usage of this feature is tracked.\n</li></ul><p>This feature does not remove or alter any existing functionality. It is being added to the existing “New Slide with Copilot” experience.</p><p><b>What you need to do to prepare</b></p><ul><li>Inform your users about this new capability.\n</li><li>Encourage them to explore how referencing PDFs can help them create slides more efficiently.\n</li><li>No admin action is required for this update.</li></ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/topic/add-a-slide-from-a-file-with-copilot-in-powerpoint-9034b581-38df-46be-a725-986cbbd4b5d4\" target=\"_blank\">Add a slide from a file with Copilot in PowerPoint</a></p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "497536,497540,497541"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The ability to reference PDF files when creating slides with Microsoft 365 Copilot in PowerPoint has been cancelled for now but will return in future updates. It supported text-based PDFs from OneDrive or SharePoint, required a Copilot add-on, and needed no admin action."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web, Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-12-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1130390",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-11T20:10:56.643Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-06T23:33:17Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft 365 Copilot | Reference a PDF file when creating a slide with PowerPoint",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 11, 2025: This capability has been cancelled for now. We recognize its importance and plan to reintroduce it as part of upcoming Copilot enhancements in PowerPoint at a later time. No admin action needed.</p><p>We’re introducing a new capability in Microsoft 365 Copilot for PowerPoint that allows users to reference Excel files when creating a slide. This enhancement helps users seamlessly reuse data from Excel to generate more informative and data-driven presentations.</p><p>This message is associated with Microsoft 365 Roadmap IDs <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=497537\" target=\"_blank\">497537</a>,&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497538\" target=\"_blank\">497538</a>, and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=497539\" target=\"_blank\">497539</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>This capability has been cancelled for now.</p><p><b>How this will affect your organization</b></p><p>With this update, users can now reference an Excel file when selecting <b>\"<i>New Slide with Copilot\"</i></b>&nbsp;from the PowerPoint ribbon or <b>\"<i>Add a slide\"</i></b>&nbsp;from the Copilot button above the slide. This enables more efficient content creation by leveraging existing Excel data directly within PowerPoint.</p><p>Key details:\n</p><ul><li>Users can reference <b>one Excel file at a time </b>when creating a slide.\n</li><li>The Excel file must be stored in <b>OneDrive or SharePoint.</b></li><li>Recommended file size for optimal performance is <b>24MB</b>.</li><li>Users can include a topic in their prompt to focus the slide content.\n</li><li>Copilot can generate slides that include <b>charts or tables</b> based on the Excel data.</li><li>This feature is available on <b>web</b>, <b>Win32</b>, and <b>Mac</b> platforms. There are <b>no browser-specific limitations</b>.</li></ul><p>This feature is <b>on by default</b> and does <b>not require admin configuration</b>.</p><p><b>What you need to do to prepare</b></p><ul><li>This feature requires the <b>Microsoft 365 Copilot add-on license</b>. It is not included in standard Microsoft 365 SKUs (e.g., E3/E5).\n</li><li>Available only to tenants with Microsoft 365 E3/E5 <b>plus the Copilot license</b>.\n</li><li>There are <b>no admin controls</b> to enable, disable, or scope this feature.\n</li><li>Users can reference a file by <b>clicking the paperclip icon</b> or <b>typing a backslash</b> to select a file.</li><li>Only one file can be referenced per slide. The file must be an Excel format and stored in OneDrive and SharePoint.</li></ul><p>No admin action is required for this feature to become available. We recommend informing your users so they can take advantage of this new capability.</p><p>Learn more: <a href=\"https://www.microsoft.com/microsoft-365/copilot\" target=\"_blank\">Reinvent productivity with Microsoft 365 Copilot</a></p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes, because Copilot is now accessing and referencing Excel file content to generate PowerPoint slides, which may involve processing customer data in new ways.</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes, this is a new Copilot capability that uses generative AI to interact with Excel data and generate slide content.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?&nbsp;</td><td>Yes, users can now prompt Copilot to generate a slide using an Excel file reference, which is a new interaction pattern.</td></tr></tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "497537,497538,497539"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The capability for Microsoft 365 Copilot in PowerPoint to reference Excel files when creating slides has been cancelled for now but will return in future updates. It required a Copilot add-on license, worked with Excel files in OneDrive/SharePoint, and needed no admin action."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web, Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2025-12-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1130389",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-11T20:07:22.63Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-06T23:32:18Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot | Reference an Excel file when creating a slide with PowerPoint",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p>Updated November 11, 2025: We have updated the timeline. Thank you for your patience.</p><p>Microsoft 365 Copilot is introducing <b>support for connected agents</b>, allowing one agent to query another for additional context or data. For example, the Researcher agent may request sales or inventory data from other enterprise software agents. This enhancement helps agents deliver more comprehensive and informed responses.</p>\n\n<b><b>When this will happen:</b></b>\n<ul>\n<li><b>Public Preview:</b>&nbsp;We will begin rolling out in mid-November 2025 and expect to complete by late February 2026.</li>\n</ul>\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b>&nbsp;Admins managing Microsoft 365 Copilot agents in the <i>Microsoft 365 admin center</i>. This applies to all licenses that include Microsoft 365 Copilot Chat, including both the free and paid versions.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Agents will be able to query other agents for additional information</li>\n    <li>The Agents page in the <i>Copilot hub</i> will show which connected agents are configured</li>\n    <li>Admins can modify connected agents if allowed by the developer</li>\n    <li>Users must acquire both the primary and connected agents to use this functionality</li>\n    <li>Users will be able to enable or disable acquired agents per conversation</li>\n    <li>The first agent to support this feature is Researcher, starting Q4 2025</li>\n    <li>Up to 10 connected agents can be configured per agent:</li></ul></li></ul><p></p><p><i>Screenshot 1 - Early draft UI (experience subject to change closer to rollout):&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ff67c9c5-1913-4b76-b68c-72d6d51367b0/f67aa5d507609a9ed34c21998fd7217625e94f0a.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 2 - A second view of early draft UI (experience subject to change closer to rollout):&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d86a13b8-4020-4c63-a754-d32a29a4f754/25d9779526abf467d128f26a7c5fdbc5d4e7ec49.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p><i></i></p><p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Review the Agent inventory in the <i>Copilot hub</i> to view and manage connected agents</li>\n<li>Ensure users are allowed to acquire agents if you want them to use connected functionality</li>\n<li>Communicate this change to helpdesk staff</li>\n<li>Update internal documentation if you detail agent capabilities</li>\n<li>No changes to existing admin controls are required</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide\" target=\"_blank\">Manage Microsoft 365 Copilot Agents - Microsoft 365 admin | Microsoft Learn</a></p><ul>\n</ul>\n\n<b><b>Compliance considerations:</b></b>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<th>Question</th>\n<th>Answer</th>\n</tr>\n<tr>\n<td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td>\n<td>Yes. This change enables Microsoft 365 Copilot agents to query other agents for additional data, expanding the scope of AI-driven interactions with customer data.</td>\n</tr>\n<tr>\n<td>Does the change allow a user to enable and disable the feature themselves?</td>\n<td>Yes. Users will be able to enable or disable acquired agents per conversation, giving them control over agent behavior.</td>\n</tr>\n<tr>\n<td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td>\n<td>Yes. Admins can configure which agents are available and which connected agents are permitted. These controls respect existing agent acquisition permissions, which can be scoped using Entra ID group membership.</td>\n</tr>\n</tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot will support connected agents, allowing one agent to query others for data, starting with Researcher in Q4 2025. Rolling out mid-November 2025 to February 2026, admins can manage connected agents, users can enable/disable them per conversation, and up to 10 connected agents are allowed."
+      }
+    ],
+    "EndDateTime": "2026-03-31T07:00:00Z",
     "HasAttachments": false,
     "Id": "MC1184654",
     "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-11T00:44:34.39Z",
+    "LastModifiedDateTime": "2025-11-11T19:58:55.863Z",
     "Services": [
       "Microsoft Copilot (Microsoft 365)",
       "Microsoft 365 Copilot Chat"
@@ -26,11 +507,276 @@
     "Severity": "normal",
     "StartDateTime": "2025-11-11T00:40:49Z",
     "Tags": [
+      "Updated message",
       "New feature",
       "User impact",
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot: Configure connected agents for Researcher and other agents",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 13, 2025: After further review we have decided not to proceed with this change at this time. We apologize for any inconvenience.</p><p>Coming soon for Microsoft Copilot in Teams: Intelligent meeting recap will be able to incorporate content shared on screen into the AI-based summary provided after the meeting, providing a richer and more comprehensive recap of the meeting. Intelligent meeting recap will capture details shown when a participant shares their screen, ensuring those unspoken insights become part of the meeting recap.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, Teams for the web, and Teams for iOS/Android.\n</p><p>This feature requires a Microsoft 365 Copilot license.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=490052\" target=\"_blank\">490052</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>Copilot users will receive intelligent recap summaries that incorporate shared-screen content, preserving every detail and its context.\n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/7bde06de-1fbc-4dec-971d-9a7a4f69c049/47b855a67fcd2be2462653425593013589afff90.png\" style=\"width: 50%;\"><br></p><p>This feature will be available by default with no admin controls.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/intelligent-recap-calls-meetings\" target=\"_blank\">Intelligent recap for Teams calls, meetings, and events - Microsoft Teams | Microsoft Learn</a> (will be updated before rollout)</p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "490052"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft decided not to proceed with the planned update for Copilot in Teams that would include shared-screen content in intelligent meeting recaps. The feature requires a Microsoft 365 Copilot license and will be communicated when ready. No admin action is needed before rollout."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-03-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1115314",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-11-11T18:49:31.127Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-07-15T00:00:02Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Copilot in Teams: Visual Insight for intelligent recap",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 11, 2025: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b>\n</p><p>We're introducing enhanced Microsoft 365 Copilot connectors for people data to help organizations enrich Microsoft 365 people profiles with authoritative information from external systems. This update improves Copilot’s ability to deliver contextually relevant and personalized responses across Microsoft 365 experiences such as profile cards and people search.</p>\n<p>Administrators can configure connectors to supported systems like <b>BambooHR</b> directly from the <i>Copilot &gt; Connectors &gt; Gallery</i>, under the <i>Human resources &amp; recruiting</i> category. Additionally, customers and partners can build <b>custom connectors via Microsoft Graph</b> to ingest people-related data from other sources. These capabilities allow Copilot to ground its responses in richer, more accurate people data.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=480736\" target=\"_blank\">480736</a>.</p>\n\n<b><b>When this will happen:</b></b>\n<ul>\n<li><b>Public Preview (Worldwide):</b> Began mid-May 2025 and completes by mid-November 2025.</li>\n<li><b>General Availability (Worldwide):</b> Begins mid-November 2025 and completes by mid-December 2025.<ul><li>The BambooHR connector is available WW as of Friday the 14th of November.</li></ul></li>\n</ul>\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n</ul><p><b>Who is affected:</b> Microsoft 365 administrators, developers building custom connectors, organizations using Microsoft 365 Copilot, people search, or profile cards.</p><ul>\n</ul><p><b>What will happen:</b>\n  </p><ul>\n    <li>Administrators can configure connectors via Microsoft Admin Center under <i>Copilot &gt; Connectors &gt; Gallery</i>.</li>\n    <li><b><a href=\"https://aka.ms/peopleconnectors/bamboohr\" target=\"_blank\">BambooHR</a></b> is available as a prebuilt connector.</li>\n    <li>Developers can build custom connectors using <b>Microsoft Graph</b>.</li>\n    <li>Enriched people profiles will be accessible in Microsoft 365 experiences and Copilot.</li>\n    <li>Improved grounding for Copilot responses using external authoritative data.</li>\n    <li>The feature is available for administrators to configure for all tenants once rolled out.</li>\n  </ul>\n<p></p><ul>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Review the <a href=\"https://aka.ms/peopleconnectors/build\">Microsoft Learn documentation</a> for guidance on configuring or developing connectors.</li><li>Monitor for updates between Public Preview and General Availability.</li>\n<li>Evaluate your organization’s data sources for people-related information.</li>\n<li>Communicate this change to IT and helpdesk teams.</li>\n<li>Update internal documentation if needed.</li><li>Learn more about <a href=\"https://learn.microsoft.com/graph/peopleconnectors#compliance-privacy-and-data-usage\" target=\"_blank\">Copilot connectors compliance, privacy, and data usage</a>.</li>\n</ul>\n\n<b><b>Compliance considerations:</b></b><p></p><p>\n</p><table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>Introduces or modifies AI/ML capabilities</td><td>Copilot will use enriched people data from external sources to improve contextual responses.</td></tr>\n<tr><td>Adds integration to 3rd party software products</td><td>BambooHR is available as a connector, and custom connectors can be built for other systems.</td></tr>\n<tr><td>Alters how existing customer data is accessed</td><td>External people data will be surfaced in Microsoft 365 experiences and Copilot.</td></tr>\n<tr><td>Includes admin control</td><td>Admins can configure connectors via Microsoft Admin Center.</td></tr>\n\n</tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "480736"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot now supports enhanced HR and employee profile data connectors, including a BambooHR prebuilt connector and custom connectors via Microsoft Graph. Administrators can configure these to enrich people profiles, improving Copilot’s contextual responses across Microsoft 365 experiences. Public preview runs mid-May to mid-November 2025; general availability begins mid-November 2025."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-01-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1163760",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-11-11T18:44:42.703Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-01T22:35:46Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New support for HR and employee profile data in Microsoft 365 Copilot connectors",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "Starting on November 27, 2025, the insights widget in the analytics page will no longer be available. The functionality of this widget, in addition to the ability to drill down to view the metrics of individual questions and answers, is now available in the feature <a target=\"_blank\" href=\"https://aka.ms/ADO13164\">Analyze user questions by theme</a>.<br><Br><b>How does this affect me?</b><br>The insights widget will be removed from the analytics page.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-12-11T18:42:22Z",
+    "HasAttachments": false,
+    "Id": "MC1184902",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-11T18:43:22.287Z",
+    "Services": [
+      "Power Platform"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-11T18:42:22Z",
+    "Tags": [
+      "Feature update"
+    ],
+    "Title": "Microsoft Copilot Studio – Removal of the Insights widget from analytics page",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 11, 2025: We have updated the content. Thank you for your patience.&nbsp;<br><br><b><b>Introduction</b></b></p><p>Browse your company’s approved logos, icons, and photos right inside PowerPoint—no need to search elsewhere. We're introducing <b>Brand Images</b> in <i>PowerPoint</i> to help users easily access company-approved logos, icons, and photos directly within the app. This feature streamlines brand compliance and saves time by eliminating the need to search for assets externally.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=509111\" target=\"_blank\">509111</a>.</p>\n\n<p><b><b>When this will happen:</b></b><b>\n</b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin in <b>late October 2025</b> and is expected to complete by <b>late November 2025</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:&nbsp;</b>All users of PowerPoint in <i>Microsoft 365 tenants</i> with an Organization Assets Library (OAL) configured.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>Users will be able to browse and insert approved images directly from a centralized library in <i>PowerPoint</i>.</li>\n<li>The feature will be <b>ON by default</b> for all tenants. Admins must set up their SharePoint OAL for employees to use this feature effectively.</li>\n<li>Admins can manage which images are available, ensuring brand consistency and compliance.</li><li>Reduces the risk of using outdated or unauthorized images.</li>\n<li>No impact to end-user workflow unless the OAL is not set up.</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Set up the OAL:&nbsp;<a href=\"https://learn.microsoft.com/sharepoint/organization-assets-library\" target=\"_blank\">Create an organization assets library | SharePoint in Microsoft 365 | Microsoft Learn</a></li><li>Upload enterprise images: Add approved logos, pictures, and other image type assets to the designated SharePoint library.</li><li>Create folders by asset type (e.g., logos, images) to enable type-based filtering. Note: Only top-level (L1) folders are supported; subfolders cannot be used for filtering.</li><li>Add robust image metadata for better search: Apply descriptive tags and metadata to each image. For guidance, refer to:&nbsp;<ul><li><a href=\"https://learn.microsoft.com/microsoft-365/documentprocessing/image-tagging?view=o365-worldwide\" target=\"_blank\">Find and manage images using enhanced image tagging | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/microsoft-365/documentprocessing/image-tagging-overview?view=o365-worldwide\" target=\"_blank\">Overview of image tagging | Microsoft 365 | Microsoft Learn</a></li></ul></li></ul><p></p><p></p><p></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "509111"
+      },
+      {
+        "Name": "Summary",
+        "Value": "PowerPoint will add Brand Images, allowing users to browse and insert company-approved logos, icons, and photos from a centralized Organization Assets Library (OAL). Rolling out worldwide from late October to November 2025, the feature is on by default, requiring admins to set up and manage the OAL for brand compliance."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-01-01T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1169573",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-11T18:41:29.67Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-10T16:12:40Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft PowerPoint: Find and add company approved images with Brand Images",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>Today,&nbsp;November 11, 2025, Windows 11, version 23H2 (<a href=\"https://learn.microsoft.com/lifecycle/products/windows-11-home-and-pro\" rel=\"noopener noreferrer\" target=\"_blank\">Home</a>&nbsp;and&nbsp;<a href=\"https://learn.microsoft.com/lifecycle/products/windows-11-home-and-pro\" rel=\"noopener noreferrer\" target=\"_blank\">Pro</a>&nbsp;editions) has reached&nbsp;<a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information\" rel=\"noopener noreferrer\" target=\"_blank\">end of servicing</a>. The November 2025 monthly security update is the last update available for these editions. Devices running these editions will no longer receive monthly security and preview updates containing protections from the latest security threats.</div><div><br></div><div>As always, we recommend that you update&nbsp;your&nbsp;devices to the latest version of&nbsp;<a href=\"https://aka.ms/how-to-get-25H2\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11</a>. For detailed information, see the&nbsp;<a href=\"https://learn.microsoft.com/lifecycle/announcements/windows-11-23h2-end-of-updates-home-pro\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11, version 23H2 reaching end of updates (Home, Pro)</a>&nbsp;lifecycle page. For information about servicing timelines and lifecycle, see&nbsp;<a href=\"https://learn.microsoft.com/windows/release-health/windows11-release-information\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 release information</a>,&nbsp;<a href=\"https://learn.microsoft.com/lifecycle/faq/windows\" rel=\"noopener noreferrer\" target=\"_blank\">Lifecycle FAQ - Windows</a>, and&nbsp;<a href=\"https://learn.microsoft.com/lifecycle/products/?terms=windows\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Lifecycle Policy search tool</a>.</div>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-11-11T18:02:07.663Z",
+    "HasAttachments": false,
+    "Id": "MC1184891",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-11T18:02:13.367Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-11T18:02:07.663Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Windows 11, version 23H2 (Home and Pro editions) has reached end of servicing",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>Microsoft has identified an issue in the&nbsp;<a href=\"https://www.microsoft.com/windows/extended-security-updates?r=1\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 10 Consumer Extended Security Update</a>&nbsp;(ESU) enrollment process where the enrollment wizard may fail during enrollment.</div><div>&nbsp;</div><div>If you have a personal device running Windows 10 and have not yet enrolled your device in the Consumer ESU program, here are the steps you need to take to ensure you continue receiving security updates:</div><ol><li>Navigate to the Windows Update settings page and select “Check for updates.”</li><li>Install the out-of-band (OOB) update (<a href=\"https://support.microsoft.com/topic/565c78a7-5b5f-4cbd-8ca8-2a73a48f4e2b\" rel=\"noopener noreferrer\" target=\"_blank\">KB5071959</a>) and reboot your device to complete installation.</li><li>Run the Windows 10 Consumer ESU enrollment wizard to enroll your device in the ESU program.</li><li>After you have successfully enrolled your device, navigate once more to the Windows Update settings page and select “Check for updates.”</li><li>Your device will now be offered the latest monthly security update. Install the update and reboot your device to complete installation.</li></ol><div>&nbsp;</div><div>If you have a personal device running Windows 10 and have already enrolled your device in the Consumer ESU program, no additional action is needed. You will receive the November 2025 security update and future Extended Security Updates via Windows Update.</div><div>&nbsp;</div><div>For more information, see <a href=\"https://support.microsoft.com/topic/565c78a7-5b5f-4cbd-8ca8-2a73a48f4e2b\" rel=\"noopener noreferrer\" target=\"_blank\">KB5071959: Windows 10, version 22H2 (OS Build 19045.6466) Out-of-band</a>.</div>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-11-11T18:02:07.663Z",
+    "HasAttachments": false,
+    "Id": "MC1184890",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-11T18:02:10.617Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-11T18:02:07.663Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Take Action: Out-of-band update to address ESU enrollment issue on Windows 10, version 22H2 devices",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>The November 2025 security update is now available for all supported versions of Windows. We recommend that you install these updates promptly. For more information about the contents of this update, see the release notes, which are easily accessible from the&nbsp;<a href=\"https://support.microsoft.com/help/5068861\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11</a>&nbsp;update history page. To learn more about the different types of monthly quality updates, see <a href=\"https://aka.ms/Windows/MonthlyUpdates\" rel=\"noopener noreferrer\" target=\"_blank\">Windows monthly updates explained</a>.</div><div>&nbsp;&nbsp;</div><div><b>Highlights for the Windows 11, version 25H2 update:&nbsp;</b></div><ul><li>This security update includes improvements that were a part of update&nbsp;<a href=\"https://support.microsoft.com/help/5067036\" rel=\"noopener noreferrer\" target=\"_blank\">KB5067036</a> (released October 28, 2025).</li><li>This update addresses security issues for your Windows operating system.</li><li>This update addresses an issue that affects gaming handheld devices. These devices were unable to stay in low-power states, which caused faster battery drain.​​​​​​​</li><li>This update addresses an issue on some handheld gaming devices where&nbsp;after signing in using the built-in Gamepad, the controller might not respond in apps for about five seconds.</li><li>This update addresses an issue with enabling Storage Spaces Direct. It fails when creating a storage cluster.</li></ul><div><br></div><div>Short on time? Watch our <a href=\"https://aka.ms/Windows11/ReleaseNotesVideo/2511\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 release notes video</a> for this month's tips.</div><div><br></div><div>For instructions on how to install this update, see the KB for your operating system listed below:&nbsp;</div><ul><li>Windows 11, versions 25H2 and 24H2: <a href=\"https://support.microsoft.com/help/5068861\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068861</a></li><li>Windows 11, version 23H2: <a href=\"https://support.microsoft.com/help/5068865\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068865</a></li><li>Windows 11 Enterprise LTSC 2024: Hotpatch <a href=\"https://support.microsoft.com/topic/d702b84c-d238-40f4-a0b7-1861e0b056fd\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068966</a></li><li>Windows 10, versions 22H2 and 21H2: <a href=\"https://support.microsoft.com/help/5068781\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068781</a></li><li>Windows 10 Enterprise LTSC 2019 and Windows Server 2019: <a href=\"https://support.microsoft.com/help/5068791\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068791</a></li><li>Windows 10 LTSB 2016 and Windows Server 2016: <a href=\"https://support.microsoft.com/help/5068864\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068864</a></li><li>Windows Server 2025: <a href=\"https://support.microsoft.com/topic/24e553d1-2338-433e-9cc3-61733148530c\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068861</a></li><li>Windows Server 2025 Datacenter: Azure Edition: Hotpatch <a href=\"https://support.microsoft.com/topic/e923cc54-3b4c-4df1-be42-92ae06d12984\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068966</a></li><li>Windows Server 2022: <a href=\"https://support.microsoft.com/help/5068787\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068787</a></li><li>Windows Server 2022 Datacenter: Azure Edition: Hotpatch <a href=\"https://support.microsoft.com/topic/6934411e-244d-45f7-83ef-24c471748348\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068840</a></li><li>Windows Server 2012 R2: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5068905\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068905</a></li><li>Windows Server 2012: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5068907\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068907</a></li><li>Windows Server 2008 R2 Service Pack 1: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5068904\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068904</a>&nbsp;/ Security Only: <a href=\"https://support.microsoft.com/help/5068908\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068908</a></li><li>Windows Server 2008 SP2: Monthly Rollup: <a href=\"https://support.microsoft.com/help/5068906\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068906</a> / Security Only: <a href=\"https://support.microsoft.com/help/5068909\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068909</a></li></ul><div><br></div><div><b>IMPORTANT&nbsp;</b>Because of minimal operations during the Western holidays and the upcoming new year, there will be no December 2025 non-security preview update. There will be a monthly security update for December 2025. Normal monthly servicing for both security and non-security preview updates will resume in January 2026.</div>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-11-11T18:02:07.603Z",
+    "HasAttachments": false,
+    "Id": "MC1184889",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-11-11T18:02:08.383Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-11T18:02:07.663Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "The November 2025 Windows security update is now available",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -544,7 +1290,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"523207\":[{\"RoadmapId\":523207,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-11T11:02:33.4473821Z\",\"LatestRing\":null},{\"RoadmapId\":523207,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-11T11:02:33.4473822Z\",\"LatestRing\":null}],\"523208\":[{\"RoadmapId\":523208,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-11T11:02:33.4473798Z\",\"LatestRing\":null},{\"RoadmapId\":523208,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-11T11:02:33.4473799Z\",\"LatestRing\":null}]}"
+        "Value": "{\"523207\":[{\"RoadmapId\":523207,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-12T03:21:47.6734185Z\",\"LatestRing\":null},{\"RoadmapId\":523207,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-12T03:21:47.6734186Z\",\"LatestRing\":null}],\"523208\":[{\"RoadmapId\":523208,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-12T03:21:47.6734152Z\",\"LatestRing\":null},{\"RoadmapId\":523208,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-12T03:21:47.6734156Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5184,7 +5930,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833214Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833216Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833217Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833212Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833218Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"499893\":[{\"RoadmapId\":499893,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833212Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":499893,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833214Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833216Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833217Z\",\"LatestRing\":null},{\"RoadmapId\":499893,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-19T08:01:54.2833218Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -6364,53 +7110,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated October 28, 2025: We have updated the content. Thank you for your patience.&nbsp;<br><br><b><b>Introduction</b></b></p><p>Browse your company’s approved logos, icons, and photos right inside PowerPoint—no need to search elsewhere. We're introducing <b>Brand Images</b> in <i>PowerPoint</i> to help users easily access company-approved logos, icons, and photos directly within the app. This feature streamlines brand compliance and saves time by eliminating the need to search for assets externally.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=509111\" target=\"_blank\">509111</a>.</p>\n\n<p><b><b>When this will happen:</b></b><b>\n</b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin in <b>late October 2025</b> and is expected to complete by <b>late November 2025</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:&nbsp;</b>All users of PowerPoint in <i>Microsoft 365 tenants</i> with an Organization Assets Library (OAL) configured.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>Users will be able to browse and insert approved images directly from a centralized library in <i>PowerPoint</i>.</li>\n<li>The feature will be <b>ON by default</b> for all tenants. Admins must set up their SharePoint OAL for employees to use this feature effectively.</li>\n<li>Admins can manage which images are available, ensuring brand consistency and compliance.</li><li>Reduces the risk of using outdated or unauthorized images.</li>\n<li>No impact to end-user workflow unless the OAL is not set up.</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Set up the OAL:&nbsp;<a href=\"https://learn.microsoft.com/sharepoint/organization-assets-library\" target=\"_blank\">Create an organization assets library | SharePoint in Microsoft 365 | Microsoft Learn</a></li><li>Use Microsoft PowerShell to specify the image OAL to be searchable: <a href=\"https://learn.microsoft.com/en-us/sharepoint/connect-organizational-asset-libraries-to-copilot\" target=\"_blank\">Connect organizational asset libraries to Copilot | SharePoint in Microsoft 365 | Microsoft Learn</a></li><li>Upload enterprise images: Add approved logos, pictures, and other image type assets to the designated SharePoint library.</li><li>Create folders by asset type (e.g., logos, images) to enable type-based filtering. Note: Only top-level (L1) folders are supported; subfolders cannot be used for filtering.</li><li>Add robust image metadata for better search: Apply descriptive tags and metadata to each image. For guidance, refer to:&nbsp;<ul><li><a href=\"https://learn.microsoft.com/microsoft-365/documentprocessing/image-tagging?view=o365-worldwide\" target=\"_blank\">Find and manage images using enhanced image tagging | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/microsoft-365/documentprocessing/image-tagging-overview?view=o365-worldwide\" target=\"_blank\">Overview of image tagging | Microsoft 365 | Microsoft Learn</a></li></ul></li></ul><p></p><p></p><p></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "509111"
-      },
-      {
-        "Name": "Summary",
-        "Value": "PowerPoint will introduce Brand Images, allowing users to browse and insert company-approved logos, icons, and photos from a centralized Organization Assets Library (OAL). Rolling out worldwide from late October to November 2025, this feature ensures brand compliance and requires admins to set up and manage the OAL in SharePoint."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-01-01T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1169573",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-28T17:55:33.643Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-10T16:12:40Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft PowerPoint: Find and add company approved images with Brand Images",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated October 28, 2025: We have updated the timeline. Thank you for your patience.</p><p>Disclaimer: The original message center post was published on August 1, 2025. We previously stated that this is a new feature when it is an expanded capability of the existing feature memory in Copilot. This expanded capability requires new processing of users' data, which is outlined below. We have edited the content below for accuracy and clarity. Thank you to the customers who provided feedback over the past few weeks. We have adjusted our roadmap to address your needs and concerns.&nbsp;</p><p>Starting September 1, 2025, Microsoft 365 Copilot will start remembering key highlights from your person-to-person communications in chats, emails, and meetings. Initially these memories will be used to improve the quality of Copilot responses to people-related questions. These memories are private to the user. This feature is available to Copilot-licensed enterprise users.</p><p>This message is associated with Microsoft 365 Roadmap ID<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499153\" target=\"_blank\"> 499153</a></p><div>\n\n<p><b>When this will happen</b></p>\n<ul><li><b>General Availability (Worldwide):</b>&nbsp;Rollout begins early September 2025 and is expected to complete by late January 2026 (previously late October 2025).&nbsp;</li></ul>\n\n<p><b>How this affects your organization</b></p><p>Copilot builds user memory by using AI to analyze and summarize digital communications—such as emails, chats, and meeting transcripts—to build a live memory of key highlights. This enables Copilot to deliver more personalized and context-aware responses in Copilot chat across Microsoft 365 apps.&nbsp;</p>\n<p>Communication memory uses AI to analyze and summarize digital communications—such as emails, chats, and meeting transcripts—to build a live memory of key highlights. This enables Copilot to deliver more personalized and context-aware responses across Microsoft 365 apps. \n</p><p>Unlike existing personalization features that operate within a single app (e.g., Outlook, Teams Recap, or Facilitator), communication memory provides a unified view across communication channels. Summaries are generated by large language models (LLMs) and may occasionally be inaccurate; each memory includes source links for user review. \n</p><p>This feature is on by default for Copilot-licensed users.</p>\n\n\n<p><b>What you can do to prepare</b></p>\n<p>Admins can manage memory in Copilot through the Enhanced Personalization admin control, available via Microsoft Graph. Disabling Enhanced Personalization will turn off all Copilot memory and personalization features across your organization.&nbsp;&nbsp;</p>\n\n<p><b>Compliance considerations</b></p>\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\">\n  <thead>\n    <tr>\n      <th>Question</th>\n      <th>Answer</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Does the change store new customer data, if so, where, and is the data cached or permanently stored?</td>\n      <td>Copilot stores AI-generated summaries based on user-accessible communications (e.g., emails, chats, meetings). These summaries are stored securely and privately per user in the users’ mailbox, for as long as the source data from which the memory was extracted is available.</td>\n    </tr>\n    <tr>\n      <td>Does the change alter how existing customer data is processed, stored, or accessed (e.g. documents, emails, chats, etc.), if so how and to what extent?</td>\n      <td>Existing communications are processed by large language models (LLMs) to generate summaries that improve Copilot personalization.</td>\n    </tr>\n    <tr>\n      <td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data, if so summarize changes?</td>\n      <td>Introduces new AI summarization across communication channels using LLMs, expanding personalization beyond single-app contexts.</td>\n    </tr>\n    <tr>\n      <td>Does the change provide end users any new way of interacting with generative AI, if so how?</td>\n      <td>Users receive personalized Copilot responses based on communication memory, representing a new interaction model with generative AI.</td>\n    </tr>\n    <tr>\n      <td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td>\n      <td>Admins can disable Enhanced Personalization via Microsoft Graph. Disabling Enhanced Personalization disables all Copilot memory features. Control via Entra ID group membership is supported.</td>\n    </tr>\n    <tr>\n      <td>Does the change allow a user to enable and disable the feature themselves?</td>\n      <td>Users can view their memories, including reviewing linked sources for accuracy.<br><br>\n          A user can delete their communication memory only by deleting the original source (message or email).<br><br>\n          <strong>Details on deleting:</strong> You can delete a memory by deleting the source item that the memory was generated from - for example, by deleting the email that the memory was generated from.<br><br>\n          <strong>Details on viewing / exporting the memories:</strong> Your complete Communication memory can be downloaded through the profile card export.\n      </td>\n    </tr>\n  </tbody>\n</table></div>",
       "ContentType": "html"
     },
@@ -7343,44 +8042,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Defender for Identity: Activate the Unified Sensor now generally available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b>\n</p><p>Starting February 2026, we will introduce<b> jailbreak and root detection for Entra credentials</b> in the <i>Microsoft Authenticator app</i> on both <i>iOS and Android platforms</i>. This change enhances security by preventing Entra credentials from functioning on jailbroken/rooted devices. All existing Entra credentials on jailbroken or rooted devices will be wiped to protect your organization. This capability is secure by default and does not require any admin configuration or control.</p>\n\n<p><b><b>When this will happen</b></b>&nbsp;</p><p>General Availability (Worldwide) rollout begins in <b>February 2026</b> and is expected to complete in April 2026.</p>\n\n<p><b><b>How this affects your organization</b></b>\n</p><p><i>Who is affected: </i>All users of Microsoft Authenticator on<i> iOS and Android</i> whose Entra credentials are registered on jailbroken or rooted device.</p><p><i>What will happen:\n</i></p><ul>\n<li>The feature is secure by default.</li>\n<li>Users on jailbroken or rooted devices will experience the following phased rollout:\n  <ul>\n    <li><b>Phase 1 – Warning Mode:</b> Users receive a warning that their device is jailbroken or rooted and will be blocked in the future (s<i>creenshots 1-4):&nbsp;</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0d5bba85-f0fa-4778-8cfe-07a20df67d0a/b89470e94de6dc9e7c3bcfdee20a3ea880bf99f4.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e96664e1-316d-4f3f-a0d3-a991adcff91b/613a783257cbf0d59adf2174021a95410909730d.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/2853c8ca-a174-4ce4-9abb-ab6d525827c9/2b53ed22753bca7517ef5d0c0ad238e02ff2c041.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/2f888e3c-0e56-4e74-ae32-7688ffac7194/dc0dabc19fcac41f554b3fa0afad357ac520914b.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p>\n    <li><b>Phase 2 – Blocking Mode:</b> Users are blocked from registering Entra credentials or signing in via Authenticat<i>or (screenshots 5-6):</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/03c7c543-673d-459f-8560-f3209033340e/dbb1775ac2d54b87bd72c82f9e71118c1e5d6a64.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/bae85191-7f10-4ae2-8662-388b12c11d83/4578ef9cec6f9e0bc7a63d04c8bbccd127d90b33.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <li><b>Phase 3 – Wipe Mode:</b> Existing Entra credentials are wiped from jailbroken or rooted dev<i>ices (screenshots 7-10):</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6c4ab2c5-3e63-451d-b943-1d534ad2bae4/93789ce64a8b0b6c9ce48108982e2eb6e351750f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5f0bd4bc-ecd4-4f47-93a2-4beeeaa0b0f8/78a6473762add6a1aa8143b8f8f9f328fa177d4f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/20777765-a2f0-41d3-a655-eaa7f0f0af8b/3851d16a0f020994abe26be742700f248d06ad59.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b8e50708-7d51-48f6-93c3-b6e369b64ebc/37ea29601b4f45c38545cb1973d43f6a17a2a7aa.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  </ul>\n</li>\n<li>Users on compliant (non-Jailbroken or non-rooted) devices will not be affected.</li></ul><ul>\n</ul><p></p>\n\n<p><b><b>What you can do to prepare</b></b>\n</p><ul>\n<li>Notify users about this upcoming change.</li>\n<li>Communicate to helpdesk staff that Authenticator will become unusable for Entra accounts on jailbroken or rooted devices.</li>\n<li>Update internal documentation if you reference Authenticator usage.</li>\n<li>No admin action is required to enable or configure this feature.</li>\n</ul><p></p>\n\n<p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/account-billing/about-microsoft-authenticator-9783c865-0308-42fb-a519-8cf666fe0acc\" target=\"_blank\">About Microsoft Authenticator | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting February 2026, Microsoft Authenticator will block Entra credentials on jailbroken/rooted iOS and Android devices through a phased rollout: warning, blocking, then wiping credentials. This security feature requires no admin setup. Users on compliant devices remain unaffected. Organizations should notify users and update documentation accordingly."
-      }
-    ],
-    "EndDateTime": "2026-05-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1179154",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-24T22:09:11.963Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-24T22:08:24Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Authenticator app: Upcoming changes to jailbreak and root detection",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -13533,53 +14194,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b>\n<p>We're introducing enhanced Microsoft 365 Copilot connectors for people data to help organizations enrich Microsoft 365 people profiles with authoritative information from external systems. This update improves Copilot’s ability to deliver contextually relevant and personalized responses across Microsoft 365 experiences such as profile cards and people search.</p>\n<p>Administrators can configure connectors to supported systems like <b>BambooHR</b> directly from the <i>Copilot &gt; Connectors &gt; Gallery</i>, under the <i>Human resources &amp; recruiting</i> category. Additionally, customers and partners can build <b>custom connectors via Microsoft Graph</b> to ingest people-related data from other sources. These capabilities allow Copilot to ground its responses in richer, more accurate people data.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=480736\" target=\"_blank\">480736</a>.</p>\n\n<b><b>When this will happen:</b></b>\n<ul>\n<li><b>Public Preview (Worldwide):</b> Began mid-May 2025 and completes by mid-November 2025.</li>\n<li><b>General Availability (Worldwide):</b> Begins mid-November 2025 and completes by mid-December 2025.</li>\n</ul>\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n</ul><p><b>Who is affected:</b> Microsoft 365 administrators, developers building custom connectors, organizations using Microsoft 365 Copilot, people search, or profile cards.</p><ul>\n</ul><p><b>What will happen:</b>\n  </p><ul>\n    <li>Administrators can configure connectors via Microsoft Admin Center under <i>Copilot &gt; Connectors &gt; Gallery</i>.</li>\n    <li><b><a href=\"https://aka.ms/peopleconnectors/bamboohr\" target=\"_blank\">BambooHR</a></b> is available as a prebuilt connector.</li>\n    <li>Developers can build custom connectors using <b>Microsoft Graph</b>.</li>\n    <li>Enriched people profiles will be accessible in Microsoft 365 experiences and Copilot.</li>\n    <li>Improved grounding for Copilot responses using external authoritative data.</li>\n    <li>The feature is available for administrators to configure for all tenants once rolled out.</li>\n  </ul>\n<p></p><ul>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Review the <a href=\"https://aka.ms/peopleconnectors/build\">Microsoft Learn documentation</a> for guidance on configuring or developing connectors.</li><li>Monitor for updates between Public Preview and General Availability.</li>\n<li>Evaluate your organization’s data sources for people-related information.</li>\n<li>Communicate this change to IT and helpdesk teams.</li>\n<li>Update internal documentation if needed.</li><li>Learn more about <a href=\"https://learn.microsoft.com/graph/peopleconnectors#compliance-privacy-and-data-usage\" target=\"_blank\">Copilot connectors compliance, privacy, and data usage</a>.</li>\n</ul>\n\n<b><b>Compliance considerations:</b></b></p><p>\n<table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>Introduces or modifies AI/ML capabilities</td><td>Copilot will use enriched people data from external sources to improve contextual responses.</td></tr>\n<tr><td>Adds integration to 3rd party software products</td><td>BambooHR is available as a connector, and custom connectors can be built for other systems.</td></tr>\n<tr><td>Alters how existing customer data is accessed</td><td>External people data will be surfaced in Microsoft 365 experiences and Copilot.</td></tr>\n<tr><td>Includes admin control</td><td>Admins can configure connectors via Microsoft Admin Center.</td></tr>\n\n</tbody></table></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "480736"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot now supports HR and employee profile data via connectors like BambooHR and custom Microsoft Graph connectors, enhancing people profiles with authoritative external data. Administrators configure these in the Admin Center. Public preview runs mid-May to mid-November 2025; general availability starts mid-November 2025."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-01-15T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1163760",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-10-01T22:36:02.88Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-01T22:35:46Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "New support for HR and employee profile data in Microsoft 365 Copilot connectors",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2026-01-04T08:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -19431,53 +20045,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated September 10, 2025: We have updated the content below to show as intended. Thank you for your patience.</p><p>We’re introducing a new capability in Microsoft 365 Copilot for PowerPoint that allows users to reference Excel files when creating a slide. This enhancement helps users seamlessly reuse data from Excel to generate more informative and data-driven presentations.</p><p>This message is associated with Microsoft 365 Roadmap IDs <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=497537\" target=\"_blank\">497537</a>,&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497538\" target=\"_blank\">497538</a>, and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=497539\" target=\"_blank\">497539</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out in late November 2025 (previously late August) and expect to complete by mid-December 2025 (previously late September).</p><p><b>How this will affect your organization</b></p><p>With this update, users can now reference an Excel file when selecting <b>\"<i>New Slide with Copilot\"</i></b>&nbsp;from the PowerPoint ribbon or <b>\"<i>Add a slide\"</i></b>&nbsp;from the Copilot button above the slide. This enables more efficient content creation by leveraging existing Excel data directly within PowerPoint.</p><p>Key details:\n</p><ul><li>Users can reference <b>one Excel file at a time </b>when creating a slide.\n</li><li>The Excel file must be stored in <b>OneDrive or SharePoint.</b></li><li>Recommended file size for optimal performance is <b>24MB</b>.</li><li>Users can include a topic in their prompt to focus the slide content.\n</li><li>Copilot can generate slides that include <b>charts or tables</b> based on the Excel data.</li><li>This feature is available on <b>web</b>, <b>Win32</b>, and <b>Mac</b> platforms. There are <b>no browser-specific limitations</b>.</li></ul><p>This feature is <b>on by default</b> and does <b>not require admin configuration</b>.</p><p><b>What you need to do to prepare</b></p><ul><li>This feature requires the <b>Microsoft 365 Copilot add-on license</b>. It is not included in standard Microsoft 365 SKUs (e.g., E3/E5).\n</li><li>Available only to tenants with Microsoft 365 E3/E5 <b>plus the Copilot license</b>.\n</li><li>There are <b>no admin controls</b> to enable, disable, or scope this feature.\n</li><li>Users can reference a file by <b>clicking the paperclip icon</b> or <b>typing a backslash</b> to select a file.</li><li>Only one file can be referenced per slide. The file must be an Excel format and stored in OneDrive and SharePoint.</li></ul><p>No admin action is required for this feature to become available. We recommend informing your users so they can take advantage of this new capability.</p><p>Learn more: <a href=\"https://www.microsoft.com/microsoft-365/copilot\" target=\"_blank\">Reinvent productivity with Microsoft 365 Copilot</a></p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes, because Copilot is now accessing and referencing Excel file content to generate PowerPoint slides, which may involve processing customer data in new ways.</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes, this is a new Copilot capability that uses generative AI to interact with Excel data and generate slide content.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?&nbsp;</td><td>Yes, users can now prompt Copilot to generate a slide using an Excel file reference, which is a new interaction pattern.</td></tr></tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "497537,497538,497539"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot for PowerPoint will allow users to reference one Excel file stored in OneDrive or SharePoint when creating slides, enabling data-driven presentations with charts or tables. This feature requires a Copilot add-on license, is on by default, and will roll out worldwide from late November to mid-December 2025."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web, Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-01-26T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1130389",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-10T15:17:25.307Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-06T23:32:18Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot | Reference an Excel file when creating a slide with PowerPoint",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction:</b></b></p>\n<p>To streamline policy management and improve consistency across Excel-related admin controls, we’re moving the management of Office Scripts settings from the Microsoft 365 admin center to the Microsoft 365 Cloud Policy service. This change aligns Office Scripts with other Excel policies and simplifies administration.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>Rollout begins on <b>October 27, 2025</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b><br>Admins managing Microsoft 365 Apps settings for Excel.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>The following three Office Scripts settings will be managed in the Cloud Policy service instead of the Microsoft 365 admin center:</li>\n<ul>\n<li>Let users automate their tasks in Excel</li>\n<li>Let users with access to Office Scripts share their scripts with others in the organization</li>\n<li>Let users with access to Office Scripts run their scripts with Power Automate</li>\n</ul>\n<li>These settings will retain their current names in the Cloud Policy service.</li>\n<li>After October 27, 2025:\n<ul>\n<li>Admins will no longer be able to modify these settings in the Microsoft 365 admin center.</li>\n<li>Only settings configured in the Cloud Policy service will be honored.</li>\n<li>If no action is taken, all three settings will default to <b>enabled</b>.</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your current Office Scripts settings in the Microsoft 365 admin center.</li>\n<li>Reconfigure the equivalent settings in the Microsoft 365 Cloud Policy service.</li>\n<li>If no changes were made from the default (enabled), no action is required.</li>\n<li>For guidance, see: <a href=\"https://learn.microsoft.com/microsoft-365-apps/admin-center/overview-cloud-policy\">Overview of Cloud Policy service for Microsoft 365</a></li></ul>\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -22036,52 +22603,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated August 28, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re introducing the ability to reference a PDF file when creating a slide using Copilot in PowerPoint. This enhancement enables users to extract and reuse content from cloud-stored PDFs, streamlining slide creation and improving productivity.</p><p>This feature is associated with Microsoft 365 Roadmap IDs <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=497536\" target=\"_blank\">497536</a>,&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497540\" target=\"_blank\">497540</a>, and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?id=497541\" target=\"_blank\">497541</a>.&nbsp;</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide):</b> We will begin rolling out in mid-October late (previously August 2025) and expect to complete by late November 2025 (previously late September).</p><p><b>How this will affect your organization</b></p><p>With this update, users can reference PDF files stored in OneDrive or SharePoint when using the<b> “New Slide with Copilot” </b>button in PowerPoint or the <b>“Add a slide” </b>option from the Copilot pane. Copilot will access the entire PDF file (text-based only) to generate slide content.\n</p><p>Key details:\n</p><ul><li><b>Supported files:</b> Text-based PDFs stored in OneDrive or SharePoint. Password-protected or scanned/image-based PDFs are not supported.\n</li><li><b>File size: </b>Recommended maximum size is 24MB for optimal performance.\n</li><li><b>Platform support: </b>Available across PowerPoint for Windows, Mac, and Web.\n</li><li><b>Prompting guidance: </b>Users can click the paperclip icon or use the backslash (\\) to reference a file. For large files, including the topic of interest in the prompt improves results.\n</li><li><b>Licensing:</b> Requires the Microsoft 365 Copilot add-on ($30/user/month). Not available with Copilot included in Microsoft 365 SKUs alone.\n</li><li><b>Availability: </b>This feature is available to tenants with Copilot enabled. There are no admin controls to enable or disable it.\n</li><li><b>User control: </b>Users can choose to keep or delete Copilot-generated slides.\n</li><li><b>Telemetry: </b>Usage of this feature is tracked.\n</li></ul><p>This feature does not remove or alter any existing functionality. It is being added to the existing “New Slide with Copilot” experience.</p><p><b>What you need to do to prepare</b></p><ul><li>Inform your users about this new capability.\n</li><li>Encourage them to explore how referencing PDFs can help them create slides more efficiently.\n</li><li>No admin action is required for this update.</li></ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/topic/add-a-slide-from-a-file-with-copilot-in-powerpoint-9034b581-38df-46be-a725-986cbbd4b5d4\" target=\"_blank\">Add a slide from a file with Copilot in PowerPoint</a></p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "497536,497540,497541"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot in PowerPoint will allow users to reference text-based PDFs stored in OneDrive or SharePoint to create slides, rolling out from mid-October to late November 2025. This feature requires the Copilot add-on, supports Windows, Mac, and Web, and needs no admin action."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web, Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-01-05T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1130390",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-28T13:18:23.953Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-06T23:33:17Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft 365 Copilot | Reference a PDF file when creating a slide with PowerPoint",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction:</b></p><p>\nMicrosoft Purview Insider Risk Management is enhancing policy configuration by enabling the selection of multiple Data Loss Prevention (DLP) policies as triggering events. Previously, only one DLP policy could be selected per Insider Risk Management policy. This update provides greater flexibility and alignment with complex organizational risk scenarios.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=493756\" target=\"_blank\">493756</a></p>\n\n<p><b>When this will happen:</b></p><ul><li>\n<b>Public Preview:</b> Rollout will begin in late August 2025 and is expected to complete by mid-September 2025.</li><li><b>General Availability (Commercial and Government Clouds):</b> Rollout will begin in early December 2025 and is expected to complete by late December 2025.</li></ul>\n\n<p><b>How this affects your organization:</b></p><p>\nThis update does not change existing configurations or require any action. It simply allows eligible admins to select multiple DLP policies as triggering events when creating or editing Insider Risk Management policies. This enhancement supports more comprehensive risk detection scenarios and improves policy customization.</p>\n\n<p><b>What you can do to prepare:</b></p><p>\nNo preparation is needed. However, you may wish to review your current Insider Risk Management policies and consider whether leveraging multiple DLP triggers could improve your risk detection strategy.&nbsp;</p>\n\n<p><b>Compliance considerations:</b></p>\n<table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>Does the change modify how admins can monitor, report on, or demonstrate compliance activities?</td><td>Yes – Admins can now configure policies with multiple DLP triggers, enhancing monitoring and reporting capabilities.</td></tr>\n<tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes – Policy configuration is managed by admins and can be scoped using role-based access controls.</td></tr>\n</tbody></table>",
       "ContentType": "html"
     },
@@ -23720,52 +24241,6 @@
       "Admin impact"
     ],
     "Title": "90-Day Reminder: Windows 11, version 23H2 (Home and Pro editions) will reach end of servicing on November 11, 2025",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 13, 2025: After further review we have decided not to proceed with this change at this time. We apologize for any inconvenience.</p><p>Coming soon for Microsoft Copilot in Teams: Intelligent meeting recap will be able to incorporate content shared on screen into the AI-based summary provided after the meeting, providing a richer and more comprehensive recap of the meeting. Intelligent meeting recap will capture details shown when a participant shares their screen, ensuring those unspoken insights become part of the meeting recap.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, Teams for the web, and Teams for iOS/Android.\n</p><p>This feature requires a Microsoft 365 Copilot license.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=490052\" target=\"_blank\">490052</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will communicate via Message center when we are ready to proceed.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>Copilot users will receive intelligent recap summaries that incorporate shared-screen content, preserving every detail and its context.\n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/7bde06de-1fbc-4dec-971d-9a7a4f69c049/47b855a67fcd2be2462653425593013589afff90.png\" style=\"width: 50%;\"><br></p><p>This feature will be available by default with no admin controls.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/intelligent-recap-calls-meetings\" target=\"_blank\">Intelligent recap for Teams calls, meetings, and events - Microsoft Teams | Microsoft Learn</a> (will be updated before rollout)</p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "490052"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft decided not to proceed with the planned update for Copilot in Teams that would include shared-screen content in intelligent meeting recaps. The feature, requiring a Microsoft 365 Copilot license, will not be released now, and no admin action is needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-02-13T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1115314",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-08-13T15:18:58.927Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-07-15T00:00:02Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Copilot in Teams: Visual Insight for intelligent recap",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -26098,44 +26573,6 @@
       "Admin impact"
     ],
     "Title": "The Microsoft 365 Feed widget is no longer available with the Microsoft 365 Feed app",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Beginning mid-August 2025, the New Outlook for Mac will become the default experience for users in the Current Channel (version 16.100 and later). As part of this change, the admin preference key EnableNewOutlook—which previously allowed control over the default toggle state—will be retired. Users will no longer be able to switch back to Legacy Outlook starting with version 16.102 in mid-October 2025.</p><p>This update reflects our commitment to delivering a modern, performant, and reliable Outlook experience.\n</p><p><b>When this will happen:</b></p><ul><li>Legacy Outlook toggle admin perference i.e. EnableNewOutlook retired: Mid-August 2025 (version 16.100 and later)</li><li>Users can no longer switch to legacy Outlook: Mid-October (version 16.102 and later)</li></ul><p><b>How this affects your organization:</b></p><ul><li>The New Outlook for Mac will be the default experience for all users in the Current Channel.</li><li>The EnableNewOutlook admin configuration key will no longer be honored in configuration profiles.\n</li></ul><p>The New Outlook is built on Microsoft’s modern sync technology and offers:\n</p><ul><li>Improved performance and reliability\n</li><li>Enhanced support for modern collaboration features\n</li><li>A consistent cross-platform experience\n</li></ul><p>It also supports key enterprise capabilities including:\n</p><ul><li>On-premises support\n</li><li>Online Archive\n</li><li>Shared Mailboxes and Calendars\n</li><li>Delegation\n</li></ul><p>Some features not yet available in New Outlook include:\n</p><ul><li>AppleScript\n</li><li>Import/Export\n</li><li>Public Folders\n</li></ul><p>For the latest feature availability, please refer to the <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=Outlook%2CMac\" target=\"_blank\">Microsoft 365 Roadmap</a>.\n</p><p><b>What you can do to prepare:</b></p><ul><li>Notify users that New Outlook will become the default.</li><li>Update training materials and internal documentation to reflect the new experience.\n</li><li>For questions or support, users can go to Help &gt; Contact Support in Outlook for Mac.\n</li><li>For tenant-level questions or to tailor communications, please use your Message Center submission workflow or contact your Microsoft account team.\n</li></ul><p>More information: <a href=\"https://support.microsoft.com/en-us/office/end-of-support-for-legacy-outlook-for-mac-7b9cf644-7035-4345-a151-8c1c7a65ac25\" target=\"_blank\">End of support for legacy Outlook for Mac</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Outlook for Mac will retire the admin preference to switch to legacy Outlook starting mid-August 2025. The New Outlook will become the default for users in the Current Channel, and switching back to Legacy Outlook will be disabled by mid-October 2025. Users should update training materials and notify users of the change."
-      }
-    ],
-    "EndDateTime": "2025-12-01T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1098932",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-06-19T22:59:18.88Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-19T22:59:04Z",
-    "Tags": [
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Microsoft Outlook for Mac desktop: Retiring the admin preference to switch to legacy Outlook",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -30849,44 +31286,6 @@
       "Retirement"
     ],
     "Title": "Specifying client ID and secret when creating an Azure ACS principal via AppRegNew.aspx will be removed",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We are dedicated to providing our customers with the tools they need to achieve what matters, in their work and life. In order to focus on new benefits, we occasionally remove features and products.</p><p>In October 2026, Microsoft Publisher will reach its end of life. After that time, it will no longer be included in Microsoft 365 and existing on-premises suites will no longer be supported. Until then, support for Publisher will continue and users can expect the same experience as today.\n</p><p>As we look ahead to the retirement of Microsoft Publisher, we are exploring modern ways to achieve other common Publisher scenarios across applications like Microsoft Word, PowerPoint, and Designer.  We will update as we have more to share.&nbsp;&nbsp;</p><p><b>When this will happen:</b></p><p>October 13, 2026</p><p><b>How this will affect your organization:</b></p><p>You can continue to use Publisher with its current functionality until October 2026. \n</p><p>Support for the perpetual version of Publisher will end in October 2026, when Office LTSC 2021 reaches end of support. Microsoft 365 customers will not be able to access Publisher from that date forward. \n</p><p><b>What you need to do to prepare:</b><br></p><p>No action is required at this time. This notice is to allow you sufficient time to plan. We will share additional updates as the date approaches.\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Publisher will no longer be supported after October 2026. Users can continue to use it with its current functionality until then. Support for the perpetual version of Publisher will end in October 2026. No action is required at this time, but Microsoft is exploring modern ways to achieve common Publisher scenarios across other applications."
-      }
-    ],
-    "EndDateTime": "2026-11-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC716267",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2024-02-15T17:12:45.637Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-02-15T17:12:22Z",
-    "Tags": [
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Microsoft Publisher will no longer be supported after October 2026",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
