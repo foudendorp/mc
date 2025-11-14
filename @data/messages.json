@@ -4,6 +4,399 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<div>Secure Boot helps ensure that only trusted software runs during the boot sequence. It uses cryptographic keys, known as certificate authorities (CAs), to validate that firmware modules come from a trusted source. After 15 years, the Secure Boot certificates that are part of many Windows systems will start expiring in June 2026. These certificates were originally issued in 2011. Many Windows PCs manufactured since 2024 already have updated (2023) certificates. For the remaining devices, we recommend that you start monitoring the progress of certificate updates today as well as prepare for and install new certificates on devices that aren’t automatically getting them through Windows updates. An initial set of tools and guidance is now available to support you in this effort.</div><div>&nbsp;</div><div><b>When will this happen:</b></div><div>While Microsoft will deliver the new 2023 Secure Boot certificates through Windows monthly updates—with original equipment manufacturers (OEMs) offering firmware updates to help ensure compatibility—you can proactively install the 2023 CAs before the 2011 CAs start expiring in June of 2026.</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><div>Read the <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/secure-boot-playbook-for-certificates-expiring-in-2026/4469235\" rel=\"noopener noreferrer\" target=\"_blank\">Secure Boot playbook for certificates expiring in 2026</a> for steps you can take today to help ensure your devices stay protected after June 2026. Specifically, you can now:</div><ul><li>Inventory and prepare your environments for this change.</li><li>Monitor and check your devices for Secure Boot status.</li><li>Apply OEM firmware updates before Microsoft updates.</li><li>Plan and pilot your Secure Boot certificate deployments.</li><li>Use available tools to troubleshoot and remediate common issues.</li></ul><div><br></div><div>If you’d like to deploy the new Secure Boot certificates yourself today, you can utilize registry keys, WinCS, or Group Policy. Soon, you’ll be able to use scalable MDM solutions, such as Microsoft Intune. We will provide an update when this method is available.</div><div>&nbsp;</div><div><b>Additional information:</b></div><div>Bookmark <a href=\"https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Faka.ms%2FGetSecureBoot&amp;data=05%7C02%7Cv-chwri%40microsoft.com%7Ccecc87cc980e42d7ade008de23192e22%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638986788212579748%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=e3sAEP4FdQn8tJF4y3lmtceeuCI4yZOMvbu50QY7FUA%3D&amp;reserved=0\" rel=\"noopener noreferrer\" target=\"_blank\">https://aka.ms/GetSecureBoot</a> for more information about this change, detailed guidance for managing Secure Boot certificate update, and answers to frequently asked questions.</div>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-11-14T01:37:36.92Z",
+    "HasAttachments": false,
+    "Id": "MC1185931",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-11-14T01:37:38.137Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-14T01:37:36.92Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Secure Boot playbook for certificates expiring in 2026",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>You can now adjust the length of your presentation, the tone of your narrative, the style of your slides, and leverage AI-generated images when creating with Copilot. These enhancements are designed to give users more creative control and flexibility when building presentations, helping them tailor content to suit different audiences and contexts.</p><p>A Microsoft 365 Copilot license is required to use this feature.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=513430\" target=\"_blank\">513430</a>&nbsp;and 513431.</p>\n\n<b>When this will happen:</b>\n<p><b>General Availability (Worldwide):</b> Rollout will begin in <b>early December 2025</b> and is expected to complete by <b>mid-December 2025</b>.</p>\n\n<b>How this affects your organization:</b>\n<ul>\n<li><b>Who is affected:&nbsp;</b>All users with access to Copilot in Microsoft 365 on <b>Desktop, Web and Mac platforms.</b></li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Users will see new options to adjust presentation length, tone, and style:</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/3b40f210-561d-41ce-84ee-ebacec3ba9e0/7a090c71fca9e43f92f448ca93f00ac668a0f456.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/52cad34a-8ce6-43b7-903b-e1aab857ed0e/bd2daf513f00466316fb12f8d138f8687834058a.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Users can incorporate AI-generated images into presentations:</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/7a116b3a-24f2-4fa3-9e91-033d1d177220/4078fafda8218180035258b826f3e7e75633fd51.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Features will be <b>available by default</b>.</li>\n    <li>No changes to existing admin policies are required.</li>\n  </ul>\n</li>\n</ul>\n\n<b>What you can do to prepare:</b>\n<p>No action is required. These improvements will roll out automatically.</p><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d\" target=\"_blank\">Create a new presentation with Copilot in PowerPoint | Copilot in PowerPoint | Copilot | Microsoft Support</a></p>\n\n<b>Compliance considerations:</b>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "513430"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot will let users adjust presentation length, tone, style, and add AI-generated images. Available on Desktop, Web, and Mac, it requires a Copilot license. The rollout begins early December 2025, with features enabled by default and no admin changes needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-01-16T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1185911",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-14T00:03:36.517Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-14T00:02:57Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Steer your presentation length, tone, style, and images when creating with Copilot",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 12, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We’re updating how we bill for mid-term subscription changes to improve clarity and efficiency.</p><p><b>What’s changing:</b></p><p>Starting November 18, 2025 changes to existing subscriptions—such as adding or removing licenses, cancellations, and upgrades—will be billed the next day instead of at the beginning of the following month. This change ensures more timely and transparent billing, helping you better track and manage your subscription costs.&nbsp;</p><p><b>When this will happen:</b></p><p>When you see this change will depend on the country/region your account is in.&nbsp;</p><ul><li>Singapore and Italy: November 18 (previously November 13)&nbsp;</li><li>Asia-Pacific: November 24 (previously Nov 18)&nbsp;</li><li>Worldwide: Jan 6th</li></ul><p> <b>How this will affect your organization:</b>\n</p><p>If you have an account where your invoices start with a “G” and have purchased directly from Microsoft, your organization will be impacted by this change on the date the change is launched in your region. Purchases made through a partner or a volume licensing agreement are not impacted by this change.</p><p><b>Example \n</b></p><p><b>\n</b></p><p>If your account is in Singapore or Italy and you add a license to your subscription on November 18, you will receive an invoice for that additional license on November 19. Any consumption charges for Azure will continue to be billed on the monthly invoice available at the beginning of the following month.&nbsp;</p><p><b>Additional details about this change&nbsp;</b></p><p>During the month your region transitions:&nbsp;</p><ul><li>If you make no changes after the transition, previous changes remain on their original invoice schedule.&nbsp;</li><li>If you make changes after the transition, any pending charges from before the transition are invoiced immediately. You’ll also receive a separate invoice for the new changes.</li></ul><p> <b>What you need to do to prepare:</b></p><p>No action is required. This update will be applied automatically to all eligible subscriptions.&nbsp;</p><p><br></p><p><br></p><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting November 18, 2025, mid-term subscription changes will be billed the next day instead of the following month, varying by region. This applies to direct Microsoft purchases with invoices starting with “G.” No action is needed; the update is automatic."
+      }
+    ],
+    "EndDateTime": "2026-02-28T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1176303",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-11-13T19:51:56.903Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-20T18:38:34Z",
+    "Tags": [
+      "Updated message",
+      "Admin impact"
+    ],
+    "Title": "We’re updating how we bill for mid-term subscription changes",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to enable process mining integration in process map in Power Automate. This feature will reach general availability on December 12, 2025.<br><br> \n \n\n<b>How does this affect me?</b><br> \n\nThis feature enables you to access flow-centric health and performance metrics directly within the process map, and enable seamless, one-click process mining integration for advanced analysis. Built-in process mining provides instant variant analysis, allowing you to quickly identify slow or unreliable routes and uncover process variations.<br><br> \n \nStandard insights available without process mining integration:<ul> \n\n<li>Flow runs and performance metrics</li> \n\n<li> Failure rates with error trends</li> \n\n<li> Top errors by code</li></ul> \n \n\nEnhanced observability with process mining integration:<ul> \n\n<li> Unlock process mining insights with a one-click experience—no manual log data wrangling or transformation needed.</li> \n\n<li> Visualize and drill down into specific process routes (variants) and bottlenecks with variant analysis.</li> \n\n<li> Trace and analyze slow or unreliable process paths directly within the process map.</li> \n\n<li> Monitor comprehensive process health, performance, and reliability metrics across end-to-end automation.</li> \n\n<li> Go deeper with advanced process analysis in the process mining product.</li></ul> \n \n\nTechnical Information:<ul> \n\n<li> Insights are accessed through the Insights (preview) toggle on the process map.</li> \n\n<li> Advanced insights are enabled with a single click—no manual exports or data prep required (subject to available capacity).</li> \n\n<li> Advanced insights use Power Automate's Process Mining capabilities and consume from your available Process Mining capacity in the tenant.</li> \n\n<li> Metrics are computed from historical flow runs stored in Dataverse and surfaced via the DFAI service.</li> \n\n<li> In high-volume environments, preparing insights may take longer.</li> \n\n<li> Flow runs must be older than 48 hours to be included in analysis.</li></ul> \n \n\nEnablement (basic insights):<ul> \n\n<li> Enabled by default: Basic insights.</li> \n\n<li> Enabled for: All users with access to the Automation Center and process map features.</li> \n\n<li> Disabled for: Environments where “Enable production-ready preview features” is turned off in Power Platform admin center.</li></ul> \n \n\nEnablement (advanced insights):<ul> \n\n<li> Opt-in: Advanced insights through the Insights (preview) side-panel and Enable advanced insights button.</li> \n\n<li> Access requirements: Power Automate Premium license, permission to view flow run data included in the process map, the ability to manually create Process Mining processes, and at least 50 MB of available Process Mining capacity in the environment.</li></ul> \n\n \n<b>What action do I need to take?</b><br> \nThis message is for awareness, and no action is required.<br><br> If you would like more information on this feature, please visit <a href=\"https://aka.ms/ADO12836\" target=\"_blank\">Enable process mining integration in process map</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-12-13T19:12:58Z",
+    "HasAttachments": false,
+    "Id": "MC1185821",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-13T19:17:41.493Z",
+    "Services": [
+      "Microsoft Power Automate"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-13T19:12:58Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Automate - Enable process mining integration in process map",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 12, 2025: We have added documentation links. Thank you for your patience.</p><p><b>Agents in OneDrive</b> lets you group files and folders together, so you can ask questions, get summaries, and find key details across your project—without having to reselect items each time. Agents are saved in your <i>OneDrive</i> and can be shared with your team, making collaboration and staying up to date easier. This new capability helps users work more efficiently by turning OneDrive into a workspace for AI-powered project assistance.</p>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=469503\" target=\"_blank\">469503</a>.</p>\n\n<b><b>When this will happen:</b></b>\n<p>General Availability (Worldwide): Rollout will begin in mid-November 2025 and is expected to complete by late November 2025.</p>\n\n<b><b>How this affects your organization:</b></b>\n<p><b>Who is affected:</b>&nbsp;Users with a Microsoft 365 Copilot license assigned to either work or school accounts (Microsoft 365 commercial or education tenants).&nbsp;</p>\n\n<p><b>What will happen:</b></p><p>Users will see a <b><i>new</i></b>&nbsp;<b>a<i>gent</i></b> option in <i>OneDrive</i>.</p><p><b>How to use Agents in <i>OneDrive</i>:</b></p>\n<ul>\n<li><b>Create your Agent:</b> When users first select the Copilot button in OneDrive or the <i><b>+Create or upload</b></i> button, a guided experience will introduce agents and walk users through how to create and use them. From there, users can <b>create an agent</b> from their OneDrive using the <i><b>+Create or upload</b></i> option and then select the <i><b>Agent </b></i>option (<i>screenshot 1</i>):</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/53247542-eddb-4e01-b18c-6ef89112482a/ff29ed67c25c8953d27a8a05f5f50941ff2f2587.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Alternatively, users can select the files to include in an agent, then choose <i style=\"font-weight: bold;\">Create an agent</i> from the Copilot toolbar dropdown menu (<i>screenshot 2</i>):</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/90744205-7e2a-4389-80a2-5e5b439a28d3/9ce6151e71f9a84389584c0bfa9bddc3c8e72d74.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li><b>Access your agent </b>as a file in <i>OneDrive</i> (.agent extension), filter by file type \"agent\" (<i>screenshot 3</i>):</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a93649a0-5d76-481b-8fe8-28bbc87393bb/4591383663c88f4e80f1c56c8e04ef833fbb9d97.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li><b>Open the agent </b>to ask questions and get answers from your documents.</li><li><b>Edit or update your agent</b> anytime to change its sources, name, or instructions (<i>screenshot 4</i>):</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c233097f-5862-4ff6-8433-a191d686ea1f/fadf9babbde9305e2a2d6214ee45e8293493e653.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li><b>Share your agent </b>with your team to collaborate and keep everyone informed (<i>screenshots 5 &amp; 6</i>):</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/235878ce-cd77-45c3-ac63-c0b9671c2153/1fcf3cc066b510d0f864d2cba5e12b74cb54626c.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p></ul><p></p><p></p><ul><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1646cc0e-244c-489e-97d9-188076043674/e790622c534cdfa1219b09b9fc78318c1c22e7fa.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<p>No admin action is required at this time.</p>\n<p>You may wish to:</p>\n<ul>\n<li>Communicate this change to helpdesk staff.</li>\n<li>Update internal documentation to reflect the new agent capabilities in <i>OneDrive</i>.</li>\n<li>Encourage users to explore agents to improve project efficiency using AI.</li><li>Review documentation at the following links:<ul><li><a href=\"https://support.microsoft.com/office/get-started-with-onedrive-agents-ee2a6b38-da3f-413f-a865-cace3325d1e0\">Get started with OneDrive agents</a></li><li><a href=\"https://support.microsoft.com/office/create-and-use-an-agent-in-onedrive-492cc5ad-b444-4cc6-83b7-3802a26688b4\">Create and use an agent in OneDrive</a></li><li><a href=\"https://support.microsoft.com/office/find-your-agent-files-in-onedrive-b8153379-ae11-4331-ac35-b1207ce58ba4\">Find your agent files in OneDrive</a></li><li><a href=\"https://support.microsoft.com/office/share-an-ai-agent-in-onedrive-773662a2-c58a-4a6b-b6b2-1be8d2df3db0\">Share an AI agent in OneDrive</a></li></ul></li>\n</ul>\n\n<b><b>Compliance considerations:</b></b>\n<table border=\"1\">\n<tbody><tr><th>Question</th><th>Answer</th></tr>\n<tr><td>Does the change store new customer data, if so, where, and is the data cached or permanently stored?</td><td>Yes. Agents are saved as .agent files in OneDrive and may contain metadata or instructions. These are stored permanently unless deleted by the user.</td></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data, if so summarize changes?</td><td>Yes. Agents use Microsoft Copilot to interact with and summarize user documents grouped within OneDrive.</td></tr>\n<tr><td>Does the change provide end users any new way of interacting with generative AI, if so how?</td><td>Yes. Users can ask questions and receive answers from grouped documents via agents, enabling a new AI-powered interaction model.</td></tr>\n<tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage Copilot licensing and access to OneDrive features, including agent creation and usage.</td></tr>\n<tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Users can choose whether or not to create and use agents in OneDrive.</td></tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "469503"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Agents in OneDrive, launching worldwide in November 2025, let Microsoft 365 Copilot users group files for AI-powered project assistance. Users can create, edit, share, and interact with agents saved as .agent files in OneDrive, enhancing collaboration and efficiency without admin action required."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-12-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1181765",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-13T18:50:06.363Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T00:06:57Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft OneDrive for Business: Agents in OneDrive",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p>Updated November 12, 2025: We have updated the timeline. Thank you for your patience.</p><p>We’re <b>improving the quarantine experience</b> in <i>Microsoft Defender for Office 365</i> to deliver greater clarity, visibility, and ease of use for administrators. These updates include backend enhancements for improved durability and consistency as well as experience updates to list messages in quarantine by individual recipients to simplify navigation and management.</p>\n\n<b>When this will happen:</b>\n<ul>\n<li><b>General Availability (Worldwide and GCC): </b>We will begin rolling out in early January 2026 (previously early November 2025) and expect to complete by end of February 2026 (previously mid-December 2025).\n</li><li><b>General Availability (GCCH and DoD): </b>We will begin rolling out in early January 2026 (previously early December 2025) and expect to complete by end of February 2026 (previously early January 2026).</li>\n</ul>\n\n<b>How this affects your organization:</b>\n<ul>\n<li><b>Who is affected:</b> Administrators managing quarantined messages in Microsoft Defender for Office 365.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Quarantined messages will now be listed by individual recipient instead of grouped by multiple recipients.</li>\n    <li>Backend enhancements will improve durability and consistency.</li>\n    <li>Existing quarantine release cmdlets will all remain functional. Administrators should be cognizant that `<b>ReleaseToAll</b>` now applies to a single user as aggregation has been removed. Admins must release messages for each intended mailbox individually.</li>\n    <li>No changes to end-user experience.</li></ul></li></ul><p><i>Screenshot 1 - <b>Updated </b>quarantine view showing <b>individual recipients listed separately</b> in the Recipient column:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/246243b9-3537-4b95-b438-4fcfaca3145f/1a3b905a51335e39e4f0f7e236884dd363e78119.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i></i></p><p><i>Screenshot 2 - <b>Existing</b> quarantine view showing <b>multiple recipients</b> in the Recipient column:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/81c2e6a8-afca-4f34-8a87-a1d293d53c8f/ac875dbc78ddaa73fe5b580e3b9d2fbb3435f56a.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><ul>\n  </ul>\n<p></p><ul>\n</ul>\n\n<p></p><p><b>What you can do to prepare:</b>\n</p><ul>\n<li>Review your organization’s quarantine release practices.</li>\n<li>Update any internal documentation to reflect the new recipient-level view.</li>\n<li>Communicate this change to helpdesk or support teams as needed.</li>\n<li>Learn more:&nbsp;<ul><li><a href=\"https://learn.microsoft.com/defender-office-365/mdo-about\">Microsoft Defender for Office 365 overview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/defender-office-365/quarantine-admin-manage-messages-files\" target=\"_blank\">Manage quarantined messages and files as an admin | Microsoft Defender for Office 365 | Microsoft Learn</a></li></ul></li></ul><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Defender for Office 365 will enhance quarantine by listing messages by individual recipients, improving backend durability and consistency. Rollout starts January 2026, completing by February. Admins must release quarantined messages per user. No changes affect end users; update internal processes accordingly."
+      }
+    ],
+    "EndDateTime": "2026-03-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1171845",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-13T18:37:01.547Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-13T23:25:16Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Defender for Office 365: Enhancing the quarantine experience for administrators",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 12, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>Coming soon: Microsoft Copilot for Microsoft 365 usage in your tenant will be added to the Microsoft Graph API to facilitate the creation of customized reporting and analytics. Metrics included in the Graph API will match those available in the Copilot for Microsoft 365 usage report in the Microsoft 365 admin center, including tenant-level count of enabled users and active users, as well as last activity date per user (totals for each Microsoft 365 app and a grand total). A Microsoft Copilot for Microsoft 365 license is required to use this feature.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=396562\" target=\"_blank\">396562</a> and with MC724835 <i>Microsoft 365 admin center Usage report: Microsoft Copilot with Graph-grounded chat (Preview)</i> (published March 2024).\n</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out early September 2024 and expect to complete by mid-September 2024.</p><p>\n</p><p>General Availability (Worldwide): We will begin rolling out mid-November 2025 (previously late October) and expect to complete by late November 2025 (previously late October).&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>Before this rollout, the Graph API did not include Copilot for Microsoft 365 usage.\n</p><p>After this rollout, admins can use the Graph API to create customized reporting and analytics for Copilot for Microsoft 365 usage.\n</p><p>Sample request for one of the three APIs: <a href=\"https://graph.microsoft.com/beta/reports/getMicrosoft365CopilotUserCountSummary(period='D7')?$format=application/json\" target=\"_blank\">getMicrosoft365CopilotUserCountSummary</a>.\n</p><p>Sample response:<br></p><p><code>HTTP/1.1 200 OK\n</code></p><p><code>Content-Type: application/json\n</code></p><p><code>Content-Length: 537</code>\n</p><p>\n</p><p><code>{\n</code></p><p><code>\"@odata.context\": \"https://graph.microsoft.com/beta/reports/getMicrosoft365CopilotUserCountSummary(period='D7')?$format=application/json\",\n</code></p><p><code>\"value\": [\n</code></p><p><code>{\n</code></p><p><code>\"reportRefreshDate\": \"2024-06-26\",\n</code></p><p><code>\"adoptionByProduct\": [\n</code></p><p><code>{\n</code></p><p><code>\"reportPeriod\": 7,\n</code></p><p><code>\"anyAppEnabledUsers\": 354590,\n</code></p><p><code>\"anyAppActiveUsers\": 144022,\n</code></p><p><code>\"microsoftTeamsEnabledUsers\": 354449,\n</code></p><p><code>\"microsoftTeamsActiveUsers\": 88737,\n</code></p><p><code>\"wordEnabledUsers\": 354449,\n</code></p><p><code>\"wordActiveUsers\": 17493,\n</code></p><p><code>\"powerPointEnabledUsers\": 354449,\n</code></p><p><code>\"powerPointActiveUsers\": 7245,\n</code></p><p><code>\"outlookEnabledUsers\": 354449,\n</code></p><p><code>\"outlookActiveUsers\": 38140,\n</code></p><p><code>\"excelEnabledUsers\": 354449,\n</code></p><p><code>\"excelActiveUsers\": 2554,\n</code></p><p><code>\"oneNoteEnabledUsers\": 354449,\n</code></p><p><code>\"oneNoteActiveUsers\": 1382,\n</code></p><p><code>\"loopEnabledUsers\": 354449,\n</code></p><p><code>\"loopActiveUsers\": 955,\n</code></p><p><code>\"copilotChatEnabledUsers\": 354449,\n</code></p><p><code>\"copilotChatActiveUsers\": 64401\n</code></p><p><code>}</code></p><p>This feature is on by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your admins about this change and update any relevant documentation.\n</p><p>Before rollout, we will update this post with revised documentation.</p><p>To learn more about Microsoft’s own review of this product with its works councils, please consider reading: https://aka.ms/Copilot/MSWorksCouncilsArticle&nbsp;</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "396562"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Graph API will soon include Microsoft Copilot for Microsoft 365 usage metrics, enabling customized reporting and analytics. Public preview starts September 2024; general availability is mid-November 2025. A Copilot license is required. This feature is automatic, with no admin action needed before rollout."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-01-05T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC877369",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-13T18:31:35.703Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-08-29T22:07:08Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Graph API will include usage metrics for Microsoft Copilot for Microsoft 365",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 12, 2025: We have completed rollout of this feature. Thank you!<br><br>Coming soon: You will be able to extend Microsoft Purview to the network layer by integrating Purview with your preferred Secure Access Service Edge (SASE) / Security Service Edge (SSE) solution. Through this integration, admins can intercept and inspect traffic flowing through the network layer to identify the presence of sensitive data. This enables admins to detect sensitive data shared with untrusted cloud applications through browsers, applications, APIs, add-ins, and more, including common generative AI, cloud storage, and content sharing services. The signals from inline discovery for the network further enrich Purview solutions including Data Security Posture Management (DSPM) and Insider Risk Management (IRM), helping admins better understand how to reduce data exfiltration risks to locations outside of their organization. Learn more: <a href=\"https://techcommunity.microsoft.com/blog/microsoft-security-blog/building-layered-protection-new-microsoft-purview-data-security-controls-for-the/4395071\" target=\"_blank\">Building layered protection: New Microsoft Purview data security controls for the browser &amp; network | Microsoft Community Hub</a> (March 24, 2025).\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=488807\" target=\"_blank\">488807</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out early May 2025 and expect to complete by late May 2025.\n</p><p>General Availability (Worldwide): Now available.\n</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout, using the new collection policies option in Purview under <i>Classifiers</i>, you will be able to create granular policies to detect sensitive data that’s being sent to 34,000+ unmanaged cloud applications by defining what sensitive information types you want to detect and for who. These policies are designed to discover relevant signals from data in transit without executing any enforcement actions on that data.  \n</p><p>After integrating with one of our already-integrated Secure Access Service Edge (SASE) / Security Service Edge (SSE) partners, data security admins will be able to centrally create and manage policies for the network from the Purview portal. \n</p><p><b>What you need to do to prepare:</b>\n</p><p> After rollout, the new policies and features will be available by default for you to enable and configure. These integrations require action by your Purview Data Security and Compliance admins to enable discovery in your organization before any signals will start to be collected, including configuring a SASE/SSE integration and creating a collection policy that targets unmanaged cloud apps. \n</p><p>Also, your global admin will need to activate Purview pay-as-you-go meters to enable this capability. We will update this message in May 2025 with pricing details.\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "488807"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview now detects sensitive data shared over networks, integrating with Secure Access Service Edge (SASE)/Security Service Edge (SSE) solutions to inspect traffic and identify data sent to unmanaged cloud apps. Admins can create granular policies and manage them centrally via the Purview portal. Activation and configuration by admins are required."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-12-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1056265",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-13T17:44:38.14Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-04-15T23:24:26Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: New data security controls for detecting sensitive data shared over the network",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2026-02-13T08:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated November 13, 2025: We have updated the timing of this change below. Thank you for your patience.</p><p>On February 13, 2026, you may encounter issues if you haven't updated your analytic rules, automation rules/playbooks, workbooks, hunting queries, or custom integrations to be precedence-aware for account entity naming. We've standardized the account entity naming logic in Microsoft Sentinel incidents and alerts, where the account entity naming priority is: UPN prefix → name → display name. Please update your queries and automations to use the new precedence pattern.</p><p>You are receiving this message because our reporting indicates your organization may be using Microsoft Sentinel incidents, alerts (AlertV3), or related automation.</p><p><b><b>When this will happen:</b></b></p><p>February 13, 2026 (previously December 13, 2025)</p><p><b><b>How this will affect your organization:</b>\n</b></p><p><b>If you don't fix this problem, these queries, automations, dashboards, and reports that reference account names may be affected:\n</b></p><ul><li>Analytics (KQL) that filter by, join on, or normalize account names\n</li><li>Automation rules &amp; playbooks (e.g., Logic Apps) that map Account.Name or compare it to other identity fields\n</li><li>Workbooks &amp; dashboards that show account name or aggregate by that value\n</li><li>Hunting queries that coalesce or parse account identity fields\n</li><li>Any users or systems relying on display name as the account identifier</li></ul><p><b><b>What you need to do to prepare:</b>\n</b></p><p>To fix this problem you need to update your KQL queries and automation logic to use the new precedence-aware pattern for account entity naming. Specifically, use a coalesce pattern (e.g., coalesce(Name, DisplayName)) wherever you reference the account name, and validate your workbooks, dashboards, and playbooks against the new logic. Test changes in a nonproduction workspace before rollout.</p>",
+      "ContentType": "html"
+    },
+    "Category": "preventOrFixIssue",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Sentinel will standardize account entity naming by precedence: UPN prefix → name → display name, effective February 13, 2026. Update your analytic rules, automation, workbooks, and queries to use this new pattern (e.g., coalesce(Name, DisplayName)) to avoid issues in incidents and alerts."
+      }
+    ],
+    "EndDateTime": "2026-01-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1183015",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-13T16:48:01.257Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-05T00:24:20Z",
+    "Tags": [
+      "Updated message",
+      "Admin impact"
+    ],
+    "Title": "Fix/Update Microsoft Sentinel Account Entity Naming to avoid inconsistent account identification in incidents and alerts",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to enable Intent group and Agent group metrics for real-time analytics in Dynamics 365 Contact Center. This feature will reach public preview on November 14, 2025.<br><br>\n<b>How does this affect me?</b><br>\nThis feature provides several key improvements to our contact center analytics and reporting:<ul>\n    <li><b>Filters and Auto Refresh:</b><ol type=\"a\">\n        <li>The landing page displays real-time operational metrics with intent group and user group filters.</li>\n        <li>The auto-refresh feature ensures supervisors have continuous access to the most up-to-date information.</li>\n    </ol>\n    </li>\n    <li><b>Bot Real-Time Analytics:</b><ol type=\"a\">\n        <li>Real-time analytics for agent performance, highlighting crucial metrics such as containment rate and abandon rate.</li>\n        <li>These metrics are viewable by intent group.</li>\n    </ol>\n    </li>\n    <li><b>Voice Report Enhancements:</b><ol type=\"a\">\n        <li>The voice report includes features such as voicemail and in-queue callback options.</li>\n        <li>Additionally, it will track Average Handling Time (AHT) specific metrics like talk time, wrap time, and hold time.</li>\n    </ol>\n    </li>\n    <li><b>Ongoing Conversation Dashboard:</b><ol type=\"a\">\n        <li>This dashboard incorporates Line of Business (LOB), Intent Group, and Agent Group concepts.</li>\n        <li>Provide a comprehensive view of ongoing conversations with these new categorizations.</li>\n    </ol>\n    </li>\n    <li><b>Backlog Conversation Dashboard:</b><ol type=\"a\">\n        <li>This dashboard now includes LOB, Intent groups, and Agent groups.</li>\n        <li>Enable supervisors to manage and prioritize backlog conversations more effectively.</li>\n    </ol>\n    </li>\n</ul>\n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2025-12-13T15:53:34Z",
+    "HasAttachments": false,
+    "Id": "MC1185736",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-13T15:58:36.837Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-13T15:53:34Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center – Improve real-time analytics with intent group and agent groups",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated November 12, 2025: We have updated the content. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>To help organizations adopt Microsoft 365 Copilot securely, Microsoft Purview is introducing new capabilities in Microsoft Admin Center. These enhancements allow AI and IT admins to gain visibility into oversharing risks, remediate issues, and apply a new&nbsp;<b>Data Loss Prevention (DLP) </b>policy directly within&nbsp;<b>Microsoft Admin Center</b>. This update supports secure usage of Copilot by enabling protection of sensitive interactions.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/29f297a1-43ba-4cf8-97b4-8271996c8859\" style=\"width: 400px;\" alt=\"user settings\"></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=523212\" target=\"_blank\" style=\"\">523212</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview:</b>&nbsp;We will begin rolling out mid-November 2025 and expect to complete by late November 2025.</li>\n<li><b>General Availability (Worldwide):</b>&nbsp;We will begin rolling out mid-January 2026 and expect to complete by late January 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft 365 Copilot and data security policies via Microsoft Admin Center or Purview portal.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A new Security pivot will be added to the Microsoft Admin Center.</li>\n    <li>By default, a Purview data loss prevention policy for Copilot will be available in simulation mode. Admins can configure this policy and enable it to block specific sensitive information types from being used in Copilot. You can learn more in Message Center Post 1181998.</li>\n    <li>Visibility into oversharing risks and sensitive Copilot interactions will be available.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review how Copilot is secure by default and assess if additional protections are needed.</li>\n<li>Once the feature is released:<ul><li>Use an <a href=\"https://learn.microsoft.com/entra/identity/role-based-access-control/permissions-reference#ai-administrator\" target=\"_blank\">Entra AI Admin</a> or <a href=\"https://learn.microsoft.com/entra/identity/role-based-access-control/permissions-reference#global-administrator\" target=\"_blank\">Entra Global Admin</a> role to create a policy to block sensitive information types in Microsoft Admin Center.</li><li>Collaborate with your data security admin to apply additional protections and ensure compliance with AI regulations.</li><li>These actions can also be performed in the Purview portal. Learn more: <a href=\"https://learn.microsoft.com/purview/ai-m365-copilot\" target=\"_blank\">Use Microsoft Purview to manage data security &amp; compliance for Microsoft 365 Copilot &amp; Microsoft 365 Copilot Cha</a>t.</li></ul></li>\n\n</ul><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>Alters how existing customer data is processed</td><td>Sensitive information types can be blocked from Copilot interactions, modifying how data is accessed and used.</td></tr>\n\n<tr><td>Modifies Purview capabilities</td><td>Adds ability to create DLP policy for Copilot from the Microsoft Admin Center.</td></tr>\n<tr><td>Alters admin monitoring/reporting</td><td>Admins gain visibility into oversharing risks and Copilot data usage.</td></tr>\n<tr><td>Includes admin control via Entra ID</td><td>Requires Entra AI Admin or Global Admin role to configure policies.</td></tr>\n</tbody></table>",
       "ContentType": "html"
     },
@@ -1891,7 +2284,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"523207\":[{\"RoadmapId\":523207,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-13T11:02:39.7260538Z\",\"LatestRing\":null},{\"RoadmapId\":523207,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-13T11:02:39.7260539Z\",\"LatestRing\":null}],\"523208\":[{\"RoadmapId\":523208,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-13T11:02:39.7260499Z\",\"LatestRing\":null},{\"RoadmapId\":523208,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-13T11:02:39.72605Z\",\"LatestRing\":null}]}"
+        "Value": "{\"523207\":[{\"RoadmapId\":523207,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-14T03:22:20.4330326Z\",\"LatestRing\":null},{\"RoadmapId\":523207,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-14T03:22:20.4330328Z\",\"LatestRing\":null}],\"523208\":[{\"RoadmapId\":523208,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-14T03:22:20.433026Z\",\"LatestRing\":null},{\"RoadmapId\":523208,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-14T03:22:20.4330264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2852,43 +3245,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated November 6, 2025: We have updated the content. Thank you for your patience.&nbsp;</p><p>We’re updating how we bill for mid-term subscription changes to improve clarity and efficiency.</p><p><b>What’s changing:</b></p><p>Starting November 13, 2025 changes to existing subscriptions—such as adding or removing licenses, cancellations, and upgrades—will be billed the next day instead of at the beginning of the following month. This change ensures more timely and transparent billing, helping you better track and manage your subscription costs.&nbsp;</p><p><b>When this will happen:</b></p><p>When you see this change will depend on the country/region your account is in.&nbsp;</p><ul><li>Singapore and Italy: Nov 13&nbsp;</li><li>Asia-Pacific: Nov 18&nbsp;</li><li>Worldwide: Jan 6th</li></ul><p> <b>How this will affect your organization:</b>\n</p><p>If you have an account where your invoices start with a “G” and have purchased directly from Microsoft, your organization will be impacted by this change on the date the change is launched in your region. Purchases made through a partner or a volume licensing agreement are not impacted by this change.</p><p><b>Example \n</b></p><p><b>\n</b></p><p>If your account is in Singapore or Italy and you add a license to your subscription on November 13, you will receive an invoice for that additional license on November 14th. Any consumption charges for Azure will continue to be billed on the monthly invoice available at the beginning of the following month.&nbsp;</p><p><b>Additional details about this change&nbsp;</b></p><p>During the month your region transitions:&nbsp;</p><ul><li>If you make no changes after the transition, previous changes remain on their original invoice schedule.&nbsp;</li><li>If you make changes after the transition, any pending charges from before the transition are invoiced immediately. You’ll also receive a separate invoice for the new changes.</li></ul><p> <b>What you need to do to prepare:</b></p><p>No action is required. This update will be applied automatically to all eligible subscriptions.&nbsp;</p><p><br></p><p><br></p><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting November 13, 2025, mid-term subscription changes will be billed the next day instead of the following month, improving billing transparency. The rollout dates vary by region, affecting direct Microsoft purchases with \"G\" invoices. No action is needed; changes apply automatically."
-      }
-    ],
-    "EndDateTime": "2026-02-28T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1176303",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-11-06T17:00:35.38Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-20T18:38:34Z",
-    "Tags": [
-      "Updated message",
-      "Admin impact"
-    ],
-    "Title": "We’re updating how we bill for mid-term subscription changes",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to automate case lifecycle tasks with Case Management Agent, which automates case creation and updates, facilitates collaboration with experts, and streamlines the case follow-up and closure process in Dynamics 365 Customer Service. This feature will reach general availability on October 31, 2025.<br><br><b>How does this affect me?</b><br>The Case Management Agent provides the following capabilities:<ul>\n<li><b>Automate case creation and case details during live chats and from incoming emails</b>:When a customer service representative accepts a live chat, the Case Management Agent will automatically create a case and fill in the required information. When the conversation ends, the agent automatically updates the case fields. When automatic record creation (ARC) rules convert an email into a case, the system automatically extracts the required information from the email and populates case fields. The case will stay up to date as the customer sends new emails.</li>\n<li><b>Automate case resolution</b>: Once the case is created and updated, the Case Management Agent will leverage <i>identified intent</i> to autonomously draft and send email responses after a case is created. This ensures timely communication and resolution of customer issues with minimal human intervention.</li>\n<li><b>Automate case follow-up and closure</b>: Once resolution is provided, the Case Management Agent sends follow-up emails. When a customer responds, the agent resolves the case or will alert the service representative when needed. These capabilities boost efficiency and closure to reduce case handling time.</li></ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/12110\">Set up Case Management Agent for case creation and update (preview)</a>.",
       "ContentType": "html"
     },
@@ -3554,42 +3910,6 @@
       "Feature update"
     ],
     "Title": "Updates available for Microsoft 365 Apps for Current Channel",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": "2025-12-13T08:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>On December 13, 2025, you may encounter issues if you haven't updated your analytic rules, automation rules/playbooks, workbooks, hunting queries, or custom integrations to be precedence-aware for account entity naming. We've standardized the account entity naming logic in Microsoft Sentinel incidents and alerts, where the account entity naming priority is: UPN prefix → name → display name. Please update your queries and automations to use the new precedence pattern.</p><p>You are receiving this message because our reporting indicates your organization may be using Microsoft Sentinel incidents, alerts (AlertV3), or related automation.</p><p><b><b>When this will happen:</b></b></p><p>December 13, 2025</p><p><b><b>How this will affect your organization:</b>\n</b></p><p><b>If you don't fix this problem, these queries, automations, dashboards, and reports that reference account names may be affected:\n</b></p><ul><li>Analytics (KQL) that filter by, join on, or normalize account names\n</li><li>Automation rules &amp; playbooks (e.g., Logic Apps) that map Account.Name or compare it to other identity fields\n</li><li>Workbooks &amp; dashboards that show account name or aggregate by that value\n</li><li>Hunting queries that coalesce or parse account identity fields\n</li><li>Any users or systems relying on display name as the account identifier</li></ul><p><b><b>What you need to do to prepare:</b>\n</b></p><p>To fix this problem you need to update your KQL queries and automation logic to use the new precedence-aware pattern for account entity naming. Specifically, use a coalesce pattern (e.g., coalesce(Name, DisplayName)) wherever you reference the account name, and validate your workbooks, dashboards, and playbooks against the new logic. Test changes in a nonproduction workspace before rollout.</p>",
-      "ContentType": "html"
-    },
-    "Category": "preventOrFixIssue",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "By December 13, 2025, update Microsoft Sentinel analytic rules, automation, workbooks, and queries to use the new account entity naming precedence: UPN prefix → name → display name. Use coalesce patterns to avoid issues in incidents, alerts, dashboards, and playbooks relying on account names. Test changes before rollout."
-      }
-    ],
-    "EndDateTime": "2026-01-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1183015",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-05T00:24:26.907Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-05T00:24:20Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Fix/Update Microsoft Sentinel Account Entity Naming to avoid inconsistent account identification in incidents and alerts",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -4921,52 +5241,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated September 26, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>Coming soon: Microsoft Copilot for Microsoft 365 usage in your tenant will be added to the Microsoft Graph API to facilitate the creation of customized reporting and analytics. Metrics included in the Graph API will match those available in the Copilot for Microsoft 365 usage report in the Microsoft 365 admin center, including tenant-level count of enabled users and active users, as well as last activity date per user (totals for each Microsoft 365 app and a grand total). A Microsoft Copilot for Microsoft 365 license is required to use this feature.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=396562\" target=\"_blank\">396562</a> and with MC724835 <i>Microsoft 365 admin center Usage report: Microsoft Copilot with Graph-grounded chat (Preview)</i> (published March 2024).\n</p><p><b>When this will happen:</b></p><p>Public Preview: We will begin rolling out early September 2024 and expect to complete by mid-September 2024.</p><p>\n</p><p>General Availability (Worldwide): We will begin rolling out late October 2025 (previously late September) and expect to complete by late November 2025 (previously late October).&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>Before this rollout, the Graph API did not include Copilot for Microsoft 365 usage.\n</p><p>After this rollout, admins can use the Graph API to create customized reporting and analytics for Copilot for Microsoft 365 usage.\n</p><p>Sample request for one of the three APIs: <a href=\"https://graph.microsoft.com/beta/reports/getMicrosoft365CopilotUserCountSummary(period='D7')?$format=application/json\" target=\"_blank\">getMicrosoft365CopilotUserCountSummary</a>.\n</p><p>Sample response:<br></p><p><code>HTTP/1.1 200 OK\n</code></p><p><code>Content-Type: application/json\n</code></p><p><code>Content-Length: 537</code>\n</p><p>\n</p><p><code>{\n</code></p><p><code>\"@odata.context\": \"https://graph.microsoft.com/beta/reports/getMicrosoft365CopilotUserCountSummary(period='D7')?$format=application/json\",\n</code></p><p><code>\"value\": [\n</code></p><p><code>{\n</code></p><p><code>\"reportRefreshDate\": \"2024-06-26\",\n</code></p><p><code>\"adoptionByProduct\": [\n</code></p><p><code>{\n</code></p><p><code>\"reportPeriod\": 7,\n</code></p><p><code>\"anyAppEnabledUsers\": 354590,\n</code></p><p><code>\"anyAppActiveUsers\": 144022,\n</code></p><p><code>\"microsoftTeamsEnabledUsers\": 354449,\n</code></p><p><code>\"microsoftTeamsActiveUsers\": 88737,\n</code></p><p><code>\"wordEnabledUsers\": 354449,\n</code></p><p><code>\"wordActiveUsers\": 17493,\n</code></p><p><code>\"powerPointEnabledUsers\": 354449,\n</code></p><p><code>\"powerPointActiveUsers\": 7245,\n</code></p><p><code>\"outlookEnabledUsers\": 354449,\n</code></p><p><code>\"outlookActiveUsers\": 38140,\n</code></p><p><code>\"excelEnabledUsers\": 354449,\n</code></p><p><code>\"excelActiveUsers\": 2554,\n</code></p><p><code>\"oneNoteEnabledUsers\": 354449,\n</code></p><p><code>\"oneNoteActiveUsers\": 1382,\n</code></p><p><code>\"loopEnabledUsers\": 354449,\n</code></p><p><code>\"loopActiveUsers\": 955,\n</code></p><p><code>\"copilotChatEnabledUsers\": 354449,\n</code></p><p><code>\"copilotChatActiveUsers\": 64401\n</code></p><p><code>}</code></p><p>This feature is on by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your admins about this change and update any relevant documentation.\n</p><p>Before rollout, we will update this post with revised documentation.</p><p>To learn more about Microsoft’s own review of this product with its works councils, please consider reading: https://aka.ms/Copilot/MSWorksCouncilsArticle&nbsp;</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "396562"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Graph API will soon include Microsoft Copilot for Microsoft 365 usage metrics, enabling customized reporting and analytics. Public preview starts September 2024; general availability is late October to November 2025. A Copilot license is required, and no admin action is needed before rollout."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-01-05T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC877369",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-03T21:30:07.003Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-08-29T22:07:08Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Graph API will include usage metrics for Microsoft Copilot for Microsoft 365",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div>Start using the newest Windows 11 capabilities with helpful tips and actionable steps summarized in one place. Discover news about&nbsp;Microsoft Ignite 2025,&nbsp;update and driver management,&nbsp;Windows 11 productivity features, Microsoft Intune,&nbsp;AI capabilities, lifecycle milestones, security, and more.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>Improvements summarized in this <a href=\"https://aka.ms/WindowsNewsYouCanUse/October2025\" rel=\"noopener noreferrer\" target=\"_blank\">monthly recap</a> are already available. Note that some of them are rolling out gradually.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>You can start&nbsp;seeing improvements across various workflows in your organization with:&nbsp;</div><ul><li>Hotpatch updates that&nbsp;help you&nbsp;achieve security and compliance more quickly&nbsp;</li><li>A new&nbsp;policy to&nbsp;remove select provisioned&nbsp;in-box apps&nbsp;without custom imaging and complex scripts&nbsp;</li><li>New&nbsp;settings for Windows 11, version 25H2 in&nbsp;the Microsoft&nbsp;Intune Settings Catalog&nbsp;</li><li>10&nbsp;key&nbsp;Microsoft Intune&nbsp;capabilities that will help simplify&nbsp;the upgrade to Windows 11&nbsp;</li><li>New&nbsp;features and improvements released in the Windows 11, versions&nbsp;25H2 and 24H2 October 2025 non-security update&nbsp;</li><li>Additional improvements released in&nbsp;October&nbsp;</li></ul><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Read the new <a href=\"https://aka.ms/WindowsNewsYouCanUse/October2025\" rel=\"noopener noreferrer\" target=\"_blank\">monthly recap</a> and additional information to start benefiting from the latest improvements.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><div>Read the monthly recap at <a href=\"https://aka.ms/WindowsNewsYouCanUse/October2025\" rel=\"noopener noreferrer\" target=\"_blank\">Windows news you can use: October 2025</a>. It includes highlights from the following channels:&nbsp;</div><ul><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows-ITPro-blog\" rel=\"noopener noreferrer\" target=\"_blank\">Windows IT Pro Blog</a>&nbsp;</li><li><a href=\"https://techcommunity.microsoft.com/t5/microsoft-intune-blog/bg-p/MicrosoftEndpointManagerBlog\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Intune Blog</a>&nbsp;</li><li><a href=\"https://techcommunity.microsoft.com/category/microsoftintune/blog/intunecustomersuccess\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft&nbsp;Intune Customer Success Blog</a>&nbsp;</li><li><a href=\"https://www.microsoft.com/en-us/security/blog/?msockid=0a62a344849c68fe1290b07a85ff6967\" rel=\"noopener noreferrer\" target=\"_blank\">Microsoft Security Blog</a>&nbsp;</li><li><a href=\"https://support.microsoft.com/topic/windows-11-version-25h2-update-history-99c7f493-df2a-4832-bd2d-6706baa0dec0\" rel=\"noopener noreferrer\" target=\"_blank\">Windows 11 update history</a>&nbsp;</li><li><a href=\"https://support.microsoft.com/topic/windows-server-2025-update-history-10f58da7-e57b-4a9d-9c16-9f1dcd72d7d7\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Server update history</a></li></ul>",
       "ContentType": "html"
     },
@@ -5878,42 +6152,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting October 30th, 2025 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2510-october-30\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "ExternalLink",
-        "Value": "https://docs.microsoft.com/officeupdates/"
-      }
-    ],
-    "EndDateTime": "2025-11-14T01:15:24.34Z",
-    "HasAttachments": false,
-    "Id": "MC1181780",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-31T01:15:25.063Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-31T01:15:24.34Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Updates available for Microsoft 365 Apps for Current Channel",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We’re improving external collaboration in Microsoft Teams by enabling file attachments and Loop sharing in 1:1, group and meeting chats with external users. This update improves the collaboration experience for Files and Loop and add a new control for IT admins. Specifically, Files and Loop components will be shared automatically with external participants in the chat and won’t require any action by the sender by default. Additionally, Entra B2B Guests in your organization will be able to attach and share files from their home tenant’s OneDrive or SharePoint.&nbsp;</p><p>This change applies to Teams for Windows desktop, Mac desktop, and web and is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=492625\" target=\"_blank\">492625</a>.</p><p>Screenshot 1: <i>Files are automatically provisioned.</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a099fd76-7665-4ce8-b043-0f3331b55971\" style=\"width: 400px;\" alt=\"user settings\"></p><p>Screenshot 2: <i>Files shared have an external label and always open on Web.</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/27858dcc-8fd4-4e98-b1af-27dd3678887d\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>When this will happen:</b></b></p><ul><p></p>\n<li><b>Targeted Release:</b>&nbsp;Rollout begins late October 2025; expected to complete by mid-November 2025</li>\n<li><b>General Availability (Worldwide):</b>&nbsp;Rollout begins mid-January 2026</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><p>All Microsoft Teams users in your organization who participate in 1:1, group, or meeting chats with external users, including guest and Teams for Free users.</p><p><b>What will happen:</b></p><p>With this update: \n</p><ul><li>Unless the user chooses to share File and Loop by pasting links, external users in chat will be automatically provisioned to allow frictionless collaboration. \n</li><li>You can disable automatic provisioning and have the user change permissions manually by using policy controls.\n</li><li>If disabled, users will have to manually provision the file to users in the chat. \n</li><li>Guest users will be able to upload files from their home tenant’s OneDrive and SharePoint.\n</li><li>Files shared by external users will continue to display an <b>External&nbsp;</b>tag for clarity.\n</li><li>Loop components will now be rendered inside external chats in Teams.\n</li><li>Recipients will access File and Loop components as B2B guests within the resource tenant. If they are not already added as guests, they will need to give consent and might need to complete MFA, depending on your company’s B2B policy, before viewing the chat content.</li>\n</ul>\n\n<b>What you can do to prepare:</b>\n\n\n<ul><li>No action is required to enable the feature—it will be automatically available as the rollout progresses.</li><li>To disable the automatic provisioning behavior for files and loops set the <code>AutoShareFilesInExternalChats</code> attribute of <code>TeamsMessagingPolicy</code> to <code>Disabled</code>. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamsmessagingpolicy?view=teams-ps#-autosharefilesinexternalchats\" target=\"_blank\">Set-CsTeamsMessagingPolicy documentation</a>.\n</li><li>To provide seamless Loop access experience for external users, we recommend turning on Entra B2B Guest Access. Refer to: <a href=\"https://learn.microsoft.com/sharepoint/sharepoint-azureb2b-integration\" target=\"_blank\">Microsoft Entra B2B integration for SharePoint &amp; OneDrive - SharePoint in Microsoft 365 | Microsoft Learn</a>.</li><li>For configuration guidance, refer to: <a href=\"https://learn.microsoft.com/powershell/module/teams/set-csteamsfilespolicy?view=teams-ps#-filesharinginchatswithexternalusers\" target=\"_blank\">Set-CsTeamsFilesPolicy documentation</a> (documentation will be updated before rollout).</li></ul><p><b>Compliance considerations</b></p><p><b></b></p><p></p><table border=\"1\">\n<tbody><tr>\n<th>Compliance Area</th>\n<th>Impact</th>\n</tr>\n<tr>\n<td>New communication method between tenants</td>\n<td>Enables file sharing in external chats, expanding cross-tenant collaboration</td>\n</tr>\n<tr>\n<td>Admin control available</td>\n<td>Admins can disable the feature via PowerShell</td>\n</tr>\n<tr>\n<td>Can be controlled through Entra ID group membership</td>\n<td>Policy can be scoped using Entra ID groups</td>\n</tr>\n<tr>\n<td>Data processing changes</td>\n<td>Files shared in external chats are tagged and stored per existing Teams file sharing protocols</td>\n</tr>\n</tbody></table>",
       "ContentType": "html"
     },
@@ -6119,52 +6357,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview: eDiscovery admin content access restrictions when not in compliance with Entra policies",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Agents in OneDrive</b> lets you group files and folders together, so you can ask questions, get summaries, and find key details across your project—without having to reselect items each time. Agents are saved in your <i>OneDrive</i> and can be shared with your team, making collaboration and staying up to date easier. This new capability helps users work more efficiently by turning OneDrive into a workspace for AI-powered project assistance.</p>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=469503\" target=\"_blank\">469503</a>.</p>\n\n<b><b>When this will happen:</b></b>\n<p>General Availability (Worldwide): Rollout will begin in mid-November 2025 and is expected to complete by late November 2025.</p>\n\n<b><b>How this affects your organization:</b></b>\n<p><b>Who is affected:</b>&nbsp;Users with a Microsoft 365 Copilot license assigned to either work or school accounts (Microsoft 365 commercial or education tenants).&nbsp;</p>\n\n<p><b>What will happen:</b></p><p>Users will see a <b><i>new</i></b>&nbsp;<b>a<i>gent</i></b> option in <i>OneDrive</i>.</p><p><b>How to use Agents in <i>OneDrive</i>:</b></p>\n<ul>\n<li><b>Create your Agent:</b> When users first select the Copilot button in OneDrive or the <i><b>+Create or upload</b></i> button, a guided experience will introduce agents and walk users through how to create and use them. From there, users can <b>create an agent</b> from their OneDrive using the <i><b>+Create or upload</b></i> option and then select the <i><b>Agent </b></i>option (<i>screenshot 1</i>):</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/53247542-eddb-4e01-b18c-6ef89112482a/ff29ed67c25c8953d27a8a05f5f50941ff2f2587.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Alternatively, users can select the files to include in an agent, then choose <i style=\"font-weight: bold;\">Create an agent</i> from the Copilot toolbar dropdown menu (<i>screenshot 2</i>):</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/90744205-7e2a-4389-80a2-5e5b439a28d3/9ce6151e71f9a84389584c0bfa9bddc3c8e72d74.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li><b>Access your agent </b>as a file in <i>OneDrive</i> (.agent extension), filter by file type \"agent\" (<i>screenshot 3</i>):</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a93649a0-5d76-481b-8fe8-28bbc87393bb/4591383663c88f4e80f1c56c8e04ef833fbb9d97.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li><b>Open the agent </b>to ask questions and get answers from your documents.</li><li><b>Edit or update your agent</b> anytime to change its sources, name, or instructions (<i>screenshot 4</i>):</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c233097f-5862-4ff6-8433-a191d686ea1f/fadf9babbde9305e2a2d6214ee45e8293493e653.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li><b>Share your agent </b>with your team to collaborate and keep everyone informed (<i>screenshots 5 &amp; 6</i>):</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/235878ce-cd77-45c3-ac63-c0b9671c2153/1fcf3cc066b510d0f864d2cba5e12b74cb54626c.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p></ul><p></p><p></p><ul><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1646cc0e-244c-489e-97d9-188076043674/e790622c534cdfa1219b09b9fc78318c1c22e7fa.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<p>No admin action is required at this time.</p>\n<p>You may wish to:</p>\n<ul>\n<li>Communicate this change to helpdesk staff.</li>\n<li>Update internal documentation to reflect the new agent capabilities in <i>OneDrive</i>.</li>\n<li>Encourage users to explore agents to improve project efficiency using AI.</li>\n</ul>\n\n<b><b>Compliance considerations:</b></b>\n<table border=\"1\">\n<tbody><tr><th>Question</th><th>Answer</th></tr>\n<tr><td>Does the change store new customer data, if so, where, and is the data cached or permanently stored?</td><td>Yes. Agents are saved as .agent files in OneDrive and may contain metadata or instructions. These are stored permanently unless deleted by the user.</td></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data, if so summarize changes?</td><td>Yes. Agents use Microsoft Copilot to interact with and summarize user documents grouped within OneDrive.</td></tr>\n<tr><td>Does the change provide end users any new way of interacting with generative AI, if so how?</td><td>Yes. Users can ask questions and receive answers from grouped documents via agents, enabling a new AI-powered interaction model.</td></tr>\n<tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage Copilot licensing and access to OneDrive features, including agent creation and usage.</td></tr>\n<tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Users can choose whether or not to create and use agents in OneDrive.</td></tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "469503"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Agents in OneDrive, launching worldwide in November 2025, let Microsoft 365 Copilot users group files for AI-powered Q&A, summaries, and collaboration. Agents are saved as .agent files in OneDrive, editable and shareable with teams, enhancing project efficiency without admin action required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-12-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1181765",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-31T00:07:24.683Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-31T00:06:57Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft OneDrive for Business: Agents in OneDrive",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -10050,38 +10242,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to create offline profiles in the maker studio for Canvas apps in Power Apps. This feature will reach general availability on November 26, 2025.<br><br><b>How does this affect me?</b><br>This feature allows makers to create offline profiles for canvas mobile apps without needing to switch between Power Apps Studio and the Power Platform admin center. All app types get the latest updates that sync controls and improve the user experience.<br><br>Makers can create offline profiles in the app development flow through the app's settings menu. Both model-driven and canvas apps get new features to control synchronization and improve the user experience.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br>If you would like more information on this feature, please visit the <a target=\"_blank\" href=\"https://aka.ms/12185\">Create offline profiles in the maker studio for Canvas apps</a> article.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-13T15:00:29Z",
-    "HasAttachments": false,
-    "Id": "MC1171647",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-18T19:50:11.08Z",
-    "Services": [
-      "Power Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-13T15:00:29Z",
-    "Tags": [
-      "Updated message",
-      "New feature"
-    ],
-    "Title": "Power Apps - Create offline profiles in the maker studio for Canvas apps",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to enable intent group and agent group-based metrics and dimensions for Contact Center historical analytics in Dynamics 365 Contact Center. This feature will reach general availability on November 14, 2025.<br><br>\n<b>How does this affect me?</b><br>\nThis feature enhances the following reporting capabilities:<ul>\n    <li><b>Queue and User Group Metrics</b>: Display of metrics based on both Queue and User group, providing a dual perspective on performance. This approach allows for more detailed and actionable insights, helping supervisors to better understand and optimize operations.</li><br>\n    <li><b>Intent Group Integration</b>: Incorporating Intent groups into analytics facilitates a more segmented analysis, helping to identify specific areas of improvement within different business units, Intent groups, and individual intents.</li>\n</ul>\n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.",
       "ContentType": "html"
     },
@@ -11997,44 +12157,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Agent and bot support for Entra authentication in group chats",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p></p><p>We’re <b>improving the quarantine experience</b> in <i>Microsoft Defender for Office 365</i> to deliver greater clarity, visibility, and ease of use for administrators. These updates include backend enhancements for improved durability and consistency as well as experience updates to list messages in quarantine by individual recipients to simplify navigation and management.</p>\n\n<b>When this will happen:</b>\n<ul>\n<li><b>General Availability (Worldwide and GCC): </b>We will begin rolling out in early November 2025 and expect to complete by mid-December 2025.\n</li><li><b>General Availability (GCCH and DoD): </b>We will begin rolling out in early December 2025 and expect to complete by early January 2026.</li>\n</ul>\n\n<b>How this affects your organization:</b>\n<ul>\n<li><b>Who is affected:</b> Administrators managing quarantined messages in Microsoft Defender for Office 365.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Quarantined messages will now be listed by individual recipient instead of grouped by multiple recipients.</li>\n    <li>Backend enhancements will improve durability and consistency.</li>\n    <li>Existing quarantine release cmdlets will all remain functional. Administrators should be cognizant that `<b>ReleaseToAll</b>` now applies to a single user as aggregation has been removed. Admins must release messages for each intended mailbox individually.</li>\n    <li>No changes to end-user experience.</li></ul></li></ul><p><i>Screenshot 1 - <b>Updated </b>quarantine view showing <b>individual recipients listed separately</b> in the Recipient column:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/246243b9-3537-4b95-b438-4fcfaca3145f/1a3b905a51335e39e4f0f7e236884dd363e78119.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i></i></p><p><i>Screenshot 2 - <b>Existing</b> quarantine view showing <b>multiple recipients</b> in the Recipient column:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/81c2e6a8-afca-4f34-8a87-a1d293d53c8f/ac875dbc78ddaa73fe5b580e3b9d2fbb3435f56a.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><ul>\n  </ul>\n<p></p><ul>\n</ul>\n\n<p></p><p><b>What you can do to prepare:</b>\n</p><ul>\n<li>Review your organization’s quarantine release practices.</li>\n<li>Update any internal documentation to reflect the new recipient-level view.</li>\n<li>Communicate this change to helpdesk or support teams as needed.</li>\n<li>Learn more:&nbsp;<ul><li><a href=\"https://learn.microsoft.com/defender-office-365/mdo-about\">Microsoft Defender for Office 365 overview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/defender-office-365/quarantine-admin-manage-messages-files\" target=\"_blank\">Manage quarantined messages and files as an admin | Microsoft Defender for Office 365 | Microsoft Learn</a></li></ul></li></ul><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Defender for Office 365 is enhancing quarantine for admins by listing messages by individual recipients, improving backend durability, and maintaining existing cmdlets with adjusted functionality. Rollout starts November 2025. No changes affect end users. Admins should update practices and documentation accordingly."
-      }
-    ],
-    "EndDateTime": "2026-02-02T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1171845",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-13T23:25:21.423Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-13T23:25:16Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Defender for Office 365: Enhancing the quarantine experience for administrators",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -16555,10 +16677,6 @@
         "Value": "500702"
       },
       {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"500702\":[{\"RoadmapId\":500702,\"Platform\":\"Android\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-10-31T00:03:34.8427295Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500702,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-10-31T00:03:34.8427298Z\",\"LatestRing\":\"StandardRelease\"}]}"
-      },
-      {
         "Name": "Summary",
         "Value": "Microsoft Teams Rooms on Android with a Pro license can join town halls as attendees starting mid-October 2025. In-room participants can join via meeting ID, view captions, chat, and send reactions, enabling shared viewing without individual devices. No admin action is needed; update devices and inform organizers."
       },
@@ -20011,7 +20129,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-11-10T16:01:56.4884883Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-11-10T16:01:56.4884885Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-11-10T16:01:56.4884892Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-10T16:01:56.4884901Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-11-10T16:01:56.4884885Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815257Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-11-10T16:01:56.4884892Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-05-01T07:55:31.8815262Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-11-10T16:01:56.4884883Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-10T16:01:56.4884901Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -29187,49 +29305,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview Insider Risk Management: Public preview of progressive alert scoring",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Coming soon: You will be able to extend Microsoft Purview to the network layer by integrating Purview with your preferred Secure Access Service Edge (SASE) / Security Service Edge (SSE) solution. Through this integration, admins can intercept and inspect traffic flowing through the network layer to identify the presence of sensitive data. This enables admins to detect sensitive data shared with untrusted cloud applications through browsers, applications, APIs, add-ins, and more, including common generative AI, cloud storage, and content sharing services. The signals from inline discovery for the network further enrich Purview solutions including Data Security Posture Management (DSPM) and Insider Risk Management (IRM), helping admins better understand how to reduce data exfiltration risks to locations outside of their organization. Learn more: <a href=\"https://techcommunity.microsoft.com/blog/microsoft-security-blog/building-layered-protection-new-microsoft-purview-data-security-controls-for-the/4395071\" target=\"_blank\">Building layered protection: New Microsoft Purview data security controls for the browser &amp; network | Microsoft Community Hub</a> (March 24, 2025).\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=488807\" target=\"_blank\">488807</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out early May 2025 and expect to complete by late May 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out early December 2025 and expect to complete by late December 2025.\n</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout, using the new collection policies option in Purview under <i>Classifiers</i>, you will be able to create granular policies to detect sensitive data that’s being sent to 34,000+ unmanaged cloud applications by defining what sensitive information types you want to detect and for who. These policies are designed to discover relevant signals from data in transit without executing any enforcement actions on that data.  \n</p><p>After integrating with one of our already-integrated Secure Access Service Edge (SASE) / Security Service Edge (SSE) partners, data security admins will be able to centrally create and manage policies for the network from the Purview portal. \n</p><p><b>What you need to do to prepare:</b>\n</p><p> After rollout, the new policies and features will be available by default for you to enable and configure. These integrations require action by your Purview Data Security and Compliance admins to enable discovery in your organization before any signals will start to be collected, including configuring a SASE/SSE integration and creating a collection policy that targets unmanaged cloud apps. \n</p><p>Also, your global admin will need to activate Purview pay-as-you-go meters to enable this capability. We will update this message in May 2025 with pricing details.\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. You may want to notify your users about this change and update any relevant documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "488807"
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-04-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1056265",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-04-15T23:24:51.517Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-04-15T23:24:26Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview: New data security controls for detecting sensitive data shared over the network",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
