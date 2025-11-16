@@ -3126,7 +3126,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"523207\":[{\"RoadmapId\":523207,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-15T11:02:22.7872554Z\",\"LatestRing\":null},{\"RoadmapId\":523207,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-15T11:02:22.7872555Z\",\"LatestRing\":null}],\"523208\":[{\"RoadmapId\":523208,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-15T11:02:22.7872591Z\",\"LatestRing\":null},{\"RoadmapId\":523208,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-15T11:02:22.7872593Z\",\"LatestRing\":null}]}"
+        "Value": "{\"523207\":[{\"RoadmapId\":523207,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-16T03:25:33.1083127Z\",\"LatestRing\":null},{\"RoadmapId\":523207,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-16T03:25:33.1083128Z\",\"LatestRing\":null}],\"523208\":[{\"RoadmapId\":523208,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-16T03:25:33.1083098Z\",\"LatestRing\":null},{\"RoadmapId\":523208,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-16T03:25:33.1083101Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12260,99 +12260,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "Due to reports of unintended token consumption in the Copilot Service workspace app, we have modified the default state of intent-based to be disabled.<br><br><b>How does this affect me? </b><br>All existing Intent-based suggestions customers will need to manually enable the feature.<br><br><b>What action do I need to take? </b><br>To reenable intent-based suggestion functionality: <ol><li>Go to the Copilot Service workspace > Workspaces > Experience profiles</li> <ol type=\"A\"><li>Select an editable experience profile (no lock symbol)</li> <li>Scroll down to configuration</li> <li><b>There are two situations that may be encountered due to delayed uptake of solutions:</b></li><ol type=\"I\"> <li>Intent-based suggestions shows false.</li> <ol><li>Simply enable and save, the feature will become available on CSW refresh.</li></ol> <li>Intent-based suggestions shows true but is not showing up in the AICopilot pane of the CSW page.</li> <ol><li>Toggle the feature to off, then toggle it back on to \"On\".</li> <li>Feature will now display again in the AICopilotPane.</li></ol></ol></ol></ol> For experience profiles, please note that the above steps must applied to all agents in which you intend to enable intent-based suggestions for.",
-      "ContentType": "html"
-    },
-    "Category": "preventOrFixIssue",
-    "Details": [],
-    "EndDateTime": "2025-11-15T23:05:06Z",
-    "HasAttachments": false,
-    "Id": "MC1173185",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-15T23:06:20.683Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-15T23:05:06Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Dynamics 365 Customer Service - Intent-based suggestions has been disabled",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing enhanced supervisor actions in Dynamics 365 Contact Center. This feature will reach general availability on November 14, 2025.<br><br> \n\n<b>How does this affect me?</b><br> \nThis feature enables contact center supervisors to manage operations by assigning and transferring cases or chats. Key functionality of this feature includes:<ul><li><b>Assign Open Case/Chat</b>: Supervisors can assign open cases or chats to available agents.</li> \n<li><b>Transfer Active Case/Chat</b>: Supervisors can transfer active cases or chats to another agent.</li> \n<li><b>Reassign Case/Chat to Another Queue</b>: Supervisors can reassign cases or chats to different queues.</li> \n<li><b>Release Case to Queue</b>: Supervisors can release cases back to the queue, making them available for reassignment.</li></ul> \n\n<b>What action do I need to take?</b><br> \nThis message is for awareness, and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-15T20:16:04Z",
-    "HasAttachments": false,
-    "Id": "MC1173157",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-15T20:17:31.087Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-15T20:16:04Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Contact Center - Enhanced supervisor actions (Transfer, assign)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing <a target=\"_blank\" href=\"https://aka.ms/ADO12763\">new tooling to help troubleshoot VNET (Virtual Network) configuration</a> via a new PowerShell module to troubleshoot issues for virtual networks in Microsoft Power Platform. This feature will reach general availability on October 31, 2025.<br><br>PowerShell module: <a target=\"_blank\" href=\"https://aka.ms/ADO12763_1\">Microsoft.PowerPlatform.EnterprisePolicies</a><br><br><b>How does this affect me?</b><br>The module includes several functions to diagnose and troubleshoot issues that are related to virtual network configurations. Some of the key functions are as follows:<ul><li><a target=\"_blank\" href=\"https://aka.ms/ADO12763_2\">Get-EnvironmentRegion</a>: Retrieves the region of the specified Power Platform environment</li><li><a target=\"_blank\" href=\"https://aka.ms/ADO12763_3\">Get-EnvironmentUsage</a>: Provides information about the usage of the specified Power Platform environment</li><li><a target=\"_blank\" href=\"https://aka.ms/ADO12763_4\">Test-DnsResolution</a>: Tests the DNS resolution for the specified domain name</li><li><a target=\"_blank\" href=\"https://aka.ms/ADO12763_5\">Test-NetworkConnectivity</a>: Tests the network connectivity between the Power Platform environment and the specified virtual network</li></ul><b>What do I need to do to prepare?</b><br>Admins should review the updated documentation if they have Power Platform VNET configured or planning to enable it. No UI controls are available at this time.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-15T20:05:54Z",
-    "HasAttachments": false,
-    "Id": "MC1173154",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-15T20:07:34.847Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-15T20:05:54Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Platform – New tooling is available to help troubleshoot VNET (Virtual Network) configuration",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div>Use the newly published guide and tools to start updating your organization’s expiring Secure Boot certificates. As the 2011 certificate authorities (CAs) start expiring in June 2026, 2023 CAs are required. Updated CAs allow Secure Boot to continue preventing malware early in the startup sequence. New resources are available for you to start monitoring, deploying, and troubleshooting Secure Boot CAs. These include the deployment playbook, new registry keys, Windows Event Log, and Windows Configuration System (WinCS) APIs.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><ul><li>The deployment guide, new registry keys, and WinCS are available today.&nbsp;</li><li>The 2023 Secure Boot CAs are rolling out gradually as part of Windows monthly updates starting with the October 2025 security update.&nbsp;</li><li>Additional tools will be available soon.&nbsp;</li><li>The 2011 CAs start expiring beginning in June 2026.&nbsp;</li></ul><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Devices manufactured before 2012 and those that don’t already have new certificates need to be updated with the 2023 CAs. We recommend taking measures well before the 2011 CAs start expiring.&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>If your organization sends diagnostic data and lets Microsoft manage your updates, your devices will automatically get updated CAs with the monthly Windows updates. You can also opt in to let Microsoft determine high-confidence devices that will get these CAs first.&nbsp;&nbsp;</div><div>&nbsp;</div><div>If you prefer to deploy these CAs yourself, follow the deployment playbook to monitor, deploy, and troubleshoot Secure Boot updates. You can use new registry keys, Windows Event Log, and WinCS to do so.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li>Find the deployment playbook in the updated <a href=\"https://support.microsoft.com/topic/secure-boot-certificate-updates-guidance-for-it-professionals-and-organizations-e2b43f9f-b424-42df-bc6a-8476db65ab2f\" rel=\"noopener noreferrer\" target=\"_blank\">Secure Boot certificate updates: Guidance for IT professionals and organizations.</a>&nbsp;&nbsp;</li><li>Learn how to use new <a href=\"https://support.microsoft.com/topic/registry-key-updates-for-secure-boot-windows-devices-with-it-managed-updates-a7be69c9-4634-42e1-9ca1-df06f43f360d\" rel=\"noopener noreferrer\" target=\"_blank\">registry keys</a> to monitor, deploy, and troubleshoot Secure Boot CAs.&nbsp;</li><li>Learn how to use new <a href=\"https://support.microsoft.com/topic/windows-configuration-system-wincs-apis-for-secure-boot-d3e64aa0-6095-4f8a-b8e4-fbfda254a8fe\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Configuration System (WinCS) APIs</a> to deploy Secure Boot CAs.&nbsp;</li><li>Learn how to use <a href=\"https://support.microsoft.com/topic/secure-boot-certificate-updates-guidance-for-it-professionals-and-organizations-e2b43f9f-b424-42df-bc6a-8476db65ab2f#bkmk_monitoring_event_logs\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Event Log</a> to monitor Secure Boot CA updates.&nbsp;&nbsp;</li><li>Bookmark <a href=\"https://support.microsoft.com/topic/windows-secure-boot-certificate-expiration-and-ca-updates-7ff40d33-95dc-4c3c-8725-a9b95457578e\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Secure Boot certificate expiration and CA updates</a> as the landing page to the most up-to-date information.</li></ul>",
       "ContentType": "html"
     },
@@ -12372,37 +12279,6 @@
       "Admin impact"
     ],
     "Title": "Secure Boot certificate deployment guide and tools",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to filter out unwanted rows from your source data directly in Dynamics 365 Customer Insights - Data. This feature reached general availability on October 3, 2025.<br><br>\n<b>How does this affect me? </b><br>\nYou can improve the quality of your unified customer profiles and insights by filtering out unwanted rows from your source data directly. You don't need to filter out unwanted data in downstream processes, and you can apply row filters directly to any source table you ingest, reducing the data scope to just what you need. <br><br>\nKey benefits include:<ul>\n<li><b>Improved processing time: </b>Filtering out unnecessary data like old or obsolete rows can reduce the time required to process the data. Filtering out a significant percentage of unwanted rows can substantially improve performance. </li>\n<li><b>Simplified data configuration: </b>Removing unwanted data at the source eliminates the need to create rules in multiple locations to avoid incorporating the unwanted data. Unification, segments, measures, activities, and predictive insights will use the filtered source data. </li>\n<li><b>Improved data quality: </b>Removing old or obsolete data at the source prevents it from being accidentally included in your results, such as when a new team member creates a segment that includes obsolete data. </li>\n </ul>\n<b>What action do I need to take? </b><br>\nThis message is for awareness, and no action is required.<br><br>\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/12084/filter-rows-columns-source-data-improved-processing\" target=\"_blank\">Filter rows from source data for better processing</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-15T13:50:00Z",
-    "HasAttachments": false,
-    "Id": "MC1173012",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-15T13:50:50.32Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-15T13:50:00Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Customer Insights – Data – Filter rows from source data for better processing",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18283,37 +18159,6 @@
       "User impact"
     ],
     "Title": "Microsoft Viva Amplify and SharePoint News: Videos will play in Microsoft Outlook instead of web browser",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to Analyze business impact of Copilot Studio agents in Viva Insights advanced insights in Microsoft Copilot Studio. This feature provides an aggregated view for Insights Analysts to understand how their copilot studio agents perform and what business value they provide. This feature will reach general availability on October 15, 2025.<br><br><b>How does this affect me?</b><br>Insights Analysts will receive an aggregated business impact report for all their published custom copilot agents in Viva Insights. This will allow users to drill down to specific agent level reports to understand usage and value of each agent. The Copilot Studio agent report in Viva Insights Advanced Insights feature is enabled by default in Copilot Studio. Environment admins can disable it from the Power Platform Admin center.<br><br>Below is a description of how the integration works:<ul><li>Copilot Studio sends published custom copilot agent data and aggregated metrics on a daily basis to M365.</li><li>Viva Insights uses this data to generate an aggregated tenant level report.</li><li>The report includes aggregated copilot agents' usage data, business impact and ROI analysis.</li><li>Analysts can drill down to specific agents to view detailed usage and ROI information such as estimated hours saved, revenue increase, cost reduction, etc.</li></ul><b>What action do I need to take?</b><br> This message is for awareness and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-15T21:41:00Z",
-    "HasAttachments": false,
-    "Id": "MC1127831",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-19T18:54:13.04Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-02T21:41:18Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Copilot Studio - Analyze business impact of copilot studio agents in Viva Insights advanced insights - New date",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
