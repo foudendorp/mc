@@ -1,0 +1,38 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p><b><b>Introduction</b></b></p>\n<p>The<b> Workforce Insights agent</b> is a Microsoft 365 Copilot agent designed to help leaders and their support staff make informed, strategic decisions about organizational structure, staffing, and skills. Starting November 24, 2025, the <b>Workforce Insights agent</b> will be available in <b>Frontier </b>and can be found in the Microsoft 365 Copilot agent store. Additional features will roll out over the following month.</p>\n<p>The <b>Frontier </b>program provides customers early, hands-on access to experimental Microsoft 365 Copilot innovations in their own environment. Features designated as “Frontier” are previews intended for evaluation and feedback. Availability and capabilities may change as these features are still in development.</p>\n<p>The <b>Workforce Insights agent</b> uses two main data sources:</p>\n<ul>\n<li><b>Organizational data:</b> Enables insights into current staffing and team structure.</li>\n<li><b>People Skills data:</b> Powers skill-based queries and helps users find colleagues with specific skills.</li>\n</ul>\n<p>Customers with Microsoft 365 Copilot and the Microsoft 365 Copilot in Productivity Apps service plan will see the <b>Workforce Insights</b>&nbsp;<b>(Frontier)</b> available to deploy in the <b>Copilot Control Center </b>within the Microsoft 365 admin center.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview (Worldwide):</b> Begins mid-November 2025 and completes by late March 2026.</li>\n<li><b>General Availability (Worldwide):</b> Begins late March 2026 and completes by late December 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> Organizations with Microsoft 365 Copilot licenses and the <b>Microsoft 365 Copilot in Productivity Apps</b>&nbsp;service plan.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li><b>Workforce Insights (Frontier)</b> will be available for deployment in the Microsoft 365 admin center.</li>\n<li>The agent can be installed by all M365 Copilot licensed users within Copilot or Teams.</li>\n<li>Requires at least 50 Copilot licenses for full functionality.</li>\n<li>Users will be able to:\n<ul>\n<li>Understand current team staffing.</li>\n<li>Access guidance and best practices for workforce planning.</li>\n<li>Identify skills and receive recommendations on organizational structure.</li>\n<li>Find team members and filter by attributes such as level, location, and title.</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p><p>You can manage the deployment of the Workforce Insights agent using the following controls:</p><ul><li><b>Deploy the agent:</b> Install on behalf of users by accepting Microsoft Entra permissions.</li>\n<li><b>Restrict access:</b> Limit availability to specific users or groups.</li>\n<li><b>Remove/block the agent:</b> Completely block or remove from inventory if needed.</li>\n<li><b>Set up prerequisites:\n</b><ul>\n<li><b>Organizational data</b> can be uploaded or refreshed using the <a href=\"https://learn.microsoft.com/viva/organizational-data\" target=\"_blank\">Organizational Data in Microsoft 365 service</a>. As an <b>Organizational Data admin</b>, you can upload public attributes and customer attributes that will be powering the Workforce Insights agent \n</li><li><b>People Skills</b> needs to be set up in your tenant as a pre-requisite for the Workforce Insights agent to respond to prompts that require skills data. Review setup documentation: <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-overview\" target=\"_blank\">Overview of People Skills | Microsoft Learn</a>.</li><li>Users can request delegate access from managers via the Workforce Insights <b>Manage data access</b> page. Starting December 8, 2025, if you would like to disable the ability for the user to assign delegates you can control access to this feature in M365 using PowerShell with the module name <code>WorkforceInsights</code>.</li><li><b>Licensing:</b> Ensure at least 50 Copilot licenses are active.</li></ul></li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#settings-for-agents\" target=\"_blank\">Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn</a></p><p></p><ul></ul><p></p><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "The Workforce Insights agent, launching November 24, 2025, in Frontier for Microsoft 365 Copilot, helps leaders analyze staffing, skills, and organizational structure using organizational and people skills data. Available to organizations with 50+ Copilot licenses, it supports deployment control and requires setup of data prerequisites."
+    }
+  ],
+  "EndDateTime": "2027-01-31T08:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1187675",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2025-11-18T16:17:15.48Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-11-18T16:15:09Z",
+  "Tags": [
+    "New feature",
+    "User impact",
+    "Admin impact"
+  ],
+  "Title": "Introducing Workforce Insights agent in Frontier for Microsoft 365 Copilot",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
