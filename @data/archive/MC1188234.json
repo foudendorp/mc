@@ -1,0 +1,46 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>We’re introducing <b>user-level (federated) connectors</b> in <i>Microsoft 365 Copilot</i>, enabling users to securely connect external apps such as Notion, Canva, or Hubspot directly within Copilot experiences like Researcher. Unlike traditional indexed connectors, federated connectors use the Model Context Protocol (MCP) to access data in real time. This allows users to fetch and read information from connected sources using their own credentials, while maintaining admin-level visibility, control, and governance in the Microsoft 365 admin center. </p><p>This feature will be available on the web platform.</p><p>A Microsoft 365 Copilot license is required to use this feature.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=501585\" target=\"_blank\">501585</a>.</p>\n\n<b>When this will happen:</b>\n<p>Public Preview: Rollout will begin by November 15, 2025.</p>\n\n<b>How this affects your organization:</b>\n<ul>\n<li><b>Who is affected:</b> All tenants using Microsoft 365 Copilot with access to the Microsoft 365 admin center.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>End users will be able to connect to Microsoft-published federated connectors (such as Canva, Notion, Intercom) directly within Copilot experiences to search or fetch live data.</li><li>Admins will have visibility and control from the <i><b>Copilot &gt; Connectors</b></i> section, where they can<ul><li>View all default user-level connectors enabled by Microsoft.</li><li>Disable any connectors that are not relevant or compliant for their organization.</li><li>Use staged rollout to enable these connectors for a limited group of users </li></ul></li><li>Admin can also create and manage custom user-level connectors for internal or specialized data sources using an MCP endpoint.</li></ul></li></ul><p><i>Screenshot 1 - Admin experience:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e1015547-bfd7-47ba-a2d2-8cc5aca16492/1e38cbe2927023b3e6d61b0294052e199838a656.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 2 - User experience:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c240befe-2458-4716-af9d-33f81134d98e/2ca49f700c381c72767c7aa5f447309b1b9e013c.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><ul>\n      </ul>\n    <p></p><ul>\n</ul>\n\n<b>What you can do to prepare:</b>\n<ul>\n<li>Review the list of default connectors that will appear in your tenant under <i><b>Copilot &gt; Connectors &gt; Your Connections</b></i>.</li>\n<li>Ensure all available connectors align with your organization’s data and compliance policies. Disable any that do not meet requirements directly from the admin center.</li>\n<li>For custom connectors, configure your MCP endpoints with the required tools (search and fetch) and proper authentication (OAuth2).</li>\n<li>Communicate this change to helpdesk staff and update internal documentation as needed.</li>\n</ul>\n\n<b>Compliance considerations:</b>\n<table border=\"1\">\n<tbody><tr><th>Question</th><th>Answer</th></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. Federated connectors allow Copilot to fetch live data using user credentials, introducing new real-time AI interactions.</td></tr>\n<tr><td>Does the change add any integration to 3rd party software products, and if so what?</td><td>Yes. It enables connections to external apps such as Notion, Slack, Figma, GitHub, and Gmail.</td></tr>\n<tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage connector availability and rollout via the Microsoft 365 admin center, and staged rollout can be configured using Entra ID group membership.</td></tr>\n<tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Users can connect or disconnect federated connectors within Copilot experiences.</td></tr>\n</tbody></table>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [
+    {
+      "Name": "RoadmapIds",
+      "Value": "501585"
+    },
+    {
+      "Name": "Summary",
+      "Value": "Microsoft 365 Copilot introduces user-level federated connectors, allowing users to securely connect external apps like Notion and Canva in real time using their credentials. Admins can manage, control, and stage rollouts of these connectors via the Microsoft 365 admin center. Public preview starts November 15, 2025."
+    },
+    {
+      "Name": "Platforms",
+      "Value": "Web"
+    }
+  ],
+  "EndDateTime": "2025-12-15T08:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1188234",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-11-19T23:44:19.013Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-11-19T23:43:37Z",
+  "Tags": [
+    "New feature",
+    "User impact",
+    "Admin impact"
+  ],
+  "Title": "Microsoft 365 Copilot: Manage and deploy user-level connectors in Microsoft 365 admin center",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
