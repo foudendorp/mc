@@ -1,0 +1,37 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p><p><b><b>Introduction:</b></b></p>\n<p>We’re introducing a new capability that gives IT admins visibility about controls to manage Gen AI apps within their organization. Admins can use Microsoft Edge policies or other Microsoft 365 controls to manage or block access to these tools. This will ensure Gen AI tools comply with organization's policy for data control and protection. It also helps them discover Copilot Chat—a secure, compliant, and cost-included alternative.</p>\n\n<b><b>When this will happen:</b></b></p><p><ul><li><b>Targeted Release (Worldwide):</b> Late November 2025</li>\n  <li><b>General Availability (Worldwide):</b>&nbsp;December 2025</li>\n</ul>\n\n<b><b>How this affects your organization:</b></b></p><p>\n<ul>\n  <li><b>Who is affected:</b> <ul><li>Admins with Global Administrator or Edge Administrator roles; Tenants with Microsoft 365 E5, E3, Business Premium, and other qualifying SMB and Enterprise licenses</li></ul></li>\n  <li><b>What will happen:</b>\n    <ul>\n      <li>A new recommendation will appear on the Microsoft Admin Center (MAC) homepage</li>\n      <li>Admins click on recommendation to learn more about managing Gen AI access in their organization.</li>\n      <li>Admins can apply Edge policies to block non-Microsoft LLMs</li>\n      <li>Copilot Chat will be offered as a secure, compliant alternative</li>\n      <li>The feature is opt-in and requires admin configuration</li>\n    </ul>\n  </li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b></p><p><ul>\n  <li>Confirm that your tenant has a qualifying SMB or Enterprise license</li>\n  <li>Ensure Global Admin or Edge Admin roles are assigned to appropriate personnel</li>\n</ul>\n\n<b><b>Compliance considerations:</b></b></p><p><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Compliance Area</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>Introduces or significantly modifies AI/ML or agent capabilities that interact with or provide access to customer data (for E5 customers only)</td>\n    <td>Yes - The feature surfaces usage of Gen AI tools and recommends blocking them, while promoting Copilot Chat as a compliant alternative.</td>\n  </tr>\n  <tr>\n    <td>Provides end users any new way of interacting with generative AI</td>\n    <td>Yes - Suggestion to use Copilot Chat as a secure, compliant LLM experience that comes with no extra cost</td>\n  </tr>\n</tbody></table>\n</p>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "Starting late November 2025, admins with qualifying Microsoft 365 licenses can manage or block non-Microsoft generative AI tools using Edge policies via a new Microsoft Admin Center recommendation. Copilot Chat is offered as a secure, compliant alternative. The feature is opt-in and requires admin setup."
+    }
+  ],
+  "EndDateTime": "2026-02-23T08:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1190207",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-11-26T23:38:01.963Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-11-26T23:37:29Z",
+  "Tags": [
+    "New feature",
+    "Admin impact"
+  ],
+  "Title": "Manage Non-Microsoft Generative AI Usage Across Your Organization",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
