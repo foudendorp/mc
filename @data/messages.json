@@ -13539,37 +13539,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We have scheduled an update for the Power Platform admin center that changes how Dataverse security role fields are populated in child business units. The <b>ModifiedOn</b> and <b>ModifiedBy</b> Dataverse security role fields in child business units will now inherit the value set in the parent business unit. This change will be deployed on October 31, 2025.<br><br><b>How does this affect me?</b><br>Previously, when security roles were inherited from the parent business unit into the child business units, the <b>ModifiedOn</b> and <b>ModifiedBy</b> fields of the child business units were not populated.<br><br><b>What action do I need to take?</b><br>Review your process or report if you are reporting on these fields and make the necessary changes.<br><br>For more information, please review the <a target=\"_blank\" href=\"https://aka.ms/ADO12621\">Security roles and privileges</a> documentation.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-27T19:38:44Z",
-    "HasAttachments": false,
-    "Id": "MC1180845",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-27T19:39:21.117Z",
-    "Services": [
-      "Power Platform"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-27T19:38:44Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Power Platform admin center – Updates for security roles in child business units",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div><b>IMPORTANT</b>: This notice is only relevant for environments where:</div><ul><li><a href=\"https://learn.microsoft.com/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Server Update Services (WSUS)</a> is used to deploy Windows security updates to Windows Server devices.</li><li>Scan Cab is used to check for update compliance.</li><li>The October 2025 Scan Cab was deployed before 8:54 PM PT on October 24, 2025.</li></ul><div>&nbsp;</div><div>An updated version of the October 2025 Scan Cab was made available at 8:54 am PT on October 24, 2025. This Scan Cab includes new metadata corresponding to new updates for the following versions of Windows Server:</div><div class=\"ql-indent-1\">•\tWindows Server 2025 (<a href=\"https://support.microsoft.com/topic/kb5070762-safe-os-dynamic-out-of-band-update-for-windows-11-version-24h2-and-25h2-and-windows-server-2025-october-20-2025-b92451e7-99c1-4ef8-ad12-b3f6bf381d8d\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070762</a>; <a href=\"https://support.microsoft.com/topic/5070881\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070881</a>)&nbsp;</div><div class=\"ql-indent-1\">•\tWindows Server, version 23H2 (<a href=\"https://support.microsoft.com/topic/5070879\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070879</a>)&nbsp;</div><div class=\"ql-indent-1\">•\tWindows Server 2022 (<a href=\"https://support.microsoft.com/topic/5070884\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070884</a>)&nbsp;</div><div class=\"ql-indent-1\">•\tAzure Automanage for Windows Server 2022 with Hotpatch (<a href=\"https://support.microsoft.com/topic/5070892\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070892</a>)&nbsp;</div><div class=\"ql-indent-1\">•\tWindows Server 2019 (<a href=\"https://support.microsoft.com/topic/5070883\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070883</a>)&nbsp;</div><div class=\"ql-indent-1\">•\tWindows Server 2016 (<a href=\"https://support.microsoft.com/topic/5070882\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070882</a>)&nbsp;</div><div class=\"ql-indent-1\">•\tWindows Server 2012 R2 (<a href=\"https://support.microsoft.com/topic/5070886\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070886</a>)&nbsp;</div><div class=\"ql-indent-1\">•\tWindows Server 2012 (<a href=\"https://support.microsoft.com/topic/5070887\" rel=\"noopener noreferrer\" target=\"_blank\">KB5070887</a>)&nbsp;</div><div>&nbsp;</div><div>The new Microsoft updates for these Windows Server versions,&nbsp;released October 24, 2025, included additional protections to address <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59287\" rel=\"noopener noreferrer\" target=\"_blank\"><u>CVE-2025-59﻿287</u></a>. See the additional information section of this message for details.</div><div><br></div><div><b>How this affects your organization:</b></div><div>IT administrators who downloaded the Scan Cab before 8:54 PM PT on October 24, 2025, should re-acquire and re-deploy it if the Scan Cab is used to assess updates for environments where WSUS is used to deploy Windows security updates to Windows Server devices.</div><div>&nbsp;</div><div>No action is required on environments where Scan Cab is not employed and does not use WSUS to Windows Server devices. However, please note that there might be non-Microsoft applications which utilize Scan Cab. Review the documentation for any software and update deployment tools which might be in use for your organization, to understand if this is applicable in your environment.</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><div>Administrators can re-deploy the updated Scan Cab via their usual processes. For detailed guidance, see the Additional Information section below.</div><div>&nbsp;</div><div><b>Additional information:</b></div><ul><li><a href=\"https://go.microsoft.com/fwlink/?LinkID=74689\" rel=\"noopener noreferrer\" target=\"_blank\">Updated Scan Cab: Download the new Scan Cab here</a></li><li><a href=\"https://learn.microsoft.com/windows/release-health/windows-message-center#3668\" rel=\"noopener noreferrer\" target=\"_blank\">Take Action: Out-of-band update to address a vulnerability in Windows Server Update Services (WSUS)</a></li><li><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59287\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Server Update Service (WSUS) Remote Code Execution Vulnerability</a></li><li><a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/announcing-a-smaller-wsus-scan-cab/ba-p/2928256?msclkid=256145ccd0c011ec9266b53af8d0aca1\" rel=\"noopener noreferrer\" target=\"_blank\">Announcing a smaller WSUS Scan Cab - Microsoft Tech Community</a>: Learn more about WSUS and the Scan Cab process</li><li><a href=\"https://learn.microsoft.com/windows/win32/wua_sdk/using-wua-to-scan-for-updates-offline?tabs=vbscript\" rel=\"noopener noreferrer\" target=\"_blank\">Using WUA to Scan for Updates Offline - Win32 apps | Microsoft Docs</a>: Windows Update Agent (WUA) can be used to scan computers for security updates without connecting to Windows Update</li><li><a href=\"https://learn.microsoft.com/windows-server/administration/windows-server-update-services/manage/wsus-and-the-catalog-site\" rel=\"noopener noreferrer\" target=\"_blank\">WSUS and the Catalog Site | Microsoft Docs</a>: The Catalog Site used by WSUS to import updates and drivers</li></ul>",
       "ContentType": "html"
     },
@@ -33055,37 +33024,6 @@
       "Admin impact"
     ],
     "Title": "TPM 2.0 – a necessity for a secure and future-proof Windows 11",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<div>Enhance your organization’s Windows security with Administrator protection through Windows Hello. Available to Windows Insiders first, it will verify your identity before allowing any action that requires administrator privileges. This minimizes the risk of the user making a system-level change by mistake. Additionally, it helps prevent malware from making silent changes to the system without the user knowing. You can configure Administrator protection using Group Policy, through the settings catalog in Microsoft Intune, or with other tools coming soon. Learn more in <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/administrator-protection-on-windows-11/4303482\" rel=\"noopener noreferrer\" target=\"_blank\">Administrator protection on Windows 11</a>.&nbsp;</div><div>&nbsp;</div><div><b>When will this happen:</b>&nbsp;</div><div>Administrator protection is available to Windows Insiders at this point. It’s ready to be enabled via Group Policy and settings catalog in Microsoft Intune. It’s coming soon to other management tools.&nbsp;</div><div>&nbsp;</div><div><b>How this will affect your organization:</b>&nbsp;</div><div>Administrator protection helps to protect your users while still allowing them to perform necessary functions with just-in-time administrator privileges. The main benefits include enhanced security, granular user control, and malware reduction.&nbsp;&nbsp;</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b>&nbsp;</div><div>Check if this feature is available to you via the <a href=\"https://blogs.windows.com/windows-insider/2024/11/01/announcing-windows-11-insider-preview-build-22635-4440-beta-channel/\" rel=\"noopener noreferrer\" target=\"_blank\">Windows Insider Program</a>. If so, enable Administrator protection using Group Policy, through the settings catalog in Microsoft Intune, or with other tools coming soon. Then restart the devices.&nbsp;</div><div>&nbsp;</div><div>Learn more about Administrator protection by reading Additional information.&nbsp;</div><div>&nbsp;</div><div><b>Additional information:</b>&nbsp;</div><ul><li><a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/administrator-protection-on-windows-11/4303482\" rel=\"noopener noreferrer\" target=\"_blank\">Administrator protection on Windows 11</a></li><li><a href=\"https://learn.microsoft.com/windows/client-management/mdm/policy-csp-localpoliciessecurityoptions#useraccountcontrol_behavioroftheelevationpromptforadministratorprotection\" rel=\"noopener noreferrer\" target=\"_blank\">Administrator protection in the LocalPoliciesSecurityOptions CSP</a></li><li><a href=\"https://blogs.windows.com/windows-insider/2024/11/01/announcing-windows-11-insider-preview-build-22635-4440-beta-channel/\" rel=\"noopener noreferrer\" target=\"_blank\">Modernized Windows Hello for Windows Insiders (Beta Channel)</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2025-11-27T17:59:19.133Z",
-    "HasAttachments": false,
-    "Id": "MC943561",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2024-11-27T17:59:20.213Z",
-    "Services": [
-      "Windows"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-11-27T17:59:19.18Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Administrator protection on Windows 11",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
