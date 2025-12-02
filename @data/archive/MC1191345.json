@@ -1,0 +1,37 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p>Beginning with the January 2026 Windows security update, quality updates can be installed during the out-of-box experience (OOBE) for devices that are on Windows 11, version 22H2 or later. You can enable and manage these updates through Intune’s <b>Install Windows updates</b> setting in the Enrollment Status Page (ESP).</p><p><b>How this will affect your organization:</b>\n</p><p>If you are using Windows Autopilot and ESP and have configured the <b>Install Windows updates</b> setting to “Yes”, updates will be delivered during OOBE. When configured to “No”, updates will be prevented during OOBE. Additionally, update rings settings (if assigned, as defined below) will be delivered during the ESP and the quality updates page will be shown while the update is applied after ESP completes. Refer to <a href=\"https://learn.microsoft.com/intune/intune-service/enrollment/windows-enrollment-status\" target=\"_blank\">Set up the Enrollment Status Page</a>&nbsp;for more details, requirements, and limitations.</p><p><b>Note:</b> Devices enrolled with Windows Autopilot device preparation or ESP disabled cannot get Windows updates during OOBE, so they do not receive the latest security updates at that stage. Normal Windows update checks resume after OOBE is finished.</p><p><b>What you need to do to prepare:</b>\n</p><p>Review your ESP profile and ensure <b>Install Windows updates</b> setting is configured based on your organization’s requirements. To manage quality updates installed during OOBE for devices using ESP: \n</p><ol><li>In the ESP profile, set Install Windows updates to “Yes” to allow updates or “No” to prevent updates.</li><li>(Recommended) Use or create an <a href=\"https://learn.microsoft.com/intune/intune-service/protect/windows-10-update-rings\" target=\"_blank\">update rings policy</a> to manage pause and deferral settings for quality updates. Quality updates installed during OOBE will follow this policy.</li><li>Assign the ESP profile and the update rings policy to “All devices” or device groups with devices registered for Windows Autopilot.</li></ol><p>Update your documentation and user guidance as needed.</p><p><b>Related information:</b></p><p><a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/get-ready-for-windows-quality-updates-out-of-the-box/4434498\" target=\"_blank\">Get ready for Windows quality updates out of the box</a></p><p>\n</p>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "Starting January 2026, Windows 11 (22H2+) devices can install quality updates during out-of-box experience (OOBE) via Intune’s Enrollment Status Page (ESP). Configure the \"Install Windows updates\" setting in ESP and use update rings to manage updates. Devices without ESP or Autopilot preparation won't update during OOBE."
+    }
+  ],
+  "EndDateTime": "2026-02-28T08:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1191345",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-12-01T23:55:01.41Z",
+  "Services": [
+    "Microsoft Intune"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-12-01T23:54:43Z",
+  "Tags": [
+    "Feature update",
+    "Admin impact"
+  ],
+  "Title": "Plan for Change: Windows quality updates during the out-of-box experience",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
