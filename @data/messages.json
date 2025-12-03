@@ -4,6 +4,703 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated December 2, 2025: We have updated the timeline. Thank you for your patience.</p><p>Admins will be able to ensure that new Loop workspaces are connected to and managed by an existing Microsoft 365 Group, similar to SharePoint Team sites.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422725\" target=\"_blank\">422725</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out early September 2026 (previously late November 2025) and expect to complete by late September 2026 (previously late December 2025).&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Once Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422728\" target=\"_blank\">422728</a> is available, end-users will have the ability to choose existing Microsoft 365 Groups for managing new Loop workspaces. This means that new Loop workspaces can optionally be connected to and managed by an existing Microsoft 365 Group, similar to how SharePoint Team sites are managed.</p><p>Additionally, Microsoft 365 Roadmap ID 422725 covers the capability to <b>ensure</b> that new Loop workspaces are connected to and managed by an existing Microsoft 365 Group, similar to SharePoint Team sites (it will not be an option for users to skip selecting an existing Microsoft 365 group if this policy is configured).</p><p>While this setting may align with existing governance processes, it's important for admins to note that scenarios like <a href=\"https://techcommunity.microsoft.com/blog/microsoft365insiderblog/automatically-aggregate-teams-meeting-content-in-a-loop-workspace/4287319\" target=\"_blank\">automatic aggregation of Teams meeting content into a Loop workspace</a>, or the creation of small, short-term project workspaces, will be more challenging for end-users unless they can skillfully select an existing M365 group during creation. Please consider this tradeoff in your adoption strategy.</p><p>If your organization has governance tools for SharePoint Communication sites that work effectively in a reactive manner (i.e., governance is applied after the site is created), Microsoft recommends extending this process to include Loop workspaces rather than using this policy.</p><p><b>What you need to do to prepare:</b>\n</p><p>There is nothing you need to do to prepare. This capability will roll to your tenant automatically.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "422725"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Starting September 2026, admins can require new Microsoft Loop workspaces to be connected to existing Microsoft 365 Groups for management, similar to SharePoint Team sites. This may affect scenarios like Teams meeting content aggregation and short-term projects. No preparation is needed; rollout is automatic."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-10-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC929022",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-03T00:28:07.167Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-11-08T23:21:55Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Loop – Require Existing Microsoft 365 Group for New Loop workspaces",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated December 2, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p><p>Microsoft Edge for Business will soon support <i>Rewrite</i>, a new feature powered by Microsoft 365 Copilot Chat. This capability helps users draft and rephrase editable text directly within <i>Edge</i>, enhancing productivity and writing quality. Users can access <i>Rewrite</i> by highlighting editable text and right-clicking to open the context menu.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=420335\" target=\"_blank\">420335</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>Rollout will begin in late January 2026 (previously early December 2025).</p><p><b>How this affects your organization</b></p><ul><li><i>Rewrite</i> will be <b>enabled by default</b> for Edge for Business users.&nbsp;</li><li>Users can access <i>Rewrite</i> by highlighting editable text and right-clicking to open the context menu.</li><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e0d954c7-eff4-4a2c-92b2-c6a479f1a8c0/9c483f3360fb2698d456b9325d6aeaf5d56bb61f.png\" style=\"width: 623.982px;\"><p></p><li>If Microsoft 365 Copilot is restricted from accessing page content due to Data Loss Prevention (DLP) policies, <i>Rewrite</i> will not function on that content.</li><li>Admins can manage this feature using the <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/composeinlineenabled\" target=\"_blank\">InlineComposeEnabled</a> policy setting.</li></ul><p><b>What you can do to prepare</b></p><p>No admin action is required before rollout. </p><p>We recommend:</p><ul><li>Reviewing your current DLP configurations to understand how they may impact <i>Rewrite </i>functionality.</li><li>Notifying users about this new capability.</li><li>Updating internal documentation to reflect this change.</li></ul><p>Learn more about how DLP affects Copilot access to page content:&nbsp;<a href=\"https://learn.microsoft.com/DeployEdge/edge-learnmore-copilot-page-summary-results\" target=\"_blank\">Microsoft 365 Copilot Chat in Edge and Access to Page Content | Microsoft Edge | Microsoft Learn</a></p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. This change introduces a new generative AI capability through Microsoft 365 Copilot Chat, allowing users to rewrite or draft text directly in Edge for Business.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users can interact with Copilot Chat by highlighting editable text and using the right-click context menu to access Rewrite, enabling AI-assisted drafting and rephrasing.</td></tr><tr><td>Does the change modify Data Loss Prevention (DLP) policies or enforcement?</td><td>Yes. If DLP policies restrict Copilot from accessing page content, the Rewrite feature will not function on that content.</td></tr><tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage the availability of this feature using the InlineComposeEnabled policy setting.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Users can choose to use the Rewrite feature by manually invoking it through the right-click context menu in Edge.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "420335"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Edge for Business will introduce the Rewrite feature powered by Microsoft 365 Copilot Chat in late January 2026. Enabled by default, it allows users to draft and rephrase text via right-click. Admins can control it with the InlineComposeEnabled policy, and DLP restrictions may block its use on some content."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-01-26T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1146821",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-03T00:22:49.9Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)",
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-02T23:22:03Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Rewrite with Microsoft 365 Copilot Chat coming soon to Edge for Business users",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated December 2, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction:</b></b>\n</p><p>Microsoft Edge for Business will soon support summarization and contextual grounding with Microsoft 365 Copilot Chat. This enhancement enables users to ask Copilot questions about multiple open browser tabs, Microsoft 365 documents (such as Word, Excel, PowerPoint), and YouTube videos directly from the Edge side pane.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496364\" target=\"_blank\">496364</a>, <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=499423\" target=\"_blank\">499423</a>, and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=499424\" target=\"_blank\">499424</a>.</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><p><b>General Availability (Worldwide): </b>We will begin rolling out in late January 2026 (previously November 2025).</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>&nbsp;Users signed in to Microsoft Edge for Business with their Entra ID and who have access to Microsoft 365 Copilot.</p><p><b>What will happen:</b>\n</p><ul>\n<li>Users will be able to ask Copilot questions about open browser tabs, Microsoft 365 documents, and YouTube videos.</li>\n<li>The feature will be<b> off by default</b>.</li>\n<li>If Copilot is restricted from accessing page content via <a href=\"https://learn.microsoft.com/DeployEdge/edge-learnmore-copilot-page-summary-results#blocking-copilot-chat-in-edge-for-business-access-to-page-content-through-dlp\" target=\"_blank\">Data Loss Prevention (DLP)</a> or the <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies#edgeentracopilotpagecontext\" target=\"_blank\">EdgeEntraCopilotPageContext policy</a>, it will be suppressed to maintain DLP integrity.</li>\n<li>Existing DLP and policy configurations will be respected.</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>This rollout will happen automatically by the specified date; no admin action is required before rollout.\n</li><li>Ensure users who need this capability have access to Microsoft 365 Copilot.</li><li>Ensure your tenant is configured to support Microsoft 365 Copilot and that eligible users meet all licensing prerequisites, including Entra ID sign-in and applicable Microsoft 365 service plans.</li><li>Review your current DLP and Edge policy configurations to determine potential impact.</li><li>Notify users about this upcoming capability.\n</li><li>Update internal documentation if needed.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/DeployEdge/edge-learnmore-copilot-page-summary-results\" target=\"_blank\">Microsoft 365 Copilot Chat in Edge and Access to Page Content | Microsoft Edge | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies\" target=\"_blank\">Microsoft Edge - Policies | Microsoft Edge | Microsoft Learn</a><br></li></ul><p></p><p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. Microsoft 365 Copilot introduces contextual grounding and summarization using generative AI across browser tabs, Microsoft 365 documents, and YouTube videos.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users can now ask Copilot questions about open browser tabs and documents directly from the Edge sidepane, enabling real-time summarization and contextual responses.</td></tr><tr><td>Does the change modify Data Loss Prevention (DLP) policies or enforcement?</td><td>Yes. If DLP or the EdgeEntraCopilotPageContext policy restricts access, Copilot will be suppressed from accessing page content to maintain DLP integrity.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage access to Copilot’s contextual grounding capabilities via DLP settings and Edge policy configurations, which can be scoped using Entra ID group membership.</td></tr></tbody></table><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "496364,499423,499424"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Edge for Business will support Microsoft 365 Copilot Chat for summarization and contextual grounding across browser tabs, Microsoft 365 documents, and YouTube videos starting late January 2026. The feature is off by default, respects DLP and policy settings, and requires users signed in with Entra ID and Copilot access."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-03-09T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1187682",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-03T00:19:10.997Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-18T16:21:30Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Edge: Microsoft 365 Copilot will support summarization and contextual grounding",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p>We’re introducing new <b>Microsoft Secure Score recommendations</b> for Microsoft Defender for Endpoint (MDE) to help organizations strengthen their security posture. These recommendations are designed to proactively block common attack techniques and improve endpoint protection.</p><p><b>When this will happen</b></p><p><b>Public Preview:&nbsp;</b>Rollout will begin at the <b>end of November 2025 </b>and is expected to complete by<b> mid-December 2025</b>.</p><p><b>How this affects your organization</b></p><p><i>Who is affected:&nbsp;</i>Admins managing Microsoft Defender for Endpoint and Microsoft Secure Score.</p><p><i>Licensing requirements:&nbsp;</i>This functionality is available to Microsoft 365 E5 customers or those with Microsoft Defender for Endpoint Plan 2 (P2).</p><p><i>What will happen:</i></p><ul><li>Customers in <i>Public Preview</i> will see new recommendations in <i>Microsoft Secure Score</i>:<ul><li><i><b>Disable Remote Registry Service on Windows</b></i></li></ul></li><li>Secure Score will update based on the implementation of these recommendations.</li></ul><p><b>What you can do to prepare</b></p><ul><li>Review the new recommendations in <i>Microsoft Secure Score</i> once available.</li><li>Complete the recommended actions to improve your organization’s security posture.</li><li>Communicate these changes to your security and endpoint management teams.</li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/defender-xdr/\" target=\"_blank\">Microsoft Defender XDR | Microsoft Defender | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/defender-xdr/microsoft-secure-score\" target=\"_blank\">Microsoft Secure Score | Microsoft Defender XDR | Microsoft Defender | Microsoft Learn</a></li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "New Microsoft Secure Score recommendations for Microsoft Defender for Endpoint will roll out from late November to mid-December 2025, adding actions like disabling Remote Registry Service on Windows. Available to Microsoft 365 E5 or Defender for Endpoint Plan 2 customers, admins should review and implement these to enhance security."
+      }
+    ],
+    "EndDateTime": "2026-01-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1191616",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-03T00:04:38.84Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-03T00:04:27Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Secure Score: New recommendations for Microsoft Defender for Endpoint",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re expanding the Interpreter agent in Microsoft Teams to include <b>real-time speech-to-speech interpretation for Teams calls</b>. This brings the same functionality previously available in meetings to calls, enabling users to speak and listen in their preferred language.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=526777\" target=\"_blank\">526777</a>&nbsp;and applies to Teams for Windows desktop.</p><p><b><b>When this will happen:</b>\n</b></p><ul><li>Targeted Release: We will begin rolling out early January 2026 and expect to complete by mid-January 2026.\n</li><li>General Availability (Worldwide): We will begin rolling out late January 2026 and expect to complete by early-February 2026.</li><li>Note: Government and Special clouds are not supported at this time, and there is no timeline for availability.\n</li></ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:&nbsp;</b>Users with a Microsoft 365 Copilot license participating in Teams calls.</p><p><b>What will happen:</b></p><ul><li>Interpreter can now be enabled during Teams calls (previously meetings only).</li><li>Users can:<ul><li>Choose their listening language.</li><li>Adjust audio balance between original and interpreted speech.</li><li>Select a voice option, including a simulated version of their own&nbsp;voice for interpretation.</li></ul></li><li>No additional setup is required for meetings; this update applies only to Teams calls.</li><li>Interpreter works best in structured conversations and may not be ideal for fast-paced exchanges.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>If you want to enable Interpreter for calls, configure policies using:</li><ul><li><b>Enable users to use interpreter in calls:</b> <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamscallingpolicy?view=teams-ps#-aiinterpreter\" target=\"_blank\">Set-CsTeamsCallingPolicy (MicrosoftTeams) | -AIInterpreter | Microsoft Learn</a></li><li><b>Enable users to user to use the voice simulation feature while being AI interpreted in calls</b>: <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamscallingpolicy?view=teams-ps#-voicesimulationininterpreter\" target=\"_blank\">Set-CsTeamsCallingPolicy (MicrosoftTeams) | -VoiceSimulationInInterpreter | Microsoft Learn</a></li></ul><li>Communicate to users that Interpreter works best in structured conversations and may not be ideal for fast-paced exchanges.\n</li><li>Update internal documentation and helpdesk guidance.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/microsoftteams/interpreter-agent-teams\" target=\"_blank\">Manage Interpreter agent for your organization | Microsoft Learn</a></li><li><a href=\"https://support.microsoft.com/office/interpreter-in-microsoft-teams-meetings-c7efe2bb-535d-42ab-a5c4-d2d91619b46d\" target=\"_blank\">Interpreter in Microsoft Teams meetings | Microsoft Support</a>&nbsp;</li></ul><p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Consideration</b></td><td><b>Explanation</b></td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Interpreter agent uses AI-driven speech-to-speech interpretation and voice simulation, which processes real-time audio streams from Teams calls and meetings. The feature does not provide direct access to raw customer data for users or admins; it processes audio for interpretation purposes only.&nbsp;Data handling follows Microsoft’s compliance and privacy standards.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>It extends Copilot’s AI capabilities into live audio experiences</td></tr></tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "526777"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will expand the Interpreter agent to support real-time speech-to-speech interpretation in calls starting January 2026 for users with a Microsoft 365 Copilot license. Users can choose languages, adjust audio balance, and select voice options. It works best in structured conversations and requires policy configuration."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-03-09T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1191612",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-03T00:01:11.543Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-03T00:01:00Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Interpreter agent in Teams calls",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re extending the <b>Know Your Customer (KYC)</b> <b>requirements </b>to the Teams Phone porting process in all markets. Teams administrators will need to submit general business information and supporting documents via Teams Admin Center before initiating a port-in request. This one-time process allows Microsoft to validate businesses and fulfill regulatory requirements, helping protect our phone services from misuse, such as spam calls and voice phishing (vishing).</p>\n<p>If your organization has already completed the KYC onboarding (for example, when acquiring new telephone numbers), no further action is required. You will not need to complete the process again and can disregard this message. If you are unsure of the KYC status of your organization, please visit the Know Your Customer page in the Teams Admin Center to verify it and complete it if necessary.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide, GCC): We will begin rolling out early January 2026 and expect to complete by late January 2026.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> Teams administrators managing port-in requests for Teams Phone in all markets.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Teams administrators must complete a KYC process in the Teams Admin Center before submitting port-in requests.</li>\n<li>Admins will be required to submit business information and supporting documentation.</li>\n<li>The vetting process typically takes a few hours but may take up to two business days.</li>\n<li>No port-in requests can be processed until the submitted information is validated.</li>\n<li>Existing telephone numbers are not affected.</li>\n<li>These requirements apply globally and are consistent across all Calling Plans markets.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Complete the KYC process in advance by visiting the <a href=\"https://admin.teams.microsoft.com/service-configuration/know-your-customer\" target=\"_blank\">Know Your Customer page</a> in the Teams Admin Center.</li>\n<li>Ensure your Teams administrators are ready to provide the following information:</li>\n<ul>\n<li>Business email address</li>\n<li>Company name</li>\n<li>Tax ID, DUNS number, or Business Registration Number</li>\n<li>Business address</li>\n<li>A copy of the Business Registration, Registry Extract, or Articles of Incorporation</li>\n</ul>\n<li>This process applies to all tenants, including those on free trials. No specific license tier is required to complete the KYC onboarding.</li>\n<li>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/teams-phone-know-your-customer\">Teams Phone Know Your Customer overview - Microsoft Teams | Microsoft Learn</a></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"5\">\n<tbody><tr>\n<th>Question</th>\n<th>Explanation</th>\n</tr>\n<tr>\n<td>Does the change store new customer data?</td>\n<td>The KYC onboarding process requires submission of business information and supporting documentation, which will be stored by Microsoft to fulfill regulatory requirements.<br><br></td>\n</tr>\n<tr>\n<td>Does the change alter how existing customer data is processed?</td>\n<td>The process introduces new data collection and validation workflows that may interact with existing tenant metadata.<br></td>\n</tr>\n<tr>\n<td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td>\n<td>The KYC onboarding process is managed through the Teams Admin Center, which supports role-based access control via Entra ID group membership.<br><br></td>\n<!--</tr-->\n</tr></tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting January 2026, Teams Phone porting requires a one-time Know Your Customer (KYC) process via Teams Admin Center. Admins must submit business info and documents for validation before port-in requests. Existing numbers are unaffected. This applies globally and includes all tenants, with role-based access control via Entra ID."
+      }
+    ],
+    "EndDateTime": "2026-03-06T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1191607",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-12-02T23:58:07.527Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-02T23:55:22Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Know Your Customer (KYC) required for Teams Phone porting requests",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>We're making some changes to Exchange Web Services (EWS).</p><p>Starting March 1, 2026, we will start to block EWS access for all mailboxes without license rights to EWS. This is another step in our ongoing commitment to enhance the security and control mechanisms of EWS.</p><p><b>How this will affect your organization:</b></p><p>The impacted licenses are:\n</p><p>\n</p><ul><li>Exchange Online Kiosk</li><li>Microsoft 365 and Office 365 F1</li><li>Microsoft 365 and Office 365 F3</li></ul><p>As stated in the Service Descriptions, these licenses do not provide access to mailboxes via EWS, but these restrictions were never enforced. With this change, EWS access for users with only these license types will be blocked.</p><p><b>What you need to do to prepare:</b></p><p>If you wish these users to continue to use EWS, and your users are licensed with one of these noted above, you’ll need to assign a new license, one containing EWS access rights. For example, you could assign an Exchange Online Plan 1 or 2 license, or a Microsoft 365 or Office 365 E3 or E5 license.\n</p><p>\n</p><p>Starting March 1, 2026, requests to use EWS without a suitable license will result in a HTTP 403 response. </p><p>Learn more: <a href=\"https://aka.ms/EWSLicenseChanges\" target=\"_blank\">Update to EWS Access for Kiosk / Frontline Worker Licensed Users</a>&nbsp;</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting March 1, 2026, EWS access will be blocked for mailboxes with Exchange Online Kiosk, Microsoft 365/Office 365 F1, and F3 licenses, which currently lack EWS rights. To maintain EWS access, users must be assigned licenses with EWS rights, or EWS requests will return HTTP 403 errors."
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1191578",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-12-02T20:56:04.663Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-02T20:55:40Z",
+    "Tags": [
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Update to EWS Access for Kiosk / Frontline Worker Licenses",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated December 2, 2025: We have updated the content. We will communicate special cloud progress in a separate Message center post in future. Thank you for your patience.</p><p>Coming soon to Microsoft Purview: Insider Risk Management (IRM) data including alerts, indicators and events will be available in these Microsoft Defender XDR experiences:</p><ul><li>Unified alert queue: IRM alerts will appear in the unified alert and incident queue in Defender XDR for comprehensive investigation and correlation.\n</li><li>Advanced Hunting: IRM data will be available for advanced hunting in Defender XDR, allowing analysts to identify hidden risk patterns using KQL queries. Analytics can also create custom detections on the top of IRM data.\n</li><li>Graph API: IRM data will be accessible through the Microsoft Graph API, supporting bidirectional integrations with external applications.\n</li><li>Microsoft Sentinel: IRM alerts will be available in Microsoft Sentinel through the XDR-Sentinel connector, providing richer metadata.\n</li></ul><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422730\" target=\"_blank\">422730</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out mid-January 2025 and expect to complete by end of January 2025.\n</p><p>General Availability (WW): We will begin rolling out late August 2025 (previously late June) and expect to complete by mid-September 2025.</p><p><b>How this will affect your organization:</b>\n</p><p>Enable this feature by turning on S<i>hare data with other security solutions</i> in the IRM global settings.\n</p><p>Only users with Insider risk analysis or investigation roles in the Microsoft Purview portal can access IRM data in Defender XDR.\n</p><p>To access alerts, incidents, and events from Defender XDR via API, you need to provision apps with the necessary permissions. IRM data is accessible via Microsoft Security Graph APIs, allowing for reading and updating alert or incident statuses. Permissions are set at the application level, without solution-specific scoping. Any existing apps pulling data from these APIs will also access IRM data. So, if you integrate XDR alerts into external ticketing systems, IRM alerts will show up, unless you specifically filter out the alerts.\n</p><p>IRM alerts will appear in Sentinel if your tenant has the Defender XDR connector enabled in Microsoft Sentinel.\n</p><p>In Defender XDR, IRM data is not pseudonymized to allow effective correlation of IRM alerts with alerts from other solutions within the platform, such as Defender for Endpoint and Defender for Cloud apps.\n</p><p>These changes will be available by default for admins to configure in IRM global settings.\n</p><p>Admins will be able to view Insider Risk Management alerts in Defender XDR:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/a7b53b37-df99-48fb-8497-5e9c87017b9a\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>Harness the power of Advanced Hunting queries with two new tables that contain Insider Risk Management data: DataSecurityBehaviors and DataSecurityEvents. In this query, 54 confidential files were exfiltrated through mail.google.com by 2 unique users:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/419706ab-c7a4-4e0d-a176-d8c9a3b933b9\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><ul><li>Opt-in to data sharing settings in IRM global settings page.\n</li><li>Assign necessary permissions to analysts\n</li><li>Review existing apps accessing Defender XDR data through Graph APIs.\n</li><li>If your organization is using <a href=\"https://learn.microsoft.com/azure/sentinel/microsoft-365-defender-sentinel-integration?tabs=azure-portal\" target=\"_blank\">Microsoft Defender XDR connector</a>, please review the list of users who will gain access to this data through Sentinel.\n</li></ul><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration in IRM global settings to determine the impact for your organization. You may want to notify your admins about this change and update any relevant documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "422730"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Insider Risk Management (IRM) alerts will integrate into Microsoft Defender XDR's unified alert queue, Advanced Hunting, Graph API, and Microsoft Sentinel. Rolling out from January to September 2025, admins must enable data sharing and assign permissions. IRM data supports enhanced investigation and external integrations."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2025-12-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC961761",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-02T19:34:07.33Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-12-19T23:16:22Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Insider Risk Management: IRM alerts in Microsoft Defender XDR",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated December 2, 2025: We have updated the content. Thank you for your patience.&nbsp;<br><br><b><b>Introduction</b></b></p>\n<p>We’re introducing a new flexible layout option in future Teams meetings to give users more control over how shared content and participant videos appear. A resizable divider will let users adjust the space between shared content and the video gallery. Want to focus more on the presentation? Expand the content area. Prefer to see more people? Shrink the content area to make room for more video tiles. Users can also swap the position of content and participants to suit their viewing preference. This works with spotlighted speakers, pinned videos, and Speaker View, providing a more personalized meeting experience—especially helpful on larger or ultra-wide screens.<br><br>Screenshot 1: <i>When someone is sharing content or when you are in Speaker view, grab the divider between the left and right views to resize them.</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5ad8177d-b16a-4b53-a524-4b1d16a38e10/35dcf036667dbaf9af73409969cd593f5b7c799e.png\" style=\"width: 200px;\" alt=\"user settings\"></p><p>Screenshot 2. <i>When you drag the divider to the left, you will see more people in the right gallery view. When you drag the divider to the right, you will see less people in the gallery but the content or speaker will become larger.</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/24405469-1ed5-4393-86d8-a09dbd20d9b2/695bb6807c04f2e4f397331d2cff3a342cb65300.png\" style=\"width: 200px;\" alt=\"user settings\"></p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=528930\" target=\"_blank\">528930</a>&nbsp;and applies to Teams for Windows desktop and Teams for Mac desktop.</p>\n\n<p><b>When this will happen:</b></p><ul>\n<li>Targeted Release: Rolling out early January 2026, expected completion by late January 2026.</li>\n<li>General Availability (Worldwide and GCC): Rolling out early February 2026, expected completion by late March 2026.</li>\n</ul>\n\n<p><b>How this will affect your organization:</b></p>\n<p><b style=\"\">Who is affected:</b> All Teams users in Worldwide and GCC environments.</p>\n<p><b style=\"\">What will happen:</b></p>\n<ul>\n<li>Users will see a new resizable divider in Teams meetings during content sharing.</li>\n<li>Users can adjust layouts to prioritize content or participant video tiles.</li>\n<li>Users can swap positions of shared content and video gallery.</li>\n<li>Works with spotlighted speakers, pinned videos, and Speaker View.</li>\n<li>Enabled by default; no admin configuration required.</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>No configuration is required; the feature is enabled by default.</li>\n<li>Update training materials and FAQs to explain:\n<ul>\n<li>How to find and use the resizable divider.</li>\n<li>How to adjust layouts during content sharing and Speaker View.</li>\n</ul>\n</li>\n<li>Communicate this change to helpdesk staff to prepare for user questions, especially from those with large or ultra-wide monitors.</li>\n</ul><p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "528930"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T11:02:34.2439456Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T11:02:34.2439458Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T11:02:34.2439459Z\",\"LatestRing\":null}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Teams meetings will feature a new resizable divider allowing users to adjust the space between shared content and participant videos, swap their positions, and personalize layouts. This feature, enabled by default, rolls out from January to March 2026 for all Windows and Mac desktop users worldwide and GCC."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-04-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1190199",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-02T19:23:26.507Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-26T23:22:09Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Flexible layout for Teams meetings with resizable divider",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We're introducing a new capability in <b>Microsoft Purview Data Lifecycle Management </b>that allows admins to override existing retention policies and delete content from OneDrive and SharePoint Online before the retention or legal hold duration expires. This feature supports organizations managing Copilot-related artifacts—such as Teams recordings and transcripts—independently of OneDrive retention policies, giving admins greater control over how long this content is retained.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=489454\" target=\"_blank\">489454</a>.</p><p><b><b>When this will happen:</b>\n</b></p><ul><li><b>General Availability (GCC):</b> We will begin rolling out late November 2025 and expect to complete by early December 2025.\n</li><li><b>General Availability (GCC High, DOD): </b>We will begin rolling out late December 2025 and expect to complete by early January 2026.</li></ul><p><b><b>How this will affect your organization:</b>\n</b></p><p><b style=\"\">Who is affected:\n</b></p><ul><li>Admins managing OneDrive and SharePoint Online retention policies\n</li><li>Organizations using Microsoft Purview for data lifecycle management\n</li></ul><p><b style=\"\">What will happen:\n</b></p><ul><li>Admins can create<b> Priority Cleanup policies</b> to delete content before retention or hold periods expire.</li><li>Feature includes simulation mode, audit logging, and disposition reviews.</li><li>New admin policy authoring flows are introduced, governed by Microsoft Purview role groups.</li><li>Feature is not enabled by default; requires explicit policy creation and enforcement.</li><li>Requires at least two admins to author and enforce a <b>Priority Cleanup policy</b>.</li></ul><p><b><b>What you need to do to prepare:</b>\n</b></p><ul><li>Ensure at least two admins are assigned the <b>Priority Cleanup Admin</b> and <b>Retention Management roles</b>.</li><li>Review and configure role assignments in Microsoft Purview portal\n</li><li>Communicate this change to your compliance and records management teams\n</li><li>Update internal documentation to reflect new policy authoring and enforcement capabilities</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/purview/priority-cleanup-onedrive-sharepoint\" target=\"_blank\">Override holds to clean up files for Copilot and reclaim storage</a></p><p><b><b>Compliance considerations:</b></b></p><table border=\"1\">\n<tbody><tr>\n  <th>Question</th>\n  <th>Explanation</th>\n</tr>\n<tr>\n  <td>Does the change alter how existing customer data is processed, stored, or accessed?</td>\n  <td>It allows deletion of content before the expiration of retention or hold policies, changing how data is retained and disposed based on compliance admin decision.</td>\n</tr>\n<tr>\n  <td>Does the change modify, interrupt, or disable any of the following capabilities (Purview)?</td>\n  <td>It introduces a new way to override retention policies and holds, impacting deletion workflows with the approval of an admin with special Purview roles.</td>\n</tr>\n<tr>\n  <td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td>\n  <td>Admin access is governed by Microsoft Purview role groups, which can be managed via Microsoft Purview portal settings.</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "518223"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Data Lifecycle Management now lets admins create Priority Cleanup policies to delete OneDrive and SharePoint content before retention or legal hold expires, with simulation, audit, and review features. Requires two admins with specific roles and explicit policy enforcement. Rolling out late 2025 to early 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-02-05T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1183292",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-02T18:48:30.173Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-06T00:10:42Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Data Lifecycle Management - Introducing secure priority cleanup workflows for OneDrive/SharePoint",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<div>November’s edition of <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-news-you-can-use-november-2025/4473080\" rel=\"noopener noreferrer\" target=\"_blank\">Windows news you can use</a> recaps the new Windows capabilities announced at Microsoft Ignite so your organization and IT team can catch up and dive deeper into the details. Discover upcoming events to help you keep your deployment and device management projects moving. Find a summary of important lifecycle reminders for Windows 10, Windows 11, Windows Server, and Microsoft Configuration Manager. Learn about new tools and guidance.</div><div>&nbsp;</div><div><b>When will this happen:</b></div><div>Some of the features described in this monthly recap are now available, either broadly or in public preview. Others are planned for 2026. Note that some capabilities roll out gradually and may not yet be available for your market.</div><div>&nbsp;</div><div><b>What you need to do to prepare:</b></div><div>Read the November 2025 edition of <a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-news-you-can-use-november-2025/4473080\" rel=\"noopener noreferrer\" target=\"_blank\">Windows news you can use</a> so you can plan for these new capabilities and utilize them in your organization as they are released.</div><div>&nbsp;</div><div><b>Additional information:</b></div><div>Follow the <a href=\"https://techcommunity.microsoft.com/category/windows/blog/windows-itpro-blog\" rel=\"noopener noreferrer\" target=\"_blank\">Windows IT Pro Blog</a> for regular updates and take advantage of <a href=\"https://aka.ms/Windows/OfficeHours\" rel=\"noopener noreferrer\" target=\"_blank\">monthly Windows Office Hours</a> for questions and feedback.</div>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-12-02T18:09:13.94Z",
+    "HasAttachments": false,
+    "Id": "MC1191556",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-02T18:09:15.223Z",
+    "Services": [
+      "Windows"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-02T18:09:13.987Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Windows news you can use: November 2025",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated December 1, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon to Microsoft Teams: When users connect to their organization's Wi-Fi, Teams can automatically set their work location to reflect the building they are working in. This makes it easier for users to coordinate work with their coworkers and connect in person.</p><p> This feature is opt-in and requires you to take action to configure it. After you turn it on, end-users remain in control and can choose whether to share their work location with their coworkers.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=488800\" target=\"_blank\">488800</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out early February 2026 (previously mid-January) and expect to complete by mid-February 2026 (previously late January).</p><p><b>How this will affect your organization:</b>\n</p><p>This feature allows you to map Wi-Fi networks and devices to buildings, which allows your users to have their work location automatically updated when they connect. This is a major improvement over the current experience which relies on end-users to manually set their work location. When this feature is configured and enabled, Teams can automatically update the work location of users who connect their laptop to your organization's Wi-Fi network or peripherals. The feature can leverage the mapping between your building names and your Wi-Fi networks to set the work location of your users to the right building. It can also leverage mappings to&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/rooms/bookable-desks\" target=\"_blank\">specific peripherals</a>, such as monitors. Teams uses the same policy to enable or disable automatic updates of work location for Wi-Fi and peripherals. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/teams/new-csteamsworklocationdetectionpolicy\" target=\"_blank\">New-CsTeamsWorkLocationDetectionPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn</a></p><p>Teams will not update the location of your users if they connect after their working hours (that they can configure in the Microsoft Outlook Calendar). Also, their work location will be cleared at the end of their working hours.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><p>Automatic update of work location is off by default, but it can greatly improve the experience of your users. We recommend turning it on and configuring it in your tenant.\n</p><p>Before rollout, we will update this post with new documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "488800"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will soon auto-set users' work location by detecting their connection to organizational Wi-Fi or peripherals, improving coordination. This opt-in feature rolls out worldwide from February 2026, requires admin configuration, respects working hours, and applies to Teams on Windows and Mac desktops."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-03-16T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1081568",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-02T17:43:09.82Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-23T23:15:29Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Automatically set work location by connecting to a Wi-Fi network",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated December 1, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Data storage for shared Loop workspaces will be located in the expected geo for multi-geo tenants.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=421616\" target=\"_blank\">421616</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out mid-December 2025 (previously late November) and expect to complete by mid-January 2026 (previously late December 2025).</p><p><b>How this will affect your organization:</b></p><p>If your organization uses <a href=\"https://learn.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide\" target=\"_blank\">multi-geo configuration</a>, data storage for shared Loop workspaces in SharePoint Embedded will be located in the expected geo for multi-geo tenants:</p><ul><li>M365 group-owned workspaces are created in the group's geo (delivery of M365 group-owned workspaces is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422728\" target=\"_blank\">422728</a>)</li><li>non-M365 group-owned workspaces are created in the creator's preferred data location.</li></ul><p><b>What you need to do to prepare:</b>\n</p><p>There is nothing you need to do to prepare. These changes will roll to your multi-geo configured tenants automatically.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "421616"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Loop's multi-geo support for shared workspaces will roll out mid-December 2025 to mid-January 2026. Data storage aligns with tenant geos: M365 group-owned workspaces store data in the group's geo; non-group-owned in the creator's preferred location. No preparation is needed from organizations."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-02-23T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC929025",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-12-02T17:32:28.933Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-11-08T23:23:50Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Loop – Multi-Geo Support for Shared Loop workspaces",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated December 2, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We're introducing a new Account Manager experience in Outlook for Windows. This feature helps users better manage their Microsoft accounts by providing quick access to account details, displaying their profile picture, and enabling account switching (if permitted by your organization). This update aligns the experience with classic Outlook and enhances user productivity.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=497546\" target=\"_blank\">497546</a></p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): Rollout will begin in early March 2026 (previously early January) and is expected to complete by late March 2026 (previously late January).<br>Targeted Release: Rollout will begin in early February 2026 (previously early December 2025) and is expected to complete by late February 2026 (previously late December 2025).</p><p>\n</p><p><b>How this affects your organization:</b></p><p>Once the rollout is complete, users will see the new Account Manager in the title bar of Outlook for Windows. Key capabilities include:\n</p><ul><li>Displaying the user’s profile picture, automatically synced from their Microsoft account.\n</li><li>Providing access to the Microsoft account page, consistent with the experience in classic Outlook.\n</li><li>Allowing users to add and manage accounts, if permitted by your organization’s policies.\n</li></ul><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/247488ea-bdb2-41a1-8d3f-dcfa09277cc7/9164161523e2b6d45434c6b5f72210e3161d45b6.png\" width=\"300\" height=\"\"></p><p>This feature is on by default and does not require admin configuration.\n</p><p><b>What you can do to prepare:</b></p><p>No admin action is required. You may wish to inform your helpdesk and users about the new experience to reduce potential confusion.</p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "497546"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Outlook for Windows will introduce a new Account Manager by March 2026, displaying profile pictures, enabling account switching, and providing quick access to account details. The feature is on by default, requires no admin action, and aims to enhance user productivity with a familiar experience."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-05-04T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1129718",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-02T17:27:03.383Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-05T22:58:57Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "New Feature: Account Manager in Outlook for Windows",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2025-06-18T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated December 1, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>As part of our ongoing convergence process for all Microsoft Defender workloads, we will retire SIEM (Security Information and Event Management) agents from Microsoft Defender for Cloud Apps in starting late December 2025 (previously mid-November) and ending early January 2026 (previously late November 2025). We recommend you transition to APIs that support the management of activities and alerts data from multiple workloads.\n</p><p><b>How this will affect your organization:</b>\n</p><p>Existing Microsoft Defender for Cloud Apps SIEM agents will function as is until the SIEM agents retire, but no new SIEM agents can be configured starting June 19, 2025. Microsoft Sentinel agents will remain supported and can still be added.</p><p>Defender for Cloud Apps alerts and activities data currently supported in the SIEM agents are also available in the unified API and SIEM solutions that provide access to alerts and activity data for all Microsoft security products, for cross-workload visibility:</p><ul><li>For alerts and activities, Defender XDR streaming API: <a href=\"https://learn.microsoft.com/defender-xdr/streaming-api\" target=\"_blank\">Stream Microsoft Defender XDR events - Microsoft Defender XDR | Microsoft Learn</a>\n</li><li>For Microsoft Entra ID Protection login events: <a href=\"https://learn.microsoft.com/defender-xdr/advanced-hunting-identitylogonevents-table\" target=\"_blank\">IdentityLogonEvents table in the advanced hunting schema - Microsoft Defender XDR | Microsoft Learn</a>\n</li><li>For alerts, Microsoft Graph security alerts API (v2): <a href=\"https://learn.microsoft.com/graph/api/security-list-alerts_v2?view=graph-rest-1.0&amp;tabs=http\" target=\"_blank\">List alerts_v2 - Microsoft Graph v1.0 | Microsoft Learn</a>\n</li><li>We also recommend viewing Defender for Cloud Apps alerts data in the Microsoft Defender XDR incidents API. Learn more: <a href=\"https://learn.microsoft.com/defender-xdr/api-incident\" target=\"_blank\">Microsoft Defender XDR incidents APIs and the incidents resource type - Microsoft Defender XDR | Microsoft Learn</a>\n</li></ul><p>These APIs enhance security monitoring and management and offer additional supported capabilities that utilize data from multiple Microsoft Defender workloads.</p><p><b>What you need to do to prepare:</b></p><p>To ensure continuity and access to the same data available before this retirement through Microsoft Defender for Cloud Apps SIEM agents, we recommend transitioning to the supported unified API and SIEM solutions. We encourage you to begin planning your migration to these solutions to take advantage of their enhanced capabilities. </p><p>Learn more: <a href=\"https://learn.microsoft.com/defender-cloud-apps/siem\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">Generic SIEM integration - Microsoft Defender for Cloud Apps | Microsoft Learn</a></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Defender for Cloud Apps will retire SIEM agents between late December 2025 and early January 2026. No new SIEM agents can be configured after June 19, 2025. Users should transition to unified APIs and SIEM solutions for alerts and activity data to ensure continuity and enhanced capabilities."
+      }
+    ],
+    "EndDateTime": "2026-02-16T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1077861",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2025-12-02T17:23:07.61Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-19T23:43:22Z",
+    "Tags": [
+      "Updated message",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Microsoft Defender for Cloud Apps: SIEM agents will retire",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated December 1, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>\n</p><p>The new <b>Designer editor</b> integration in PowerPoint introduces a modern, intuitive image editing experience directly within your slides—eliminating the need to switch apps or interrupt your workflow. Whether you're refining visuals for a pitch deck, enhancing marketing assets, or simply making your slides more engaging, the <b>Designer editor</b> enables fast, seamless image enhancements powered by AI.</p><p>Screenshot 1: <i><b>Designer editor </b>is now built into PowerPoint, so you can edit pictures without leaving the app. To get started, select a picture and then select <b>Picture Format</b> &gt; <b>Edit Picture</b>, or right-click it and select <b>Edit Picture</b>.</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/7a8f02a8-999b-49fe-adda-4a5decc5daa5/b943695abfa4819eb5252d669400b01161ffe077.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p>Screenshot 2: <i>Transform your visuals using AI-powered tools like <b>Remove background</b>, <b>Auto enhance</b>, and more—right from the canvas.</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ea47aec0-8532-4ffc-aeaf-cb43dd8e3713\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=508530\" target=\"_blank\">508530</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p><p>\n</p><ul>\n<li><b>General Availability (Worldwide):</b> Rollout will begin in mid-December 2025 (previously early December) and is expected to complete in January 2026 (previously mid-December 2025).</li>\n</ul><p><b><b>How this affects your organization:</b></b></p><p>\n</p><ul>\n<li><b>Who is affected:</b> All users of PowerPoint in Microsoft 365 across commercial and education tenants.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Users will gain access to a new AI-powered image editing experience within PowerPoint.</li>\n    <li>The <b>Designer editor</b> will be available directly in the PowerPoint interface.</li>\n    <li>The following capabilities will be included:\n      <ul>\n        <li><b>Generative Erase:&nbsp;&nbsp;</b>Remove unwanted elements from images.</li>\n        <li><b>Generative Move:</b> Reposition objects within an image.</li>\n        <li><b>Add Text:</b> Insert text directly onto images.</li><li><b>Edit Text:</b>&nbsp;Recognize existing text in an image and edit it.</li>\n        <li><b>Upscale:</b> Improve image resolution for sharper visuals.</li>\n        <li><b>Background Removal:</b> Remove backgrounds for clean designs.</li>\n        <li><b>Auto Enhance (Color Adjustment):</b> Automatically improve color balance and vibrancy.</li>\n        <li><b>Effects:</b> Apply creative filters and styles.</li>\n      </ul>\n    </li>\n    <li>The feature will be enabled by default for all users.</li>\n    <li>No changes to existing admin policies are required unless your organization chooses to manage availability.</li><li><b>AI usage limits for this feature:</b>\n<ul>\n<li>Commercial users:\n<ul>\n<li>Copilot users have fair use access to all generative AI features.</li>\n<li>Starter users have capacity-limited access; in-product messaging will notify users when limits are reached.</li>\n</ul>\n</li>\n<li>Consumer users:\n<ul>\n<li>Free and Basic MSA accounts: 15 credits/month for generative AI features.</li>\n<li>Personal and Family subscribers: 60 credits/month.</li>\n<li>Microsoft 365 Premium and Copilot Pro (while supported): fair use access.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></li>\n  </ul>\n\n\n\n<p><b><b>What you can do to prepare:</b></b></p><p>\n</p><ul>\n<li>No action is required to enable the feature—it will be <b>on by default</b>.</li>\n<li>Review internal documentation if you provide guidance on PowerPoint features.</li>\n<li>Communicate this change to helpdesk and support teams to prepare for potential user questions.</li>\n<li>If your organization wishes to manage availability:\n  <ul>\n    <li>Configure access through policy or permissions as needed.</li>\n  </ul>\n</li>\n<li>Be aware:\n  <ul>\n    <li>This feature uses AI capabilities to edit and enhance images in PowerPoint.</li>\n    <li>AI usage disclaimers are included within the editor interface for end users.</li></ul></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p><p>\n</p><table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>AI/ML capabilities interacting with customer data</td><td>The Designer editor introduces AI-powered image editing features (e.g., generative erase/move) that interact with user-uploaded image content.</td></tr>\n<tr><td>New way of interacting with generative AI</td><td>Users can directly engage with generative AI tools within PowerPoint to modify and enhance images.</td></tr>\n<tr><td>Admin control available</td><td>Organizations can manage availability through policy or permissions.</td></tr>\n<tr><td>User control</td><td>Users can access and use the Designer editor directly within PowerPoint.</td></tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "508530"
+      },
+      {
+        "Name": "Summary",
+        "Value": "PowerPoint’s new AI-powered Designer editor, rolling out worldwide from mid-December 2025, enables seamless in-app image editing with features like generative erase/move, text editing, background removal, and auto-enhance. It’s enabled by default for all Microsoft 365 users, with admin controls available."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-03-02T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1187787",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-12-02T17:15:31.557Z",
+    "Services": [
+      "Microsoft Copilot (Microsoft 365)",
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-18T20:39:22Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "PowerPoint adds AI-powered image editing with \"Designer editor\"",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b>\n</b></p><p>We’re adding more customization to your <b>communities in the Viva Engage app for Microsoft Teams in iOS</b>. Soon, as a community admin, you’ll be able to update your communities' cover photos directly from the Teams iOS app. This feature is already available on Teams for Windows desktop, Teams for Mac desktop, Teams for the web, and Teams for Android, and supports a consistent and personalized experience across platforms.</p><p>Screenshot 1: <i>A community's cover photo, with options to <b>Take a photo </b>or <b>Upload a picture.</b></i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/bc9212a0-b127-44de-869a-453525cd54a1\" style=\"width: 250px;\" alt=\"user settings\"></p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=526783\" target=\"_blank\" style=\"\">526783</a>.</p><p><b><b>When this will happen:</b>\n</b></p><p>General Availability (Worldwide): We will begin rolling out in late December 2025 and expect to complete by early January 2026.</p><p>\n</p><p><b><b>How this will affect your organization:</b>\n</b></p><p><b>Who is affected: </b>All Viva Engage community admins<b>&nbsp;</b>using the Viva Engage app in Microsoft Teams.</p><p><b>What will happen:\n</b></p><ul><li>Users will be able to update<b> community cover photos</b> directly from the Teams iOS app.\n</li><li>This feature is <b>enabled by default </b>and does not require admin configuration.\n</li><li>There is no change to existing admin policies or controls.\n</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>Update any internal documentation that references <b>community customization</b>.\n</li><li>No admin action is required to enable this feature.\n</li></ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -417,56 +1114,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Private chat for organizers and presenters in structured meetings, webinars, and town halls",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated December 1: We have updated the content. Thank you for your patience.&nbsp;<br><br><b><b>Introduction</b></b></p>\n<p>We’re introducing a new flexible layout option in future Teams meetings to give users more control over how shared content and participant videos appear. A resizable divider will let users adjust the space between shared content and the video gallery. Want to focus more on the presentation? Expand the content area. Prefer to see more people? Shrink the content area to make room for more video tiles. Users can also swap the position of content and participants to suit their viewing preference. This works with spotlighted speakers, pinned videos, and Speaker View, providing a more personalized meeting experience—especially helpful on larger or ultra-wide screens.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=528930\" target=\"_blank\">528930</a>&nbsp;and applies to Teams for Windows desktop and Teams for Mac desktop.</p>\n\n<p><b>When this will happen:</b></p><ul>\n<li>Targeted Release: Rolling out early January 2026, expected completion by late January 2026.</li>\n<li>General Availability (Worldwide and GCC): Rolling out early February 2026, expected completion by late March 2026.</li>\n</ul>\n\n<p><b>How this will affect your organization:</b></p>\n<p><b style=\"\">Who is affected:</b> All Teams users in Worldwide and GCC environments.</p>\n<p><b style=\"\">What will happen:</b></p>\n<ul>\n<li>Users will see a new resizable divider in Teams meetings during content sharing.</li>\n<li>Users can adjust layouts to prioritize content or participant video tiles.</li>\n<li>Users can swap positions of shared content and video gallery.</li>\n<li>Works with spotlighted speakers, pinned videos, and Speaker View.</li>\n<li>Enabled by default; no admin configuration required.</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>No configuration is required; the feature is enabled by default.</li>\n<li>Update training materials and FAQs to explain:\n<ul>\n<li>How to find and use the resizable divider.</li>\n<li>How to adjust layouts during content sharing and Speaker View.</li>\n</ul>\n</li>\n<li>Communicate this change to helpdesk staff to prepare for user questions, especially from those with large or ultra-wide monitors.</li>\n</ul><p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "528930"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T11:02:34.2439456Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T11:02:34.2439458Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T11:02:34.2439459Z\",\"LatestRing\":null}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Teams meetings will feature a new resizable divider allowing users to adjust the space between shared content and participant videos, swap their positions, and personalize layouts. This feature, enabled by default, rolls out from January to March 2026 for all Windows and Mac desktop users worldwide and GCC."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-04-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1190199",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-01T18:28:22.45Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-26T23:22:09Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Flexible layout for Teams meetings with resizable divider",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -4676,52 +5323,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>\n</p><p>The new <b>Designer editor</b> integration in PowerPoint introduces a modern, intuitive image editing experience directly within your slides—eliminating the need to switch apps or interrupt your workflow. Whether you're refining visuals for a pitch deck, enhancing marketing assets, or simply making your slides more engaging, the <b>Designer editor</b> enables fast, seamless image enhancements powered by AI.</p><p>Screenshot 1: <i><b>Designer editor </b>is now built into PowerPoint, so you can edit pictures without leaving the app. To get started, select a picture and then select <b>Picture Format</b> &gt; <b>Edit Picture</b>, or right-click it and select <b>Edit Picture</b>.</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/7a8f02a8-999b-49fe-adda-4a5decc5daa5/b943695abfa4819eb5252d669400b01161ffe077.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p>Screenshot 2: <i>Transform your visuals using AI-powered tools like <b>Remove background</b>, <b>Auto enhance</b>, and more—right from the canvas.</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ea47aec0-8532-4ffc-aeaf-cb43dd8e3713\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=508530\" target=\"_blank\">508530</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p><p>\n</p><ul>\n<li><b>General Availability (Worldwide):</b> Rollout will begin in early December 2025 and is expected to complete by mid-December 2025.</li>\n</ul><p><b><b>How this affects your organization:</b></b></p><p>\n</p><ul>\n<li><b>Who is affected:</b> All users of PowerPoint in Microsoft 365 across commercial and education tenants.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Users will gain access to a new AI-powered image editing experience within PowerPoint.</li>\n    <li>The <b>Designer editor</b> will be available directly in the PowerPoint interface.</li>\n    <li>The following capabilities will be included:\n      <ul>\n        <li><b>Generative Erase:&nbsp;&nbsp;</b>Remove unwanted elements from images.</li>\n        <li><b>Generative Move:</b> Reposition objects within an image.</li>\n        <li><b>Add Text:</b> Insert text directly onto images.</li><li><b>Edit Text:</b>&nbsp;Recognize existing text in an image and edit it.</li>\n        <li><b>Upscale:</b> Improve image resolution for sharper visuals.</li>\n        <li><b>Background Removal:</b> Remove backgrounds for clean designs.</li>\n        <li><b>Auto Enhance (Color Adjustment):</b> Automatically improve color balance and vibrancy.</li>\n        <li><b>Effects:</b> Apply creative filters and styles.</li>\n      </ul>\n    </li>\n    <li>The feature will be enabled by default for all users.</li>\n    <li>No changes to existing admin policies are required unless your organization chooses to manage availability.</li><li><b>AI usage limits for this feature:</b>\n<ul>\n<li>Commercial users:\n<ul>\n<li>Copilot licensed users have fair use access to all generative AI features.</li>\n<li>Entra users have capacity-limited access; in-product messaging will notify users when limits are reached.</li>\n</ul>\n</li>\n<li>Consumer users:\n<ul>\n<li>Free and Basic MSA accounts: 15 credits/month for generative AI features.</li>\n<li>Personal and Family subscribers: 60 credits/month.</li>\n<li>Microsoft 365 Premium and Copilot Pro (while supported): fair use access.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></li>\n  </ul>\n\n\n\n<p><b><b>What you can do to prepare:</b></b></p><p>\n</p><ul>\n<li>No action is required to enable the feature—it will be <b>on by default</b>.</li>\n<li>Review internal documentation if you provide guidance on PowerPoint features.</li>\n<li>Communicate this change to helpdesk and support teams to prepare for potential user questions.</li>\n<li>If your organization wishes to manage availability:\n  <ul>\n    <li>Configure access through policy or permissions as needed.</li>\n  </ul>\n</li>\n<li>Be aware:\n  <ul>\n    <li>This feature uses AI capabilities to edit and enhance images in PowerPoint.</li>\n    <li>AI usage disclaimers are included within the editor interface for end users.</li></ul></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p><p>\n</p><table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>AI/ML capabilities interacting with customer data</td><td>The Designer editor introduces AI-powered image editing features (e.g., generative erase/move) that interact with user-uploaded image content.</td></tr>\n<tr><td>New way of interacting with generative AI</td><td>Users can directly engage with generative AI tools within PowerPoint to modify and enhance images.</td></tr>\n<tr><td>Admin control available</td><td>Organizations can manage availability through policy or permissions.</td></tr>\n<tr><td>User control</td><td>Users can access and use the Designer editor directly within PowerPoint.</td></tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "508530"
-      },
-      {
-        "Name": "Summary",
-        "Value": "PowerPoint will add the AI-powered Designer editor by December 2025, enabling in-app image editing with features like generative erase, move, text editing, background removal, and auto-enhance. It will be enabled by default for all Microsoft 365 users, with usage limits based on subscription type."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2026-01-11T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1187787",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-18T20:42:12.883Z",
-    "Services": [
-      "Microsoft Copilot (Microsoft 365)",
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-18T20:39:22Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "PowerPoint adds AI-powered image editing with \"Designer editor\"",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<div><em>(Update: This message was updated to reflect the availability of the updated November 2025 Scan Cab.)&nbsp;</em></div><div><br></div><div>Microsoft has identified an issue where some Windows 10, version 22H2 devices enrolled in Extended Security Updates (ESU) for commercial customers might fail to install the November 2025 security update (<a href=\"https://support.microsoft.com/help/5068781\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068781</a>) with error 0x800f0922 (CBS_E_INSTALLERS_FAILED). This issue is isolated to devices whose Windows OS licenses were activated via <a href=\"https://learn.microsoft.com/windows/deployment/windows-subscription-activation?pivots=windows-10\" rel=\"noopener noreferrer\" target=\"_blank\">Windows subscription activation</a> through the Microsoft 365 admin center.&nbsp;</div><div>&nbsp;</div><div>The organizations affected by this issue can resolve it by installing <a href=\"https://support.microsoft.com/help/5072653\" rel=\"noopener noreferrer\" target=\"_blank\">KB5072653: Extended Security Updates (ESU) Licensing Preparation Package for Windows 10</a>, which was released on November 17, 2025. Once you install this preparation package (<a href=\"https://support.microsoft.com/help/5072653\" rel=\"noopener noreferrer\" target=\"_blank\">KB5072653</a>), you will be able to deploy the November 2025 security update (<a href=\"https://support.microsoft.com/help/5068781\" rel=\"noopener noreferrer\" target=\"_blank\">KB5068781</a>).</div><div><br></div><div>Note: A new Scan Cab including metadata for&nbsp;<a href=\"https://support.microsoft.com/help/5072653\" rel=\"noopener noreferrer\" target=\"_blank\">KB5072653</a> was made available at 12:00 pm on November 18, 2025 for organizations that utilize cab files for compliance update checks.</div>",
       "ContentType": "html"
     },
@@ -4857,42 +5458,6 @@
       "Admin impact"
     ],
     "Title": "New experiences for Copilot management in Microsoft 365 admin center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting November 18th, 2025 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2510-november-18\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "ExternalLink",
-        "Value": "https://docs.microsoft.com/officeupdates/"
-      }
-    ],
-    "EndDateTime": "2025-12-02T20:30:18.05Z",
-    "HasAttachments": false,
-    "Id": "MC1187776",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-18T20:30:18.78Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-18T20:30:18.05Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Updates available for Microsoft 365 Apps for Current Channel",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -5173,53 +5738,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot: Agent Mode available in Excel Labs add-in (Frontier preview)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction:</b></b>\n</p><p>Microsoft Edge for Business will soon support summarization and contextual grounding with Microsoft 365 Copilot Chat. This enhancement enables users to ask Copilot questions about multiple open browser tabs, Microsoft 365 documents (such as Word, Excel, PowerPoint), and YouTube videos directly from the Edge side pane.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496364\" target=\"_blank\">496364</a>, <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=499423\" target=\"_blank\">499423</a>, and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=499424\" target=\"_blank\">499424</a>.</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><p><b>General Availability (Worldwide): </b>We will begin rolling out in mid-November 2025 and expect to complete by late November 2025.</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>&nbsp;Users signed in to Microsoft Edge for Business with their Entra ID and who have access to Microsoft 365 Copilot.</p><p><b>What will happen:</b>\n</p><ul>\n<li>Users will be able to ask Copilot questions about open browser tabs, Microsoft 365 documents, and YouTube videos.</li>\n<li>The feature will be<b> off by default</b>.</li>\n<li>If Copilot is restricted from accessing page content via <a href=\"https://learn.microsoft.com/DeployEdge/edge-learnmore-copilot-page-summary-results#blocking-copilot-chat-in-edge-for-business-access-to-page-content-through-dlp\" target=\"_blank\">Data Loss Prevention (DLP)</a> or the <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies#edgeentracopilotpagecontext\" target=\"_blank\">EdgeEntraCopilotPageContext policy</a>, it will be suppressed to maintain DLP integrity.</li>\n<li>Existing DLP and policy configurations will be respected.</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>This rollout will happen automatically by the specified date; no admin action is required before rollout.\n</li><li>Ensure users who need this capability have access to Microsoft 365 Copilot.</li><li>Ensure your tenant is configured to support Microsoft 365 Copilot and that eligible users meet all licensing prerequisites, including Entra ID sign-in and applicable Microsoft 365 service plans.</li><li>Review your current DLP and Edge policy configurations to determine potential impact.</li><li>Notify users about this upcoming capability.\n</li><li>Update internal documentation if needed.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/DeployEdge/edge-learnmore-copilot-page-summary-results\" target=\"_blank\">Microsoft 365 Copilot Chat in Edge and Access to Page Content | Microsoft Edge | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies\" target=\"_blank\">Microsoft Edge - Policies | Microsoft Edge | Microsoft Learn</a><br></li></ul><p></p><p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. Microsoft 365 Copilot introduces contextual grounding and summarization using generative AI across browser tabs, Microsoft 365 documents, and YouTube videos.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users can now ask Copilot questions about open browser tabs and documents directly from the Edge sidepane, enabling real-time summarization and contextual responses.</td></tr><tr><td>Does the change modify Data Loss Prevention (DLP) policies or enforcement?</td><td>Yes. If DLP or the EdgeEntraCopilotPageContext policy restricts access, Copilot will be suppressed from accessing page content to maintain DLP integrity.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage access to Copilot’s contextual grounding capabilities via DLP settings and Edge policy configurations, which can be scoped using Entra ID group membership.</td></tr></tbody></table><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "496364"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Edge for Business will support Microsoft 365 Copilot Chat to summarize and provide context from browser tabs, Microsoft 365 documents, and YouTube videos starting mid-November 2025. The feature is off by default, respects DLP and policy settings, and requires Entra ID sign-in and appropriate licensing."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2025-12-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1187682",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-18T16:24:28.733Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Copilot (Microsoft 365)"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-18T16:21:30Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Edge: Microsoft 365 Copilot will support summarization and contextual grounding",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -9793,51 +10311,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We're introducing a new capability in <b>Microsoft Purview Data Lifecycle Management </b>that allows admins to override existing retention policies and delete content from OneDrive and SharePoint Online before the retention or legal hold duration expires. This feature supports organizations managing Copilot-related artifacts—such as Teams recordings and transcripts—independently of OneDrive retention policies, giving admins greater control over how long this content is retained.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=489454\" target=\"_blank\">489454</a>.</p><p><b><b>When this will happen:</b>\n</b></p><ul><li><b>General Availability (GCC):</b> We will begin rolling out late November 2025 and expect to complete by early December 2025.\n</li><li><b>General Availability (GCC High, DOD): </b>We will begin rolling out late December 2025 and expect to complete by early January 2026.</li></ul><p><b><b>How this will affect your organization:</b>\n</b></p><p><b style=\"\">Who is affected:\n</b></p><ul><li>Admins managing OneDrive and SharePoint Online retention policies\n</li><li>Organizations using Microsoft Purview for data lifecycle management\n</li></ul><p><b style=\"\">What will happen:\n</b></p><ul><li>Admins can create<b> Priority Cleanup policies</b> to delete content before retention or hold periods expire.</li><li>Feature includes simulation mode, audit logging, and disposition reviews.</li><li>New admin policy authoring flows are introduced, governed by Microsoft Purview role groups.</li><li>Feature is not enabled by default; requires explicit policy creation and enforcement.</li><li>Requires at least two admins to author and enforce a <b>Priority Cleanup policy</b>.</li></ul><p><b><b>What you need to do to prepare:</b>\n</b></p><ul><li>Ensure at least two admins are assigned the <b>Priority Cleanup Admin</b> and <b>Retention Management roles</b>.</li><li>Review and configure role assignments in Microsoft Purview portal\n</li><li>Communicate this change to your compliance and records management teams\n</li><li>Update internal documentation to reflect new policy authoring and enforcement capabilities</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/purview/priority-cleanup-onedrive-sharepoint\" target=\"_blank\">Override holds to clean up files for Copilot and reclaim storage</a></p><p><b><b>Compliance considerations:</b></b></p><table border=\"1\">\n<tbody><tr>\n  <th>Question</th>\n  <th>Explanation</th>\n</tr>\n<tr>\n  <td>Does the change alter how existing customer data is processed, stored, or accessed?</td>\n  <td>It allows deletion of content before the expiration of retention or hold policies, changing how data is retained and disposed based on compliance admin decision.</td>\n</tr>\n<tr>\n  <td>Does the change modify, interrupt, or disable any of the following capabilities (Purview)?</td>\n  <td>It introduces a new way to override retention policies and holds, impacting deletion workflows with the approval of an admin with special Purview roles.</td>\n</tr>\n<tr>\n  <td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td>\n  <td>Admin access is governed by Microsoft Purview role groups, which can be managed via Microsoft Purview portal settings.</td>\n</tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "489454"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Data Lifecycle Management now lets admins create Priority Cleanup policies to delete OneDrive and SharePoint content before retention or legal hold expires, with simulation, audit, and review features. Requires two admins with specific roles and explicit policy enforcement. Rolling out late 2025 to early 2026."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-02-05T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1183292",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-06T00:16:09.387Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-06T00:10:42Z",
-    "Tags": [
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Data Lifecycle Management - Introducing secure priority cleanup workflows for OneDrive/SharePoint",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2025-12-02T08:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -10398,53 +10871,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot: MCP-based agents now available in Copilot and Microsoft 365 admin center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated November 4, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon to Microsoft Teams: When users connect to their organization's Wi-Fi, Teams can automatically set their work location to reflect the building they are working in. This makes it easier for users to coordinate work with their coworkers and connect in person.</p><p> This feature is opt-in and requires you to take action to configure it. After you turn it on, end-users remain in control and can choose whether to share their work location with their coworkers.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=488800\" target=\"_blank\">488800</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out mid-January 2026 (previously December 2025) and expect to complete by late January 2026 (previously December 2025).</p><p><b>How this will affect your organization:</b>\n</p><p>This feature allows you to map Wi-Fi networks and devices to buildings, which allows your users to have their work location automatically updated when they connect. This is a major improvement over the current experience which relies on end-users to manually set their work location. When this feature is configured and enabled, Teams can automatically update the work location of users who connect their laptop to your organization's Wi-Fi network or peripherals. The feature can leverage the mapping between your building names and your Wi-Fi networks to set the work location of your users to the right building. It can also leverage mappings to&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/rooms/bookable-desks\" target=\"_blank\">specific peripherals</a>, such as monitors. Teams uses the same policy to enable or disable automatic updates of work location for Wi-Fi and peripherals. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/teams/new-csteamsworklocationdetectionpolicy\" target=\"_blank\">New-CsTeamsWorkLocationDetectionPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn</a></p><p>Teams will not update the location of your users if they connect after their working hours (that they can configure in the Microsoft Outlook Calendar). Also, their work location will be cleared at the end of their working hours.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><p>Automatic update of work location is off by default, but it can greatly improve the experience of your users. We recommend turning it on and configuring it in your tenant.\n</p><p>Before rollout, we will update this post with new documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "488800"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will soon auto-set users' work location by detecting their connection to organizational Wi-Fi or peripherals, improving coordination. This opt-in feature rolls out worldwide from mid-January to late January 2026, requires admin configuration, respects working hours, and applies to Teams desktop on Windows and Mac."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-02-27T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1081568",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-04T17:38:53.713Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-23T23:15:29Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Automatically set work location by connecting to a Wi-Fi network",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -14542,53 +14968,6 @@
       "New feature"
     ],
     "Title": "Build SharePoint automations with Workflows—now aligned with the Teams experience",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated October 17, 2025: We have updated this MC ID. Thank you for your patience.&nbsp;</p><p>We're introducing a new Account Manager experience in Outlook for Windows. This feature helps users better manage their Microsoft accounts by providing quick access to account details, displaying their profile picture, and enabling account switching (if permitted by your organization). This update aligns the experience with classic Outlook and enhances user productivity.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=497546\" target=\"_blank\">497546</a></p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): Rollout will begin in early January 2026 (previously early October 2025) and is expected to complete by late January 2026 (previously late October 2025).<br>Targeted Release: Rollout will begin in early December 2025 (previously early October) and is expected to complete by late December 2025 (previously late October).</p><p>\n</p><p><b>How this affects your organization:</b></p><p>Once the rollout is complete, users will see the new Account Manager in the title bar of Outlook for Windows. Key capabilities include:\n</p><ul><li>Displaying the user’s profile picture, automatically synced from their Microsoft account.\n</li><li>Providing access to the Microsoft account page, consistent with the experience in classic Outlook.\n</li><li>Allowing users to add and manage accounts, if permitted by your organization’s policies.\n</li></ul><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/247488ea-bdb2-41a1-8d3f-dcfa09277cc7/9164161523e2b6d45434c6b5f72210e3161d45b6.png\" width=\"300\" height=\"\"></p><p>This feature is on by default and does not require admin configuration.\n</p><p><b>What you can do to prepare:</b></p><p>No admin action is required. You may wish to inform your helpdesk and users about the new experience to reduce potential confusion.</p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "497546"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Outlook for Windows will introduce a new Account Manager starting December 2025, showing profile pictures, enabling account switching, and providing quick access to account details. The feature is on by default, requires no admin setup, and aims to enhance user productivity with a familiar experience."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-03-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1129718",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-17T20:10:46.91Z",
-    "Services": [
-      "Exchange Online",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-05T22:58:57Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "New Feature: Account Manager in Outlook for Windows",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18818,52 +19197,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Fabric: Upcoming tenant settings for OneLake diagnostic logs",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 24, 2025: We have updated the timeline. Thank you for your patience.</p><p>Coming soon to Microsoft Purview: Insider Risk Management (IRM) data including alerts, indicators and events will be available in these Microsoft Defender XDR experiences:</p><ul><li>Unified alert queue: IRM alerts will appear in the unified alert and incident queue in Defender XDR for comprehensive investigation and correlation.\n</li><li>Advanced Hunting: IRM data will be available for advanced hunting in Defender XDR, allowing analysts to identify hidden risk patterns using KQL queries. Analytics can also create custom detections on the top of IRM data.\n</li><li>Graph API: IRM data will be accessible through the Microsoft Graph API, supporting bidirectional integrations with external applications.\n</li><li>Microsoft Sentinel: IRM alerts will be available in Microsoft Sentinel through the XDR-Sentinel connector, providing richer metadata.\n</li></ul><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422730\" target=\"_blank\">422730</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out mid-January 2025 and expect to complete by end of January 2025.\n</p><p>General Availability (WW): We will begin rolling out late August 2025 (previously late June) and expect to complete by mid-September 2025.\n</p><p>General Availability (GCC, GCC High, DoD): We will begin rolling out late August 2025 (previously late June) and expect to complete by late May 2026 (previously mid-September).</p><p><b>How this will affect your organization:</b>\n</p><p>Enable this feature by turning on S<i>hare data with other security solutions</i> in the IRM global settings.\n</p><p>Only users with Insider risk analysis or investigation roles in the Microsoft Purview portal can access IRM data in Defender XDR.\n</p><p>To access alerts, incidents, and events from Defender XDR via API, you need to provision apps with the necessary permissions. IRM data is accessible via Microsoft Security Graph APIs, allowing for reading and updating alert or incident statuses. Permissions are set at the application level, without solution-specific scoping. Any existing apps pulling data from these APIs will also access IRM data. So, if you integrate XDR alerts into external ticketing systems, IRM alerts will show up, unless you specifically filter out the alerts.\n</p><p>IRM alerts will appear in Sentinel if your tenant has the Defender XDR connector enabled in Microsoft Sentinel.\n</p><p>In Defender XDR, IRM data is not pseudonymized to allow effective correlation of IRM alerts with alerts from other solutions within the platform, such as Defender for Endpoint and Defender for Cloud apps.\n</p><p>These changes will be available by default for admins to configure in IRM global settings.\n</p><p>Admins will be able to view Insider Risk Management alerts in Defender XDR:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/a7b53b37-df99-48fb-8497-5e9c87017b9a\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>Harness the power of Advanced Hunting queries with two new tables that contain Insider Risk Management data: DataSecurityBehaviors and DataSecurityEvents. In this query, 54 confidential files were exfiltrated through mail.google.com by 2 unique users:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/419706ab-c7a4-4e0d-a176-d8c9a3b933b9\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><ul><li>Opt-in to data sharing settings in IRM global settings page.\n</li><li>Assign necessary permissions to analysts\n</li><li>Review existing apps accessing Defender XDR data through Graph APIs.\n</li><li>If your organization is using <a href=\"https://learn.microsoft.com/azure/sentinel/microsoft-365-defender-sentinel-integration?tabs=azure-portal\" target=\"_blank\">Microsoft Defender XDR connector</a>, please review the list of users who will gain access to this data through Sentinel.\n</li></ul><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration in IRM global settings to determine the impact for your organization. You may want to notify your admins about this change and update any relevant documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "422730"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Insider Risk Management (IRM) alerts will integrate into Microsoft Defender XDR and Microsoft Sentinel, enabling unified alert queues, advanced hunting, Graph API access, and richer metadata. Rollout begins January 2025 (preview) and late August 2025 (general availability). Admins must enable data sharing and assign permissions."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-07-06T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC961761",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-24T13:52:56.217Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-12-19T23:16:22Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Insider Risk Management: IRM alerts in Microsoft Defender XDR",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -23456,52 +23789,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated August 13, 2025: We have updated the timeline. Thank you for your patience.</p><p>Admins will be able to ensure that new Loop workspaces are connected to and managed by an existing Microsoft 365 Group, similar to SharePoint Team sites.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422725\" target=\"_blank\">422725</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out late November 2025 (previously late September) and expect to complete by late December 2025 (previously late October).&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Once Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422728\" target=\"_blank\">422728</a> is available, end-users will have the ability to choose existing Microsoft 365 Groups for managing new Loop workspaces. This means that new Loop workspaces can optionally be connected to and managed by an existing Microsoft 365 Group, similar to how SharePoint Team sites are managed.</p><p>Additionally, Microsoft 365 Roadmap ID 422725 covers the capability to <b>ensure</b> that new Loop workspaces are connected to and managed by an existing Microsoft 365 Group, similar to SharePoint Team sites (it will not be an option for users to skip selecting an existing Microsoft 365 group if this policy is configured).</p><p>While this setting may align with existing governance processes, it's important for admins to note that scenarios like <a href=\"https://techcommunity.microsoft.com/blog/microsoft365insiderblog/automatically-aggregate-teams-meeting-content-in-a-loop-workspace/4287319\" target=\"_blank\">automatic aggregation of Teams meeting content into a Loop workspace</a>, or the creation of small, short-term project workspaces, will be more challenging for end-users unless they can skillfully select an existing M365 group during creation. Please consider this tradeoff in your adoption strategy.</p><p>If your organization has governance tools for SharePoint Communication sites that work effectively in a reactive manner (i.e., governance is applied after the site is created), Microsoft recommends extending this process to include Loop workspaces rather than using this policy.</p><p><b>What you need to do to prepare:</b>\n</p><p>There is nothing you need to do to prepare. This capability will roll to your tenant automatically.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "422725"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting late November to December 2025, admins can require new Microsoft Loop workspaces to be connected to existing Microsoft 365 Groups for management, similar to SharePoint Team sites. This policy may affect scenarios like Teams meeting content aggregation and short-term projects. No preparation is needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-02-09T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC929022",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-13T13:52:29.763Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-11-08T23:21:55Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Loop – Require Existing Microsoft 365 Group for New Loop workspaces",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction</b></p><p>To help reduce accidental message sends, Outlook mobile is updating the placement of the Send button in the compose view. The button will move from the bottom toolbar to the header area, placing it in a less crowded location. This change supports a more intentional and error-free messaging experience for mobile users by minimizing the likelihood of accidental taps.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499900\" target=\"_blank\">499900</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide, GCC, GCC High, and DoD):&nbsp;</b>We will begin rolling out in early September 2025 and expect to complete by early March 2026.</p><p><b>How this will affect your organization</b></p><p>Once this change is deployed, users on <b>Outlook mobile clients (Android and iOS)</b> will see the Send button relocated to the top of the compose view. This update is designed to reduce accidental taps and improve usability. The feature will be <b>enabled by default</b>.</p><p>The following screenshots illustrate the updated Send button placement in the compose view on Outlook mobile.</p><p><i>Image 1 - New Send button placement in Outlook for iOS – full compose view:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c33e40e1-d34f-486a-896a-1d5c7ee1ff7b/09c2ffc6070adc243487147ca8cc483802da9856.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Image 2 - New Send button placement in Outlook for iOS – small compose view:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/58e48622-30d3-44ab-8a7e-b5a4892c0892/45010350909549feed85806c99cd2f43b101a58c.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Image 3 - New Send button placement in Outlook for Android – full compose view:&nbsp;</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6511f543-36b4-495a-be61-6ce85eea12e6/e146f0b843e6e9ca7f73bc3b4bbbaf8af87d43a9.png\" alt=\"user settings\" style=\"width: 400px;\"></p><p>\n</p><p>This change does <b>not affect Outlook on the web or desktop clients</b>.</p><ul><li><b>Add-ins and customizations: </b>This change does not affect existing add-ins or customizations in the compose view.\n</li><li><b>Accessibility tools and keyboard shortcuts:</b> There will be no impact.\n</li><li><b>Consistency: </b>The new placement is consistent across screen sizes and supported browsers.</li></ul><p><b>What you can do to prepare</b></p><p>No admin action is required.\n</p><p>We recommend notifying your users about this change and updating any relevant training materials or documentation to reflect the new button placement.</p><p>If applicable, test any custom add-ins or UI extensions in the compose view to ensure compatibility, although no known impact is expected.</p><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -26350,43 +26637,6 @@
       "Admin impact"
     ],
     "Title": "An updated version of the May 2025 Scan Cab is available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": "2025-06-18T07:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>As part of our ongoing convergence process for all Microsoft Defender workloads, we will retire SIEM (Security Information and Event Management) agents from Microsoft Defender for Cloud Apps in starting mid-November 2025 and ending late November 2025. We recommend you transition to APIs that support the management of activities and alerts data from multiple workloads.\n</p><p><b>How this will affect your organization:</b>\n</p><p>Existing Microsoft Defender for Cloud Apps SIEM agents will function as is until the SIEM agents retire, but no new SIEM agents can be configured starting June 19, 2025. Microsoft Sentinel agents will remain supported and can still be added.</p><p>Defender for Cloud Apps alerts and activities data currently supported in the SIEM agents are also available in the unified API and SIEM solutions that provide access to alerts and activity data for all Microsoft security products, for cross-workload visibility:</p><ul><li>For alerts and activities, Defender XDR streaming API: <a href=\"https://learn.microsoft.com/defender-xdr/streaming-api\" target=\"_blank\">Stream Microsoft Defender XDR events - Microsoft Defender XDR | Microsoft Learn</a>\n</li><li>For Microsoft Entra ID Protection login events: <a href=\"https://learn.microsoft.com/defender-xdr/advanced-hunting-identitylogonevents-table\" target=\"_blank\">IdentityLogonEvents table in the advanced hunting schema - Microsoft Defender XDR | Microsoft Learn</a>\n</li><li>For alerts, Microsoft Graph security alerts API (v2): <a href=\"https://learn.microsoft.com/graph/api/security-list-alerts_v2?view=graph-rest-1.0&amp;tabs=http\" target=\"_blank\">List alerts_v2 - Microsoft Graph v1.0 | Microsoft Learn</a>\n</li><li>We also recommend viewing Defender for Cloud Apps alerts data in the Microsoft Defender XDR incidents API. Learn more: <a href=\"https://learn.microsoft.com/defender-xdr/api-incident\" target=\"_blank\">Microsoft Defender XDR incidents APIs and the incidents resource type - Microsoft Defender XDR | Microsoft Learn</a>\n</li></ul><p>These APIs enhance security monitoring and management and offer additional supported capabilities that utilize data from multiple Microsoft Defender workloads.</p><p><b>What you need to do to prepare:</b></p><p>To ensure continuity and access to the same data available before this retirement through Microsoft Defender for Cloud Apps SIEM agents, we recommend transitioning to the supported unified API and SIEM solutions. We encourage you to begin planning your migration to these solutions to take advantage of their enhanced capabilities. </p><p>Learn more: <a href=\"https://learn.microsoft.com/defender-cloud-apps/siem\" target=\"_blank\">Generic SIEM integration - Microsoft Defender for Cloud Apps | Microsoft Learn</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Defender for Cloud Apps will retire SIEM agents between mid-November 2025 and late November 2025. No new SIEM agents can be configured after June 19, 2025. Transition to APIs for managing activities and alerts data from multiple workloads is recommended. Microsoft Sentinel agents remain supported."
-      }
-    ],
-    "EndDateTime": "2026-01-09T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1077861",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-05-19T23:43:41.81Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-19T23:43:22Z",
-    "Tags": [
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Microsoft Defender for Cloud Apps: SIEM agents will retire",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,

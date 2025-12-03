@@ -1,0 +1,45 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p><b><b>Introduction</b></b></p><p>We’re expanding the Interpreter agent in Microsoft Teams to include <b>real-time speech-to-speech interpretation for Teams calls</b>. This brings the same functionality previously available in meetings to calls, enabling users to speak and listen in their preferred language.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=526777\" target=\"_blank\">526777</a>&nbsp;and applies to Teams for Windows desktop.</p><p><b><b>When this will happen:</b>\n</b></p><ul><li>Targeted Release: We will begin rolling out early January 2026 and expect to complete by mid-January 2026.\n</li><li>General Availability (Worldwide): We will begin rolling out late January 2026 and expect to complete by early-February 2026.</li><li>Note: Government and Special clouds are not supported at this time, and there is no timeline for availability.\n</li></ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:&nbsp;</b>Users with a Microsoft 365 Copilot license participating in Teams calls.</p><p><b>What will happen:</b></p><ul><li>Interpreter can now be enabled during Teams calls (previously meetings only).</li><li>Users can:<ul><li>Choose their listening language.</li><li>Adjust audio balance between original and interpreted speech.</li><li>Select a voice option, including a simulated version of their own&nbsp;voice for interpretation.</li></ul></li><li>No additional setup is required for meetings; this update applies only to Teams calls.</li><li>Interpreter works best in structured conversations and may not be ideal for fast-paced exchanges.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>If you want to enable Interpreter for calls, configure policies using:</li><ul><li><b>Enable users to use interpreter in calls:</b> <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamscallingpolicy?view=teams-ps#-aiinterpreter\" target=\"_blank\">Set-CsTeamsCallingPolicy (MicrosoftTeams) | -AIInterpreter | Microsoft Learn</a></li><li><b>Enable users to user to use the voice simulation feature while being AI interpreted in calls</b>: <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamscallingpolicy?view=teams-ps#-voicesimulationininterpreter\" target=\"_blank\">Set-CsTeamsCallingPolicy (MicrosoftTeams) | -VoiceSimulationInInterpreter | Microsoft Learn</a></li></ul><li>Communicate to users that Interpreter works best in structured conversations and may not be ideal for fast-paced exchanges.\n</li><li>Update internal documentation and helpdesk guidance.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/microsoftteams/interpreter-agent-teams\" target=\"_blank\">Manage Interpreter agent for your organization | Microsoft Learn</a></li><li><a href=\"https://support.microsoft.com/office/interpreter-in-microsoft-teams-meetings-c7efe2bb-535d-42ab-a5c4-d2d91619b46d\" target=\"_blank\">Interpreter in Microsoft Teams meetings | Microsoft Support</a>&nbsp;</li></ul><p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Consideration</b></td><td><b>Explanation</b></td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Interpreter agent uses AI-driven speech-to-speech interpretation and voice simulation, which processes real-time audio streams from Teams calls and meetings. The feature does not provide direct access to raw customer data for users or admins; it processes audio for interpretation purposes only.&nbsp;Data handling follows Microsoft’s compliance and privacy standards.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>It extends Copilot’s AI capabilities into live audio experiences</td></tr></tbody></table>",
+    "ContentType": "html"
+  },
+  "Category": "stayInformed",
+  "Details": [
+    {
+      "Name": "RoadmapIds",
+      "Value": "526777"
+    },
+    {
+      "Name": "Summary",
+      "Value": "Microsoft Teams will expand the Interpreter agent to support real-time speech-to-speech interpretation in calls starting January 2026 for users with a Microsoft 365 Copilot license. Users can choose languages, adjust audio balance, and select voice options. It works best in structured conversations and requires policy configuration."
+    },
+    {
+      "Name": "Platforms",
+      "Value": "Desktop"
+    }
+  ],
+  "EndDateTime": "2026-03-09T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1191612",
+  "IsMajorChange": false,
+  "LastModifiedDateTime": "2025-12-03T00:01:11.543Z",
+  "Services": [
+    "Microsoft Copilot (Microsoft 365)"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2025-12-03T00:01:00Z",
+  "Tags": [
+    "New feature",
+    "User impact"
+  ],
+  "Title": "Interpreter agent in Teams calls",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
